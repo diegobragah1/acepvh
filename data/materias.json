@@ -1,0 +1,116 @@
+{
+  "concurso": "SEMUSA Porto Velho/RO 2026 — Edital nº 25/2026 (Retificação nº 01 — Edital nº 28/2026 — IBGP)",
+  "cargo": "Agente de Combate às Endemias (ACE — Códigos 340 a 356)",
+  "dataProva": "2026-12-13",
+  "totalQuestoesProva": 50,
+  "totalPontosProva": 100.0,
+  "materias": [
+    {
+      "id": "esp",
+      "slug": "conhecimentos-especificos",
+      "nome": "Conhecimentos Específicos (Saúde Coletiva & ACE)",
+      "questoesProva": 15,
+      "pesoQuestao": 2.0,
+      "pontosProva": 30.0,
+      "percentualProva": "30%",
+      "pastaContent": "./content/conhecimentos-especificos",
+      "totalAulas": 10,
+      "totalQuestoesBanco": 81,
+      "totalFlashcardsBanco": 90,
+      "aulas": [
+        "esp_1",
+        "esp_2",
+        "esp_3",
+        "esp_4",
+        "esp_5",
+        "esp_6",
+        "esp_7",
+        "esp_8",
+        "esp_9",
+        "esp_10"
+      ]
+    },
+    {
+      "id": "leg",
+      "slug": "legislacao",
+      "nome": "Legislação Municipal, Constitucional e Administrativa",
+      "questoesProva": 10,
+      "pesoQuestao": 2.0,
+      "pontosProva": 20.0,
+      "percentualProva": "20%",
+      "pastaContent": "./content/legislacao",
+      "totalAulas": 7,
+      "totalQuestoesBanco": 41,
+      "totalFlashcardsBanco": 54,
+      "aulas": [
+        "leg_1",
+        "leg_2",
+        "leg_3",
+        "leg_4",
+        "leg_5",
+        "leg_6",
+        "leg_7"
+      ]
+    },
+    {
+      "id": "por",
+      "slug": "portugues",
+      "nome": "Língua Portuguesa",
+      "questoesProva": 10,
+      "pesoQuestao": 2.0,
+      "pontosProva": 20.0,
+      "percentualProva": "20%",
+      "pastaContent": "./content/portugues",
+      "totalAulas": 6,
+      "totalQuestoesBanco": 31,
+      "totalFlashcardsBanco": 38,
+      "aulas": [
+        "por_1",
+        "por_2",
+        "por_3",
+        "por_4",
+        "por_5",
+        "por_6"
+      ]
+    },
+    {
+      "id": "rlm",
+      "slug": "raciocinio-logico",
+      "nome": "Raciocínio Lógico-Matemático",
+      "questoesProva": 10,
+      "pesoQuestao": 2.0,
+      "pontosProva": 20.0,
+      "percentualProva": "20%",
+      "pastaContent": "./content/raciocinio-logico",
+      "totalAulas": 6,
+      "totalQuestoesBanco": 36,
+      "totalFlashcardsBanco": 42,
+      "aulas": [
+        "rlm_1",
+        "rlm_2",
+        "rlm_3",
+        "rlm_4",
+        "rlm_5",
+        "rlm_6"
+      ]
+    },
+    {
+      "id": "atu",
+      "slug": "conhecimentos-gerais",
+      "nome": "Conhecimentos Gerais, História/Geografia de Porto Velho/RO e Atualidades",
+      "questoesProva": 5,
+      "pesoQuestao": 2.0,
+      "pontosProva": 10.0,
+      "percentualProva": "10%",
+      "pastaContent": "./content/conhecimentos-gerais",
+      "totalAulas": 3,
+      "totalQuestoesBanco": 18,
+      "totalFlashcardsBanco": 22,
+      "aulas": [
+        "atu_1",
+        "atu_2",
+        "atu_3"
+      ]
+    }
+  ]
+}

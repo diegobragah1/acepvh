@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma ACE SEMUSA Porto Velho 2026 — Edital nº 25/2026 (GitHub Pages Oficial)</title>
+  <meta name="description" content="Plataforma interativa completa de estudos para Agente de Combate às Endemias (ACE) — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP). 32 Aulas (Modos A, B e C), 207 Questões Comentadas (4 Alternativas A–D), 246 Flashcards, Calculadoras LIRAa e de Campo, 14 Fichas de Endemias e 94 Fontes.">
+  <meta property="og:title" content="Plataforma ACE SEMUSA Porto Velho 2026 — Edital nº 25/2026">
+  <meta property="og:description" content="Estudo interativo para Agente de Combate às Endemias (Códigos 340 a 356): 32 Aulas completas, Simulado IBGP, Flashcards, Calculadora LIRAa e 94 PDFs integrados.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://diegobragah1.github.io/acepvh/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Cpath d='M32 12v40M12 32h40' stroke='%2334d399' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Toast Notification -->
+  <div id="toastBanner" class="fixed bottom-5 right-5 z-50 hidden max-w-md bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl border border-emerald-500/40 flex items-center gap-3">
+    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-sm">&#10003;</span>
+    <div class="text-xs sm:text-sm font-medium" id="toastText">Ação concluída!</div>
+  </div>
+
+  <!-- Modal Instruções Google Sites -->
+  <div id="sitesModal" class="fixed inset-0 z-50 hidden bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full p-6 shadow-2xl border border-slate-200">
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-4">
+        <h3 class="text-lg font-extrabold text-slate-900">Publicação no GitHub Pages (acepvh), Google Sites &amp; Backup de Progresso</h3>
+        <button type="button" id="closeModalBtn" class="text-slate-400 hover:text-slate-700 font-bold text-xl px-2">&times;</button>
+      </div>
+      <div class="space-y-3 text-sm text-slate-700">
+        <div class="bg-emerald-50 border-l-4 border-emerald-600 p-3 rounded space-y-1">
+          <p class="font-bold text-emerald-900">&#10003; Pronto para o GitHub Pages (<code>diegobragah1.github.io/acepvh/</code>) e Google Sites!</p>
+          <p class="text-xs text-emerald-800">Arquitetura modularizada (<code>./index.html</code>, <code>./css/style.css</code>, <code>./js/app.js</code> e <code>./data/app_data.json</code>) com caminhos estritamente relativos (<code>./</code>) para funcionar sem erros 404 na subpasta <code>/acepvh/</code> do repositório <a href="https://github.com/diegobragah1/acepvh" target="_blank" rel="noopener noreferrer" class="underline font-bold">github.com/diegobragah1/acepvh</a> (branch <code>main</code>).</p>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-100 border border-slate-300 space-y-2">
+          <div class="text-xs font-extrabold uppercase text-slate-800">Sincronizar Progresso entre Computador e Celular (Backup JSON):</div>
+          <p class="text-xs text-slate-600">Seu progresso (aulas concluídas e respostas do simulado) fica salvo automaticamente no navegador (<code>localStorage</code>). Exporte ou importe seu arquivo JSON abaixo para transferir entre dispositivos:</p>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" id="exportProgressJsonBtn" class="px-3 py-1.5 rounded-lg bg-teal-700 hover:bg-teal-600 text-white text-xs font-bold shadow">&#11015; Exportar Meu Progresso (.json)</button>
+            <label for="importProgressFileInput" class="cursor-pointer px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow">&#11014; Importar Progresso (.json)</label>
+            <input type="file" id="importProgressFileInput" accept=".json,application/json" class="hidden">
+          </div>
+        </div>
+        <ol class="list-decimal pl-5 space-y-1.5 text-xs">
+          <li><strong>No GitHub Pages:</strong> Acesse <a href="https://github.com/diegobragah1/acepvh" target="_blank" rel="noopener noreferrer" class="text-teal-700 underline font-bold">github.com/diegobragah1/acepvh</a> &rarr; clique em <strong>Add file &rarr; Upload files</strong> &rarr; envie a estrutura modular (<code>index.html</code>, <code>css/style.css</code>, <code>js/app.js</code> e <code>data/app_data.json</code>) e clique em <strong>Commit changes</strong>.</li>
+          <li><strong>No Google Sites (Opcional):</strong> Clique duas vezes no bloco incorporado, cole o código HTML abaixo (<code>Ctrl + V</code>) e clique em <strong>Publicar</strong>.</li>
+        </ol>
+        <div class="mt-3">
+          <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Código-Fonte HTML Completo (Caso queira copiar manualmente):</label>
+          <textarea id="rawHtmlTextarea" readonly class="w-full h-32 p-2 text-xs mono bg-slate-900 text-emerald-300 rounded-lg border border-slate-700 focus:outline-none"></textarea>
+        </div>
+      </div>
+      <div class="mt-5 flex flex-wrap justify-end gap-2">
+        <a href="https://sites.google.com/view/planodeestudosace-semusaportov?usp=sharing" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold">Abrir Meu Google Sites Publicado &nearr;</a>
+        <button type="button" id="closeModalBtnBottom" class="px-4 py-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-800 text-xs font-bold">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Hero Header -->
+  <header class="bg-gradient-to-r from-slate-900 via-teal-950 to-slate-900 text-white border-b border-teal-800/60 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-5">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+        <div>
+          <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">AUDITORIA DOCUMENTAL 100% IMPLEMENTADA</span>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">EDITAL Nº 25/2026 + RETIFICAÇÃO Nº 01 (EDITAL 28/2026)</span>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">BANCA IBGP &bull; PROVA: 13/12/2026 (14h45–17h45)</span>
+          </div>
+          <h1 class="text-xl sm:text-2xl lg:text-3xl font-extrabold tracking-tight text-white">
+            Plano de Estudos Integrado ACE — SEMUSA Porto Velho/RO 2026
+          </h1>
+          <p class="text-xs sm:text-sm text-slate-300 mt-1">
+            Agente de Combate às Endemias &bull; <strong>Códigos 340 (Urbano: 96 vagas) e 341 a 356 (15 Distritos: 44 vagas) = 140 Vagas</strong> &bull; <strong>R$ 3.242,00 (40h)</strong> &bull; 50 Questões (Peso 2 = 100 pts) &bull; 32 Aulas + 14 Fichas de Endemias + 94 Fontes
+          </p>
+        </div>
+
+        <!-- Global Progress & Action Buttons -->
+        <div class="flex flex-col sm:items-end gap-2 no-print">
+          <div class="bg-slate-800/90 border border-slate-700 rounded-xl px-3.5 py-2 w-full sm:w-80">
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-semibold text-slate-300">Progresso nas 32 Aulas do Edital:</span>
+              <span id="globalProgressLabel" class="font-bold text-emerald-400">0 / 32 (0%)</span>
+            </div>
+            <div class="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
+              <div id="globalProgressBar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-300" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5">
+            <button type="button" id="copyHtmlForSitesBtn" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow flex items-center gap-1.5 transition">
+              <span>&#128203; Copiar Código HTML p/ Google Sites</span>
+            </button>
+            <button type="button" id="downloadHtmlBtn" class="px-3 py-1.5 rounded-lg bg-teal-700 hover:bg-teal-600 text-white font-bold text-xs shadow flex items-center gap-1.5 transition">
+              <span>&#11015; Baixar HTML</span>
+            </button>
+            <a href="https://github.com/diegobragah1/acepvh" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/40 font-bold text-xs shadow flex items-center gap-1 transition">
+              <span>&#128187; Repositório GitHub (acepvh) &nearr;</span>
+            </a>
+            <a href="https://drive.google.com/drive/folders/1L8bvMQeMBoqE9o-HacSqYsa0sujn8OBK" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold text-xs flex items-center gap-1 transition">
+              <span>&#128193; Drive (85 PDFs) &nearr;</span>
+            </a>
+            <a href="https://notebooklm.google.com/notebook/2bd0b85d-ab28-4bd7-82b1-512d85ab1021" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold text-xs flex items-center gap-1 transition">
+              <span>&#129302; NotebookLM &nearr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="mt-5 flex flex-wrap gap-1.5 border-t border-slate-800 pt-3 no-print" id="mainTabsNav">
+        <button type="button" data-tab="tab-painel" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          1. Diagnóstico, Edital Retificado &amp; Vagas (340–356)
+        </button>
+        <button type="button" data-tab="tab-apostila" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-teal-500 text-slate-950 shadow">
+          2. Apostila Aprofundada (32 Aulas: Modos A, B e C)
+        </button>
+        <button type="button" data-tab="tab-simulado" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          3. Simulado IBGP (Peso 2) &amp; Flashcards
+        </button>
+        <button type="button" data-tab="tab-endemias" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          4. Fichas Individuais das 14 Doenças, LIRAa &amp; Roedores
+        </button>
+        <button type="button" data-tab="tab-cronograma" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          5. Matriz Integral de Auditoria &amp; Cronograma 12 Semanas
+        </button>
+        <button type="button" data-tab="tab-biblioteca" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          6. Inventário Analítico dos 94 PDFs Conectados
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 py-6">
+
+    <!-- ==================== TAB 1: PAINEL & EDITAL RETIFICADO ==================== -->
+    <section id="tab-painel" class="tab-panel hidden space-y-6">
+      <!-- Resumo da Atualização Pós-Auditoria -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-emerald-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-100 pb-3 mb-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100 px-2.5 py-0.5 rounded-full">Diagnóstico Documental &amp; Consolidação Oficial</span>
+            <h2 class="text-lg sm:text-xl font-extrabold text-slate-900 mt-1">Auditoria Integral do Edital nº 25/2026 (Consolidado até a Retificação nº 01 — Edital nº 28/2026)</h2>
+          </div>
+          <button type="button" id="goToApostilaBtn" class="px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow transition self-start">
+            Estudar as 32 Aulas Aprofundadas &rarr;
+          </button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+            <h3 class="font-bold text-slate-900 mb-1">1. Quadro Oficial de Provas (Anexo III) &amp; Vagas (Anexo I)</h3>
+            <p class="text-slate-600">Confirmada no <strong>Anexo III Retificado (pág. 2)</strong> a estrutura exata de <strong>50 questões objetivas (4 alternativas: A, B, C, D)</strong>, todas com <strong>Peso 2,0 = 100,0 pontos</strong> (15 Específicos [30 pts], 10 Português [20 pts], 10 RLM [20 pts], 10 Legislação [20 pts], 5 Gerais [10 pts]), e no <strong>Anexo I (págs. 13–14)</strong> o vencimento mensal de <strong>R$ 3.242,00</strong> e as <strong>140 vagas</strong> nos códigos <strong>340 a 356</strong>.</p>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+            <h3 class="font-bold text-slate-900 mb-1">2. Fichas Individuais das 14 Doenças + Leis 11.350, 13.708, 13.595 e 14.536</h3>
+            <p class="text-slate-600">Desenvolvidas fichas individuais completas para todas as doenças do Anexo IV — incluindo <strong>Febre Maculosa (Bloco 9.3)</strong>, <strong>Malária</strong>, <strong>Chagas (Oral/PITs)</strong>, <strong>Leishmanioses (LTA e LV)</strong>, <strong>Esquistossomose</strong>, <strong>Raiva</strong>, <strong>Leptospirose (3 roedores)</strong>, <strong>Dengue, Zika, Chikungunya, Febre Amarela, Influenza e COVID-19</strong>, além da comparação entre a Lei 11.350/2006 e o Anexo II Municipal.</p>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+            <h3 class="font-bold text-slate-900 mb-1">3. Cobertura de 100% dos Subtópicos de Legislação, Português, RLM e Gerais</h3>
+            <p class="text-slate-600">Integrados todos os 85 PDFs do Drive + 9 fontes oficiais, adicionando <strong>Nacionalidade (Arts. 12–13 CF)</strong>, <strong>Art. 29-A e 38 CF</strong>, <strong>LOM e LC 385/2010</strong>, <strong>LAI Estadual (Lei 3.166/13) e Municipal</strong>, <strong>Figuras de Sintaxe e Variação Linguística</strong>, <strong>Sistemas Lineares, Função do 1º Grau, Médias, Conjunto das Partes (2<sup>n</sup>) e Verdades/Mentiras</strong>, e <strong>Georreferenciamento (SIG/GPS)</strong>.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPI Cards do Concurso -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-xs font-semibold text-slate-500">Total de Vagas ACE</div>
+          <div class="text-xl font-extrabold text-teal-700 mt-1">140 Vagas</div>
+          <div class="text-[11px] text-slate-500 mt-0.5">40 Imediatas + 100 CR</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-xs font-semibold text-slate-500">Área Urbana (Cód. 340)</div>
+          <div class="text-xl font-extrabold text-indigo-700 mt-1">96 Vagas</div>
+          <div class="text-[11px] text-slate-500 mt-0.5">25 Imediatas + 71 CR</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-xs font-semibold text-slate-500">15 Distritos (341–356)</div>
+          <div class="text-xl font-extrabold text-amber-700 mt-1">44 Vagas</div>
+          <div class="text-[11px] text-slate-500 mt-0.5">15 Imediatas + 29 CR</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-xs font-semibold text-slate-500">Vencimento (Anexo I)</div>
+          <div class="text-xl font-extrabold text-emerald-700 mt-1">R$ 3.242,00</div>
+          <div class="text-[11px] text-slate-500 mt-0.5">Jornada: 40h semanais</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-xs font-semibold text-slate-500">Prova Objetiva (IBGP)</div>
+          <div class="text-lg font-extrabold text-slate-800 mt-1">50 Questões</div>
+          <div class="text-[11px] text-slate-500 mt-0.5">Peso 2,0 = 100,0 pts (A–D)</div>
+        </div>
+        <div class="bg-white p-4 rounded-xl border border-rose-200 shadow-sm">
+          <div class="text-xs font-semibold text-rose-600">Data e Turno da Prova</div>
+          <div class="text-lg font-extrabold text-rose-700 mt-1">13/12/2026</div>
+          <div class="text-[11px] text-slate-600 mt-0.5">Tarde: 14h45 às 17h45 (Portões 14h30)</div>
+        </div>
+      </div>
+
+      <!-- Quadro Oficial da Prova Objetiva (Anexo III Retificado - Página 2 de 4) -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mb-1">Quadro Oficial de Disciplinas, Questões e Pesos — Anexo III Retificado (Página 2 de 4 — Códigos 340 a 356: ACE)</h3>
+        <p class="text-xs text-slate-600 mb-3">Conforme o item 9.1.2 e o Anexo III Retificado do Edital nº 25/2026, a Prova Objetiva consta de <strong>50 questões de múltipla escolha com 4 alternativas (A, B, C e D)</strong>, todas com <strong>Peso 2,0</strong>. Para ser aprovado, o candidato deve obter no mínimo <strong>50% do total de pontos (50,0 pontos = 25 acertos)</strong>.</p>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-xs sm:text-sm border border-slate-200 rounded-lg overflow-hidden">
+            <thead class="bg-slate-800 text-white">
+              <tr>
+                <th class="p-2.5 text-left">Disciplina Oficial (Anexo III Retificado)</th>
+                <th class="p-2.5 text-center">Nº de Questões</th>
+                <th class="p-2.5 text-center">Peso por Questão</th>
+                <th class="p-2.5 text-center">Total de Pontos</th>
+                <th class="p-2.5 text-center">% da Prova</th>
+                <th class="p-2.5 text-left">Módulos / Aulas e PDFs no Plano</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+              <tr class="bg-teal-50/70 font-semibold">
+                <td class="p-2.5 text-teal-950">Conhecimentos Específicos (Agente de Combate às Endemias — ACE)</td>
+                <td class="p-2.5 text-center font-bold">15</td>
+                <td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-teal-600 text-white font-bold">Peso 2,0</span></td>
+                <td class="p-2.5 text-center font-extrabold text-teal-900">30,0 pts</td>
+                <td class="p-2.5 text-center font-bold text-teal-800">30%</td>
+                <td class="p-2.5">Aulas 1 a 10 (<code>esp_1</code> a <code>esp_10</code>) &bull; PDFs #12, #55 a #69 + 14 Fichas</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="p-2.5 font-medium">Língua Portuguesa</td>
+                <td class="p-2.5 text-center font-bold">10</td>
+                <td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 font-bold">Peso 2,0</span></td>
+                <td class="p-2.5 text-center font-bold">20,0 pts</td>
+                <td class="p-2.5 text-center">20%</td>
+                <td class="p-2.5">Aulas 17 a 22 (<code>por_1</code> a <code>por_6</code>) &bull; PDFs #22 a #40</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="p-2.5 font-medium">Raciocínio Lógico</td>
+                <td class="p-2.5 text-center font-bold">10</td>
+                <td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-purple-100 text-purple-800 font-bold">Peso 2,0</span></td>
+                <td class="p-2.5 text-center font-bold">20,0 pts</td>
+                <td class="p-2.5 text-center">20%</td>
+                <td class="p-2.5">Aulas 23 a 28 (<code>rlm_1</code> a <code>rlm_6</code>) &bull; PDFs #1 a #21</td>
+              </tr>
+              <tr class="bg-white">
+                <td class="p-2.5 font-medium">Legislação (LOM, LC 385, Leis 390/391, PcD, CF/88, Lei 14.133 e LAI)</td>
+                <td class="p-2.5 text-center font-bold">10</td>
+                <td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-bold">Peso 2,0</span></td>
+                <td class="p-2.5 text-center font-bold">20,0 pts</td>
+                <td class="p-2.5 text-center">20%</td>
+                <td class="p-2.5">Aulas 10 a 16 (<code>leg_1</code> a <code>leg_7</code>) &bull; PDFs #41 a #54 e Docs #92–94</td>
+              </tr>
+              <tr class="bg-slate-50">
+                <td class="p-2.5 font-medium">Conhecimentos Gerais e Atualidades (Município, Estado, Brasil e Mundo)</td>
+                <td class="p-2.5 text-center font-bold">05</td>
+                <td class="p-2.5 text-center"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold">Peso 2,0</span></td>
+                <td class="p-2.5 text-center font-bold">10,0 pts</td>
+                <td class="p-2.5 text-center">10%</td>
+                <td class="p-2.5">Aulas 29 a 31 (<code>atu_1</code> a <code>atu_3</code>) &bull; PDFs #70 a #85</td>
+              </tr>
+              <tr class="bg-slate-900 text-white font-bold">
+                <td class="p-2.5">TOTAL DA PROVA OBJETIVA (ANEXO III RETIFICADO)</td>
+                <td class="p-2.5 text-center">50 Questões</td>
+                <td class="p-2.5 text-center">Peso 2,0</td>
+                <td class="p-2.5 text-center text-emerald-400">100,0 Pontos</td>
+                <td class="p-2.5 text-center">100%</td>
+                <td class="p-2.5">Mínimo para aprovação: 50% (50,0 pontos)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tabela Completa dos 16 Códigos Retificados de ACE (340 a 356) -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+          <div>
+            <span class="text-xs font-bold uppercase px-2 py-0.5 rounded bg-amber-100 text-amber-800">Anexo I Retificado (Páginas 13 e 14) — Edital nº 28/2026 (Retificação nº 01)</span>
+            <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mt-1">Quadro Integral de Vagas por Localidade — Códigos 340 a 356 (Agente de Combate às Endemias)</h3>
+          </div>
+        </div>
+        <div class="bg-amber-50 border-l-4 border-amber-500 p-3 rounded text-xs sm:text-sm text-amber-950 mb-4 space-y-1">
+          <p><strong>Observações Oficiais Verificadas no Anexo I Retificado (27/03/2026):</strong></p>
+          <p>1. O código <strong>343</strong> não existe na tabela oficial do Anexo I Retificado (a numeração salta de <code>342 — Calama</code> para <code>344 — Cujubim Grande</code>, totalizando <strong>16 códigos de ACE</strong>: 1 Urbano [96 vagas] + 15 Localidades Rurais [44 vagas] = <strong>140 vagas totais</strong>: 40 imediatas + 100 CR).</p>
+          <p>2. <strong>Vencimento Mensal Oficial no Anexo I:</strong> <strong>R$ 3.242,00</strong> para jornada de 40 horas semanais. Requisito de ingresso: <em>Ensino Médio Completo e conclusão, com aproveitamento, de curso de formação inicial com carga horária mínima de 40 horas</em> (como o curso gratuito do AVASUS/MS).</p>
+          <p>3. <strong>Horário Único da Prova de ACE (Item 4.1.12.1):</strong> Todos os códigos de ACE (340 a 356) realizam prova no domingo, <strong>13/12/2026, no turno da tarde (fechamento dos portões às 14h30min; aplicação das 14h45 às 17h45, horário de RO)</strong>.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-xs border border-slate-200">
+            <thead class="bg-slate-800 text-white">
+              <tr>
+                <th class="p-2 text-center">Cód.</th>
+                <th class="p-2 text-left">Localidade de Lotação / Concorrência (Anexo I)</th>
+                <th class="p-2 text-center">Vagas Imediatas</th>
+                <th class="p-2 text-center">Cadastro Reserva (CR)</th>
+                <th class="p-2 text-center">Total Vagas</th>
+                <th class="p-2 text-center">Ampla (AC)</th>
+                <th class="p-2 text-center">PcD</th>
+                <th class="p-2 text-center">Negros (PN)</th>
+                <th class="p-2 text-center">Idosos (PI)</th>
+                <th class="p-2 text-center">Vencimento</th>
+              </tr>
+            </thead>
+            <tbody id="cargosTableBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Cards dos 9 Documentos Oficiais IBGP e Legislação -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mb-3">Fontes Primárias Oficiais: Edital, Retificação nº 01, Anexos I a IV (IBGP) e Legislação Local (SAPL/RO)</h3>
+        <div id="officialDocsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: APOSTILA DIGITAL (32 AULAS) ==================== -->
+    <section id="tab-apostila" class="tab-panel">
+      <div class="flex flex-col lg:flex-row gap-6">
+        <!-- Sidebar de Aulas -->
+        <aside class="w-full lg:w-80 flex-shrink-0 space-y-3 no-print">
+          <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200">
+            <label for="lessonSearchInput" class="block text-xs font-bold uppercase text-slate-500 mb-1.5">Buscar Tópico, Doença ou Lei nas 32 Aulas:</label>
+            <input type="text" id="lessonSearchInput" placeholder="Ex.: Febre Maculosa, LIRAa, 13.708, Funções..." class="w-full px-3 py-2 text-xs sm:text-sm rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500">
+            <div class="flex flex-wrap gap-1 mt-2.5" id="catFilterBtns">
+              <button type="button" data-cat="all" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-bold bg-slate-900 text-white">Todas (32)</button>
+              <button type="button" data-cat="esp" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-teal-50 text-teal-800 hover:bg-teal-100">Específicos (10)</button>
+              <button type="button" data-cat="leg" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-indigo-50 text-indigo-800 hover:bg-indigo-100">Legislação (7)</button>
+              <button type="button" data-cat="por" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-amber-50 text-amber-800 hover:bg-amber-100">Português (6)</button>
+              <button type="button" data-cat="rlm" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-purple-50 text-purple-800 hover:bg-purple-100">RLM (6)</button>
+              <button type="button" data-cat="atu" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-emerald-50 text-emerald-800 hover:bg-emerald-100">Gerais/PVH (3)</button>
+            </div>
+          </div>
+
+          <div id="lessonsSidebarList" class="bg-white rounded-2xl shadow-sm border border-slate-200 divide-y divide-slate-100 max-h-[680px] overflow-y-auto"></div>
+        </aside>
+
+        <!-- Área Principal da Aula Selecionada -->
+        <div class="flex-1 space-y-4">
+          <!-- Barra de Modos de Estudo (Modo A, B, C ou Integrado) -->
+          <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 no-print">
+            <div>
+              <span class="text-xs font-bold text-slate-500 uppercase">Modo de Visualização Didática:</span>
+              <div class="flex flex-wrap gap-1.5 mt-1" id="studyModeBtns">
+                <button type="button" data-mode="ALL" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-teal-600 text-white shadow">Modo Integrado (A + B + C)</button>
+                <button type="button" data-mode="A" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo A: Teoria Aprofundada</button>
+                <button type="button" data-mode="B" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo B: Resumo &amp; Mnemônicos</button>
+                <button type="button" data-mode="C" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo C: Questões &amp; Flashcards</button>
+                <button type="button" data-mode="MD" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-300 hover:bg-emerald-100">Arquivo .MD da Aula (Markdown)</button>
+              </div>
+            </div>
+            <button type="button" id="toggleCompleteLessonBtn" class="px-4 py-2 rounded-xl font-bold text-xs sm:text-sm border transition self-start sm:self-center">
+              Marcar Aula como Concluída
+            </button>
+          </div>
+
+          <!-- Conteúdo Renderizado da Aula -->
+          <article id="lessonContentContainer" class="bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-200 space-y-6"></article>
+
+          <!-- Navegação Anterior / Próxima Aula -->
+          <div class="flex items-center justify-between bg-white p-4 rounded-2xl shadow-sm border border-slate-200 no-print">
+            <button type="button" id="prevLessonBtn" class="px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs sm:text-sm font-bold">&larr; Aula Anterior</button>
+            <span id="lessonPositionIndicator" class="text-xs font-bold text-slate-500">Aula 1 de 32</span>
+            <button type="button" id="nextLessonBtn" class="px-4 py-2 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold">Próxima Aula &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: SIMULADO GERAL & FLASHCARDS ==================== -->
+    <section id="tab-simulado" class="tab-panel hidden space-y-6">
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-100 pb-4 mb-4">
+          <div>
+            <span class="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-indigo-100 text-indigo-800">Estrutura Oficial IBGP (Item 9.1.2 do Edital: 4 Alternativas A, B, C, D &bull; Peso 2,0 por Questão)</span>
+            <h2 class="text-lg sm:text-xl font-extrabold text-slate-900 mt-1">Simulado de Questões Inéditas Comentadas &amp; Baralho Global de Flashcards</h2>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <select id="simuladoCatFilter" class="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm font-semibold bg-slate-50">
+              <option value="all">Todas as Disciplinas (Banco Completo)</option>
+              <option value="esp">Conhecimentos Específicos ACE (15Q na prova • Peso 2)</option>
+              <option value="leg">Legislação Municipal, CF, PcD, Licitações e LAI (10Q na prova • Peso 2)</option>
+              <option value="por">Língua Portuguesa (10Q na prova • Peso 2)</option>
+              <option value="rlm">Raciocínio Lógico (10Q na prova • Peso 2)</option>
+              <option value="atu">Conhecimentos Gerais e Atualidades PVH/RO (5Q na prova • Peso 2)</option>
+            </select>
+            <button type="button" id="resetSimuladoBtn" class="px-3 py-2 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 font-bold text-xs border border-rose-200">Reiniciar Respostas</button>
+          </div>
+        </div>
+
+        <!-- Placar do Simulado -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+            <div class="text-xs text-slate-500 font-semibold">Questões Respondidas</div>
+            <div id="simAnsweredCount" class="text-xl font-extrabold text-slate-900 mt-0.5">0 / 0</div>
+          </div>
+          <div class="bg-emerald-50 p-3.5 rounded-xl border border-emerald-200">
+            <div class="text-xs text-emerald-700 font-semibold">Acertos (Peso 2,0 cada)</div>
+            <div id="simCorrectCount" class="text-xl font-extrabold text-emerald-700 mt-0.5">0</div>
+          </div>
+          <div class="bg-rose-50 p-3.5 rounded-xl border border-rose-200">
+            <div class="text-xs text-rose-700 font-semibold">Erros</div>
+            <div id="simWrongCount" class="text-xl font-extrabold text-rose-700 mt-0.5">0</div>
+          </div>
+          <div class="bg-indigo-50 p-3.5 rounded-xl border border-indigo-200">
+            <div class="text-xs text-indigo-700 font-semibold">Aproveitamento (Meta &ge; 50%)</div>
+            <div id="simPercentScore" class="text-xl font-extrabold text-indigo-800 mt-0.5">0%</div>
+          </div>
+        </div>
+
+        <!-- Lista de Questões do Simulado -->
+        <div id="simuladoQuestionsList" class="space-y-4"></div>
+      </div>
+
+      <!-- Baralho Global de Flashcards -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mb-1">Baralho Global de Flashcards de Memorização Rápida (Clique no Card para Virar)</h3>
+        <p class="text-xs text-slate-600 mb-4">Todos os cartões de revisão ativa das 32 aulas reunidos em um só lugar.</p>
+        <div id="globalFlashcardsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 4: FICHAS INDIVIDUAIS DAS 14 DOENÇAS, LIRAA & ROEDORES ==================== -->
+    <section id="tab-endemias" class="tab-panel hidden space-y-6">
+      <!-- Calculadora Interativa de IIP e IB (LIRAa) -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-teal-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
+          <div>
+            <span class="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-teal-100 text-teal-800">Instrumento Técnico de Controle Vetorial (Diretrizes PNCD/MS)</span>
+            <h2 class="text-lg font-extrabold text-slate-900 mt-1">Calculadora de Índices Entomológicos do LIRAa (IIP e Índice de Breteau)</h2>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
+          <div>
+            <label for="calcImoveisPesq" class="block text-xs font-bold text-slate-700 mb-1">Total de Imóveis Pesquisados:</label>
+            <input type="number" id="calcImoveisPesq" value="400" min="1" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold">
+          </div>
+          <div>
+            <label for="calcImoveisPos" class="block text-xs font-bold text-slate-700 mb-1">Imóveis Positivos (c/ larvas/pupas):</label>
+            <input type="number" id="calcImoveisPos" value="18" min="0" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold">
+          </div>
+          <div>
+            <label for="calcRecipientesPos" class="block text-xs font-bold text-slate-700 mb-1">Recipientes/Depósitos Positivos:</label>
+            <input type="number" id="calcRecipientesPos" value="24" min="0" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold">
+          </div>
+          <div id="calcResultBox" class="p-3 rounded-xl border bg-rose-50 border-rose-300 text-xs">
+            <div class="font-extrabold text-sm text-rose-900" id="calcIIPText">IIP: 4,50% | IB: 6,00%</div>
+            <div class="font-bold text-rose-700 mt-0.5" id="calcRiskBadge">Classificação MS: RISCO DE SURTO (&ge; 4,0%)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Calculadora Operacional de Campo do ACE — Cubagem e Dosagem de Larvicidas (Aula 32) -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-teal-200">
+        <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-teal-700 bg-teal-100 px-2.5 py-0.5 rounded-full">Operacionalização de Campo (Aula 32 &bull; Diretrizes MS/SVSA)</span>
+            <h2 class="text-lg font-extrabold text-slate-900 mt-1">Calculadora de Cubagem de Reservatórios &amp; Dosagem de Larvicidas</h2>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
+          <div>
+            <label for="calcFormatoRes" class="block text-xs font-bold text-slate-700 mb-1">Formato do Reservatório:</label>
+            <select id="calcFormatoRes" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold bg-white">
+              <option value="retangular">Retangular / Cúbico (C &times; L &times; P)</option>
+              <option value="cilindrico">Cilíndrico (Diâmetro &times; Altura)</option>
+            </select>
+          </div>
+          <div id="dimensaoInputsRet" class="grid grid-cols-3 gap-1.5">
+            <div>
+              <label for="calcComp" class="block text-[11px] font-bold text-slate-600 mb-1">Comp. (m):</label>
+              <input type="number" id="calcComp" value="2.0" step="0.1" min="0.1" class="w-full px-2 py-2 rounded-lg border border-slate-300 text-xs font-bold">
+            </div>
+            <div>
+              <label for="calcLarg" class="block text-[11px] font-bold text-slate-600 mb-1">Larg. (m):</label>
+              <input type="number" id="calcLarg" value="1.5" step="0.1" min="0.1" class="w-full px-2 py-2 rounded-lg border border-slate-300 text-xs font-bold">
+            </div>
+            <div>
+              <label for="calcProf" class="block text-[11px] font-bold text-slate-600 mb-1">Prof. (m):</label>
+              <input type="number" id="calcProf" value="1.0" step="0.1" min="0.1" class="w-full px-2 py-2 rounded-lg border border-slate-300 text-xs font-bold">
+            </div>
+          </div>
+          <div id="dimensaoInputsCil" class="hidden grid grid-cols-2 gap-1.5">
+            <div>
+              <label for="calcDiam" class="block text-[11px] font-bold text-slate-600 mb-1">Diâmetro (m):</label>
+              <input type="number" id="calcDiam" value="1.2" step="0.1" min="0.1" class="w-full px-2 py-2 rounded-lg border border-slate-300 text-xs font-bold">
+            </div>
+            <div>
+              <label for="calcAlt" class="block text-[11px] font-bold text-slate-600 mb-1">Altura (m):</label>
+              <input type="number" id="calcAlt" value="1.0" step="0.1" min="0.1" class="w-full px-2 py-2 rounded-lg border border-slate-300 text-xs font-bold">
+            </div>
+          </div>
+          <div>
+            <label for="calcLarvicida" class="block text-xs font-bold text-slate-700 mb-1">Larvicida Preconizado:</label>
+            <select id="calcLarvicida" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold bg-white">
+              <option value="espinosade">Espinosade (1 pastilha / 200 L)</option>
+              <option value="piriproxifeno">Piriproxifeno 0,5% (2g / 1.000 L)</option>
+              <option value="bti">Bti Biológico (1g / 1.000 L)</option>
+            </select>
+          </div>
+          <div id="calcCubagemResultBox" class="p-3 rounded-xl border bg-teal-50 border-teal-300 text-xs space-y-1">
+            <div class="font-extrabold text-sm text-teal-950" id="calcVolText">Volume: 3,00 m³ (3.000 L)</div>
+            <div class="font-bold text-teal-800" id="calcDosagemText">Dosagem: 15 pastilhas de Espinosade</div>
+            <div class="text-[11px] text-teal-700 font-medium" id="calcEpiText">EPI: Luvas nitrílicas + máscara (NR-6 / Lei 11.350)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quadro Operacional de Depósitos do LIRAa (A1 a E) e Tipos de Imóveis -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+          <h3 class="text-base font-extrabold text-slate-900 mb-2">Os 7 Grupos de Depósitos do LIRAa (PNCD / Ministério da Saúde)</h3>
+          <div class="overflow-x-auto">
+            <table class="min-w-full text-xs border border-slate-200">
+              <thead class="bg-slate-800 text-white">
+                <tr>
+                  <th class="p-2 text-center">Grupo</th>
+                  <th class="p-2 text-left">Categoria Principal</th>
+                  <th class="p-2 text-left">Exemplos Clássicos de Campo e Prova</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200">
+                <tr><td class="p-2 font-extrabold text-center bg-teal-50">A1</td><td class="p-2 font-semibold">Armazenamento de água ELEVADO</td><td class="p-2">Caixa d'água elevada ligada à rede pública ou captação.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-teal-50">A2</td><td class="p-2 font-semibold">Armazenamento de água AO NÍVEL DO SOLO</td><td class="p-2">Tambores, tonéis, barris, cisternas, poços, cacimbas.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-indigo-50">B</td><td class="p-2 font-semibold">Depósitos MÓVEIS</td><td class="p-2">Vasos/frascos com água, pratinhos de plantas, bebedouros de animais, degelo de geladeira.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-amber-50">C</td><td class="p-2 font-semibold">Depósitos FIXOS</td><td class="p-2">Calhas, lajes em desnível, ralos, sanitários em desuso, piscinas não tratadas, tanques em obras.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-rose-50">D1</td><td class="p-2 font-semibold">Passíveis de remoção — RODANTES</td><td class="p-2">Pneus, câmaras de ar e outros materiais rodantes.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-rose-50">D2</td><td class="p-2 font-semibold">Passíveis de remoção — LIXO / SUCATA</td><td class="p-2">Garrafas PET, latas, plásticos, carcaças em ferros-velhos e entulhos de construção.</td></tr>
+                <tr><td class="p-2 font-extrabold text-center bg-emerald-50">E</td><td class="p-2 font-semibold">Depósitos NATURAIS</td><td class="p-2">Axilas de folhas (bromélias), buracos em árvores e rochas, cascas de caramujos/ovos.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+          <h3 class="text-base font-extrabold text-slate-900 mb-2">Tipos de Imóveis (R, C, TB, PE, O) &amp; Diferenciação dos 3 Roedores Sinantrópicos</h3>
+          <div class="space-y-3 text-xs">
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+              <p class="font-bold text-slate-900 mb-1">Classificação de Imóveis e Periodicidade de Visita do ACE:</p>
+              <p>&bull; <strong>R (Residencial), C (Comercial), TB (Terreno Baldio) e O (Outros):</strong> Visita domiciliar em <strong>ciclos bimestrais (a cada 2 meses = 6 ciclos/ano)</strong>.</p>
+              <p>&bull; <strong>PE (Ponto Estratégico — cemitérios, borracharias, ferros-velhos, sucatas, garagens):</strong> Visita e tratamento <strong>QUINZENAL (a cada 15 dias)</strong>!</p>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-xs border border-slate-200">
+                <thead class="bg-slate-800 text-white">
+                  <tr>
+                    <th class="p-2 text-left">Espécie de Roedor</th>
+                    <th class="p-2 text-left">Morfologia Chave</th>
+                    <th class="p-2 text-left">Hábito / Abrigo e Raio</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200">
+                  <tr>
+                    <td class="p-2 font-bold"><em>Rattus norvegicus</em> (Ratazana / esgoto)</td>
+                    <td class="p-2">Grande, focinho rombudo, orelhas pequenas, <strong>cauda MENOR que o corpo</strong>.</td>
+                    <td class="p-2">Escavador/nadador; <strong>tocas no solo e esgotos</strong> (Raio: 30–50m).</td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 font-bold"><em>Rattus rattus</em> (Rato de telhado / preto)</td>
+                    <td class="p-2">Médio/esguio, orelhas grandes, <strong>cauda MAIOR que o corpo</strong>.</td>
+                    <td class="p-2">Escalador; <strong>forros, telhados e árvores</strong> (Raio: 30–50m).</td>
+                  </tr>
+                  <tr>
+                    <td class="p-2 font-bold"><em>Mus musculus</em> (Camundongo)</td>
+                    <td class="p-2">Pequeno (15–30g), orelhas grandes, curioso (sem neofobia).</td>
+                    <td class="p-2"><strong>Intradomiciliar</strong> (armários, gavetas, fogão). Raio curto: <strong>3–5m</strong>.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fichas Técnicas Individuais das 14 Doenças Exigidas no Anexo IV -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <span class="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-teal-100 text-teal-800">Anexo IV — Conhecimentos Específicos ACE (14 Fichas Individuais Completas)</span>
+        <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mt-1 mb-3">Fichas Individuais das 14 Doenças/Agravos do Edital (Agente, Vetor, Reservatório/Hospedeiro, Transmissão, Incubação, Sintomas, Diagnóstico, Notificação e Conduta do ACE)</h3>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-xs border border-slate-200">
+            <thead class="bg-slate-900 text-white">
+              <tr>
+                <th class="p-2 text-left">Doença / Agravo (Anexo IV)</th>
+                <th class="p-2 text-left">Agente Etiológico</th>
+                <th class="p-2 text-left">Vetor</th>
+                <th class="p-2 text-left">Reservatório &amp; Hospedeiros</th>
+                <th class="p-2 text-left">Transmissão, Incubação &amp; Clínica</th>
+                <th class="p-2 text-left">Diagnóstico &amp; Notificação</th>
+                <th class="p-2 text-left">Prevenção, Controle &amp; Conduta do ACE</th>
+              </tr>
+            </thead>
+            <tbody id="endemicsTableBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 5: MATRIZ INTEGRAL DE AUDITORIA & CRONOGRAMA ==================== -->
+    <section id="tab-cronograma" class="tab-panel hidden space-y-6">
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+          <div>
+            <span class="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Auditoria de 100% do Conteúdo Programático Oficial (Anexo IV Retificado)</span>
+            <h3 class="text-base sm:text-lg font-extrabold text-slate-900 mt-1">Matriz Integral de Correspondência com o Edital (7 Colunas Obrigatórias)</h3>
+          </div>
+          <div class="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200">
+            20 / 20 Macro-Itens do Anexo IV Verificados e 100% Cobertos
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-xs border border-slate-200">
+            <thead class="bg-slate-800 text-white">
+              <tr>
+                <th class="p-2 text-left">Disciplina (Peso)</th>
+                <th class="p-2 text-left">Item Exato do Edital (Anexo IV)</th>
+                <th class="p-2 text-left">PDF ou Fonte Localizada</th>
+                <th class="p-2 text-left">Página ou Seção</th>
+                <th class="p-2 text-center">Situação Anterior</th>
+                <th class="p-2 text-left">O que faltava / Divergência</th>
+                <th class="p-2 text-left">Ação Executada &amp; Status Final</th>
+              </tr>
+            </thead>
+            <tbody id="auditMatrixBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <h2 class="text-lg sm:text-xl font-extrabold text-slate-900 mb-1">Cronograma Estruturado de 12 Semanas até a Prova (13/12/2026)</h2>
+        <p class="text-xs text-slate-600 mb-4">Clique em qualquer aula do cronograma para abri-la imediatamente na Apostila Digital.</p>
+        <div id="scheduleGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 6: BIBLIOTECA CONECTADA (94 PDFS) ==================== -->
+    <section id="tab-biblioteca" class="tab-panel hidden space-y-6">
+      <!-- Auditoria de Fidelidade às Fontes do Drive (4 Lacunas Documentadas) -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-amber-300">
+        <span class="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-amber-100 text-amber-900">Auditoria Documental das 7 Subpastas do Google Drive (85 PDFs)</span>
+        <h2 class="text-lg font-extrabold text-slate-900 mt-1 mb-2">As 5 Divergências/Lacunas dos PDFs Brutos do Drive Identificadas e Sanadas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+          <div class="bg-amber-50/70 p-3 rounded-xl border border-amber-200">
+            <p class="font-bold text-amber-950">1. Subpasta 4 — Ausência dos PDFs das Leis Municipais de Porto Velho:</p>
+            <p class="text-slate-700 mt-0.5">A Subpasta 4 continha apenas 9 PDFs de Direito Constitucional (#42 a #50), faltando a LOM-PVH, a LC 385/2010 e as Leis 390 e 391/2010. <strong>Solução:</strong> Vinculados os textos oficiais do SAPL (#89, #92 e #93) e desenvolvidas as Aulas <code>leg_1</code>, <code>leg_2</code> e <code>leg_3</code>.</p>
+          </div>
+          <div class="bg-rose-50/70 p-3 rounded-xl border border-rose-200">
+            <p class="font-bold text-rose-950">2. Subpasta 5 — PDF #54 (Lei nº 10.520/2002 REVOGADA) e Ausência da LAI Estadual/Municipal:</p>
+            <p class="text-slate-700 mt-0.5">O PDF #54 trata da Lei 10.520/2002 (revogada pela Lei 14.133/2021) e o PDF #53 traz apenas a LAI Federal. <strong>Solução:</strong> PDF #54 marcado como <strong>REVOGADO — NÃO ESTUDAR</strong>; Pregão estudado pela Lei 14.133/21 (<code>leg_6</code>) e LAI de RO (Lei 3.166/13) e PVH incluídas em <code>leg_7</code> (#94).</p>
+          </div>
+          <div class="bg-amber-50/70 p-3 rounded-xl border border-amber-200">
+            <p class="font-bold text-amber-950">3. Subpasta 6 — Ausência de "Doenças Transmissíveis I" e Capítulos Extras no PDF #66:</p>
+            <p class="text-slate-700 mt-0.5">O PDF #66 (<em>Doenças Transmissíveis II</em>) cobre 8 agravos do edital, mas inclui 4 doenças fora do edital (TB, Hanseníase, Teníase, Lyme) e não traz Malária, Chagas, Esquistossomose, Raiva, Leptospirose e Febre Maculosa. <strong>Solução:</strong> Todas as 14 doenças ganharam fichas completas em <code>esp_7..9</code> e na Aba 4.</p>
+          </div>
+          <div class="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200">
+            <p class="font-bold text-emerald-950">4. Subpasta 1 — Ausência de Sistemas Lineares e Médias no PDF #17:</p>
+            <p class="text-slate-700 mt-0.5">O PDF #17 (<em>Equação do 1º Grau</em>) tem 49 mil tokens e aborda apenas equações simples, omitindo Sistemas de Equações do 1º Grau e Média Aritmética Simples e Ponderada. <strong>Solução:</strong> Teoria passo a passo e exercícios incluídos no Bloco 25.2 (<code>rlm_3</code>).</p>
+          </div>
+          <div class="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200 md:col-span-2">
+            <p class="font-bold text-emerald-950">5. Subpasta 7 — Salto do PDF #8 e Ausência de Georreferenciamento e História/Geografia de PVH/RO:</p>
+            <p class="text-slate-700 mt-0.5">A numeração da Subpasta 7 salta do PDF <em>7. Ecologia</em> para o <em>9. Humanidades</em> (totalizando 16 PDFs gerais), sem apostila de História/Geografia de Rondônia e Porto Velho nem de Georreferenciamento. <strong>Solução:</strong> Aulas <code>atu_1</code>, <code>atu_2</code> e <code>atu_3</code> completas com Censo IBGE 2022/2025, 15 distritos, cultura local e Georreferenciamento (SIG/GIS, GPS, Sensoriamento Remoto, PRODES/DETER).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diretório Interativo dos 94 Documentos -->
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4">
+          <div>
+            <h3 class="text-base sm:text-lg font-extrabold text-slate-900">Inventário Analítico Conectado: 85 PDFs do Google Drive + 9 Documentos Oficiais (Total: 94 Fontes)</h3>
+            <p class="text-xs text-slate-600">Cada card informa o tamanho, tokens analisados, conteúdo encontrado no PDF, aula correspondente e botões para abrir o PDF ou ir direto para a aula.</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <input type="text" id="librarySearchInput" placeholder="Filtrar por nome, assunto ou nº (1 a 94)..." class="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm">
+            <select id="libraryFolderFilter" class="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm font-semibold bg-slate-50">
+              <option value="all">Todas as Pastas (94 Arquivos)</option>
+              <option value="8 - EDITAL E LEIS OFICIAIS">8 - Editais IBGP e Leis Oficiais (9)</option>
+              <option value="1 - RACIOCINIO LOGICO">1 - Raciocínio Lógico (21 PDFs)</option>
+              <option value="2 - PORTUGUES">2 - Língua Portuguesa (19 PDFs)</option>
+              <option value="3 - ESTATUTO DEFICIENCIA">3 - Estatuto da Pessoa com Deficiência (1 PDF)</option>
+              <option value="4 - DIREITO CONST E LOM">4 - Direito Constitucional (9 PDFs)</option>
+              <option value="5 - LEIS LICITACAO">5 - Licitações e LAI (4 PDFs)</option>
+              <option value="6 - SAUDE COLETIVA">6 - Saúde Coletiva e Específicos ACE (15 PDFs)</option>
+              <option value="7 - ATUALIDADES E GERAIS">7 - Conhecimentos Gerais e Atualidades (16 PDFs)</option>
+            </select>
+          </div>
+        </div>
+        <div id="libraryGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 text-xs border-t border-slate-800 py-5 mt-8 no-print">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>
+        <strong class="text-white">Plano de Estudos ACE — SEMUSA Porto Velho 2026</strong> &bull; Versão Auditada Documentalmente conforme Edital nº 25/2026 e Retificação nº 01 (Edital nº 28/2026 — IBGP).
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://diegobragah1.github.io/acepvh/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 font-semibold hover:underline">GitHub Pages (acepvh) &nearr;</a>
+        <a href="https://github.com/diegobragah1/acepvh" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:underline">Repositório GitHub &nearr;</a>
+        <a href="https://sites.google.com/view/planodeestudosace-semusaportov?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:underline">Google Sites &nearr;</a>
+        <a href="https://drive.google.com/drive/folders/1L8bvMQeMBoqE9o-HacSqYsa0sujn8OBK" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:underline">Pasta Google Drive &nearr;</a>
+        <a href="https://novo.ibgpconcursos.com.br/concurso.jsp?id=790" target="_blank" rel="noopener noreferrer" class="text-teal-400 hover:underline">Portal Oficial IBGP (Concurso 790) &nearr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Principal da SPA (Carrega ./data/app_data.json via fetch) -->
+  <script src="./js/app.js"></script>
+</body>
+</html>

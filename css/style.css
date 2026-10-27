@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Plataforma ACE SEMUSA Porto Velho 2026 — Edital nº 25/2026 (Banca IBGP)
+   Arquivo: ./css/style.css
+   ========================================================================== */
+
+:root {
+  --bg-primary: #f8fafc;
+  --text-primary: #0f172a;
+  --brand-teal: #0f766e;
+  --brand-emerald: #059669;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.list-circle {
+  list-style-type: circle;
+}
+
+/* ==========================================================================
+   Flashcards 3D Flip & Grid Responsiveness (Mobile / Tablet / Desktop)
+   ========================================================================== */
+.flashcard-container {
+  perspective: 1000px;
+  width: 100%;
+  min-height: 170px;
+  user-select: none;
+}
+
+.flashcard-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flashcard-container:hover .flashcard-inner {
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.25);
+}
+
+.flashcard-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.1rem;
+  border-radius: 0.75rem;
+  overflow-wrap: break-word;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 640px) {
+  .flashcard-container,
+  .flashcard-inner {
+    min-height: 155px;
+  }
+
+  .flashcard-front,
+  .flashcard-back {
+    padding: 0.9rem;
+  }
+}
+
+/* Custom subtle scrollbars for sidebar and tables */
+#lessonsSidebarList::-webkit-scrollbar {
+  width: 6px;
+}
+
+#lessonsSidebarList::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+#lessonsSidebarList::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+#lessonsSidebarList::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff;
+  }
+}
+
+/* Markdown Raw & Rendered Viewer Styles */
+.md-viewer-box pre {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
