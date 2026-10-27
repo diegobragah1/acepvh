@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="min-h-screen flex flex-col">
@@ -64,34 +65,22 @@
   <!-- Top Hero Header -->
   <header class="bg-gradient-to-r from-slate-900 via-teal-950 to-slate-900 text-white border-b border-teal-800/60 shadow-lg">
     <div class="max-w-7xl mx-auto px-4 py-5">
-      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-        <div>
-          <div class="flex flex-wrap items-center gap-2 mb-2">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+        <!-- Coluna Esquerda: Informações do Concurso & Ações Rápidas -->
+        <div class="lg:col-span-7 space-y-3">
+          <div class="flex flex-wrap items-center gap-2">
             <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">AUDITORIA DOCUMENTAL 100% IMPLEMENTADA</span>
             <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">EDITAL Nº 25/2026 + RETIFICAÇÃO Nº 01 (EDITAL 28/2026)</span>
             <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">BANCA IBGP &bull; PROVA: 13/12/2026 (14h45–17h45)</span>
           </div>
-          <h1 class="text-xl sm:text-2xl lg:text-3xl font-extrabold tracking-tight text-white">
+          <h1 class="text-xl sm:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">
             Plano de Estudos Integrado ACE — SEMUSA Porto Velho/RO 2026
           </h1>
-          <p class="text-xs sm:text-sm text-slate-300 mt-1">
+          <p class="text-xs sm:text-sm text-slate-300">
             Agente de Combate às Endemias &bull; <strong>Códigos 340 (Urbano: 96 vagas) e 341 a 356 (15 Distritos: 44 vagas) = 140 Vagas</strong> &bull; <strong>R$ 3.242,00 (40h)</strong> &bull; 50 Questões (Peso 2 = 100 pts) &bull; 32 Aulas + 14 Fichas de Endemias + 94 Fontes
           </p>
-        </div>
 
-        <!-- Global Progress & Action Buttons -->
-        <div class="flex flex-col sm:items-end gap-2 no-print">
-          <div class="bg-slate-800/90 border border-slate-700 rounded-xl px-3.5 py-2 w-full sm:w-80">
-            <div class="flex items-center justify-between text-xs mb-1">
-              <span class="font-semibold text-slate-300">Progresso nas 32 Aulas do Edital:</span>
-              <span id="globalProgressLabel" class="font-bold text-emerald-400">0 / 32 (0%)</span>
-            </div>
-            <div class="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
-              <div id="globalProgressBar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 transition-all duration-300" style="width: 0%"></div>
-            </div>
-          </div>
-
-          <div class="flex flex-wrap gap-1.5">
+          <div class="flex flex-wrap gap-1.5 pt-1 no-print">
             <button type="button" id="copyHtmlForSitesBtn" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow flex items-center gap-1.5 transition">
               <span>&#128203; Copiar Código HTML p/ Google Sites</span>
             </button>
@@ -107,6 +96,41 @@
             <a href="https://notebooklm.google.com/notebook/2bd0b85d-ab28-4bd7-82b1-512d85ab1021" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold text-xs flex items-center gap-1 transition">
               <span>&#129302; NotebookLM &nearr;</span>
             </a>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Card de Contagem Regressiva & Progresso Geral (5 Níveis) -->
+        <div class="lg:col-span-5 bg-navy-900/90 backdrop-blur-md p-5 rounded-3xl border border-white/15 space-y-4 shadow-xl no-print">
+          <div class="flex justify-between items-start gap-2">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider font-extrabold text-amber-400 block">
+                <i class="fa-regular fa-calendar-check mr-1"></i> Prova: 13/12/2026 (14h45 às 17h45)
+              </span>
+              <div id="hero-countdown" class="text-base sm:text-lg font-black text-white mt-0.5">Calculando...</div>
+              <span class="text-[11px] text-slate-400 block">Fechamento dos portões: <strong>14h30</strong> (Horário RO)</span>
+            </div>
+            <div class="text-right shrink-0">
+              <span class="text-[10px] uppercase tracking-wider font-extrabold text-slate-300 block">Progresso Geral</span>
+              <div id="global-progress-percent" class="text-3xl font-black text-emerald-400">0%</div>
+              <span id="globalProgressLabel" class="text-[11px] font-semibold text-slate-400 block">0 / 32 aulas</span>
+            </div>
+          </div>
+
+          <!-- Barra de Progresso Multi-status (5 níveis) -->
+          <div class="w-full bg-slate-800 rounded-full h-3.5 overflow-hidden flex p-0.5 gap-0.5" id="globalProgressBarMulti">
+            <div id="bar-global-mastered" class="bg-purple-500 h-full rounded-l-full transition-all duration-300" style="width: 0%" title="Dominado"></div>
+            <div id="bar-global-completed" class="bg-emerald-500 h-full transition-all duration-300" style="width: 0%" title="Estudado"></div>
+            <div id="bar-global-review" class="bg-amber-400 h-full transition-all duration-300" style="width: 0%" title="Revisar"></div>
+            <div id="bar-global-studying" class="bg-sky-400 h-full transition-all duration-300" style="width: 0%" title="Estudando"></div>
+          </div>
+
+          <!-- Breakdown dos 5 Níveis de Status -->
+          <div id="globalStatusBreakdown" class="flex items-center justify-between text-[11px] text-slate-300 pt-2 border-t border-slate-700/60 font-medium">
+            <span title="Não iniciados">⚪ <span id="count_not_started">32</span></span>
+            <span title="Estudando">📘 <span id="count_studying">0</span></span>
+            <span title="Estudados">✅ <span id="count_completed">0</span></span>
+            <span title="Revisar">🔄 <span id="count_review">0</span></span>
+            <span title="Dominados">🏆 <span id="count_mastered">0</span></span>
           </div>
         </div>
       </div>
@@ -328,6 +352,22 @@
               <button type="button" data-cat="por" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-amber-50 text-amber-800 hover:bg-amber-100">Português (6)</button>
               <button type="button" data-cat="rlm" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-purple-50 text-purple-800 hover:bg-purple-100">RLM (6)</button>
               <button type="button" data-cat="atu" class="cat-filter-btn px-2.5 py-1 rounded text-xs font-semibold bg-emerald-50 text-emerald-800 hover:bg-emerald-100">Gerais/PVH (3)</button>
+            </div>
+
+            <!-- Filtro Rápido por Status de Estudo (5 Níveis) -->
+            <div class="pt-2.5 mt-2.5 border-t border-slate-100">
+              <div class="flex items-center justify-between text-[11px] font-bold text-slate-500 mb-1.5">
+                <span><i class="fa-solid fa-chart-line mr-1 text-brand-500"></i>Filtrar por Status:</span>
+                <span id="statusFilterCount" class="text-[10px] text-teal-700 font-extrabold">32 aulas</span>
+              </div>
+              <div class="flex flex-wrap gap-1" id="statusFilterBtns">
+                <button type="button" data-status="all" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-bold bg-slate-800 text-white shadow-sm">Todos</button>
+                <button type="button" data-status="not_started" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">⚪ Não iniciado</button>
+                <button type="button" data-status="studying" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-sky-50 text-sky-800 hover:bg-sky-100">📘 Estudando</button>
+                <button type="button" data-status="completed" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-50 text-emerald-800 hover:bg-emerald-100">✅ Estudado</button>
+                <button type="button" data-status="review" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-50 text-amber-800 hover:bg-amber-100">🔄 Revisar</button>
+                <button type="button" data-status="mastered" class="status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-purple-50 text-purple-800 hover:bg-purple-100">🏆 Dominado</button>
+              </div>
             </div>
           </div>
 

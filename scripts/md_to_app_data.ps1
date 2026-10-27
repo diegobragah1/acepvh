@@ -42,7 +42,12 @@ function Parse-Frontmatter([string]$text) {
                     $v = $v.Substring(1, $v.Length - 2) -replace '\\"', '"'
                 } elseif ($v.StartsWith('[') -and $v.EndsWith(']')) {
                     try {
-                        $v = $v | ConvertFrom-Json
+                        $parsed = $v | ConvertFrom-Json
+                        if ($k -eq "sources") {
+                            $v = [int[]]@($parsed)
+                        } else {
+                            $v = @($parsed)
+                        }
                     } catch {}
                 } elseif ($v -match '^\d+$') {
                     $v = [int]$v
@@ -134,6 +139,13 @@ $appData = Get-Content -Path $appDataFile -Raw -Encoding UTF8 | ConvertFrom-Json
 
 $existingLessons = @{}
 foreach ($l in $appData.lessons) {
+    if ($l.sources -and $l.sources.value) {
+        $l.sources = [int[]]@($l.sources.value)
+    } elseif ($l.sources) {
+        $l.sources = [int[]]@($l.sources)
+    } else {
+        $l.sources = @()
+    }
     $existingLessons[$l.id] = $l
 }
 
@@ -176,6 +188,18 @@ foreach ($mf in $mdFiles) {
         $qCnt = ($blocks | ForEach-Object { $_.questions.Count } | Measure-Object -Sum).Sum
         $fCnt = ($blocks | ForEach-Object { $_.flashcards.Count } | Measure-Object -Sum).Sum
 
+        $sourcesClean = if ($meta["sources"]) {
+            if ($meta["sources"] -is [System.Array]) {
+                [int[]]@($meta["sources"])
+            } elseif ($meta["sources"].value) {
+                [int[]]@($meta["sources"].value)
+            } else {
+                [int[]]@($meta["sources"])
+            }
+        } else {
+            @()
+        }
+
         $lessonObj = [PSCustomObject]@{
             id = $lid
             num = if ($meta["num"]) { [int]$meta["num"] } else { 99 }
@@ -189,7 +213,7 @@ foreach ($mf in $mdFiles) {
             title = if ($meta["title"]) { $meta["title"] } else { $meta["titulo"] }
             editalRef = $meta["editalRef"]
             auditBadge = if ($meta["auditBadge"]) { $meta["auditBadge"] } else { "AUDITADO" }
-            sources = $meta["sources"]
+            sources = $sourcesClean
             questionsCount = $qCnt
             flashcardsCount = $fCnt
             blocks = $blocks
@@ -215,7 +239,7 @@ $aulasIndex = @($sortedLessons | ForEach-Object {
         auditBadge = $_.auditBadge
         mdPath = $_.mdPath
         mdLegacyPath = $_.mdLegacyPath
-        sources = $_.sources
+        sources = [int[]]@($_.sources)
         blocksCount = $_.blocks.Count
         questionsCount = $_.questionsCount
         flashcardsCount = $_.flashcardsCount

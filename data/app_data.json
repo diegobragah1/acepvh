@@ -1660,18 +1660,15 @@
                         "title":  "1. Constituição Federal (Arts. 194 a 200), Evolução Histórica das Políticas de Saúde, Modelos de Atenção e Promoção da Saúde (PNPS)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Item 1 (Sistema Único de Saúde: princípios, diretrizes, estrutura organizacional, promoção da saúde, prevenção e controle de agravos) e Item 8 (Constituição Federal de 1988, artigos 196 a 200).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      55,
-                                                      56,
-                                                      60,
-                                                      62,
-                                                      86,
-                                                      90,
-                                                      91
-                                                  ],
-                                        "Count":  7
-                                    },
+                        "sources":  [
+                                        55,
+                                        56,
+                                        60,
+                                        62,
+                                        86,
+                                        90,
+                                        91
+                                    ],
                         "questionsCount":  16,
                         "flashcardsCount":  15,
                         "blocks":  [
@@ -1981,15 +1978,12 @@
                         "title":  "2. Lei Orgânica da Saúde I — Lei nº 8.080/1990 (Disposições Gerais, Objetivos, Princípios, Competências e Subsistema Indígena)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Item 1 e Item 8 (Lei Federal nº 8.080/1990 atualizada).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      57,
-                                                      63,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        57,
+                                        63,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  8,
                         "flashcardsCount":  9,
                         "blocks":  [
@@ -2165,17 +2159,14 @@
                         "title":  "3. Lei nº 8.080/1990 (Assistência, Financiamento, Planejamento) e Lei nº 8.142/1990 (Controle Social e Transferências)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Item 1 e Item 8 (Leis Federais nº 8.080/1990 e nº 8.142/1990).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      57,
-                                                      58,
-                                                      63,
-                                                      64,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        57,
+                                        58,
+                                        63,
+                                        64,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  7,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -2336,16 +2327,13 @@
                         "title":  "4. Decreto nÂº 7.508/2011, Redes de AtenÃ§Ã£o Ã  SaÃºde (RAS), PNAB (Portaria 2.436/2017) e PNH (HumanizaSUS)",
                         "editalRef":  "Anexo IV â€” Conhecimentos EspecÃ­ficos ACE: Itens 2, 7 e 8 (Decreto 7.508/2011; PNAB e IntegraÃ§Ã£o AtenÃ§Ã£o BÃ¡sica/VigilÃ¢ncia; PNH; PromoÃ§Ã£o da SaÃºde e Leavell \u0026 Clark).",
                         "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      59,
-                                                      60,
-                                                      65,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        59,
+                                        60,
+                                        65,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  7,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -2506,17 +2494,14 @@
                         "title":  "5. Legislação Específica do ACE: Lei Federal nº 11.350/2006 (Leis 13.595/2018 e 14.536/2023) vs. Anexo II do Edital SEMUSA",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Itens 2 e 5; Anexo II Retificado (Atribuições do Cargo de ACE — LC Municipal nº 391/2010 e LC nº 449/2012).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      61,
-                                                      86,
-                                                      87,
-                                                      88,
-                                                      89,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        61,
+                                        86,
+                                        87,
+                                        88,
+                                        89,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -2666,16 +2651,13 @@
                         "title":  "6. Vigilância em Saúde (Epidemiológica, Sanitária, Ambiental e Trabalhador), Indicadores e Sistemas de Informação (SINAN, SIM, SINASC, e-SUS)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Itens 2, 4 e 7 (Vigilâncias; Sistemas de Informação em Saúde; Indicadores Epidemiológicos).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      60,
-                                                      68,
-                                                      69,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        60,
+                                        68,
+                                        69,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  7,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -2836,17 +2818,14 @@
                         "title":  "7. Arboviroses (Dengue, Zika, Chikungunya, Febre Amarela) e Operacionalização de Campo do ACE (Imóveis, Depósitos A1-E, LIRAa, IIP, IB e Controle Vetorial)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Itens 3, 5 e 6 (Arboviroses; Controle Vetorial; Operações de Campo do ACE).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      66,
-                                                      67,
-                                                      68,
-                                                      69,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        66,
+                                        67,
+                                        68,
+                                        69,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  7,
                         "flashcardsCount":  7,
                         "blocks":  [
@@ -3003,16 +2982,13 @@
                         "title":  "8. Endemias Prioritárias na Amazônia I: Malária, Doença de Chagas (Oral/PITs) e Leishmanioses (LTA e LV)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Itens 3, 5 e 6 (Malária, Doença de Chagas, Leishmaniose Tegumentar e Visceral).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      66,
-                                                      68,
-                                                      69,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        66,
+                                        68,
+                                        69,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -3162,17 +3138,14 @@
                         "title":  "9. Endemias e Zoonoses II: Esquistossomose, Raiva, Leptospirose (3 Roedores Sinantrópicos e Antirratização), Animais Peçonhentos e Síndromes Gripais (Influenza/COVID-19)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Itens 3, 5 e 6 (Esquistossomose, Raiva, Leptospirose, Peçonhentos, Influenza e COVID-19).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      66,
-                                                      67,
-                                                      68,
-                                                      69,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        66,
+                                        67,
+                                        68,
+                                        69,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  8,
                         "flashcardsCount":  10,
                         "blocks":  [
@@ -3363,15 +3336,12 @@
                         "title":  "10. Lei Orgânica do Município de Porto Velho (Estrutura, Competências, Processo Legislativo, Servidores e Saúde/Saneamento)",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 1 (Lei Orgânica do Município de Porto Velho atualizada).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      49,
-                                                      86,
-                                                      91,
-                                                      92
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        49,
+                                        86,
+                                        91,
+                                        92
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -3521,15 +3491,12 @@
                         "title":  "11. Estatuto dos Servidores Públicos do Município de Porto Velho — Lei Complementar Municipal nº 385/2010 Completa",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 1 (Lei Complementar Municipal nº 385/2010 — Regime Jurídico dos Servidores Públicos de Porto Velho).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      50,
-                                                      86,
-                                                      91,
-                                                      93
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        50,
+                                        86,
+                                        91,
+                                        93
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -3679,17 +3646,14 @@
                         "title":  "12. Planos de Carreira e RemuneraÃ§Ã£o dos Servidores da SEMUSA e ACE (LCs Municipais nÂº 390/2010, 391/2010, 447/2012, 449/2012 e 1.018/2025)",
                         "editalRef":  "Anexo IV â€” LegislaÃ§Ã£o ACE: Item 1 e Anexo I/II Retificados (Leis Complementares Municipais de Carreira da SaÃºde e ACE em Porto Velho).",
                         "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      50,
-                                                      86,
-                                                      87,
-                                                      88,
-                                                      89,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        50,
+                                        86,
+                                        87,
+                                        88,
+                                        89,
+                                        91
+                                    ],
                         "questionsCount":  4,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -3809,20 +3773,17 @@
                         "title":  "13. Direito Constitucional I: Princípios Fundamentais (Arts. 1º a 4º) e Direitos e Garantias Fundamentais (Arts. 5º a 11 da CF/1988)",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 2 (Constituição Federal de 1988: Princípios Fundamentais; Direitos e Garantias Fundamentais).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      42,
-                                                      43,
-                                                      44,
-                                                      45,
-                                                      46,
-                                                      47,
-                                                      48,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  9
-                                    },
+                        "sources":  [
+                                        42,
+                                        43,
+                                        44,
+                                        45,
+                                        46,
+                                        47,
+                                        48,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -3972,16 +3933,13 @@
                         "title":  "14. Direito Constitucional II (Administração Pública Arts. 37 a 41 e Municípios Arts. 29 a 31) e Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015)",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 2 (CF/88 Administração Pública e Municípios) e Item 3 (Lei Federal nº 13.146/2015 — LBI).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      41,
-                                                      49,
-                                                      50,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        41,
+                                        49,
+                                        50,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  7,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -4142,16 +4100,13 @@
                         "title":  "15. Nova Lei de Licitações e Contratos Administrativos — Lei Federal nº 14.133/2021 (Modalidades, Pregão na Nova Lei e Contratação Direta Arts. 74 e 75)",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 4 (Lei Federal nº 14.133/2021 — Licitações e Contratos Administrativos).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      51,
-                                                      52,
-                                                      54,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        51,
+                                        52,
+                                        54,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -4301,15 +4256,12 @@
                         "title":  "16. Lei de Acesso à Informação (LAI — Lei Federal nº 12.527/2011) e Legislação Estadual (RO) e Municipal (Porto Velho) de Acesso à Informação",
                         "editalRef":  "Anexo IV — Legislação ACE: Item 5 (Lei Federal nº 12.527/2011 e legislação estadual/municipal de Acesso à Informação).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      53,
-                                                      86,
-                                                      91,
-                                                      94
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        53,
+                                        86,
+                                        91,
+                                        94
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -4459,16 +4411,13 @@
                         "title":  "17. Compreensão e Interpretação de Textos, Tipologia Textual e Gêneros Textuais",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Compreensão e interpretação de textos; Tipos e gêneros textuais.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      38,
-                                                      39,
-                                                      40,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        38,
+                                        39,
+                                        40,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -4588,16 +4537,13 @@
                         "title":  "18. Ortografia Oficial, Acentuação Gráfica, Emprego do Hífen e Semântica Lexical",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Ortografia oficial; Acentuação gráfica; Significação das palavras.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      23,
-                                                      35,
-                                                      36,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        23,
+                                        35,
+                                        36,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -4717,16 +4663,13 @@
                         "title":  "19. Coesão, Coerência, Conjunções, Operadores Argumentativos Escalares, Pressupostos e Subentendidos",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Coesão e coerência; Conjunções; Operadores argumentativos; Pressupostos e subentendidos.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      26,
-                                                      37,
-                                                      39,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        26,
+                                        37,
+                                        39,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -4876,20 +4819,17 @@
                         "title":  "20. Morfologia: Classes de Palavras, Formação de Palavras, Verbos (Tempos, Modos e Vozes) e Colocação Pronominal",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Morfologia; Classes de palavras; Flexão nominal e verbal; Pronomes.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      22,
-                                                      24,
-                                                      25,
-                                                      26,
-                                                      27,
-                                                      28,
-                                                      29,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  9
-                                    },
+                        "sources":  [
+                                        22,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5009,16 +4949,13 @@
                         "title":  "21. Sintaxe I: Análise Sintática, Concordância Verbal e Nominal",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Sintaxe da oração e do período; Concordância verbal e nominal.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      30,
-                                                      31,
-                                                      32,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        30,
+                                        31,
+                                        32,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5138,15 +5075,12 @@
                         "title":  "22. Sintaxe II: Regência Verbal e Nominal, Emprego do Sinal Indicativo de Crase e Pontuação",
                         "editalRef":  "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Regência verbal e nominal; Crase; Pontuação.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      33,
-                                                      34,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        33,
+                                        34,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5266,15 +5200,12 @@
                         "title":  "23. Lógica Proposicional I: Proposições, Conectivos Lógicos, Tabelas-Verdade, Tautologia, Contradição e Contingência",
                         "editalRef":  "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Estruturas lógicas; Conectivos; Tabelas-verdade; Tautologia, contradição e contingência.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      1,
-                                                      2,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  4
-                                    },
+                        "sources":  [
+                                        1,
+                                        2,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5394,18 +5325,15 @@
                         "title":  "24. Lógica Proposicional II: Negação de Proposições Composto (Leis de De Morgan), Equivalências Lógicas, Quantificadores e Argumentação",
                         "editalRef":  "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Negação e equivalência de proposições; Diagramas lógicos e quantificadores; Argumentação lógica.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      2,
-                                                      3,
-                                                      4,
-                                                      5,
-                                                      6,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  7
-                                    },
+                        "sources":  [
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5525,20 +5453,17 @@
                         "title":  "25. Operações com Conjuntos, Conjuntos Numéricos, Equações, Sistemas Lineares de 1º Grau e Médias (Aritmética Simples e Ponderada)",
                         "editalRef":  "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Conjuntos; Números naturais, inteiros, racionais e reais; Equações e sistemas lineares; Médias.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      9,
-                                                      10,
-                                                      11,
-                                                      13,
-                                                      17,
-                                                      18,
-                                                      19,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  9
-                                    },
+                        "sources":  [
+                                        9,
+                                        10,
+                                        11,
+                                        13,
+                                        17,
+                                        18,
+                                        19,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  10,
                         "flashcardsCount":  12,
                         "blocks":  [
@@ -5748,16 +5673,13 @@
                         "title":  "26. Razão, Proporção, Regra de Três (Simples e Composta), Porcentagem e Frações",
                         "editalRef":  "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Frações; Razão e proporção; Regra de três simples e composta; Porcentagem.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      14,
-                                                      15,
-                                                      16,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        14,
+                                        15,
+                                        16,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -5877,16 +5799,13 @@
                         "title":  "27. Sequências Lógicas, Progressão Aritmética (PA), Progressão Geométrica (PG), Análise Combinatória e Probabilidade",
                         "editalRef":  "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Sequências numéricas, de letras e figuras; PA e PG; Princípio fundamental da contagem, arranjo, permutação, combinação e probabilidade.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      8,
-                                                      20,
-                                                      21,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  5
-                                    },
+                        "sources":  [
+                                        8,
+                                        20,
+                                        21,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  5,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -6006,18 +5925,15 @@
                         "title":  "28. Geometria Plana e Espacial (Ãreas, PerÃ­metros e Volumes), Unidades de Medida e PrincÃ­pio da Casa dos Pombos",
                         "editalRef":  "Anexo IV â€” RaciocÃ­nio LÃ³gico-MatemÃ¡tico (NÃ­vel MÃ©dio/ACE): Geometria bÃ¡sica (Ã¡reas, perÃ­metros e volumes de sÃ³lidos geomÃ©tricos); Sistema mÃ©trico decimal (unidades de comprimento, superfÃ­cie, capacidade, volume e massa); PrincÃ­pio fundamental da contagem e PrincÃ­pio da Casa dos Pombos (Dirichlet).",
                         "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 3 BLOCOS)",
-                        "sources":  {
-                                        "value":  [
-                                                      2,
-                                                      3,
-                                                      4,
-                                                      5,
-                                                      6,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  7
-                                    },
+                        "sources":  [
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  6,
                         "blocks":  [
@@ -6186,17 +6102,14 @@
                         "title":  "29. Geografia, Demografia (IBGE Censo 2022/2025), Distritos, Hidrografia (UHEs Santo Antônio e Jirau), ZSEE e Símbolos de Porto Velho e Rondônia",
                         "editalRef":  "Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): Aspectos geográficos, econômicos, populacionais e ambientais de Porto Velho e de Rondônia.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      73,
-                                                      74,
-                                                      75,
-                                                      86,
-                                                      88,
-                                                      91
-                                                  ],
-                                        "Count":  6
-                                    },
+                        "sources":  [
+                                        73,
+                                        74,
+                                        75,
+                                        86,
+                                        88,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  7,
                         "blocks":  [
@@ -6342,19 +6255,16 @@
                         "title":  "30. História de Rondônia e de Porto Velho (Ciclos da Borracha, Tratado de Petrópolis, EFMM, Rondon, Território do Guaporé, Estado de RO) e Patrimônio Cultural",
                         "editalRef":  "Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): História e cultura de Porto Velho e do Estado de Rondônia.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      77,
-                                                      78,
-                                                      79,
-                                                      80,
-                                                      81,
-                                                      82,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  8
-                                    },
+                        "sources":  [
+                                        77,
+                                        78,
+                                        79,
+                                        80,
+                                        81,
+                                        82,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  7,
                         "blocks":  [
@@ -6500,20 +6410,17 @@
                         "title":  "31. Georreferenciamento Aplicado à Saúde e Meio Ambiente (SIG/GIS, GPS, Sensoriamento Remoto, PRODES/DETER) e Atualidades (COP30, Clima no Rio Madeira e Notícias Locais 2025–2026)",
                         "editalRef":  "Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): Georreferenciamento; Meio ambiente; Fatos políticos, econômicos, sociais e ambientais (nacional e local).",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-                        "sources":  {
-                                        "value":  [
-                                                      70,
-                                                      71,
-                                                      72,
-                                                      76,
-                                                      83,
-                                                      84,
-                                                      85,
-                                                      86,
-                                                      91
-                                                  ],
-                                        "Count":  9
-                                    },
+                        "sources":  [
+                                        70,
+                                        71,
+                                        72,
+                                        76,
+                                        83,
+                                        84,
+                                        85,
+                                        86,
+                                        91
+                                    ],
                         "questionsCount":  6,
                         "flashcardsCount":  8,
                         "blocks":  [
@@ -6663,18 +6570,15 @@
                         "title":  "32. Cálculos Operacionais de Campo do ACE (Cubagem e Dosagem de Larvicidas), Equipamentos de Aspersão (BRI), Biossegurança (EPIs/NR-6), Toxicologia e Reconhecimento Geográfico (RG)",
                         "editalRef":  "Anexo IV — Conhecimentos Específicos ACE: Controle de vetores, operacionalização de campo, cubagem de reservatórios, aplicação de larvicidas/adulticidas, biossegurança, toxicologia ocupacional e Reconhecimento Geográfico.",
                         "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 3 BLOCOS)",
-                        "sources":  {
-                                        "value":  [
-                                                      12,
-                                                      66,
-                                                      68,
-                                                      69,
-                                                      86,
-                                                      89,
-                                                      91
-                                                  ],
-                                        "Count":  7
-                                    },
+                        "sources":  [
+                                        12,
+                                        66,
+                                        68,
+                                        69,
+                                        86,
+                                        89,
+                                        91
+                                    ],
                         "questionsCount":  9,
                         "flashcardsCount":  9,
                         "blocks":  [
@@ -7413,18 +7317,15 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/01-cf88-seguridade-saude-evolucao-historica-pnps.md",
                            "mdLegacyPath":  "./content/esp_1.md",
-                           "sources":  {
-                                           "value":  [
-                                                         55,
-                                                         56,
-                                                         60,
-                                                         62,
-                                                         86,
-                                                         90,
-                                                         91
-                                                     ],
-                                           "Count":  7
-                                       },
+                           "sources":  [
+                                           55,
+                                           56,
+                                           60,
+                                           62,
+                                           86,
+                                           90,
+                                           91
+                                       ],
                            "blocksCount":  5,
                            "questionsCount":  16,
                            "flashcardsCount":  15
@@ -7441,15 +7342,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/02-lei-8080-1990-parte-1-principios-competencias-subsistema-indigena.md",
                            "mdLegacyPath":  "./content/esp_2.md",
-                           "sources":  {
-                                           "value":  [
-                                                         57,
-                                                         63,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           57,
+                                           63,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  8,
                            "flashcardsCount":  9
@@ -7466,17 +7364,14 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/03-lei-8080-1990-parte-2-assistencia-financiamento-lei-8142-1990.md",
                            "mdLegacyPath":  "./content/esp_3.md",
-                           "sources":  {
-                                           "value":  [
-                                                         57,
-                                                         58,
-                                                         63,
-                                                         64,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           57,
+                                           58,
+                                           63,
+                                           64,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  7,
                            "flashcardsCount":  8
@@ -7493,16 +7388,13 @@
                            "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/04-decreto-7508-2011-redes-atencao-pnab-2017-humanizasus.md",
                            "mdLegacyPath":  "./content/esp_4.md",
-                           "sources":  {
-                                           "value":  [
-                                                         59,
-                                                         60,
-                                                         65,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           59,
+                                           60,
+                                           65,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  7,
                            "flashcardsCount":  8
@@ -7519,17 +7411,14 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa.md",
                            "mdLegacyPath":  "./content/esp_5.md",
-                           "sources":  {
-                                           "value":  [
-                                                         61,
-                                                         86,
-                                                         87,
-                                                         88,
-                                                         89,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           61,
+                                           86,
+                                           87,
+                                           88,
+                                           89,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7546,16 +7435,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep.md",
                            "mdLegacyPath":  "./content/esp_6.md",
-                           "sources":  {
-                                           "value":  [
-                                                         60,
-                                                         68,
-                                                         69,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           60,
+                                           68,
+                                           69,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  7,
                            "flashcardsCount":  8
@@ -7572,17 +7458,14 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/07-arboviroses-dengue-zika-chikungunya-febre-amarela-liraa.md",
                            "mdLegacyPath":  "./content/esp_7.md",
-                           "sources":  {
-                                           "value":  [
-                                                         66,
-                                                         67,
-                                                         68,
-                                                         69,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           66,
+                                           67,
+                                           68,
+                                           69,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  7,
                            "flashcardsCount":  7
@@ -7599,16 +7482,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/08-malaria-doenca-de-chagas-oral-pits-leishmanioses-lta-lv.md",
                            "mdLegacyPath":  "./content/esp_8.md",
-                           "sources":  {
-                                           "value":  [
-                                                         66,
-                                                         68,
-                                                         69,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           66,
+                                           68,
+                                           69,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7625,17 +7505,14 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-especificos/09-esquistossomose-raiva-leptospirose-roedores-febre-maculosa-covid19.md",
                            "mdLegacyPath":  "./content/esp_9.md",
-                           "sources":  {
-                                           "value":  [
-                                                         66,
-                                                         67,
-                                                         68,
-                                                         69,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           66,
+                                           67,
+                                           68,
+                                           69,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  4,
                            "questionsCount":  8,
                            "flashcardsCount":  10
@@ -7652,15 +7529,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/10-lei-organica-municipio-porto-velho-lom-pvh.md",
                            "mdLegacyPath":  "./content/leg_1.md",
-                           "sources":  {
-                                           "value":  [
-                                                         49,
-                                                         86,
-                                                         91,
-                                                         92
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           49,
+                                           86,
+                                           91,
+                                           92
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7677,15 +7551,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/11-estatuto-servidores-porto-velho-lc-385-2010.md",
                            "mdLegacyPath":  "./content/leg_2.md",
-                           "sources":  {
-                                           "value":  [
-                                                         50,
-                                                         86,
-                                                         91,
-                                                         93
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           50,
+                                           86,
+                                           91,
+                                           93
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7702,17 +7573,14 @@
                            "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/12-planos-carreira-remuneracao-semusa-ace-lcs-390-391-2010.md",
                            "mdLegacyPath":  "./content/leg_3.md",
-                           "sources":  {
-                                           "value":  [
-                                                         50,
-                                                         86,
-                                                         87,
-                                                         88,
-                                                         89,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           50,
+                                           86,
+                                           87,
+                                           88,
+                                           89,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  4,
                            "flashcardsCount":  6
@@ -7729,20 +7597,17 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/13-direito-constitucional-1-principios-fundamentais-direitos-garantias-nacionalidade.md",
                            "mdLegacyPath":  "./content/leg_4.md",
-                           "sources":  {
-                                           "value":  [
-                                                         42,
-                                                         43,
-                                                         44,
-                                                         45,
-                                                         46,
-                                                         47,
-                                                         48,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  9
-                                       },
+                           "sources":  [
+                                           42,
+                                           43,
+                                           44,
+                                           45,
+                                           46,
+                                           47,
+                                           48,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7759,16 +7624,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/14-direito-constitucional-2-municipios-administracao-publica-estatuto-pcd.md",
                            "mdLegacyPath":  "./content/leg_5.md",
-                           "sources":  {
-                                           "value":  [
-                                                         41,
-                                                         49,
-                                                         50,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           41,
+                                           49,
+                                           50,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  7,
                            "flashcardsCount":  8
@@ -7785,16 +7647,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/15-nova-lei-licitacoes-contratos-lei-14133-2021-pregao.md",
                            "mdLegacyPath":  "./content/leg_6.md",
-                           "sources":  {
-                                           "value":  [
-                                                         51,
-                                                         52,
-                                                         54,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           51,
+                                           52,
+                                           54,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7811,15 +7670,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/legislacao/16-lei-acesso-informacao-lai-federal-estadual-ro-municipal-pvh.md",
                            "mdLegacyPath":  "./content/leg_7.md",
-                           "sources":  {
-                                           "value":  [
-                                                         53,
-                                                         86,
-                                                         91,
-                                                         94
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           53,
+                                           86,
+                                           91,
+                                           94
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7836,16 +7692,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/17-compreensao-interpretacao-textos-tipologia-generos-variacao-linguistica.md",
                            "mdLegacyPath":  "./content/por_1.md",
-                           "sources":  {
-                                           "value":  [
-                                                         38,
-                                                         39,
-                                                         40,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           38,
+                                           39,
+                                           40,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -7862,16 +7715,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/18-ortografia-acentuacao-hifen-semantica-figuras-linguagem-sintaxe.md",
                            "mdLegacyPath":  "./content/por_2.md",
-                           "sources":  {
-                                           "value":  [
-                                                         23,
-                                                         35,
-                                                         36,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           23,
+                                           35,
+                                           36,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -7888,16 +7738,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/19-coesao-coerencia-conjuncoes-operadores-argumentativos-implictos.md",
                            "mdLegacyPath":  "./content/por_3.md",
-                           "sources":  {
-                                           "value":  [
-                                                         26,
-                                                         37,
-                                                         39,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           26,
+                                           37,
+                                           39,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -7914,20 +7761,17 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/20-morfologia-classes-formacao-palavras-verbos-colocacao-pronominal.md",
                            "mdLegacyPath":  "./content/por_4.md",
-                           "sources":  {
-                                           "value":  [
-                                                         22,
-                                                         24,
-                                                         25,
-                                                         26,
-                                                         27,
-                                                         28,
-                                                         29,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  9
-                                       },
+                           "sources":  [
+                                           22,
+                                           24,
+                                           25,
+                                           26,
+                                           27,
+                                           28,
+                                           29,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -7944,16 +7788,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/21-sintaxe-1-analise-sintatica-concordancia-verbal-nominal.md",
                            "mdLegacyPath":  "./content/por_5.md",
-                           "sources":  {
-                                           "value":  [
-                                                         30,
-                                                         31,
-                                                         32,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           30,
+                                           31,
+                                           32,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -7970,15 +7811,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/portugues/22-sintaxe-2-regencia-verbal-nominal-crase-pontuacao.md",
                            "mdLegacyPath":  "./content/por_6.md",
-                           "sources":  {
-                                           "value":  [
-                                                         33,
-                                                         34,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           33,
+                                           34,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -7995,15 +7833,12 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/raciocinio-logico/23-logica-proposicional-1-proposicoes-conectivos-tabelas-verdade-tautologia.md",
                            "mdLegacyPath":  "./content/rlm_1.md",
-                           "sources":  {
-                                           "value":  [
-                                                         1,
-                                                         2,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  4
-                                       },
+                           "sources":  [
+                                           1,
+                                           2,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -8020,18 +7855,15 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/raciocinio-logico/24-logica-proposicional-2-de-morgan-equivalencias-quantificadores-argumentacao.md",
                            "mdLegacyPath":  "./content/rlm_2.md",
-                           "sources":  {
-                                           "value":  [
-                                                         2,
-                                                         3,
-                                                         4,
-                                                         5,
-                                                         6,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  7
-                                       },
+                           "sources":  [
+                                           2,
+                                           3,
+                                           4,
+                                           5,
+                                           6,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -8048,20 +7880,17 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/raciocinio-logico/25-conjuntos-mmc-mdc-equacoes-sistemas-lineares-funcao-1-grau-medias.md",
                            "mdLegacyPath":  "./content/rlm_3.md",
-                           "sources":  {
-                                           "value":  [
-                                                         9,
-                                                         10,
-                                                         11,
-                                                         13,
-                                                         17,
-                                                         18,
-                                                         19,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  9
-                                       },
+                           "sources":  [
+                                           9,
+                                           10,
+                                           11,
+                                           13,
+                                           17,
+                                           18,
+                                           19,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  10,
                            "flashcardsCount":  12
@@ -8078,16 +7907,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/raciocinio-logico/26-razao-proporcao-regra-de-tres-simples-composta-porcentagem-fracoes.md",
                            "mdLegacyPath":  "./content/rlm_4.md",
-                           "sources":  {
-                                           "value":  [
-                                                         14,
-                                                         15,
-                                                         16,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           14,
+                                           15,
+                                           16,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -8104,16 +7930,13 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/raciocinio-logico/27-sequencias-pa-pg-analise-combinatoria-probabilidade.md",
                            "mdLegacyPath":  "./content/rlm_5.md",
-                           "sources":  {
-                                           "value":  [
-                                                         8,
-                                                         20,
-                                                         21,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  5
-                                       },
+                           "sources":  [
+                                           8,
+                                           20,
+                                           21,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  2,
                            "questionsCount":  5,
                            "flashcardsCount":  6
@@ -8130,18 +7953,15 @@
                            "auditBadge":  "AULA INTEGRAL NÃVEL LIVRO DIDÃTICO (ESTRUTURA EM 3 BLOCOS)",
                            "mdPath":  "./content/raciocinio-logico/28-geometria-plana-espacial-unidades-medida-casa-dos-pombos.md",
                            "mdLegacyPath":  "./content/rlm_6.md",
-                           "sources":  {
-                                           "value":  [
-                                                         2,
-                                                         3,
-                                                         4,
-                                                         5,
-                                                         6,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  7
-                                       },
+                           "sources":  [
+                                           2,
+                                           3,
+                                           4,
+                                           5,
+                                           6,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  6,
                            "questionsCount":  6,
                            "flashcardsCount":  6
@@ -8158,17 +7978,14 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-gerais/29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro.md",
                            "mdLegacyPath":  "./content/atu_1.md",
-                           "sources":  {
-                                           "value":  [
-                                                         73,
-                                                         74,
-                                                         75,
-                                                         86,
-                                                         88,
-                                                         91
-                                                     ],
-                                           "Count":  6
-                                       },
+                           "sources":  [
+                                           73,
+                                           74,
+                                           75,
+                                           86,
+                                           88,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  7
@@ -8185,19 +8002,16 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-gerais/30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural.md",
                            "mdLegacyPath":  "./content/atu_2.md",
-                           "sources":  {
-                                           "value":  [
-                                                         77,
-                                                         78,
-                                                         79,
-                                                         80,
-                                                         81,
-                                                         82,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  8
-                                       },
+                           "sources":  [
+                                           77,
+                                           78,
+                                           79,
+                                           80,
+                                           81,
+                                           82,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  7
@@ -8214,20 +8028,17 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
                            "mdPath":  "./content/conhecimentos-gerais/31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026.md",
                            "mdLegacyPath":  "./content/atu_3.md",
-                           "sources":  {
-                                           "value":  [
-                                                         70,
-                                                         71,
-                                                         72,
-                                                         76,
-                                                         83,
-                                                         84,
-                                                         85,
-                                                         86,
-                                                         91
-                                                     ],
-                                           "Count":  9
-                                       },
+                           "sources":  [
+                                           70,
+                                           71,
+                                           72,
+                                           76,
+                                           83,
+                                           84,
+                                           85,
+                                           86,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  6,
                            "flashcardsCount":  8
@@ -8244,18 +8055,15 @@
                            "auditBadge":  "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 3 BLOCOS)",
                            "mdPath":  "./content/conhecimentos-especificos/32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg.md",
                            "mdLegacyPath":  "./content/esp_10.md",
-                           "sources":  {
-                                           "value":  [
-                                                         12,
-                                                         66,
-                                                         68,
-                                                         69,
-                                                         86,
-                                                         89,
-                                                         91
-                                                     ],
-                                           "Count":  7
-                                       },
+                           "sources":  [
+                                           12,
+                                           66,
+                                           68,
+                                           69,
+                                           86,
+                                           89,
+                                           91
+                                       ],
                            "blocksCount":  3,
                            "questionsCount":  9,
                            "flashcardsCount":  9

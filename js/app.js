@@ -19,6 +19,7 @@ let APP_DATA = {
 };
 
 const STORAGE_KEY_COMPLETED = "ace_semusa_2026_completed_lessons_v3";
+const STORAGE_KEY_TOPIC_STATUS = "ace_semusa_2026_topic_status_v1";
 const STORAGE_KEY_ANSWERS = "ace_semusa_2026_sim_answers_v3";
 
 function loadStorage(key, fallback) {
@@ -37,10 +38,104 @@ function saveStorage(key, val) {
 }
 
 let completedLessons = loadStorage(STORAGE_KEY_COMPLETED, []);
+let topicStatus = loadStorage(STORAGE_KEY_TOPIC_STATUS, {});
 let simAnswers = loadStorage(STORAGE_KEY_ANSWERS, {});
 let currentLessonId = "esp_1";
 let currentCategoryFilter = "all";
+let currentStatusFilter = "all";
 let currentStudyMode = "ALL";
+
+function getTopicStatus(topicId) {
+  if (topicStatus && topicStatus[topicId]) {
+    return topicStatus[topicId];
+  }
+  if (completedLessons && completedLessons.includes(topicId)) {
+    return "completed";
+  }
+  return "not_started";
+}
+
+function getStatusMeta(status) {
+  switch (status) {
+    case "studying":
+      return {
+        id: "studying",
+        label: "Estudando",
+        icon: "📘",
+        badgeClass: "bg-sky-100 text-sky-800 border-sky-300",
+        activeClass: "bg-sky-600 text-white shadow-sm",
+        pillClass: "bg-sky-500 text-white"
+      };
+    case "completed":
+      return {
+        id: "completed",
+        label: "Estudado",
+        icon: "✅",
+        badgeClass: "bg-emerald-100 text-emerald-800 border-emerald-300",
+        activeClass: "bg-emerald-600 text-white shadow-sm",
+        pillClass: "bg-emerald-600 text-white"
+      };
+    case "review":
+      return {
+        id: "review",
+        label: "Revisar",
+        icon: "🔄",
+        badgeClass: "bg-amber-100 text-amber-800 border-amber-300",
+        activeClass: "bg-amber-500 text-white shadow-sm",
+        pillClass: "bg-amber-500 text-white"
+      };
+    case "mastered":
+      return {
+        id: "mastered",
+        label: "Dominado",
+        icon: "🏆",
+        badgeClass: "bg-purple-100 text-purple-800 border-purple-300",
+        activeClass: "bg-purple-600 text-white shadow-sm",
+        pillClass: "bg-purple-600 text-white"
+      };
+    case "not_started":
+    default:
+      return {
+        id: "not_started",
+        label: "Não iniciado",
+        icon: "⚪",
+        badgeClass: "bg-slate-100 text-slate-700 border-slate-300",
+        activeClass: "bg-slate-700 text-white shadow-sm",
+        pillClass: "bg-slate-300 text-slate-700"
+      };
+  }
+}
+
+function updateTopicStatus(subjectId, topicId, newStatus) {
+  if (!newStatus) {
+    newStatus = topicId;
+    topicId = subjectId;
+  }
+  if (!topicId || !newStatus) return;
+
+  topicStatus[topicId] = newStatus;
+
+  // Sincroniza com completedLessons para retrocompatibilidade
+  if (newStatus === "completed" || newStatus === "mastered") {
+    if (!completedLessons.includes(topicId)) {
+      completedLessons.push(topicId);
+    }
+  } else {
+    completedLessons = completedLessons.filter(id => id !== topicId);
+  }
+
+  saveStorage(STORAGE_KEY_TOPIC_STATUS, topicStatus);
+  saveStorage(STORAGE_KEY_COMPLETED, completedLessons);
+
+  const meta = getStatusMeta(newStatus);
+  showToast(`${meta.icon} Status atualizado: ${meta.label}!`);
+
+  updateGlobalProgress();
+  renderLessonsSidebar();
+  renderCurrentLesson();
+  renderTab5();
+}
+window.updateTopicStatus = updateTopicStatus;
 
 function showToast(msg) {
   const banner = document.getElementById("toastBanner");
@@ -92,14 +187,97 @@ function switchTab(tabId) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function updateHeroCountdown() {
+  const countdownEl = document.getElementById("hero-countdown");
+  if (!countdownEl) return;
+  // Prova IBGP SEMUSA Porto Velho: 13/12/2026 14:45:00 (Fuso horário de Rondônia: UTC-4)
+  const examDate = new Date("2026-12-13T14:45:00-04:00").getTime();
+  const now = new Date().getTime();
+  const diff = examDate - now;
+
+  if (diff <= 0) {
+    countdownEl.innerHTML = `<span class="text-emerald-400 font-bold">Prova em andamento ou realizada!</span>`;
+    return;
+  }
+
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+  countdownEl.innerHTML = `<span class="text-white">${days} dias</span> <span class="text-slate-300 font-bold text-sm">e ${String(hours).padStart(2, '0')}h ${String(minutes).padStart(2, '0')}m ${String(seconds).padStart(2, '0')}s</span>`;
+}
+
 function updateGlobalProgress() {
-  const total = APP_DATA.lessons.length;
-  const done = completedLessons.length;
-  const pct = Math.round((done / total) * 100);
+  const total = APP_DATA.lessons.length || 32;
+  let cNotStarted = 0;
+  let cStudying = 0;
+  let cCompleted = 0;
+  let cReview = 0;
+  let cMastered = 0;
+
+  APP_DATA.lessons.forEach(l => {
+    const st = getTopicStatus(l.id);
+    if (st === "studying") cStudying++;
+    else if (st === "completed") cCompleted++;
+    else if (st === "review") cReview++;
+    else if (st === "mastered") cMastered++;
+    else cNotStarted++;
+  });
+
+  const done = cCompleted + cMastered;
+  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+
+  // Atualiza percentual em destaque no Card de Contagem Regressiva
+  const pctEl = document.getElementById("global-progress-percent");
+  if (pctEl) pctEl.textContent = `${pct}%`;
+
+  // Atualiza Barra de Progresso Multi-status (5 níveis)
+  const barMastered = document.getElementById("bar-global-mastered");
+  const barCompleted = document.getElementById("bar-global-completed");
+  const barReview = document.getElementById("bar-global-review");
+  const barStudying = document.getElementById("bar-global-studying");
+
+  const wMastered = total > 0 ? ((cMastered / total) * 100).toFixed(1) : 0;
+  const wCompleted = total > 0 ? ((cCompleted / total) * 100).toFixed(1) : 0;
+  const wReview = total > 0 ? ((cReview / total) * 100).toFixed(1) : 0;
+  const wStudying = total > 0 ? ((cStudying / total) * 100).toFixed(1) : 0;
+
+  if (barMastered) {
+    barMastered.style.width = `${wMastered}%`;
+    barMastered.title = `Dominado: ${cMastered} aula${cMastered === 1 ? '' : 's'} (${wMastered}%)`;
+  }
+  if (barCompleted) {
+    barCompleted.style.width = `${wCompleted}%`;
+    barCompleted.title = `Estudado: ${cCompleted} aula${cCompleted === 1 ? '' : 's'} (${wCompleted}%)`;
+  }
+  if (barReview) {
+    barReview.style.width = `${wReview}%`;
+    barReview.title = `Revisar: ${cReview} aula${cReview === 1 ? '' : 's'} (${wReview}%)`;
+  }
+  if (barStudying) {
+    barStudying.style.width = `${wStudying}%`;
+    barStudying.title = `Estudando: ${cStudying} aula${cStudying === 1 ? '' : 's'} (${wStudying}%)`;
+  }
+
+  // Rótulo descritivo e barra legada (se existente)
   const lbl = document.getElementById("globalProgressLabel");
   const bar = document.getElementById("globalProgressBar");
   if (lbl) lbl.textContent = `${done} / ${total} (${pct}%)`;
   if (bar) bar.style.width = `${pct}%`;
+
+  // Breakdown em números individuais
+  const elNS = document.getElementById("count_not_started");
+  const elSt = document.getElementById("count_studying");
+  const elCo = document.getElementById("count_completed");
+  const elRe = document.getElementById("count_review");
+  const elMa = document.getElementById("count_mastered");
+
+  if (elNS) elNS.textContent = cNotStarted;
+  if (elSt) elSt.textContent = cStudying;
+  if (elCo) elCo.textContent = cCompleted;
+  if (elRe) elRe.textContent = cReview;
+  if (elMa) elMa.textContent = cMastered;
 }
 
 // Render Tab 1: Cargos & Official Docs
@@ -164,12 +342,14 @@ function getFilteredLessons() {
   return APP_DATA.lessons.filter(l => {
     const matchCat = currentCategoryFilter === "all" || l.cat === currentCategoryFilter;
     if (!matchCat) return false;
+    const st = getTopicStatus(l.id);
+    if (currentStatusFilter !== "all" && st !== currentStatusFilter) return false;
     if (!q) return true;
-    const inTitle = l.title.toLowerCase().includes(q) || l.editalRef.toLowerCase().includes(q);
-    const inBlocks = l.blocks.some(b =>
+    const inTitle = l.title.toLowerCase().includes(q) || (l.editalRef && l.editalRef.toLowerCase().includes(q));
+    const inBlocks = (l.blocks || []).some(b =>
       b.title.toLowerCase().includes(q) ||
-      b.modoA.toLowerCase().includes(q) ||
-      b.modoB.toLowerCase().includes(q)
+      (b.modoA && b.modoA.toLowerCase().includes(q)) ||
+      (b.modoB && b.modoB.toLowerCase().includes(q))
     );
     return inTitle || inBlocks;
   });
@@ -179,19 +359,27 @@ function renderLessonsSidebar() {
   const listEl = document.getElementById("lessonsSidebarList");
   if (!listEl) return;
   const filtered = getFilteredLessons();
+  const countEl = document.getElementById("statusFilterCount");
+  if (countEl) {
+    countEl.textContent = `${filtered.length} aula${filtered.length === 1 ? '' : 's'}`;
+  }
   if (filtered.length === 0) {
     listEl.innerHTML = `<div class="p-4 text-xs text-slate-500">Nenhuma aula encontrada para esse filtro.</div>`;
     return;
   }
   listEl.innerHTML = filtered.map(l => {
     const isCurrent = l.id === currentLessonId;
-    const isDone = completedLessons.includes(l.id);
+    const st = getTopicStatus(l.id);
+    const meta = getStatusMeta(st);
     return `<button type="button" data-lesson-id="${l.id}" class="lesson-nav-item w-full text-left p-3 transition flex items-start gap-2.5 ${isCurrent ? 'bg-teal-50 border-l-4 border-teal-600' : 'hover:bg-slate-50'}">
-      <span class="mt-0.5 inline-flex items-center justify-center w-5 h-5 rounded-full text-[11px] font-bold flex-shrink-0 ${isDone ? 'bg-emerald-600 text-white' : 'bg-slate-200 text-slate-700'}">
-        ${isDone ? '&#10003;' : (l.num || (APP_DATA.lessons.indexOf(l) + 1))}
+      <span class="mt-0.5 inline-flex items-center justify-center w-6 h-6 rounded-lg text-xs font-bold flex-shrink-0 border ${meta.badgeClass}" title="Status: ${meta.label}">
+        ${meta.icon}
       </span>
       <div class="flex-1 min-w-0">
-        <div class="text-[10px] font-bold uppercase tracking-wider text-slate-500">${l.catName.split(' ')[0]} &bull; ${l.weight}</div>
+        <div class="flex items-center justify-between text-[10px] font-bold uppercase tracking-wider text-slate-500">
+          <span>${l.catName.split(' ')[0]} &bull; ${l.weight}</span>
+          <span class="text-[10px] font-semibold text-slate-600">${meta.label}</span>
+        </div>
         <div class="text-xs font-bold text-slate-900 leading-snug mt-0.5">${l.title}</div>
       </div>
     </button>`;
@@ -327,20 +515,62 @@ function renderCurrentLesson() {
   if (!container) return;
   const idx = APP_DATA.lessons.findIndex(l => l.id === currentLessonId);
   const lesson = idx >= 0 ? APP_DATA.lessons[idx] : APP_DATA.lessons[0];
-  const isDone = completedLessons.includes(lesson.id);
+  const currentStatus = getTopicStatus(lesson.id);
+  const meta = getStatusMeta(currentStatus);
+  const isDone = currentStatus === "completed" || currentStatus === "mastered";
 
   const completeBtn = document.getElementById("toggleCompleteLessonBtn");
   if (completeBtn) {
     completeBtn.className = isDone
       ? "px-4 py-2 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 text-white border border-emerald-600 shadow"
       : "px-4 py-2 rounded-xl font-bold text-xs sm:text-sm bg-white text-slate-700 border border-slate-300 hover:bg-slate-50";
-    completeBtn.innerHTML = isDone ? "&#10003; Aula Concluída (Clique p/ Desmarcar)" : "Marcar Aula como Concluída";
+    completeBtn.innerHTML = isDone
+      ? `${meta.icon} Concluído (${meta.label}) &bull; Clique p/ Desmarcar`
+      : "Marcar Aula como Concluída";
   }
+
+  const subjectId = lesson.cat || lesson.catName || "geral";
+  const topic = { id: lesson.id, status: currentStatus };
+
+  const statusSelectorHtml = `
+    <!-- Seletor de Status do Assunto (5 Níveis) -->
+    <div class="pt-2 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400">
+            <i class="fa-solid fa-chart-line mr-1 text-brand-500"></i>Seu Status neste Assunto:
+        </span>
+        <div class="flex flex-wrap items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 gap-1">
+            <button onclick="updateTopicStatus('${subjectId}', '${topic.id}', 'not_started')"
+                class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${topic.status === 'not_started' ? 'bg-slate-700 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                ⚪ Não iniciado
+            </button>
+            <button onclick="updateTopicStatus('${subjectId}', '${topic.id}', 'studying')"
+                class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${topic.status === 'studying' ? 'bg-sky-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                📘 Estudando
+            </button>
+            <button onclick="updateTopicStatus('${subjectId}', '${topic.id}', 'completed')"
+                class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${topic.status === 'completed' ? 'bg-emerald-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                ✅ Estudado
+            </button>
+            <button onclick="updateTopicStatus('${subjectId}', '${topic.id}', 'review')"
+                class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${topic.status === 'review' ? 'bg-amber-500 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                🔄 Revisar
+            </button>
+            <button onclick="updateTopicStatus('${subjectId}', '${topic.id}', 'mastered')"
+                class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${topic.status === 'mastered' ? 'bg-purple-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                🏆 Dominado
+            </button>
+        </div>
+    </div>
+  `;
 
   const posInd = document.getElementById("lessonPositionIndicator");
   if (posInd) posInd.textContent = `Aula ${idx + 1} de ${APP_DATA.lessons.length}`;
 
-  const lessonSources = lesson.sources.map(num => APP_DATA.sources.find(s => s.num === num)).filter(Boolean);
+  const rawSources = lesson && lesson.sources ? lesson.sources : [];
+  const sourceNums = Array.isArray(rawSources)
+    ? rawSources
+    : (rawSources && Array.isArray(rawSources.value) ? rawSources.value : []);
+  const lessonSources = sourceNums.map(num => (APP_DATA.sources || []).find(s => s.num === num)).filter(Boolean);
   const sourcesHtml = lessonSources.map(s => `
     <a href="${s.url}" target="_blank" rel="noopener noreferrer" title="${s.note || ''}" class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-teal-100 text-slate-800 border border-slate-300 transition">
       <span>&#128196; PDF #${s.num}: ${s.title || s.name} &nearr;</span>
@@ -408,9 +638,11 @@ function renderCurrentLesson() {
         <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-teal-100 text-teal-800">${lesson.catName}</span>
         <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800">${lesson.weight}</span>
         <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">&#10003; ${lesson.auditBadge}</span>
+        <span class="px-2.5 py-0.5 rounded-full text-xs font-bold border ${meta.badgeClass}">${meta.icon} ${meta.label}</span>
       </div>
       <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900">${lesson.title}</h2>
       <p class="text-xs text-slate-600"><strong>Correspondência no Conteúdo Programático Oficial (Anexo IV):</strong> ${lesson.editalRef}</p>
+      ${statusSelectorHtml}
       <div class="pt-1 flex flex-wrap items-center justify-between gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-200">
         <div class="text-xs text-slate-700">
           <span class="font-bold text-teal-900">&#128221; Arquivo Markdown da Aula:</span>
@@ -746,9 +978,11 @@ function renderTab5() {
     schedGrid.innerHTML = APP_DATA.schedule.map(s => {
       const lessonBtns = s.lessons.map(lid => {
         const lObj = APP_DATA.lessons.find(x => x.id === lid);
-        const done = completedLessons.includes(lid);
+        const st = getTopicStatus(lid);
+        const meta = getStatusMeta(st);
+        const done = st === "completed" || st === "mastered";
         return `<button type="button" data-open-lesson="${lid}" class="open-lesson-chip px-2.5 py-1 rounded-lg text-xs font-bold border transition ${done ? 'bg-emerald-100 border-emerald-400 text-emerald-900' : 'bg-white border-slate-300 text-teal-800 hover:bg-teal-50'}">
-          ${done ? '&#10003; ' : ''}${lObj ? lObj.title.split('.')[0] + '. ' + lObj.title.split('.')[1].slice(0, 28) + '...' : lid}
+          <span class="mr-1">${meta.icon}</span>${lObj ? lObj.title.split('.')[0] + '. ' + lObj.title.split('.')[1].slice(0, 26) + '...' : lid}
         </button>`;
       }).join("");
 
@@ -882,20 +1116,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  document.querySelectorAll(".status-filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      currentStatusFilter = btn.getAttribute("data-status");
+      document.querySelectorAll(".status-filter-btn").forEach(b => {
+        const active = b.getAttribute("data-status") === currentStatusFilter;
+        b.className = active
+          ? "status-filter-btn px-2 py-0.5 rounded text-[11px] font-bold bg-slate-800 text-white shadow-sm"
+          : "status-filter-btn px-2 py-0.5 rounded text-[11px] font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200";
+      });
+      const filtered = getFilteredLessons();
+      if (filtered.length > 0 && !filtered.some(x => x.id === currentLessonId)) {
+        currentLessonId = filtered[0].id;
+      }
+      renderLessonsSidebar();
+      renderCurrentLesson();
+    });
+  });
+
   document.getElementById("toggleCompleteLessonBtn")?.addEventListener("click", () => {
-    const idx = completedLessons.indexOf(currentLessonId);
-    if (idx >= 0) {
-      completedLessons.splice(idx, 1);
-      showToast("Aula desmarcada como concluída.");
+    const currentStatus = getTopicStatus(currentLessonId);
+    if (currentStatus === "completed" || currentStatus === "mastered") {
+      updateTopicStatus(currentLessonId, "not_started");
     } else {
-      completedLessons.push(currentLessonId);
-      showToast("Parabéns! Aula marcada como concluída!");
+      updateTopicStatus(currentLessonId, "completed");
     }
-    saveStorage(STORAGE_KEY_COMPLETED, completedLessons);
-    updateGlobalProgress();
-    renderLessonsSidebar();
-    renderCurrentLesson();
-    renderTab5();
   });
 
   document.getElementById("prevLessonBtn")?.addEventListener("click", () => {
@@ -960,6 +1205,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const payload = {
       platform: "ACE_SEMUSA_PVH_2026",
       exportedAt: new Date().toISOString(),
+      topicStatus: topicStatus,
       completedLessons: completedLessons,
       simAnswers: simAnswers
     };
@@ -982,6 +1228,10 @@ document.addEventListener("DOMContentLoaded", () => {
     reader.onload = (e) => {
       try {
         const parsed = JSON.parse(String(e.target?.result || "{}"));
+        if (parsed.topicStatus && typeof parsed.topicStatus === "object") {
+          topicStatus = parsed.topicStatus;
+          saveStorage(STORAGE_KEY_TOPIC_STATUS, topicStatus);
+        }
         if (Array.isArray(parsed.completedLessons)) {
           completedLessons = parsed.completedLessons;
           saveStorage(STORAGE_KEY_COMPLETED, completedLessons);
@@ -1013,6 +1263,15 @@ document.addEventListener("DOMContentLoaded", () => {
         throw new Error(`HTTP ${response.status} - ${response.statusText}`);
       }
       APP_DATA = await response.json();
+      if (Array.isArray(APP_DATA.lessons)) {
+        APP_DATA.lessons.forEach(l => {
+          if (l.sources && Array.isArray(l.sources.value)) {
+            l.sources = l.sources.value;
+          } else if (!Array.isArray(l.sources)) {
+            l.sources = [];
+          }
+        });
+      }
       updateGlobalProgress();
       renderTab1();
       renderLessonsSidebar();
@@ -1036,6 +1295,10 @@ document.addEventListener("DOMContentLoaded", () => {
       showToast("Aviso: publique no GitHub Pages ou use um servidor local para carregar ./data/app_data.json.");
     }
   }
+
+  // Inicializa a Contagem Regressiva para a Prova IBGP (13/12/2026 14h45)
+  updateHeroCountdown();
+  setInterval(updateHeroCountdown, 1000);
 
   loadAppData();
 });
