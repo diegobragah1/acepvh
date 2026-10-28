@@ -1,4 +1,4 @@
-﻿---
+---
 id: "atu_3"
 slug: "31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026"
 num: 31
@@ -98,11 +98,11 @@ normativeAudit:
 
 Objetivos Claros de Aprendizagem da Aula 31:
 
-- Dominar os fundamentos do Georreferenciamento e Geotecnologias aplicados Ã  VigilÃ¢ncia em SaÃºde: SIG/GIS, GNSS/GPS (sistema geodÃ©sico oficial SIRGAS 2000) e Sensoriamento Remoto (DETER, PRODES, satÃ©lites CBERS e AmazÃ´nia-1).
-- Distinguir dados espaciais no SIG: Dados Vetoriais (Pontos de focos/casos, Linhas de ruas/rios e PolÃ­gonos de microÃ¡reas do ACE) vs. Dados Matriciais (Raster: mapas de calor/Kernel e imagens de satÃ©lite).
-- Compreender os impactos das mudanÃ§as climÃ¡ticas, eventos extremos no Rio Madeira (seca histÃ³rica 2023-2024 vs. cheia de 2014) e preparaÃ§Ã£o para a COP30 na AmazÃ´nia (BelÃ©m/2025).
-- Dominar o Sistema Nacional de Unidades de ConservaÃ§Ã£o (SNUC - Lei nÂº 9.985/2000: ProteÃ§Ã£o Integral vs. Uso SustentÃ¡vel/RESEX) e monitoramento de queimadas e desmatamento.
-- Acompanhar as atualidades socioambientais, sanitÃ¡rias e urbanas de Porto Velho e RondÃ´nia (2024â€“2026).
+- Dominar os fundamentos do Georreferenciamento e Geotecnologias aplicados à Vigilância em Saúde: SIG/GIS, GNSS/GPS (sistema geodésico oficial SIRGAS 2000) e Sensoriamento Remoto (DETER, PRODES, satélites CBERS e Amazônia-1).
+- Distinguir dados espaciais no SIG: Dados Vetoriais (Pontos de focos/casos, Linhas de ruas/rios e Polígonos de microáreas do ACE) vs. Dados Matriciais (Raster: mapas de calor/Kernel e imagens de satélite).
+- Compreender os impactos das mudanças climáticas, eventos extremos no Rio Madeira (seca histórica 2023-2024 vs. cheia de 2014) e preparação para a COP30 na Amazônia (Belém/2025).
+- Dominar o Sistema Nacional de Unidades de Conservação (SNUC - Lei nº 9.985/2000: Proteção Integral vs. Uso Sustentável/RESEX) e monitoramento de queimadas e desmatamento.
+- Acompanhar as atualidades socioambientais, sanitárias e urbanas de Porto Velho e Rondônia (2024–2026).
 #### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)
 
 **BLOCO NOVO PÓS-AUDITORIA (LACUNA #2 DO EDITAL SANADA):** O tópico de **Georreferenciamento** e geotecnologias aplicadas à vigilância epidemiológica, territorialização do ACE e monitoramento ambiental na Amazônia foi integralmente incorporado.

@@ -1,4 +1,4 @@
-﻿---
+---
 id: "atu_1"
 slug: "29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro"
 num: 29
@@ -86,11 +86,11 @@ normativeAudit:
 
 Objetivos Claros de Aprendizagem da Aula 29:
 
-- Compreender a extensÃ£o territorial (34.090 kmÂ² â€” maior capital do Brasil) e posiÃ§Ã£o geopolÃ­tica de Porto Velho (Ãºnica capital em fronteira internacional direta com a BolÃ­via).
-- Dominar a hidrografia do Rio Madeira, seus principais afluentes e o complexo hidrelÃ©trico (UHEs Santo AntÃ´nio e Jirau com turbinas tipo bulbo).
-- Identificar as caracterÃ­sticas do relevo, clima equatorial quente e Ãºmido (Am) com fenÃ´meno da friagem, bioma amazÃ´nico e as 3 zonas do ZSEE de RondÃ´nia (LC nÂº 233/2000).
-- Dominar a divisÃ£o geogrÃ¡fica e demogrÃ¡fica dos 15 Distritos Rurais e Ribeirinhos de Porto Velho (Baixo Madeira, Eixo BR-364 e Ponta do AbunÃ£) e dados do Censo IBGE 2022 (460.413 hab.).
-- Reconhecer os sÃ­mbolos oficiais: BrasÃ£o, Bandeira e Hino do Brasil (Art. 13 da CF/88), de RondÃ´nia e de Porto Velho.
+- Compreender a extensão territorial (34.090 km² — maior capital do Brasil) e posição geopolítica de Porto Velho (única capital em fronteira internacional direta com a Bolívia).
+- Dominar a hidrografia do Rio Madeira, seus principais afluentes e o complexo hidrelétrico (UHEs Santo Antônio e Jirau com turbinas tipo bulbo).
+- Identificar as características do relevo, clima equatorial quente e úmido (Am) com fenômeno da friagem, bioma amazônico e as 3 zonas do ZSEE de Rondônia (LC nº 233/2000).
+- Dominar a divisão geográfica e demográfica dos 15 Distritos Rurais e Ribeirinhos de Porto Velho (Baixo Madeira, Eixo BR-364 e Ponta do Abunã) e dados do Censo IBGE 2022 (460.413 hab.).
+- Reconhecer os símbolos oficiais: Brasão, Bandeira e Hino do Brasil (Art. 13 da CF/88), de Rondônia e de Porto Velho.
 #### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)
 
 O **Município de Porto Velho**, capital do Estado de Rondônia, possui singularidades geográficas únicas no Brasil que são certeza de prova na banca IBGP:

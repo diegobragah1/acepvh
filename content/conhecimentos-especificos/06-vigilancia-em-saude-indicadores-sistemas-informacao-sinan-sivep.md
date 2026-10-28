@@ -1,4 +1,4 @@
-﻿---
+---
 id: "esp_6"
 slug: "06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep"
 num: 6
@@ -82,11 +82,11 @@ normativeAudit:
 
 Objetivos Claros de Aprendizagem da Aula 6:
 
-- Dominar as diretrizes e princÃ­pios da PolÃ­tica Nacional de VigilÃ¢ncia em SaÃºde (PNVS â€” ResoluÃ§Ã£o CNS nÂº 588/2018) e seus 4 componentes: VigilÃ¢ncia EpidemiolÃ³gica, SanitÃ¡ria, Ambiental e SaÃºde do Trabalhador.
-- Compreender os programas da VigilÃ¢ncia em SaÃºde Ambiental (VIGIAGUA, VIGISOLO, VIGIAR, VIGIPEQ e VIGIDESASTRES) aplicados Ã  realidade geogrÃ¡fica e sanitÃ¡ria de Porto Velho e da AmazÃ´nia.
-- Diferenciar com exatidÃ£o matemÃ¡tica e conceitual Endemia, Epidemia, Pandemia, Surto, Caso AutÃ³ctone, Caso AlÃ³ctone (Importado), Caso Ãndice e Caso SecundÃ¡rio.
-- Calcular e interpretar os principais coeficientes e taxas epidemiolÃ³gicas: IncidÃªncia, PrevalÃªncia, Letalidade, Mortalidade Geral/EspecÃ­fica e Coeficiente de Mortalidade Infantil (CMI: neonatal precoce, neonatal tardio e pÃ³s-neonatal).
-- Conhecer os Sistemas de InformaÃ§Ã£o em SaÃºde (SINAN, SIM, SINASC, SIVEP-MalÃ¡ria e e-SUS APS) e os fluxos de NotificaÃ§Ã£o CompulsÃ³ria Imediata (24h) e Semanal (7 dias).
+- Dominar as diretrizes e princípios da Política Nacional de Vigilância em Saúde (PNVS — Resolução CNS nº 588/2018) e seus 4 componentes: Vigilância Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador.
+- Compreender os programas da Vigilância em Saúde Ambiental (VIGIAGUA, VIGISOLO, VIGIAR, VIGIPEQ e VIGIDESASTRES) aplicados à realidade geográfica e sanitária de Porto Velho e da Amazônia.
+- Diferenciar com exatidão matemática e conceitual Endemia, Epidemia, Pandemia, Surto, Caso Autóctone, Caso Alóctone (Importado), Caso Índice e Caso Secundário.
+- Calcular e interpretar os principais coeficientes e taxas epidemiológicas: Incidência, Prevalência, Letalidade, Mortalidade Geral/Específica e Coeficiente de Mortalidade Infantil (CMI: neonatal precoce, neonatal tardio e pós-neonatal).
+- Conhecer os Sistemas de Informação em Saúde (SINAN, SIM, SINASC, SIVEP-Malária e e-SUS APS) e os fluxos de Notificação Compulsória Imediata (24h) e Semanal (7 dias).
 #### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)
 
 A **Vigilância em Saúde (PNVS — Resolução CNS nº 588/2018)** articula **4 componentes**: Vigilância Epidemiológica, Vigilância Sanitária, Vigilância em Saúde Ambiental e Vigilância em Saúde do Trabalhador.

@@ -1,4 +1,4 @@
-﻿---
+---
 id: "rlm_2"
 slug: "24-logica-proposicional-2-de-morgan-equivalencias-quantificadores-argumentacao"
 num: 24
@@ -90,11 +90,11 @@ normativeAudit:
 
 Objetivos Claros de Aprendizagem da Aula 24:
 
-- Aplicar com precisÃ£o as Leis de De Morgan na negaÃ§Ã£o de conjunÃ§Ãµes (~(P âˆ§ Q) â‰¡ ~P âˆ¨ ~Q) e disjunÃ§Ãµes inclusivas (~(P âˆ¨ Q) â‰¡ ~P âˆ§ ~Q).
-- Dominar a negaÃ§Ã£o da condicional pela regra do MANÃ‰ (~(P â†’ Q) â‰¡ P âˆ§ ~Q), compreendendo por que uma condicional jamais deve ser negada por outra condicional.
-- Dominar as equivalÃªncias lÃ³gicas fundamentais da condicional: Contrapositiva (P â†’ Q â‰¡ ~Q â†’ ~P) e EquivalÃªncia da DisjunÃ§Ã£o / Regra do NEYMAR (P â†’ Q â‰¡ ~P âˆ¨ Q).
-- Negar corretamente proposiÃ§Ãµes categÃ³ricas com quantificadores universais e existenciais (Todo A Ã© B â†’ Algum A NÃƒO Ã© B; Nenhum A Ã© B â†’ Algum A Ã© B; Algum A Ã© B â†’ Nenhum A Ã© B).
-- Analisar a validade de argumentos dedutivos por diagramas lÃ³gicos de Euler-Venn e regras de inferÃªncia lÃ³gica.
+- Aplicar com precisão as Leis de De Morgan na negação de conjunções (~(P âˆ§ Q) â‰¡ ~P âˆ¨ ~Q) e disjunções inclusivas (~(P âˆ¨ Q) â‰¡ ~P âˆ§ ~Q).
+- Dominar a negação da condicional pela regra do MANÉ (~(P → Q) â‰¡ P âˆ§ ~Q), compreendendo por que uma condicional jamais deve ser negada por outra condicional.
+- Dominar as equivalências lógicas fundamentais da condicional: Contrapositiva (P → Q â‰¡ ~Q → ~P) e Equivalência da Disjunção / Regra do NEYMAR (P → Q â‰¡ ~P âˆ¨ Q).
+- Negar corretamente proposições categóricas com quantificadores universais e existenciais (Todo A é B → Algum A NÃO é B; Nenhum A é B → Algum A é B; Algum A é B → Nenhum A é B).
+- Analisar a validade de argumentos dedutivos por diagramas lógicos de Euler-Venn e regras de inferência lógica.
 #### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)
 
 As questões de **Negação** e **Equivalência Lógica** são as campeãs absolutas de cobrança na prova de RLM da IBGP:

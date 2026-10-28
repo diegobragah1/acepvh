@@ -1,4 +1,4 @@
-﻿---
+---
 id: "esp_5"
 slug: "05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa"
 num: 5
@@ -94,11 +94,11 @@ normativeAudit:
 
 Objetivos Claros de Aprendizagem da Aula 5:
 
-- Compreender a evoluÃ§Ã£o e o marco regulatÃ³rio da profissÃ£o de Agente de Combate Ã s Endemias (Lei Federal nÂº 11.350/2006, EC nÂº 51/2006 e EC nÂº 120/2022).
-- Dominar as atribuiÃ§Ãµes tÃ­picas do ACE (Art. 4Âº, Â§ 1Âº) e atividades compartilhadas com ACS (Art. 4Âº-A), distinguindo competÃªncias privativas de cada categoria profissional.
-- Analisar os requisitos legais para investidura no cargo de ACE (Art. 6Âº: Ensino MÃ©dio completo + curso inicial de 40h) e a exigÃªncia de Processo Seletivo PÃºblico.
-- Conhecer as inovaÃ§Ãµes introduzidas pela Lei nÂº 13.595/2018 (Lei Ruth Brilhante), Lei nÂº 13.708/2018 (jornada de 40h: 30h de campo + 10h de planejamento/capacitaÃ§Ã£o) e Lei nÂº 14.536/2023 (enquadramento como profissionais de saÃºde para acumulaÃ§Ã£o de 2 cargos pÃºblicos na forma do Art. 37, XVI, 'c' da CF/88).
-- Comparar as atribuiÃ§Ãµes federais da Lei nÂº 11.350/2006 com as atribuiÃ§Ãµes municipais da SEMUSA Porto Velho/RO (Anexo II do Edital nÂº 25/2026 e LC Municipal nÂº 391/2010).
+- Compreender a evolução e o marco regulatório da profissão de Agente de Combate às Endemias (Lei Federal nº 11.350/2006, EC nº 51/2006 e EC nº 120/2022).
+- Dominar as atribuições típicas do ACE (Art. 4º, § 1º) e atividades compartilhadas com ACS (Art. 4º-A), distinguindo competências privativas de cada categoria profissional.
+- Analisar os requisitos legais para investidura no cargo de ACE (Art. 6º: Ensino Médio completo + curso inicial de 40h) e a exigência de Processo Seletivo Público.
+- Conhecer as inovações introduzidas pela Lei nº 13.595/2018 (Lei Ruth Brilhante), Lei nº 13.708/2018 (jornada de 40h: 30h de campo + 10h de planejamento/capacitação) e Lei nº 14.536/2023 (enquadramento como profissionais de saúde para acumulação de 2 cargos públicos na forma do Art. 37, XVI, 'c' da CF/88).
+- Comparar as atribuições federais da Lei nº 11.350/2006 com as atribuições municipais da SEMUSA Porto Velho/RO (Anexo II do Edital nº 25/2026 e LC Municipal nº 391/2010).
 #### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)
 
 **CORREÇÃO CRÍTICA DE AUDITORIA:** Na versão anterior da página havia uma inversão legislativa importante que pode ser cobrada pela banca IBGP: a **Lei nº 14.536/2023 acrescentou o Art. 2º-A** à Lei nº 11.350/2006 (reconhecendo ACS e ACE como **profissionais de saúde** para fins de **acumulação lícita de 2 cargos públicos de saúde** no Art. 37, XVI, 'c' da CF/88). Já o **§ 1º do Art. 2º** (essencialidade e obrigatoriedade da presença de ACS na Atenção Básica e de ACE na vigilância epidemiológica e ambiental) foi incluído pela **Lei nº 13.595/2018 (Lei Ruth Brilhante)**.
