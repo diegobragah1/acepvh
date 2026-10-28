@@ -1,4 +1,4 @@
----
+﻿---
 id: "rlm_4"
 slug: "26-razao-proporcao-regra-de-tres-simples-composta-porcentagem-fracoes"
 num: 26

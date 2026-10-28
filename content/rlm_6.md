@@ -65,68 +65,53 @@ normativeAudit:
 
 ### Modo A â€” Teoria Completa Desenvolvida
 
-#### 1. Objetivos de Aprendizagem do Bloco 28.1
-- Dominar o conceito de perÃ­metro como medida linear do contorno de uma figura plana e calcular o perÃ­metro de polÃ­gonos regulares e irregulares.
-- Aplicar as fÃ³rmulas de Ã¡rea das figuras planas fundamentais: quadrado, retÃ¢ngulo, triÃ¢ngulo (geral, equilÃ¡tero e retÃ¢ngulo), trapÃ©zio, losango e cÃ­rculo.
-- Relacionar o raio e o diÃ¢metro da circunferÃªncia ($D = 2r$) e calcular comprimento ($C = 2\pi r$) e Ã¡rea ($A = \pi r^2$).
-- Aplicar o Teorema de PitÃ¡goras ($a^2 = b^2 + c^2$) e reconhecer os ternos pitagÃ³ricos clÃ¡ssicos ($(3, 4, 5)$, $(5, 12, 13)$) para resoluÃ§Ã£o Ã¡gil em plantas e croquis de quarteirÃµes.
+#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)
 
-#### 2. Teoria Desenvolvida em Profundidade
+Geometria nÃ£o Ã© um emaranhado de desenhos abstratos: Ã© a mediÃ§Ã£o do espaÃ§o fÃ­sico em que vivemos e trabalhamos. No combate Ã s endemias em Porto Velho, vocÃª medirÃ¡ terrenos, quintais, quarteirÃµes e depÃ³sitos. Compreenda a base do zero:
 
-##### A. PerÃ­metro (Medida Linear)
-O **perÃ­metro** ($2p$) Ã© o comprimento total da linha de contorno de uma regiÃ£o plana. Sua unidade no SI Ã© o metro ($m$), podendo ser expresso em $cm, mm$ ou $km$.
-- **PolÃ­gono Regular com $n$ lados de medida $L$:** $2p = n \cdot L$.
-- **RetÃ¢ngulo de base $b$ e altura $h$:** $2p = 2b + 2h = 2(b + h)$.
-- **Quadrado de lado $L$:** $2p = 4L$.
-- **CircunferÃªncia de raio $r$:** Comprimento $C = 2\pi r = \pi D$ (onde $D$ Ã© o diÃ¢metro).
+##### A. Ponto, Reta, Linha e SuperfÃ­cie (As DimensÃµes)
+1. **0 DimensÃ£o (Ponto):** NÃ£o tem tamanho, largura nem altura. Ã‰ apenas uma localizaÃ§Ã£o (um ponto no mapa GPS da SEMUSA).
+2. **1 DimensÃ£o (Comprimento / Linha):** Mede distÃ¢ncias lineares em metros ($m$). Ã‰ a cerca do terreno, a fita mÃ©trica, o perÃ­metro do quintal.
+3. **2 DimensÃµes (SuperfÃ­cie / Ãrea):** Possui comprimento e largura. Mede a extensÃ£o interna em metros quadrados ($m^2$). Ã‰ o piso da casa, o gramado, a lona que cobre os pneus.
+4. **3 DimensÃµes (EspaÃ§o / Volume):** Possui comprimento, largura e profundidade/altura. Mede a capacidade em metros cÃºbicos ($m^3$) ou Litros ($L$). Ã‰ a Ã¡gua dentro da caixa d'Ã¡gua.
 
-##### B. Ãreas das Principais Figuras Planas
-A **Ã¡rea** mede a extensÃ£o bidimensional de uma superfÃ­cie. A unidade padrÃ£o no SI Ã© o metro quadrado ($m^2$).
+##### B. A DiferenÃ§a Fundamental: PerÃ­metro vs. Ãrea
+Nunca confunda perÃ­metro com Ã¡rea na hora da prova:
+- **PerÃ­metro ($2p$):** Ã‰ a medida do **CONTORNO** da figura (a soma de todos os lados).
+  - Unidades: metros ($m$), centÃ­metros ($cm$), quilÃ´metros ($km$).
+  - *SituaÃ§Ã£o prÃ¡tica do ACE:* Quantos metros de tela sÃ£o necessÃ¡rios para cercar o galinheiro? $\rightarrow$ Isso Ã© PERÃMETRO!
+- **Ãrea ($A$):** Ã‰ a medida da **SUPERFÃCIE INTERNA** coberta pela figura.
+  - Unidades: metros quadrados ($m^2$), centÃ­metros quadrados ($cm^2$), hectares ($ha$).
+  - *SituaÃ§Ã£o prÃ¡tica do ACE:* Quantos metros quadrados de lona impermeÃ¡vel cobrem o entulho? $\rightarrow$ Isso Ã© ÃREA!
 
-| Figura GeomÃ©trica | FÃ³rmula da Ãrea | ObservaÃ§Ãµes e AplicaÃ§Ã£o PrÃ¡tica |
-| :--- | :--- | :--- |
-| **Quadrado** | $A = L^2$ ou $A = \frac{d^2}{2}$ | $d = L\sqrt{2}$ Ã© a diagonal do quadrado. |
-| **RetÃ¢ngulo** | $A = b \cdot h$ | Base $\times$ altura. Forma padrÃ£o de lotes urbanos e cÃ´modos. |
-| **TriÃ¢ngulo (Geral)** | $A = \frac{b \cdot h}{2}$ | VÃ¡lido para qualquer triÃ¢ngulo com base $b$ e altura relativa $h$. |
-| **TriÃ¢ngulo RetÃ¢ngulo** | $A = \frac{\text{cateto}_1 \cdot \text{cateto}_2}{2}$ | Os catetos funcionam como base e altura perpendiculares. |
-| **TriÃ¢ngulo EquilÃ¡tero** | $A = \frac{L^2 \sqrt{3}}{4}$ | Altura $h = \frac{L \sqrt{3}}{2}$. |
-| **FÃ³rmula de Heron** | $A = \sqrt{p(p-a)(p-b)(p-c)}$ | Usada quando se conhecem apenas os 3 lados ($a, b, c$); $p = \frac{a+b+c}{2}$ Ã© o semiperÃ­metro. |
-| **TrapÃ©zio** | $A = \frac{(B + b) \cdot h}{2}$ | $B$ = base maior, $b$ = base menor, $h$ = altura perpendicular. |
-| **Losango** | $A = \frac{D \cdot d}{2}$ | $D$ = diagonal maior, $d$ = diagonal menor (perpendiculares entre si). |
-| **Paralelogramo** | $A = b \cdot h$ | Base $\times$ altura relativa perpendicular (nÃ£o use o lado oblÃ­quo!). |
-| **CÃ­rculo** | $A = \pi r^2$ | $r = \frac{D}{2}$. Para concursos, a banca costuma adotar $\pi \approx 3,14$ ou $\pi \approx 3$. |
+##### C. FÃ³rmulas de Ãrea das Figuras Planas Mais Cobradas
+| Figura GeomÃ©trica | Desenho / Elementos | FÃ³rmula da Ãrea ($A$) | PerÃ­metro ($2p$) |
+| :--- | :--- | :---: | :---: |
+| **Quadrado** | 4 lados iguais a $L$ | $\mathbf{A = L^2}$ | $2p = 4L$ |
+| **RetÃ¢ngulo** | Base $b$ e altura $h$ | $\mathbf{A = b \cdot h}$ | $2p = 2(b + h)$ |
+| **TriÃ¢ngulo** | Base $b$ e altura $h$ perpendicular | $\mathbf{A = \frac{b \cdot h}{2}}$ | Soma dos 3 lados |
+| **TrapÃ©zio** | Base maior $B$, base menor $b$, altura $h$ | $\mathbf{A = \frac{(B + b) \cdot h}{2}}$ | Soma dos 4 lados |
+| **Losango** | Diagonal maior $D$, diagonal menor $d$ | $\mathbf{A = \frac{D \cdot d}{2}}$ | $2p = 4L$ |
+| **CÃ­rculo** | Raio $r$ ($r = \text{DiÃ¢metro}/2$) | $\mathbf{A = \pi \cdot r^2}$ | Comprimento $C = 2\pi r$ |
 
-##### C. Teorema de PitÃ¡goras e Ternos PitagÃ³ricos
-Em todo triÃ¢ngulo retÃ¢ngulo, o quadrado da hipotenusa ($a$, lado oposto ao Ã¢ngulo reto de $90^\circ$) Ã© igual Ã  soma dos quadrados dos catetos ($b$ e $c$):
-$$a^2 = b^2 + c^2$$
+> **A Pegadinha Mortal do CÃ­rculo:** A banca IBGP sempre fornece o **DIÃ‚METRO** no enunciado (ex.: *"um poÃ§o circular de diÃ¢metro igual a 4 metros"*). Se vocÃª usar 4 na fÃ³rmula, vai errar! O raio Ã© SEMPRE a metade do diÃ¢metro: $r = \frac{4}{2} = 2\text{ metros}$! Ãrea: $\pi \times 2^2 = 4\pi \approx 12,56\text{ m}^2$.
 
-**Ternos PitagÃ³ricos Fundamentais:**
-1. **FamÃ­lia $(3, 4, 5)$:**
-   - Catetos $3$ e $4$, hipotenusa $5$ ($3^2 + 4^2 = 9 + 16 = 25 = 5^2$).
-   - MÃºltiplos diretos: $(6, 8, 10)$, $(9, 12, 15)$, $(12, 16, 20)$, $(15, 20, 25)$, $(30, 40, 50)$.
-2. **FamÃ­lia $(5, 12, 13)$:**
-   - Catetos $5$ e $12$, hipotenusa $13$ ($5^2 + 12^2 = 25 + 144 = 169 = 13^2$).
-   - MÃºltiplos diretos: $(10, 24, 26)$.
-3. **FamÃ­lia $(8, 15, 17)$:**
-   - Catetos $8$ e $15$, hipotenusa $17$ ($64 + 225 = 289 = 17^2$).
-
-> [!TIP]
-> **Dica de Prova IBGP:** Se uma questÃ£o apresentar um terreno retangular com lados de $30\text{ m}$ e $40\text{ m}$ e pedir a distÃ¢ncia em linha reta entre vÃ©rtices opostos (diagonal), reconheÃ§a imediatamente o triÃ¢ngulo $(3, 4, 5)$ multiplicado por 10: a diagonal Ã© exatamente $50\text{ m}$, sem necessidade de armar contas!
-
-#### 3. Exemplos PrÃ¡ticos do ACE
-- **Exemplo 1 (CÃ¡lculo de Ãrea de Terreno Irregular):** Um ACE inspeciona um lote trapezoidal em Porto Velho com frente de $12\text{ m}$ (base menor), fundo de $18\text{ m}$ (base maior) e profundidade de $30\text{ m}$ (altura perpendicular). A Ã¡rea total do terreno Ã©:
-  $$A = \frac{(18 + 12) \cdot 30}{2} = \frac{30 \cdot 30}{2} = \frac{900}{2} = 450\text{ m}^2$$
-- **Exemplo 2 (Diagonal de QuarteirÃ£o com PitÃ¡goras):** Um quarteirÃ£o retangular mede $60\text{ m}$ de largura por $80\text{ m}$ de comprimento. Para esticar uma fita isolante ou traÃ§ar a linha de bloqueio em diagonal, a distÃ¢ncia necessÃ¡ria Ã© dada por $(60, 80, D)$. Como $60 = 3 \times 20$ e $80 = 4 \times 20$, a hipotenusa Ã© $5 \times 20 = 100\text{ m}$.
+##### D. Teorema de PitÃ¡goras e o TriÃ¢ngulo MÃ¡gico (3, 4, 5)
+Em todo triÃ¢ngulo retÃ¢ngulo (que possui um Ã¢ngulo reto de $90^\circ$):
+$$\mathbf{a^2 = b^2 + c^2}$$
+*(O quadrado da hipotenusa $a$ Ã© igual Ã  soma dos quadrados dos catetos $b$ e $c$)*.
+- **Terno PitagÃ³rico Mais Frequente:** $(3, 4, 5)$ e todos os seus mÃºltiplos!
+  - Se os catetos medem $3$ e $4$, a hipotenusa Ã© $5$.
+  - Se os catetos medem $30\text{ m}$ e $40\text{ m}$, a hipotenusa/diagonal Ã© imediatamente **$50\text{ m}$**!
+  - Se os catetos medem $6$ e $8$, a hipotenusa Ã© **$10$**.
 
 ### Modo B â€” Resumo Comentado e MnemÃ´nicos
 
-- **Ãreas BÃ¡sicas:**
-  - RetÃ¢ngulo / Paralelogramo: $b \times h$
-  - TriÃ¢ngulo: metade do retÃ¢ngulo $\rightarrow \frac{b \times h}{2}$
-  - TrapÃ©zio: mÃ©dia das bases $\times$ altura $\rightarrow \frac{B + b}{2} \cdot h$
-  - CÃ­rculo: "Pierre ao quadrado" $\rightarrow \pi r^2$
-  - PerÃ­metro do CÃ­rculo: "Dois Pierre" $\rightarrow 2 \pi r$
-- **AtenÃ§Ã£o ao Raio vs. DiÃ¢metro:** Em 90% dos erros em concursos, a banca fornece o *diÃ¢metro* e o candidato esquece de dividir por 2 antes de elevar ao quadrado na fÃ³rmula da Ã¡rea. Se o diÃ¢metro for $4\text{ m}$, o raio Ã© $2\text{ m}$, logo a Ã¡rea Ã© $\pi \times 2^2 = 4\pi\text{ m}^2$ (e NÃƒO $16\pi$!).
+- **Ãrea do RetÃ¢ngulo:** $A = b \cdot h$ (Base $\times$ Altura).
+- **Ãrea do TriÃ¢ngulo:** Metade do retÃ¢ngulo! $A = \frac{b \cdot h}{2}$.
+- **Ãrea do TrapÃ©zio:** MÃ©dia das bases vezes altura: $A = \frac{(B + b)}{2} \cdot h$.
+- **CÃ­rculo:** Comprimento da borda $\rightarrow$ "Dois Pierre" ($C = 2\pi r$); Ãrea da pizza $\rightarrow$ "Pierre ao quadrado" ($A = \pi r^2$).
+- **AtenÃ§Ã£o:** Em concursos, adote $\pi \approx 3,14$ quando a questÃ£o exigir valor numÃ©rico decimal, ou $\pi \approx 3$ se o enunciado explicitar essa aproximaÃ§Ã£o.
 
 ### Modo C â€” QuestÃµes Comentadas e Flashcards
 
@@ -134,20 +119,20 @@ $$a^2 = b^2 + c^2$$
 
 ##### QuestÃ£o 28.1.1 (`rlm_6_b1_q1`)
 (QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA)
-Um Agente de Combate Ã s Endemias precisa isolar temporariamente uma Ã¡rea retangular de um quintal para descarte de recipientes inservÃ­veis com foco de larvas. O quintal possui $15\text{ metros}$ de comprimento e $8\text{ metros}$ de largura. O agente precisa instalar uma tela de arame em todo o perÃ­metro dessa Ã¡rea e, alÃ©m disso, cobrir o solo com uma lona plÃ¡stica impermeÃ¡vel. Quais sÃ£o, respectivamente, o comprimento de tela necessÃ¡rio (perÃ­metro) e a Ã¡rea de lona a ser adquirida?
-- A) $23\text{ metros}$ e $120\text{ m}^2$.
-- B) $46\text{ metros}$ e $120\text{ m}^2$.
-- C) $46\text{ metros}$ e $240\text{ m}^2$.
-- D) $92\text{ metros}$ e $60\text{ m}^2$.
+Um Agente de Combate Ã s Endemias precisa isolar temporariamente uma Ã¡rea retangular de um quintal para descarte de recipientes inservÃ­veis com foco de larvas. O quintal possui 15 metros de comprimento e 8 metros de largura. O agente precisa instalar uma tela de arame em todo o perÃ­metro dessa Ã¡rea e, alÃ©m disso, cobrir o solo com uma lona plÃ¡stica impermeÃ¡vel. Quais sÃ£o, respectivamente, o comprimento de tela necessÃ¡rio (perÃ­metro) e a Ã¡rea de lona a ser adquirida?
+- A) 23 metros e 120 mÂ².
+- B) 46 metros e 120 mÂ².
+- C) 46 metros e 240 mÂ².
+- D) 92 metros e 60 mÂ².
 
 *Gabarito Comentado:*
 - **Alternativa B estÃ¡ CORRETA.**
-  - O perÃ­metro do retÃ¢ngulo Ã© dado por $2p = 2(b + h) = 2(15 + 8) = 2 \times 23 = 46\text{ metros}$ de tela.
-  - A Ã¡rea do retÃ¢ngulo Ã© dada por $A = b \times h = 15 \times 8 = 120\text{ m}^2$ de lona.
+  - PerÃ­metro do retÃ¢ngulo: $2p = 2(b + h) = 2(15 + 8) = 2 \times 23 = 46\text{ metros}$ de tela.
+  - Ãrea do retÃ¢ngulo: $A = b \times h = 15 \times 8 = 120\text{ m}^2$ de lona.
 - Justificativa das incorretas:
   - A: Incorreta. Somou apenas $15 + 8 = 23\text{ m}$ (semiperÃ­metro), esquecendo de multiplicar por 2.
   - C: Incorreta. Dobrou indevidamente a Ã¡rea ($120 \times 2 = 240\text{ m}^2$).
-  - D: Incorreta. Dobrou o perÃ­metro e dividiu a Ã¡rea por 2.
+  - D: Incorreta. Errou o cÃ¡lculo do perÃ­metro e da Ã¡rea.
 
 ##### QuestÃ£o 28.1.2 (`rlm_6_b1_q2`)
 (QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA)
@@ -162,12 +147,24 @@ Um reservatÃ³rio de Ã¡gua elevado no distrito de Jaci-ParanÃ¡ possui base 
   - O diÃ¢metro Ã© $D = 6\text{ m}$. Portanto, o raio Ã© a metade do diÃ¢metro: $r = \frac{6}{2} = 3\text{ metros}$.
   - A Ã¡rea do cÃ­rculo Ã© $A = \pi \cdot r^2 = 3,14 \cdot (3)^2 = 3,14 \cdot 9 = 28,26\text{ m}^2$.
 - Justificativa das incorretas:
-  - A: Incorreta. Erro clÃ¡ssico de usar o diÃ¢metro direto na fÃ³rmula da Ã¡rea: $3,14 \cdot 6^2 = 3,14 \cdot 36 = 113,04\text{ m}^2$.
-  - B: Incorreta. Calculou o comprimento da circunferÃªncia usando o diÃ¢metro como raio: $2 \cdot \pi \cdot 6 = 37,68\text{ m}$.
-  - D: Incorreta. Calculou o comprimento da circunferÃªncia correta: $C = 2 \cdot \pi \cdot 3 = 18,84\text{ m}$, e nÃ£o a Ã¡rea.
+  - A: Incorreta. Erro de usar o diÃ¢metro direto na fÃ³rmula: $3,14 \cdot 6^2 = 113,04\text{ m}^2$.
+  - B: Incorreta. Calculou o comprimento usando o diÃ¢metro como raio: $2 \cdot \pi \cdot 6 = 37,68\text{ m}$.
+  - D: Incorreta. Calculou o comprimento da circunferÃªncia ($2 \cdot \pi \cdot 3 = 18,84\text{ m}$), e nÃ£o a Ã¡rea.
+
+#### Flashcards de RevisÃ£o Ativa
+
+| ID do Flashcard | Pergunta / Gatilho Mental (Frente) | Resposta Precisa e Fundamentada (Verso) |
+| :--- | :--- | :--- |
+| **FC 28.1.1** | Qual Ã© a pegadinha mais comum ao calcular a Ã¡rea de um cÃ­rculo e como evitÃ¡-la? | **Usar o diÃ¢metro em vez do raio!** O raio Ã© sempre metade do diÃ¢metro ($r = D/2$). A fÃ³rmula da Ã¡rea Ã© $A = \pi r^2$, enquanto o comprimento do contorno Ã© $C = 2\pi r$. |
+| **FC 28.1.2** | Quais sÃ£o os dois ternos pitagÃ³ricos primitivos mais frequentes em provas e como utilizÃ¡-los? | **(3, 4, 5)** e **(5, 12, 13)**. Se os catetos forem mÃºltiplos de 3 e 4 (ex.: 30 e 40), a hipotenusa serÃ¡ imediatamente o mÃºltiplo correspondente de 5 (ex.: 50), dispensando contas longas. |
 
 ```json
 {
+  "lessonId": "rlm_6",
+  "blockIndex": 0,
+  "title": "Bloco 28.1 â€” Geometria Plana: PerÃ­metros, Ãreas de PolÃ­gonos e CÃ­rculos e Teorema de PitÃ¡goras",
+  "modoA_markdown": "#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)\n\nGeometria nÃ£o Ã© um emaranhado de desenhos abstratos: Ã© a mediÃ§Ã£o do espaÃ§o fÃ­sico em que vivemos e trabalhamos. No combate Ã s endemias em Porto Velho, vocÃª medirÃ¡ terrenos, quintais, quarteirÃµes e depÃ³sitos. Compreenda a base do zero:\n\n##### A. Ponto, Reta, Linha e SuperfÃ­cie (As DimensÃµes)\n1. **0 DimensÃ£o (Ponto):** NÃ£o tem tamanho, largura nem altura. Ã‰ apenas uma localizaÃ§Ã£o (um ponto no mapa GPS da SEMUSA).\n2. **1 DimensÃ£o (Comprimento / Linha):** Mede distÃ¢ncias lineares em metros ($m$). Ã‰ a cerca do terreno, a fita mÃ©trica, o perÃ­metro do quintal.\n3. **2 DimensÃµes (SuperfÃ­cie / Ãrea):** Possui comprimento e largura. Mede a extensÃ£o interna em metros quadrados ($m^2$). Ã‰ o piso da casa, o gramado, a lona que cobre os pneus.\n4. **3 DimensÃµes (EspaÃ§o / Volume):** Possui comprimento, largura e profundidade/altura. Mede a capacidade em metros cÃºbicos ($m^3$) ou Litros ($L$). Ã‰ a Ã¡gua dentro da caixa d'Ã¡gua.\n\n##### B. A DiferenÃ§a Fundamental: PerÃ­metro vs. Ãrea\nNunca confunda perÃ­metro com Ã¡rea na hora da prova:\n- **PerÃ­metro ($2p$):** Ã‰ a medida do **CONTORNO** da figura (a soma de todos os lados).\n  - Unidades: metros ($m$), centÃ­metros ($cm$), quilÃ´metros ($km$).\n  - *SituaÃ§Ã£o prÃ¡tica do ACE:* Quantos metros de tela sÃ£o necessÃ¡rios para cercar o galinheiro? $\\rightarrow$ Isso Ã© PERÃMETRO!\n- **Ãrea ($A$):** Ã‰ a medida da **SUPERFÃCIE INTERNA** coberta pela figura.\n  - Unidades: metros quadrados ($m^2$), centÃ­metros quadrados ($cm^2$), hectares ($ha$).\n  - *SituaÃ§Ã£o prÃ¡tica do ACE:* Quantos metros quadrados de lona impermeÃ¡vel cobrem o entulho? $\\rightarrow$ Isso Ã© ÃREA!\n\n##### C. FÃ³rmulas de Ãrea das Figuras Planas Mais Cobradas\n| Figura GeomÃ©trica | FÃ³rmula da Ãrea ($A$) | PerÃ­metro ($2p$) |\n| :--- | :---: | :---: |\n| **Quadrado** | $A = L^2$ | $2p = 4L$ |\n| **RetÃ¢ngulo** | $A = b \\cdot h$ | $2p = 2(b + h)$ |\n| **TriÃ¢ngulo** | $A = \\frac{b \\cdot h}{2}$ | Soma dos 3 lados |\n| **TrapÃ©zio** | $A = \\frac{(B + b) \\cdot h}{2}$ | Soma dos 4 lados |\n| **Losango** | $A = \\frac{D \\cdot d}{2}$ | $2p = 4L$ |\n| **CÃ­rculo** | $A = \\pi \\cdot r^2$ | $C = 2\\pi r$ |\n\n> **A Pegadinha Mortal do CÃ­rculo:** A banca IBGP sempre fornece o **DIÃ‚METRO** no enunciado. Se usar diÃ¢metro na fÃ³rmula, errarÃ¡! O raio Ã© SEMPRE a metade do diÃ¢metro: $r = D/2$.\n\n##### D. Teorema de PitÃ¡goras e o TriÃ¢ngulo MÃ¡gico (3, 4, 5)\nEm todo triÃ¢ngulo retÃ¢ngulo: $a^2 = b^2 + c^2$.\n- Terno clÃ¡ssico $(3, 4, 5)$ e seus mÃºltiplos $(6, 8, 10)$, $(30, 40, 50)$ agilizam a resoluÃ§Ã£o de problemas de terrenos retangulares.",
+  "modoB_markdown": "- **Ãrea do RetÃ¢ngulo:** $A = b \\cdot h$.\n- **Ãrea do TriÃ¢ngulo:** $A = \\frac{b \\cdot h}{2}$.\n- **Ãrea do TrapÃ©zio:** $A = \\frac{(B + b)}{2} \\cdot h$.\n- **CÃ­rculo:** Comprimento $C = 2\\pi r$; Ãrea $A = \\pi r^2$. Cuidado: Raio Ã© metade do diÃ¢metro ($r = D/2$).",
   "questions": [
     {
       "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Um Agente de Combate Ã s Endemias precisa isolar temporariamente uma Ã¡rea retangular de um quintal para descarte de recipientes inservÃ­veis com foco de larvas. O quintal possui 15 metros de comprimento e 8 metros de largura. O agente precisa instalar uma tela de arame em todo o perÃ­metro dessa Ã¡rea e, alÃ©m disso, cobrir o solo com uma lona plÃ¡stica impermeÃ¡vel. Quais sÃ£o, respectivamente, o comprimento de tela necessÃ¡rio (perÃ­metro) e a Ã¡rea de lona a ser adquirida?",
@@ -191,19 +188,7 @@ Um reservatÃ³rio de Ã¡gua elevado no distrito de Jaci-ParanÃ¡ possui base 
       "ans": 2,
       "comment": "Gabarito: C. O raio Ã© metade do diÃ¢metro: r = 3 m. Ãrea = Ï€ * rÂ² = 3,14 * 3Â² = 3,14 * 9 = 28,26 mÂ²."
     }
-  ]
-}
-```
-
-#### Flashcards de RevisÃ£o Ativa
-
-| ID do Flashcard | Pergunta / Gatilho Mental (Frente) | Resposta Precisa e Fundamentada (Verso) |
-| :--- | :--- | :--- |
-| **FC 28.1.1** | Qual Ã© a pegadinha mais comum ao calcular a Ã¡rea de um cÃ­rculo e como evitÃ¡-la? | **Usar o diÃ¢metro em vez do raio!** O raio Ã© sempre metade do diÃ¢metro ($r = D/2$). A fÃ³rmula da Ã¡rea Ã© $A = \pi r^2$, enquanto o comprimento do contorno Ã© $C = 2\pi r$. |
-| **FC 28.1.2** | Quais sÃ£o os dois ternos pitagÃ³ricos primitivos mais frequentes em provas e como utilizÃ¡-los? | **(3, 4, 5)** e **(5, 12, 13)**. Se os catetos forem mÃºltiplos de 3 e 4 (ex.: 30 e 40), a hipotenusa serÃ¡ imediatamente o mÃºltiplo correspondente de 5 (ex.: 50), dispensando contas longas. |
-
-```json
-{
+  ],
   "flashcards": [
     {
       "front": "Qual Ã© a pegadinha mais comum ao calcular a Ã¡rea de um cÃ­rculo e como evitÃ¡-la?",
@@ -227,68 +212,57 @@ Um reservatÃ³rio de Ã¡gua elevado no distrito de Jaci-ParanÃ¡ possui base 
 
 ### Modo A â€” Teoria Completa Desenvolvida
 
-#### 1. Objetivos de Aprendizagem do Bloco 28.2
-- Dominar o Sistema MÃ©trico Decimal e converter unidades de comprimento, superfÃ­cie, massa e volume/capacidade sem hesitaÃ§Ã£o.
-- Memorizar e aplicar as equivalÃªncias fundamentais entre volume e capacidade: $1\text{ m}^3 = 1.000\text{ L}$; $1\text{ dm}^3 = 1\text{ L}$; $1\text{ cm}^3 = 1\text{ mL}$.
-- Calcular volumes de paralelepÃ­pedos retÃ¢ngulos (caixas d'Ã¡gua, cisternas e piscinas) e cilindros retos (tambores, tonÃ©is e poÃ§os).
-- Resolver problemas prÃ¡ticos de cubagem e dosagem de larvicida na rotina de visitas domiciliares do ACE.
+#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)
 
-#### 2. Teoria Desenvolvida em Profundidade
+O Agente de Combate Ã s Endemias realiza cÃ¡lculos de cubagem diariamente para saber quantos litros de Ã¡gua existem em uma caixa d'Ã¡gua, cacimba ou tonel, e assim aplicar a dosagem correta de larvicida (Bti ou Piriproxifeno) sem intoxicar os moradores. Entenda a base do Sistema MÃ©trico:
 
-##### A. Sistema MÃ©trico Decimal e Tabela de ConversÃµes
-
-1. **Unidades de Comprimento (Fator 10):**
-   $$km \longleftrightarrow hm \longleftrightarrow dam \longleftrightarrow m \longleftrightarrow dm \longleftrightarrow cm \longleftrightarrow mm$$
+##### A. O Sistema MÃ©trico Decimal e a Regra dos "Zeros"
+O Sistema Internacional utiliza a base decimal. Observe como as unidades mudam conforme a dimensÃ£o:
+1. **Comprimento (1 DimensÃ£o): Fator 10**
+   $$km \longleftrightarrow hm \longleftrightarrow dam \longleftrightarrow \mathbf{m} \longleftrightarrow dm \longleftrightarrow cm \longleftrightarrow mm$$
    - Cada casa para a direita: multiplica por $10$.
    - Cada casa para a esquerda: divide por $10$.
+   - *Exemplo:* $2,5\text{ metros} = 25\text{ dm} = 250\text{ cm}$.
 
-2. **Unidades de Ãrea/SuperfÃ­cie (Fator 100):**
-   $$km^2 \longleftrightarrow hm^2\text{ (hectare)} \longleftrightarrow dam^2 \longleftrightarrow m^2 \longleftrightarrow dm^2 \longleftrightarrow cm^2 \longleftrightarrow mm^2$$
-   - Cada casa para a direita: multiplica por $100$ ($10^2$).
-   - **Hectare ($ha$):** $1\text{ ha} = 1\text{ hm}^2 = 10.000\text{ m}^2$.
+2. **SuperfÃ­cie / Ãrea (2 DimensÃµes): Fator 100 ($10^2$)**
+   $$km^2 \longleftrightarrow hm^2\text{ (hectare)} \longleftrightarrow dam^2 \longleftrightarrow \mathbf{m^2} \longleftrightarrow dm^2 \longleftrightarrow cm^2 \longleftrightarrow mm^2$$
+   - Cada casa para a direita: multiplica por $100$.
+   - *Hectare ($ha$):* $1\text{ ha} = 1\text{ hm}^2 = 10.000\text{ m}^2$.
 
-3. **Unidades de Volume (Fator 1.000) e RelaÃ§Ã£o com Capacidade:**
+3. **Volume / EspaÃ§o (3 DimensÃµes): Fator 1.000 ($10^3$)**
    $$m^3 \longleftrightarrow dm^3 \longleftrightarrow cm^3 \longleftrightarrow mm^3$$
-   - Cada casa para a direita: multiplica por $1.000$ ($10^3$).
+   - Cada casa para a direita: multiplica por $1.000$.
 
-| Unidade de Volume | EquivalÃªncia em Capacidade | Unidade Equivalente Usual |
-| :--- | :--- | :--- |
-| **$1\text{ m}^3$ (metro cÃºbico)** | **$1.000\text{ dm}^3$** | **$1.000\text{ litros}$** |
-| **$1\text{ dm}^3$ (decÃ­metro cÃºbico)** | **$1\text{ litro}$** | **$1.000\text{ mililitros (mL)}$** |
-| **$1\text{ cm}^3$ ($1\text{ cc}$ / $1\text{ mL}$)** | **$0,001\text{ litro}$** | **$1\text{ mililitro (mL)}$** |
+##### B. A Trilogia Fundamental de EquivalÃªncia (Volume $\longleftrightarrow$ Capacidade)
+Esta Ã© a regra mais importante de toda a matemÃ¡tica aplicada ao cargo de ACE:
+$$\mathbf{1\text{ m}^3 = 1.000\text{ Litros}}$$
+$$\mathbf{1\text{ dm}^3 = 1\text{ Litro}}$$
+$$\mathbf{1\text{ cm}^3 = 1\text{ mL}}$$
 
-##### B. Cubagem de SÃ³lidos GeomÃ©tricos no Trabalho do ACE
+> **VisualizaÃ§Ã£o Concreta:**
+> - Uma caixa cÃºbica de $1\text{ metro}$ de largura, $1\text{ metro}$ de comprimento e $1\text{ metro}$ de altura ($1\text{ m}^3$) comporta exatamente **$1.000$ caixas de leite de 1 litro**!
+> - Um cubinho de $10\text{ cm} \times 10\text{ cm} \times 10\text{ cm}$ ($1\text{ dm}^3$) comporta exatamente **$1$ litro de Ã¡gua**!
+> - Uma seringa de $1\text{ cm}^3$ ($1\text{ cc}$) equivale a **$1\text{ mL}$**!
 
-1. **ParalelepÃ­pedo RetÃ¢ngulo (Caixa d'Ãgua Retangular, Cisterna, Tanque):**
-   $$V = a \cdot b \cdot c = \text{Comprimento} \times \text{Largura} \times \text{Altura da lÃ¢mina d'Ã¡gua}$$
-   - Se as medidas estiverem em metros ($m$), o volume $V$ serÃ¡ em $m^3$. Para obter litros, multiplique por $1.000$:
-     $$\text{Volume em Litros} = (a \times b \times c) \times 1.000$$
+##### C. Cubagem de ReservatÃ³rios de Campo do ACE
+1. **Caixas d'Ãgua Retangulares / Cisternas (ParalelepÃ­pedos):**
+   $$V = \text{Comprimento} \times \text{Largura} \times \text{Altura da lÃ¢mina d'Ã¡gua}$$
+   $$\text{Volume em Litros} = (C \times L \times H) \times 1.000$$
+   - *Exemplo:* Uma cisterna com $2\text{ m}$ de comprimento, $1,5\text{ m}$ de largura e Ã¡gua atÃ© $0,8\text{ m}$ de altura:
+     $$V = 2 \times 1,5 \times 0,8 = 2,4\text{ m}^3 = 2.400\text{ Litros}$$
 
-2. **Cilindro Circular Reto (Tambor de 200 L, Tonel, PoÃ§o, Caixa Circular):**
-   $$V = A_{\text{base}} \cdot h = \pi \cdot r^2 \cdot h$$
-   - Onde $r$ Ã© o raio da base ($r = D/2$) e $h$ Ã© a altura d'Ã¡gua.
-   - **TÃ©cnica Ãgil dos DecÃ­metros:** Converta as dimensÃµes para decÃ­metros ($dm$) antes de multiplicar! Como $1\text{ dm}^3 = 1\text{ L}$, o resultado sairÃ¡ diretamente em litros:
-     - Exemplo: DiÃ¢metro $0,6\text{ m} \rightarrow r = 0,3\text{ m} = 3\text{ dm}$; Altura $1,0\text{ m} = 10\text{ dm}$.
-     - $V = \pi \cdot (3)^2 \cdot 10 = 3,14 \cdot 9 \cdot 10 = 282,6\text{ dm}^3 = 282,6\text{ litros}$.
-
-3. **Prisma Triangular / Calhas de Telhado em Formato "V":**
-   $$V = \frac{b \cdot h}{2} \cdot L$$
-   - Onde $b$ Ã© a abertura superior da calha, $h$ Ã© a profundidade e $L$ Ã© a extensÃ£o/comprimento linear da calha.
-
-#### 3. Exemplos PrÃ¡ticos do ACE e CÃ¡lculo de Larvicida
-- **Caso Real:** Em um imÃ³vel no bairro Nova Porto Velho, um ACE encontra uma cisterna retangular com $2,5\text{ m}$ de comprimento, $1,6\text{ m}$ de largura e uma lÃ¢mina de Ã¡gua de $0,75\text{ m}$.
-  1. CÃ¡lculo do volume: $V = 2,5 \times 1,6 \times 0,75 = 3,0\text{ m}^3$.
-  2. ConversÃ£o para capacidade: $3,0 \times 1.000 = 3.000\text{ litros}$.
-  3. Se a bula do larvicida Piriproxifeno ou Bti recomenda $2\text{ g}$ para cada $1.000\text{ litros}$, a dosagem exata a ser aplicada Ã©:
-     $$\text{Dose} = 3 \times 2\text{ g} = 6\text{ g de larvicida}$$
+2. **Tambores CilÃ­ndricos / TonÃ©is / PoÃ§os Circulares (Cilindros Retos):**
+   $$V = \text{Ãrea da Base} \times \text{Altura} = \pi \cdot r^2 \cdot h$$
+   - *Macete dos DecÃ­metros para achar direto em Litros:* Converta as medidas para decÃ­metros ($dm$). Como $1\text{ dm}^3 = 1\text{ L}$, o produto final jÃ¡ sairÃ¡ em litros!
+     - Exemplo: Tambor de diÃ¢metro $0,6\text{ m}$ ($r = 0,3\text{ m} = 3\text{ dm}$) e altura $1\text{ m} = 10\text{ dm}$:
+     - $V = 3,14 \times (3)^2 \times 10 = 3,14 \times 9 \times 10 = 282,6\text{ Litros}$.
 
 ### Modo B â€” Resumo Comentado e MnemÃ´nicos
 
-- **Trilogia de Ouro das Medidas:**
-  - $1\text{ m}^3 = 1.000\text{ L}$ (uma caixa d'Ã¡gua cÃºbica de $1\text{ m}$ de aresta comporta $1.000$ caixas de leite).
-  - $1\text{ dm}^3 = 1\text{ L}$ (um cubo de $10\text{ cm} \times 10\text{ cm} \times 10\text{ cm}$ comporta exatamente $1$ litro de Ã¡gua).
-  - $1\text{ cm}^3 = 1\text{ mL}$ (usado em seringas e dosadores de campo).
-- **AtenÃ§Ã£o Ã  Altura d'Ãgua:** Na cubagem, meÃ§a sempre a **altura da lÃ¢mina d'Ã¡gua**, e nÃ£o a altura total da parede do reservatÃ³rio, caso ele nÃ£o esteja completamente cheio!
+- **Volume do ParalelepÃ­pedo:** $V = a \cdot b \cdot c$.
+- **Volume do Cilindro:** $V = \pi r^2 h$.
+- **ConversÃ£o de Ouro do ACE:** $1\text{ m}^3 = 1.000\text{ Litros}$ e $1\text{ dm}^3 = 1\text{ L}$.
+- **AtenÃ§Ã£o:** Em recipientes parcialmente cheios, use a altura da **lÃ¢mina d'Ã¡gua**, e nÃ£o a altura total do reservatÃ³rio!
 
 ### Modo C â€” QuestÃµes Comentadas e Flashcards
 
@@ -296,87 +270,86 @@ Um reservatÃ³rio de Ã¡gua elevado no distrito de Jaci-ParanÃ¡ possui base 
 
 ##### QuestÃ£o 28.2.1 (`rlm_6_b2_q1`)
 (QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA)
-Durante uma vistoria zoossanitÃ¡ria no distrito de Extrema, um ACE inspecionou um reservatÃ³rio de alvenaria com formato de paralelepÃ­pedo retÃ¢ngulo, cujas dimensÃµes internas sÃ£o: $3,0\text{ metros}$ de comprimento, $2,0\text{ metros}$ de largura e $1,5\text{ metro}$ de profundidade total. No momento da visita, o reservatÃ³rio continha Ã¡gua atÃ© $80\%$ de sua capacidade total. Qual Ã© o volume de Ã¡gua presente nesse reservatÃ³rio em litros?
-- A) $9.000\text{ litros}$.
-- B) $7.200\text{ litros}$.
-- C) $5.400\text{ litros}$.
-- D) $3.600\text{ litros}$.
-
-*Gabarito Comentado:*
-- **Alternativa B estÃ¡ CORRETA.**
-  - Volume total do reservatÃ³rio: $V_{\text{total}} = 3,0 \times 2,0 \times 1,5 = 9,0\text{ m}^3$.
-  - Como $1\text{ m}^3 = 1.000\text{ litros}$, a capacidade total Ã© $9,0 \times 1.000 = 9.000\text{ litros}$.
-  - O volume de Ã¡gua corresponde a $80\%$ do total: $V_{\text{Ã¡gua}} = 0,80 \times 9.000 = 7.200\text{ litros}$.
-- Justificativa das incorretas:
-  - A: Incorreta. Representa a capacidade total do reservatÃ³rio ($100\%$), mas ele estava com apenas $80\%$ de Ã¡gua.
-  - C: Incorreta. Calculou $60\%$ da capacidade ($0,60 \times 9.000 = 5.400\text{ L}$).
-  - D: Incorreta. Calculou apenas $40\%$ ou esqueceu uma das dimensÃµes.
-
-##### QuestÃ£o 28.2.2 (`rlm_6_b2_q2`)
-(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA)
-Um tonel cilÃ­ndrico utilizado para captaÃ§Ã£o de Ã¡gua de chuva possui raio interno de $40\text{ centÃ­metros}$ e altura de $100\text{ centÃ­metros}$. Considerando $\pi \approx 3,14$, qual Ã© a capacidade mÃ¡xima aproximada desse tambor em litros?
-- A) $502,4\text{ litros}$.
-- B) $251,2\text{ litros}$.
-- C) $125,6\text{ litros}$.
-- D) $50,24\text{ litros}$.
+Durante uma visita de rotina em uma residÃªncia no bairro Nova Porto Velho, um Agente de Combate Ã s Endemias inspeciona uma cisterna retangular que apresenta foco positivo de larvas de Aedes aegypti. A cisterna mede 2,5 metros de comprimento, 2,0 metros de largura e a lÃ¢mina de Ã¡gua atinge 1,2 metro de profundidade. Para aplicar o larvicida correto, o agente precisa calcular a capacidade de Ã¡gua contida no reservatÃ³rio. O volume de Ã¡gua presente nessa cisterna Ã© de:
+- A) 6.000 Litros.
+- B) 5.000 Litros.
+- C) 600 Litros.
+- D) 60.000 Litros.
 
 *Gabarito Comentado:*
 - **Alternativa A estÃ¡ CORRETA.**
-  - Passando as medidas para decÃ­metros para obter litros direto ($1\text{ dm}^3 = 1\text{ L}$):
-    - Raio $r = 40\text{ cm} = 4\text{ dm}$.
-    - Altura $h = 100\text{ cm} = 10\text{ dm}$.
-  - Volume do cilindro: $V = \pi \cdot r^2 \cdot h = 3,14 \cdot (4)^2 \cdot 10 = 3,14 \cdot 16 \cdot 10 = 3,14 \cdot 160 = 502,4\text{ dm}^3 = 502,4\text{ litros}$.
+  - O volume em metros cÃºbicos Ã© dado por:
+    $$V = \text{Comprimento} \times \text{Largura} \times \text{Profundidade} = 2,5 \times 2,0 \times 1,2 = 6,0\text{ m}^3$$
+  - Como $1\text{ m}^3 = 1.000\text{ Litros}$, temos:
+    $$\text{Capacidade} = 6,0 \times 1.000 = 6.000\text{ Litros}$$
 - Justificativa das incorretas:
-  - B: Incorreta. Esqueceu de elevar o raio ao quadrado ($3,14 \times 4 \times 10 = 125,6$ ou dividiu por 2).
-  - C: Incorreta. Multiplicou por $4$ em vez de $4^2 = 16$.
-  - D: Incorreta. Errou a casa decimal na conversÃ£o de unidades.
+  - B: Incorreta. Erro de multiplicaÃ§Ã£o.
+  - C: Incorreta. Multiplicou por 100 em vez de 1.000.
+  - D: Incorreta. Multiplicou por 10.000.
 
-```json
-{
-  "questions": [
-    {
-      "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Durante uma vistoria zoossanitÃ¡ria no distrito de Extrema, um ACE inspecionou um reservatÃ³rio de alvenaria com formato de paralelepÃ­pedo retÃ¢ngulo, cujas dimensÃµes internas sÃ£o: 3,0 metros de comprimento, 2,0 metros de largura e 1,5 metro de profundidade total. No momento da visita, o reservatÃ³rio continha Ã¡gua atÃ© 80% de sua capacidade total. Qual Ã© o volume de Ã¡gua presente nesse reservatÃ³rio em litros?",
-      "options": [
-        "9.000 litros.",
-        "7.200 litros.",
-        "5.400 litros.",
-        "3.600 litros."
-      ],
-      "ans": 1,
-      "comment": "Gabarito: B. Volume total = 3,0 x 2,0 x 1,5 = 9,0 mÂ³ = 9.000 L. Com 80% cheio: 0,80 x 9.000 = 7.200 litros."
-    },
-    {
-      "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Um tonel cilÃ­ndrico utilizado para captaÃ§Ã£o de Ã¡gua de chuva possui raio interno de 40 centÃ­metros e altura de 100 centÃ­metros. Considerando Ï€ â‰ˆ 3,14, qual Ã© a capacidade mÃ¡xima aproximada desse tambor em litros?",
-      "options": [
-        "502,4 litros.",
-        "251,2 litros.",
-        "125,6 litros.",
-        "50,24 litros."
-      ],
-      "ans": 0,
-      "comment": "Gabarito: A. Em decÃ­metros: r = 4 dm e h = 10 dm. Volume = 3,14 * 4Â² * 10 = 3,14 * 16 * 10 = 502,4 dmÂ³ = 502,4 litros."
-    }
-  ]
-}
-```
+##### QuestÃ£o 28.2.2 (`rlm_6_b2_q2`)
+(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA)
+Um tonel cilÃ­ndrico de metal utilizado para armazenar Ã¡gua de chuva no quintal de um imÃ³vel rural possui raio da base medindo 0,5 metro e altura de 1,6 metro. O tonel encontra-se totalmente cheio de Ã¡gua. Considerando a aproximaÃ§Ã£o $\pi = 3$, o volume total de Ã¡gua contido nesse tonel corresponde a:
+- A) 1.200 Litros.
+- B) 2.400 Litros.
+- C) 1.800 Litros.
+- D) 3.600 Litros.
+
+*Gabarito Comentado:*
+- **Alternativa A estÃ¡ CORRETA.**
+  - Volume do cilindro: $V = \pi \cdot r^2 \cdot h = 3 \cdot (0,5)^2 \cdot 1,6 = 3 \cdot 0,25 \cdot 1,6 = 0,75 \cdot 1,6 = 1,2\text{ m}^3$.
+  - Convertendo para litros: $1,2\text{ m}^3 \times 1.000 = 1.200\text{ Litros}$.
+- Justificativa das incorretas:
+  - B: Incorreta. Usou o diÃ¢metro (1,0 m) no lugar do raio.
+  - C: Incorreta. Erro no cÃ¡lculo de $(0,5)^2$.
+  - D: Incorreta. NÃ£o elevou o raio ao quadrado.
 
 #### Flashcards de RevisÃ£o Ativa
 
 | ID do Flashcard | Pergunta / Gatilho Mental (Frente) | Resposta Precisa e Fundamentada (Verso) |
 | :--- | :--- | :--- |
-| **FC 28.2.1** | Quais sÃ£o as 3 relaÃ§Ãµes fundamentais entre unidades de volume e capacidade que todo ACE deve memorizar? | **$1\text{ m}^3 = 1.000\text{ litros}$**; **$1\text{ dm}^3 = 1\text{ litro}$**; **$1\text{ cm}^3 = 1\text{ mililitro (mL)}$**. |
-| **FC 28.2.2** | Como converter rapidamente as dimensÃµes de um cilindro para obter o volume diretamente em litros? | **Converta o raio e a altura para decÃ­metros ($dm$)** antes do cÃ¡lculo! Como $1\text{ dm}^3 = 1\text{ L}$, o resultado de $V = \pi r^2 h$ jÃ¡ sai direto em litros. |
+| **FC 28.2.1** | Qual Ã© a equivalÃªncia fundamental entre metro cÃºbico e litros usada na cubagem do ACE? | **$1\text{ m}^3 = 1.000\text{ Litros}$** e **$1\text{ dm}^3 = 1\text{ Litro}$**. Para obter a capacidade em litros de um paralelepÃ­pedo medido em metros, multiplique o volume em $m^3$ por $1.000$. |
+| **FC 28.2.2** | Como calcular o volume de um reservatÃ³rio cilÃ­ndrico (tambor ou poÃ§o circular)? | **$V = \pi \cdot r^2 \cdot h$** (Ãrea da base circular vezes a altura d'Ã¡gua). Lembre-se: o raio $r$ Ã© sempre a metade do diÃ¢metro. |
 
 ```json
 {
-  "flashcards": [
+  "lessonId": "rlm_6",
+  "blockIndex": 1,
+  "title": "Bloco 28.2 â€” Geometria Espacial, Cubagem de ReservatÃ³rios de Campo e Sistema MÃ©trico Decimal",
+  "modoA_markdown": "#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)\n\nO Agente de Combate Ã s Endemias realiza cÃ¡lculos de cubagem diariamente para saber quantos litros de Ã¡gua existem em uma caixa d'Ã¡gua, cacimba ou tonel, e assim aplicar a dosagem correta de larvicida sem intoxicar os moradores. Entenda a base do Sistema MÃ©trico:\n\n##### A. O Sistema MÃ©trico Decimal e a Regra dos 'Zeros'\n1. **Comprimento (1D): Fator 10** ($km - hm - dam - m - dm - cm - mm$). Cada casa para a direita multiplica por 10; para a esquerda divide por 10.\n2. **SuperfÃ­cie / Ãrea (2D): Fator 100** ($m^2, cm^2, ha$). Cada casa multiplica por 100. $1\\text{ ha} = 10.000\\text{ m}^2$.\n3. **Volume (3D): Fator 1.000** ($m^3, dm^3, cm^3$). Cada casa multiplica por 1.000.\n\n##### B. A Trilogia Fundamental de EquivalÃªncia (Volume vs. Capacidade)\n$$\\mathbf{1\\text{ m}^3 = 1.000\\text{ Litros}}$$\n$$\\mathbf{1\\text{ dm}^3 = 1\\text{ Litro}}$$\n$$\\mathbf{1\\text{ cm}^3 = 1\\text{ mL}}$$\n\n##### C. Cubagem de ReservatÃ³rios de Campo do ACE\n1. **ParalelepÃ­pedo (Caixa d'Ãgua Retangular):** $V = C \\times L \\times H$. Para litros, multiplique $m^3$ por $1.000$.\n2. **Cilindro (Tambor / PoÃ§o Circular):** $V = \\pi r^2 h$. Cuidado: use o raio ($r = D/2$) e nÃ£o o diÃ¢metro!",
+  "modoB_markdown": "- **Volume do ParalelepÃ­pedo:** $V = a \\cdot b \\cdot c$.\n- **Volume do Cilindro:** $V = \\pi r^2 h$.\n- **ConversÃ£o de Ouro do ACE:** $1\\text{ m}^3 = 1.000\\text{ Litros}$ e $1\\text{ dm}^3 = 1\\text{ L}$.",
+  "questions": [
     {
-      "front": "Quais sÃ£o as 3 relaÃ§Ãµes fundamentais entre unidades de volume e capacidade que todo ACE deve memorizar?",
-      "back": "1 mÂ³ = 1.000 litros; 1 dmÂ³ = 1 litro; 1 cmÂ³ = 1 mililitro (mL)."
+      "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Durante uma visita de rotina em uma residÃªncia no bairro Nova Porto Velho, um Agente de Combate Ã s Endemias inspeciona uma cisterna retangular que apresenta foco positivo de larvas de Aedes aegypti. A cisterna mede 2,5 metros de comprimento, 2,0 metros de largura e a lÃ¢mina de Ã¡gua atinge 1,2 metro de profundidade. Para aplicar o larvicida correto, o agente precisa calcular a capacidade de Ã¡gua contida no reservatÃ³rio. O volume de Ã¡gua presente nessa cisterna Ã© de:",
+      "options": [
+        "6.000 Litros.",
+        "5.000 Litros.",
+        "600 Litros.",
+        "60.000 Litros."
+      ],
+      "ans": 0,
+      "comment": "Gabarito: A. O volume Ã© 2,5 x 2,0 x 1,2 = 6,0 mÂ³. Como 1 mÂ³ = 1.000 L, a capacidade Ã© 6,0 x 1.000 = 6.000 Litros."
     },
     {
-      "front": "Como converter rapidamente as dimensÃµes de um cilindro para obter o volume diretamente em litros?",
-      "back": "Converta o raio e a altura para decÃ­metros (dm) antes do cÃ¡lculo! Como 1 dmÂ³ = 1 L, o resultado de V = Ï€ rÂ² h jÃ¡ sai direto em litros."
+      "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Um tonel cilÃ­ndrico de metal utilizado para armazenar Ã¡gua de chuva no quintal de um imÃ³vel rural possui raio da base medindo 0,5 metro e altura de 1,6 metro. O tonel encontra-se totalmente cheio de Ã¡gua. Considerando a aproximaÃ§Ã£o Ï€ = 3, o volume total de Ã¡gua contido nesse tonel corresponde a:",
+      "options": [
+        "1.200 Litros.",
+        "2.400 Litros.",
+        "1.800 Litros.",
+        "3.600 Litros."
+      ],
+      "ans": 0,
+      "comment": "Gabarito: A. Volume = Ï€ * rÂ² * h = 3 * (0,5)Â² * 1,6 = 3 * 0,25 * 1,6 = 1,2 mÂ³ = 1.200 Litros."
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Qual Ã© a equivalÃªncia fundamental entre metro cÃºbico e litros usada na cubagem do ACE?",
+      "back": "1 mÂ³ = 1.000 Litros e 1 dmÂ³ = 1 Litro. Para obter a capacidade em litros de um paralelepÃ­pedo medido em metros, multiplique o volume em mÂ³ por 1.000."
+    },
+    {
+      "front": "Como calcular o volume de um reservatÃ³rio cilÃ­ndrico (tambor ou poÃ§o circular)?",
+      "back": "V = Ï€ * rÂ² * h (Ãrea da base circular vezes a altura d'Ã¡gua). Lembre-se: o raio r Ã© sempre a metade do diÃ¢metro."
     }
   ]
 }
@@ -386,65 +359,60 @@ Um tonel cilÃ­ndrico utilizado para captaÃ§Ã£o de Ã¡gua de chuva possui 
 
 ---
 
-## Bloco 28.3 â€” O PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet)
+## Bloco 28.3 â€” PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e RaciocÃ­nio Dedutivo
 
-<!-- @block id="rlm_6_b3" title="Bloco 28.3 â€” O PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet)" -->
+<!-- @block id="rlm_6_b3" title="Bloco 28.3 â€” PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e RaciocÃ­nio Dedutivo" -->
 
 ### Modo A â€” Teoria Completa Desenvolvida
 
-#### 1. Objetivos de Aprendizagem do Bloco 28.3
-- Compreender o enunciado clÃ¡ssico do PrincÃ­pio da Casa dos Pombos (PrincÃ­pio das Gavetas de Dirichlet).
-- Desenvolver a linha de raciocÃ­nio da "Pior HipÃ³tese" (o caso do indivÃ­duo "mais azarado do mundo") para garantir com certeza absoluta a ocorrÃªncia de um evento.
-- Aplicar a fÃ³rmula geral $N = m \cdot (k - 1) + 1$ para garantir que pelo menos uma categoria receba $k$ elementos.
-- Resolver problemas de concursos sobre grupos de pessoas, datas de aniversÃ¡rio, naipes de baralho e escalas de trabalho do ACE.
+#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)
 
-#### 2. Teoria Desenvolvida em Profundidade
+O PrincÃ­pio da Casa dos Pombos (proposto por Dirichlet em 1834) Ã© um dos conceitos lÃ³gicos mais elegantes e recorrentes em provas de nÃ­vel mÃ©dio da banca IBGP. Ele nÃ£o exige cÃ¡lculos extensos, mas sim uma visÃ£o estratÃ©gica da certeza lÃ³gica absoluta:
 
-##### A. Enunciado Fundamental
-O **PrincÃ­pio da Casa dos Pombos** (proposto pelo matemÃ¡tico alemÃ£o Johann Peter Gustav Lejeune Dirichlet em 1834) afirma que:
-> *Se $n$ pombos forem colocados em $m$ casas (gaiolas/gavetas) e o nÃºmero de pombos for estritamente maior que o nÃºmero de casas ($n > m$), entÃ£o pelo menos uma casa conterÃ¡ dois ou mais pombos.*
+##### A. O Enunciado Intuitivo
+Imagine que vocÃª tem $3$ pombos e apenas $2$ casinhas (gaiolas) para abrigÃ¡-los:
+- Se vocÃª colocar os pombos nas casinhas, o que acontece com certeza absoluta?
+- Mesmo que vocÃª tente separar ao mÃ¡ximo (colocando 1 pombo na primeira casa e 1 pombo na segunda), o terceiro pombo **obrigatoriamente terÃ¡ que dividir a casa com alguÃ©m**!
+- Logo, **pelo menos uma casinha terÃ¡ 2 ou mais pombos**!
+$$\text{Se } n > m \implies \text{Pelo menos uma casa terÃ¡ } \ge 2\text{ elementos}$$
 
-##### B. GeneralizaÃ§Ã£o MatemÃ¡tica
-Se desejamos garantir que **pelo menos uma gaveta contenha no mÃ­nimo $k$ elementos**, distribuÃ­dos entre $m$ categorias distintas, o nÃºmero mÃ­nimo $N$ de elementos que precisamos retirar ou reunir Ã© dado por:
-$$N = m \cdot (k - 1) + 1$$
+##### B. A TÃ©cnica do "IndivÃ­duo Mais Azarado do Mundo" (O Pior CenÃ¡rio PossÃ­vel)
+Todas as questÃµes de concurso sobre o PrincÃ­pio da Casa dos Pombos envolvem perguntas do tipo:
+> *"Quantos elementos devemos retirar/reunir no mÃ­nimo para ter CERTEZA ABSOLUTA de que...?"*
 
+Para resolver qualquer questÃ£o sem decorar fÃ³rmulas, aplique o mÃ©todo mental do **"Mais Azarado do Mundo"**:
+1. Identifique quantas categorias ou tipos existem ($m$).
+2. Imagine que vocÃª Ã© uma pessoa que tem o azar mÃ¡ximo do universo: toda vez que vocÃª retira um item, vocÃª **nunca** repete uma categoria que jÃ¡ pegou, atÃ© empatar todas as categorias no limite logo abaixo da sua meta ($k - 1$).
+3. Quando todas as categorias estiverem empatadas na beira de atingir o objetivo, **o prÃ³ximo elemento que vocÃª retirar ($+ 1$)**, nÃ£o importa qual seja, completarÃ¡ a meta com $100\%$ de certeza!
+
+$$\mathbf{N = m \cdot (k - 1) + 1}$$
 Onde:
-- $m$: quantidade total de casas, categorias, tipos ou gavetas possÃ­veis.
-- $k$: quantidade desejada de elementos na mesma categoria.
-- $(k - 1)$: a situaÃ§Ã£o de quase conseguir o objetivo em todas as categorias (a pior hipÃ³tese).
-- $+ 1$: o elemento decisivo que obriga uma das categorias a atingir a meta de $k$ elementos.
+- $m$: nÃºmero de categorias/grupos possÃ­veis;
+- $k$: quantidade desejada de elementos na mesma categoria;
+- $(k - 1)$: o azar mÃ¡ximo (quase conseguir em todas);
+- $+ 1$: o elemento do triunfo que garante a resposta!
 
-##### C. O MÃ©todo do "Pior Caso" ("O Mais Azarado do Mundo")
-Para resolver qualquer questÃ£o sem decorar fÃ³rmulas, imagine o seguinte cenÃ¡rio mental:
-1. Identifique quais sÃ£o os **grupos possÃ­veis** ($m$).
-2. Suponha que vocÃª Ã© a pessoa mais azarada do universo: vocÃª retira itens e **nunca** repete uma categoria atÃ© esgotar o limite inferior permitido ($k - 1$ de cada tipo).
-3. ApÃ³s atingir esse estado de mÃ¡ximo azar (todas as gavetas empatadas com $k - 1$ itens), o prÃ³ximo item que vocÃª retirar, **nÃ£o importa qual seja**, completarÃ¡ inevitavelmente a quantidade $k$ em alguma das gavetas!
-
-| Problema TÃ­pico | Categorias PossÃ­veis ($m$) | Meta ($k$) | Pior Caso ($m \times (k-1)$) | MÃ­nimo para Garantir ($+1$) |
+##### C. Tabela de AplicaÃ§Ã£o Direta em Provas
+| Problema TÃ­pico de Prova | Categorias ($m$) | Meta ($k$) | Pior Caso ($m \times (k-1)$) | MÃ­nimo com Certeza ($+1$) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Mesmo MÃªs de AniversÃ¡rio** | $12\text{ meses}$ | $2\text{ pessoas}$ | $12 \times 1 = 12\text{ pessoas}$ | $12 + 1 = \mathbf{13\text{ pessoas}}$ |
-| **Mesmo Dia da Semana de Nascimento** | $7\text{ dias}$ | $2\text{ pessoas}$ | $7 \times 1 = 7\text{ pessoas}$ | $7 + 1 = \mathbf{8\text{ pessoas}}$ |
-| **Pelo Menos 3 Nascidos no Mesmo MÃªs** | $12\text{ meses}$ | $3\text{ pessoas}$ | $12 \times 2 = 24\text{ pessoas}$ | $24 + 1 = \mathbf{25\text{ pessoas}}$ |
-| **Mesmo Signo Zodiacal (2 pessoas)** | $12\text{ signos}$ | $2\text{ pessoas}$ | $12 \times 1 = 12\text{ pessoas}$ | $12 + 1 = \mathbf{13\text{ pessoas}}$ |
-| **Mesmo Naipe de Baralho (5 cartas)** | $4\text{ naipes}$ | $5\text{ cartas}$ | $4 \times 4 = 16\text{ cartas}$ | $16 + 1 = \mathbf{17\text{ cartas}}$ |
+| **Mesmo MÃªs de Nascimento (2 pessoas)** | 12 meses | 2 pessoas | $12 \times 1 = 12$ | $12 + 1 = \mathbf{13\text{ pessoas}}$ |
+| **Mesmo Dia da Semana (2 pessoas)** | 7 dias | 2 pessoas | $7 \times 1 = 7$ | $7 + 1 = \mathbf{8\text{ pessoas}}$ |
+| **Pelo Menos 3 Nascidos no Mesmo MÃªs** | 12 meses | 3 pessoas | $12 \times 2 = 24$ | $24 + 1 = \mathbf{25\text{ pessoas}}$ |
+| **Mesmo Naipe de Baralho (5 cartas)** | 4 naipes | 5 cartas | $4 \times 4 = 16$ | $16 + 1 = \mathbf{17\text{ cartas}}$ |
 
-##### D. DiferenÃ§a Crucial: "Da Mesma Cor" vs. "De Uma Cor EspecÃ­fica"
-- **SituaÃ§Ã£o 1 ("De qualquer cor / mesma cor"):** Uma gaveta contÃ©m 10 meias pretas e 10 meias brancas. Quantas meias retirar no escuro para garantir **um par da mesma cor**?
-  - Categorias: $2$ (preta e branca).
-  - Pior caso: tirar 1 preta e 1 branca ($2$ meias).
-  - PrÃ³xima meia: garante um par (ou preta ou branca). Resposta: $2 + 1 = \mathbf{3\text{ meias}}$.
-- **SituaÃ§Ã£o 2 ("De uma cor ESPECÃFICA"):** A mesma gaveta (10 pretas e 10 brancas). Quantas retirar para garantir **um par de meias BRANCAS**?
-  - Pior caso: o azarado tira **todas as 10 meias pretas primeiro**!
-  - Depois de esgotar as pretas, precisa retirar mais $2$ meias brancas.
-  - Resposta: $10 + 2 = \mathbf{12\text{ meias}}$!
-  - > [!WARNING]
-    > Muita atenÃ§Ã£o aos enunciados da banca IBGP! Garanta que entendeu se a banca pede "duas da mesma cor (qualquer uma)" ou "duas da cor X (especÃ­fica)".
+##### D. DiferenÃ§a Crucial: "Da Mesma Cor (Qualquer)" vs. "De Uma Cor EspecÃ­fica"
+- **SituaÃ§Ã£o 1: "Da mesma cor (qualquer uma)":** Gaveta com 10 meias pretas e 10 brancas. MÃ­nimo para garantir 1 par da mesma cor?
+  - Categorias: 2 (preta e branca).
+  - Pior caso: tirar 1 preta e 1 branca ($2$ meias). A prÃ³xima fecha o par. Resposta: $2 + 1 = \mathbf{3\text{ meias}}$!
+- **SituaÃ§Ã£o 2: "De uma cor ESPECÃFICA (ex.: 2 pretas)":**
+  - O azarado tira **todas as 10 meias brancas primeiro**!
+  - Depois precisa tirar mais 2 meias pretas. Resposta: $10 + 2 = \mathbf{12\text{ meias}}$!
 
 ### Modo B â€” Resumo Comentado e MnemÃ´nicos
 
 - **FÃ³rmula de Dirichlet:** $N = m \cdot (k - 1) + 1$.
-- **MnemÃ´nico do Pior Caso:** "Encha todas as gavetas com um a menos do que vocÃª quer; depois, adicione um e corra pro abraÃ§o!".
-- Se a pergunta for sobre aniversÃ¡rios no mesmo dia do ano (ano bissexto), sÃ£o $366$ dias. Para garantir 2 pessoas com o mesmo aniversÃ¡rio, sÃ£o necessÃ¡rias $366 + 1 = 367\text{ pessoas}$.
+- **MnemÃ´nico do Azarado:** "Pense na pior hipÃ³tese possÃ­vel: empate todas as opÃ§Ãµes com uma a menos do que vocÃª quer; depois, some 1 e comemore o gabarito!".
+- **AniversÃ¡rios:** SÃ£o 12 meses. Para garantir 2 aniversariantes no mesmo mÃªs: $12 \times 1 + 1 = 13\text{ pessoas}$. Para garantir 4 aniversariantes: $12 \times 3 + 1 = 37\text{ pessoas}$.
 
 ### Modo C â€” QuestÃµes Comentadas e Flashcards
 
@@ -468,7 +436,7 @@ Em uma reuniÃ£o do setor de VigilÃ¢ncia Ambiental da SEMUSA Porto Velho, est
     $$N = 36 + 1 = 37\text{ agentes}$$
 - Justificativa das incorretas:
   - A: Incorreta. 13 agentes garantem apenas 2 aniversariantes no mesmo mÃªs ($12 \times 1 + 1$).
-  - B: Incorreta. 36 agentes Ã© o pior caso em que cada mÃªs tem exatamente 3 aniversariantes, nÃ£o garantindo ainda o 4Âº.
+  - B: Incorreta. 36 agentes Ã© o pior caso de empate, nÃ£o garantindo ainda o 4Âº.
   - D: Incorreta. Calculou $12 \times 4 + 1 = 49$, que garantiria 5 aniversariantes no mesmo mÃªs.
 
 ##### QuestÃ£o 28.3.2 (`rlm_6_b3_q2`)
@@ -487,12 +455,24 @@ Um supervisor de campo da SEMUSA guarda em uma caixa opaca: 12 fichas de visita 
   - A 13Âª ficha retirada serÃ¡ obrigatoriamente amarela ou azul, garantindo que existam pelo menos 2 fichas de cores diferentes no conjunto retirado:
     $$N = 12 + 1 = 13\text{ fichas}$$
 - Justificativa das incorretas:
-  - A: Incorreta. Se retirar apenas 3 fichas, as 3 podem perfeitamente ser verdes, nÃ£o garantindo cores distintas.
+  - A: Incorreta. Se retirar apenas 3 fichas, as 3 podem ser verdes.
   - C: Incorreta. NÃºmero superior ao estritamente necessÃ¡rio.
   - D: Incorreta. Somou as duas maiores quantidades ($12 + 8 + 1$).
 
+#### Flashcards de RevisÃ£o Ativa
+
+| ID do Flashcard | Pergunta / Gatilho Mental (Frente) | Resposta Precisa e Fundamentada (Verso) |
+| :--- | :--- | :--- |
+| **FC 28.3.1** | O que diz o PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e qual Ã© a sua fÃ³rmula geral? | **Se $n$ pombos ocupam $m$ casas e $n > m$, pelo menos uma casa tem $\ge 2$ pombos.** Para garantir $k$ elementos no mesmo grupo entre $m$ categorias: **$N = m \cdot (k - 1) + 1$**. |
+| **FC 28.3.2** | Qual Ã© o raciocÃ­nio prÃ¡tico da "Pior HipÃ³tese" para garantir um evento em RLM? | **Considere o cenÃ¡rio do indivÃ­duo mais azarado possÃ­vel:** ele retira o mÃ¡ximo de itens sem nunca atingir o objetivo em nenhuma categoria. Ao final desse azar extremo, **o prÃ³ximo item (+1)** garante o resultado pretendido. |
+
 ```json
 {
+  "lessonId": "rlm_6",
+  "blockIndex": 2,
+  "title": "Bloco 28.3 â€” PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e RaciocÃ­nio Dedutivo",
+  "modoA_markdown": "#### 0. Nivelamento & PrÃ©-Requisitos Fundamentais (Aprenda a Base Primeiro!)\n\nO PrincÃ­pio da Casa dos Pombos (proposto por Dirichlet em 1834) Ã© um dos conceitos lÃ³gicos mais elegantes e recorrentes em provas da banca IBGP. Compreenda a base do zero:\n\n##### A. O Enunciado Intuitivo\nSe vocÃª tem 3 pombos e 2 casinhas, pelo menos uma casinha terÃ¡ 2 ou mais pombos ($n > m \\implies \\ge 2$ em alguma casa).\n\n##### B. A TÃ©cnica do 'IndivÃ­duo Mais Azarado do Mundo' (O Pior CenÃ¡rio PossÃ­vel)\nPara descobrir o mÃ­nimo para ter CERTEZA ABSOLUTA de atingir uma meta $k$ em $m$ categorias:\n1. Empate todas as $m$ categorias no limite de azar ($k - 1$).\n2. O prÃ³ximo elemento ($+ 1$) garante a meta!\n$$\\mathbf{N = m \\cdot (k - 1) + 1}$$\n\n##### C. Exemplos ClÃ¡ssicos\n- Mesmo mÃªs de aniversÃ¡rio (2 pessoas): 12 meses * 1 + 1 = 13 pessoas.\n- Pelo menos 4 no mesmo mÃªs: 12 meses * 3 + 1 = 37 pessoas.",
+  "modoB_markdown": "- **FÃ³rmula de Dirichlet:** $N = m \\cdot (k - 1) + 1$.\n- **MnemÃ´nico do Azarado:** Empate todas as opÃ§Ãµes com uma a menos do que vocÃª quer ($k - 1$), depois some 1!",
   "questions": [
     {
       "q": "(QuestÃ£o Autoral InÃ©dita â€” Perfil IBGP / ACE SEMUSA) Em uma reuniÃ£o do setor de VigilÃ¢ncia Ambiental da SEMUSA Porto Velho, estÃ£o presentes vÃ¡rios Agentes de Combate Ã s Endemias lotados nos distritos municipais. Qual Ã© o nÃºmero mÃ­nimo de agentes que devem estar presentes na sala para garantir que, com certeza absoluta, pelo menos 4 deles faÃ§am aniversÃ¡rio no mesmo mÃªs do ano?",
@@ -516,26 +496,14 @@ Um supervisor de campo da SEMUSA guarda em uma caixa opaca: 12 fichas de visita 
       "ans": 1,
       "comment": "Gabarito: B. O pior caso Ã© retirar todas as 12 fichas verdes primeiro. A 13Âª ficha serÃ¡ obrigatoriamente amarela ou azul, garantindo cores distintas: 12 + 1 = 13."
     }
-  ]
-}
-```
-
-#### Flashcards de RevisÃ£o Ativa
-
-| ID do Flashcard | Pergunta / Gatilho Mental (Frente) | Resposta Precisa e Fundamentada (Verso) |
-| :--- | :--- | :--- |
-| **FC 28.3.1** | O que diz o PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e qual Ã© a sua fÃ³rmula geral? | **Se $n$ pombos ocupam $m$ casas e $n > m$, pelo menos uma casa tem $\ge 2$ pombos.** Para garantir $k$ elementos no mesmo grupo entre $m$ categorias: **$N = m \cdot (k - 1) + 1$**. |
-| **FC 28.3.2** | Qual Ã© o raciocÃ­nio prÃ¡tico da "Pior HipÃ³tese" para garantir um evento em RLM? | **Considere o cenÃ¡rio do indivÃ­duo mais azarado possÃ­vel:** ele retira o mÃ¡ximo de itens sem nunca atingir o objetivo em nenhuma categoria. Ao final desse azar extremo, **o prÃ³ximo item (+1)** garante o resultado pretendido. |
-
-```json
-{
+  ],
   "flashcards": [
     {
       "front": "O que diz o PrincÃ­pio da Casa dos Pombos (Gavetas de Dirichlet) e qual Ã© a sua fÃ³rmula geral?",
       "back": "Se n pombos ocupam m casas e n > m, pelo menos uma casa tem >= 2 pombos. Para garantir k elementos no mesmo grupo entre m categorias: N = m * (k - 1) + 1."
     },
     {
-      "front": "Qual Ã© o raciocÃ­nio prÃ¡tico da 'Pior HipÃ³tese' para garantir um evento em RLM?",
+      "front": "Qual Ã© a raciocÃ­nio prÃ¡tico da 'Pior HipÃ³tese' para garantir um evento em RLM?",
       "back": "Considere o cenÃ¡rio do indivÃ­duo mais azarado possÃ­vel: ele retira o mÃ¡ximo de itens sem nunca atingir o objetivo em nenhuma categoria. Ao final desse azar extremo, o prÃ³ximo item (+1) garante o resultado pretendido."
     }
   ]

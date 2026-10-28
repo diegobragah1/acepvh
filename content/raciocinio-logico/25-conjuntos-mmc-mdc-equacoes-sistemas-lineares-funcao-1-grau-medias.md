@@ -1,4 +1,4 @@
----
+﻿---
 id: "rlm_3"
 slug: "25-conjuntos-mmc-mdc-equacoes-sistemas-lineares-funcao-1-grau-medias"
 num: 25

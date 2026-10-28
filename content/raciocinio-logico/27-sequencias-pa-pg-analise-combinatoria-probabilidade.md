@@ -1,4 +1,4 @@
----
+﻿---
 id: "rlm_5"
 slug: "27-sequencias-pa-pg-analise-combinatoria-probabilidade"
 num: 27
