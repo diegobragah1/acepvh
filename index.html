@@ -155,6 +155,9 @@
         <button type="button" data-tab="tab-biblioteca" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
           6. Inventário Analítico dos 94 PDFs Conectados
         </button>
+        <button type="button" data-tab="tab-programatico" class="main-tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-slate-800 text-slate-200 hover:bg-slate-700">
+          7. Conteúdo Programático Detalhado
+        </button>
       </nav>
     </div>
   </header>
@@ -385,7 +388,6 @@
                 <button type="button" data-mode="A" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo A: Teoria Aprofundada</button>
                 <button type="button" data-mode="B" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo B: Resumo &amp; Mnemônicos</button>
                 <button type="button" data-mode="C" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Modo C: Questões &amp; Flashcards</button>
-                <button type="button" data-mode="MD" class="study-mode-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-300 hover:bg-emerald-100">Arquivo .MD da Aula (Markdown)</button>
               </div>
             </div>
             <button type="button" id="toggleCompleteLessonBtn" class="px-4 py-2 rounded-xl font-bold text-xs sm:text-sm border transition self-start sm:self-center">
@@ -725,6 +727,92 @@
         </div>
         <div id="libraryGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3"></div>
       </div>
+    </section>
+
+    <!-- ==================== TAB 7: CONTEÚDO PROGRAMÁTICO DETALHADO ==================== -->
+    <section id="tab-programatico" class="tab-panel hidden space-y-6">
+      <!-- Header do Conteúdo Programático com Barra de Progresso Exclusiva -->
+      <div class="bg-gradient-to-r from-slate-900 via-teal-950 to-slate-900 text-white rounded-3xl p-6 shadow-md border border-teal-800/60">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div class="space-y-1.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-teal-500/20 text-teal-300 border border-teal-500/40">
+                EDITAL Nº 25/2026 SEMUSA PORTO VELHO &bull; ANEXO IV
+              </span>
+              <span class="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                BANCA IBGP &bull; PROVA 13/12/2026
+              </span>
+            </div>
+            <h2 class="text-xl sm:text-2xl font-black text-white">Conteúdo Programático Oficial Detalhado</h2>
+            <p class="text-xs sm:text-sm text-slate-300 max-w-3xl">
+              Acompanhe sua preparação tópico por tópico conforme o conteúdo programático do edital. Selecione seu status em cada item (⚪ Não iniciado, 📘 Estudando, ✅ Estudado, 🔄 Revisar, 🏆 Dominado) e acesse a aula correspondente na apostila com um clique.
+            </p>
+          </div>
+
+          <!-- Card de Progresso do Conteúdo Programático -->
+          <div class="bg-slate-800/90 border border-slate-700/80 p-4 rounded-2xl w-full lg:w-96 shrink-0 space-y-3">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-slate-300">Domínio do Conteúdo Oficial:</span>
+              <span id="progOverallPercent" class="text-xl font-black text-emerald-400">0%</span>
+            </div>
+            <!-- Barra Segmentada Multi-Status -->
+            <div class="w-full bg-slate-900 rounded-full h-3 overflow-hidden flex p-0.5 gap-0.5">
+              <div id="prog-bar-mastered" class="bg-purple-500 h-full rounded-l-full transition-all duration-300" style="width: 0%" title="Dominado"></div>
+              <div id="prog-bar-completed" class="bg-emerald-500 h-full transition-all duration-300" style="width: 0%" title="Estudado"></div>
+              <div id="prog-bar-review" class="bg-amber-400 h-full transition-all duration-300" style="width: 0%" title="Revisar"></div>
+              <div id="prog-bar-studying" class="bg-sky-400 h-full transition-all duration-300" style="width: 0%" title="Estudando"></div>
+            </div>
+            <div class="flex items-center justify-between text-[10px] text-slate-300 pt-1.5 border-t border-slate-700/60 font-medium">
+              <span title="Não iniciados">⚪ <span id="prog_count_not_started">32</span></span>
+              <span title="Estudando">📘 <span id="prog_count_studying">0</span></span>
+              <span title="Estudados">✅ <span id="prog_count_completed">0</span></span>
+              <span title="Revisar">🔄 <span id="prog_count_review">0</span></span>
+              <span title="Dominados">🏆 <span id="prog_count_mastered">0</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra de Filtros e Busca do Conteúdo Programático -->
+      <div class="bg-white rounded-2xl p-4 shadow-sm border border-slate-200 space-y-3">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div class="flex-1">
+            <div class="relative">
+              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 text-xs"></i>
+              <input type="text" id="progSearchInput" placeholder="Buscar no conteúdo programático (ex: Dengue, LIRAa, LC 390, Sintaxe, Porcentagem, Rio Madeira)..."
+                class="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-300 text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-teal-500">
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-bold text-slate-500" id="progItemsCountLabel">32 tópicos</span>
+          </div>
+        </div>
+
+        <!-- Filtros por Disciplina -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-100" id="progCatFilterBtns">
+          <span class="text-[11px] font-bold text-slate-500 mr-1"><i class="fa-solid fa-book-open mr-1 text-brand-500"></i>Disciplina:</span>
+          <button type="button" data-cat="all" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-900 text-white shadow-sm">Todas (32)</button>
+          <button type="button" data-cat="esp" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Específicos ACE (10)</button>
+          <button type="button" data-cat="leg" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Legislação (7)</button>
+          <button type="button" data-cat="por" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Português (6)</button>
+          <button type="button" data-cat="rlm" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Raciocínio Lógico (6)</button>
+          <button type="button" data-cat="atu" class="prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Gerais / Porto Velho (3)</button>
+        </div>
+
+        <!-- Filtros por Status -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-1 border-t border-slate-100" id="progStatusFilterBtns">
+          <span class="text-[11px] font-bold text-slate-500 mr-1"><i class="fa-solid fa-chart-line mr-1 text-brand-500"></i>Status:</span>
+          <button type="button" data-status="all" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-white shadow-sm">Todos</button>
+          <button type="button" data-status="not_started" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">⚪ Não iniciado</button>
+          <button type="button" data-status="studying" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-sky-50 text-sky-800 hover:bg-sky-100">📘 Estudando</button>
+          <button type="button" data-status="completed" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-800 hover:bg-emerald-100">✅ Estudado</button>
+          <button type="button" data-status="review" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-amber-50 text-amber-800 hover:bg-amber-100">🔄 Revisar</button>
+          <button type="button" data-status="mastered" class="prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-purple-50 text-purple-800 hover:bg-purple-100">🏆 Dominado</button>
+        </div>
+      </div>
+
+      <!-- Lista de Tópicos Detalhados do Conteúdo Programático -->
+      <div id="programaticoListContainer" class="space-y-4"></div>
     </section>
 
   </main>
