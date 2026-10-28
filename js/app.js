@@ -605,11 +605,11 @@ function renderCurrentLesson() {
         <div class="flashcard-inner border border-slate-200 rounded-xl shadow-sm bg-gradient-to-br from-slate-800 to-slate-900 text-white">
           <div class="flashcard-front">
             <span class="text-[10px] uppercase tracking-wider text-teal-400 font-bold mb-1">Flashcard &bull; Clique para virar</span>
-            <p class="text-xs sm:text-sm font-bold leading-snug">${fc.f}</p>
+            <p class="text-xs sm:text-sm font-bold leading-snug">${fc.f || fc.front || ""}</p>
           </div>
           <div class="flashcard-back bg-gradient-to-br from-teal-700 to-emerald-800 text-white">
             <span class="text-[10px] uppercase tracking-wider text-amber-200 font-bold mb-1">Resposta de Prova</span>
-            <p class="text-xs sm:text-sm font-medium leading-snug">${fc.b}</p>
+            <p class="text-xs sm:text-sm font-medium leading-snug">${fc.b || fc.back || ""}</p>
           </div>
         </div>
       </div>
@@ -679,7 +679,6 @@ function renderCurrentLesson() {
       if (inner) inner.classList.toggle("flashcard-flipped");
     });
   });
-}
 }
 
 // Render Tab 3: Simulado & Global Flashcards
@@ -773,12 +772,12 @@ function renderSimuladoAndFlashcards() {
       <div class="flashcard-container cursor-pointer">
         <div class="flashcard-inner border border-slate-200 rounded-xl shadow-sm bg-gradient-to-br from-slate-800 to-slate-900 text-white">
           <div class="flashcard-front">
-            <span class="text-[10px] uppercase tracking-wider text-teal-400 font-bold mb-1">Aula ${fc.lessonTitle.split('.')[0]} &bull; Clique p/ virar</span>
-            <p class="text-xs sm:text-sm font-bold leading-snug">${fc.f}</p>
+            <span class="text-[10px] uppercase tracking-wider text-teal-400 font-bold mb-1">Aula ${(fc.lessonTitle || "").split('.')[0]} &bull; Clique p/ virar</span>
+            <p class="text-xs sm:text-sm font-bold leading-snug">${fc.f || fc.front || ""}</p>
           </div>
           <div class="flashcard-back bg-gradient-to-br from-teal-700 to-emerald-800 text-white">
             <span class="text-[10px] uppercase tracking-wider text-amber-200 font-bold mb-1">Resposta Oficial</span>
-            <p class="text-xs sm:text-sm font-medium leading-snug">${fc.b}</p>
+            <p class="text-xs sm:text-sm font-medium leading-snug">${fc.b || fc.back || ""}</p>
           </div>
         </div>
       </div>
@@ -929,8 +928,17 @@ function renderTab5() {
         const st = getTopicStatus(lid);
         const meta = getStatusMeta(st);
         const done = st === "completed" || st === "mastered";
+        let shortTitle = lid;
+        if (lObj && lObj.title) {
+          const parts = lObj.title.split('.');
+          if (parts.length > 1) {
+            shortTitle = parts[0] + '. ' + parts.slice(1).join('.').trim().slice(0, 26) + '...';
+          } else {
+            shortTitle = lObj.title.slice(0, 28) + '...';
+          }
+        }
         return `<button type="button" data-open-lesson="${lid}" class="open-lesson-chip px-2.5 py-1 rounded-lg text-xs font-bold border transition ${done ? 'bg-emerald-100 border-emerald-400 text-emerald-900' : 'bg-white border-slate-300 text-teal-800 hover:bg-teal-50'}">
-          <span class="mr-1">${meta.icon}</span>${lObj ? lObj.title.split('.')[0] + '. ' + lObj.title.split('.')[1].slice(0, 26) + '...' : lid}
+          <span class="mr-1">${meta.icon}</span>${shortTitle}
         </button>`;
       }).join("");
 
@@ -1121,7 +1129,7 @@ function renderProgramatico() {
     const subtopics = (l.blocks || []).map(b => b.title);
 
     const subtopicsHtml = subtopics.length > 0
-      ? subtopics.map(t => `<li class="leading-relaxed"><strong class="text-slate-800">${t.split('.')[0] || 'Tópico'}:</strong> ${t.replace(/^[^.]+\.\s*/, '')}</li>`).join("")
+      ? subtopics.map(t => `<li class="leading-relaxed"><strong class="text-slate-800">${(t || '').split('.')[0] || 'Tópico'}:</strong> ${(t || '').replace(/^[^.]+\.\s*/, '')}</li>`).join("")
       : `<li class="text-slate-500 italic">Conteúdo integral conforme diretrizes do Edital nº 25/2026.</li>`;
 
     return `
@@ -1405,15 +1413,46 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-  // Carregamento dinâmico do arquivo ./data/app_data.json (compatível com GitHub Pages /acepvh/)
+  // Carregamento dinâmico: tenta fetch("./data/app_data.json") e recorre ao fallback offline window.LOCAL_APP_DATA
   async function loadAppData() {
     const DATA_URL = "./data/app_data.json";
+    let dataLoaded = false;
+
+    // 1. Tenta carregar via fetch HTTP (GitHub Pages e servidores locais)
     try {
       const response = await fetch(DATA_URL, { cache: "no-cache" });
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status} - ${response.statusText}`);
+      if (response.ok) {
+        APP_DATA = await response.json();
+        dataLoaded = true;
       }
-      APP_DATA = await response.json();
+    } catch (fetchErr) {
+      // Falha esperada no protocolo file:// devido à política de CORS do navegador
+      console.info("Carregamento via fetch indisponível (ambiente file:// ou offline). Ativando fallback embutido...");
+    }
+
+    // 2. Se o fetch não pôde ser realizado (duplo clique direto no PC), usa os dados de data/app_data.js
+    if (!dataLoaded) {
+      if (typeof window.LOCAL_APP_DATA !== "undefined" && window.LOCAL_APP_DATA) {
+        APP_DATA = window.LOCAL_APP_DATA;
+        dataLoaded = true;
+      }
+    }
+
+    if (!dataLoaded) {
+      const container = document.getElementById("lessonContentContainer");
+      if (container) {
+        container.innerHTML = `
+          <div class="p-5 rounded-xl bg-rose-50 border border-rose-300 text-rose-950 space-y-2">
+            <h3 class="text-base font-extrabold text-rose-900">Erro ao carregar dados da plataforma</h3>
+            <p class="text-xs sm:text-sm">Certifique-se de que a estrutura de pastas (<code>./index.html</code>, <code>./css/style.css</code>, <code>./js/app.js</code>, <code>./data/app_data.js</code> e <code>./data/app_data.json</code>) está completa.</p>
+          </div>
+        `;
+      }
+      showToast("Aviso: arquivos de dados não encontrados.");
+      return;
+    }
+
+    try {
       if (Array.isArray(APP_DATA.lessons)) {
         APP_DATA.lessons.forEach(l => {
           if (l.sources && Array.isArray(l.sources.value)) {
@@ -1432,19 +1471,9 @@ document.addEventListener("DOMContentLoaded", () => {
       renderTab5();
       renderLibrary();
       renderProgramatico();
-    } catch (error) {
-      console.error("Erro ao carregar ./data/app_data.json:", error);
-      const container = document.getElementById("lessonContentContainer");
-      if (container) {
-        container.innerHTML = `
-          <div class="p-5 rounded-xl bg-rose-50 border border-rose-300 text-rose-950 space-y-2">
-            <h3 class="text-base font-extrabold text-rose-900">Erro ao carregar ./data/app_data.json</h3>
-            <p class="text-xs sm:text-sm">Certifique-se de que a estrutura de pastas (<code>./index.html</code>, <code>./css/style.css</code>, <code>./js/app.js</code> e <code>./data/app_data.json</code>) está publicada no GitHub Pages ou sendo executada via servidor HTTP local (ex: Live Server ou <code>python3 -m http.server</code>).</p>
-            <p class="text-xs font-mono text-rose-800">Detalhe técnico: ${error.message}</p>
-          </div>
-        `;
-      }
-      showToast("Aviso: publique no GitHub Pages ou use um servidor local para carregar ./data/app_data.json.");
+    } catch (renderError) {
+      console.error("Erro durante a renderização da plataforma:", renderError);
+      showToast(`Erro de renderização: ${renderError.message}`);
     }
   }
 
