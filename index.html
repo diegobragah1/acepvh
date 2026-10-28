@@ -833,7 +833,9 @@
     </div>
   </footer>
 
-  <!-- Script Principal da SPA (Carrega ./data/app_data.json via fetch) -->
+  <!-- Dados offline/fallback para funcionamento direto por duplo clique no computador (file://) -->
+  <script src="./data/app_data.js"></script>
+  <!-- Script Principal da SPA (Carrega ./data/app_data.json via fetch ou fallback offline) -->
   <script src="./js/app.js"></script>
 </body>
 </html>
