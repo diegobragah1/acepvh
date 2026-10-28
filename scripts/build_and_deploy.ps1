@@ -2,8 +2,10 @@ $ErrorActionPreference = "Stop"
 
 $Root = "C:\Users\Diego\.gemini\antigravity\scratch\acepvh_atualizado"
 $ZipTarget = "C:\Users\Diego\.gemini\antigravity\scratch\acepvh_atualizado.zip"
-$DesktopDir = "C:\Users\Diego\OneDrive\Área de Trabalho\acepvh_atualizado"
-$DesktopZip = "C:\Users\Diego\OneDrive\Área de Trabalho\acepvh_atualizado.zip"
+
+$DesktopBase = [Environment]::GetFolderPath('Desktop')
+$DesktopDir = Join-Path $DesktopBase "acepvh_atualizado"
+$DesktopZip = Join-Path $DesktopBase "acepvh_atualizado.zip"
 $DownloadsZip = "C:\Users\Diego\Downloads\acepvh_atualizado.zip"
 $ArtifactZip = "C:\Users\Diego\.gemini\antigravity\brain\a3d3987e-61d3-4511-8d7f-3cfa7c9427ac\acepvh_atualizado.zip"
 
@@ -11,7 +13,7 @@ Write-Host "=== ETAPA 1: Gerando data/app_data.js (Fallback Offline)..." -Foregr
 $jsonPath = Join-Path $Root "data\app_data.json"
 $jsPath = Join-Path $Root "data\app_data.js"
 $rawJson = [System.IO.File]::ReadAllText($jsonPath, [System.Text.Encoding]::UTF8)
-$jsContent = "/**`n * Plataforma ACE SEMUSA Porto Velho 2026`n * Fallback offline para app_data.json (permite execução offline por duplo clique em index.html)`n */`nwindow.LOCAL_APP_DATA = " + $rawJson + ";`n"
+$jsContent = "/**`n * Plataforma ACE SEMUSA Porto Velho 2026`n * Fallback offline para app_data.json (permite execucao offline por duplo clique em index.html)`n */`nwindow.LOCAL_APP_DATA = " + $rawJson + ";`n"
 [System.IO.File]::WriteAllText($jsPath, $jsContent, [System.Text.Encoding]::UTF8)
 Write-Host "data/app_data.js gerado com sucesso ($([math]::Round($jsContent.Length / 1MB, 2)) MB)." -ForegroundColor Green
 
