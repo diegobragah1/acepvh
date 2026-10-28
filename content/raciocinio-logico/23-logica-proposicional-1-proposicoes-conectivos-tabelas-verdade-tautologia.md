@@ -1,4 +1,4 @@
----
+﻿---
 id: "rlm_1"
 slug: "23-logica-proposicional-1-proposicoes-conectivos-tabelas-verdade-tautologia"
 num: 23

@@ -134,6 +134,7 @@ function updateTopicStatus(subjectId, topicId, newStatus) {
   renderLessonsSidebar();
   renderCurrentLesson();
   renderTab5();
+  renderProgramatico();
 }
 window.updateTopicStatus = updateTopicStatus;
 
@@ -643,23 +644,12 @@ function renderCurrentLesson() {
       <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900">${lesson.title}</h2>
       <p class="text-xs text-slate-600"><strong>Correspondência no Conteúdo Programático Oficial (Anexo IV):</strong> ${lesson.editalRef}</p>
       ${statusSelectorHtml}
-      <div class="pt-1 flex flex-wrap items-center justify-between gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-200">
-        <div class="text-xs text-slate-700">
-          <span class="font-bold text-teal-900">&#128221; Arquivo Markdown da Aula:</span>
-          <code class="ml-1 px-2 py-0.5 rounded bg-white border border-slate-300 mono text-[11px] text-teal-800">${lesson.mdPath || `./content/${lesson.id}.md`}</code>
-        </div>
-        <div class="flex flex-wrap gap-1.5">
-          <a href="${lesson.mdPath || `./content/${lesson.id}.md`}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold transition">Abrir .MD Bruto &nearr;</a>
-          <button type="button" id="downloadLessonMdBtn" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-300 text-xs font-bold transition">&#11015; Baixar ${lesson.id}.md</button>
-        </div>
-      </div>
       <div class="pt-1">
         <div class="text-[11px] font-bold text-slate-500 uppercase mb-1.5">PDFs do Google Drive e Fontes Oficiais Integrados nesta Aula (Clique p/ abrir o PDF):</div>
         <div class="flex flex-wrap gap-1.5">${sourcesHtml}</div>
       </div>
     </div>
-    <div id="markdownFileViewerBox" class="${currentStudyMode === 'MD' ? 'block' : 'hidden'} md-viewer-box border-t border-slate-200 pt-4 space-y-3"></div>
-    ${currentStudyMode === 'MD' ? '' : blocksHtml}
+    ${blocksHtml}
   `;
 
   container.querySelectorAll(".lesson-q-opt").forEach(btn => {
@@ -689,49 +679,7 @@ function renderCurrentLesson() {
       if (inner) inner.classList.toggle("flashcard-flipped");
     });
   });
-
-  document.getElementById("downloadLessonMdBtn")?.addEventListener("click", async () => {
-    const mdText = await fetchLessonMarkdownText(lesson);
-    const blob = new Blob([mdText], { type: "text/markdown;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${lesson.slug || lesson.id}.md`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    showToast(`Arquivo Markdown (${lesson.slug || lesson.id}.md) baixado com sucesso!`);
-  });
-
-  if (currentStudyMode === "MD") {
-    const mdBox = document.getElementById("markdownFileViewerBox");
-    if (mdBox) {
-      mdBox.innerHTML = `<div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600">Carregando arquivo Markdown <code>${lesson.mdPath || `./content/${lesson.id}.md`}</code>...</div>`;
-      fetchLessonMarkdownText(lesson).then(mdText => {
-        mdBox.innerHTML = `
-          <div class="bg-emerald-50 border border-emerald-300 rounded-xl p-3.5 flex flex-wrap items-center justify-between gap-2">
-            <div>
-              <div class="text-xs font-extrabold text-emerald-950 uppercase">Visualizador Nativo de Markdown (.md) — Sincronizado com o Repositório</div>
-              <div class="text-xs text-emerald-800">Caminho: <code>${lesson.mdPath || `./content/${lesson.id}.md`}</code> &bull; Tamanho: ${mdText.length.toLocaleString("pt-BR")} caracteres</div>
-            </div>
-            <button type="button" id="copyLessonMdBtn" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-bold shadow">&#128203; Copiar Markdown (.md)</button>
-          </div>
-          <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div class="text-xs font-bold uppercase text-teal-800 border-b border-slate-200 pb-1">1. Pré-Visualização Formatada do Arquivo Markdown:</div>
-            ${renderMarkdownToHtml(mdText)}
-          </div>
-          <details class="bg-slate-900 text-emerald-300 rounded-xl p-3.5 border border-slate-700">
-            <summary class="cursor-pointer text-xs font-bold text-white">2. Ver Código-Fonte Markdown Puro (.md com YAML Frontmatter e Blocos JSON)</summary>
-            <pre class="mt-3 text-xs mono overflow-x-auto">${mdText.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</pre>
-          </details>
-        `;
-        document.getElementById("copyLessonMdBtn")?.addEventListener("click", () => {
-          copyTextToClipboard(mdText, () => showToast("Código Markdown (.md) da aula copiado para a área de transferência!"));
-        });
-      });
-    }
-  }
+}
 }
 
 // Render Tab 3: Simulado & Global Flashcards
@@ -1073,6 +1021,180 @@ function renderLibrary() {
   });
 }
 
+// Render Tab 7: Conteúdo Programático Detalhado
+let progCatFilter = "all";
+let progStatusFilter = "all";
+
+function getCatBadgeClass(cat) {
+  switch (cat) {
+    case "esp": return "bg-teal-100 text-teal-800";
+    case "leg": return "bg-amber-100 text-amber-900";
+    case "por": return "bg-blue-100 text-blue-900";
+    case "rlm": return "bg-indigo-100 text-indigo-900";
+    case "atu": return "bg-emerald-100 text-emerald-900";
+    default: return "bg-slate-100 text-slate-800";
+  }
+}
+
+function renderProgramatico() {
+  const container = document.getElementById("programaticoListContainer");
+  if (!container) return;
+
+  const q = (document.getElementById("progSearchInput")?.value || "").trim().toLowerCase();
+
+  // Calcula contadores de todos os itens do Conteúdo Programático
+  const total = APP_DATA.lessons.length || 32;
+  let cNotStarted = 0, cStudying = 0, cCompleted = 0, cReview = 0, cMastered = 0;
+
+  APP_DATA.lessons.forEach(l => {
+    const st = getTopicStatus(l.id);
+    if (st === "studying") cStudying++;
+    else if (st === "completed") cCompleted++;
+    else if (st === "review") cReview++;
+    else if (st === "mastered") cMastered++;
+    else cNotStarted++;
+  });
+
+  const doneCount = cCompleted + cMastered;
+  const pct = total > 0 ? Math.round((doneCount / total) * 100) : 0;
+
+  const pctEl = document.getElementById("progOverallPercent");
+  if (pctEl) pctEl.textContent = `${pct}%`;
+
+  const barMa = document.getElementById("prog-bar-mastered");
+  const barCo = document.getElementById("prog-bar-completed");
+  const barRe = document.getElementById("prog-bar-review");
+  const barSt = document.getElementById("prog-bar-studying");
+
+  if (barMa) barMa.style.width = `${total > 0 ? ((cMastered / total) * 100).toFixed(1) : 0}%`;
+  if (barCo) barCo.style.width = `${total > 0 ? ((cCompleted / total) * 100).toFixed(1) : 0}%`;
+  if (barRe) barRe.style.width = `${total > 0 ? ((cReview / total) * 100).toFixed(1) : 0}%`;
+  if (barSt) barSt.style.width = `${total > 0 ? ((cStudying / total) * 100).toFixed(1) : 0}%`;
+
+  const elNS = document.getElementById("prog_count_not_started");
+  const elSt = document.getElementById("prog_count_studying");
+  const elCo = document.getElementById("prog_count_completed");
+  const elRe = document.getElementById("prog_count_review");
+  const elMa = document.getElementById("prog_count_mastered");
+
+  if (elNS) elNS.textContent = cNotStarted;
+  if (elSt) elSt.textContent = cStudying;
+  if (elCo) elCo.textContent = cCompleted;
+  if (elRe) elRe.textContent = cReview;
+  if (elMa) elMa.textContent = cMastered;
+
+  // Filtra itens para exibição na lista
+  const filtered = APP_DATA.lessons.filter(l => {
+    if (progCatFilter !== "all" && l.cat !== progCatFilter) return false;
+    const st = getTopicStatus(l.id);
+    if (progStatusFilter !== "all" && st !== progStatusFilter) return false;
+    if (!q) return true;
+    const inTitle = (l.title || "").toLowerCase().includes(q) || (l.editalRef && l.editalRef.toLowerCase().includes(q)) || (l.catName || "").toLowerCase().includes(q);
+    const inBlocks = (l.blocks || []).some(b =>
+      (b.title || "").toLowerCase().includes(q) ||
+      (b.modoA && b.modoA.toLowerCase().includes(q)) ||
+      (b.modoB && b.modoB.toLowerCase().includes(q))
+    );
+    return inTitle || inBlocks;
+  });
+
+  const countLabel = document.getElementById("progItemsCountLabel");
+  if (countLabel) {
+    countLabel.textContent = `${filtered.length} tópico${filtered.length === 1 ? '' : 's'}`;
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="bg-white rounded-2xl p-8 text-center border border-slate-200 text-slate-500 space-y-2">
+        <div class="text-3xl">🔍</div>
+        <h4 class="text-sm font-bold text-slate-800">Nenhum tópico encontrado para esses filtros.</h4>
+        <p class="text-xs text-slate-500">Tente buscar por outro termo ou selecione "Todas" e "Todos" nos filtros acima.</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = filtered.map(l => {
+    const st = getTopicStatus(l.id);
+    const meta = getStatusMeta(st);
+    const badgeCls = getCatBadgeClass(l.cat);
+    const subtopics = (l.blocks || []).map(b => b.title);
+
+    const subtopicsHtml = subtopics.length > 0
+      ? subtopics.map(t => `<li class="leading-relaxed"><strong class="text-slate-800">${t.split('.')[0] || 'Tópico'}:</strong> ${t.replace(/^[^.]+\.\s*/, '')}</li>`).join("")
+      : `<li class="text-slate-500 italic">Conteúdo integral conforme diretrizes do Edital nº 25/2026.</li>`;
+
+    return `
+      <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200 hover:border-teal-300 transition space-y-3.5" data-prog-id="${l.id}">
+        <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+          <div class="space-y-1.5 flex-1 min-w-0">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold ${badgeCls}">${l.catName}</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-100 text-slate-700">${l.weight}</span>
+              <span class="px-2.5 py-0.5 rounded-full text-xs font-bold border ${meta.badgeClass}">${meta.icon} ${meta.label}</span>
+            </div>
+            <h3 class="text-base sm:text-lg font-extrabold text-slate-900 leading-snug">${l.title}</h3>
+            <p class="text-xs text-slate-600"><strong>Item Oficial do Conteúdo Programático (Anexo IV):</strong> ${l.editalRef}</p>
+          </div>
+
+          <button onclick="openLessonFromProg('${l.id}')" type="button" class="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold shadow-sm transition">
+            <span>Estudar Aula na Apostila</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Subtópicos e Escopo Detalhado da Banca IBGP -->
+        <div class="bg-slate-50 rounded-xl p-3.5 border border-slate-200/80">
+          <div class="text-[11px] font-bold text-slate-500 uppercase mb-1.5 flex items-center gap-1.5">
+            <i class="fa-solid fa-list-check text-teal-600"></i>
+            <span>Subtópicos &amp; Conceitos Estruturados Cobrados no Concurso:</span>
+          </div>
+          <ul class="list-disc pl-5 text-xs text-slate-700 space-y-1">
+            ${subtopicsHtml}
+          </ul>
+        </div>
+
+        <!-- Seletor de Status do Assunto (5 Níveis) -->
+        <div class="pt-2 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400">
+                <i class="fa-solid fa-chart-line mr-1 text-brand-500"></i>Seu Status neste Conteúdo:
+            </span>
+            <div class="flex flex-wrap items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200 dark:border-slate-700 gap-1">
+                <button onclick="updateTopicStatus('${l.cat}', '${l.id}', 'not_started')"
+                    class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${st === 'not_started' ? 'bg-slate-700 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                    ⚪ Não iniciado
+                </button>
+                <button onclick="updateTopicStatus('${l.cat}', '${l.id}', 'studying')"
+                    class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${st === 'studying' ? 'bg-sky-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                    📘 Estudando
+                </button>
+                <button onclick="updateTopicStatus('${l.cat}', '${l.id}', 'completed')"
+                    class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${st === 'completed' ? 'bg-emerald-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                    ✅ Estudado
+                </button>
+                <button onclick="updateTopicStatus('${l.cat}', '${l.id}', 'review')"
+                    class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${st === 'review' ? 'bg-amber-500 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                    🔄 Revisar
+                </button>
+                <button onclick="updateTopicStatus('${l.cat}', '${l.id}', 'mastered')"
+                    class="px-2.5 py-1 rounded-lg text-[11px] font-bold transition ${st === 'mastered' ? 'bg-purple-600 text-white shadow-sm' : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'}">
+                    🏆 Dominado
+                </button>
+            </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+window.openLessonFromProg = function(lessonId) {
+  currentLessonId = lessonId;
+  switchTab("tab-apostila");
+  renderLessonsSidebar();
+  renderCurrentLesson();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 // Initialize Application
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".main-tab-btn").forEach(btn => {
@@ -1173,6 +1295,34 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("librarySearchInput")?.addEventListener("input", renderLibrary);
   document.getElementById("libraryFolderFilter")?.addEventListener("change", renderLibrary);
 
+  document.getElementById("progSearchInput")?.addEventListener("input", renderProgramatico);
+
+  document.querySelectorAll(".prog-cat-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      progCatFilter = btn.getAttribute("data-cat");
+      document.querySelectorAll(".prog-cat-btn").forEach(b => {
+        const active = b.getAttribute("data-cat") === progCatFilter;
+        b.className = active
+          ? "prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-900 text-white shadow-sm"
+          : "prog-cat-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200";
+      });
+      renderProgramatico();
+    });
+  });
+
+  document.querySelectorAll(".prog-status-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      progStatusFilter = btn.getAttribute("data-status");
+      document.querySelectorAll(".prog-status-btn").forEach(b => {
+        const active = b.getAttribute("data-status") === progStatusFilter;
+        b.className = active
+          ? "prog-status-btn px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-white shadow-sm"
+          : "prog-status-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200";
+      });
+      renderProgramatico();
+    });
+  });
+
   const modal = document.getElementById("sitesModal");
   const rawTa = document.getElementById("rawHtmlTextarea");
   document.getElementById("copyHtmlForSitesBtn")?.addEventListener("click", () => {
@@ -1245,6 +1395,7 @@ document.addEventListener("DOMContentLoaded", () => {
         renderCurrentLesson();
         renderSimuladoAndFlashcards();
         renderTab5();
+        renderProgramatico();
         showToast("Progresso importado e sincronizado com sucesso!");
       } catch (err) {
         showToast("Erro ao ler o arquivo JSON de progresso.");
@@ -1280,6 +1431,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderTab4();
       renderTab5();
       renderLibrary();
+      renderProgramatico();
     } catch (error) {
       console.error("Erro ao carregar ./data/app_data.json:", error);
       const container = document.getElementById("lessonContentContainer");
