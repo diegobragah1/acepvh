@@ -1,0 +1,8 @@
+{
+  "name": "Plataforma ACE SEMUSA Porto Velho 2026",
+  "description": "Plataforma interativa completa de estudos para Agente de Combate às Endemias (ACE) — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP). 32 Aulas (Modos A, B e C), 207 Questões Comentadas, 246 Flashcards, Calculadoras LIRAa e de Campo, 14 Fichas de Endemias e 94 Fontes.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
