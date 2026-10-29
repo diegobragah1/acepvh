@@ -1,14 +1,67 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { AppProvider } from './context/AppContext';
 import { App } from './App';
+import { AppProvider } from './context/AppContext';
 import './index.css';
+
+interface ErrorBoundaryState {
+  hasError: boolean;
+  errorMsg: string;
+}
+
+class RootErrorBoundary extends React.Component<{ children: React.ReactNode }, ErrorBoundaryState> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false, errorMsg: '' };
+  }
+
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return {
+      hasError: true,
+      errorMsg: error?.message || 'Erro inesperado na renderização.',
+    };
+  }
+
+  handleResetAndReload = () => {
+    try {
+      window.localStorage.removeItem('ace_semusa_2026_completed_lessons_v3');
+      window.localStorage.removeItem('ace_semusa_2026_topic_status_v1');
+      window.localStorage.removeItem('ace_semusa_2026_sim_answers_v3');
+    } catch (e) {
+      // ignore storage errors
+    }
+    window.location.href = window.location.pathname + '?v=' + Date.now();
+  };
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
+          <div className="max-w-md w-full bg-white rounded-2xl border border-red-200 shadow-lg p-6 text-center space-y-4">
+            <div className="text-lg font-extrabold text-red-700">
+              Recuperação Automática da Plataforma
+            </div>
+            <p className="text-xs text-slate-600">
+              Detectamos dados antigos em cache no navegador ({this.state.errorMsg}). Clique abaixo para limpar o cache local e recarregar a plataforma:
+            </p>
+            <button
+              type="button"
+              onClick={this.handleResetAndReload}
+              className="px-4 py-2 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold shadow transition"
+            >
+              Limpar Cache e Recarregar Agora
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 declare global {
   interface Window {
     __ACE_APP_MOUNTED__?: boolean;
-    APP_DATA?: unknown;
-    LOCAL_APP_DATA?: unknown;
   }
 }
 
@@ -17,10 +70,11 @@ if (rootElement && !window.__ACE_APP_MOUNTED__) {
   window.__ACE_APP_MOUNTED__ = true;
   ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-      <AppProvider>
-        <App />
-      </AppProvider>
-    </React.StrictMode>
+      <RootErrorBoundary>
+        <AppProvider>
+          <App />
+        </AppProvider>
+      </RootErrorBoundary>
+    </React.StrictMode>,
   );
 }
-

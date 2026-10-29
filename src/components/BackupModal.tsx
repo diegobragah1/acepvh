@@ -100,7 +100,7 @@ export const BackupModal: React.FC = () => {
                 className="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-bold transition inline-flex items-center gap-1"
               >
                 <span>Abrir GitHub Pages</span>
-                <span>&nearr;</span>
+                <span>&#8599;</span>
               </a>
               <button
                 type="button"
@@ -116,7 +116,7 @@ export const BackupModal: React.FC = () => {
                 className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold transition inline-flex items-center gap-1"
               >
                 <span>Abrir Google Sites Publicado</span>
-                <span>&nearr;</span>
+                <span>&#8599;</span>
               </a>
             </div>
           </div>

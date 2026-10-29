@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
+import { toSafeString } from '../utils/normalizeData';
 
 export const Tab3Simulado: React.FC = () => {
   const { appData, simAnswers, setSimAnswer, resetSimAnswers } = useApp();
@@ -41,18 +42,18 @@ export const Tab3Simulado: React.FC = () => {
     lessons.forEach(l => {
       (l.blocks || []).forEach((b, bIdx) => {
         (b.questions || []).forEach((qObj: any, qIdx: number) => {
-          const questionText = qObj.q || qObj.stem || '';
+          const questionText = toSafeString(qObj.q || qObj.stem || '');
           const answerIndex = qObj.ans !== undefined ? qObj.ans : (qObj.correct ?? 0);
-          const explanationText = qObj.comment || qObj.explanation || '';
+          const explanationText = toSafeString(qObj.comment || qObj.explanation || '');
           qList.push({
             id: `sim_${l.id}_${bIdx}_${qIdx}`,
             lessonId: l.id,
-            lessonTitle: l.title,
-            catName: l.catName,
-            cat: l.cat,
-            weight: l.weight,
+            lessonTitle: toSafeString(l.title),
+            catName: toSafeString(l.catName),
+            cat: toSafeString(l.cat),
+            weight: toSafeString(l.weight),
             q: questionText,
-            options: qObj.options || [],
+            options: Array.isArray(qObj.options) ? qObj.options.map((o: unknown) => toSafeString(o)) : [],
             ans: answerIndex,
             comment: explanationText
           });
@@ -64,10 +65,10 @@ export const Tab3Simulado: React.FC = () => {
           fcList.push({
             id: `gfc_${l.id}_${bIdx}_${fIdx}`,
             lessonId: l.id,
-            lessonTitle: l.title,
-            cat: l.cat,
-            front: fc.f || fc.front || '',
-            back: fc.b || fc.back || ''
+            lessonTitle: toSafeString(l.title),
+            cat: toSafeString(l.cat),
+            front: toSafeString(fc.f || fc.front || ''),
+            back: toSafeString(fc.b || fc.back || '')
           });
         });
       });

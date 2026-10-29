@@ -2,6 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta } from '../utils/status';
 import { renderMarkdownToHtml } from '../utils/markdown';
+import { toSafeString } from '../utils/normalizeData';
 import { TopicStatus, Source } from '../types';
 import { LessonMindMapView } from './LessonMindMapView';
 
@@ -68,12 +69,12 @@ export const Tab2Apostila: React.FC = () => {
       ((l.mindMap.centralTitle || '').toLowerCase().includes(q) ||
         (l.mindMap.mnemonic || '').toLowerCase().includes(q) ||
         (l.mindMap.deadlinesAndNumbers || []).some(
-          d => d.value.toLowerCase().includes(q) || d.label.toLowerCase().includes(q)
+          d => (d.value || '').toLowerCase().includes(q) || (d.label || '').toLowerCase().includes(q)
         ) ||
         (l.mindMap.branches || []).some(
           br =>
-            br.title.toLowerCase().includes(q) ||
-            br.nodes.some(n => n.label.toLowerCase().includes(q) || n.detail.toLowerCase().includes(q))
+            (br.title || '').toLowerCase().includes(q) ||
+            (br.nodes || []).some(n => (n.label || '').toLowerCase().includes(q) || (n.detail || '').toLowerCase().includes(q))
         ));
     const inBlocks = (l.blocks || []).some(b =>
       (b.title || '').toLowerCase().includes(q) ||
@@ -664,7 +665,7 @@ export const Tab2Apostila: React.FC = () => {
                           title={s.note || ''}
                           className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-teal-100 text-slate-800 border border-slate-300 transition"
                         >
-                          <span>&#128196; PDF #{s.num}: {s.title || s.name} &nearr;</span>
+                          <span>&#128196; PDF #{s.num}: {s.title || s.name} &#8599;</span>
                         </a>
                       ))}
                     </div>
@@ -1052,7 +1053,7 @@ export const Tab2Apostila: React.FC = () => {
                                               Flashcard &bull; Clique para virar
                                             </span>
                                             <p className="text-xs sm:text-sm font-bold leading-snug">
-                                              {fc.f || fc.front || ''}
+                                              {toSafeString(fc.f || fc.front || '')}
                                             </p>
                                           </div>
                                           <div className="flashcard-back bg-gradient-to-br from-teal-700 to-emerald-800 text-white">
@@ -1060,7 +1061,7 @@ export const Tab2Apostila: React.FC = () => {
                                               Resposta de Prova
                                             </span>
                                             <p className="text-xs sm:text-sm font-medium leading-snug">
-                                              {fc.b || fc.back || ''}
+                                              {toSafeString(fc.b || fc.back || '')}
                                             </p>
                                           </div>
                                         </div>

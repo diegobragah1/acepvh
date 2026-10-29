@@ -130,7 +130,7 @@ export const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-300 border border-emerald-500/40 font-bold text-xs shadow flex items-center gap-1 transition"
               >
-                <span>&#128187; Repositório GitHub &nearr;</span>
+                <span>&#128187; Repositório GitHub &#8599;</span>
               </a>
               <a
                 href="https://drive.google.com/drive/folders/1L8bvMQeMBoqE9o-HacSqYsa0sujn8OBK"
@@ -138,7 +138,7 @@ export const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold text-xs flex items-center gap-1 transition"
               >
-                <span>&#128193; Drive (85 PDFs) &nearr;</span>
+                <span>&#128193; Drive (85 PDFs) &#8599;</span>
               </a>
               <a
                 href="https://notebooklm.google.com/notebook/2bd0b85d-ab28-4bd7-82b1-512d85ab1021"
@@ -146,7 +146,7 @@ export const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-100 font-semibold text-xs flex items-center gap-1 transition"
               >
-                <span>&#129302; NotebookLM &nearr;</span>
+                <span>&#129302; NotebookLM &#8599;</span>
               </a>
             </div>
           </div>

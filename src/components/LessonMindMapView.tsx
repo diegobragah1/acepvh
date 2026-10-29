@@ -94,10 +94,14 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
     setRevealedNodes(prev => ({ ...prev, [nodeKey]: !prev[nodeKey] }));
   };
 
+  const allBranches = Array.isArray(mindMap?.branches) ? mindMap.branches : [];
+  const deadlinesList = Array.isArray(mindMap?.deadlinesAndNumbers) ? mindMap.deadlinesAndNumbers : [];
+  const trapsList = Array.isArray(mindMap?.goldenTraps) ? mindMap.goldenTraps : [];
+
   const visibleBranches =
     selectedBranchIdx === 'all'
-      ? mindMap.branches
-      : mindMap.branches.filter((_, idx) => idx === selectedBranchIdx);
+      ? allBranches
+      : allBranches.filter((_, idx) => idx === selectedBranchIdx);
 
   return (
     <div
@@ -161,9 +165,9 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
                 <div className="inline-flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-wider text-teal-300">
                   <span>🎯 Nó Central da Aula</span>
                   <span>&bull;</span>
-                  <span>{mindMap.branches.length} Ramos Visuais</span>
+                  <span>{allBranches.length} Ramos Visuais</span>
                   <span>&bull;</span>
-                  <span>{mindMap.deadlinesAndNumbers.length} Indicadores/Prazos</span>
+                  <span>{deadlinesList.length} Indicadores/Prazos</span>
                 </div>
                 <div className="text-base sm:text-lg font-extrabold text-white">
                   {mindMap.centralTitle}
@@ -184,7 +188,7 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
           </div>
 
           {/* Graphic Summary of Deadlines, Quorums, Numbers & Formulas */}
-          {mindMap.deadlinesAndNumbers && mindMap.deadlinesAndNumbers.length > 0 && (
+          {deadlinesList.length > 0 && (
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-extrabold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
@@ -196,7 +200,7 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-2.5">
-                {mindMap.deadlinesAndNumbers.map((card, cIdx) => {
+                {deadlinesList.map((card, cIdx) => {
                   const numKey = `num_${lessonId}_${cIdx}`;
                   const hiddenInTest = memoryTestMode && !revealedNodes[numKey];
 
@@ -247,9 +251,9 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
                   : 'bg-white text-slate-700 border border-slate-300 hover:bg-slate-100'
               }`}
             >
-              🕸️ Todos os Ramos ({mindMap.branches.length})
+              🕸️ Todos os Ramos ({allBranches.length})
             </button>
-            {mindMap.branches.map((br, bIdx) => (
+            {allBranches.map((br, bIdx) => (
               <button
                 key={bIdx}
                 type="button"
@@ -260,7 +264,7 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
                     : 'bg-white text-slate-700 border border-slate-300 hover:bg-slate-100'
                 }`}
               >
-                {br.icon} {br.title.split('(')[0].trim()}
+                {br.icon} {(br.title || '').split('(')[0].trim()}
               </button>
             ))}
           </div>
@@ -269,6 +273,7 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {visibleBranches.map((branch, bIdx) => {
               const style = COLOR_STYLES[branch.color] || COLOR_STYLES.teal;
+              const branchNodes = Array.isArray(branch.nodes) ? branch.nodes : [];
 
               return (
                 <div
@@ -282,13 +287,13 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
                       <span>{branch.title}</span>
                     </div>
                     <span className="text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-black/20 text-white shrink-0">
-                      {branch.nodes.length} nós
+                      {branchNodes.length} nós
                     </span>
                   </div>
 
                   {/* Branch Nodes Tree */}
                   <div className="p-4 space-y-3 flex-1">
-                    {branch.nodes.map((node, nIdx) => {
+                    {branchNodes.map((node, nIdx) => {
                       const nodeKey = `br_${lessonId}_${bIdx}_${nIdx}`;
                       const isHidden = memoryTestMode && !revealedNodes[nodeKey];
 
@@ -337,13 +342,13 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
           </div>
 
           {/* Visual Trap Comparison: Wrong (IBGP Trap) vs. Right (Exam Truth) */}
-          {mindMap.goldenTraps && mindMap.goldenTraps.length > 0 && (
+          {trapsList.length > 0 && (
             <div className="space-y-2 pt-1">
               <div className="text-xs font-extrabold uppercase tracking-wider text-rose-800 flex items-center gap-1.5">
                 <span>🛡️ Raio-X Visual Anti-Pegadinha (O que a Banca IBGP Troca na Prova)</span>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
-                {mindMap.goldenTraps.map((trap, tIdx) => (
+                {trapsList.map((trap, tIdx) => (
                   <div
                     key={tIdx}
                     className="rounded-xl border border-slate-200 bg-white p-3.5 shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-3"

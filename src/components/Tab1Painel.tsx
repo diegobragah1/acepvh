@@ -266,7 +266,7 @@ export const Tab1Painel: React.FC = () => {
             >
               <div className="flex items-center justify-between text-[11px] font-bold text-teal-700 mb-1">
                 <span>FONTE OFICIAL #{s.num}</span>
-                <span>ABRIR PDF / LINK &nearr;</span>
+                <span>ABRIR PDF / LINK &#8599;</span>
               </div>
               <div className="text-xs sm:text-sm font-bold text-slate-900">{s.title || s.name}</div>
               <div className="text-[11px] text-slate-600 mt-1">{s.note || ''}</div>

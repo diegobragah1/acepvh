@@ -154,7 +154,7 @@ export const Tab6Biblioteca: React.FC = () => {
                     rel="noopener noreferrer"
                     className="px-2.5 py-1 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold transition"
                   >
-                    Abrir PDF &nearr;
+                    Abrir PDF &#8599;
                   </a>
                   {s.lesson && (
                     <button

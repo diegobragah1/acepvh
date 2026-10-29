@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { AppData, TopicStatus } from '../types';
 import { getStatusMeta } from '../utils/status';
+import { normalizeAppData } from '../utils/normalizeData';
 
 const STORAGE_KEY_COMPLETED = "ace_semusa_2026_completed_lessons_v3";
 const STORAGE_KEY_TOPIC_STATUS = "ace_semusa_2026_topic_status_v1";
@@ -38,7 +39,18 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 function loadStorage<T>(key: string, fallback: T): T {
   try {
     const raw = window.localStorage.getItem(key);
-    return raw ? JSON.parse(raw) : fallback;
+    if (!raw) return fallback;
+    const parsed = JSON.parse(raw);
+    if (parsed === null || parsed === undefined) return fallback;
+    if (Array.isArray(fallback) && !Array.isArray(parsed)) return fallback;
+    if (
+      !Array.isArray(fallback) &&
+      typeof fallback === 'object' &&
+      (typeof parsed !== 'object' || Array.isArray(parsed))
+    ) {
+      return fallback;
+    }
+    return parsed as T;
   } catch (err) {
     return fallback;
   }
@@ -51,16 +63,7 @@ function saveStorage<T>(key: string, val: T): void {
 }
 
 function normalizeData(data: AppData): AppData {
-  if (Array.isArray(data.lessons)) {
-    data.lessons.forEach(l => {
-      if (l.sources && Array.isArray((l.sources as any).value)) {
-        l.sources = (l.sources as any).value;
-      } else if (!Array.isArray(l.sources)) {
-        l.sources = [];
-      }
-    });
-  }
-  return data;
+  return normalizeAppData(data);
 }
 
 function loadScriptFallback(src: string): Promise<AppData | null> {
