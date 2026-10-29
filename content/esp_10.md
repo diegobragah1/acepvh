@@ -1,590 +1,142 @@
----
-id: "esp_10"
-slug: "32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg"
-num: 32
-cat: "esp"
-materia: "Conhecimentos Específicos (Saúde Coletiva & ACE)"
-catName: "Conhecimentos Específicos (Saúde Coletiva & ACE)"
-weight: "15 Questões • Peso 2 (30 pts)"
-titulo: "32. Cálculos Operacionais de Campo do ACE (Cubagem e Dosagem de Larvicidas), Equipamentos de Aspersão (BRI), Biossegurança (EPIs/NR-6), Toxicologia e Reconhecimento Geográfico (RG)"
-title: "32. Cálculos Operacionais de Campo do ACE (Cubagem e Dosagem de Larvicidas), Equipamentos de Aspersão (BRI), Biossegurança (EPIs/NR-6), Toxicologia e Reconhecimento Geográfico (RG)"
-editalRef: "Anexo IV — Conhecimentos Específicos ACE: Controle de vetores, operacionalização de campo, cubagem de reservatórios, aplicação de larvicidas/adulticidas, biossegurança, toxicologia ocupacional e Reconhecimento Geográfico."
-nivel: "medio-tecnico-concurso"
-tipo: "aula"
-status: "revisado-auditado-2026"
-auditBadge: "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 3 BLOCOS)"
-mdPath: "./content/conhecimentos-especificos/32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg.md"
-mdLegacyPath: "./content/esp_10.md"
-sources: [12, 66, 68, 69, 86, 89, 91]
-blocksCount: 3
-questionsCount: 9
-flashcardsCount: 9
-fontes:
-  - num: 12
-    titulo: "12. Unidades de Medida.pdf"
-    url: "https://drive.google.com/file/d/15-cwcdX12MI1bnojqbv3b9DLm6cS8x4s/view?usp=sharing"
-  - num: 66
-    titulo: "12. Doenças Transmissíveis II.pdf"
-    url: "https://drive.google.com/file/d/1057Dj4r4kP3c4h-iTNEOOckxuy4WN9VS/view?usp=sharing"
-  - num: 68
-    titulo: "14. Epidemiologia.pdf"
-    url: "https://drive.google.com/file/d/1Q8QspaQ-XWLyTaSZM3Izj9k2vwGOHNqA/view?usp=sharing"
-  - num: 69
-    titulo: "15. Política de Vigilância em Saúde.pdf"
-    url: "https://drive.google.com/file/d/16CTA0_ggbv3ZEG9e1q3w_ZiuZ9Q-APv8/view?usp=sharing"
-  - num: 86
-    titulo: "EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf"
-    url: "https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24357/?file=site/anexos/790/00%20-%20EDITAL%20CONCURSO%20PORTO%20VELHO_SEMUSA_final.pdf"
-  - num: 89
-    titulo: "Anexo II Retificado — Descrição e Atribuições dos Cargos.pdf"
-    url: "https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24359/?file=site/anexos/790/02%20-%20ANEXO%20II%20-%20ATRIBUI%C7%D5ES%20CARGOS.pdf"
-  - num: 91
-    titulo: "Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf"
-    url: "https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24361/?file=site/anexos/790/04-%20ANEXO%20IV%20-%20CONTEUDOS%20PROGRAM%C1TICOS.pdf"
-normativeAudit:
-  - diploma: "Diretrizes Nacionais para a Prevenção e Controle de Epidemias de Dengue (MS/SVSA) e Notas Técnicas sobre Espinosade/Bti/Piriproxifeno"
-    status: "VIGENTE"
-    observacao: "Regras oficiais de cubagem de depósitos, dosagem de biolarvicidas (Espinosade 1 pastilha/200L, Bti, Piriproxifeno) e calibração de bombas costais na BRI."
-  - diploma: "Lei Federal nº 11.350/2006 (Art. 9º-E — Lei nº 13.342/2016), Art. 198, § 10 da CF/88 (EC nº 120/2022) e NR-6 (EPIs)"
-    status: "VIGENTE"
-    observacao: "Uso obrigatório de EPIs adequados por atividade, ordem de paramentação/desparamentação, antídotos toxicológicos e descarte por tríplice lavagem."
-  - diploma: "Manual de Reconhecimento Geográfico (RG) para Endemias (Ministério da Saúde / SUCAM)"
-    status: "VIGENTE"
-    observacao: "Normas cartográficas, caminhamento em sentido horário, convenções de numeração de quarteirões e códigos de imóveis (R, C, TB, PE, O)."
----
+# 32. Cálculos Operacionais de Campo do ACE (Cubagem e Dosagem de Larvicidas), Equipamentos de Aspersão (BRI), Biossegurança (EPIs/NR-6), Toxicologia e Reconhecimento Geográfico (RG)
 
-# Conhecimentos Específicos (Saúde Coletiva & ACE)
+**Disciplina:** Conhecimentos Específicos (Saúde Coletiva & ACE) (15 Questões • Peso 2 (30 pts))
+**Referência no Edital nº 25/2026:** Anexo IV — Conhecimentos Específicos ACE: Controle de vetores, operacionalização de campo, cubagem de reservatórios, aplicação de larvicidas/adulticidas, biossegurança, toxicologia ocupacional e Reconhecimento Geográfico.
 
-## Aula 32 (`esp_10`) — 32. Cálculos Operacionais de Campo do ACE (Cubagem e Dosagem de Larvicidas), Equipamentos de Aspersão (BRI), Biossegurança (EPIs/NR-6), Toxicologia e Reconhecimento Geográfico (RG)
-
-### 1. Identificação e Tópicos do Edital Relacionados
-
-- **Código Único da Aula:** `esp_10` (`./content/conhecimentos-especificos/32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg.md`)
-- **Matéria / Disciplina Oficial (Anexo III Retificado):** Conhecimentos Específicos (Saúde Coletiva & ACE) (15 Questões • Peso 2 (30 pts))
-- **Tópico e Subtópicos Previstos no Edital nº 25/2026 (Anexo IV Retificado):** Anexo IV — Conhecimentos Específicos ACE: Controle de vetores, operacionalização de campo, cubagem de reservatórios, aplicação de larvicidas/adulticidas, biossegurança, toxicologia ocupacional e Reconhecimento Geográfico.
-- **Situação de Cobertura e Auditoria:** `AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 3 BLOCOS)` (3 blocos didáticos aprofundados, 9 questões comentadas de 4 alternativas A–D e 9 flashcards de retenção ativa).
-
-### 2. Auditoria de Vigência Normativa e Divergências Sanadas (2026)
-
-| Diploma Legal / Referência Técnica | Status de Vigência Auditado (Out/2026) | Fundamentação, Alterações e Alertas contra Pegadinhas |
-| :--- | :--- | :--- |
-| **Diretrizes Nacionais para a Prevenção e Controle de Epidemias de Dengue (MS/SVSA)** | **VIGENTE** | Regras de cubagem de depósitos, dosagem de biolarvicidas (Espinosade 1 pastilha/200L, Bti, Piriproxifeno) e calibração da bomba costal na BRI. |
-| **Lei Federal nº 11.350/2006 (Art. 9º-E — Lei nº 13.342/2016), Art. 198, § 10 da CF/88 (EC nº 120/2022) e NR-6 (EPIs)** | **VIGENTE** | Obrigatoriedade de fornecimento de EPIs gratuitos pelo município, adicional de insalubridade, ordem de retirada segura de EPIs e antídotos em intoxicações. |
-| **Manual de Reconhecimento Geográfico (RG) do Ministério da Saúde / SUCAM** | **VIGENTE** | Padronização cartográfica: caminhamento pelo quarteirão em sentido horário (pela direita), numeração sequencial e códigos oficiais de imóveis (R, C, TB, PE, O). |
-
-### 3. Referências e Fontes Consultadas (Apostilas do Drive e Portais Oficiais)
-
-| Nº Fonte | Origem / Subpasta | Documento / Apostila / Ato Normativo | Tamanho / Tokens | Diagnóstico Técnico e Aproveitamento na Aula |
-| :---: | :--- | :--- | :---: | :--- |
-| **#12** | `1 - RACIOCINIO LOGICO` | [12. Unidades de Medida.pdf](https://drive.google.com/file/d/15-cwcdX12MI1bnojqbv3b9DLm6cS8x4s/view?usp=sharing) | 3.5 MB (117.669 tokens) | Relações métricas: comprimento, área, volume, capacidade (1 dm³ = 1 L, 1 m³ = 1.000 L) e massa. |
-| **#66** | `6 - SAUDE COLETIVA` | [12. Doenças Transmissíveis II.pdf](https://drive.google.com/file/d/1057Dj4r4kP3c4h-iTNEOOckxuy4WN9VS/view?usp=sharing) | 6.0 MB (83.456 tokens) | Biologia dos vetores, controle químico e biológico, larvicidas e adulticidas. |
-| **#68** | `6 - SAUDE COLETIVA` | [14. Epidemiologia.pdf](https://drive.google.com/file/d/1Q8QspaQ-XWLyTaSZM3Izj9k2vwGOHNqA/view?usp=sharing) | 5.5 MB (106.066 tokens) | Vigilância entomológica e indicadores operacionais de campo. |
-| **#69** | `6 - SAUDE COLETIVA` | [15. Política de Vigilância em Saúde.pdf](https://drive.google.com/file/d/16CTA0_ggbv3ZEG9e1q3w_ZiuZ9Q-APv8/view?usp=sharing) | 2.0 MB (38.459 tokens) | Diretrizes da PNVS (Resolução CNS nº 588/2018) e atribuições de vigilância em saúde. |
-| **#86** | `8 - EDITAL E LEIS OFICIAIS` | [EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf](https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24357/?file=site/anexos/790/00%20-%20EDITAL%20CONCURSO%20PORTO%20VELHO_SEMUSA_final.pdf) | Oficial IBGP (278.489 tokens) | Edital normativo completo regendo o cargo de ACE. |
-| **#89** | `8 - EDITAL E LEIS OFICIAIS` | [Anexo II Retificado — Descrição e Atribuições dos Cargos.pdf](https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24359/?file=site/anexos/790/02%20-%20ANEXO%20II%20-%20ATRIBUI%C7%D5ES%20CARGOS.pdf) | Oficial IBGP (35.000 tokens) | Contém na pág. 4 as 8 atribuições municipais do cargo de ACE (Lei 391/2010 e LC 449/2012). |
-| **#91** | `8 - EDITAL E LEIS OFICIAIS` | [Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf](https://novo.ibgpconcursos.com.br/rest/concurso/download/edital/24361/?file=site/anexos/790/04-%20ANEXO%20IV%20-%20CONTEUDOS%20PROGRAM%C1TICOS.pdf) | Oficial IBGP (42.000 tokens) | Conteúdo programático oficial de Conhecimentos Específicos para ACE. |
-
----
+## Mapa Mental: Cálculos Operacionais de Campo, Cubagem, Diluição, Biossegurança e RG
+- **1. Cubagem de Reservatórios (Paralelepípedo e Cilindro)**: Caixa Retangular / Tanque / Cisterna (V (m³) = Comprimento x Largura x Altura da água. Multiplique por 1.000 para obter os Litros!) | Tambor / Poço / Tonel Cilíndrico (V (m³) = pi (3,14) x Raio² x Altura (Lembre-se: Raio é a METADE do Diâmetro!). Ou direto pelo Diâmetro: V = 0,785 x D² x h.)
+- **2. Dosagem de Larvicidas e Rendimento Operacional**: Regra de Ouro do Tratamento Focal (Só se aplica larvicida (biológico como Bti ou regulador de crescimento como Piriproxifeno/Espinosa) em depósitos que NÃO possam ser eliminados, vedados ou manejados mecanicamente!) | Imóvel Fechado, Recusa e Recuperação (Pendência = Fechados + Recusas. O ACE deve programar revisita em horários alternativos (final da tarde/sábado) para recuperar imóveis pendentes.)
+- **3. Biossegurança, EPIs e Tríplice Lavagem**: Regras de Aplicação em Campo (Aplicar sempre A FAVOR DO VENTO; jamais comer, beber ou fumar durante o manuseio; nunca assoprar bico entupido com a boca nem usar arame metálico.) | Tríplice Lavagem e Descarte (Lavar 3 vezes a embalagem vazia com água limpa, verter a água no tanque do pulverizador e PERFURAR o fundo do frasco para inutilizá-lo.)
+- **4. Reconhecimento Geográfico (RG) e Croqui de Quarteirão**: Padronização Cartográfica do RG (Numeração das quadras na localidade e dos imóveis na quadra inicia pelo vértice mais ao NORTE (ou Noroeste), caminhando sempre no sentido HORÁRIO (pela direita).)
 
 ## Bloco 32.1 — Cubagem Matemática de Depósitos (m³ e Litros), Dosagem de Larvicidas e Calibração da Bomba Costal Guarany na BRI
 
-<!-- @block id="esp_10_b1" title="Bloco 32.1 — Cubagem Matemática de Depósitos (m³ e Litros), Dosagem de Larvicidas e Calibração da Bomba Costal Guarany na BRI" -->
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)</h5><p><strong>Aula 32 — Bloco 32.1:</strong> Operacionalização Matemática e Química do Controle Vetorial no Campo: Cálculo de Volume (Cubagem) de Depósitos Retangulares, Cúbicos, Cilíndricos e Trapezoidais, Dosagem Prática dos Larvicidas Preconizados pelo Ministério da Saúde (<em>Espinosade</em>, <em>Bacillus thuringiensis israelensis — Bti</em> e <em>Piriproxifeno</em>) e Calibração Operacional da Bomba Costal de Compressão Prévia (Guarany) na Borrifação Residual Intradomiciliar (BRI).</p><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">2. Fundamentação Teórica e Fórmulas de Cubagem de Campo</h5><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Formato do Depósito</th><th class="p-2 border border-slate-300 text-left">Fórmula Matemática do Volume (m³)</th><th class="p-2 border border-slate-300 text-left">Conversão para Litros (L)</th><th class="p-2 border border-slate-300 text-left">Exemplo Real de Campo em Porto Velho</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>1. Retangular / Cúbico</strong></td><td class="p-2 border border-slate-200 align-top">V = C × L × P</td><td class="p-2 border border-slate-200 align-top">Litros = V × 1.000</td><td class="p-2 border border-slate-200 align-top">Tanque 2,0 × 1,5 × 1,0 m = 3,0 m³ = 3.000 L</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>2. Cilíndrico Circular</strong></td><td class="p-2 border border-slate-200 align-top">V = π × r² × h (r = D/2, π ≈ 3,14)</td><td class="p-2 border border-slate-200 align-top">Litros = V × 1.000</td><td class="p-2 border border-slate-200 align-top">Tambor D = 0,8m, h = 1,0m -> V ≈ 0,502 m³ ≈ 502 L</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>3. Trapezoidal (Cochos rurais)</strong></td><td class="p-2 border border-slate-200 align-top">V = [(B + b) × h / 2] × C</td><td class="p-2 border border-slate-200 align-top">Litros = V × 1.000</td><td class="p-2 border border-slate-200 align-top">Cocho B = 0,8m, b = 0,4m, h = 0,5m, C = 2m -> V = 0,6 m³ = 600 L</td></tr></tbody></table></div><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">Quadro dos Larvicidas Preconizados pelo MS</h5><ul class="list-disc pl-5 space-y-1"><li><strong>Espinosade (Natular DT):</strong> Biolarvicida em pastilha (1 pastilha / 200 L). Duração de até 60 dias. Seguro para água de consumo humano.</li><li><strong>Bti:</strong> Biolarvicida bacteriano seletivo por ingestão (1g / 1.000 L). NÃO atua em pupas nem ovos!</li><li><strong>Piriproxifeno 0,5% G:</strong> Regulador de crescimento (2g / 1.000 L). Impede emergência do adulto.</li></ul><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">4. Manual Operacional Completo de Campo do ACE: Cubagem, Dosagem de Larvicidas, Bomba Guarany (BRI), Toxicologia, Antídotos e Reconhecimento Geográfico (RG)</h5><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Insumo / Equipamento / Protocolo</th><th class="p-2 border border-slate-300 text-left">Especificação Técnica Oficial (Ministério da Saúde / SEMUSA)</th><th class="p-2 border border-slate-300 text-left">Cálculo / Parâmetro Operacional de Prova</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Piriproxifem Granulado (0,5% G)</strong></td><td class="p-2 border border-slate-200 align-top">Análogo de hormônio juvenil (IGR — inibe a emergência de adultos a partir da pupa).</td><td class="p-2 border border-slate-200 align-top">Dosagem padrão: <strong>0,01 mg i.a./L</strong>, equivalente a <strong>2 g de produto comercial para cada  1.000 Litros  (1 m³)</strong> (1 colher-medida de 2 g por 1.000 L). Residualidade: até 60 dias.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Spinosad (Comprimido DT 7,48%)</strong></td><td class="p-2 border border-slate-200 align-top">Larvicida biológico (metabolito de <em>Saccharopolyspora spinosa</em>).</td><td class="p-2 border border-slate-200 align-top"><strong>1 comprimido (1,35 g) trata até 200 Litros</strong> de água (residualidade de 8 a 10 semanas). Para caixa de 1.000 L ⇒ 5 comprimidos.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong><em>Bacillus thuringiensis israelensis</em> (Bti)</strong></td><td class="p-2 border border-slate-200 align-top">Larvicida biológico bacteriano (endotoxina cristalina seletiva para larvas de dípteros).</td><td class="p-2 border border-slate-200 align-top">Ação por ingestão larval (não atua em ovos nem em pupas, pois a pupa não se alimenta!). Formulações WDG/G conforme tabela de gramas por volume (L) ou área (m²).</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Bomba de Compressão Prévia (Guarany)</strong></td><td class="p-2 border border-slate-200 align-top">Tanque em aço inox para Borrifação Residual Intradomiciliar (BRI — Malária / Leishmaniose / Chagas).</td><td class="p-2 border border-slate-200 align-top">Capacidade de calda: <strong>8 a  10 Litros</strong>; Pressão de trabalho: <strong>25 a  55 psi</strong> (média 40 psi); Bico <strong>TeeJet 8002E</strong> (leque plano 80^°, vazão de <strong>757 mL/min a 40 psi</strong>); Distância bico-parede: <strong>45 cm</strong>; Largura da faixa: <strong>75 cm</strong> (com sobreposição de <strong>5 cm</strong> = faixa útil de <strong>70 cm</strong>); Velocidade: 1 m linear a cada <strong>2,2 segundos</strong> (5 s p/ parede de 2,2 m).</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Organofosforados e Carbamatos</strong></td><td class="p-2 border border-slate-200 align-top">Inibidores da enzima <strong>acetilcolinesterase (AChE)</strong> (organofosforados = ligação irreversível; carbamatos = reversível).</td><td class="p-2 border border-slate-200 align-top">Síndrome colinérgica aguda: miose puntiforme, sialorreia, broncorreia, bradicardia, fasciculações. <strong>Antídoto específico:</strong> <strong>Sulfato de Atropina</strong> (e <strong>Pralidoxima</strong> p/ organofosforados). Exame ocupacional periódico: dosagem de <strong>colinesterase eritrocitária e plasmática</strong>.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Piretroides (Alfa-cipermetrina, Deltametrina, Etofenproxi)</strong></td><td class="p-2 border border-slate-200 align-top">Moduladores dos canais de sódio dos axônios dos insetos (efeito <em>knockdown</em>).</td><td class="p-2 border border-slate-200 align-top">Baixa toxicidade em mamíferos, mas causam <strong>parestesia cutânea facial</strong> transitória e irritação de mucosas. Tratamento sintomático e descontaminação com água e sabão neutro.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Raticidas Cumarínicos (Anticoagulantes de 2ª Geração: Brodifacoum, Bromadiolone, Flocoumafen)</strong></td><td class="p-2 border border-slate-200 align-top">Inibem o ciclo do epóxido da <strong>Vitamina K</strong> no fígado (fatores II, VII, IX e X da coagulação) — ação lenta (3 a 7 dias) para evitar refugo de isca pelos roedores.</td><td class="p-2 border border-slate-200 align-top"><strong>Antídoto específico em caso de intoxicação acidental humana ou doméstica:</strong> <strong>Vitamina K_1 (Fitomenadiona)</strong> injetável/oral!</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Tríplice Lavagem e Descarte (Lei 7.802/1989 e Lei 14.785/2023)</strong></td><td class="p-2 border border-slate-200 align-top">Embalagens rígidas laváveis de inseticidas/larvicidas.</td><td class="p-2 border border-slate-200 align-top">Encher com <strong>1/4 (25%) de água limpa</strong>, agitar por 30 segundos e verter a água de lavagem <strong>dentro do próprio tanque do pulverizador</strong> (repetir <strong>3 vezes</strong>), <strong>inutilizar (perfurar o fundo)</strong> a embalagem para impedir reutilização e devolver no posto/central de recebimento credenciado.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Reconhecimento Geográfico (RG)</strong></td><td class="p-2 border border-slate-200 align-top">Base cartográfica e territorial obrigatória antes das operações de campo.</td><td class="p-2 border border-slate-200 align-top">Numeração de quarteirões e imóveis em <strong>sentido horário</strong> a partir do <strong>canto mais ao Norte (ou Noroeste — NO)</strong>; atualização do <strong> Boletim de Reconhecimento Geográfico (BRG)</strong> e croqui de localidade.</td></tr></tbody></table></div></div>
+<div class="mt-4 pt-4 border-t-2 border-teal-200 space-y-3">
+  <h5 class="text-sm font-extrabold text-teal-900 uppercase tracking-wide">6. Manual Técnico de Calibração da Bomba Costal de Compressão Prévia (Guarany / Jacto) na Borrifação Residual Intradomiciliar (BRI)</h5>
+  <p>Na aplicação de adulticidas de ação residual nas paredes internas e externas dos domicílios (para controle de <em>Anopheles darlingi</em> na Malária, triatomíneos na Doença de Chagas, flebotomíneos nas Leishmanioses e BRI-Aedes em Pontos Estratégicos), o ACE opera a <strong>Bomba Costal de Compressão Prévia (padrão OMS)</strong> seguindo parâmetros matemáticos e físicos estritos cobrados em provas:</p>
+  <div class="overflow-x-auto">
+    <table class="min-w-full text-xs border border-slate-300 rounded-lg">
+      <thead class="bg-teal-900 text-white">
+        <tr>
+          <th class="p-2 border border-slate-300 text-left">Parâmetro Técnico da Bomba Costal BRI</th>
+          <th class="p-2 border border-slate-300 text-left">Valor Oficial do Ministério da Saúde / OMS</th>
+          <th class="p-2 border border-slate-300 text-left">Justificativa Técnica Operacional</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 bg-white">
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Bico (Ponta de Pulverização) Padrão para Parede</td>
+          <td class="p-2 font-bold">Bico de Leque Plano <strong>Teejet 8002E</strong> (aço inoxidável ou cerâmica)</td>
+          <td class="p-2"><strong>"80"</strong> = ângulo de abertura do leque de <strong>80 graus</strong> (a 40 psi); <strong>"02"</strong> = vazão nominal de <strong>0,2 galão americano por minuto (757 mL/min)</strong>; <strong>"E"</strong> (<em>Even</em>) = distribuição uniforme da calda em toda a largura da faixa.</td>
+        </tr>
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Pressão de Trabalho no Manômetro</td>
+          <td class="p-2 font-bold">Faixa operacional: <strong>25 a 55 psi</strong> (Pressão média padrão de calibração: <strong>40 psi</strong>)</td>
+          <td class="p-2">Inicia-se a aplicação dando cerca de 55 bombeadas até atingir <strong>55 psi</strong>; quando a pressão cai para <strong>25 psi</strong>, o ACE deve interromper a aplicação e rebombear até 55 psi (ou usar válvula reguladora constante de fluxo CFV de 1,5 bar / 21 psi).</td>
+        </tr>
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Distância do Bico até a Parede</td>
+          <td class="p-2 font-bold"><strong>45 centímetros (0,45 m)</strong> da superfície da parede</td>
+          <td class="p-2">A exatamente 45 cm da parede, o bico de 80° projeta no muro uma faixa molhada útil de <strong>75 centímetros de largura</strong>.</td>
+        </tr>
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Largura da Faixa e Superposição entre Faixas</td>
+          <td class="p-2 font-bold">Faixa total: <strong>75 cm</strong> | Superposição: <strong>5 cm</strong> | Faixa efetiva: <strong>70 cm</strong></td>
+          <td class="p-2">As faixas verticais são aplicadas de cima para baixo e de baixo para cima (em zigue-zague vertical), sobrepondo <strong>5 cm</strong> na borda da faixa anterior para não deixar frestas sem inseticida.</td>
+        </tr>
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Velocidade (Ritmo) de Aplicação Vertical</td>
+          <td class="p-2 font-bold"><strong>6,7 segundos</strong> para cobrir uma parede de <strong>3,0 metros de altura</strong> (1 metro a cada 2,2 segundos)</td>
+          <td class="p-2">Esse ritmo constante garante a deposição exata de <strong>40 mL de calda por metro quadrado (m²)</strong> de parede, sem escorrimento!</td>
+        </tr>
+        <tr>
+          <td class="p-2 font-bold text-teal-900">Teste de Vazão (Desgaste do Bico)</td>
+          <td class="p-2 font-bold">Vazão nominal: <strong>757 mL/min</strong> (Tolerância máxima: até 10% de variação — 680 a 830 mL/min)</td>
+          <td class="p-2">Se a vazão medida na proveta graduada em 1 minuto (a 40 psi) ultrapassar <strong>830 mL/min</strong>, o bico está erodido/gasto e deve ser <strong>substituído imediatamente</strong> (nunca desentupir bico com arame ou agulha metálica!).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-### Modo A — Explicação Completa, Conceitos Fundamentais, Regras, Quadros Comparativos, Exemplos Práticos e Aprofundamento
-
-<!-- @modoA_start -->
-#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)
-
-**Aula 32 — Bloco 32.1:** Operacionalização Matemática e Química do Controle Vetorial no Campo: Cálculo de Volume (Cubagem) de Depósitos Retangulares, Cúbicos, Cilíndricos e Trapezoidais, Dosagem Prática dos Larvicidas Preconizados pelo Ministério da Saúde (*Espinosade*, *Bacillus thuringiensis israelensis — Bti* e *Piriproxifeno*) e Calibração Operacional da Bomba Costal de Compressão Prévia (Guarany) na Borrifação Residual Intradomiciliar (BRI).
-**Fontes Integradas:** Diretrizes Nacionais para a Prevenção e Controle de Epidemias de Dengue (MS/SVSA), Notas Técnicas do Ministério da Saúde sobre Espinosade/Bti, PDF #12 (*12. Unidades de Medida.pdf*), PDF #66 (*12. Doenças Transmissíveis II.pdf*) e Anexo IV Retificado (#91).
-
-Objetivos de Aprendizagem:
-- Calcular com rapidez e exatidão o volume em metros cúbicos ($m^3$) e a capacidade em litros ($L$) de qualquer reservatório de água encontrado em visitas domiciliares na zona urbana e rural de Porto Velho.
-- Aplicar as conversões métricas do Sistema Internacional: **$1\text{ m}^3 = 1.000\text{ litros}$**, **$1\text{ dm}^3 = 1\text{ litro}$** e **$1\text{ cm}^3 = 1\text{ mililitro (mL)}$**.
-- Dominar os parâmetros técnicos de aplicação dos larvicidas aprovados para consumo humano pelo Ministério da Saúde e OMS (princípio ativo, modo de ação, persistência e regra de dosagem).
-- Compreender a operação da Bomba Costal de Compressão Prévia (pressão de 25 a 55 PSI, bico leque 8002E a 45 cm da parede, vazão de 757 mL/min).
-
-#### 2. Fundamentação Teórica e Fórmulas de Cubagem de Campo
-
-No trabalho diário do ACE da SEMUSA Porto Velho, depósitos dos grupos **A1, A2 e C** do LIRAa que não possam ser vedados hermeticamente ou descartados devem receber tratamento focal. Para isso, o cálculo exato do volume de água (**cubagem**) é indispensável para evitar tanto a *subdosagem* (que seleciona linhagens de vetores resistentes e não mata as larvas) quanto a *superdosagem* (que desperdiça o praguicida e gera risco toxicológico).
-
-##### Tabela de Fórmulas de Cubagem e Conversão para Litros
-
-| Formato do Depósito | Fórmula Matemática do Volume ($m^3$) | Conversão para Litros ($L$) | Exemplo Real de Campo em Porto Velho |
-| :--- | :--- | :--- | :--- |
-| **1. Retangular / Cúbico** (Cisterna, tanque ou caixa d'água quadrada/retangular) | $V = \text{Comprimento (C)} \times \text{Largura (L)} \times \text{Profundidade (P)}$ | $\text{Litros} = V \times 1.000$ | Tanque com $C = 2,0\text{ m}$, $L = 1,5\text{ m}$ e $P = 1,0\text{ m}$:<br>$V = 2,0 \times 1,5 \times 1,0 = 3,0\text{ m}^3 = \mathbf{3.000\text{ Litros}}$. |
-| **2. Cilíndrico Circular** (Tambor de metal/plástico, tonel, poço ou caixa redonda) | $V = \pi \times r^2 \times h$<br>*(Onde $r = \text{Diâmetro} \div 2$ e $\pi \approx 3,14$)* | $\text{Litros} = V \times 1.000$ | Tambor com Diâmetro $D = 0,8\text{ m}$ ($r = 0,4\text{ m}$) e Altura $h = 1,0\text{ m}$:<br>$V = 3,14 \times (0,4)^2 \times 1,0 = 3,14 \times 0,16 \times 1,0 = 0,5024\text{ m}^3 \approx \mathbf{502\text{ Litros}}$. |
-| **3. Trapezoidal** (Cochos e bebedouros de animais em áreas periurbanas e rurais) | $V = \frac{(\text{Base Maior } B + \text{Base Menor } b) \times h}{2} \times \text{Comprimento (C)}$ | $\text{Litros} = V \times 1.000$ | Cocho com $B = 0,8\text{ m}$, $b = 0,4\text{ m}$, $h = 0,5\text{ m}$ e $C = 2,0\text{ m}$:<br>$V = \frac{(0,8+0,4) \times 0,5}{2} \times 2,0 = 0,3 \times 2,0 = 0,6\text{ m}^3 = \mathbf{600\text{ Litros}}$. |
-
-##### Quadro Comparativo dos Larvicidas Preconizados pelo Ministério da Saúde (PNCD / SVSA)
-
-| Larvicida / Princípio Ativo | Apresentação e Classe Química | Modo de Ação | Efeito em Pupas / Ovos | Persistência / Rotação | Dosagem Oficial de Prova |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Espinosade** (*Natular DT*) | Pastilha efervescente de 1,35 g a 7,48% (Biolarvicida derivado da bactéria *Saccharopolyspora spinosa*). | Atua nos receptores nicotínicos de acetilcolina e GABA da larva, provocando paralisia e morte em 24 a 48h. | **Não mata pupas nem ovos!** Mata larvas L1 a L4. | Até **60 dias** (8 semanas = 1 ciclo bimestral do ACE). Seguro para água de consumo humano. | **1 pastilha para cada 200 litros** de capacidade total do depósito. (Ex.: 1.000 L = 5 pastilhas). |
-| **Bacillus thuringiensis israelensis (Bti)** | Grânulos dispersíveis (WDG) ou líquido (Biolarvicida bacteriano seletivo). | Ingestão: a toxina cristalina (delta-endotoxina) destrói o epitélio intestinal da larva. | **Não atua em pupas!** (A pupa não se alimenta). | Alta seletividade ambiental; rápida ação (24h). Indicado para depósitos com água limpa. | **1 g por 1.000 litros** (ou conforme instruções do fabricante credenciado pelo MS). |
-| **Piriproxifeno** (*Pyriproxyfen 0,5% G*) | Grânulos (Regulador de Crescimento de Insetos — IGR). | Análogo do hormônio juvenil: impede que a pupa complete a metamorfose para o mosquito adulto. | Atua no desenvolvimento; não mata a larva de imediato, mas impede a emergência do adulto. | Persistência de 45 a 60 dias. | **2 g para cada 1.000 litros** de água (0,2 g para cada 100 L). |
-
-##### A Bomba Costal de Compressão Prévia (Guarany) na Borrifação Residual Intradomiciliar (BRI)
-Nas ações de controle vetorial de Malária (*Anopheles darlingi*), Leishmanioses (*Lutzomyia longipalpis*) e Doença de Chagas (*Triatoma*), utiliza-se a Bomba Costal de Compressão Prévia (tipo Guarany de 10 litros em aço inoxidável).
-- **Parâmetros Operacionais Críticos:**
-  - **Pressão de Trabalho:** **25 a 55 PSI** (ideal: 40 PSI controlada pelo manômetro).
-  - **Bico Pulverizador:** Bico tipo **leque plano 8002E** (ângulo de abertura de 80º e vazão nominal de 0,2 galões/minuto = **757 mL/minuto** a 40 PSI).
-  - **Distância do Bico à Parede:** Rigorosamente **45 cm**.
-  - **Largura da Faixa Aplicada:** **75 cm** com **5 cm de sobreposição** entre as faixas consecutivas.
-  - **Velocidade de Deslocamento:** O ACE deve percorrer **2 metros de parede vertical a cada 5 segundos** (velocidade constante de 0,4 m/s).
-
-#### 3. Exemplos Práticos de Aplicação e Resolução Passo a Passo
-
-**Exemplo Prático 1:** Em visita domiciliar no bairro Nacional em Porto Velho, o ACE encontra um tambor cilíndrico (Grupo A2) cheio de água com larvas ativas de *Aedes aegypti*. As dimensões internas do tambor são: diâmetro de 0,60 m e altura de 1,0 m. Adotando $\pi = 3,14$, qual é o volume em litros e quantas pastilhas de Espinosade (Natular DT) devem ser aplicadas?
-1. Raio = Diâmetro $\div 2 = 0,60 \div 2 = 0,30\text{ m}$.
-2. Volume $V = \pi \times r^2 \times h = 3,14 \times (0,30)^2 \times 1,0 = 3,14 \times 0,09 \times 1,0 = 0,2826\text{ m}^3$.
-3. Conversão para Litros: $0,2826 \times 1.000 = 282,6\text{ litros}$.
-4. Dosagem de Espinosade: 1 pastilha cobre até 200 L. Para 282,6 L (acima de 200 L até 400 L), são necessárias **2 pastilhas**.
-<!-- @modoA_end -->
-
-### Modo B — Resumo para Revisão, Formas de Memorização (Mnemônicos), Exceções e Erros Comuns / Pegadinhas de Prova
-
-<!-- @modoB_start -->
-Resumo Tático e Mnemônicos do Bloco 32.1:
-- **Tríade de Conversão Métrica:** **$1\text{ m}^3 = 1.000\text{ L}$** | **$1\text{ dm}^3 = 1\text{ L}$** | **$1\text{ cm}^3 = 1\text{ mL}$**.
-- **Regra de Ouro dos Larvicidas:** **Pastilha de Espinosade** = 1 para cada **200 L** (dura até **60 dias**). **Piriproxifeno** = **2 g para cada 1.000 L**.
-- **Pegadinha Clássica da Banca IBGP:** Biolarvicidas que agem por ingestão (como o *Bti*) **NÃO MATAM PUPAS NEM OVOS**! A pupa é estágio de metamorfose e não ingere alimento. Se houver pupas no depósito, a conduta é eliminação mecânica (coleta com pesca-larvas e destruição).
-- **Parâmetros da BRI (Bomba Guarany):** Bico **8002E** | Pressão **25 a 55 PSI** | Distância **45 cm** | Faixa **75 cm** | Velocidade **2 metros em 5 segundos**.
-<!-- @modoB_end -->
-
-### Modo C — Questões de Fixação (4 Alternativas A–D), Gabarito Comentado & Flashcards
-
-#### Questões de Fixação e Revisão
-
-##### Questão 32.1.1 (`esp_10_b1_q1`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante inspeção sanitária em um imóvel no bairro Nova Esperança, em Porto Velho, um Agente de Combate às Endemias (ACE) localiza uma cisterna retangular em alvenaria (Grupo A2 do LIRAa) sem vedação adequada, medindo 3,0 metros de comprimento, 2,0 metros de largura e 1,5 metro de profundidade. Considerando que o reservatório se encontra completamente cheio e que o protocolo do Ministério da Saúde preconiza a aplicação do biolarvicida Espinosade em pastilha (Natular DT) na proporção de 1 pastilha para cada 200 litros de água, assinale a alternativa que indica a capacidade total da cisterna e a dosagem correta de pastilhas a ser aplicada:
-- A) 4.500 litros e 15 pastilhas.
-- B) 6.000 litros e 30 pastilhas.
-- C) 9.000 litros e 45 pastilhas.
-- D) 90.000 litros e 90 pastilhas.
-
-> **Gabarito Oficial:** **Alternativa C** (Índice `2`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: C. O volume em metros cúbicos de um paralelepípedo retângulo é dado por $V = C \times L \times P = 3,0 \times 2,0 \times 1,5 = 9,0\text{ m}^3$. Sabendo que cada metro cúbico equivale a 1.000 litros, temos $9,0 \times 1.000 = 9.000\text{ litros}$. Aplicando a proporção de 1 pastilha para cada 200 litros, divide-se $9.000 \div 200 = 45\text{ pastilhas}$ de Espinosade.
-
-##### Questão 32.1.2 (`esp_10_b1_q2`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Em relação aos biolarvicidas e reguladores de crescimento utilizados no Programa Nacional de Controle da Dengue (PNCD) e nas ações de controle vetorial pelo ACE, assinale a afirmativa CORRETA:
-- A) O Bacillus thuringiensis israelensis (Bti) é altamente eficaz na destruição de ovos e pupas de culicídeos, pois sua toxina proteica é absorvida ativamente através da cutícula quitinosa.
-- B) O Espinosade é um produto de síntese organoclorada que possui alto poder de bioacumulação e por isso é expressamente proibido em reservatórios de água potável para consumo humano.
-- C) O biolarvicida bacteriano Bti age por ingestão pela larva (destruindo as células do intestino médio); consequentemente, não possui ação sobre o estágio de pupa, uma vez que as pupas não se alimentam.
-- D) O Piriproxifeno é um inseticida adulticida de choque utilizado exclusivamente em nebulizações espaciais a Ultra Baixo Volume (UBV / fumacê).
-
-> **Gabarito Oficial:** **Alternativa C** (Índice `2`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: C. O Bti produz delta-endotoxinas que precisam ser ingeridas pelas larvas ativas (L1 a L4) para causar lise do epitélio intestinal. As pupas de mosquitos não possuem abertura bucal funcional e não se alimentam durante a metamorfose, sendo imunes ao Bti. O Espinosade ('B') é um biolarvicida seguro aprovado para água de consumo humano; e o Piriproxifeno ('D') é um regulador de crescimento larvário (IGR), não um adulticida de choque.
-
-##### Questão 32.1.3 (`esp_10_b1_q3`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Na Borrifação Residual Intradomiciliar (BRI) para controle de vetores transmissores de endemias amazônicas (como malária e leishmanioses), o ACE utiliza a bomba costal de compressão prévia com bico leque 8002E. A respeito dos padrões técnicos de aplicação recomendados pelo Ministério da Saúde, assinale a opção CORRETA:
-- A) A distância correta entre o bico leque e a superfície da parede a ser borrifada deve ser de 45 centímetros, mantendo-se a velocidade de deslocamento de 2 metros verticais a cada 5 segundos.
-- B) A pressão da bomba deve ser mantida acima de 120 PSI para garantir que as partículas atinjam a corrente sanguínea dos vetores no ar.
-- C) A aplicação deve cobrir apenas o teto das casas, sendo dispensável a borrifação de paredes e frestas de madeira.
-- D) Não deve haver sobreposição entre as faixas verticais borrifadas na parede para evitar desperdício de inseticida.
-
-> **Gabarito Oficial:** **Alternativa A** (Índice `0`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: A. Conforme os manuais de campo do Ministério da Saúde e SUCAM, a distância padrão do bico à parede na BRI é de 45 cm, aplicando uma faixa de 75 cm de largura à velocidade de 2 metros a cada 5 segundos (0,4 m/s), com pressão entre 25 e 55 PSI (média de 40 PSI) e sobreposição de 5 cm entre faixas consecutivas.
-
-#### Flashcards de Memorização Ativa
-
-| # | Frente (Conceito / Pergunta de Revisão) | Verso (Definição / Resposta Auditada) |
-| :---: | :--- | :--- |
-| **FC 32.1.1** | **Qual é a fórmula de cubagem e a regra de conversão para litros de uma cisterna retangular?** | Volume = Comprimento × Largura × Profundidade (em metros). Para converter m³ em litros, multiplica-se por 1.000 ($1\text{ m}^3 = 1.000\text{ L}$). |
-| **FC 32.1.2** | **Qual é a regra de dosagem e a persistência do biolarvicida Espinosade (Natular DT)?** | 1 pastilha para cada 200 litros da capacidade do reservatório. Possui persistência residual na água de até 60 dias (8 semanas). |
-| **FC 32.1.3** | **Quais são os 4 parâmetros operacionais da Bomba Costal Guarany na BRI?** | 1) Bico leque 8002E; 2) Pressão de 25 a 55 PSI (ideal 40 PSI); 3) Distância de 45 cm da parede; 4) Velocidade de 2 metros em 5 segundos. |
-
-#### Bloco Estruturado para Injeção Direta (`data/app_data.json`)
-
-```json
-{
-  "lessonId": "esp_10",
-  "blockIndex": 0,
-  "title": "Bloco 32.1 — Cubagem Matemática de Depósitos (m³ e Litros), Dosagem de Larvicidas e Calibração da Bomba Costal Guarany na BRI",
-  "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)\n\n**Aula 32 — Bloco 32.1:** Operacionalização Matemática e Química do Controle Vetorial no Campo: Cálculo de Volume (Cubagem) de Depósitos Retangulares, Cúbicos, Cilíndricos e Trapezoidais, Dosagem Prática dos Larvicidas Preconizados pelo Ministério da Saúde (*Espinosade*, *Bacillus thuringiensis israelensis — Bti* e *Piriproxifeno*) e Calibração Operacional da Bomba Costal de Compressão Prévia (Guarany) na Borrifação Residual Intradomiciliar (BRI).\n\n#### 2. Fundamentação Teórica e Fórmulas de Cubagem de Campo\n\n| Formato do Depósito | Fórmula Matemática do Volume (m³) | Conversão para Litros (L) | Exemplo Real de Campo em Porto Velho |\n| :--- | :--- | :--- | :--- |\n| **1. Retangular / Cúbico** | V = C × L × P | Litros = V × 1.000 | Tanque 2,0 × 1,5 × 1,0 m = 3,0 m³ = 3.000 L |\n| **2. Cilíndrico Circular** | V = π × r² × h (r = D/2, π ≈ 3,14) | Litros = V × 1.000 | Tambor D = 0,8m, h = 1,0m -> V ≈ 0,502 m³ ≈ 502 L |\n| **3. Trapezoidal (Cochos rurais)** | V = [(B + b) × h / 2] × C | Litros = V × 1.000 | Cocho B = 0,8m, b = 0,4m, h = 0,5m, C = 2m -> V = 0,6 m³ = 600 L |\n\n##### Quadro dos Larvicidas Preconizados pelo MS\n- **Espinosade (Natular DT):** Biolarvicida em pastilha (1 pastilha / 200 L). Duração de até 60 dias. Seguro para água de consumo humano.\n- **Bti:** Biolarvicida bacteriano seletivo por ingestão (1g / 1.000 L). NÃO atua em pupas nem ovos!\n- **Piriproxifeno 0,5% G:** Regulador de crescimento (2g / 1.000 L). Impede emergência do adulto.",
-  "modoB_markdown": "Resumo Tático do Bloco 32.1:\n- **Tríade de Conversão:** 1 m³ = 1.000 L | 1 dm³ = 1 L | 1 cm³ = 1 mL.\n- **Dosagem Espinosade:** 1 pastilha a cada 200 L de capacidade (efeito de 60 dias).\n- **Alerta de Prova:** Bti e Espinosade NÃO matam pupas! Coleta/eliminação mecânica é obrigatória em depósitos com pupas.\n- **Bomba Costal Guarany na BRI:** Bico leque 8002E, pressão 25 a 55 PSI (ideal 40 PSI), bico a 45 cm da parede, deslocamento de 2 metros em 5 segundos.",
-  "questions": [
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante inspeção sanitária em um imóvel no bairro Nova Esperança, em Porto Velho, um Agente de Combate às Endemias (ACE) localiza uma cisterna retangular em alvenaria (Grupo A2 do LIRAa) sem vedação adequada, medindo 3,0 metros de comprimento, 2,0 metros de largura e 1,5 metro de profundidade. Considerando que o reservatório se encontra completamente cheio e que o protocolo do Ministério da Saúde preconiza a aplicação do biolarvicida Espinosade em pastilha (Natular DT) na proporção de 1 pastilha para cada 200 litros de água, assinale a alternativa que indica a capacidade total da cisterna e a dosagem correta de pastilhas a ser aplicada:",
-      "options": [
-        "A) 4.500 litros e 15 pastilhas.",
-        "B) 6.000 litros e 30 pastilhas.",
-        "C) 9.000 litros e 45 pastilhas.",
-        "D) 90.000 litros e 90 pastilhas."
-      ],
-      "ans": 2,
-      "comment": "Gabarito: C. O volume em metros cúbicos de um paralelepípedo retângulo é V = C × L × P = 3,0 × 2,0 × 1,5 = 9,0 m³. Como 1 m³ equivale a 1.000 litros, temos 9,0 × 1.000 = 9.000 litros. Dividindo 9.000 L por 200 L/pastilha, obtêm-se exatamente 45 pastilhas de Espinosade."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Em relação aos biolarvicidas e reguladores de crescimento utilizados no Programa Nacional de Controle da Dengue (PNCD) e nas ações de controle vetorial pelo ACE, assinale a afirmativa CORRETA:",
-      "options": [
-        "A) O Bacillus thuringiensis israelensis (Bti) é altamente eficaz na destruição de ovos e pupas de culicídeos, pois sua toxina proteica é absorvida ativamente através da cutícula quitinosa.",
-        "B) O Espinosade é um produto de síntese organoclorada que possui alto poder de bioacumulação e por isso é expressamente proibido em reservatórios de água potável para consumo humano.",
-        "C) O biolarvicida bacteriano Bti age por ingestão pela larva (destruindo as células do intestino médio); consequentemente, não possui ação sobre o estágio de pupa, uma vez que as pupas não se alimentam.",
-        "D) O Piriproxifeno é um inseticida adulticida de choque utilizado exclusivamente em nebulizações espaciais a Ultra Baixo Volume (UBV / fumacê)."
-      ],
-      "ans": 2,
-      "comment": "Gabarito: C. O Bti produz delta-endotoxinas que precisam ser ingeridas pelas larvas ativas (L1 a L4) para causar lise do epitélio intestinal. As pupas de mosquitos não possuem abertura bucal funcional e não se alimentam durante a metamorfose, sendo imunes ao Bti. O Espinosade ('B') é seguro para água potável; e o Piriproxifeno ('D') é um larvicida regulador de crescimento (IGR)."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Na Borrifação Residual Intradomiciliar (BRI) para controle de vetores transmissores de endemias amazônicas (como malária e leishmanioses), o ACE utiliza a bomba costal de compressão prévia com bico leque 8002E. A respeito dos padrões técnicos de aplicação recomendados pelo Ministério da Saúde, assinale a opção CORRETA:",
-      "options": [
-        "A) A distância correta entre o bico leque e a superfície da parede a ser borrifada deve ser de 45 centímetros, mantendo-se a velocidade de deslocamento de 2 metros verticais a cada 5 segundos.",
-        "B) A pressão da bomba deve ser mantida acima de 120 PSI para garantir que as partículas atinjam a corrente sanguínea dos vetores no ar.",
-        "C) A aplicação deve cobrir apenas o teto das casas, sendo dispensável a borrifação de paredes e frestas de madeira.",
-        "D) Não deve haver sobreposição entre as faixas verticais borrifadas na parede para evitar desperdício de inseticida."
-      ],
-      "ans": 0,
-      "comment": "Gabarito: A. Conforme os manuais de campo do Ministério da Saúde e SUCAM, a distância padrão do bico à parede na BRI é de 45 cm, aplicando uma faixa de 75 cm de largura à velocidade de 2 metros a cada 5 segundos (0,4 m/s), com pressão entre 25 e 55 PSI (média de 40 PSI) e sobreposição de 5 cm entre faixas consecutivas."
-    }
-  ],
-  "flashcards": [
-    {
-      "f": "Qual é a fórmula de cubagem e a regra de conversão para litros de uma cisterna retangular?",
-      "b": "Volume = Comprimento × Largura × Profundidade (em metros). Para converter m³ em litros, multiplica-se por 1.000 (1 m³ = 1.000 L)."
-    },
-    {
-      "f": "Qual é a regra de dosagem e a persistência do biolarvicida Espinosade (Natular DT)?",
-      "b": "1 pastilha para cada 200 litros da capacidade do reservatório. Possui persistência residual na água de até 60 dias (8 semanas)."
-    },
-    {
-      "f": "Quais são os 4 parâmetros operacionais da Bomba Costal Guarany na BRI?",
-      "b": "1) Bico leque 8002E; 2) Pressão de 25 a 55 PSI (ideal 40 PSI); 3) Distância de 45 cm da parede; 4) Velocidade de 2 metros em 5 segundos."
-    }
-  ]
-}
-```
-
----
+### Resumo Rápido (Modo B)
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><p>Resumo Tático do Bloco 32.1:</p><ul class="list-disc pl-5 space-y-1"><li><strong>Tríade de Conversão:</strong> 1 m³ = 1.000 L | 1 dm³ = 1 L | 1 cm³ = 1 mL.</li><li><strong>Dosagem Espinosade:</strong> 1 pastilha a cada 200 L de capacidade (efeito de 60 dias).</li><li><strong>Alerta de Prova:</strong> Bti e Espinosade NÃO matam pupas! Coleta/eliminação mecânica é obrigatória em depósitos com pupas.</li><li><strong>Bomba Costal Guarany na BRI:</strong> Bico leque 8002E, pressão 25 a 55 PSI (ideal 40 PSI), bico a 45 cm da parede, deslocamento de 2 metros em 5 segundos.</li></ul></div>
 
 ## Bloco 32.2 — Biossegurança no Trabalho de Campo, EPIs (NR-6), Toxicologia de Praguicidas, Antídotos e Tríplice Lavagem
 
-<!-- @block id="esp_10_b2" title="Bloco 32.2 — Biossegurança no Trabalho de Campo, EPIs (NR-6), Toxicologia de Praguicidas, Antídotos e Tríplice Lavagem" -->
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)</h5><p><strong>Aula 32 — Bloco 32.2:</strong> Biossegurança e Saúde do Trabalhador ACE: Equipamentos de Proteção Individual (EPIs — NR-6 e Portaria MS nº 3.195), Procedimentos de Paramentação e Desparamentação Segura, Toxicologia dos Praguicidas Domissanitários (Anticolinesterásicos, Piretroides e Raticidas Cumarínicos), Antídotos Médicos de Urgência e Gerenciamento de Embalagens Vazias (Tríplice Lavagem e Logística Reversa).</p><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">2. Fundamentação Legal e Matriz de EPIs por Atividade</h5><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Atividade de Campo</th><th class="p-2 border border-slate-300 text-left">EPIs Obrigatórios Exigidos</th><th class="p-2 border border-slate-300 text-left">Cuidados de Uso e Regras de Segurança</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>1. Visita Domiciliar e LIRAa</strong></td><td class="p-2 border border-slate-200 align-top">Camisa manga longa, calça, botina antiderrapante, chapéu tipo árabe, protetor solar FPS >= 30, luvas descartáveis</td><td class="p-2 border border-slate-200 align-top">Proibido pipetar larvas com a boca; usar pescador e pipeta com pera de borracha</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>2. Aplicação de Larvicidas</strong></td><td class="p-2 border border-slate-200 align-top">Luvas nitrílicas/neoprene (espessura >= 0,35 mm), óculos com proteção lateral, máscara PFF2 para pós</td><td class="p-2 border border-slate-200 align-top">Não tocar olhos ou pele durante o manuseio</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>3. BRI e Nebulização UBV</strong></td><td class="p-2 border border-slate-200 align-top">Macacão impermeável, respirador com filtro químico combinado (vapores orgânicos + P2/P3), viseira/óculos, luvas nitrílicas de cano longo, botas PVC, protetor auricular</td><td class="p-2 border border-slate-200 align-top">Desparamentação: luvas lavadas e retiradas por ÚLTIMO</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>4. Pesquisa Malacológica (Caramujos)</strong></td><td class="p-2 border border-slate-200 align-top">Botas de borracha de cano longo, luvas de cano longo, pinça longa metálica / concha perfurada</td><td class="p-2 border border-slate-200 align-top">Evita penetração ativa de cercárias de Schistosoma mansoni e Leptospira</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>5. Desratização Química</strong></td><td class="p-2 border border-slate-200 align-top">Luvas nitrílicas impermeáveis, máscara PFF2, calçado fechado</td><td class="p-2 border border-slate-200 align-top">Protege o aplicador e impede odor humano nas iscas raticidas</td></tr></tbody></table></div><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">Toxicologia e Antídotos de Prova</h5><ul class="list-disc pl-5 space-y-1"><li><strong>Organofosforados / Carbamatos:</strong> Síndrome colinérgica (miose, sialorreia, broncorreia, bradicardia). Antídotos: <strong>Sulfato de Atropina</strong> e <strong>Pralidoxima</strong>.</li><li><strong>Raticidas Cumarínicos (Brodifacoum/Bromadiolone):</strong> Hemorragias por bloqueio da vitamina K. Antídoto: <strong>Vitamina K1 (Fitomenadiona)</strong>.</li><li><strong>Piretroides:</strong> Parestesia facial transitória e irritação. Tratamento sintomático de suporte.</li></ul><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">3. NR-6 Completa (Equipamentos de Proteção Individual — EPIs), NR-32 e Protocolos de Biossegurança e Intoxicação Aguda no Campo</h5><ul class="list-disc pl-5 space-y-1"><li><strong>1. Obrigações do Empregador / Gestão Municipal (SEMUSA) segundo a NR-6:</strong></li><li>Adquirir o EPI adequado ao risco de cada atividade e exigir seu uso;</li><li>Fornecer ao trabalhador <strong>gratuitamente</strong> somente EPI aprovado pelo órgão nacional competente com <strong>Certificado de Aprovação (CA)</strong> válido;</li><li>Orientar e treinar o trabalhador sobre o uso adequado, guarda e conservação;</li><li>Substituir imediatamente, quando danificado ou extraviado;</li><li>Responsabilizar-se pela higienização e manutenção periódica e registrar o fornecimento ao trabalhador (ficha de EPI física ou eletrônica).</li><li><strong>2. Obrigações do Trabalhador (ACE) segundo a NR-6:</strong></li><li>Utilizar o EPI <strong>apenas para a finalidade a que se destina</strong>;</li><li>Responsabilizar-se pela <strong>guarda e conservação</strong>;</li><li>Comunicar ao empregador qualquer alteração que o torne impróprio para uso; e</li><li>Cumprir as determinações do empregador sobre o uso adequado.</li><li><strong>3. Ordem Técnica Correta de Paramentação (Vestir) e Desparamentação (Retirar) dos EPIs na Aplicação de Inseticidas (BRI / UBV):</strong></li><li><strong>Ordem de Vestir (Paramentação):</strong> 1º Calça e camisa/macacão hidrorrepelente → 2º Botas impermeáveis (com a boca da calça por <strong>fora</strong> do cano da bota, para que eventual respingo escorra para o chão e não para dentro da bota!) → 3º Avental impermeável (no preparo da calda) → 4º Respirador semifacial com filtro químico (vapores orgânicos) + filtro mecânico (P2/P3) → 5º Óculos de proteção ampla visão / viseira facial → 6º Touca árabe / boné → 7º Luvas nitrílicas ou de neoprene.</li><li><strong>Ordem de Retirar (Desparamentação após lavar as luvas ainda calçadas com água e sabão):</strong> Retirar primeiro os itens mais contaminados externamente (avental, touca, óculos, botas, macacão), depois o respirador (em local ventilado, longe da área de mistura) e, <strong>por último</strong>, retirar as luvas e higienizar imediatamente as mãos e tomar banho com água fria/morna e sabão neutro.</li><li><strong>4. Conduta de Primeiros Socorros Diante de Intoxicação Aguda por Inseticidas no Campo:</strong></li><li><strong>Via Cutânea (Derramamento na pele/roupa):</strong> Retirar imediatamente a roupa contaminada e lavar a pele abundantemente com <strong>água corrente fria e sabão neutro</strong> por pelo menos 15 minutos (nunca usar água quente, pois causa vasodilatação e acelera a absorção dérmica do veneno!).</li><li><strong>Via Ocular (Respingo nos olhos):</strong> Lavar imediatamente os olhos abertos com água corrente limpa ou soro fisiológico por <strong>15 minutos</strong>, do canto interno para o externo.</li><li><strong>Via Inalatória:</strong> Remover a vítima imediatamente para local aberto, fresco e ventilado, afrouxar as vestes e manter as vias aéreas pérvias.</li><li><strong>Via Oral (Ingestão acidental):</strong> <strong>NÃO provocar vômito</strong> (especialmente em produtos derivados de petróleo/solventes emulsificáveis, pelo risco gravíssimo de pneumonia química aspirativa) e <strong>NÃO administrar leite, óleo ou álcool</strong> (pois muitos inseticidas são lipossolúveis e a gordura/álcool aumenta drasticamente sua absorção intestinal!). Encaminhar imediatamente ao serviço médico de urgência levando o <strong>rótulo, bula ou FDS (FISPQ)</strong> do produto.</li></ul></div>
+<div class="mt-4 pt-4 border-t-2 border-teal-200 space-y-3">
+  <h5 class="text-sm font-extrabold text-teal-900 uppercase tracking-wide">6. Protocolo Completo de Biossegurança (NR-6 e NR-31), Ordem de Paramentação/Desparamentação de EPIs e Toxicologia Aguda</h5>
+  <p>O uso correto dos <strong>Equipamentos de Proteção Individual (EPIs)</strong> e o manejo de intoxicações ocupacionais são exigências centrais do Anexo IV para o ACE:</p>
+  <ul class="list-disc pl-5 space-y-2 text-xs">
+    <li><strong>Obrigações do Empregador vs. Empregado/Servidor (NR-6):</strong> Cabe ao órgão público/empregador fornecer gratuitamente EPI adequado ao risco, com <strong>CA (Certificado de Aprovação)</strong> válido expedido pelo Ministério do Trabalho, exigir seu uso, orientar/treinar o trabalhador, higienizar e substituir imediatamente quando danificado. Cabe ao ACE usar o EPI apenas para a finalidade a que se destina, responsabilizar-se pela guarda e conservação e comunicar qualquer alteração que o torne impróprio.</li>
+    <li><strong>Ordem Correta de PARAMENTAÇÃO (Vestir os EPIs antes de manipular praguicidas):</strong> 1º Calça e camisa hidrorrepelentes; 2º Botas impermeáveis de PVC (com a barra da calça <strong>por fora</strong> do cano da bota, para evitar que a calda escorra para dentro dos pés!); 3º Avental impermeável; 4º Respirador semifacial com filtro químico (carvão ativado para vapores orgânicos) + filtro mecânico P2; 5º Óculos de proteção ampla visão ou viseira facial; 6º Touca árabe / boné; 7º Luvas de borracha nitrílica ou neoprene.</li>
+    <li><strong>Ordem Correta de DESPARAMENTAÇÃO (Retirar os EPIs após o trabalho):</strong> Antes de tirar as luvas, <strong>lavar as luvas calçadas nas mãos</strong> com água e sabão! Depois retirar: 1º Touca árabe e viseira/óculos; 2º Avental; 3º Camisa; 4º Botas e calça; 5º Luvas; 6º Por último, já de banho tomado ou mãos lavadas, retirar o <strong>Respirador</strong>!</li>
+    <li><strong>Quadro Clínico e Antídotos das Intoxicações Agudas por Praguicidas:</strong>
+      <ul class="list-circle pl-5 mt-1 space-y-1">
+        <li><strong>Organofosforados e Carbamatos (Inibidores da enzima Acetilcolinesterase — AChE):</strong> Causam acúmulo de acetilcolina nas sinapses (<strong>Síndrome Colinérgica Aguda</strong>: miose puntiforme ["pupila em ponta de alfinete"], sialorreia intensa, sudorese, broncorreia, bradicardia, fasciculações musculares, vômitos e diarreia). <strong>Antídoto específico: Sulfato de Atropina</strong> (bloqueador muscarínico) + <strong>Pralidoxima/Contrathion</strong> (reativador da colinesterase nos organofosforados). Exame de monitoramento periódico do ACE exposto: dosagem da <strong>Colinesterase Plasmática e Eritrocitária</strong>.</li>
+        <li><strong>Piretroides (Alfa-cipermetrina, Deltametrina, Lambda-cialotrina):</strong> Atuam nos canais de sódio dos neurônios dos insetos; em humanos causam principalmente parestesia cutânea facial (formigamento/queimação transitória na pele exposta) e irritação de mucosas. Tratamento: descontaminação com água e sabão e sintomáticos / anti-histamínicos (vitamina E tópica reduz a parestesia).</li>
+        <li><strong>Raticidas Cumarínicos (Brodifacoum, Flocoumafen, Bromadiolone, Cumatetralil):</strong> Inibem os fatores de coagulação dependentes da vitamina K no fígado (Fatores II, VII, IX e X), causando hemorragias após 24 a 72 horas. <strong>Antídoto específico: Vitamina K1 (Fitomenadiona) injetável!</strong></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
-### Modo A — Explicação Completa, Conceitos Fundamentais, Regras, Quadros Comparativos, Exemplos Práticos e Aprofundamento
-
-<!-- @modoA_start -->
-#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)
-
-**Aula 32 — Bloco 32.2:** Biossegurança e Saúde do Trabalhador ACE: Equipamentos de Proteção Individual (EPIs — NR-6 do MTE e Portaria MS nº 3.195), Procedimentos de Paramentação e Desparamentação Segura, Toxicologia dos Praguicidas Domissanitários (Anticolinesterásicos, Piretroides e Raticidas Cumarínicos), Antídotos Médicos de Urgência e Gerenciamento de Embalagens Vazias (Tríplice Lavagem e Logística Reversa — Lei Federal nº 14.785/2023).
-**Fontes Integradas:** Art. 198, § 10 da CF/88 (EC nº 120/2022), Art. 9º-E da Lei nº 11.350/2006, NR-6 (MTE), Manual de Vigilância da Saúde das Populações Expostas a Agrotóxicos (MS) e Anexo IV Retificado (#91).
-
-Objetivos de Aprendizagem:
-- Identificar os EPIs adequados para cada uma das atividades de campo (visita domiciliar, borrifação, captura de caramujos e aplicação de raticidas).
-- Compreender a ordem de retirada de EPIs para evitar contaminação cutânea acidental.
-- Reconhecer os sinais de intoxicação aguda por organofosforados, carbamatos e anticoagulantes cumarínicos e indicar seus antídotos específicos.
-- Dominar o método da Tríplice Lavagem e destinação ambiental correta de recipientes de defensivos.
-
-#### 2. Fundamentação Legal e Matriz de EPIs por Atividade de Campo
-
-O trabalho do ACE está sujeito a riscos ambientais classificados como químicos (inseticidas, larvicidas, raticidas), biológicos (vírus, bactérias, parasitas, animais peçonhentos) e físicos (radiação solar, calor, ruído). Conforme o **Art. 198, § 10 da CF/88 (EC nº 120/2022)** e o **Art. 9º-E da Lei nº 11.350/2006**, os ACEs têm direito ao fornecimento gratuito e periódico de EPIs pelo município e ao respectivo adicional de insalubridade.
-
-##### Quadro Geral de EPIs Obrigatórios por Atividade de Campo do ACE
-
-| Atividade de Campo | EPIs Obrigatórios Exigidos | Cuidados de Uso e Regras de Segurança |
-| :--- | :--- | :--- |
-| **1. Visita Domiciliar de Rotina e Pesquisa Larvária (LIRAa)** | Camisa de manga longa de algodão, calça comprida, calçado de segurança fechado (botina com solado antiderrapante), chapéu tipo legionário/árabe (com aba frontal e pala cervical protetora), protetor solar (FPS $\ge 30$) e luvas nitrílicas descartáveis. | Proibido pipetar água de criadouro com a boca (usar pescador de larvas e pipeta com pera de borracha); higienizar as mãos com água e sabão após cada quarteirão. |
-| **2. Aplicação de Larvicidas e Tratamento Focal** | Luvas de borracha nitrílica ou neoprene (espessura mínima 0,35 mm), óculos de segurança com proteção lateral e máscara PFF2 (em caso de produtos em pó/granulados). | Nunca manusear pastilhas ou pós com as mãos desprotegidas. Não tocar olhos ou mucosas durante o manuseio. |
-| **3. Borrifação Residual (BRI) e Nebulização UBV** | Macacão impermeável ou hidrorrepelente de mangas longas, **respirador semifacial com filtro químico combinado (vapores orgânicos classe 1 + filtro mecânico P2/P3)**, viseira de policarbonato ou óculos ampla visão, luvas de borracha nitrílica de cano longo, botas de PVC cano médio e protetor auricular tipo concha (no UBV motorizado). | **Regra de ouro na desparamentação:** As luvas nitrílicas são lavadas com água e sabão por fora ANTES de serem descalçadas e são o **ÚLTIMO EPI A SER RETIRADO**. Tomar banho imediatamente após a jornada e lavar uniforme separadamente das roupas familiares. |
-| **4. Pesquisa Malacológica (Coleta de Caramujos *Biomphalaria*)** | **Botas de borracha impermeáveis de cano longo**, luvas de borracha de cano longo e pinça longa metálica / concha perfurada de aço. | Evita o contato direto com águas doces infestadas por **cercárias** de *Schistosoma mansoni* ou bactérias *Leptospira interrogans*. |
-| **5. Desratização Química (Aplicação de Iscas Raticidas)** | Luvas de nitrila impermeáveis, máscara facial PFF2 e calçado fechado. | A luva protege o aplicador da absorção de veneno e **evita deixar o odor humano na isca**, o que ativaria a neofobia dos roedores (*Rattus norvegicus*). |
-
-##### Toxicologia de Praguicidas e Antídotos Específicos
-
-| Classe Química do Produto | Exemplos Comerciais / Princípios Ativos | Mecanismo Fisiológico da Intoxicação | Sinais e Sintomas Agudos Clássicos | Antídoto Médico Específico |
-| :--- | :--- | :--- | :--- | :--- |
-| **Inibidores da Acetilcolinesterase: Organofosforados e Carbamatos** | Malation, Temefós, Fenitrotion, Propoxur, Bendiocarb. | Inibem a enzima acetilcolinesterase, causando acúmulo patológico de acetilcolina nas sinapses nervosas (hiperestimulação colinérgica). | **Síndrome Colinérgica:** Miose puntiforme (pupilas contraídas), salivação excessiva (sialorreia), lacrimejamento, broncorreia, broncoespasmo, vômitos, cólicas, diarreia, bradicardia e fasciculações musculares. | **Sulfato de Atropina** (bloqueador colinérgico; reverte efeitos muscarínicos) e **Pralidoxima** (reativador da enzima, eficaz apenas em organofosforados nas primeiras 24–48h). |
-| **Raticidas Anticoagulantes Cumarínicos (Dose Única e Múltipla)** | Brodifacoum, Bromadiolone, Flocoumafen, Difenacoum, Warfarina. | Inibem a enzima epóxido redutase no fígado, impedindo a reciclagem da vitamina K e bloqueando os fatores de coagulação II, VII, IX e X. | Diátese hemorrágica: sangramentos gengivais, epistaxe (sangramento nasal), hematúria (sangue na urina), fezes escuras (melena), equimoses e choque hemorrágico. | **Vitamina K1 (Fitomenadiona)** administrada por via oral ou parenteral conforme gravidade médica. |
-| **Piretroides** | Deltametrina, Cipermetrina, Permetrina, Praletrina. | Prolongam a abertura dos canais de sódio nas membranas neuronais. | Parestesia facial (formigamento nas bochechas), irritação nos olhos, espirros, tosse e dermatite de contato. | Não há antídoto específico (tratamento sintomático e suporte; lavar a pele com água, sabão e loções hidratantes). |
-
-##### O Procedimento da Tríplice Lavagem de Embalagens Rígidas (Lei nº 14.785/2023)
-1. **Passo 1:** Esvazie totalmente o conteúdo da embalagem no tanque do pulverizador.
-2. **Passo 2:** Adicione água limpa até 1/4 (25%) do volume do recipiente.
-3. **Passo 3:** Feche a tampa, agite vigorosamente por 30 segundos em todas as direções e despeje a água de lavagem dentro do tanque de pulverização (repetir esse ciclo por **3 vezes consecutivas**).
-4. **Passo 4:** Inutilize a embalagem perfurando o fundo (sem danificar o rótulo) para evitar reutilização e armazene para devolução à central de logística reversa.
-<!-- @modoA_end -->
-
-### Modo B — Resumo para Revisão, Formas de Memorização (Mnemônicos), Exceções e Erros Comuns / Pegadinhas de Prova
-
-<!-- @modoB_start -->
-Resumo Tático e Mnemônicos do Bloco 32.2:
-- **Mnemônico dos Antídotos de Prova:**
-  - **CUMARÍNICO (Raticida) &rarr; Vitamina K1 (Fitomenadiona).**
-  - **ORGANOFOSFORADO / CARBAMATO &rarr; ATROPINA (e Pralidoxima).**
-- **Ordem de Retirada dos EPIs (Desparamentação):** Macacão &rarr; Botas &rarr; Máscara/Óculos &rarr; **LUVAS NITRÍLICAS POR ÚLTIMO** (após serem lavadas com sabão por fora).
-- **Tríplice Lavagem:** 3 enxágues com 1/4 de água limpa, agitação por 30 segundos, calda de volta ao pulverizador e **perfuração do fundo da embalagem**.
-- **Material de Luva para Solventes/Inseticidas:** Borracha Nitrílica ou Neoprene. Nunca usar couro, pano ou látex cirúrgico descartável fino!
-<!-- @modoB_end -->
-
-### Modo C — Questões de Fixação (4 Alternativas A–D), Gabarito Comentado & Flashcards
-
-#### Questões de Fixação e Revisão
-
-##### Questão 32.2.1 (`esp_10_b2_q1`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Em relação aos Equipamentos de Proteção Individual (EPIs) e aos procedimentos de segurança ocupacional adotados pelo Agente de Combate às Endemias durante operações de campo com defensivos e biolarvicidas, assinale a opção CORRETA:
-- A) As luvas de algodão cru são os EPIs mais indicados para manuseio de inseticidas líquidos concentrados, por permitirem a evaporação imediata dos solventes orgânicos.
-- B) Na etapa de desparamentação após a aplicação de defensivos, as luvas nitrílicas impermeáveis devem ser o primeiro EPI a ser retirado com as mãos desprotegidas.
-- C) O respirador facial ou semifacial com filtro combinado para vapores orgânicos e partículas P2/P3 deve ser utilizado durante a aplicação residual de inseticidas e na preparação da calda química.
-- D) O uso de protetor solar dispensa o uso de chapéu tipo árabe e uniforme de mangas longas durante a realização de visitas domiciliares sob sol intenso.
-
-> **Gabarito Oficial:** **Alternativa C** (Índice `2`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: C. Na preparação da calda e aplicação de inseticidas que liberam vapores orgânicos e aerossóis, é obrigatório o uso de respirador com filtro químico combinado (vapores orgânicos + filtro mecânico para partículas P2/P3). Luvas de algodão ('A') absorvem praguicidas e provocam intoxicação por via dérmica; as luvas nitrílicas são lavadas e retiradas por último ('B'); e o protetor solar não substitui as barreiras físicas têxteis ('D').
-
-##### Questão 32.2.2 (`esp_10_b2_q2`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante uma ação de desratização em área portuária, um trabalhador acidentalmente ingere uma dose de raticida anticoagulante à base de Brodifacoum. Levado ao serviço de pronto-atendimento com episódios de sangramento gengival e hematúria, a equipe médica administra o antídoto específico para inibir a ação dos compostos cumarínicos. Esse antídoto é a:
-- A) Vitamina K1 (Fitomenadiona).
-- B) Sulfato de Atropina.
-- C) Pralidoxima.
-- D) Acetilcisteína.
-
-> **Gabarito Oficial:** **Alternativa A** (Índice `0`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: A. Os raticidas cumarínicos bloqueiam a síntese hepática dos fatores de coagulação dependentes de vitamina K (fatores II, VII, IX e X). O antídoto fisiológico específico e salvador é a Vitamina K1 (Fitomenadiona). A Atropina ('B') e a Pralidoxima ('C') são antídotos de inseticidas inibidores da colinesterase (organofosforados e carbamatos); a Acetilcisteína ('D') é usada em intoxicação por paracetamol.
-
-##### Questão 32.2.3 (`esp_10_b2_q3`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) O procedimento de Tríplice Lavagem de embalagens rígidas de agrotóxicos e domissanitários, preconizado pelas normas técnicas ambientais e sanitárias, estabelece que:
-- A) A embalagem deve ser lavada com água fervente e sabão em pó, sendo a água despejada diretamente na rede de esgoto pluvial da rua.
-- B) Deve-se colocar água limpa até cerca de 1/4 da capacidade do frasco, tampar, agitar vigorosamente por 30 segundos, verter a água no próprio tanque do pulverizador (repetindo 3 vezes) e furar o fundo da embalagem.
-- C) A embalagem deve ser queimada em fogueira no quintal do imóvel inspecionado logo após o término do produto.
-- D) A embalagem deve ser preservada intacta e sem furos para ser reaproveitada pelos moradores no armazenamento de leite ou água potável.
-
-> **Gabarito Oficial:** **Alternativa B** (Índice `1`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: B. A Tríplice Lavagem consiste em enxaguar o frasco 3 vezes consecutivas com 25% de água limpa, aproveitando essa água no tanque de pulverização, inutilizando o frasco mediante perfuração no fundo para impedir reaproveitamento e garantindo a devolução segura na logística reversa. Queimar no quintal ('C') ou reutilizar para alimentos ('D') são infrações sanitárias gravíssimas.
-
-#### Flashcards de Memorização Ativa
-
-| # | Frente (Conceito / Pergunta de Revisão) | Verso (Definição / Resposta Auditada) |
-| :---: | :--- | :--- |
-| **FC 32.2.1** | **Qual é o antídoto médico específico para intoxicação por raticidas anticoagulantes cumarínicos?** | Vitamina K1 (Fitomenadiona), que reverte a inibição da síntese hepática dos fatores de coagulação sanguínea. |
-| **FC 32.2.2** | **Quais são os antídotos usados nas intoxicações agudas por inseticidas organofosforados e carbamatos?** | Sulfato de Atropina (bloqueia receptores muscarínicos) e Pralidoxima (reativa a acetilcolinesterase nos organofosforados). |
-| **FC 32.2.3** | **Qual é a regra mandatória de ordem para retirada das luvas nitrílicas na desparamentação do ACE?** | As luvas devem ser lavadas externamente com sabão e são o ÚLTIMO EPI a ser retirado, evitando tocar a pele contaminada. |
-
-#### Bloco Estruturado para Injeção Direta (`data/app_data.json`)
-
-```json
-{
-  "lessonId": "esp_10",
-  "blockIndex": 1,
-  "title": "Bloco 32.2 — Biossegurança no Trabalho de Campo, EPIs (NR-6), Toxicologia de Praguicidas, Antídotos e Tríplice Lavagem",
-  "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)\n\n**Aula 32 — Bloco 32.2:** Biossegurança e Saúde do Trabalhador ACE: Equipamentos de Proteção Individual (EPIs — NR-6 e Portaria MS nº 3.195), Procedimentos de Paramentação e Desparamentação Segura, Toxicologia dos Praguicidas Domissanitários (Anticolinesterásicos, Piretroides e Raticidas Cumarínicos), Antídotos Médicos de Urgência e Gerenciamento de Embalagens Vazias (Tríplice Lavagem e Logística Reversa).\n\n#### 2. Fundamentação Legal e Matriz de EPIs por Atividade\n\n| Atividade de Campo | EPIs Obrigatórios Exigidos | Cuidados de Uso e Regras de Segurança |\n| :--- | :--- | :--- |\n| **1. Visita Domiciliar e LIRAa** | Camisa manga longa, calça, botina antiderrapante, chapéu tipo árabe, protetor solar FPS >= 30, luvas descartáveis | Proibido pipetar larvas com a boca; usar pescador e pipeta com pera de borracha |\n| **2. Aplicação de Larvicidas** | Luvas nitrílicas/neoprene (espessura >= 0,35 mm), óculos com proteção lateral, máscara PFF2 para pós | Não tocar olhos ou pele durante o manuseio |\n| **3. BRI e Nebulização UBV** | Macacão impermeável, respirador com filtro químico combinado (vapores orgânicos + P2/P3), viseira/óculos, luvas nitrílicas de cano longo, botas PVC, protetor auricular | Desparamentação: luvas lavadas e retiradas por ÚLTIMO |\n| **4. Pesquisa Malacológica (Caramujos)** | Botas de borracha de cano longo, luvas de cano longo, pinça longa metálica / concha perfurada | Evita penetração ativa de cercárias de Schistosoma mansoni e Leptospira |\n| **5. Desratização Química** | Luvas nitrílicas impermeáveis, máscara PFF2, calçado fechado | Protege o aplicador e impede odor humano nas iscas raticidas |\n\n##### Toxicologia e Antídotos de Prova\n- **Organofosforados / Carbamatos:** Síndrome colinérgica (miose, sialorreia, broncorreia, bradicardia). Antídotos: **Sulfato de Atropina** e **Pralidoxima**.\n- **Raticidas Cumarínicos (Brodifacoum/Bromadiolone):** Hemorragias por bloqueio da vitamina K. Antídoto: **Vitamina K1 (Fitomenadiona)**.\n- **Piretroides:** Parestesia facial transitória e irritação. Tratamento sintomático de suporte.",
-  "modoB_markdown": "Resumo Tático do Bloco 32.2:\n- **Mnemônico dos Antídotos:** Raticida cumarínico -> Vitamina K1 (Fitomenadiona) | Organofosforado/Carbamato -> Sulfato de Atropina (e Pralidoxima).\n- **Ordem de Retirada de EPIs:** Retirar macacão, botas, máscara/óculos e por ÚLTIMO as luvas nitrílicas (lavadas previamente).\n- **Tríplice Lavagem:** 3 enxágues com 1/4 de água limpa vertidos no pulverizador + perfuração do fundo da embalagem.",
-  "questions": [
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Em relação aos Equipamentos de Proteção Individual (EPIs) e aos procedimentos de segurança ocupacional adotados pelo Agente de Combate às Endemias durante operações de campo com defensivos e biolarvicidas, assinale a opção CORRETA:",
-      "options": [
-        "A) As luvas de algodão cru são os EPIs mais indicados para manuseio de inseticidas líquidos concentrados, por permitirem a evaporação imediata dos solventes orgânicos.",
-        "B) Na etapa de desparamentação após a aplicação de defensivos, as luvas nitrílicas impermeáveis devem ser o primeiro EPI a ser retirado com as mãos desprotegidas.",
-        "C) O respirador facial ou semifacial com filtro combinado para vapores orgânicos e partículas P2/P3 deve ser utilizado durante a aplicação residual de inseticidas e na preparação da calda química.",
-        "D) O uso de protetor solar dispensa o uso de chapéu tipo árabe e uniforme de mangas longas durante a realização de visitas domiciliares sob sol intenso."
-      ],
-      "ans": 2,
-      "comment": "Gabarito: C. Na preparação da calda e aplicação residual de inseticidas que emitem vapores orgânicos e partículas em suspensão, exige-se respirador semifacial ou facial com cartucho para vapores orgânicos associado a filtro mecânico P2/P3. Luvas de algodão ('A') absorvem praguicidas; as luvas nitrílicas são lavadas e retiradas por último ('B'); e o protetor solar não substitui a proteção física têxtil ('D')."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante uma ação de desratização em área portuária, um trabalhador acidentalmente ingere uma dose de raticida anticoagulante à base de Brodifacoum. Levado ao serviço de pronto-atendimento com episódios de sangramento gengival e hematúria, a equipe médica administra o antídoto específico para inibir a ação dos compostos cumarínicos. Esse antídoto é a:",
-      "options": [
-        "A) Vitamina K1 (Fitomenadiona).",
-        "B) Sulfato de Atropina.",
-        "C) Pralidoxima.",
-        "D) Acetilcisteína."
-      ],
-      "ans": 0,
-      "comment": "Gabarito: A. Os raticidas cumarínicos bloqueiam a síntese hepática dos fatores de coagulação dependentes de vitamina K (fatores II, VII, IX e X). O antídoto fisiológico específico e salvador é a Vitamina K1 (Fitomenadiona). A Atropina ('B') e a Pralidoxima ('C') são antídotos de inseticidas inibidores da colinesterase (organofosforados e carbamatos); a Acetilcisteína ('D') é usada em intoxicação por paracetamol."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) O procedimento de Tríplice Lavagem de embalagens rígidas de agrotóxicos e domissanitários, preconizado pelas normas técnicas ambientais e sanitárias, estabelece que:",
-      "options": [
-        "A) A embalagem deve ser lavada com água fervente e sabão em pó, sendo a água despejada diretamente na rede de esgoto pluvial da rua.",
-        "B) Deve-se colocar água limpa até cerca de 1/4 da capacidade do frasco, tampar, agitar vigorosamente por 30 segundos, verter a água no próprio tanque do pulverizador (repetindo 3 vezes) e furar o fundo da embalagem.",
-        "C) A embalagem deve ser queimada em fogueira no quintal do imóvel inspecionado logo após o término do produto.",
-        "D) A embalagem deve ser preservada intacta e sem furos para ser reaproveitada pelos moradores no armazenamento de leite ou água potável."
-      ],
-      "ans": 1,
-      "comment": "Gabarito: B. A Tríplice Lavagem consiste em enxaguar o frasco 3 vezes consecutivas com 25% de água limpa, aproveitando essa água no tanque de pulverização, inutilizando o frasco mediante perfuração no fundo para impedir reaproveitamento e garantindo a devolução segura na logística reversa. Queimar no quintal ('C') ou reutilizar para alimentos ('D') são infrações sanitárias gravíssimas."
-    }
-  ],
-  "flashcards": [
-    {
-      "f": "Qual é o antídoto médico específico para intoxicação por raticidas anticoagulantes cumarínicos?",
-      "b": "Vitamina K1 (Fitomenadiona), que reverte a inibição da síntese hepática dos fatores de coagulação sanguínea."
-    },
-    {
-      "f": "Quais são os antídotos usados nas intoxicações agudas por inseticidas organofosforados e carbamatos?",
-      "b": "Sulfato de Atropina (bloqueia receptores muscarínicos) e Pralidoxima (reativa a acetilcolinesterase nos organofosforados)."
-    },
-    {
-      "f": "Qual é a regra mandatória de ordem para retirada das luvas nitrílicas na desparamentação do ACE?",
-      "b": "As luvas devem ser lavadas externamente com sabão e são o ÚLTIMO EPI a ser retirado, evitando tocar a pele contaminada."
-    }
-  ]
-}
-```
-
----
+### Resumo Rápido (Modo B)
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><p>Resumo Tático do Bloco 32.2:</p><ul class="list-disc pl-5 space-y-1"><li><strong>Mnemônico dos Antídotos:</strong> Raticida cumarínico -> Vitamina K1 (Fitomenadiona) | Organofosforado/Carbamato -> Sulfato de Atropina (e Pralidoxima).</li><li><strong>Ordem de Retirada de EPIs:</strong> Retirar macacão, botas, máscara/óculos e por ÚLTIMO as luvas nitrílicas (lavadas previamente).</li><li><strong>Tríplice Lavagem:</strong> 3 enxágues com 1/4 de água limpa vertidos no pulverizador + perfuração do fundo da embalagem.</li></ul></div>
 
 ## Bloco 32.3 — Reconhecimento Geográfico (RG), Cartografia de Campo, Numeração Territorial e Cadastro de Imóveis
 
-<!-- @block id="esp_10_b3" title="Bloco 32.3 — Reconhecimento Geográfico (RG), Cartografia de Campo, Numeração Territorial e Cadastro de Imóveis" -->
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)</h5><p><strong>Aula 32 — Bloco 32.3:</strong> Reconhecimento Geográfico (RG) Aplicado ao Controle de Endemias: Conceituação Cartográfica, Delimitação de Localidades, Zonas e Estratos, Metodologia de Numeração de Quarteirões, Regra de Caminhamento Horário pelo Quarteirão, Ordem de Vistoria de Imóveis (Peridomicílio vs. Intradomicílio), Tipologia e Classificação dos Imóveis (R, C, TB, PE, O) e Condutas Legais perante Imóveis Fechados e Recusas (Lei Federal nº 13.301/2016).</p><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">2. Metodologia do Reconhecimento Geográfico (RG)</h5><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Elemento do RG</th><th class="p-2 border border-slate-300 text-left">Regra Oficial do Ministério da Saúde / SUCAM</th><th class="p-2 border border-slate-300 text-left">Importância Prática na Rotina de Visita</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Ponto de Partida</strong></td><td class="p-2 border border-slate-200 align-top">Vértice mais ao Norte (ou Noroeste) do quarteirão</td><td class="p-2 border border-slate-200 align-top">Padronização uniforme da equipe e zero omissões</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Sentido de Deslocamento</strong></td><td class="p-2 border border-slate-200 align-top">Sentido HORÁRIO (pela direita), mantendo a direita para os imóveis</td><td class="p-2 border border-slate-200 align-top">Evita zigue-zague e garante que a face inteira seja vistoriada</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Ordem de Vistoria</strong></td><td class="p-2 border border-slate-200 align-top">1º PERIDOMICÍLIO (área externa/quintal) -> 2º INTRADOMICÍLIO</td><td class="p-2 border border-slate-200 align-top">Concentra 80% dos criadouros de mosquitos e abrigos de vetores</td></tr></tbody></table></div><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">Tipologia dos Imóveis e Periodicidade</h5><ul class="list-disc pl-5 space-y-1"><li><strong>R (Residencial), C (Comercial), TB (Terreno Baldio), O (Outros):</strong> Periodicidade <strong>Bimestral</strong> (6 ciclos anuais).</li><li><strong>PE (Ponto Estratégico):</strong> Borracharias, ferros-velhos, cemitérios, depósitos de sucatas e portos. Periodicidade <strong>Quinzenal</strong> (a cada 15 dias).</li></ul><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">Ingresso Forçado (Lei Federal nº 13.301/2016)</h5><p>Autoriza o ingresso forçado em imóveis públicos ou particulares abandonados ou na ausência de pessoa que possa abrir após notificações, em situação de perigo iminente à saúde pública.</p><h5 class="text-xs sm:text-sm font-bold text-teal-800 mt-2">3. Detalhamento Completo do Reconhecimento Geográfico (RG), Croqui de Localidade e Formulários Oficiais de Campo</h5><ul class="list-disc pl-5 space-y-1"><li><strong>1. Conceito e Finalidade do Reconhecimento Geográfico (RG):</strong></li><li>O RG é a operação preliminar e contínua de identificação, delimitação, numeração, mapeamento (croqui) e cadastramento de todas as localidades, zonas, setores, quarteirões e imóveis de um município, servindo como base territorial indispensável para o planejamento das visitas domiciliares, LIRAa, borrifação residual (BRI) e bloqueio de transmissão.</li><li><strong>2. Regras Oficiais de Numeração e Movimento no Quarteirão e no Imóvel:</strong></li><li><strong>Ponto de Partida do Quarteirão:</strong> Inicia-se sempre pelo <strong>canto mais ao Norte (N)</strong> ou <strong>Noroeste (NO)</strong> do quarteirão.</li><li><strong>Sentido de Caminhamento no Quarteirão:</strong> Segue rigorosamente o <strong>sentido horário</strong> (movimento dos ponteiros do relógio), mantendo o lado direito voltado para os muros/fachadas dos imóveis.</li><li><strong>Ordem de Inspeção no Imóvel:</strong> Inicia-se pelo <strong>peridomicílio (área externa)</strong> contornando o terreno pela direita (frente → lateral → fundos/quintal → outra lateral) e, em seguida, inspeciona-se o <strong>intradomicílio</strong>.</li><li><strong>3. Classificação Oficial dos Tipos de Imóveis (FAD / SISPNCD):</strong></li><li><strong>R — Residencial:</strong> Imóvel destinado exclusivamente à moradia domiciliar.</li><li><strong>C — Comercial:</strong> Lojas, mercados, oficinas, restaurantes, escritórios.</li><li><strong>TB — Terreno Baldio:</strong> Lote não edificado (exige inspeção de lixo, entulho e buracos de árvores).</li><li><strong>PE — Ponto Estratégico:</strong> Imóvel com grande concentração de depósitos preferenciais para oviposição do <em>Aedes aegypti</em> ou recepção passiva de vetores (cemitérios, borracharias, ferros-velhos, depósitos de sucata/recicláveis, garagens de ônibus/caminhões, oficinas de desmanche, floriculturas) — inspecionado <strong>quinzenalmente (a cada 15 dias)</strong> e tratado mensalmente.</li><li><strong>O — Outros:</strong> Escolas, igrejas, templos, hospitais, prédios públicos, praças.</li><li><strong>4. Situação de Pendência do Imóvel:</strong></li><li><strong>F — Fechado:</strong> Morador ausente no momento da visita (exige programação de <strong>recuperação de pendências</strong> em horários alternativos: horário de almoço, final da tarde após 17h ou sábados).</li><li><strong>R — Recusa:</strong> Morador presente que impede a entrada do ACE após orientação educativa (registrar no boletim e comunicar ao supervisor para retorno conjunto ou acionamento das medidas sanitárias legais da Lei 13.301/2016).</li><li><strong>D — Desocupado:</strong> Imóvel vazio sem moradores (verificar se há chaves com vizinho/imobiliária e inspecionar áreas acessíveis como calhas, ralos externos e caixas d'água destampadas).</li></ul></div>
+<div class="mt-4 pt-4 border-t-2 border-teal-200 space-y-3">
+  <h5 class="text-sm font-extrabold text-teal-900 uppercase tracking-wide">6. Reconhecimento Geográfico (RG), Regras de Numeração de Quarteirões/Imóveis e Boletins Oficiais de Campo (FAD/SISPNCD)</h5>
+  <p>O <strong>Reconhecimento Geográfico (RG)</strong> é o alicerce cartográfico de todas as operações de controle de endemias urbanas e rurais. Memorize todas as convenções do Ministério da Saúde / FUNASA:</p>
+  <ul class="list-disc pl-5 space-y-2 text-xs">
+    <li><strong>Ordem de Numeração dos Quarteirões na Localidade:</strong> Inicia-se pelo quarteirão situado mais ao <strong>Norte (ou Noroeste)</strong> da localidade/setor censitário, seguindo em <strong>zigue-zague (sentido de leitura: da esquerda para a direita, de cima para baixo)</strong> até o extremo Sul/Sudeste.</li>
+    <li><strong>Ordem de Numeração das Faces do Quarteirão e Caminhamento do ACE:</strong> Dentro de cada quarteirão, o ACE inicia a visita pela esquina mais ao <strong>Norte (Face 1)</strong> e caminha contornando o quarteirão no <strong>SENTIDO HORÁRIO (da esquerda para a direita, mantendo a mão direita voltada para o muro/fachada dos imóveis)</strong>, numerando as faces em 1, 2, 3 e 4 conforme os pontos cardeais (Norte → Leste → Sul → Oeste).</li>
+    <li><strong>Bandeirola / Seta de Início do Quarteirão no Croqui:</strong> Desenha-se no croqui uma pequena <strong>seta (bandeirola)</strong> no canto mais ao Norte do quarteirão indicando o primeiro imóvel a ser visitado e o sentido horário de percurso.</li>
+    <li><strong>Boletins de Campo e Resumo do PNCD/SISPNCD:</strong>
+      <ul class="list-circle pl-5 mt-1 space-y-1">
+        <li><strong>FAD-01 (Registro Diário do Serviço Antivetorial):</strong> Preenchido em campo pelo ACE a cada imóvel visitado (registra endereço, tipo de imóvel R/C/TB/PE/O, hora de entrada, depósitos inspecionados A1 a E, amostras coletadas de larvas/pupas, número do tubito, depósitos eliminados e quantidade de larvicida em gramas/pastilhas).</li>
+        <li><strong>FAD-02 (Boletim de Resumo Semanal do Serviço Antivetorial):</strong> Consolida a produção diária de uma semana epidemiológica para digitação no sistema.</li>
+        <li><strong>FAD-03 (Ficha de Visita Domiciliar — Fixada no Imóvel):</strong> Cartão fixado na parte interna da porta do banheiro ou área de serviço do imóvel, assinado e datado pelo ACE a cada ciclo bimestral (comprovante de visita para o morador e para o Supervisor de Área).</li>
+        <li><strong>FAD-07 (Boletim de Campo e Laboratório de Pesquisa Larvária / LIRAa):</strong> Registra especificamente a leitura taxonômica laboratorial dos tubitos coletados (distinguindo larvas de <em>Aedes aegypti</em>, <em>Aedes albopictus</em> e <em>Culex quinquefasciatus</em>).</li>
+      </ul>
+    </li>
+    <li><strong>Supervisão Direta vs. Supervisão Indireta no Campo:</strong> Na <strong>Supervisão Direta</strong>, o Supervisor de Área acompanha o ACE durante a visita domiciliar para avaliar postura, técnica de inspeção, cubagem e educação em saúde. Na <strong>Supervisão Indireta (Revisão)</strong>, o Supervisor revisita sozinho pelo menos <strong>5% a 10% dos imóveis trabalhados pelo ACE no dia anterior</strong> para conferir a fidedignidade do FAD-01, o preenchimento da ficha domiciliar e a ausência de focos residuais.</li>
+  </ul>
+</div>
 
-### Modo A — Explicação Completa, Conceitos Fundamentais, Regras, Quadros Comparativos, Exemplos Práticos e Aprofundamento
+### Resumo Rápido (Modo B)
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><p>Resumo Tático do Bloco 32.3:</p><ul class="list-disc pl-5 space-y-1"><li><strong>Sentido de Caminhamento:</strong> Vértice NORTE/NOROESTE e caminhamento em SENTIDO HORÁRIO (pela direita).</li><li><strong>Ordem de Vistoria:</strong> 1º Peridomicílio (quintal/externo) -> 2º Intradomicílio (interior).</li><li><strong>Pontos Estratégicos (PE):</strong> Borracharias, cemitérios, ferros-velhos e portos fluviais -> Visita QUINZENAL.</li><li><strong>Ingresso Forçado:</strong> Lei 13.301/2016 autoriza entrada em imóveis abandonados/fechados em risco de epidemia.</li></ul></div>
 
-<!-- @modoA_start -->
-#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)
+## Bloco 32.4 — Caderno Prático de Campo ACE: 5 Cálculos Operacionais Resolvidos Passo a Passo (Cubagem, Dosagem de Larvicida, Rendimento Diário e EPIs)
 
-**Aula 32 — Bloco 32.3:** Reconhecimento Geográfico (RG) Aplicado ao Controle de Endemias: Conceituação Cartográfica, Delimitação de Localidades, Zonas e Estratos, Metodologia de Numeração de Quarteirões, Regra de Caminhamento Horário pelo Quarteirão, Ordem de Vistoria de Imóveis (Peridomicílio vs. Intradomicílio), Tipologia e Classificação dos Imóveis (R, C, TB, PE, O) e Condutas Legais perante Imóveis Fechados e Recusas (Lei Federal nº 13.301/2016).
-**Fontes Integradas:** Manual de Reconhecimento Geográfico para Endemias (Ministério da Saúde / SUCAM), Diretrizes Nacionais PNCD/LIRAa, PDF #68 (*14. Epidemiologia.pdf*), PDF #69 (*15. Política de Vigilância em Saúde.pdf*) e Anexo IV Retificado (#91).
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><h4 class="text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2">1. Passo a Passo Universal de Campo: Do Metro Cúbico à Colher Dosadora de Larvicida</h4><p>Na prova de Conhecimentos Específicos da banca IBGP, as questões operacionais unem <strong>Cubagem do Depósito + Tabela de Dosagem do Larvicida + Biossegurança</strong>. Domine a sequência completa:</p><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Etapa de Campo do ACE</th><th class="p-2 border border-slate-300 text-left">Fórmula / Regra Prática do Ministério da Saúde</th><th class="p-2 border border-slate-300 text-left">Exemplo Resolvido na Prática</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Etapa 1 — Cubagem de Caixa Retangular / Cisterna</strong></td><td class="p-2 border border-slate-200 align-top">V<sub>(	ext{m</sub>³)} = C 	imes L 	imes A<br>	ext{Litros} = V<sub>(	ext{m</sub>³)} 	imes 1.000</td><td class="p-2 border border-slate-200 align-top">Caixa d'água de 2,0	ext{ m} 	imes 1,5	ext{ m} com lâmina d'água de 0,8	ext{ m}:<br>V = 2,0 	imes 1,5 	imes 0,8 = 2,4	ext{ m}³ = mathbf{2.400	ext{ Litros}}.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Etapa 2 — Cubagem de Tambor / Poço Cilíndrico</strong></td><td class="p-2 border border-slate-200 align-top">V<sub>(	ext{m</sub>³)} = 0,785 	imes D² 	imes h<br><em>(Nota: rac{pi}{4} = rac{3,14}{4} = mathbf{0,785}! Multiplicar o diâmetro ao quadrado por 0,785 é exatamente igual a pi cdot r²!)</em></td><td class="p-2 border border-slate-200 align-top">Poço circular com diâmetro D = 1,0	ext{ m} e coluna d'água h = 2,0	ext{ m}:<br>V = 3,14 	imes 0,5² 	imes 2,0 = 1,57	ext{ m}³ = mathbf{1.570	ext{ Litros}}.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Etapa 3 — Cálculo da Carga de Larvicida</strong></td><td class="p-2 border border-slate-200 align-top">Regra de três direta com a recomendação técnica do produto (ex.: 1	ext{ g} para cada 1.000	ext{ L} ou 1	ext{ pastilha/colher} por faixa de volume).</td><td class="p-2 border border-slate-200 align-top">Se a dosagem padrão do insumo indicado na questão for de 2	ext{ g} a cada 1.000	ext{ L}, para um reservatório de 3.500	ext{ L} aplicam-se: 3,5 	imes 2	ext{ g} = mathbf{7	ext{ gramas}}.</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Etapa 4 — Criadouro Eliminável vs. Tratável</strong></td><td class="p-2 border border-slate-200 align-top"><strong>Regra de Ouro PNCD:</strong> O tratamento focal químico/biológico (larvicida) é restrito aos depósitos que <strong>NÃO podem ser eliminados, vedados ou manejados mecanicamente</strong>!</td><td class="p-2 border border-slate-200 align-top">Pneu a céu aberto ou garrafa no quintal <strong>NÃO recebem larvicida</strong> — recebem <strong>manejo mecânico / remoção / cobertura</strong>!</td></tr></tbody></table></div><h4 class="text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2">2. Quadro de Biossegurança, Intoxicações e Conduta em Caso de Acidente Químico no Campo</h4><p>A banca IBGP cobra com frequência os procedimentos de segurança do ACE ao manusear inseticidas (tratamento perifocal residual e UBV costal/pesado):</p><div class="overflow-x-auto my-2"><table class="min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden"><thead class="bg-slate-800 text-white"><tr><th class="p-2 border border-slate-300 text-left">Situação Operacional em Campo</th><th class="p-2 border border-slate-300 text-left">Conduta Técnica Correta (Diretrizes MS / FUNASA)</th><th class="p-2 border border-slate-300 text-left">O que é PROIBIDO (Erro Grave em Prova!)</th></tr></thead><tbody><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Direção de Aplicação a Céu Aberto (UBV / Nebulização)</strong></td><td class="p-2 border border-slate-200 align-top">Caminhar e direcionar o jato sempre <strong>A FAVOR DO VENTO</strong> (de costas para o vento, para que a névoa se afaste do corpo do aplicador).</td><td class="p-2 border border-slate-200 align-top">Aplicar <em>contra o vento</em> (fazendo a nuvem tóxica retornar sobre o rosto do ACE).</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Entupimento de Bico do Pulverizador</strong></td><td class="p-2 border border-slate-200 align-top">Despressurizar o equipamento, retirar o bico com luvas nitrílicas e limpá-lo com <strong>escova de cerdas macias ou água limpa</strong>.</td><td class="p-2 border border-slate-200 align-top"><strong>Desentupir o bico assoprando com a boca</strong> ou usando arames/pregos metálicos (que deformam a vazão calibrada do bico!).</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Tríplice Lavagem de Embalagens Vazias</strong></td><td class="p-2 border border-slate-200 align-top">Enxaguar <strong>3 vezes</strong> a embalagem vazia com água limpa (preenchendo 1/4 do frasco e agitando por 30s), despejar a água de lavagem <strong>dentro do próprio tanque do pulverizador</strong> e inutilizar (perfurar o fundo) a embalagem plástica para devolução.</td><td class="p-2 border border-slate-200 align-top">Despejar a água de lavagem na rede de esgoto, em igarapés/rios ou reutilizar o galão vazio para guardar água ou combustível!</td></tr><tr class="bg-white hover:bg-slate-50"><td class="p-2 border border-slate-200 align-top"><strong>Suspeita de Intoxicação Aguda em Campo</strong></td><td class="p-2 border border-slate-200 align-top">Interromper imediatamente a aplicação, retirar o trabalhador da área contaminada, remover as roupas atingidas, lavar a pele com água corrente abundante e sabão neutro e encaminhar à unidade de saúde levando o <strong>rótulo / FISPQ (Ficha de Informações de Segurança de Produtos Químicos)</strong> do produto!</td><td class="p-2 border border-slate-200 align-top">Provocar vômito sem indicação médica ou administrar leite/bebidas alcoólicas ao trabalhador intoxicado!</td></tr></tbody></table></div></div>
+<div class="mt-4 pt-4 border-t-2 border-teal-200 space-y-3">
+  <h5 class="text-sm font-extrabold text-teal-900 uppercase tracking-wide">6. Bateria Adicional de Cálculos Operacionais de Campo Resolvidos Passo a Passo (Padrão IBGP)</h5>
+  <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-300 space-y-3 text-xs">
+    <div>
+      <p class="font-bold text-teal-900">Problema Operacional 6 — Cálculo de Calda e Cargas de Bomba Costal na Borrifação Residual Intradomiciliar (BRI):</p>
+      <p>Em uma localidade rural do Distrito de Jaci-Paraná (Código 347), uma equipe de ACE deve borrifar <strong>30 domicílios</strong> para controle de Malária. Cada domicílio possui, em média, <strong>150 m² de superfície interna de paredes</strong> borrifáveis. Sabendo que a vazão/deposição padrão na parede é de <strong>40 mL de calda por m²</strong> e que cada carga útil da Bomba Costal Guarany comporta <strong>10 litros (10.000 mL) de calda pronta (que cobrem 250 m² por carga)</strong>, quantas cargas completas de bomba costal serão necessárias para borrifar os 30 domicílios?</p>
+      <p class="mt-1 text-slate-700"><strong>Resolução Passo a Passo:</strong><br>
+      1º Passo (Área total a borrifar): 30 domicílios × 150 m²/domicílio = <strong>4.500 m² de parede</strong>.<br>
+      2º Passo (Volume total de calda): 4.500 m² × 40 mL/m² = 180.000 mL = <strong>180 Litros de calda</strong>.<br>
+      3º Passo (Número de cargas de bomba): 180 Litros ÷ 10 Litros/carga (ou 4.500 m² ÷ 250 m²/carga) = <strong>18 cargas de bomba costal (18 sachês hidrosolúveis de inseticida)</strong>!</p>
+    </div>
+    <div class="pt-2 border-t border-slate-200">
+      <p class="font-bold text-teal-900">Problema Operacional 7 — Cálculo dos Índices Entomológicos (IIP, IB e ITR) no LIRAa:</p>
+      <p>Durante o LIRAa em um estrato urbano de Porto Velho (Código 340), foram inspecionados <strong>400 imóveis</strong>. Em <strong>18 imóveis</strong> foram encontradas larvas de <em>Aedes aegypti</em>, distribuídas em um total de <strong>24 recipientes (depósitos) positivos</strong>, de um total de <strong>1.200 recipientes com água inspecionados</strong>. Calcule o IIP, o IB e o ITR e classifique a situação de risco do estrato:</p>
+      <p class="mt-1 text-slate-700"><strong>Resolução Passo a Passo:</strong><br>
+      • <strong>IIP (Índice de Infestação Predial):</strong> (Imóveis Positivos ÷ Imóveis Pesquisados) × 100 = (18 ÷ 400) × 100 = <strong>4,5%</strong>.<br>
+      • <strong>IB (Índice de Breteau):</strong> (Recipientes Positivos ÷ Imóveis Pesquisados) × 100 = (24 ÷ 400) × 100 = <strong>6,0</strong>.<br>
+      • <strong>ITR (Índice de Tipo de Recipiente / Positividade de Recipientes):</strong> (Recipientes Positivos ÷ Recipientes Pesquisados) × 100 = (24 ÷ 1.200) × 100 = <strong>2,0%</strong>.<br>
+      • <strong>Classificação Epidemiológica (MS):</strong> Como o IIP = 4,5% é <strong>maior ou igual a 4,0% (≥ 4,0%)</strong>, o estrato encontra-se em situação de <strong>RISCO DE SURTO / EPIDEMIA (Vermelho)</strong>! (Lembrete: &lt; 1,0% = Satisfatório; de 1,0% a 3,9% = Alerta; ≥ 4,0% = Risco de Surto).</p>
+    </div>
+  </div>
+</div>
 
-Objetivos de Aprendizagem:
-- Compreender o Reconhecimento Geográfico como a ferramenta basilar de planejamento espacial e microterritorialização da vigilância entomológica.
-- Executar corretamente o caminhamento em quarteirões iniciando pelo canto Norte/Noroeste e avançando sempre no sentido horário (mantendo a direita para as edificações).
-- Identificar e classificar com precisão os 5 tipos de imóveis cadastrados em boletins de campo (R, C, TB, PE, O).
-- Conhecer a periodicidade oficial de visita para imóveis comuns (bimestral) e Pontos Estratégicos (quinzenal).
-- Aplicar o respaldo legal da Lei Federal nº 13.301/2016 para ingresso forçado em situações de abandono ou ausência reiterada do proprietário em cenários de risco epidemiológico.
+### Resumo Rápido (Modo B)
+<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed"><h4 class="text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2">⚡ Checklist Operacional de Prova (Aula 32)</h4><ul class="list-disc pl-5 space-y-1"><li><strong>Fórmula prática do Cilindro pelo Diâmetro:</strong> V = 0,785 	imes D² 	imes h (ou V = pi cdot r² cdot h).</li><li><strong>Tríplice Lavagem:</strong> Água da lavagem vai para <strong>dentro do tanque do pulverizador</strong> + fundo da embalagem é <strong>perfurado</strong> para impedir reutilização.</li><li><strong>Bico entupido:</strong> Jamais assoprar com a boca nem usar arame/agulha metálica!</li><li><strong>Ordem correta dos EPIs:</strong></li><li><strong>VESTIR (de baixo para cima / protegendo o tronco e vias aéreas):</strong> Calça/macacão ightarrow botas ightarrow avental ightarrow respirador ightarrow óculos/viseira ightarrow touca árabe ightarrow luvas.</li><li><strong>RETIRAR:</strong> Começar pelos itens mais contaminados externamente (lavar as luvas ainda calçadas antes de tocar nos demais itens!).</li></ul></div>
 
-#### 2. Metodologia do Reconhecimento Geográfico (RG) e Rotina Operacional de Campo
-
-O **Reconhecimento Geográfico (RG)** é a operação cartográfica, geográfica e cadastral contínua que descreve detalhadamente o território municipal, seus acidentes geográficos (igarapés, várzeas, ferrovias), a malha viária e a totalidade dos imóveis existentes. É a certidão de nascimento do planejamento epidemiológico: sem um RG atualizado, é impossível calcular índices de amostragem do LIRAa, planejar itinerários de bloqueio UBV ou dimensionar o número de ACEs necessários para cobrir Porto Velho.
-
-##### Convenções Cartográficas e Regras de Caminhamento do ACE
-
-| Elemento do RG | Regra Oficial do Ministério da Saúde / SUCAM | Importância Prática na Rotina de Visita |
-| :--- | :--- | :--- |
-| **Ponto de Partida no Quarteirão** | O ACE inicia a inspeção sempre pelo **canto / vértice mais ao Norte (ou Noroeste)** do quarteirão. | Garante padronização uniforme entre todos os agentes da equipe, evitando sobreposição ou omissão de casas. |
-| **Sentido de Deslocamento** | Caminhamento contínuo no **SENTIDO HORÁRIO (pela direita)**, mantendo sempre o lado direito do corpo voltado para as fachadas dos imóveis até fechar o quarteirão. | Impede que o ACE atravesse a rua aleatoriamente em zigue-zague, garantindo que todos os lotes de uma mesma face sejam vistoriados em sequência. |
-| **Ordem de Vistoria dentro do Imóvel** | Inicia-se pelo **PERIDOMICÍLIO (área externa, quintal, frente e laterais, do fundo para a frente)** e, em seguida, inspeciona-se o **INTRADOMICÍLIO**. | O peridomicílio concentra mais de 80% dos focos de *Aedes aegypti* (tambores, calhas, garrafas, pratos) e abriga os abrigos de flebotomíneos e roedores. |
-| **Numeração dos Quarteirões** | Sequencial (1 a 999) dentro de cada localidade/bairro, seguindo uma linha contínua em serpentina/espiral de Norte para Sul ou de Oeste para Leste. | Permite localização rápida nos mapas do estrato e nas planilhas do LIRAa e SINAN. |
-
-##### Tipos de Imóveis no Cadastro do ACE e Periodicidade de Visitas
-
-| Código / Sigla | Denominação Oficial | Definição Operacional | Periodicidade da Visita do ACE |
-| :--- | :--- | :--- | :--- |
-| **R** | Residencial | Imóveis destinados exclusivamente à moradia familiar (casas, sobrados, apartamentos, quitinetes). | **Bimestral** (a cada 2 meses = 6 ciclos regulares ao ano). |
-| **C** | Comercial | Estabelecimentos comerciais e de serviços (lojas, padarias, farmácias, mercados, oficinas sem pneus/sucatas). | **Bimestral** (a cada 2 meses = 6 ciclos regulares ao ano). |
-| **TB** | Terreno Baldio | Lotes urbanos não edificados ou construções paralisadas e desabitadas. | **Bimestral** (com foco rigoroso no recolhimento de lixo/depósitos D2). |
-| **PE** | **Ponto Estratégico** | Locais com altíssima concentração de depósitos preferenciais ou circulação de veículos: **borracharias, ferros-velhos, depósitos de sucatas/reciclagem, cemitérios, garagens de ônibus, portos fluviais no Rio Madeira**. | **QUINZENAL** (pesquisa larvária a cada 15 dias e aplicação de inseticida residual perifocal mensal). |
-| **O** | Outros | Prédios públicos, escolas, creches, unidades de saúde, igrejas, clubes e associações comunitárias. | **Bimestral** (a cada 2 meses = 6 ciclos regulares ao ano). |
-
-##### Situações de Acesso ao Imóvel e o Ingresso Forçado (Lei Federal nº 13.301/2016)
-Nas anotações do Boletim Diário de Campo (FAD / e-SUS Território), o ACE registra a condição de cada visita:
-1. **Trabalhado (T):** Imóvel inspecionado com sucesso (com ou sem tratamento químico/biológico).
-2. **Fechado (F):** Imóvel habitado, porém sem moradores presentes no momento da visita.
-3. **Desabitado (D):** Imóvel vazio, para alugar ou vender.
-4. **Recusado (R):** Morador presente impede expressamente a entrada do ACE.
-
-> [!IMPORTANT]
-> **Conduta perante Recusas (R) ou Imóveis Fechados (F) reiterados:**  
-> O ACE deve deixar uma notificação escrita com data e horário de retorno no contraturno ou sábado. Nos termos da **Lei Federal nº 13.301/2016**, em situação de iminente perigo à saúde pública pela presença de vetores de Dengue, Zika ou Chikungunya, é autorizado o **ingresso forçado** em imóveis públicos ou particulares abandonados ou na ausência de pessoa que possa abrir após duas visitas notificadas, mediante auto de infração lavrado por autoridade sanitária e, se necessário, auxílio de força policial.
-<!-- @modoA_end -->
-
-### Modo B — Resumo para Revisão, Formas de Memorização (Mnemônicos), Exceções e Erros Comuns / Pegadinhas de Prova
-
-<!-- @modoB_start -->
-Resumo Tático e Mnemônicos do Bloco 32.3:
-- **Regra de Ouro do Caminhamento no Quarteirão:** Inicia no vértice **NORTE/NOROESTE** e caminha sempre em **SENTIDO HORÁRIO (pela direita)**!
-- **Ordem de Vistoria:** **1º PERIDOMICÍLIO (quintal/externo)** &rarr; **2º INTRADOMICÍLIO (interior)**.
-- **Tipos de Imóveis:** **R** (Residencial), **C** (Comercial), **TB** (Terreno Baldio), **O** (Outros) &rarr; Visitas **BIMESTRAIS**.
-- **Ponto Estratégico (PE):** Borracharias, ferros-velhos, cemitérios e portos &rarr; Visita **QUINZENAL** (a cada 15 dias)!
-- **Ingresso Forçado:** Regulamentado pela **Lei Federal nº 13.301/2016** para imóveis abandonados ou com recusa/ausência que ameacem a saúde coletiva.
-<!-- @modoB_end -->
-
-### Modo C — Questões de Fixação (4 Alternativas A–D), Gabarito Comentado & Flashcards
-
-#### Questões de Fixação e Revisão
-
-##### Questão 32.3.1 (`esp_10_b3_q1`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Segundo as diretrizes metodológicas do Reconhecimento Geográfico (RG) estabelecidas pelo Ministério da Saúde para o planejamento e execução das ações de campo do Agente de Combate às Endemias, a vistoria dos imóveis em um quarteirão deve ser realizada:
-- A) Em sentido anti-horário (pela esquerda), iniciando-se obrigatoriamente pelo imóvel com maior numeração predial na face Sul.
-- B) Em zigue-zague, atravessando de uma calçada para a outra a cada número par ou ímpar encontrado.
-- C) Em sentido horário (pela direita), iniciando-se preferencialmente pelo canto mais ao Norte (ou Noroeste) do quarteirão, mantendo a direita voltada para as fachadas dos imóveis.
-- D) Apenas nos imóveis de esquina, sendo dispensável o caminhamento e a numeração dos imóveis intermediários do quarteirão.
-
-> **Gabarito Oficial:** **Alternativa C** (Índice `2`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: C. A norma técnica do Reconhecimento Geográfico determina que o ACE inicie o caminhamento do quarteirão pelo vértice mais ao Norte (ou Noroeste) e percorra a quadra rigorosamente no sentido horário (mantendo a mão direita voltada para os imóveis), fechando o circuito no ponto de partida sem ziguezaguear pelas ruas.
-
-##### Questão 32.3.2 (`esp_10_b3_q2`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) No cadastro imobiliário e na caderneta de campo do ACE, os imóveis são classificados de acordo com sua destinação. Dentre as categorias cadastradas, os **Pontos Estratégicos (PE)** exigem uma atenção especial da vigilância entomológica em virtude do elevado risco de proliferação e dispersão de vetores. Constituem exemplos típicos de PE e sua respectiva periodicidade de visita oficial:
-- A) Casas de família e quitinetes; periodicidade mensal.
-- B) Borracharias, ferros-velhos, cemitérios e portos fluviais; periodicidade quinzenal (a cada 15 dias).
-- C) Escolas e igrejas; periodicidade diária.
-- D) Terrenos baldios com mata nativa preservada; periodicidade anual.
-
-> **Gabarito Oficial:** **Alternativa B** (Índice `1`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: B. Pontos Estratégicos (PE) são imóveis com grande oferta de criadouros potenciais ou intensa movimentação de veículos/cargas (borracharias, ferros-velhos, cemitérios, depósitos de sucatas, portos fluviais). Por determinação do Ministério da Saúde, os PEs devem ser inspecionados **quinzenalmente** (a cada 15 dias), ao passo que residências comuns são visitadas bimestralmente.
-
-##### Questão 32.3.3 (`esp_10_b3_q3`)
-**Enunciado:** (Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante a realização do ciclo de visitas domiciliares contra o mosquito transmissor das arboviroses em Porto Velho, o ACE depara-se com um imóvel com piscina visivelmente abandonada e infestada de larvas, cujo morador recusa reiteradamente a entrada da equipe de saúde alegando violação de domicílio. Diante dessa situação de risco epidemiológico para a vizinhança, a legislação sanitária brasileira (Lei Federal nº 13.301/2016):
-- A) Obriga o ACE a desistir definitivamente da inspeção e fechar os olhos ao foco de mosquitos, sob pena de processo criminal imediato.
-- B) Autoriza o ingresso forçado em imóveis públicos ou particulares no caso de abandono ou ausência de pessoa que possa abrir após notificação, ou havendo recusa ilegítima, visando conter perigo iminente à saúde pública.
-- C) Permite que qualquer vizinho ateie fogo no imóvel particular para eliminar as larvas do vetor.
-- D) Determina que o ACE pulverize inseticida com o pulverizador costal por cima do muro sem adentrar o imóvel.
-
-> **Gabarito Oficial:** **Alternativa B** (Índice `1`)  
-> **Gabarito Comentado e Justificativa:** Gabarito: B. A Lei Federal nº 13.301/2016 prevê expressamente o ingresso forçado em imóveis particulares ou públicos abandonados ou com recusa injustificada de acesso quando houver situação de iminente perigo à saúde pública pela presença de vetores de Dengue, Zika ou Chikungunya, mediante acompanhamento de autoridade sanitária e auxílio policial se necessário.
-
-#### Flashcards de Memorização Ativa
-
-| # | Frente (Conceito / Pergunta de Revisão) | Verso (Definição / Resposta Auditada) |
-| :---: | :--- | :--- |
-| **FC 32.3.1** | **Qual é o sentido padrão de caminhamento e o ponto de partida do ACE no quarteirão segundo o RG?** | Inicia pelo vértice Norte/Noroeste e percorre o quarteirão sempre no SENTIDO HORÁRIO (mantendo a direita para os imóveis). |
-| **FC 32.3.2** | **O que caracteriza um Ponto Estratégico (PE) e qual a sua periodicidade de vistoria?** | Imóveis com alto risco de proliferação (borracharias, ferros-velhos, cemitérios, portos). Vistoria obrigatória QUINZENAL (a cada 15 dias). |
-| **FC 32.3.3** | **Em qual ordem deve ser inspecionado o imóvel residencial pelo ACE?** | Inicia-se pelo PERIDOMICÍLIO (área externa/quintal, do fundo para a frente) e em seguida o INTRADOMICÍLIO (área interna). |
-
-#### Bloco Estruturado para Injeção Direta (`data/app_data.json`)
-
-```json
-{
-  "lessonId": "esp_10",
-  "blockIndex": 2,
-  "title": "Bloco 32.3 — Reconhecimento Geográfico (RG), Cartografia de Campo, Numeração Territorial e Cadastro de Imóveis",
-  "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Edital IBGP — Anexo IV ACE)\n\n**Aula 32 — Bloco 32.3:** Reconhecimento Geográfico (RG) Aplicado ao Controle de Endemias: Conceituação Cartográfica, Delimitação de Localidades, Zonas e Estratos, Metodologia de Numeração de Quarteirões, Regra de Caminhamento Horário pelo Quarteirão, Ordem de Vistoria de Imóveis (Peridomicílio vs. Intradomicílio), Tipologia e Classificação dos Imóveis (R, C, TB, PE, O) e Condutas Legais perante Imóveis Fechados e Recusas (Lei Federal nº 13.301/2016).\n\n#### 2. Metodologia do Reconhecimento Geográfico (RG)\n\n| Elemento do RG | Regra Oficial do Ministério da Saúde / SUCAM | Importância Prática na Rotina de Visita |\n| :--- | :--- | :--- |\n| **Ponto de Partida** | Vértice mais ao Norte (ou Noroeste) do quarteirão | Padronização uniforme da equipe e zero omissões |\n| **Sentido de Deslocamento** | Sentido HORÁRIO (pela direita), mantendo a direita para os imóveis | Evita zigue-zague e garante que a face inteira seja vistoriada |\n| **Ordem de Vistoria** | 1º PERIDOMICÍLIO (área externa/quintal) -> 2º INTRADOMICÍLIO | Concentra 80% dos criadouros de mosquitos e abrigos de vetores |\n\n##### Tipologia dos Imóveis e Periodicidade\n- **R (Residencial), C (Comercial), TB (Terreno Baldio), O (Outros):** Periodicidade **Bimestral** (6 ciclos anuais).\n- **PE (Ponto Estratégico):** Borracharias, ferros-velhos, cemitérios, depósitos de sucatas e portos. Periodicidade **Quinzenal** (a cada 15 dias).\n\n##### Ingresso Forçado (Lei Federal nº 13.301/2016)\nAutoriza o ingresso forçado em imóveis públicos ou particulares abandonados ou na ausência de pessoa que possa abrir após notificações, em situação de perigo iminente à saúde pública.",
-  "modoB_markdown": "Resumo Tático do Bloco 32.3:\n- **Sentido de Caminhamento:** Vértice NORTE/NOROESTE e caminhamento em SENTIDO HORÁRIO (pela direita).\n- **Ordem de Vistoria:** 1º Peridomicílio (quintal/externo) -> 2º Intradomicílio (interior).\n- **Pontos Estratégicos (PE):** Borracharias, cemitérios, ferros-velhos e portos fluviais -> Visita QUINZENAL.\n- **Ingresso Forçado:** Lei 13.301/2016 autoriza entrada em imóveis abandonados/fechados em risco de epidemia.",
-  "questions": [
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Segundo as diretrizes metodológicas do Reconhecimento Geográfico (RG) estabelecidas pelo Ministério da Saúde para o planejamento e execução das ações de campo do Agente de Combate às Endemias, a vistoria dos imóveis em um quarteirão deve ser realizada:",
-      "options": [
-        "A) Em sentido anti-horário (pela esquerda), iniciando-se obrigatoriamente pelo imóvel com maior numeração predial na face Sul.",
-        "B) Em zigue-zague, atravessando de uma calçada para a outra a cada número par ou ímpar encontrado.",
-        "C) Em sentido horário (pela direita), iniciando-se preferencialmente pelo canto mais ao Norte (ou Noroeste) do quarteirão, mantendo a direita voltada para as fachadas dos imóveis.",
-        "D) Apenas nos imóveis de esquina, sendo dispensável o caminhamento e a numeração dos imóveis intermediários do quarteirão."
-      ],
-      "ans": 2,
-      "comment": "Gabarito: C. A norma técnica do Reconhecimento Geográfico determina que o ACE inicie o caminhamento do quarteirão pelo vértice mais ao Norte (ou Noroeste) e percorra a quadra rigorosamente no sentido horário (mantendo a mão direita voltada para os imóveis), fechando o circuito no ponto de partida sem ziguezaguear pelas ruas."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) No cadastro imobiliário e na caderneta de campo do ACE, os imóveis são classificados de acordo com sua destinação. Dentre as categorias cadastradas, os Pontos Estratégicos (PE) exigem uma atenção especial da vigilância entomológica em virtude do elevado risco de proliferação e dispersão de vetores. Constituem exemplos típicos de PE e sua respectiva periodicidade de visita oficial:",
-      "options": [
-        "A) Casas de família e quitinetes; periodicidade mensal.",
-        "B) Borracharias, ferros-velhos, cemitérios e portos fluviais; periodicidade quinzenal (a cada 15 dias).",
-        "C) Escolas e igrejas; periodicidade diária.",
-        "D) Terrenos baldios com mata nativa preservada; periodicidade anual."
-      ],
-      "ans": 1,
-      "comment": "Gabarito: B. Pontos Estratégicos (PE) são imóveis com grande oferta de criadouros potenciais ou intensa movimentação de veículos/cargas (borracharias, ferros-velhos, cemitérios, depósitos de sucatas, portos fluviais). Devem ser inspecionados quinzenalmente (a cada 15 dias), enquanto residências comuns são visitadas bimestralmente."
-    },
-    {
-      "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Durante a realização do ciclo de visitas domiciliares contra o mosquito transmissor das arboviroses em Porto Velho, o ACE depara-se com um imóvel com piscina visivelmente abandonada e infestada de larvas, cujo morador recusa reiteradamente a entrada da equipe de saúde alegando violação de domicílio. Diante dessa situação de risco epidemiológico para a vizinhança, a legislação sanitária brasileira (Lei Federal nº 13.301/2016):",
-      "options": [
-        "A) Obriga o ACE a desistir definitivamente da inspeção e fechar os olhos ao foco de mosquitos, sob pena de processo criminal imediato.",
-        "B) Autoriza o ingresso forçado em imóveis públicos ou particulares no caso de abandono ou ausência de pessoa que possa abrir após notificação, ou havendo recusa ilegítima, visando conter perigo iminente à saúde pública.",
-        "C) Permite que qualquer vizinho ateie fogo no imóvel particular para eliminar as larvas do vetor.",
-        "D) Determina que o ACE pulverize inseticida com o pulverizador costal por cima do muro sem adentrar o imóvel."
-      ],
-      "ans": 1,
-      "comment": "Gabarito: B. A Lei Federal nº 13.301/2016 prevê expressamente o ingresso forçado em imóveis particulares ou públicos abandonados ou com recusa injustificada de acesso quando houver situação de iminente perigo à saúde pública pela presença de vetores de Dengue, Zika ou Chikungunya, mediante acompanhamento de autoridade sanitária e auxílio policial se necessário."
-    }
-  ],
-  "flashcards": [
-    {
-      "f": "Qual é o sentido padrão de caminhamento e o ponto de partida do ACE no quarteirão segundo o RG?",
-      "b": "Inicia pelo vértice Norte/Noroeste e percorre o quarteirão sempre no SENTIDO HORÁRIO (mantendo a direita para os imóveis)."
-    },
-    {
-      "f": "O que caracteriza um Ponto Estratégico (PE) e qual a sua periodicidade de vistoria?",
-      "b": "Imóveis com alto risco de proliferação (borracharias, ferros-velhos, cemitérios, portos). Vistoria obrigatória QUINZENAL (a cada 15 dias)."
-    },
-    {
-      "f": "Em qual ordem deve ser inspecionado o imóvel residencial pelo ACE?",
-      "b": "Inicia-se pelo PERIDOMICÍLIO (área externa/quintal, do fundo para a frente) e em seguida o INTRADOMICÍLIO (área interna)."
-    }
-  ]
-}
-```

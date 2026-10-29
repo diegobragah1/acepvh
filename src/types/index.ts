@@ -62,6 +62,39 @@ export interface LessonBlock {
   flashcards?: Flashcard[];
 }
 
+export interface MindMapNode {
+  label: string;
+  detail: string;
+  badge?: string;
+}
+
+export interface MindMapBranch {
+  title: string;
+  icon: string;
+  color: 'teal' | 'indigo' | 'amber' | 'emerald' | 'rose' | 'violet';
+  nodes: MindMapNode[];
+}
+
+export interface MindMapNumberCard {
+  value: string;
+  label: string;
+  ref: string;
+}
+
+export interface MindMapTrap {
+  wrong: string;
+  right: string;
+}
+
+export interface LessonMindMap {
+  centralTitle: string;
+  centralSubtitle: string;
+  mnemonic: string;
+  deadlinesAndNumbers: MindMapNumberCard[];
+  branches: MindMapBranch[];
+  goldenTraps: MindMapTrap[];
+}
+
 export interface Lesson {
   id: string;
   num: number;
@@ -78,6 +111,7 @@ export interface Lesson {
   sources: number[] | { value: number[] };
   questionsCount?: number;
   flashcardsCount?: number;
+  mindMap?: LessonMindMap;
   blocks: LessonBlock[];
 }
 

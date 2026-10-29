@@ -20,8 +20,8 @@ interface AppContextType {
   simAnswers: Record<string, number>;
   setSimAnswer: (qid: string, oidx: number) => void;
   resetSimAnswers: () => void;
-  currentStudyMode: 'ALL' | 'A' | 'B' | 'C';
-  setCurrentStudyMode: (mode: 'ALL' | 'A' | 'B' | 'C') => void;
+  currentStudyMode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C';
+  setCurrentStudyMode: (mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C') => void;
   toastMessage: string | null;
   showToast: (msg: string) => void;
   isSitesModalOpen: boolean;
@@ -56,7 +56,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [currentTab, setCurrentTabState] = useState<string>('tab-apostila');
   const [currentLessonId, setCurrentLessonId] = useState<string>('esp_1');
-  const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'A' | 'B' | 'C'>('ALL');
+  const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'MAPA' | 'A' | 'B' | 'C'>('ALL');
 
   const [completedLessons, setCompletedLessons] = useState<string[]>(() =>
     loadStorage<string[]>(STORAGE_KEY_COMPLETED, [])

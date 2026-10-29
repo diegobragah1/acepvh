@@ -76,6 +76,38 @@ export const Tab4Endemias: React.FC = () => {
     epiText = 'EPI: Luvas nitrílicas + proteção respiratória contra aerossóis';
   }
 
+  const [glossarySearch, setGlossarySearch] = useState('');
+  const [glossaryCat, setGlossaryCat] = useState('ALL');
+
+  const glossaryItems = [
+    { term: 'LIRAa / LIA', cat: 'Entomologia', def: 'Levantamento Rápido de Índices para Aedes aegypti (amostragem em municípios com ≥ 2.000 imóveis) e Levantamento de Índice Amostral (municípios menores). Classifica o IIP em: Satisfatório (< 1%), Alerta (1% a 3,9%) e Risco de Surto (≥ 4%).' },
+    { term: 'IIP (Índice de Infestação Predial)', cat: 'Entomologia', def: 'Fórmula: (Imóveis Positivos / Imóveis Pesquisados) × 100. Mede o percentual de imóveis com presença de larvas/pupas de Aedes aegypti.' },
+    { term: 'IB (Índice de Breteau)', cat: 'Entomologia', def: 'Fórmula: (Recipientes Positivos / Imóveis Pesquisados) × 100. Avalia a densidade de recipientes positivos em relação aos imóveis inspecionados (pode ser maior ou igual ao IIP).' },
+    { term: 'Ponto Estratégico (PE)', cat: 'Operacional', def: 'Locais com grande concentração de depósitos preferenciais para oviposição do Aedes aegypti (cemitérios, borracharias, ferros-velhos, depósitos de sucata). Periodicidade: Pesquisa larvária QUINZENAL (a cada 15 dias) e tratamento focal/residual mensal ou conforme protocolo.' },
+    { term: 'Armadilha Ovitrampa vs. Larvitrampa', cat: 'Entomologia', def: 'Ovitrampa: pote preto com água + palheta de eucatex (e infusão de feno) para coletar OVOS de Aedes (mais sensível, detecta presença precoce em áreas não infestadas). Larvitrampa: secção de pneu com água para capturar LARVAS (usada em portos, aeroportos e fronteiras).' },
+    { term: 'Quiescência (Diapausa Embrionária)', cat: 'Entomologia', def: 'Capacidade do ovo do Aedes aegypti (depositado na parede úmida do recipiente, fora da água) de resistir à dessecação no seco por até 450 dias (~1 ano e meio), eclodindo assim que entra em contato com a água.' },
+    { term: 'Hipnozoítos (Malária)', cat: 'Epidemiologia', def: 'Formas latentes (dormentes) no fígado exclusivas do Plasmodium vivax (e P. ovale, ausente no Brasil). Causam as RECAÍDAS tardias meses após a picada. São eliminadas pela Primaquina (ou Tafenoquina), que é proibida em gestantes e menores de 6 meses.' },
+    { term: 'PIT (Posto de Informação de Triatomíneos)', cat: 'Operacional', def: 'Locais estratégicos na comunidade (escolas rurais, UBS, lideranças comunitárias) onde moradores entregam insetos suspeitos de serem "barbeiros" (triatomíneos) para vigilância passiva da Doença de Chagas.' },
+    { term: 'Epizootia em PNH (Evento Sentinela)', cat: 'Epidemiologia', def: 'Adoecimento ou morte de Primatas Não Humanos (macacos) que funciona como alerta precoce (sentinela) da circulação do vírus da Febre Amarela Silvestre. Exige notificação IMEDIATA (em até 24h) no SINAN e SISS-Geo.' },
+    { term: 'SIVEP-Malária vs. SINAN', cat: 'Epidemiologia', def: 'Na Região Amazônica Legal (incluindo Porto Velho/RO), a Malária tem notificação SEMANAL no SIVEP-Malária. Na Região Extra-Amazônica, a Malária tem notificação IMEDIATA (24h) no SINAN.' },
+    { term: 'Síndrome de Weil', cat: 'Epidemiologia', def: 'Forma grave (íctero-hemorrágica) da Leptospirose, caracterizada pela tríade clássica: Icterícia rubínica (alaranjada) + Insuficiência Renal Aguda + Hemorragias (especialmente pulmonar).' },
+    { term: 'Sinal de Romaña e Chagoma de Inoculação', cat: 'Epidemiologia', def: 'Sinais clássicos de porta de entrada na fase aguda vetorial da Doença de Chagas: Sinal de Romaña = edema bipalpebral unilateral indolor (conjuntiva); Chagoma = lesão cutânea eritematosa no local da picada.' },
+    { term: 'Neofobia (Roedores)', cat: 'Operacional', def: 'Comportamento de desconfiança diante de objetos ou alimentos novos no ambiente, muito acentuado em Rattus norvegicus (ratazana) e Rattus rattus (rato de telhado), mas ausente no Mus musculus (camundongo, que é curioso). Por isso usam-se raticidas anticoagulantes de ação lenta (evitam que os demais associem a isca à morte).' },
+    { term: 'Vitamina K1 (Fitomenadiona)', cat: 'Químicos/MS', def: 'Antídoto específico utilizado no tratamento de intoxicações acidentais humanas ou animais por raticidas anticoagulantes cumarínicos (Brodifacoum, Bromadiolone, Difetialone).' },
+    { term: 'UBV (Ultra Baixo Volume / Fumacê)', cat: 'Químicos/MS', def: 'Aplicação espacial de inseticida adulticida em gotículas ultrafinas (aerossóis de 10 a 30 micra) para bloqueio de transmissão quando há casos confirmados/surtos. Atua apenas por contato sobre o mosquito adulto em voo (não tem efeito residual nas paredes!), devendo ser aplicado nos horários de pico de atividade do vetor (início da manhã e final da tarde).' },
+    { term: 'BRI (Borrifação Residual Intradomiciliar)', cat: 'Químicos/MS', def: 'Aplicação de inseticida de efeito residual duradouro (4 a 6 meses) nas paredes internas e externas para controle de Anopheles (Malária), Triatomíneos (Chagas), Flebotomíneos (LV) e BRI-Aedes em Pontos Estratégicos.' },
+    { term: 'Piso Salarial Nacional do ACE (EC 120/2022)', cat: 'Legislação', def: 'Garantia constitucional (Art. 198, § 9º da CF/88) de vencimento mínimo nunca inferior a 2 (dois) salários mínimos, repassado pela União aos Municípios, somado ao adicional de insalubridade e aposentadoria especial.' },
+    { term: 'Adicional de Insalubridade (LC 385/2010 vs. CLT)', cat: 'Legislação', def: 'No Estatuto dos Servidores de Porto Velho (LC 385/2010, Art. 78), a insalubridade é de 10% (grau mínimo), 20% (grau médio) ou 40% (grau máximo) sobre o vencimento do servidor efetivo.' }
+  ];
+
+  const filteredGlossary = glossaryItems.filter(item => {
+    const matchCat = glossaryCat === 'ALL' || item.cat === glossaryCat;
+    const matchSearch = !glossarySearch.trim() ||
+      item.term.toLowerCase().includes(glossarySearch.toLowerCase()) ||
+      item.def.toLowerCase().includes(glossarySearch.toLowerCase());
+    return matchCat && matchSearch;
+  });
+
   return (
     <section className="space-y-6">
       {/* Calculadora Interativa de IIP e IB (LIRAa) */}
@@ -347,6 +379,73 @@ export const Tab4Endemias: React.FC = () => {
         </div>
       </div>
 
+      {/* Guia Completo de Inseticidas, Larvicidas, Adulticidas e Raticidas do Ministério da Saúde */}
+      <div className="bg-white rounded-2xl p-5 shadow-sm border border-indigo-200">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+          <div>
+            <span className="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-indigo-100 text-indigo-800">
+              Controle Químico e Biológico MS / SVSA (Foco em Prova IBGP)
+            </span>
+            <h3 className="text-base sm:text-lg font-extrabold text-slate-900 mt-1">
+              Protocolo Oficial de Insumos: Larvicidas, Adulticidas (UBV e Residual) &amp; Raticidas Anticoagulantes
+            </h3>
+          </div>
+          <span className="text-xs font-bold text-rose-700 bg-rose-50 border border-rose-200 px-3 py-1.5 rounded-xl">
+            <i className="fa-solid fa-kit-medical mr-1"></i> Antídoto Raticida Cumarínico: <strong>Vitamina K1 (Fitomenadiona)</strong>
+          </span>
+        </div>
+        <div className="overflow-x-auto">
+          <table className="min-w-full text-xs border border-slate-200">
+            <thead className="bg-slate-900 text-white">
+              <tr>
+                <th className="p-2.5 text-left">Classe / Finalidade</th>
+                <th className="p-2.5 text-left">Princípio Ativo / Produto MS</th>
+                <th className="p-2.5 text-left">Grupo Químico / Mecanismo de Ação</th>
+                <th className="p-2.5 text-left">Aplicação Prática, Dosagem e Pegadinhas de Prova</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-200">
+              <tr className="bg-teal-50/40">
+                <td className="p-2.5 font-extrabold text-teal-900">Larvicida (Tratamento Focal)</td>
+                <td className="p-2.5 font-bold">Espinosade (Natular DT — pastilha)</td>
+                <td className="p-2.5">Espinosinas (biorracional derivado da bactéria <em>Saccharopolyspora spinosa</em>); neurotóxico para larvas.</td>
+                <td className="p-2.5"><strong>1 pastilha a cada 200 Litros</strong> de água. Efeito residual de até <strong>60 dias (8 semanas)</strong>. Autorizado para água de consumo humano nas doses preconizadas.</td>
+              </tr>
+              <tr className="bg-white">
+                <td className="p-2.5 font-extrabold text-teal-900">Larvicida (Regulador de Crescimento)</td>
+                <td className="p-2.5 font-bold">Piriproxifeno 0,5% G (Sumilarv)</td>
+                <td className="p-2.5">Análogo do Hormônio Juvenil (IGR — Inibidor de Crescimento de Insetos).</td>
+                <td className="p-2.5"><strong>2 g para cada 1.000 Litros</strong> (0,01 ppm). <strong>Pegadinha IBGP:</strong> NÃO mata a larva imediatamente; impede a emergência da pupa em mosquito adulto! Também usado nas EDLs (Estações Disseminadoras).</td>
+              </tr>
+              <tr className="bg-teal-50/40">
+                <td className="p-2.5 font-extrabold text-teal-900">Larvicida Biológico</td>
+                <td className="p-2.5 font-bold"><em>Bacillus thuringiensis israelensis</em> (Bti)</td>
+                <td className="p-2.5">Endotoxina bacteriana seletiva (cristais proteicos que rompem o intestino médio da larva por ingestão).</td>
+                <td className="p-2.5">Atua apenas por <strong>ingestão nas larvas</strong>; logo, <strong>NÃO tem ação sobre ovos nem sobre pupas</strong> (pois a pupa não se alimenta!).</td>
+              </tr>
+              <tr className="bg-white">
+                <td className="p-2.5 font-extrabold text-indigo-900">Adulticida Espacial (UBV / "Fumacê")</td>
+                <td className="p-2.5 font-bold">Imidacloprida + Praletrina (Cielo UBV) / Malathion</td>
+                <td className="p-2.5">Neonicotinoide + Piretroide (Cielo) / Organofosforado (Malathion).</td>
+                <td className="p-2.5">Gotículas ultrafinas (10–30 micra) para <strong>bloqueio de transmissão</strong>. Mata apenas o mosquito adulto em voo (<strong>sem efeito residual</strong>). Aplicar no início da manhã (6h–8h) ou fim da tarde (17h–19h), com portas e janelas abertas.</td>
+              </tr>
+              <tr className="bg-indigo-50/40">
+                <td className="p-2.5 font-extrabold text-indigo-900">Adulticida Residual (BRI / Ponto Estratégico)</td>
+                <td className="p-2.5 font-bold">Clotianidina + Deltametrina (Fludora Fusion) / Alfa-cipermetrina / Bendiocarbe</td>
+                <td className="p-2.5">Neonicotinoide + Piretroide / Piretroide / Carbamato.</td>
+                <td className="p-2.5">Borrifação Residual Intradomiciliar (BRI) em paredes para controle de <em>Anopheles</em> (Malária), Triatomíneos (Chagas), Flebotomíneos (Leishmanioses) e BRI-Aedes em Pontos Estratégicos (efeito residual de 4 a 6 meses).</td>
+              </tr>
+              <tr className="bg-amber-50/50">
+                <td className="p-2.5 font-extrabold text-amber-900">Raticidas Anticoagulantes (Desratização)</td>
+                <td className="p-2.5 font-bold">Brodifacoum, Bromadiolone e Difetialone (2ª geração — dose única) / Cumatetralil (1ª geração)</td>
+                <td className="p-2.5">Hidroxicumarinas (inibem os fatores de coagulação dependentes da Vitamina K no fígado).</td>
+                <td className="p-2.5">Apresentações: <strong>Bloco parafinado</strong> (bueiros, galerias úmidas), <strong>Granulado/Pellets</strong> (tocas secas Internas) e <strong>Pó de contato</strong> (trilhas e tocas). Causam morte lenta (3 a 7 dias) evitando a <strong>neofobia</strong> da colônia. <strong>Antídoto: Vitamina K1 (Fitomenadiona)!</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       {/* Fichas Técnicas Individuais das 14 Doenças Exigidas no Anexo IV */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
         <span className="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-teal-100 text-teal-800">
@@ -388,6 +487,58 @@ export const Tab4Endemias: React.FC = () => {
           </table>
         </div>
       </div>
+
+      {/* Glossário Técnico e Legal Interativo de Bolso do ACE */}
+      <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4">
+          <div>
+            <span className="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800">
+              Consulta Rápida de Véspera de Prova
+            </span>
+            <h3 className="text-base sm:text-lg font-extrabold text-slate-900 mt-1">
+              Glossário Técnico, Entomológico e Legal do ACE ({filteredGlossary.length} conceitos-chave)
+            </h3>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <input
+              type="text"
+              value={glossarySearch}
+              onChange={(e) => setGlossarySearch(e.target.value)}
+              placeholder="Buscar termo, sigla ou conceito..."
+              className="px-3 py-1.5 rounded-xl border border-slate-300 text-xs font-medium w-56"
+            />
+            <select
+              value={glossaryCat}
+              onChange={(e) => setGlossaryCat(e.target.value)}
+              className="px-3 py-1.5 rounded-xl border border-slate-300 text-xs font-bold bg-white"
+            >
+              <option value="ALL">Todas as Áreas</option>
+              <option value="Entomologia">Entomologia &amp; LIRAa</option>
+              <option value="Epidemiologia">Epidemiologia &amp; Clínica</option>
+              <option value="Químicos/MS">Insumos Químicos &amp; Antídotos</option>
+              <option value="Operacional">Operacional de Campo</option>
+              <option value="Legislação">Legislação &amp; Carreira ACE</option>
+            </select>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+          {filteredGlossary.map((item, idx) => (
+            <div key={idx} className="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:shadow-sm transition flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <h4 className="font-extrabold text-xs sm:text-sm text-slate-900">{item.term}</h4>
+                  <span className="text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 shrink-0">
+                    {item.cat}
+                  </span>
+                </div>
+                <p className="text-xs text-slate-700 leading-relaxed">{item.def}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };
+
