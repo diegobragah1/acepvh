@@ -4,10 +4,23 @@ import { AppProvider } from './context/AppContext';
 import { App } from './App';
 import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <AppProvider>
-      <App />
-    </AppProvider>
-  </React.StrictMode>
-);
+declare global {
+  interface Window {
+    __ACE_APP_MOUNTED__?: boolean;
+    APP_DATA?: unknown;
+    LOCAL_APP_DATA?: unknown;
+  }
+}
+
+const rootElement = document.getElementById('root');
+if (rootElement && !window.__ACE_APP_MOUNTED__) {
+  window.__ACE_APP_MOUNTED__ = true;
+  ReactDOM.createRoot(rootElement).render(
+    <React.StrictMode>
+      <AppProvider>
+        <App />
+      </AppProvider>
+    </React.StrictMode>
+  );
+}
+

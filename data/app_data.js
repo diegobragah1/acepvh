@@ -1,4 +1,4 @@
-window.APP_DATA = {
+window.LOCAL_APP_DATA = window.APP_DATA = {
   "cargos": [
     {
       "code": "340",

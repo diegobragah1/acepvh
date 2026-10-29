@@ -30,6 +30,7 @@ interface AppContextType {
   importProgress: (file: File) => Promise<void>;
   getTopicStatus: (topicId: string) => TopicStatus;
   toggleCompleteCurrentLesson: () => void;
+  reloadData: () => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -47,6 +48,42 @@ function saveStorage<T>(key: string, val: T): void {
   try {
     window.localStorage.setItem(key, JSON.stringify(val));
   } catch (err) {}
+}
+
+function normalizeData(data: AppData): AppData {
+  if (Array.isArray(data.lessons)) {
+    data.lessons.forEach(l => {
+      if (l.sources && Array.isArray((l.sources as any).value)) {
+        l.sources = (l.sources as any).value;
+      } else if (!Array.isArray(l.sources)) {
+        l.sources = [];
+      }
+    });
+  }
+  return data;
+}
+
+function loadScriptFallback(src: string): Promise<AppData | null> {
+  return new Promise((resolve) => {
+    if (typeof window === 'undefined') {
+      resolve(null);
+      return;
+    }
+    const existing = (window as any).APP_DATA || (window as any).LOCAL_APP_DATA;
+    if (existing && Array.isArray(existing.lessons)) {
+      resolve(existing as AppData);
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    script.onload = () => {
+      const loaded = (window as any).APP_DATA || (window as any).LOCAL_APP_DATA;
+      resolve(loaded && Array.isArray(loaded.lessons) ? (loaded as AppData) : null);
+    };
+    script.onerror = () => resolve(null);
+    document.head.appendChild(script);
+  });
 }
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -83,63 +120,68 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Fetch app_data.json on mount
-  useEffect(() => {
-    async function loadData() {
-      try {
-        setLoading(true);
-        // Try fetch first
-        const resp = await fetch('./data/app_data.json', { cache: 'no-cache' });
-        if (resp.ok) {
-          const data: AppData = await resp.json();
-          normalizeData(data);
-          setAppData(data);
-          setLoading(false);
-          return;
-        }
-      } catch (e) {
-        console.warn("fetch ./data/app_data.json failed, falling back to local fallback if present", e);
-      }
+  const loadData = async () => {
+    setLoading(true);
+    setError(null);
 
-      // Check window.LOCAL_APP_DATA fallback
-      if (typeof window !== 'undefined' && (window as any).LOCAL_APP_DATA) {
-        const data = (window as any).LOCAL_APP_DATA;
-        normalizeData(data);
-        setAppData(data);
+    // 1. Check if global APP_DATA or LOCAL_APP_DATA is already present in window
+    if (typeof window !== 'undefined') {
+      const preloaded = (window as any).APP_DATA || (window as any).LOCAL_APP_DATA;
+      if (preloaded && Array.isArray(preloaded.lessons) && preloaded.lessons.length > 0) {
+        setAppData(normalizeData(preloaded));
         setLoading(false);
         return;
       }
-
-      // Try absolute path /data/app_data.json
-      try {
-        const resp = await fetch('/data/app_data.json', { cache: 'no-cache' });
-        if (resp.ok) {
-          const data: AppData = await resp.json();
-          normalizeData(data);
-          setAppData(data);
-          setLoading(false);
-          return;
-        }
-      } catch (e) {}
-
-      setError("Não foi possível carregar os dados de data/app_data.json.");
-      setLoading(false);
     }
 
+    // 2. Try fetching JSON from relative and base paths (works on GitHub Pages /acepvh/ and root /)
+    const baseUrl = (import.meta as any).env?.BASE_URL || './';
+    const candidateUrls = Array.from(
+      new Set([
+        './data/app_data.json',
+        'data/app_data.json',
+        `${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}data/app_data.json`,
+        '/data/app_data.json',
+      ])
+    );
+
+    for (const url of candidateUrls) {
+      try {
+        const resp = await fetch(url, { cache: 'no-cache' });
+        if (resp.ok) {
+          const contentType = resp.headers.get('content-type') || '';
+          if (!contentType.includes('text/html')) {
+            const data: AppData = await resp.json();
+            if (data && Array.isArray(data.lessons)) {
+              setAppData(normalizeData(data));
+              setLoading(false);
+              return;
+            }
+          }
+        }
+      } catch (e) {
+        // Continue to next candidate URL
+      }
+    }
+
+    // 3. Fallback: dynamically inject ./data/app_data.js (works even when JSON fetch is blocked)
+    const scriptCandidates = ['./data/app_data.js', 'data/app_data.js', '/data/app_data.js'];
+    for (const scriptUrl of scriptCandidates) {
+      const fallbackData = await loadScriptFallback(scriptUrl);
+      if (fallbackData) {
+        setAppData(normalizeData(fallbackData));
+        setLoading(false);
+        return;
+      }
+    }
+
+    setError('Não foi possível carregar a base de dados (data/app_data.json). Verifique sua conexão e tente novamente.');
+    setLoading(false);
+  };
+
+  useEffect(() => {
     loadData();
   }, []);
-
-  function normalizeData(data: AppData) {
-    if (Array.isArray(data.lessons)) {
-      data.lessons.forEach(l => {
-        if (l.sources && Array.isArray((l.sources as any).value)) {
-          l.sources = (l.sources as any).value;
-        } else if (!Array.isArray(l.sources)) {
-          l.sources = [];
-        }
-      });
-    }
-  }
 
   const getTopicStatus = (topicId: string): TopicStatus => {
     if (topicStatus && topicStatus[topicId]) {
@@ -266,7 +308,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         exportProgress,
         importProgress,
         getTopicStatus,
-        toggleCompleteCurrentLesson
+        toggleCompleteCurrentLesson,
+        reloadData: loadData
       }}
     >
       {children}

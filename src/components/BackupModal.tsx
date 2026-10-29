@@ -39,11 +39,11 @@ export const BackupModal: React.FC = () => {
         </div>
 
         <div className="space-y-3 text-sm text-slate-700">
-          <div className="bg-emerald-50 border-l-4 border-emerald-600 p-3 rounded space-y-1">
+          <div className="bg-emerald-50 border-l-4 border-emerald-600 p-3.5 rounded space-y-1.5">
             <p className="font-bold text-emerald-900">
-              &#10003; Plataforma ACE SEMUSA Porto Velho 2026 Conectada!
+              &#10003; Plataforma ACE SEMUSA Porto Velho 2026 — 100% Compatível com GitHub Pages!
             </p>
-            <p className="text-xs text-emerald-800">
+            <p className="text-xs text-emerald-800 leading-relaxed">
               Repositório oficial configurado em{' '}
               <a
                 href="https://github.com/diegobragah1/acepvh"
@@ -53,7 +53,7 @@ export const BackupModal: React.FC = () => {
               >
                 github.com/diegobragah1/acepvh
               </a>
-              . Todos os recursos, calculadoras e dados funcionam de forma independente e responsiva.
+              . O projeto conta com bundle estático pré-compilado (<code>./assets/app-bundle.js</code>), pasta <code>/docs</code> e workflow automático (<code>.github/workflows/deploy.yml</code>), funcionando tanto em <strong>Deploy from a branch (main / root ou /docs)</strong> quanto via <strong>GitHub Actions</strong>.
             </p>
           </div>
 
@@ -87,12 +87,21 @@ export const BackupModal: React.FC = () => {
 
           <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
             <div className="text-xs font-extrabold uppercase text-slate-800">
-              Acesso e Incorporação no Google Sites:
+              Acesso no GitHub Pages e Incorporação no Google Sites:
             </div>
             <p className="text-xs text-slate-600">
-              Para incorporar este aplicativo em uma página do Google Sites, basta adicionar um bloco de "Incorporar" por URL e informar a URL pública do GitHub Pages ou do seu app.
+              Para acessar diretamente no GitHub Pages ou incorporar em uma página do Google Sites, utilize os links abaixo:
             </p>
             <div className="flex flex-wrap items-center gap-2 pt-1">
+              <a
+                href="https://diegobragah1.github.io/acepvh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-bold transition inline-flex items-center gap-1"
+              >
+                <span>Abrir GitHub Pages</span>
+                <span>&nearr;</span>
+              </a>
               <button
                 type="button"
                 onClick={handleCopyUrl}
@@ -126,3 +135,4 @@ export const BackupModal: React.FC = () => {
     </div>
   );
 };
+

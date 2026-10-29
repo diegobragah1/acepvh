@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plataforma ACE SEMUSA Porto Velho 2026 — Edital nº 25/2026</title>
-  <meta name="description" content="Plataforma interativa completa de estudos para Agente de Combate às Endemias (ACE) — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP). 32 Aulas (Modos A, B e C), 207 Questões Comentadas, 246 Flashcards, Calculadoras LIRAa e de Campo, 14 Fichas de Endemias e 94 Fontes.">
-  <meta property="og:title" content="Plataforma ACE SEMUSA Porto Velho 2026 — Edital nº 25/2026">
-  <meta property="og:description" content="Estudo interativo para Agente de Combate às Endemias (Códigos 340 a 356): 32 Aulas completas, Simulado IBGP, Flashcards, Calculadora LIRAa e 94 PDFs integrados.">
-  <meta property="og:type" content="website">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Cpath d='M32 12v40M12 32h40' stroke='%2334d399' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plataforma ACE SEMUSA Porto Velho 2026</title>
+  <meta name="description" content="Plataforma interativa completa de estudos para Agente de Combate às Endemias (ACE) — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP). 32 Aulas (Modos A, B, C e Mapa Mental), 380 Questões Comentadas, 439 Flashcards, Calculadoras LIRAa e de Campo, 14 Fichas de Endemias e 94 Fontes." />
+  <meta property="og:title" content="Plataforma ACE SEMUSA Porto Velho 2026" />
+  <meta property="og:description" content="Plataforma interativa completa de estudos para Agente de Combate às Endemias (ACE) — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP). 32 Aulas (Modos A, B, C e Mapa Mental), 380 Questões Comentadas, 439 Flashcards, Calculadoras LIRAa e de Campo, 14 Fichas de Endemias e 94 Fontes." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/app-bundle.css" />
 </head>
-<body class="min-h-screen flex flex-col bg-slate-50 text-slate-900">
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col">
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
+  <script>
+    (function () {
+      // Universal loader: se o HTML for servido diretamente pelo GitHub Pages (branch main / root)
+      // sem passar pelo Vite Dev Server (@vite/client) e sem ter sido substituído pelo vite build,
+      // carrega automaticamente o bundle estático pré-compilado ./assets/app-bundle.js
+      var isViteDev = !!document.querySelector('script[src*="@vite/client"]');
+      var isBuiltBundle = !!document.querySelector('script[src*="assets/app-bundle.js"]');
+      if (!isViteDev && !isBuiltBundle) {
+        var s = document.createElement('script');
+        s.type = 'module';
+        s.src = './assets/app-bundle.js';
+        document.body.appendChild(s);
+      }
+    })();
+  </script>
 </body>
 </html>
