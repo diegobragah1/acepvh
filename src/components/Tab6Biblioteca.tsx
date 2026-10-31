@@ -34,40 +34,40 @@ export const Tab6Biblioteca: React.FC = () => {
       {/* 5 Divergências dos PDFs do Drive Sanadas */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-amber-300">
         <span className="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-amber-100 text-amber-900">
-          Auditoria Documental das 7 Subpastas do Google Drive (85 PDFs)
+          Fontes primárias e material de apoio
         </span>
         <h2 className="text-lg font-extrabold text-slate-900 mt-1 mb-2">
-          As 5 Divergências/Lacunas dos PDFs Brutos do Drive Identificadas e Sanadas
+          Versões, escopo e limites das referências
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
           <div className="bg-amber-50/70 p-3 rounded-xl border border-amber-200">
             <p className="font-bold text-amber-950">1. Subpasta 4 — Ausência dos PDFs das Leis Municipais de Porto Velho:</p>
             <p className="text-slate-700 mt-0.5">
-              A Subpasta 4 continha apenas 9 PDFs de Direito Constitucional (#42 a #50), faltando a LOM-PVH, a LC 385/2010 e as Leis 390 e 391/2010. <strong>Solução:</strong> Vinculados os textos oficiais do SAPL (#89, #92 e #93) e desenvolvidas as Aulas <code>leg_1</code>, <code>leg_2</code> e <code>leg_3</code>.
+              As aulas <code>leg_1</code>, <code>leg_2</code> e <code>leg_3</code> usam a LOM e as LCs 385, 390 e 391. Consulte as consolidações do SAPL nas fontes 92, 93, 101 e 102. O confronto textual distingue redações atuais de versões históricas desativadas.
             </p>
           </div>
           <div className="bg-rose-50/70 p-3 rounded-xl border border-rose-200">
             <p className="font-bold text-rose-950">2. Subpasta 5 — PDF #54 (Lei nº 10.520/2002 REVOGADA) e Ausência da LAI Estadual/Municipal:</p>
             <p className="text-slate-700 mt-0.5">
-              O PDF #54 trata da Lei 10.520/2002 (revogada pela Lei 14.133/2021) e o PDF #53 traz apenas a LAI Federal. <strong>Solução:</strong> PDF #54 marcado como <strong>REVOGADO — NÃO ESTUDAR</strong>; Pregão estudado pela Lei 14.133/21 (<code>leg_6</code>) e LAI de RO (Lei 3.166/13) e PVH incluídas em <code>leg_7</code> (#94).
+              O programa indica a Lei 14.133/2021. O material da Lei 10.520/2002 é histórico. A fonte 94 é estadual: sua presença não comprova a legislação municipal de acesso à informação, que exige conferência própria.
             </p>
           </div>
           <div className="bg-amber-50/70 p-3 rounded-xl border border-amber-200">
             <p className="font-bold text-amber-950">3. Subpasta 6 — Ausência de "Doenças Transmissíveis I" e Capítulos Extras no PDF #66:</p>
             <p className="text-slate-700 mt-0.5">
-              O PDF #66 (<em>Doenças Transmissíveis II</em>) cobre 8 agravos do edital, mas inclui 4 doenças fora do edital (TB, Hanseníase, Teníase, Lyme) e não traz Malária, Chagas, Esquistossomose, Raiva, Leptospirose e Febre Maculosa. <strong>Solução:</strong> Todas as 14 doenças ganharam fichas completas em <code>esp_7..9</code> e na Aba 4.
+              A aula <code>esp_9</code> reúne as 14 doenças do programa. Cada doença exige fonte específica para transmissão, vigilância e controle; fichas existentes e links cadastrados não certificam atualização de vacinas, profilaxias ou protocolos.
             </p>
           </div>
           <div className="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200">
             <p className="font-bold text-emerald-950">4. Subpasta 1 — Ausência de Sistemas Lineares e Médias no PDF #17:</p>
             <p className="text-slate-700 mt-0.5">
-              O PDF #17 (<em>Equação do 1º Grau</em>) tem 49 mil tokens e aborda apenas equações simples, omitindo Sistemas de Equações do 1º Grau e Média Aritmética Simples e Ponderada. <strong>Solução:</strong> Teoria passo a passo e exercícios incluídos no Bloco 25.2 (<code>rlm_3</code>).
+              Equações, sistemas, função afim e médias pertencem a <code>rlm_4</code>. As 100 questões principais de RLM têm memória de conferência; esse trabalho não autentica atribuições a bancas nem substitui a revisão completa da teoria e dos cartões.
             </p>
           </div>
           <div className="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200 md:col-span-2">
             <p className="font-bold text-emerald-950">5. Subpasta 7 — Salto do PDF #8 e Ausência de Georreferenciamento e História/Geografia de PVH/RO:</p>
             <p className="text-slate-700 mt-0.5">
-              A numeração da Subpasta 7 salta do PDF <em>7. Ecologia</em> para o <em>9. Humanidades</em> (totalizando 16 PDFs gerais), sem apostila de História/Geografia de Rondônia e Porto Velho nem de Georreferenciamento. <strong>Solução:</strong> Aulas <code>atu_1</code>, <code>atu_2</code> e <code>atu_3</code> completas com Censo IBGE 2022/2025, 15 distritos, cultura local e Georreferenciamento (SIG/GIS, GPS, Sensoriamento Remoto, PRODES/DETER).
+              Dados estatísticos precisam de indicador, território e ano. Lotação distrital do concurso não equivale automaticamente à divisão administrativa municipal. Georreferenciamento está em <code>atu_5</code>; notícias da Prefeitura também são exigência expressa do programa.
             </p>
           </div>
         </div>
@@ -78,16 +78,16 @@ export const Tab6Biblioteca: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
           <div>
             <h3 className="text-base sm:text-lg font-extrabold text-slate-900">
-              Inventário Analítico Conectado: 85 PDFs do Google Drive + 9 Documentos Oficiais (Total: 94 Fontes)
+              Inventário de referências: {sources.length} fontes cadastradas
             </h3>
             <p className="text-xs text-slate-600">
-              Cada card informa o tamanho, tokens analisados, conteúdo encontrado no PDF, aula correspondente e botões para abrir o PDF ou ir direto para a aula.
+              Os cartões reúnem metadados, links e aulas relacionadas. Cadastro e tamanho informado não são comprovantes de leitura ou validação documental.
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
             <input
               type="text"
-              placeholder="Filtrar por nome, assunto ou nº (1 a 94)..."
+              placeholder="Filtrar por nome, assunto ou número..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm"
@@ -97,7 +97,7 @@ export const Tab6Biblioteca: React.FC = () => {
               onChange={(e) => setFolderFilter(e.target.value)}
               className="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm font-semibold bg-slate-50"
             >
-              <option value="all">Todas as Pastas (94 Arquivos)</option>
+              <option value="all">Todas as pastas ({sources.length} fontes)</option>
               <option value="8 - EDITAL E LEIS OFICIAIS">8 - Editais IBGP e Leis Oficiais (9)</option>
               <option value="1 - RACIOCINIO LOGICO">1 - Raciocínio Lógico (21 PDFs)</option>
               <option value="2 - PORTUGUES">2 - Língua Portuguesa (19 PDFs)</option>

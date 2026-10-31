@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-31",
+  "documents": [
+    {
+      "id": "lai-pvh-14565-2017",
+      "url": "https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2017/8889/1500645904decreto-no-14565.pdf",
+      "sourceSha256": "4a5b0e8649a2e3ee244e8e5a3e0042164852ae3270415499f5d7aeb194d3b964",
+      "textSha256": "c962e17f9bc8a70d7c1ece4f447c6e10ebf4ee63b296e175848209ca5f783680",
+      "pages": 24,
+      "chars": 52533
+    },
+    {
+      "id": "lai-ro-3166-2013",
+      "url": "https://rondonia.ro.gov.br/wp-content/uploads/2017/10/L3166.pdf",
+      "sourceSha256": "2ab3d897ff9b4a81e869ffeb40744e0bf6913339f93162f67b3a0fa88ddd1977",
+      "textSha256": "9530870625ba1161e8713fc6c91e7a689b4ffe20057dd9fe49791f82d30f9d3f",
+      "pages": 15,
+      "chars": 30482
+    },
+    {
+      "id": "lai-ro-6385-2026",
+      "url": "https://sapl.al.ro.leg.br/media/sapl/public/normajuridica/2026/13830/l6385.pdf",
+      "sourceSha256": "49935ecac3a7d2092dcb94a9978a68e54e9e0322e76811bcca9e58af3958fc2f",
+      "textSha256": "290f61cbdf57b5ad981978d8368228ce04c4baaedc9c81f3c2cf87329484ba03",
+      "pages": 2,
+      "chars": 4678
+    }
+  ]
+}

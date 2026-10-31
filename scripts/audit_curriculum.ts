@@ -39,6 +39,7 @@ const lines = [
   '- A aprovação de cada requisito exige explicação suficiente, casos e restrições, exemplos corretos, fonte com artigo/seção/página, versão aplicável e conferência dos exercícios e cartões. Um teste de código não faz essa aprovação.',
   '- Legislação: observar as disposições iniciais do Anexo IV sobre atualização e alterações posteriores de diplomas expressamente indicados. Não congelar indiscriminadamente todas as normas na data de publicação do edital.', '',
   '## Correções e verificações documentais efetivamente realizadas', '',
+  'Atualização dos fechamentos: [FECHAMENTOS_2026-10-31.md](FECHAMENTOS_2026-10-31.md), com fontes, escopo de cada conclusão e limites remanescentes. Os fechamentos de componentes não aprovam automaticamente a aula inteira.', '',
   'As questões principais das oito aulas de RLM receberam também conferência dos enunciados, alternativas e respostas, com [memórias de cálculo e inferência](REVISAO_QUESTOES_RLM.md). Isso não fecha a revisão integral dos comentários, cartões, teoria e fontes.', '',
   '| Objeto | Evidência / localizador | Resultado |', '| --- | --- | --- |',
   '| Jornada federal do ACE | [Lei 11.350 atualizada — Câmara](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html), art. 9º-A, § 2º, incisos I e II | Incisos 30h/10h revogados pela Lei 13.708. Corrigidos quatro blocos de esp_3, trechos de esp_6/esp_7, três enunciados e cartões relacionados. |',

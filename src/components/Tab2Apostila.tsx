@@ -879,7 +879,7 @@ export const Tab2Apostila: React.FC = () => {
                 {lessonSources.length > 0 && (
                   <div className="pt-1">
                     <div className="text-[11px] font-bold text-slate-500 uppercase mb-1.5">
-                      PDFs do Google Drive e Fontes Oficiais Integrados nesta Aula (Clique p/ abrir o PDF):
+                      Fontes e documentos relacionados à aula:
                     </div>
                     <div className="flex flex-wrap gap-1.5">
                       {lessonSources.map(s => (
@@ -891,7 +891,7 @@ export const Tab2Apostila: React.FC = () => {
                           title={s.note || ''}
                           className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-teal-100 text-slate-800 border border-slate-300 transition"
                         >
-                          <span>&#128196; PDF #{s.num}: {s.title || s.name} &#8599;</span>
+                          <span>&#128196; Fonte #{s.num}: {s.title || s.name} &#8599;</span>
                         </a>
                       ))}
                     </div>

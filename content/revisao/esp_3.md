@@ -29,7 +29,7 @@ O art. 7º exige conclusão, com aproveitamento, de curso de formação inicial 
 A residência na área da comunidade em que atua é requisito do ACS no art. 6º, I, sujeito às disposições e exceções legais. Não consta como requisito geral do ACE no art. 7º. Trabalhar em território delimitado não equivale, por si só, a ter obrigação legal de morar naquele quarteirão.
 
 ## Formação inicial, seleção e vínculo
-Curso de formação não substitui seleção pública. O art. 9º disciplina o processo seletivo público de provas ou de provas e títulos. O art. 8º prevê CLT, ressalvada disposição diversa de lei estadual, distrital ou municipal. Portanto, não cabe afirmar que todo ACE brasileiro é necessariamente celetista nem que a lei federal criou um único estatuto nacional.
+Curso de formação não substitui seleção pública. O art. 9º disciplina o processo seletivo público de provas ou de provas e títulos. A redação do art. 8º da Lei 11.350 menciona CLT, ressalvada lei local diversa; porém, a **EC 140/2026**, vigente desde 16/10/2026, acrescentou o **§ 4º-B ao art. 198 da Constituição**, submetendo esses agentes ao regime jurídico dos servidores nomeados para cargo efetivo. A leitura atual deve respeitar essa norma constitucional superior. A regularização dos vínculos anteriores segue os requisitos do art. 12 da emenda, inclusive seleção pública e prazo até 31/12/2028; não se trata de efetivação indistinta de qualquer contratação.
 
 ## Jornada e organização do serviço
 Planejamento, avaliação, registro e reuniões fazem parte da jornada descrita no art. 9º-A, § 2º. Os incisos históricos 30/10 estão revogados. A alternativa que transforma as 40 horas em visitas externas exclusivas também está errada: suprime atividades expressamente asseguradas pela lei.

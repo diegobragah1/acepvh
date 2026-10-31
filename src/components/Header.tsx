@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
     { id: 'tab-simulado', label: '3. Simulado IBGP (Peso 2) & Flashcards' },
     { id: 'tab-endemias', label: '4. Fichas Individuais das 14 Doenças, LIRAa & Roedores' },
     { id: 'tab-cronograma', label: '5. Matriz Integral de Auditoria & Cronograma 12 Semanas' },
-    { id: 'tab-biblioteca', label: '6. Inventário Analítico dos 94 PDFs Conectados' },
+    { id: 'tab-biblioteca', label: '6. Fontes e documentos de referência' },
     { id: 'tab-programatico', label: '7. Conteúdo Programático Detalhado' },
   ];
 

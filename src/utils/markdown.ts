@@ -37,7 +37,7 @@ export function renderMarkdownToHtml(mdText: string): string {
       if (inList) { html += "</ul>"; inList = false; }
       if (!inCode) {
         inCode = true;
-        html += '<pre class="p-3 rounded-xl bg-slate-900 text-emerald-300 text-xs mono overflow-x-auto">';
+        html += '<pre class="p-3 rounded-xl bg-slate-900 text-emerald-300 text-xs mono overflow-x-auto whitespace-pre-wrap break-words">';
       } else {
         inCode = false;
         html += "</pre>";

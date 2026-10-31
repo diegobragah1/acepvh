@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderMathInHtml } from './math';
+import { protectMath, renderMathInHtml } from './math';
 import { renderMarkdownToHtml } from './markdown';
 import fs from 'node:fs';
 
@@ -27,6 +27,14 @@ test('Markdown does not split a formula on its absolute-value bars or parse emph
 test('malformed TeX remains visible and cannot crash the lesson', () => {
   assert.ok(renderMathInHtml(String.raw`$\unknowncommand{x}$`).includes('data-math-error'));
   assert.ok(renderMathInHtml('$<strong>x</strong>^2$').includes('<math '));
+});
+test('search and cloze cannot corrupt already-rendered inline or display MathML', () => {
+  const html=renderMarkdownToHtml(String.raw`$x^2$ e $$\frac{a}{b}$$`);
+  const math=protectMath(html);
+  assert.ok(!math.text.includes('<math'));
+  assert.ok(!math.text.includes('katex'));
+  assert.equal(math.restore(math.text),html);
+  assert.equal(renderMathInHtml(html),html);
 });
 test('all eight RLM lessons render their actual primary theory and summaries without TeX errors', () => {
   const data=JSON.parse(fs.readFileSync('data/app_data.json','utf8'));
