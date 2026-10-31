@@ -17,6 +17,8 @@ Programa consultado: [Anexo IV retificado](https://novo.ibgpconcursos.com.br/res
 
 ## Correções e verificações documentais efetivamente realizadas
 
+Atualização dos fechamentos: [FECHAMENTOS_2026-10-31.md](FECHAMENTOS_2026-10-31.md), com fontes, escopo de cada conclusão e limites remanescentes. Os fechamentos de componentes não aprovam automaticamente a aula inteira.
+
 As questões principais das oito aulas de RLM receberam também conferência dos enunciados, alternativas e respostas, com [memórias de cálculo e inferência](REVISAO_QUESTOES_RLM.md). Isso não fecha a revisão integral dos comentários, cartões, teoria e fontes.
 
 | Objeto | Evidência / localizador | Resultado |
@@ -38,7 +40,7 @@ Programa de referência: 1 - Constituição da República Federativa do Brasil (
 
 **Estado: conferência integral pendente.**
 
-O título limita a consolidação à EC 120/2022; isso não comprova atualização até o marco aplicável ao edital. Conferir cada caput, parágrafo e inciso, inclusive financiamento.
+Atualizados teoria, resumo e mapa para a EC 140/2026: inciso IV, §§ 4º-A e 4º-B e nova redação do § 10 do art. 198. Aposentadoria permanente e transições foram diferenciadas. A conferência integral dos demais dispositivos e exercícios ainda não está concluída.
 
 Inventário principal: 10 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -119,18 +121,18 @@ Programa de referência: 5 - Política Nacional de Atenção Básica.
 
 **Estado: conferência integral pendente.**
 
-Dois dos quatro blocos tratam do Decreto 7.508. Diferenciar redação da PNAB 2017 de normas posteriores sobre eAP/eMulti; conferir todo o anexo da Portaria 2.436, não apenas equipes e agentes.
+Incluídos na teoria principal 649 parágrafos extraídos da Portaria 2.436 e de seu anexo original de 2017; origem e hash registrados. Corrigida a data para 21/09/2017 e diferenciadas eMulti/2023. Isso fecha a falta do texto original, mas não certifica consolidação posterior ou todos os exercícios.
 
 Inventário principal: 10 questões e 11 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Política Nacional de Atenção Básica | Bloco(s) 1, 3 | Pendente |
-| princípios | Bloco(s) 1, 3 | Pendente |
+| Política Nacional de Atenção Básica | Bloco(s) 1, 2, 3 | Pendente |
+| princípios | Bloco(s) 1, 2, 3 | Pendente |
 | diretrizes | Bloco(s) 1, 2, 3, 4 | Pendente |
 | equipes | Bloco(s) 1, 2, 3 | Pendente |
 | atribuições | Bloco(s) 1, 2, 4 | Pendente |
-| processo de trabalho | Não localizada automaticamente | Pendente |
+| processo de trabalho | Bloco(s) 2 | Pendente |
 | territorialização | Bloco(s) 1, 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -249,7 +251,7 @@ Programa de referência: 1 - Lei Orgânica do Município de Porto Velho/RO e atu
 
 **Estado: conferência integral pendente.**
 
-Consolidação municipal sem versão e inventário de emendas não permite afirmar integralidade. Confrontar títulos, capítulos, artigos, disposições transitórias e emendas, não apenas organização dos poderes.
+Concluído confronto textual de todas as unidades atuais recuperadas do SAPL com a teoria. Não localizados exatamente apenas preâmbulo e assinaturas; texto normalizado dos dispositivos foi localizado. Referência atual substitui PDF antigo. Comentários e exercícios permanecem fora dessa validação.
 
 Inventário principal: 15 questões e 20 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -266,7 +268,7 @@ Programa de referência: 2 - Regime Jurídico dos Servidores Públicos Municipai
 
 **Estado: conferência integral pendente.**
 
-PDF histórico não basta para provar a redação vigente. Conferir provimento, vacância, direitos, vantagens, deveres, responsabilidades, penalidades, processo e regras transitórias na consolidação oficial.
+Concluído confronto textual com o SAPL, excluídas redações históricas desativadas. Diferenças localizadas no agrupamento do título inicial e nas assinaturas; dispositivos normalizados localizados na teoria. Conferência de comentários e exercícios não está certificada.
 
 Inventário principal: 15 questões e 20 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -283,7 +285,7 @@ Programa de referência: 3 - Plano de Carreira, Cargos e Remuneração dos Profi
 
 **Estado: conferência integral pendente.**
 
-Erro confirmado de enquadramento: LC 391 organiza cargos e empregos da Prefeitura em geral; não é um estatuto exclusivo do ACE/ACS. SAPL registra alterações de 2026. Tabelas e transcrições ainda não certificadas.
+Concluído confronto textual das LCs 390 e 391 com o SAPL: unidades atuais localizadas, exceto assinaturas da LC 390. Mantida a distinção entre carreira da saúde e organização geral de cargos. O confronto não valida interpretação, cálculos de vantagens ou gabaritos.
 
 Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -369,7 +371,7 @@ Programa de referência: 7 - Legislações Federal (Lei Federal nº 12.527/2011)
 
 **Estado: conferência integral pendente.**
 
-Conferir três esferas e a existência de regulamentação municipal. Distinguir LAI, decreto regulamentador e regras de transparência; não certificar a esfera municipal com apenas uma fonte estadual.
+Reescrito o bloco das esferas e incluídos os textos originais da LAI municipal (Decreto 14.565/2017), Lei RO 3.166/2013 e alteração 6.385/2026. Corrigidos âmbito estadual, sequência recursal municipal e classificação; Decreto 18.310 é LGPD. Revisão de todas as questões e de alterações posteriores dos demais diplomas não certificada.
 
 Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -623,7 +625,7 @@ Inventário principal: 3 questões e 5 cartões. Gabaritos e cartões não receb
 | --- | --- | --- |
 | crase | Bloco(s) 1, 2 | Pendente |
 | obrigatórios | Bloco(s) 1 | Pendente |
-| facultativos | Bloco(s) 1 | Pendente |
+| facultativos | Não localizada automaticamente | Pendente |
 | proibidos | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -640,10 +642,10 @@ Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| colocação | Bloco(s) 1, 2 | Pendente |
+| colocação | Bloco(s) 1, 2, 3 | Pendente |
 | próclise | Bloco(s) 1, 2, 3 | Pendente |
-| mesóclise | Bloco(s) 1, 2, 3 | Pendente |
-| ênclise | Bloco(s) 1, 2, 3 | Pendente |
+| mesóclise | Bloco(s) 1, 3 | Pendente |
+| ênclise | Bloco(s) 1, 3 | Pendente |
 | locuções | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -724,12 +726,12 @@ Inventário principal: 5 questões e 6 cartões. Gabaritos e cartões não receb
 | --- | --- | --- |
 | pontuação | Bloco(s) 1, 2 | Pendente |
 | vírgula | Bloco(s) 1, 2 | Pendente |
-| ponto e vírgula | Bloco(s) 1 | Pendente |
-| dois-pontos | Bloco(s) 1 | Pendente |
+| ponto e vírgula | Bloco(s) 1, 2 | Pendente |
+| dois-pontos | Bloco(s) 1, 2 | Pendente |
 | travessão | Bloco(s) 1, 2 | Pendente |
 | parênteses | Bloco(s) 1, 2 | Pendente |
-| aspas | Bloco(s) 1 | Pendente |
-| reticências | Não localizada automaticamente | Pendente |
+| aspas | Bloco(s) 1, 2 | Pendente |
+| reticências | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 

@@ -3,6 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    // Lesson HTML lives in the dataset; omitting it hides text on unstyled cards.
+    "./data/app_data.json",
   ],
   theme: {
     extend: {
