@@ -2,12 +2,18 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { auditContent } from '../src/utils/contentAudit';
 import { ALL_PAUTA_ITEMS } from '../src/data/pautaEspecificaMap';
+import { normalizeAppData } from '../src/utils/normalizeData';
 
 const root = process.cwd();
 const read = (p: string) => fs.readFileSync(path.join(root, p), 'utf8');
 const data = JSON.parse(read('data/app_data.json'));
-const report = auditContent(data);
-const issues = [...report.issues];
+// Validate raw fields as well: normalization must not conceal malformed answers.
+const rawReport = auditContent(data);
+const report = auditContent(normalizeAppData(data));
+const issues = [...rawReport.issues];
+for (const issue of report.issues) {
+  if (!issues.some(i => JSON.stringify(i) === JSON.stringify(issue))) issues.push(issue);
+}
 for (const file of ['data/app_data.json', 'data/app_data.js']) {
   if (read(file) !== read(`public/${file}`)) issues.push({severity: 'error', code: 'copy-drift', message: `Cópias divergentes: ${file} e public/${file}.`});
 }
@@ -33,7 +39,7 @@ const legacyMissing = data.lessons.filter((l: {id:string}) => !legacyIds.has(l.i
 if (legacyMissing.length) issues.push({severity:'warning', code:'legacy-index', message:`Índice legado data/aulas.json não lista ${legacyMissing.length} aulas atuais. Não usar como base para regenerar o aplicativo.`});
 const lines = [
   '# Auditoria estrutural do conteúdo', '',
-  'Gerada por `npm run audit:content`. Não certifica exatidão factual, vigência legal ou cobertura integral do edital.', '',
+  'Gerada por `npm run audit:content`. Inclui os complementos das 49 aulas aplicados na leitura da base. Não certifica exatidão factual de todo o acervo legado, vigência legal ou cobertura integral do edital.', '',
   `Inventário: ${report.lessons} aulas; ${report.blocks} blocos; ${report.questions} questões; ${report.flashcards} flashcards; ${report.sources} fontes cadastradas.`, '',
   '| Disciplina | Aulas |', '| --- | ---: |',
   ...Object.entries(report.categories).map(([cat,count]) => `| ${cat} | ${count} |`), '',
