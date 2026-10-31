@@ -5,6 +5,7 @@ import { renderMarkdownToHtml } from '../utils/markdown';
 import { toSafeString } from '../utils/normalizeData';
 import { TopicStatus, Source } from '../types';
 import { LessonMindMapView } from './LessonMindMapView';
+import { DEEPENING_PREFIX } from '../data/deepening';
 import { PAUTA_ESPECIFICA_ITEMS, PAUTA_LEGISLACAO_ITEMS, PAUTA_PORTUGUES_ITEMS, PAUTA_RLM_ITEMS, PAUTA_GERAIS_ITEMS, ALL_PAUTA_ITEMS } from '../data/pautaEspecificaMap';
 
 interface VFChallengeItem {
@@ -163,6 +164,20 @@ export const Tab2Apostila: React.FC = () => {
       setCurrentLessonId(lessons[currentIndex + 1].id);
       window.scrollTo({ top: 300, behavior: 'smooth' });
     }
+  };
+
+  const openDeepening = () => {
+    if (!currentLesson) return;
+    const idx = currentLesson.blocks.findIndex(b => b.title.startsWith(DEEPENING_PREFIX));
+    if (idx < 0) return;
+    setCurrentStudyMode('ALL');
+    setInLessonQuery('');
+    setBlockTypeFilter('all');
+    setCollapsedBlocks(prev => ({ ...prev, [`${currentLesson.id}_${idx}`]: false }));
+    // Wait for the mode/filter change to commit before locating the block.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      document.getElementById(`lesson-block-${idx}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }));
   };
 
   // Extract sources
@@ -464,6 +479,10 @@ export const Tab2Apostila: React.FC = () => {
               </div>
 
               {/* Complete Toggle Button */}
+              <button type="button" onClick={openDeepening}
+                className="px-4 py-2 rounded-xl font-bold text-xs bg-indigo-700 hover:bg-indigo-800 text-white">
+                Aprofundamento: exemplos e questões
+              </button>
               <button
                 type="button"
                 onClick={toggleCompleteCurrentLesson}

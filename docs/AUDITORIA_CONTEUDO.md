@@ -1,8 +1,8 @@
 # Auditoria estrutural do conteúdo
 
-Gerada por `npm run audit:content`. Não certifica exatidão factual, vigência legal ou cobertura integral do edital.
+Gerada por `npm run audit:content`. Inclui os complementos das 49 aulas aplicados na leitura da base. Não certifica exatidão factual de todo o acervo legado, vigência legal ou cobertura integral do edital.
 
-Inventário: 49 aulas; 187 blocos; 469 questões; 570 flashcards; 94 fontes cadastradas.
+Inventário: 49 aulas; 236 blocos; 567 questões; 652 flashcards; 98 fontes cadastradas.
 
 | Disciplina | Aulas |
 | --- | ---: |
@@ -12,36 +12,10 @@ Inventário: 49 aulas; 187 blocos; 469 questões; 570 flashcards; 94 fontes cada
 | rlm | 8 |
 | atu | 6 |
 
-Erros estruturais: 0. Pendências: 26.
+Erros estruturais: 0. Pendências: 0.
 
 | Nível | Aula | Verificação | Pendência |
 | --- | --- | --- | --- |
-| warning | por_1 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_2 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_3 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_4 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_5 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_6 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_7 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_8 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_9 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_10 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_11 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_12 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_13 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_14 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_15 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_16 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_17 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | por_18 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_1 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_2 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_3 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_4 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_5 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_6 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_7 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
-| warning | rlm_8 | sources-missing | Vincular fontes e registrar página/seção da fundamentação. |
 
 ## Conferência documental pendente
 

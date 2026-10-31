@@ -1,4 +1,6 @@
 import { AppData, Lesson, MindMapBranch, MindMapNode, Flashcard, Question } from '../types';
+import { withDeepening } from '../data/deepening';
+import { correctEditorialClaims } from './editorialCorrections';
 
 const FA_ICON_MAP: Record<string, string> = {
   'fa-chart-pie': '📊',
@@ -153,10 +155,10 @@ export function normalizeLesson(rawLesson: unknown, idx: number): Lesson {
     const b = (rawBlock && typeof rawBlock === 'object' ? rawBlock : {}) as Record<string, unknown>;
     return {
       title: toSafeString(b.title) || `Bloco ${bIdx + 1}`,
-      modoA_markdown: b.modoA_markdown ? toSafeString(b.modoA_markdown) : undefined,
-      modoB_markdown: b.modoB_markdown ? toSafeString(b.modoB_markdown) : undefined,
-      modoA: b.modoA ? toSafeString(b.modoA) : undefined,
-      modoB: b.modoB ? toSafeString(b.modoB) : undefined,
+      modoA_markdown: b.modoA_markdown ? correctEditorialClaims(toSafeString(b.modoA_markdown)) : undefined,
+      modoB_markdown: b.modoB_markdown ? correctEditorialClaims(toSafeString(b.modoB_markdown)) : undefined,
+      modoA: b.modoA ? correctEditorialClaims(toSafeString(b.modoA)) : undefined,
+      modoB: b.modoB ? correctEditorialClaims(toSafeString(b.modoB)) : undefined,
       questions: normalizeArray<unknown>(b.questions).map(normalizeQuestion),
       flashcards: normalizeArray<unknown>(b.flashcards).map(normalizeFlashcard),
     };
@@ -244,7 +246,7 @@ export function normalizeAppData(raw: unknown): AppData {
     revoked: Boolean(s.revoked),
   }));
 
-  const lessons = normalizeArray<unknown>(data.lessons).map(normalizeLesson);
+  const lessons = normalizeArray<unknown>(data.lessons).map(normalizeLesson).map(withDeepening);
 
   const endemics = normalizeArray<Record<string, unknown>>(data.endemics).map(e => ({
     doenca: toSafeString(e.doenca),
