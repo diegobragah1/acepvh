@@ -1,0 +1,399 @@
+{
+  "datasetSha256": "306922d82bbf4225f881944a4cd4209803789df7f23abe98d6b633230105ca55",
+  "aulasVarridas": 49,
+  "metodo": "regex em teoria/resumo; não examina fonte, questões ou cartões; não é leitura integral",
+  "ocorrencias": [
+    {
+      "aula": "esp_2",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "679/2023) são campeões de cobrança recente em bancas como o IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 4,
+      "campo": "modoA",
+      "trecho": "1º a 19-U: Princípios, Direção, Competências e Subsistemas) Mapa Mental para acertar 100% na prova IBGP: Este bloco reúne a espinha dorsal da Lei Orgânica da Saúde (Parte 1)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 5,
+      "campo": "modoA",
+      "trecho": "142/1990 Integral Síntese Estratégica IBGP: Este bloco fecha 100% da Lei 8",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "esp_4",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "A questão mais cobrada na história das provas de ACE da IBGP é trocar a definição do § 1º (Vigilância Sanitária — bens, produtos e serviços) pela do § 2º (Vigilância Epidemiológica — conhecimento, detecção e recomendação de medidas de controle de doenças/agravos)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "esp_4",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "080/1990: Esfera / Artigo Verbos-Chave (Macete Infalível) Incisos Mais Cobrados pela Banca IBGP Atribuições Comuns (União, Estados, DF e Municípios — Art",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_1",
+      "bloco": 3,
+      "campo": "modoA",
+      "trecho": "Domine os pontos mais cobrados: Artigos da LOM-PVH Regra Literal de Porto Velho Pegadinha IBGP Art",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_2",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "Pegadinhas Clássicas da Banca IBGP neste Tópico: Questão Campeã da Banca IBGP na LC 385/2010: Prazos de Posse e Exercício",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_3",
+      "bloco": 3,
+      "campo": "modoA",
+      "trecho": "Veja na tabela como estruturar a leitura dos artigos: Norma Municipal de Porto Velho Objeto Central e Estrutura da Carreira Pontos Mais Cobrados na Prova IBGP LC nº 390/2010 (Arts",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_5",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "1º a 4º da CF/88) nas Questões da Banca IBGP: • A banca IBGP cobra em quase todas as provas a distinção literal entre os Fundamentos da República (Art",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_5",
+      "bloco": 5,
+      "campo": "modoA",
+      "trecho": "1º a 45) Dupla de Alto Peso no Edital IBGP: Este bloco reúne 100% dos artigos constitucionais sobre Municípios (Arts",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "leg_7",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Pegadinha campeã da banca IBGP: afirmar que 'para obter informações sobre contratos ou despesas públicas no SIC, o requerente deve demonstrar legítimo interesse e justificar a finalidade do pedido'",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "As bancas criam alternativas erradas usando 3 armadilhas: 1) Extrapolação (ir além do que o texto autoriza, geralmente com palavras absolutas como 'sempre', 'nunca', 'unicamente'); 2) Redução (restringir a ideia central a um detalhe secundário); e 3) Contrad",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_2",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Gêneros Textuais, As 6 Funções da Linguagem (Jakobson) eAs 4 Variações Linguísticas na Banca IBGP A banca IBGP inicia 100% de suas provas de Nível Médio/ACE com questões sobre Tipologia Textual , Gêneros Discursivos , Funções da Linguagem e Variação Linguística",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Aprofundamento: Pares de Parônimos e Homônimos Mais Cobrados em Provas da Banca IBGP Com base na apostila Semântica",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Quadro Comparativo: Figuras de Linguagem e de Sintaxe Mais Cobradas pela IBGP Figura Classificação Como Identificar na Prova Exemplo Clássico Metáfora Figura de Palavra Comparação implícita (sem 'como') 'Os erros são um verdadeiro GPS da sua preparação' (frase da sua apostila",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Se o termo omitido nunca apareceu antes na frase = Elipse pura",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Item 3 de Língua Portuguesa — Semântica Lexical Os 12 Pares de Parônimos e Homônimos Mais Cobrados pela IBGP Memorize a tabela abaixo: a banca IBGP frequentemente troca um parônimo pelo outro em questões de reescrita e significação contextual",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_4",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "\" Dicionário dos 15 Pares de Parônimos e Homônimos Mais Cobrados pela IBGP: • Ratificar (confirmar, validar) vs",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_6",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Sempre que vir a expressão híbrida 'à medida em que', saiba que há erro gramatical de regência/coesão",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_7",
+      "bloco": 0,
+      "campo": "modoB",
+      "trecho": "DUPLAS CAMPEÃS DE PROVA DA IBGP: • CONQUANTO = Concessiva (= embora ) vs",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Sempre verifique se há 'não', 'que', 'quando', 'se' ou advérbio sem vírgula antes do verbo",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "As Duas Funções Mais Cobradas da Partícula \"SE\" na IBGP: PA vs",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "Item 8 de Língua Portuguesa — Morfologia Mapa das 10 Classes Gramaticais e dos Processos de Formação de Palavras Na prova da IBGP, a classe de uma palavra depende sempre do seu contexto morfossintático (ex",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Dominar a Regência Verbal e Nominal dos verbos mais cobrados pela banca IBGP: assistir, aspirar, visar, implicar, proceder, obedecer/desobedecer, preferir, esquecer/lembrar, pagar/perdoar, chegar/ir e simpatizar",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": ": Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "Item 10 de Língua Portuguesa — Concordância Os 8 Casos de Concordância Verbal e Nominal Que Sempre Caem na IBGP 1",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Explicação Detalhada (Conteúdo Integral — Nível Livro Didático) Tríade final da gramática normativa cobrada em todas as provas da IBGP: Regência dos Verbos Mais Cobrados: Assistir: No sentido de ver/presenciar = VTI (exige preposição A: \"assistiu AO filme / À palestra\") ; no sentido de prestar assistência/socorrer = VTD ou VTI ( \"o médico assistiu o/ao paciente\" )",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Material Complementar e Aprofundamento Técnico (Foco IBGP) A Regra de Ouro da Vírgula (Proibição S-V-C): Na ordem direta (Sujeito + Verbo + Complemento), NUNCA se coloca uma única vírgula entre o Sujeito e o Verbo nem entre o Verbo e seus Complementos",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Os 10 Verbos de Regência Mais Cobrados pela Banca IBGP A mudança de transitividade (com ou sem preposição) muda completamente o sentido de vários verbos cobrados pela IBGP: Verbo Sentido 1 (VTD — SEM preposição) Sentido 2 (VTI — COM preposição",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_12",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Pegadinha campeã da IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "por_17",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "a leitura do aluno ), use este teste de 2 passos para nunca errar na banca IBGP: Passo 1 (Olhar a palavra a que se liga): Se o termo preposicionado estiver ligado a um ADJETIVO ( \"útil à saúde \" ), a um ADVÉRBIO ( \"longe de casa \" ) ou a um SUBSTANTIVO CONCRETO ( \"a bolsa de couro \", \"o carro do agente \" ), nem precisa pensar:",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "pdf da sua subpasta 1 - RACICIONIO LOGICO , o segredo para acertar 100% das questões de equações e sistemas da banca IBGP é traduzir cada frase do português para a matemática: Dicionário Rápido de Tradução para Equações: • \"Um número desconhecido\" → x • \"O dobro de um número\" → 2x | \"O triplo de um número diminuído de 5\" → 3x − 5 • \"O dobro de (um número diminuído de 5",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "O Problema Clássico de Sistema do 1º Grau na Prova IBGP (Veículos de 2 e 4 rodas / Questões Certas e Erradas / Notas de R$ 10 e R$ 20): • Sempre que o enunciado der o TOTAL DE ITENS (ex: x + y = 40 ) e o VALOR/PONTOS/RODAS TOTAIS (ex: 2x + 4y = 110 ), monte o sistema de 2 equações e use o Método da Adiçã",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Problemas de MDC na Banca IBGP Critério MMC (Mínimo Múltiplo Comum) MDC (Máximo Divisor Comum) Ideia Central Repetição cíclica e coincidência no futuro Repartição exata em pedaços/grupos máximos iguais Resultado Numérico Sempre MAIOR ou igual ao maior dos números Sempre MENOR ou",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Conclusão e Aplicação Direta na Prova IBGP: A média aritmética ponderada foi 8,1 (jamais divida por 4 disciplinas; divide-se sempre pela soma dos pesos = 10",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Na prova da banca IBGP, a alternativa A sempre traz o valor do MDC (40) e a alternativa C traz a soma dos grupos (5)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Pegadinhas Clássicas da Banca IBGP neste Tópico: Propriedade Importante: Para dois números quaisquer A e B, vale sempre que: MMC(A, B) × MDC(A, B) = A × B",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "Explicação Detalhada (Conteúdo Integral — Nível Livro Didático) Proporcionalidade, regra de três e porcentagem estão presentes em 100% das provas da IBGP: Razão e Divisão Diretamente Proporcional (Constante k): Se a razão entre imóveis residenciais e comerciais é de 5 para 3 ((R / C) = (5 / 3)) e o total é 160, fazemos R = 5k e C = 3k ⇒ 5k + 3k = 160 ⇒ 8k = 160 ⇒ k = 20 (R = 100 e C = 60)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "pdf da sua subpasta 1 - RACICIONIO LOGICO , veja como resolver em menos de 1 minuto os três tipos de questões mais cobrados pela banca IBGP: 1",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Logo, 96 em relação a 100 representa uma REDUÇÃO ACUMULADA DE 4% (e nunca 0% — pegadinha clássica da IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "ngulo A = (b · h / 2) Soma dos 3 lados Trapézio A = ((B + b) · h / 2) Soma dos 4 lados Losango A = (D · d / 2) 2p = 4L Círculo A = π · r² C = 2π r A Pegadinha Mortal do Círculo: A banca IBGP sempre fornece o DIÂMETRO no enunciado",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "esma gaveta): Para garantir com 100% de certeza que pelo menos uma das G gavetas contenha k elementos , o número mínimo no pior cenário é: N mín = G · (k - 1) + 1 Exemplo de Prova IBGP: Em uma equipe de ACEs de Porto Velho, quantos agentes devem ser sorteados no mínimo para garantir que pelo menos 4 agentes (k = 4) façam aniversário no mesmo mês do ano (G = 12)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 3,
+      "campo": "modoA",
+      "trecho": "Guia Visual das Escalas de Conversão (Comprimento, Área, Volume e Capacidade) Na prova da banca IBGP, 90% dos erros em Geometria acontecem na conversão de unidades no final da conta",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 2,
+      "campo": "modoA",
+      "trecho": "Como Resolver Questões de Condicional (P → Q) em 30 Segundos (\"Método da Falsidade Forçada\") Em 90% das questões de Raciocínio Lógico da banca IBGP, o enunciado dá 3 ou 4 premissas compostas (dizendo que todas são Verdadeiras ) e uma premissa simples (ou pede para descobrir quem fez o quê)",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoA",
+      "trecho": "Explicação Detalhada (Conteúdo Integral — Nível Livro Didático) As questões de Negação e Equivalência Lógica são as campeãs absolutas de cobrança na prova de RLM da IBGP: 1",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoB",
+      "trecho": "OS 4 MACETES QUE RESOLVEM 90% DA PROVA DE LÓGICA DA IBGP: 1",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 5,
+      "campo": "modoA",
+      "trecho": "Fórmula da União de Dois Conjuntos (Diagrama de Venn — Campeã na IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 5,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Se o enunciado disser que '40 gostam de A, 30 gostam de B e 10 gostam de ambos', nunca coloque 40 direto na bolinha de A: coloque 10 no meio e 40 − 10 = 30 na parte exclusiva de A",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_6",
+      "bloco": 3,
+      "campo": "modoA",
+      "trecho": "1 Receita Infalível IBGP para Problemas com 3 Conjuntos (Diagrama de Venn) Sempre que a questão da IBGP trouxer 3 doenças ou 3 grupos (ex",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Análise Combinatória: PFC, Permutação, Arranjo e Combinação Para nunca mais confundir Arranjo com Combinação na prova da IBGP, faça apenas uma pergunta: \"Se eu trocar a ordem dos escolhidos, muda o resultado/cargo",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Aprofundamento: O Teste da Inversão para Nunca Confundir Arranjo com Combinação na Prova IBGP",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "Comentário Tático do Professor (Banca IBGP): Se o enunciado disser que '40 gostam de A, 30 gostam de B e 10 gostam de ambos', nunca coloque 40 direto na bolinha de A: coloque 10 no meio e 40 − 10 = 30 na parte exclusiva de A",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 3,
+      "campo": "modoA",
+      "trecho": "Item 7 de Raciocínio Lógico — Análise Combinatória Como Nunca Mais Confundir Arranjo, Permutação e Combinação na IBGP Basta fazer uma única pergunta ao enunciado: \"Se eu trocar a ordem dos elementos escolhidos, o resultado muda",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "atu_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "trecho": "onteúdo Integral — Nível Livro Didático) O Município de Porto Velho , capital do Estado de Rondônia, possui singularidades geográficas únicas no Brasil que são certeza de prova na banca IBGP: 1",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    },
+    {
+      "aula": "atu_6",
+      "bloco": 1,
+      "campo": "modoA",
+      "trecho": "7) Realidade Brasileira Ponto Mais Cobrado pela Banca 7",
+      "situacao": "CONFERIR: possível alegação sem evidência; pode haver falso positivo"
+    }
+  ]
+}
