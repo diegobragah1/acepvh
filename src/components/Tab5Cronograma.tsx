@@ -1,5 +1,6 @@
 import React from 'react';
 import { ContentAuditPanel } from './ContentAuditPanel';
+import { StudyMethodPanel } from './StudyMethodPanel';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta } from '../utils/status';
 
@@ -17,6 +18,7 @@ export const Tab5Cronograma: React.FC = () => {
 
   return (
     <section className="space-y-6">
+      <StudyMethodPanel />
       <ContentAuditPanel />
       {/* 7-Column Audit Matrix */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">

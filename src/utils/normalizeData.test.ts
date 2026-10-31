@@ -62,7 +62,7 @@ test('normalizeAppData validates all 49 lessons in public/data/app_data.json wit
 
   assert.equal(normalized.lessons.length, 49);
   assert.equal(normalized.cargos.length, 16);
-  assert.equal(normalized.sources.length, 94);
+  assert.equal(normalized.sources.length, 98);
   assert.equal(normalized.endemics.length, 14);
   assert.equal(normalized.schedule.length, 12);
   assert.equal(normalized.auditMatrix.length, 20);
