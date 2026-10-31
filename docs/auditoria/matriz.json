@@ -1,5 +1,5 @@
 {
-  "baseDatasetSha256": "c6ff57fc17c02e05bf7d7bc2d2e7e1d53a6dd056ee70fc8d23feb5fb8b123a4e",
+  "baseDatasetSha256": "fc35ec2938222e6695e425e9a36124219792b96376acb77d80a814f497b97426",
   "statusPermitidos": [
     "AUSENTE",
     "SUPERFICIAL",
@@ -11044,7 +11044,7 @@
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "compreensão",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11064,10 +11064,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — compreensão"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11083,7 +11087,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11096,17 +11100,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/2"
+      ]
     },
     {
       "id": "por_1-c02",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "interpretação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11126,10 +11165,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — interpretação"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11145,7 +11188,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11158,17 +11201,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/3"
+      ]
     },
     {
       "id": "por_1-c03",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Localizar informações literais",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11188,10 +11266,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Localizar informações literais"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11207,7 +11289,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11220,17 +11302,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/4"
+      ]
     },
     {
       "id": "por_1-c04",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Distinguir tema, assunto e ideias principal/secundárias",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11250,10 +11367,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Distinguir tema, assunto e ideias principal/secundárias"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11269,7 +11390,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11282,17 +11403,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/2"
+      ]
     },
     {
       "id": "por_1-c05",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Justificar inferências por pistas textuais",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11312,10 +11468,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Justificar inferências por pistas textuais"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11331,7 +11491,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11344,17 +11504,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/3"
+      ]
     },
     {
       "id": "por_1-c06",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Distinguir pressupostos e subentendidos",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11374,10 +11569,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Distinguir pressupostos e subentendidos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11393,7 +11592,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11406,17 +11605,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/1"
+      ]
     },
     {
       "id": "por_1-c07",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Distinguir fato, opinião e posicionamento",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11436,10 +11670,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Distinguir fato, opinião e posicionamento"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11455,7 +11693,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11468,17 +11706,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/9"
+      ]
     },
     {
       "id": "por_1-c08",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Identificar tese, argumentos e contra-argumentos",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11498,10 +11771,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Identificar tese, argumentos e contra-argumentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11517,7 +11794,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11530,17 +11807,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/2"
+      ]
     },
     {
       "id": "por_1-c09",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Reconhecer intenção e efeitos de sentido",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11560,10 +11872,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Reconhecer intenção e efeitos de sentido"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11579,7 +11895,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11592,17 +11908,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/8"
+      ]
     },
     {
       "id": "por_1-c10",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Analisar progressão temática",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11622,10 +11973,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Analisar progressão temática"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11641,7 +11996,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11654,17 +12009,50 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": []
     },
     {
       "id": "por_1-c11",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Interpretar textos verbais e não verbais",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11684,10 +12072,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Interpretar textos verbais e não verbais"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11703,7 +12095,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11716,17 +12108,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/6"
+      ]
     },
     {
       "id": "por_1-c12",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Comparar reescritas semanticamente equivalentes",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11746,10 +12173,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Comparar reescritas semanticamente equivalentes"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11765,7 +12196,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11778,17 +12209,52 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/7"
+      ]
     },
     {
       "id": "por_1-c13",
       "itemOriginal": "1 - Compreensão e interpretação de textos.",
       "aula": "por_1",
       "subcompetencia": "Diagnosticar extrapolação, redução e inversão nas alternativas",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/17/blocks",
       "fontesCadastradas": [
@@ -11808,10 +12274,14 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_1_leitura.md — Diagnosticar extrapolação, redução e inversão nas alternativas"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_1.blocks[2].modoB e flashcards; por_1.mindMap"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_1.blocks[0].questions[0]",
@@ -11827,7 +12297,7 @@
         },
         {
           "local": "por_1.blocks[1].questions[2]",
-          "revision": null
+          "revision": "20261031-retomada"
         },
         {
           "local": "por_1.blocks[1].questions[3]",
@@ -11840,10 +12310,45 @@
         {
           "local": "por_1.blocks[2].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[6]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[7]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[8]",
+          "revision": null
+        },
+        {
+          "local": "por_1.blocks[2].questions[9]",
+          "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Fonte pedagógica localizada em busca, abertura integral com falha; comparação documental completa e inspeção visual pendentes. Charge/tirinha ainda sem atividade visual própria. Banco antigo preserva itens de outras aulas; origem oficial não autenticada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_1 blocks/questão (índices zero): 2/3"
+      ]
     },
     {
       "id": "por_2-c01",

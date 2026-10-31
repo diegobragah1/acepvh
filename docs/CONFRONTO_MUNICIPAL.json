@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "method": "comparacao-textual-de-unidades-vigentes-sapl",
   "scope": "Presença textual após normalização de acentos, espaços e pontuação. Não certifica comentários, questões, tabelas financeiras externas ao texto articulado ou interpretação jurídica.",
-  "datasetSha256": "c6ff57fc17c02e05bf7d7bc2d2e7e1d53a6dd056ee70fc8d23feb5fb8b123a4e",
+  "datasetSha256": "fc35ec2938222e6695e425e9a36124219792b96376acb77d80a814f497b97426",
   "sources": [
     {
       "id": "lom",

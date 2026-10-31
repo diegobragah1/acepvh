@@ -102,19 +102,19 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | leg_7-c01 | 7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação. | 12.527 | leg_7 | data/app_data.json#/lessons/16/blocks | Não atribuído / PENDENTE |
 | leg_7-c02 | 7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação. | Estadual | leg_7 | data/app_data.json#/lessons/16/blocks | Não atribuído / PENDENTE |
 | leg_7-c03 | 7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação. | Municipal | leg_7 | data/app_data.json#/lessons/16/blocks | Não atribuído / PENDENTE |
-| por_1-c01 | 1 - Compreensão e interpretação de textos. | compreensão | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c02 | 1 - Compreensão e interpretação de textos. | interpretação | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c03 | 1 - Compreensão e interpretação de textos. | Localizar informações literais | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c04 | 1 - Compreensão e interpretação de textos. | Distinguir tema, assunto e ideias principal/secundárias | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c05 | 1 - Compreensão e interpretação de textos. | Justificar inferências por pistas textuais | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c06 | 1 - Compreensão e interpretação de textos. | Distinguir pressupostos e subentendidos | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c07 | 1 - Compreensão e interpretação de textos. | Distinguir fato, opinião e posicionamento | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c08 | 1 - Compreensão e interpretação de textos. | Identificar tese, argumentos e contra-argumentos | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c09 | 1 - Compreensão e interpretação de textos. | Reconhecer intenção e efeitos de sentido | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c10 | 1 - Compreensão e interpretação de textos. | Analisar progressão temática | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c11 | 1 - Compreensão e interpretação de textos. | Interpretar textos verbais e não verbais | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c12 | 1 - Compreensão e interpretação de textos. | Comparar reescritas semanticamente equivalentes | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
-| por_1-c13 | 1 - Compreensão e interpretação de textos. | Diagnosticar extrapolação, redução e inversão nas alternativas | por_1 | data/app_data.json#/lessons/17/blocks | Não atribuído / PENDENTE |
+| por_1-c01 | 1 - Compreensão e interpretação de textos. | compreensão | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c02 | 1 - Compreensão e interpretação de textos. | interpretação | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c03 | 1 - Compreensão e interpretação de textos. | Localizar informações literais | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c04 | 1 - Compreensão e interpretação de textos. | Distinguir tema, assunto e ideias principal/secundárias | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c05 | 1 - Compreensão e interpretação de textos. | Justificar inferências por pistas textuais | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c06 | 1 - Compreensão e interpretação de textos. | Distinguir pressupostos e subentendidos | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c07 | 1 - Compreensão e interpretação de textos. | Distinguir fato, opinião e posicionamento | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c08 | 1 - Compreensão e interpretação de textos. | Identificar tese, argumentos e contra-argumentos | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c09 | 1 - Compreensão e interpretação de textos. | Reconhecer intenção e efeitos de sentido | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c10 | 1 - Compreensão e interpretação de textos. | Analisar progressão temática | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c11 | 1 - Compreensão e interpretação de textos. | Interpretar textos verbais e não verbais | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c12 | 1 - Compreensão e interpretação de textos. | Comparar reescritas semanticamente equivalentes | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
+| por_1-c13 | 1 - Compreensão e interpretação de textos. | Diagnosticar extrapolação, redução e inversão nas alternativas | por_1 | data/app_data.json#/lessons/17/blocks | PARCIAL / PENDENTE |
 | por_2-c01 | 2 - Gêneros e tipos de texto. | gêneros | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
 | por_2-c02 | 2 - Gêneros e tipos de texto. | tipos | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
 | por_2-c03 | 2 - Gêneros e tipos de texto. | Distinguir gênero, suporte e sequência textual | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
