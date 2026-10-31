@@ -24,7 +24,9 @@ export const Tab2Apostila: React.FC = () => {
     updateTopicStatus,
     currentStudyMode,
     setCurrentStudyMode,
-    toggleCompleteCurrentLesson
+    toggleCompleteCurrentLesson,
+    lessonAnswers,
+    setLessonAnswers
   } = useApp();
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -44,7 +46,6 @@ export const Tab2Apostila: React.FC = () => {
   const [pautaDisciplineTab, setPautaDisciplineTab] = useState<'esp' | 'leg' | 'por' | 'rlm' | 'atu' | 'all'>('esp');
 
   // Track chosen answers for current lesson questions: qKey -> optionIndex
-  const [lessonAnswers, setLessonAnswers] = useState<Record<string, number>>({});
   // Track flipped flashcards: fcKey -> boolean
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
 
@@ -189,7 +190,7 @@ export const Tab2Apostila: React.FC = () => {
           if (useTrue) {
             items.push({
               id: `${currentLesson.id}_vf_${bIdx}_${qIdx}_T`,
-              statement: cleanOpt(qObj.options[qObj.ans]),
+              statement: `${qObj.q} — Alternativa proposta: ${cleanOpt(qObj.options[qObj.ans])}`,
               isTrue: true,
               explanation: qObj.comment,
               blockTitle: b.title.split('—')[0].trim()
@@ -198,9 +199,9 @@ export const Tab2Apostila: React.FC = () => {
             const wrongIdx = (qObj.ans + 1) % qObj.options.length;
             items.push({
               id: `${currentLesson.id}_vf_${bIdx}_${qIdx}_F`,
-              statement: cleanOpt(qObj.options[wrongIdx]),
+              statement: `${qObj.q} — Alternativa proposta: ${cleanOpt(qObj.options[wrongIdx])}`,
               isTrue: false,
-              explanation: `AFIRMATIVA FALSA (Pegadinha de Prova!). ${qObj.comment}`,
+              explanation: `Esta alternativa não é a resposta indicada pelo gabarito. ${qObj.comment}`,
               blockTitle: b.title.split('—')[0].trim()
             });
           }
@@ -292,7 +293,7 @@ export const Tab2Apostila: React.FC = () => {
         <div className="bg-white rounded-2xl p-4 shadow-sm border border-slate-200 space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs font-extrabold uppercase tracking-wider text-slate-800">
-              Módulos do Edital (49 Aulas)
+              Módulos do Edital ({lessons.length} Aulas)
             </span>
             <span className="text-xs font-bold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-full border border-teal-200">
               {filteredLessons.length} {filteredLessons.length === 1 ? 'aula' : 'aulas'}
@@ -319,12 +320,12 @@ export const Tab2Apostila: React.FC = () => {
               onChange={(e) => setCategoryFilter(e.target.value)}
               className="w-full text-xs p-2 rounded-lg border border-slate-300 bg-white font-medium"
             >
-              <option value="all">Todas as Disciplinas (49 Aulas)</option>
-              <option value="esp">Conhecimentos Específicos ACE (10 Aulas)</option>
-              <option value="leg">Legislação e Direito (7 Aulas)</option>
-              <option value="por">Língua Portuguesa (18 Aulas)</option>
-              <option value="rlm">Raciocínio Lógico (8 Aulas)</option>
-              <option value="atu">Conhecimentos Gerais e Atualidades (6 Aulas)</option>
+              <option value="all">Todas as Disciplinas ({lessons.length} Aulas)</option>
+              <option value="esp">Conhecimentos Específicos ACE ({lessons.filter(l => l.cat === "esp").length} Aulas)</option>
+              <option value="leg">Legislação e Direito ({lessons.filter(l => l.cat === "leg").length} Aulas)</option>
+              <option value="por">Língua Portuguesa ({lessons.filter(l => l.cat === "por").length} Aulas)</option>
+              <option value="rlm">Raciocínio Lógico ({lessons.filter(l => l.cat === "rlm").length} Aulas)</option>
+              <option value="atu">Conhecimentos Gerais e Atualidades ({lessons.filter(l => l.cat === "atu").length} Aulas)</option>
             </select>
           </div>
 
@@ -440,7 +441,7 @@ export const Tab2Apostila: React.FC = () => {
                     currentStudyMode === 'A' ? 'bg-teal-600 text-white shadow-sm' : 'text-slate-600 hover:text-slate-900'
                   }`}
                 >
-                  Modo A (Teoria + Lei 100%)
+                  Modo A (Teoria e fundamentação)
                 </button>
                 <button
                   type="button"
@@ -815,7 +816,7 @@ export const Tab2Apostila: React.FC = () => {
                     {currentLesson.weight}
                   </span>
                   <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">
-                    &#10003; {currentLesson.auditBadge}
+                    Material de estudo — confira as fontes
                   </span>
                   <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold border ${meta.badgeClass}`}>
                     {meta.icon} {meta.label}
@@ -944,7 +945,7 @@ export const Tab2Apostila: React.FC = () => {
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <div className="flex items-center gap-2">
                       <span className="px-2.5 py-1 rounded-lg bg-indigo-600 text-white text-xs font-extrabold">
-                        ⚡ Treino Rápido V/F — Mito ou Verdade na Banca IBGP ({vfChallenges.length} Desafios)
+                        ⚡ Análise de alternativas — esta responde ao enunciado? ({vfChallenges.length} Desafios)
                       </span>
                       <span className="text-xs text-slate-600">
                         Julgue as afirmativas desta aula para destravar as pegadinhas antes das questões de múltipla escolha!
@@ -1013,7 +1014,7 @@ export const Tab2Apostila: React.FC = () => {
                                       : 'bg-white hover:bg-emerald-50 text-emerald-800 border-emerald-300'
                                   }`}
                                 >
-                                  👍 CERTO (Verdadeiro)
+                                  Sim, é a resposta
                                 </button>
                                 <button
                                   type="button"
@@ -1026,14 +1027,14 @@ export const Tab2Apostila: React.FC = () => {
                                       : 'bg-white hover:bg-rose-50 text-rose-800 border-rose-300'
                                   }`}
                                 >
-                                  👎 ERRADO (Mito / Falso)
+                                  Não é a resposta
                                 </button>
                               </div>
 
                               {answered && (
                                 <div className="p-2.5 rounded-lg bg-white/90 border border-slate-200 text-[11px] text-slate-700 leading-snug">
                                   <strong className="text-slate-900">
-                                    Gabarito: {item.isTrue ? 'CERTO (Verdadeiro)' : 'ERRADO (Falso)'}.
+                                    Gabarito: {item.isTrue ? 'É a alternativa do gabarito' : 'Não é a alternativa do gabarito'}.
                                   </strong>{' '}
                                   {item.explanation}
                                 </div>

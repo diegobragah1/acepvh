@@ -23,13 +23,6 @@ class RootErrorBoundary extends React.Component<{ children: React.ReactNode }, E
   }
 
   handleResetAndReload = () => {
-    try {
-      window.localStorage.removeItem('ace_semusa_2026_completed_lessons_v3');
-      window.localStorage.removeItem('ace_semusa_2026_topic_status_v1');
-      window.localStorage.removeItem('ace_semusa_2026_sim_answers_v3');
-    } catch (e) {
-      // ignore storage errors
-    }
     window.location.href = window.location.pathname + '?v=' + Date.now();
   };
 
@@ -42,14 +35,14 @@ class RootErrorBoundary extends React.Component<{ children: React.ReactNode }, E
               Recuperação Automática da Plataforma
             </div>
             <p className="text-xs text-slate-600">
-              Detectamos dados antigos em cache no navegador ({this.state.errorMsg}). Clique abaixo para limpar o cache local e recarregar a plataforma:
+              A plataforma encontrou um erro de renderização ({this.state.errorMsg}). Recarregue para tentar novamente. Seu progresso será preservado:
             </p>
             <button
               type="button"
               onClick={this.handleResetAndReload}
               className="px-4 py-2 rounded-lg bg-teal-600 hover:bg-teal-700 text-white text-xs font-bold shadow transition"
             >
-              Limpar Cache e Recarregar Agora
+              Recarregar mantendo meu progresso
             </button>
           </div>
         </div>

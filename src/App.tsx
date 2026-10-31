@@ -24,8 +24,8 @@ export const App: React.FC = () => {
       });
     });
     return {
-      totalQuestions: qCount || 380,
-      totalFlashcards: fcCount || 439,
+      totalQuestions: qCount,
+      totalFlashcards: fcCount,
     };
   }, [appData]);
 
@@ -38,7 +38,7 @@ export const App: React.FC = () => {
           <div className="flex flex-col items-center justify-center p-12 space-y-4">
             <div className="w-10 h-10 border-4 border-teal-600 border-t-transparent rounded-full animate-spin"></div>
             <p className="text-sm font-bold text-slate-600">
-              Carregando base de dados auditada (49 Aulas, {totalQuestions} Questões, {totalFlashcards} Flashcards e 94 Fontes)...
+              Carregando aulas e materiais de estudo...
             </p>
           </div>
         )}
@@ -76,7 +76,7 @@ export const App: React.FC = () => {
             Plataforma Integrada ACE SEMUSA Porto Velho/RO 2026 &bull; Concurso Público Edital nº 25/2026 + Retificação nº 01 (Edital nº 28/2026 — Banca IBGP)
           </p>
           <p className="text-slate-500">
-            49 Aulas Aprofundadas (Modos A, B, C e Mapa Mental), {totalQuestions} Questões Comentadas, {totalFlashcards} Flashcards, Fichas das 14 Endemias e 94 Fontes Documentais.
+            {appData?.lessons.length || 0} Aulas Aprofundadas (Modos A, B, C e Mapa Mental), {totalQuestions} Questões Comentadas, {totalFlashcards} Flashcards, Fichas das {appData?.endemics.length || 0} Endemias e {appData?.sources.length || 0} Fontes Documentais.
           </p>
         </div>
       </footer>

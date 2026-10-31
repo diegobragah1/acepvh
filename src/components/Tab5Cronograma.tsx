@@ -1,4 +1,5 @@
 import React from 'react';
+import { ContentAuditPanel } from './ContentAuditPanel';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta } from '../utils/status';
 
@@ -16,19 +17,20 @@ export const Tab5Cronograma: React.FC = () => {
 
   return (
     <section className="space-y-6">
+      <ContentAuditPanel />
       {/* 7-Column Audit Matrix */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
           <div>
             <span className="text-xs font-bold uppercase px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800">
-              Auditoria de 100% do Conteúdo Programático Oficial (Anexo IV Retificado)
+              Matriz documental de referência — conferência por fonte necessária
             </span>
             <h3 className="text-base sm:text-lg font-extrabold text-slate-900 mt-1">
               Matriz Integral de Correspondência com o Edital (7 Colunas Obrigatórias)
             </h3>
           </div>
           <div className="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200">
-            {auditMatrix.length} / {auditMatrix.length} Macro-Itens do Anexo IV Verificados e 100% Cobertos
+            {auditMatrix.length} macro-itens cadastrados para conferência
           </div>
         </div>
         <div className="overflow-x-auto">
@@ -74,10 +76,10 @@ export const Tab5Cronograma: React.FC = () => {
       {/* 12-Week Strategic Schedule */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200">
         <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 mb-1">
-          Cronograma Estruturado de 12 Semanas até a Prova (13/12/2026)
+          Plano de estudo em {schedule.length} etapas
         </h2>
         <p className="text-xs text-slate-600 mb-4">
-          Clique em qualquer aula do cronograma para abri-la imediatamente na Apostila Digital.
+          Adapte as etapas ao tempo disponível. Todas as aulas estão distribuídas; clique para abrir e ajuste a prioridade conforme seus erros.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
