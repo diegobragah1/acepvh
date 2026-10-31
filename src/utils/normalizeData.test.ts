@@ -129,7 +129,7 @@ test('Conhecimentos Especificos lessons are categorized into the exact 10 topics
 
   // 3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018.
   assert.ok(byId['esp_3'].title.includes('3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018'));
-  assert.ok(byId['esp_3'].blocks[0].title.includes('Lei Federal nº 13.708/2018'));
+  assert.ok(byId['esp_3'].blocks[0].modoA_markdown?.includes('revogados pela Lei 13.708/2018'));
   assert.ok(byId['esp_3'].blocks.length >= 4);
 
   // 4 - Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde.

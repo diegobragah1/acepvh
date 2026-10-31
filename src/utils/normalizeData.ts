@@ -139,6 +139,7 @@ export function normalizeQuestion(rawQ: unknown): Question {
   const safeAns = options.length > 0 && rawAns >= 0 && rawAns < options.length ? rawAns : 0;
   return {
     q: toSafeString(q.q ?? q.stem),
+    ...(q.revision ? { revision: toSafeString(q.revision) } : {}),
     options,
     ans: safeAns,
     comment: toSafeString(q.comment ?? q.explanation),

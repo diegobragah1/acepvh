@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import { toSafeString } from '../utils/normalizeData';
+import { questionIdentity } from '../utils/questionIdentity';
 
 export const Tab3Simulado: React.FC = () => {
   const { appData, simAnswers, setSimAnswer, resetSimAnswers } = useApp();
@@ -46,7 +47,7 @@ export const Tab3Simulado: React.FC = () => {
           const answerIndex = qObj.ans !== undefined ? qObj.ans : (qObj.correct ?? 0);
           const explanationText = toSafeString(qObj.comment || qObj.explanation || '');
           qList.push({
-            id: `sim_${l.id}_${bIdx}_${qIdx}`,
+            id: questionIdentity(`sim_${l.id}_${bIdx}_${qIdx}`, qObj),
             lessonId: l.id,
             lessonTitle: toSafeString(l.title),
             catName: toSafeString(l.catName),
