@@ -1,5 +1,5 @@
 {
-  "baseDatasetSha256": "fc35ec2938222e6695e425e9a36124219792b96376acb77d80a814f497b97426",
+  "baseDatasetSha256": "306922d82bbf4225f881944a4cd4209803789df7f23abe98d6b633230105ca55",
   "statusPermitidos": [
     "AUSENTE",
     "SUPERFICIAL",
@@ -18299,7 +18299,7 @@
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "variação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18317,12 +18317,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18338,18 +18360,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c02",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "diatópica",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18367,12 +18416,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18388,18 +18459,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c03",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "diastrática",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18417,12 +18515,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18438,18 +18558,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c04",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "diafásica",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18467,12 +18614,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18488,18 +18657,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c05",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "diacrônica",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18517,12 +18713,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18538,18 +18756,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c06",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "norma-padrão",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18567,12 +18812,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18588,18 +18855,45 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "por_18-c07",
       "itemOriginal": "18 - Variação linguística.",
       "aula": "por_18",
       "subcompetencia": "norma culta",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/34/blocks",
       "fontesCadastradas": [
@@ -18617,12 +18911,34 @@
           "id": 97,
           "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
           "consultaComprovada": false
+        },
+        {
+          "id": 119,
+          "url": "https://ceale.fae.ufmg.br/glossarioceale/verbetes/variacao-linguistica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 120,
+          "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/lingua-portuguesa-variacoes-linguisticas/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 121,
+          "url": "https://curriculo.sedu.es.gov.br/curriculo/glossary/ef69lp55/",
+          "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "content/revisao/por_18.md"
+      ],
+      "evidenciaFonte": [
+        "SME Goiânia, Variações linguísticas, seções de fatores e adequação",
+        "SEDU/ES, EF69LP55: variedade, norma-padrão e preconceito"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
+      "evidenciaRevisao": [
+        "por_18.blocks[0].modoB; mapa; cartões novos em blocks[1]"
+      ],
       "inventarioExercicios": [
         {
           "local": "por_18.blocks[0].questions[0]",
@@ -18638,11 +18954,38 @@
         },
         {
           "local": "por_18.blocks[1].questions[0]",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "local": "por_18.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[4]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[5]",
+          "revision": null
+        },
+        {
+          "local": "por_18.blocks[1].questions[6]",
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confronto adicional de norma culta/padrão com obra integral; reavaliação dos distratores antigos e duplicações da revisão interdisciplinar; validação visual pendente.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_18.blocks[1].questions[1..6]; gabaritos B,C,D,A,B,C"
+      ]
     },
     {
       "id": "rlm_1-c01",

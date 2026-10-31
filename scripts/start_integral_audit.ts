@@ -19,9 +19,8 @@ const rows=data.lessons.flatMap((l:any)=>[...CURRICULUM_REVIEW[l.id].requirement
  lacunas:'Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.',
  criterioAceite:'Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.'
 })));
-const overlayPath='docs/auditoria/por_1_evidencias.json';
-if(fs.existsSync(overlayPath)){
- const overlay=JSON.parse(fs.readFileSync(overlayPath,'utf8'));
+for(const name of fs.readdirSync('docs/auditoria').filter(n=>/^por_\d+_evidencias\.json$/.test(n))){
+ const overlay=JSON.parse(fs.readFileSync('docs/auditoria/'+name,'utf8'));
  for(const r of rows)if(overlay[r.id])Object.assign(r,overlay[r.id]);
 }
 for(const r of rows) {

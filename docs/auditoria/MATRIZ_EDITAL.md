@@ -215,13 +215,13 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_17-c06 | 17 - Pontuação. | parênteses | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
 | por_17-c07 | 17 - Pontuação. | aspas | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
 | por_17-c08 | 17 - Pontuação. | reticências | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_18-c01 | 18 - Variação linguística. | variação | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c02 | 18 - Variação linguística. | diatópica | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c03 | 18 - Variação linguística. | diastrática | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c04 | 18 - Variação linguística. | diafásica | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c05 | 18 - Variação linguística. | diacrônica | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c06 | 18 - Variação linguística. | norma-padrão | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
-| por_18-c07 | 18 - Variação linguística. | norma culta | por_18 | data/app_data.json#/lessons/34/blocks | Não atribuído / PENDENTE |
+| por_18-c01 | 18 - Variação linguística. | variação | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c02 | 18 - Variação linguística. | diatópica | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c03 | 18 - Variação linguística. | diastrática | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c04 | 18 - Variação linguística. | diafásica | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c05 | 18 - Variação linguística. | diacrônica | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c06 | 18 - Variação linguística. | norma-padrão | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
+| por_18-c07 | 18 - Variação linguística. | norma culta | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
 | rlm_1-c01 | 1 - Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum. | naturais | rlm_1 | data/app_data.json#/lessons/35/blocks | Não atribuído / PENDENTE |
 | rlm_1-c02 | 1 - Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum. | inteiros | rlm_1 | data/app_data.json#/lessons/35/blocks | Não atribuído / PENDENTE |
 | rlm_1-c03 | 1 - Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum. | racionais | rlm_1 | data/app_data.json#/lessons/35/blocks | Não atribuído / PENDENTE |
