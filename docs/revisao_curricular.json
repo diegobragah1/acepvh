@@ -2382,7 +2382,8 @@
           "term": "colocação",
           "mentionBlocks": [
             1,
-            2
+            2,
+            3
           ],
           "verified": false
         },
@@ -2399,7 +2400,6 @@
           "term": "mesóclise",
           "mentionBlocks": [
             1,
-            2,
             3
           ],
           "verified": false
@@ -2408,7 +2408,6 @@
           "term": "ênclise",
           "mentionBlocks": [
             1,
-            2,
             3
           ],
           "verified": false
@@ -2436,7 +2435,7 @@
         },
         {
           "block": 3,
-          "formulas": 1,
+          "formulas": 0,
           "syntaxErrors": 0
         }
       ]
@@ -2663,14 +2662,16 @@
         {
           "term": "ponto e vírgula",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "dois-pontos",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
@@ -2693,13 +2694,16 @@
         {
           "term": "aspas",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "reticências",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            2
+          ],
           "verified": false
         }
       ],

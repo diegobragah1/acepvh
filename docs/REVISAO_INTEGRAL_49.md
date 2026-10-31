@@ -642,10 +642,10 @@ Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| colocação | Bloco(s) 1, 2 | Pendente |
+| colocação | Bloco(s) 1, 2, 3 | Pendente |
 | próclise | Bloco(s) 1, 2, 3 | Pendente |
-| mesóclise | Bloco(s) 1, 2, 3 | Pendente |
-| ênclise | Bloco(s) 1, 2, 3 | Pendente |
+| mesóclise | Bloco(s) 1, 3 | Pendente |
+| ênclise | Bloco(s) 1, 3 | Pendente |
 | locuções | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -726,12 +726,12 @@ Inventário principal: 5 questões e 6 cartões. Gabaritos e cartões não receb
 | --- | --- | --- |
 | pontuação | Bloco(s) 1, 2 | Pendente |
 | vírgula | Bloco(s) 1, 2 | Pendente |
-| ponto e vírgula | Bloco(s) 1 | Pendente |
-| dois-pontos | Bloco(s) 1 | Pendente |
+| ponto e vírgula | Bloco(s) 1, 2 | Pendente |
+| dois-pontos | Bloco(s) 1, 2 | Pendente |
 | travessão | Bloco(s) 1, 2 | Pendente |
 | parênteses | Bloco(s) 1, 2 | Pendente |
-| aspas | Bloco(s) 1 | Pendente |
-| reticências | Não localizada automaticamente | Pendente |
+| aspas | Bloco(s) 1, 2 | Pendente |
+| reticências | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
