@@ -38,7 +38,7 @@ export const Tab1Painel: React.FC = () => {
             onClick={() => setCurrentTab('tab-apostila')}
             className="px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow transition self-start"
           >
-            Estudar as 49 Aulas Aprofundadas &rarr;
+            Estudar as {appData?.lessons.length || 0} Aulas Aprofundadas &rarr;
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
@@ -55,7 +55,7 @@ export const Tab1Painel: React.FC = () => {
             </p>
           </div>
           <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
-            <h3 className="font-bold text-slate-900 mb-1">3. Cobertura de 100% dos Subtópicos de Legislação, Português, RLM e Gerais</h3>
+            <h3 className="font-bold text-slate-900 mb-1">3. Revisão dos Subtópicos de Legislação, Português, RLM e Gerais</h3>
             <p className="text-slate-600 leading-relaxed">
               Integrados todos os 85 PDFs do Drive + 9 fontes oficiais, adicionando <strong>Nacionalidade (Arts. 12–13 CF)</strong>, <strong>Art. 29-A e 38 CF</strong>, <strong>LOM e LC 385/2010</strong>, <strong>LAI Estadual (Lei 3.166/13) e Municipal</strong>, <strong>Figuras de Sintaxe e Variação Linguística</strong>, <strong>Sistemas Lineares, Função do 1º Grau, Médias, Conjunto das Partes (2<sup>n</sup>) e Verdades/Mentiras</strong>, e <strong>Georreferenciamento (SIG/GPS)</strong>.
             </p>
@@ -163,7 +163,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center">50 Questões</td>
                 <td className="p-2.5 text-center">Peso 2,0</td>
                 <td className="p-2.5 text-center text-emerald-400">100,0 Pontos</td>
-                <td className="p-2.5 text-center">100%</td>
+                <td className="p-2.5 text-center">Conferir fontes</td>
                 <td className="p-2.5">Mínimo para aprovação: 50% (50,0 pontos)</td>
               </tr>
             </tbody>

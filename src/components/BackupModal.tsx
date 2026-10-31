@@ -62,7 +62,7 @@ export const BackupModal: React.FC = () => {
               Sincronizar Progresso entre Computador e Celular (Backup JSON):
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Seu progresso (status das aulas concluídas e respostas do simulado) fica gravado com segurança no seu navegador via <code>localStorage</code>. Exporte o arquivo JSON para salvar uma cópia ou importá-lo em outro celular ou computador:
+              Seu progresso (status das aulas e respostas das aulas e do simulado) fica gravado localmente no seu navegador via <code>localStorage</code>. Exporte o arquivo JSON para salvar uma cópia ou importá-lo em outro celular ou computador:
             </p>
             <div className="flex flex-wrap gap-2 pt-1">
               <button

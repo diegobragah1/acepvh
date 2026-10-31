@@ -298,19 +298,19 @@ test('Raciocinio Logico lessons are categorized into the exact 8 topics (rlm_1 t
     byId['rlm_2'].title,
     '2. Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem'
   );
-  assert.equal(byId['rlm_2'].blocks.length, 4);
+  assert.equal(byId['rlm_2'].blocks.length, 5);
 
   assert.equal(
     byId['rlm_3'].title,
     '3. Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa'
   );
-  assert.equal(byId['rlm_3'].blocks.length, 4);
+  assert.equal(byId['rlm_3'].blocks.length, 5);
 
   assert.equal(
     byId['rlm_4'].title,
     '4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada'
   );
-  assert.equal(byId['rlm_4'].blocks.length, 3);
+  assert.equal(byId['rlm_4'].blocks.length, 4);
 
   assert.equal(
     byId['rlm_5'].title,

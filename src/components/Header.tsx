@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
   }, []);
 
   // Calculate statistics
-  const totalLessons = appData?.lessons?.length || 49;
+  const totalLessons = appData?.lessons?.length || 0;
   let cNotStarted = 0;
   let cStudying = 0;
   let cCompleted = 0;
@@ -63,7 +63,7 @@ export const Header: React.FC = () => {
       else cNotStarted++;
     });
   } else {
-    cNotStarted = 49;
+    cNotStarted = totalLessons;
   }
 
   const doneCount = cCompleted + cMastered;
@@ -76,7 +76,7 @@ export const Header: React.FC = () => {
 
   const tabs = [
     { id: 'tab-painel', label: '1. Diagnóstico, Edital Retificado & Vagas (340–356)' },
-    { id: 'tab-apostila', label: '2. Apostila Aprofundada (49 Aulas: Modos A, B e C)' },
+    { id: 'tab-apostila', label: `2. Apostila (${totalLessons} aulas: Modos A, B e C)` },
     { id: 'tab-simulado', label: '3. Simulado IBGP (Peso 2) & Flashcards' },
     { id: 'tab-endemias', label: '4. Fichas Individuais das 14 Doenças, LIRAa & Roedores' },
     { id: 'tab-cronograma', label: '5. Matriz Integral de Auditoria & Cronograma 12 Semanas' },
@@ -92,7 +92,7 @@ export const Header: React.FC = () => {
           <div className="lg:col-span-7 space-y-3">
             <div className="flex flex-wrap items-center gap-2">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
-                AUDITORIA DOCUMENTAL 100% IMPLEMENTADA
+                CONTEÚDO E FONTES EM REVISÃO
               </span>
               <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40">
                 EDITAL Nº 25/2026 + RETIFICAÇÃO Nº 01 (EDITAL 28/2026)
@@ -106,7 +106,7 @@ export const Header: React.FC = () => {
               Plano de Estudos Integrado ACE — SEMUSA Porto Velho/RO 2026
             </h1>
             <p className="text-xs sm:text-sm text-slate-300">
-              Agente de Combate às Endemias &bull; <strong>Códigos 340 (Urbano: 96 vagas) e 341 a 356 (15 Distritos: 44 vagas) = 140 Vagas</strong> &bull; <strong>R$ 3.242,00 (40h)</strong> &bull; 50 Questões (Peso 2 = 100 pts) &bull; 49 Aulas + 14 Fichas de Endemias + 94 Fontes
+              Agente de Combate às Endemias &bull; <strong>Códigos 340 (Urbano: 96 vagas) e 341 a 356 (15 Distritos: 44 vagas) = 140 Vagas</strong> &bull; <strong>R$ 3.242,00 (40h)</strong> &bull; 50 Questões (Peso 2 = 100 pts) &bull; {totalLessons} Aulas + {appData?.endemics.length || 0} Fichas de Endemias + {appData?.sources.length || 0} Fontes
             </p>
 
             <div className="flex flex-wrap gap-1.5 pt-1 no-print">

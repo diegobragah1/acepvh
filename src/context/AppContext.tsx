@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { AppData, TopicStatus } from '../types';
 import { getStatusMeta } from '../utils/status';
 import { normalizeAppData } from '../utils/normalizeData';
+import { LESSON_ANSWERS_KEY, parseProgress, validAnswers, validStatuses, validCompleted } from '../utils/progress';
 
 const STORAGE_KEY_COMPLETED = "ace_semusa_2026_completed_lessons_v3";
 const STORAGE_KEY_TOPIC_STATUS = "ace_semusa_2026_topic_status_v1";
@@ -21,6 +22,8 @@ interface AppContextType {
   simAnswers: Record<string, number>;
   setSimAnswer: (qid: string, oidx: number) => void;
   resetSimAnswers: () => void;
+  lessonAnswers: Record<string, number>;
+  setLessonAnswers: React.Dispatch<React.SetStateAction<Record<string, number>>>;
   currentStudyMode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C';
   setCurrentStudyMode: (mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C') => void;
   toastMessage: string | null;
@@ -50,6 +53,9 @@ function loadStorage<T>(key: string, fallback: T): T {
     ) {
       return fallback;
     }
+    if (key === STORAGE_KEY_TOPIC_STATUS && !validStatuses(parsed)) return fallback;
+    if (key === STORAGE_KEY_COMPLETED && !validCompleted(parsed)) return fallback;
+    if ((key === STORAGE_KEY_ANSWERS || key === LESSON_ANSWERS_KEY) && !validAnswers(parsed)) return fallback;
     return parsed as T;
   } catch (err) {
     return fallback;
@@ -107,6 +113,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [simAnswers, setSimAnswers] = useState<Record<string, number>>(() =>
     loadStorage<Record<string, number>>(STORAGE_KEY_ANSWERS, {})
   );
+
+  const [lessonAnswers, setLessonAnswers] = useState<Record<string, number>>(() => loadStorage(LESSON_ANSWERS_KEY, {}));
+  useEffect(() => { saveStorage(LESSON_ANSWERS_KEY, lessonAnswers); }, [lessonAnswers]);
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isSitesModalOpen, setSitesModalOpen] = useState<boolean>(false);
@@ -249,7 +258,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       exportedAt: new Date().toISOString(),
       topicStatus,
       completedLessons,
-      simAnswers
+      simAnswers,
+      lessonAnswers
     };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
     const url = URL.createObjectURL(blob);
@@ -266,7 +276,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const importProgress = async (file: File) => {
     try {
       const text = await file.text();
-      const parsed = JSON.parse(text);
+      const parsed = parseProgress(JSON.parse(text));
 
       if (parsed.topicStatus && typeof parsed.topicStatus === 'object') {
         setTopicStatus(parsed.topicStatus);
@@ -280,7 +290,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setSimAnswers(parsed.simAnswers);
         saveStorage(STORAGE_KEY_ANSWERS, parsed.simAnswers);
       }
-      showToast("Progresso importado e sincronizado com sucesso!");
+      if (parsed.lessonAnswers !== undefined) {
+        setLessonAnswers(parsed.lessonAnswers);
+        saveStorage(LESSON_ANSWERS_KEY, parsed.lessonAnswers);
+      }
+      showToast("Progresso importado neste navegador com sucesso!");
     } catch (err) {
       showToast("Erro ao ler o arquivo JSON de progresso.");
     }
@@ -302,6 +316,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         simAnswers,
         setSimAnswer,
         resetSimAnswers,
+        lessonAnswers,
+        setLessonAnswers,
         currentStudyMode,
         setCurrentStudyMode,
         toastMessage,

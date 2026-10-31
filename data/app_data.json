@@ -13201,10 +13201,51 @@
               "back": "O PRODUTO / OBRA / TAREFA realizada (ex.: número de imóveis visitados, metros de muro construídos), enquanto Tempo, Operários e Horas/dia multiplicam-se entre si."
             }
           ]
+        },
+        {
+          "title": "Complemento autoral — Porcentagens sucessivas e proporcionalidade",
+          "modoA_markdown": "## Exemplo resolvido: desconto e aumento\nUm valor de R$ 200 recebe desconto de 20% e depois aumento de 20%.\n1. Desconto: 200 × 0,80 = 160.\n2. Aumento sobre a nova base: 160 × 1,20 = 192.\n3. Variação total: (192 − 200) / 200 = −0,04 = −4%.\nAs taxas incidem sobre bases diferentes; somar −20% e +20% produziria uma conclusão errada.\n\n## Exemplo resolvido: divisão proporcional\nDividir 120 unidades na razão 2:3: somar os pesos (5); calcular a unidade de razão (120/5 = 24); multiplicar por cada peso (48 e 72). Conferir: 48 + 72 = 120 e 48/72 = 2/3.\n\n## Como revisar o próprio erro\nIdentifique a base de cada porcentagem, escreva o fator multiplicativo e confira se o resultado faz sentido antes de consultar o gabarito.",
+          "modoB_markdown": "Desconto de p%: multiplicar por 1 − p/100. Aumento de p%: multiplicar por 1 + p/100. Em operações sucessivas, multiplicar os fatores. Na divisão diretamente proporcional, dividir o total pela soma dos pesos e multiplicar cada peso.",
+          "modoA": "",
+          "modoB": "",
+          "questions": [
+            {
+              "q": "[Autoral] Um valor de R$ 200 sofre desconto de 20% e depois aumento de 20%. Qual é o valor final?",
+              "options": [
+                "A) R$ 160",
+                "B) R$ 192",
+                "C) R$ 200",
+                "D) R$ 240"
+              ],
+              "ans": 1,
+              "comment": "200 × 0,80 × 1,20 = 192. A é apenas a primeira etapa; C soma taxas sobre bases diferentes; D aplica só o aumento ao valor inicial."
+            },
+            {
+              "q": "[Autoral] Dividem-se 120 unidades entre dois grupos na razão direta 2:3. Quanto recebe o grupo de peso 3?",
+              "options": [
+                "A) 24",
+                "B) 48",
+                "C) 60",
+                "D) 72"
+              ],
+              "ans": 3,
+              "comment": "Os pesos somam 5; cada unidade de razão vale 120/5 = 24. O grupo de peso 3 recebe 3 × 24 = 72. A é a unidade de razão; B é a outra parte; C divide igualmente e ignora os pesos."
+            }
+          ],
+          "flashcards": [
+            {
+              "f": "Por que −20% e +20% não se anulam em etapas sucessivas?",
+              "b": "Porque as bases mudam: 0,80 × 1,20 = 0,96; o resultado é redução de 4%."
+            },
+            {
+              "f": "Como dividir 120 na razão 2:3?",
+              "b": "120/(2+3) = 24; as partes são 2×24 = 48 e 3×24 = 72."
+            }
+          ]
         }
       ],
-      "questionsCount": 10,
-      "flashcardsCount": 12
+      "questionsCount": 12,
+      "flashcardsCount": 14
     },
     {
       "id": "rlm_3",
@@ -13553,10 +13594,51 @@
               "back": "❌ Mito/Pegadinha: \"Para converter 2,5 m² em cm², basta multiplicar por 100, obtendo 250 cm².\" — ✅ CORRETO: FALSO! Nas unidades de ÁREA (m² -> dm² -> cm²), cada degrau multiplica por 100 (2 casas). De m² para cm² são 2 degraus, logo multiplica por 10.000: 2,5 m² = 25.000 cm²!"
             }
           ]
+        },
+        {
+          "title": "Complemento autoral — Conversões de capacidade e tempo",
+          "modoA_markdown": "## Exemplo resolvido: capacidade de um reservatório\nConsidere um reservatório retangular ideal, com dimensões internas 2 m × 1,5 m × 0,8 m, completamente cheio.\n1. Volume = comprimento × largura × altura = 2,4 m³.\n2. Como 1 m³ = 1.000 litros, capacidade = 2.400 litros.\n3. As três medidas devem estar na mesma unidade antes da multiplicação.\nEste exemplo calcula capacidade geométrica; não prescreve tratamento ou dosagem de produtos.\n\n## Exemplo resolvido: tempo em horas decimais\n2 h 30 min = 2 + 30/60 = 2,5 h. Escrever 2,30 h significa 2 h e 18 min, pois 0,30 × 60 = 18.\n\n## Conferência independente\nCompare as unidades de entrada e saída e faça o caminho inverso: 2.400/1.000 = 2,4 m³; 0,5 × 60 = 30 minutos.",
+          "modoB_markdown": "1 m³ = 1.000 L; 1 L = 1.000 mL. Para converter minutos em fração de hora, dividir por 60. Para converter a parte decimal de hora em minutos, multiplicar por 60.",
+          "modoA": "",
+          "modoB": "",
+          "questions": [
+            {
+              "q": "[Autoral] Um reservatório retangular ideal tem dimensões internas de 2 m, 1,5 m e 0,8 m. Cheio, qual é sua capacidade?",
+              "options": [
+                "A) 240 L",
+                "B) 2.400 L",
+                "C) 24.000 L",
+                "D) 4.300 L"
+              ],
+              "ans": 1,
+              "comment": "V = 2 × 1,5 × 0,8 = 2,4 m³ = 2.400 L. A e C usam fatores de conversão incorretos; D soma dimensões, operação que não fornece volume."
+            },
+            {
+              "q": "[Autoral] Como expressar 2 horas e 30 minutos em horas decimais?",
+              "options": [
+                "A) 2,30 h",
+                "B) 2,03 h",
+                "C) 2,5 h",
+                "D) 3 h"
+              ],
+              "ans": 2,
+              "comment": "30 minutos correspondem a 30/60 = 0,5 hora. Portanto, 2 + 0,5 = 2,5 h. O sistema de minutos é sexagesimal; concatenar 2 e 30 não converte a unidade."
+            }
+          ],
+          "flashcards": [
+            {
+              "f": "Como converter 2,4 m³ em litros?",
+              "b": "Multiplicar por 1.000: 2.400 L."
+            },
+            {
+              "f": "Como transformar 45 minutos em horas decimais?",
+              "b": "45/60 = 0,75 hora."
+            }
+          ]
         }
       ],
-      "questionsCount": 12,
-      "flashcardsCount": 15
+      "questionsCount": 14,
+      "flashcardsCount": 17
     },
     {
       "id": "rlm_4",
@@ -13814,10 +13896,51 @@
               "b": "Equivale exatamente à Média Aritmética Simples."
             }
           ]
+        },
+        {
+          "title": "Complemento autoral — Médias simples e ponderadas",
+          "modoA_markdown": "## Exemplo resolvido: média simples\nTrês resultados são 6, 8 e 10. Soma = 24; quantidade = 3; média = 24/3 = 8.\n\n## Exemplo resolvido: média ponderada\nUma nota 6 tem peso 1 e uma nota 9 tem peso 2.\n1. Produtos: 6 × 1 = 6; 9 × 2 = 18.\n2. Soma ponderada: 6 + 18 = 24.\n3. Soma dos pesos: 1 + 2 = 3.\n4. Média: 24/3 = 8.\nDividir pela quantidade de notas (2) daria 12, resultado fora do intervalo entre 6 e 9: um sinal de erro.\n\n## Estratégia de revisão\nAntes de calcular, identifique se todos os valores têm o mesmo peso. Depois confira se a média está entre o menor e o maior valor, considerando pesos positivos.",
+          "modoB_markdown": "Média simples = soma dos valores / quantidade. Média ponderada = soma dos produtos valor×peso / soma dos pesos. Com pesos positivos, a média permanece entre o menor e o maior valor.",
+          "modoA": "",
+          "modoB": "",
+          "questions": [
+            {
+              "q": "[Autoral] Qual é a média aritmética simples de 6, 8 e 10?",
+              "options": [
+                "A) 6",
+                "B) 8",
+                "C) 10",
+                "D) 24"
+              ],
+              "ans": 1,
+              "comment": "(6 + 8 + 10)/3 = 24/3 = 8. D é só a soma; A e C são os extremos, sem efetuar a operação."
+            },
+            {
+              "q": "[Autoral] Uma nota 6 tem peso 1 e uma nota 9 tem peso 2. Qual é a média ponderada?",
+              "options": [
+                "A) 7,5",
+                "B) 8",
+                "C) 9",
+                "D) 12"
+              ],
+              "ans": 1,
+              "comment": "(6×1 + 9×2)/(1+2) = 24/3 = 8. A ignora os pesos; C considera só uma nota; D divide por 2 em vez da soma dos pesos."
+            }
+          ],
+          "flashcards": [
+            {
+              "f": "Qual é o denominador da média ponderada?",
+              "b": "A soma dos pesos, e não necessariamente a quantidade de valores."
+            },
+            {
+              "f": "Como verificar uma média com pesos positivos?",
+              "b": "Ela deve ficar entre o menor e o maior valor; isso detecta alguns erros, mas não substitui o cálculo."
+            }
+          ]
         }
       ],
-      "questionsCount": 8,
-      "flashcardsCount": 11
+      "questionsCount": 10,
+      "flashcardsCount": 13
     },
     {
       "id": "rlm_5",
@@ -17294,7 +17417,9 @@
       "lessons": [
         "esp_1",
         "esp_2",
-        "por_1"
+        "por_1",
+        "por_9",
+        "por_18"
       ]
     },
     {
@@ -17304,7 +17429,9 @@
       "lessons": [
         "esp_3",
         "esp_4",
-        "rlm_1"
+        "rlm_1",
+        "por_10",
+        "rlm_2"
       ]
     },
     {
@@ -17314,7 +17441,9 @@
       "lessons": [
         "esp_5",
         "esp_6",
-        "leg_1"
+        "leg_1",
+        "por_11",
+        "rlm_7"
       ]
     },
     {
@@ -17324,7 +17453,9 @@
       "lessons": [
         "esp_7",
         "esp_8",
-        "leg_2"
+        "leg_2",
+        "por_12",
+        "rlm_8"
       ]
     },
     {
@@ -17334,7 +17465,8 @@
       "lessons": [
         "esp_9",
         "esp_10",
-        "por_2"
+        "por_2",
+        "por_13"
       ]
     },
     {
@@ -17343,7 +17475,9 @@
       "meta": "Fixar fichas 5 a 8 de Endemias + Doc Oficial #93 (LC 385/2010 completa)",
       "lessons": [
         "esp_8",
-        "leg_2"
+        "leg_2",
+        "por_3",
+        "por_14"
       ]
     },
     {
@@ -17352,7 +17486,9 @@
       "meta": "Fixar fichas 9 a 14 (incluindo Febre Maculosa) + PDFs #9–11, #13, #17–19",
       "lessons": [
         "esp_9",
-        "rlm_3"
+        "rlm_3",
+        "por_7",
+        "por_15"
       ]
     },
     {
@@ -17362,7 +17498,8 @@
       "lessons": [
         "leg_3",
         "leg_4",
-        "por_4"
+        "por_4",
+        "por_16"
       ]
     },
     {
@@ -17371,7 +17508,9 @@
       "meta": "Estudar PDFs #41, #49, #50 e #14–16 (Regra de Três Composta e Porcentagem)",
       "lessons": [
         "leg_5",
-        "rlm_4"
+        "rlm_4",
+        "por_8",
+        "por_17"
       ]
     },
     {
@@ -17703,13 +17842,14 @@
     {
       "id": "esp_1",
       "num": 1,
-      "slug": "01-esp_1",
+      "slug": "01-cf88-seguridade-saude-evolucao-historica-pnps",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "1. Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "1. Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200",
       "editalRef": "1 - Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200.",
-      "auditBadge": "CATEGORIA 1 DO EDITAL — TEXTO CONSTITUCIONAL + EMENDAS 100% COBERTOS",
+      "mdPath": "./content/conhecimentos-especificos/01-cf88-seguridade-saude-evolucao-historica-pnps.md",
+      "mdLegacyPath": "./content/esp_1.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         56,
         62,
@@ -17723,13 +17863,14 @@
     {
       "id": "esp_2",
       "num": 2,
-      "slug": "02-esp_2",
+      "slug": "02-lei-8080-1990-parte-1-principios-competencias-subsistema-indigena",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "2. Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "2. Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990",
       "editalRef": "2 - Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990.",
-      "auditBadge": "CATEGORIA 2 DO EDITAL — LEIS 8.080/90, 8.142/90 E PORTARIA 2.436/17 INTEGRAIS",
+      "mdPath": "./content/conhecimentos-especificos/02-lei-8080-1990-parte-1-principios-competencias-subsistema-indigena.md",
+      "mdLegacyPath": "./content/esp_2.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         57,
         58,
@@ -17745,14 +17886,15 @@
     },
     {
       "id": "esp_3",
-      "num": 3,
-      "slug": "03-esp_3",
+      "num": 5,
+      "slug": "05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018",
       "editalRef": "3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018 (incluindo Lei nº 14.536/2023 e EC nº 120/2022).",
-      "auditBadge": "CATEGORIA 3 DO EDITAL — MARCO LEGAL INTEGRAL DO ACE (11.350 + 13.708 + 13.595)",
+      "mdPath": "./content/conhecimentos-especificos/05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa.md",
+      "mdLegacyPath": "./content/esp_5.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         61,
         86,
@@ -17767,14 +17909,15 @@
     },
     {
       "id": "esp_4",
-      "num": 4,
-      "slug": "04-esp_4",
+      "num": 2,
+      "slug": "02-lei-8080-1990-parte-1-principios-competencias-subsistema-indigena",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "4. Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "4. Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde",
       "editalRef": "4 - Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde.",
-      "auditBadge": "CATEGORIA 4 DO EDITAL — PRINCÍPIOS, COMPETÊNCIAS DO SUS E PROMOÇÃO/PROTEÇÃO DA SAÚDE",
+      "mdPath": "./content/conhecimentos-especificos/02-lei-8080-1990-parte-1-principios-competencias-subsistema-indigena.md",
+      "mdLegacyPath": "./content/esp_2.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         57,
         60,
@@ -17789,14 +17932,15 @@
     },
     {
       "id": "esp_5",
-      "num": 5,
-      "slug": "05-esp_5",
+      "num": 4,
+      "slug": "04-decreto-7508-2011-redes-atencao-pnab-2017-humanizasus",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "5. Política Nacional de Atenção Básica",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "5. Política Nacional de Atenção Básica",
       "editalRef": "5 - Política Nacional de Atenção Básica (Portaria GM/MS nº 2.436/2017 — PNAB, Processo de Trabalho, Equipes e Integração com a Rede de Atenção à Saúde).",
-      "auditBadge": "CATEGORIA 5 DO EDITAL — POLÍTICA NACIONAL DE ATENÇÃO BÁSICA (PNAB) 100% DETALHADA",
+      "mdPath": "./content/conhecimentos-especificos/04-decreto-7508-2011-redes-atencao-pnab-2017-humanizasus.md",
+      "mdLegacyPath": "./content/esp_4.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         59,
         60,
@@ -17810,14 +17954,15 @@
     },
     {
       "id": "esp_6",
-      "num": 6,
-      "slug": "06-esp_6",
+      "num": 5,
+      "slug": "05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "6. História e Evolução da Profissão de ACE",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "6. História e Evolução da Profissão de ACE",
       "editalRef": "6 - História e Evolução da Profissão de ACE.",
-      "auditBadge": "CATEGORIA 6 DO EDITAL — HISTÓRIA E EVOLUÇÃO COMPLETA DA PROFISSÃO DE ACE",
+      "mdPath": "./content/conhecimentos-especificos/05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa.md",
+      "mdLegacyPath": "./content/esp_5.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         56,
         61,
@@ -17831,14 +17976,15 @@
     },
     {
       "id": "esp_7",
-      "num": 7,
-      "slug": "07-esp_7",
+      "num": 32,
+      "slug": "32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "7. Atribuições do Agente de Combate a Endemias",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "7. Atribuições do Agente de Combate a Endemias",
       "editalRef": "7 - Atribuições do Agente de Combate a Endemias (Lei Federal nº 11.350/2006, Lei nº 13.595/2018, Anexo II SEMUSA PVH e Operações Práticas de Campo).",
-      "auditBadge": "CATEGORIA 7 DO EDITAL — ATRIBUIÇÕES LEGAIS E OPERACIONAIS DE CAMPO DO ACE",
+      "mdPath": "./content/conhecimentos-especificos/32-calculos-operacionais-cubagem-diluicao-larvicidas-biosseguranca-rg.md",
+      "mdLegacyPath": "./content/esp_10.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         61,
         67,
@@ -17854,14 +18000,15 @@
     },
     {
       "id": "esp_8",
-      "num": 8,
-      "slug": "08-esp_8",
+      "num": 6,
+      "slug": "06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "8. Vigilância em Saúde",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "8. Vigilância em Saúde",
       "editalRef": "8 - Vigilância em Saúde (Vigilância Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador; PNVS Resolução CNS nº 588/2018; Indicadores e Sistemas de Informação em Saúde).",
-      "auditBadge": "CATEGORIA 8 DO EDITAL — VIGILÂNCIA EM SAÚDE, PNVS E SISTEMAS DE INFORMAÇÃO",
+      "mdPath": "./content/conhecimentos-especificos/06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep.md",
+      "mdLegacyPath": "./content/esp_6.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         60,
         68,
@@ -17875,14 +18022,15 @@
     },
     {
       "id": "esp_9",
-      "num": 9,
-      "slug": "09-esp_9",
+      "num": 7,
+      "slug": "07-arboviroses-dengue-zika-chikungunya-febre-amarela-liraa",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19",
       "editalRef": "9 - Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19.",
-      "auditBadge": "CATEGORIA 9 DO EDITAL — AS 14 DOENÇAS ESPECÍFICAS EM 12 BLOCOS APROFUNDADOS",
+      "mdPath": "./content/conhecimentos-especificos/07-arboviroses-dengue-zika-chikungunya-febre-amarela-liraa.md",
+      "mdLegacyPath": "./content/esp_7.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         66,
         67,
@@ -17897,14 +18045,15 @@
     },
     {
       "id": "esp_10",
-      "num": 10,
-      "slug": "10-esp_10",
+      "num": 6,
+      "slug": "06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep",
       "cat": "esp",
-      "materia": "Conhecimentos Específicos ACE",
-      "weight": "15 Questões • Peso 2 (30 pts)",
-      "titulo": "10. Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle",
+      "catName": "Conhecimentos Específicos ACE",
+      "title": "10. Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle",
       "editalRef": "10 - Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle.",
-      "auditBadge": "CATEGORIA 10 DO EDITAL — CADEIA EPIDEMIOLÓGICA E MATRIZ SINÓPTICA DAS 14 DOENÇAS",
+      "mdPath": "./content/conhecimentos-especificos/06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep.md",
+      "mdLegacyPath": "./content/esp_6.md",
+      "subjectFolder": "conhecimentos-especificos",
       "sources": [
         60,
         66,
@@ -17920,14 +18069,15 @@
     },
     {
       "id": "leg_1",
-      "num": 11,
-      "slug": "11-leg_1",
+      "num": 10,
+      "slug": "10-lei-organica-municipio-porto-velho-lom-pvh",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "1. Lei Orgânica do Município de Porto Velho/RO e atualizações",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "1. Lei Orgânica do Município de Porto Velho/RO e atualizações",
       "editalRef": "1 - Lei Orgânica do Município de Porto Velho/RO e atualizações.",
-      "auditBadge": "LEGISLAÇÃO ITEM 1 — LEI ORGÂNICA DE PORTO VELHO (LOM-PVH) INTEGRAL",
+      "mdPath": "./content/legislacao/10-lei-organica-municipio-porto-velho-lom-pvh.md",
+      "mdLegacyPath": "./content/leg_1.md",
+      "subjectFolder": "legislacao",
       "sources": [
         49,
         86,
@@ -17940,14 +18090,15 @@
     },
     {
       "id": "leg_2",
-      "num": 12,
-      "slug": "12-leg_2",
+      "num": 11,
+      "slug": "11-estatuto-servidores-porto-velho-lc-385-2010",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "2. Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações)",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "2. Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações)",
       "editalRef": "2 - Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações).",
-      "auditBadge": "LEGISLAÇÃO ITEM 2 — LC MUNICIPAL Nº 385/2010 INTEGRAL (ARTS. 1º A 237)",
+      "mdPath": "./content/legislacao/11-estatuto-servidores-porto-velho-lc-385-2010.md",
+      "mdLegacyPath": "./content/leg_2.md",
+      "subjectFolder": "legislacao",
       "sources": [
         50,
         86,
@@ -17960,14 +18111,15 @@
     },
     {
       "id": "leg_3",
-      "num": 13,
-      "slug": "13-leg_3",
+      "num": 12,
+      "slug": "12-planos-carreira-remuneracao-semusa-ace-lcs-390-391-2010",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "3. Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações)",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "3. Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações)",
       "editalRef": "3 - Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações).",
-      "auditBadge": "LEGISLAÇÃO ITEM 3 — PLANOS DE CARREIRA DA SAÚDE E ACE (LEIS 390/2010 E 391/2010)",
+      "mdPath": "./content/legislacao/12-planos-carreira-remuneracao-semusa-ace-lcs-390-391-2010.md",
+      "mdLegacyPath": "./content/leg_3.md",
+      "subjectFolder": "legislacao",
       "sources": [
         50,
         86,
@@ -17983,13 +18135,14 @@
     {
       "id": "leg_4",
       "num": 14,
-      "slug": "14-leg_4",
+      "slug": "14-direito-constitucional-2-municipios-administracao-publica-estatuto-pcd",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "4. Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "4. Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
       "editalRef": "4 - Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência — Lei Federal nº 13.146/2015).",
-      "auditBadge": "LEGISLAÇÃO ITEM 4 — ESTATUTO DA PESSOA COM DEFICIÊNCIA (LEI 13.146/2015 INTEGRAL)",
+      "mdPath": "./content/legislacao/14-direito-constitucional-2-municipios-administracao-publica-estatuto-pcd.md",
+      "mdLegacyPath": "./content/leg_5.md",
+      "subjectFolder": "legislacao",
       "sources": [
         41,
         86,
@@ -18001,14 +18154,15 @@
     },
     {
       "id": "leg_5",
-      "num": 15,
-      "slug": "15-leg_5",
+      "num": 13,
+      "slug": "13-direito-constitucional-1-principios-fundamentais-direitos-garantias-nacionalidade",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "5. Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "5. Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39",
       "editalRef": "5 - Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39.",
-      "auditBadge": "LEGISLAÇÃO ITEM 5 — DIREITO CONSTITUCIONAL COMPLETO (ARTS. 1º–4º, 5º–13, 29–31 E 37–39)",
+      "mdPath": "./content/legislacao/13-direito-constitucional-1-principios-fundamentais-direitos-garantias-nacionalidade.md",
+      "mdLegacyPath": "./content/leg_4.md",
+      "subjectFolder": "legislacao",
       "sources": [
         42,
         43,
@@ -18028,14 +18182,15 @@
     },
     {
       "id": "leg_6",
-      "num": 16,
-      "slug": "16-leg_6",
+      "num": 15,
+      "slug": "15-nova-lei-licitacoes-contratos-lei-14133-2021-pregao",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "6. Lei de Licitações e Pregão (Lei Federal nº 14.133/2021)",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "6. Lei de Licitações e Pregão (Lei Federal nº 14.133/2021)",
       "editalRef": "6 - Lei de Licitações e Pregão (Lei Federal nº 14.133/2021).",
-      "auditBadge": "LEGISLAÇÃO ITEM 6 — LEI FEDERAL Nº 14.133/2021 E PREGÃO (ARTS. 1º A 194 INTEGRAIS)",
+      "mdPath": "./content/legislacao/15-nova-lei-licitacoes-contratos-lei-14133-2021-pregao.md",
+      "mdLegacyPath": "./content/leg_6.md",
+      "subjectFolder": "legislacao",
       "sources": [
         51,
         52,
@@ -18049,14 +18204,15 @@
     },
     {
       "id": "leg_7",
-      "num": 17,
-      "slug": "17-leg_7",
+      "num": 16,
+      "slug": "16-lei-acesso-informacao-lai-federal-estadual-ro-municipal-pvh",
       "cat": "leg",
-      "materia": "Legislação Municipal, Constitucional e Administrativa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "7. Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação",
+      "catName": "Legislação Municipal, Constitucional e Administrativa",
+      "title": "7. Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação",
       "editalRef": "7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação.",
-      "auditBadge": "LEGISLAÇÃO ITEM 7 — LEI DE ACESSO À INFORMAÇÃO FEDERAL (12.527/11), ESTADUAL (RO) E MUNICIPAL (PVH)",
+      "mdPath": "./content/legislacao/16-lei-acesso-informacao-lai-federal-estadual-ro-municipal-pvh.md",
+      "mdLegacyPath": "./content/leg_7.md",
+      "subjectFolder": "legislacao",
       "sources": [
         53,
         86,
@@ -18069,276 +18225,275 @@
     },
     {
       "id": "por_1",
-      "num": 18,
-      "slug": "18-por_1",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "1. Compreensão e Interpretação de Textos, Tipologia Textual e Gêneros Textuais",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Compreensão e interpretação de textos; Tipos e gêneros textuais.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        38,
-        39,
-        40,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Língua Portuguesa",
+      "title": "1. Compreensão e interpretação de textos",
+      "editalRef": "Item 1 de Língua Portuguesa — Compreensão e interpretação de textos.",
+      "blocksCount": 3,
+      "questionsCount": 7,
+      "flashcardsCount": 8
     },
     {
       "id": "por_2",
-      "num": 19,
-      "slug": "19-por_2",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "2. Ortografia Oficial, Acentuação Gráfica, Emprego do Hífen e Semântica Lexical",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Ortografia oficial; Acentuação gráfica; Significação das palavras.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        23,
-        35,
-        36,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Língua Portuguesa",
+      "title": "2. Gêneros e tipos de texto",
+      "editalRef": "Item 2 de Língua Portuguesa — Gêneros e tipos de texto.",
+      "blocksCount": 2,
+      "questionsCount": 4,
+      "flashcardsCount": 5
     },
     {
       "id": "por_3",
-      "num": 20,
-      "slug": "20-por_3",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "3. Coesão, Coerência, Conjunções, Operadores Argumentativos Escalares, Pressupostos e Subentendidos",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Coesão e coerência; Conjunções; Operadores argumentativos; Pressupostos e subentendidos.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        26,
-        37,
-        39,
-        86,
-        91
-      ],
-      "blocksCount": 4,
+      "catName": "Língua Portuguesa",
+      "title": "3. Significação das palavras",
+      "editalRef": "Item 3 de Língua Portuguesa — Significação das palavras.",
+      "blocksCount": 2,
+      "questionsCount": 6,
+      "flashcardsCount": 7
+    },
+    {
+      "id": "por_4",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "4. Figuras de Sintaxe",
+      "editalRef": "Item 4 de Língua Portuguesa — Figuras de Sintaxe.",
+      "blocksCount": 2,
+      "questionsCount": 4,
+      "flashcardsCount": 6
+    },
+    {
+      "id": "por_5",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "5. Figuras de Linguagem",
+      "editalRef": "Item 5 de Língua Portuguesa — Figuras de Linguagem.",
+      "blocksCount": 2,
+      "questionsCount": 4,
+      "flashcardsCount": 5
+    },
+    {
+      "id": "por_6",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "6. Articulação textual: operadores sequenciais, expressões referenciais",
+      "editalRef": "Item 6 de Língua Portuguesa — Articulação textual: operadores sequenciais, expressões referenciais.",
+      "blocksCount": 3,
       "questionsCount": 6,
       "flashcardsCount": 8
     },
     {
-      "id": "por_4",
-      "num": 21,
-      "slug": "21-por_4",
+      "id": "por_7",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "4. Morfologia: Classes de Palavras, Formação de Palavras, Verbos (Tempos, Modos e Vozes) e Colocação Pronominal",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Morfologia; Classes de palavras; Flexão nominal e verbal; Pronomes.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        22,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        86,
-        91
-      ],
-      "blocksCount": 4,
+      "catName": "Língua Portuguesa",
+      "title": "7. Coesão e coerência textual",
+      "editalRef": "Item 7 de Língua Portuguesa — Coesão e coerência textual.",
+      "blocksCount": 3,
+      "questionsCount": 6,
+      "flashcardsCount": 8
+    },
+    {
+      "id": "por_8",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "8. Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras",
+      "editalRef": "Item 8 de Língua Portuguesa — Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "blocksCount": 3,
       "questionsCount": 8,
       "flashcardsCount": 9
     },
     {
-      "id": "por_5",
-      "num": 22,
-      "slug": "22-por_5",
+      "id": "por_9",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "5. Sintaxe I: Análise Sintática, Concordância Verbal e Nominal",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Sintaxe da oração e do período; Concordância verbal e nominal.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        30,
-        31,
-        32,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Língua Portuguesa",
+      "title": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais",
+      "editalRef": "Item 9 de Língua Portuguesa — Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais.",
+      "blocksCount": 2,
+      "questionsCount": 3,
+      "flashcardsCount": 5
     },
     {
-      "id": "por_6",
-      "num": 23,
-      "slug": "23-por_6",
+      "id": "por_10",
       "cat": "por",
-      "materia": "Língua Portuguesa",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "6. Sintaxe II: Regência Verbal e Nominal, Emprego do Sinal Indicativo de Crase e Pontuação",
-      "editalRef": "Anexo IV — Língua Portuguesa (Nível Médio/ACE): Regência verbal e nominal; Crase; Pontuação.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        33,
-        34,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Língua Portuguesa",
+      "title": "10. Concordância verbal e nominal",
+      "editalRef": "Item 10 de Língua Portuguesa — Concordância verbal e nominal.",
+      "blocksCount": 3,
+      "questionsCount": 5,
+      "flashcardsCount": 7
+    },
+    {
+      "id": "por_11",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "11. Regência verbal e nominal",
+      "editalRef": "Item 11 de Língua Portuguesa — Regência verbal e nominal.",
+      "blocksCount": 3,
+      "questionsCount": 5,
+      "flashcardsCount": 7
+    },
+    {
+      "id": "por_12",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "12. Crase",
+      "editalRef": "Item 12 de Língua Portuguesa — Crase.",
+      "blocksCount": 2,
+      "questionsCount": 3,
+      "flashcardsCount": 5
+    },
+    {
+      "id": "por_13",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "13. Colocação pronominal",
+      "editalRef": "Item 13 de Língua Portuguesa — Colocação pronominal.",
+      "blocksCount": 3,
+      "questionsCount": 6,
+      "flashcardsCount": 8
+    },
+    {
+      "id": "por_14",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos",
+      "editalRef": "Item 14 de Língua Portuguesa — Estrutura da oração e do período: aspectos sintáticos e semânticos.",
+      "blocksCount": 3,
+      "questionsCount": 5,
+      "flashcardsCount": 8
+    },
+    {
+      "id": "por_15",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "15. Acentuação gráfica",
+      "editalRef": "Item 15 de Língua Portuguesa — Acentuação gráfica.",
+      "blocksCount": 2,
+      "questionsCount": 2,
+      "flashcardsCount": 4
+    },
+    {
+      "id": "por_16",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "16. Ortografia",
+      "editalRef": "Item 16 de Língua Portuguesa — Ortografia.",
+      "blocksCount": 2,
+      "questionsCount": 4,
+      "flashcardsCount": 5
+    },
+    {
+      "id": "por_17",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "17. Pontuação",
+      "editalRef": "Item 17 de Língua Portuguesa — Pontuação.",
+      "blocksCount": 2,
+      "questionsCount": 5,
+      "flashcardsCount": 6
+    },
+    {
+      "id": "por_18",
+      "cat": "por",
+      "catName": "Língua Portuguesa",
+      "title": "18. Variação linguística",
+      "editalRef": "Item 18 de Língua Portuguesa — Variação linguística.",
+      "blocksCount": 2,
+      "questionsCount": 4,
+      "flashcardsCount": 5
     },
     {
       "id": "rlm_1",
-      "num": 24,
-      "slug": "24-rlm_1",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "1. Lógica Proposicional I: Proposições, Conectivos Lógicos, Tabelas-Verdade, Tautologia, Contradição e Contingência",
-      "editalRef": "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Estruturas lógicas; Conectivos; Tabelas-verdade; Tautologia, contradição e contingência.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        1,
-        2,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Raciocínio Lógico",
+      "title": "1. Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum",
+      "editalRef": "Item 1 de Raciocínio Lógico — Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum.",
+      "blocksCount": 3,
+      "questionsCount": 14,
+      "flashcardsCount": 16
     },
     {
       "id": "rlm_2",
-      "num": 25,
-      "slug": "25-rlm_2",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "2. Lógica Proposicional II: Negação de Proposições Composto (Leis de De Morgan), Equivalências Lógicas, Quantificadores e Argumentação",
-      "editalRef": "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Negação e equivalência de proposições; Diagramas lógicos e quantificadores; Argumentação lógica.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Raciocínio Lógico",
+      "title": "2. Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem",
+      "editalRef": "Item 2 de Raciocínio Lógico — Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem.",
+      "blocksCount": 5,
+      "questionsCount": 12,
+      "flashcardsCount": 14
     },
     {
       "id": "rlm_3",
-      "num": 26,
-      "slug": "26-rlm_3",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "3. Operações com Conjuntos, Conjuntos Numéricos, Equações, Sistemas Lineares de 1º Grau e Médias (Aritmética Simples e Ponderada)",
-      "editalRef": "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Conjuntos; Números naturais, inteiros, racionais e reais; Equações e sistemas lineares; Médias.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        9,
-        10,
-        11,
-        13,
-        17,
-        18,
-        19,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 10,
-      "flashcardsCount": 12
+      "catName": "Raciocínio Lógico",
+      "title": "3. Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa",
+      "editalRef": "Item 3 de Raciocínio Lógico — Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa.",
+      "blocksCount": 5,
+      "questionsCount": 14,
+      "flashcardsCount": 17
     },
     {
       "id": "rlm_4",
-      "num": 27,
-      "slug": "27-rlm_4",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "4. Razão, Proporção, Regra de Três (Simples e Composta), Porcentagem e Frações",
-      "editalRef": "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Frações; Razão e proporção; Regra de três simples e composta; Porcentagem.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        14,
-        15,
-        16,
-        86,
-        91
-      ],
+      "catName": "Raciocínio Lógico",
+      "title": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada",
+      "editalRef": "Item 4 de Raciocínio Lógico — Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada.",
       "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "questionsCount": 10,
+      "flashcardsCount": 13
     },
     {
       "id": "rlm_5",
-      "num": 28,
-      "slug": "28-rlm_5",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "5. Sequências Lógicas, Progressão Aritmética (PA), Progressão Geométrica (PG), Análise Combinatória e Probabilidade",
-      "editalRef": "Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Sequências numéricas, de letras e figuras; PA e PG; Princípio fundamental da contagem, arranjo, permutação, combinação e probabilidade.",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 4 ETAPAS)",
-      "sources": [
-        8,
-        20,
-        21,
-        86,
-        91
-      ],
-      "blocksCount": 4,
-      "questionsCount": 8,
-      "flashcardsCount": 9
+      "catName": "Raciocínio Lógico",
+      "title": "5. Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores",
+      "editalRef": "Item 5 de Raciocínio Lógico — Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores.",
+      "blocksCount": 6,
+      "questionsCount": 15,
+      "flashcardsCount": 18
     },
     {
       "id": "rlm_6",
-      "num": 29,
-      "slug": "29-rlm_6",
       "cat": "rlm",
-      "materia": "Raciocínio Lógico-Matemático",
-      "weight": "10 Questões • Peso 2 (20 pts)",
-      "titulo": "6. Geometria Plana e Espacial (Áreas, Perímetros e Volumes), Unidades de Medida e Princípio da Casa dos Pombos",
-      "editalRef": "Anexo IV — Raciocínio Lógico-Matemático (Nível Médio/ACE): Geometria básica (áreas, perímetros e volumes de sólidos geométricos); Sistema métrico decimal (unidades de comprimento, superfície, capacidade, volume e massa); Princípio fundamental da contagem e Princípio da Casa dos Pombos (Dirichlet).",
-      "auditBadge": "AULA INTEGRAL NÍVEL LIVRO DIDÁTICO (ESTRUTURA EM 3 BLOCOS)",
-      "sources": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        86,
-        91
-      ],
+      "catName": "Raciocínio Lógico",
+      "title": "6. Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras",
+      "editalRef": "Item 6 de Raciocínio Lógico — Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras.",
+      "blocksCount": 5,
+      "questionsCount": 12,
+      "flashcardsCount": 16
+    },
+    {
+      "id": "rlm_7",
+      "cat": "rlm",
+      "catName": "Raciocínio Lógico",
+      "title": "7. Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações",
+      "editalRef": "Item 7 de Raciocínio Lógico — Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações.",
       "blocksCount": 4,
-      "questionsCount": 9,
-      "flashcardsCount": 9
+      "questionsCount": 12,
+      "flashcardsCount": 14
+    },
+    {
+      "id": "rlm_8",
+      "cat": "rlm",
+      "catName": "Raciocínio Lógico",
+      "title": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial",
+      "editalRef": "Item 8 de Raciocínio Lógico — Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial.",
+      "blocksCount": 4,
+      "questionsCount": 11,
+      "flashcardsCount": 14
     },
     {
       "id": "atu_1",
       "num": 30,
-      "slug": "30-atu_1",
+      "slug": "30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "1. Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "1. Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional",
       "editalRef": "1 - Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional.",
-      "auditBadge": "GERAIS ITEM 1 — CULTURA GERAL E FATOS DOS ÚLTIMOS 5 ANOS (2021–2026)",
+      "mdPath": "./content/conhecimentos-gerais/30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural.md",
+      "mdLegacyPath": "./content/atu_2.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         70,
         71,
@@ -18355,14 +18510,15 @@
     },
     {
       "id": "atu_2",
-      "num": 31,
-      "slug": "31-atu_2",
+      "num": 30,
+      "slug": "30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo",
       "editalRef": "2 - Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo.",
-      "auditBadge": "GERAIS ITEM 2 — HUMANIDADES: MOVIMENTOS ARTÍSTICOS, CULTURAIS E SOCIAIS",
+      "mdPath": "./content/conhecimentos-gerais/30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural.md",
+      "mdLegacyPath": "./content/atu_2.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         77,
         78,
@@ -18376,14 +18532,15 @@
     },
     {
       "id": "atu_3",
-      "num": 32,
-      "slug": "32-atu_3",
+      "num": 29,
+      "slug": "29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "3. Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "3. Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo",
       "editalRef": "3 - Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo.",
-      "auditBadge": "GERAIS ITEM 3 — GEOGRAFIA, HISTÓRIA, ECONOMIA, POLÍTICA E ESTATÍSTICA (IBGE)",
+      "mdPath": "./content/conhecimentos-gerais/29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro.md",
+      "mdLegacyPath": "./content/atu_1.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         70,
         75,
@@ -18397,14 +18554,15 @@
     },
     {
       "id": "atu_4",
-      "num": 33,
-      "slug": "33-atu_4",
+      "num": 29,
+      "slug": "29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "4. Noções de cidadania. Símbolos nacionais, estaduais e municipais",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "4. Noções de cidadania. Símbolos nacionais, estaduais e municipais",
       "editalRef": "4 - Noções de cidadania. Símbolos nacionais, estaduais e municipais.",
-      "auditBadge": "GERAIS ITEM 4 — CIDADANIA E SÍMBOLOS NACIONAIS, ESTADUAIS (RO) E MUNICIPAIS (PVH)",
+      "mdPath": "./content/conhecimentos-gerais/29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro.md",
+      "mdLegacyPath": "./content/atu_1.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         42,
         49,
@@ -18418,14 +18576,15 @@
     },
     {
       "id": "atu_5",
-      "num": 34,
-      "slug": "34-atu_5",
+      "num": 31,
+      "slug": "31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo",
       "editalRef": "5 - Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo.",
-      "auditBadge": "GERAIS ITEM 5 — GEORREFERENCIAMENTO (SIG/GPS), ECOLOGIA, INOVAÇÕES E ATUALIDADES MULTITEMÁTICAS",
+      "mdPath": "./content/conhecimentos-gerais/31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026.md",
+      "mdLegacyPath": "./content/atu_3.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         76,
         81,
@@ -18442,14 +18601,15 @@
     },
     {
       "id": "atu_6",
-      "num": 35,
-      "slug": "35-atu_6",
+      "num": 29,
+      "slug": "29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro",
       "cat": "atu",
-      "materia": "Conhecimentos Gerais e Atualidades",
-      "weight": "5 Questões • Peso 2 (10 pts)",
-      "titulo": "6. Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo",
+      "catName": "Conhecimentos Gerais e Atualidades",
+      "title": "6. Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo",
       "editalRef": "6 - Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo.",
-      "auditBadge": "GERAIS ITEM 6 — REALIDADE ECONÔMICA, CULTURAL, HISTÓRICA, GEOGRÁFICA E SOCIOAMBIENTAL",
+      "mdPath": "./content/conhecimentos-gerais/29-geografia-demografia-ibge-distritos-hidrografia-simbolos-porto-velho-ro.md",
+      "mdLegacyPath": "./content/atu_1.md",
+      "subjectFolder": "conhecimentos-gerais",
       "sources": [
         70,
         75,
