@@ -1431,6 +1431,46 @@
       "lesson": "leg_7",
       "status": "official",
       "revoked": false
+    },
+    {
+      "num": 95,
+      "folder": "REFERÊNCIAS OFICIAIS — EDUCAÇÃO",
+      "title": "Base Nacional Comum Curricular (BNCC) — MEC",
+      "name": "Base Nacional Comum Curricular (BNCC) — MEC",
+      "url": "https://basenacionalcomum.mec.gov.br/",
+      "note": "Referência oficial para práticas de linguagem, leitura, produção textual e análise linguística.",
+      "status": "official-index",
+      "revoked": false
+    },
+    {
+      "num": 96,
+      "folder": "REFERÊNCIAS OFICIAIS — INEP",
+      "title": "Matrizes de Referência de Língua Portuguesa e Matemática do Saeb — Inep",
+      "name": "Matrizes de Referência de Língua Portuguesa e Matemática do Saeb — Inep",
+      "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+      "note": "Descritores oficiais para organizar leitura, interpretação, resolução de problemas e matemática.",
+      "status": "official-index",
+      "revoked": false
+    },
+    {
+      "num": 97,
+      "folder": "REFERÊNCIAS OFICIAIS — PRESIDÊNCIA",
+      "title": "Manual de Redação da Presidência da República",
+      "name": "Manual de Redação da Presidência da República",
+      "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+      "note": "Referência oficial complementar para clareza, coesão, concisão e redação oficial.",
+      "status": "official-index",
+      "revoked": false
+    },
+    {
+      "num": 98,
+      "folder": "REFERÊNCIAS OFICIAIS — SAÚDE",
+      "title": "Guia de Vigilância em Saúde — 6ª edição revisada, volume 2",
+      "name": "Guia de Vigilância em Saúde — 6ª edição revisada, volume 2",
+      "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-2-6a-edicao/view",
+      "note": "Referência atualizada para vigilância, arboviroses e doenças de importância em saúde pública.",
+      "status": "official-index",
+      "revoked": false
     }
   ],
   "lessons": [
@@ -1451,7 +1491,8 @@
         56,
         62,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 10,
       "flashcardsCount": 8,
@@ -1802,7 +1843,8 @@
         63,
         64,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 19,
       "flashcardsCount": 21,
@@ -2329,7 +2371,8 @@
         87,
         88,
         89,
-        91
+        91,
+        98
       ],
       "questionsCount": 11,
       "flashcardsCount": 12,
@@ -2706,7 +2749,8 @@
         63,
         65,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 16,
       "flashcardsCount": 17,
@@ -3188,7 +3232,8 @@
         60,
         65,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 10,
       "flashcardsCount": 11,
@@ -3525,7 +3570,8 @@
         61,
         86,
         89,
-        91
+        91,
+        98
       ],
       "questionsCount": 7,
       "flashcardsCount": 7,
@@ -3790,7 +3836,8 @@
         69,
         86,
         89,
-        91
+        91,
+        98
       ],
       "questionsCount": 15,
       "flashcardsCount": 16,
@@ -4237,7 +4284,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 10,
       "flashcardsCount": 12,
@@ -4594,7 +4642,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 29,
       "flashcardsCount": 35,
@@ -5363,7 +5412,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "questionsCount": 8,
       "flashcardsCount": 10,
@@ -9092,7 +9142,12 @@
         }
       ],
       "questionsCount": 7,
-      "flashcardsCount": 8
+      "flashcardsCount": 8,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_2",
@@ -9259,7 +9314,12 @@
         }
       ],
       "questionsCount": 4,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_3",
@@ -9460,7 +9520,12 @@
         }
       ],
       "questionsCount": 6,
-      "flashcardsCount": 7
+      "flashcardsCount": 7,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_4",
@@ -9639,7 +9704,12 @@
         }
       ],
       "questionsCount": 4,
-      "flashcardsCount": 6
+      "flashcardsCount": 6,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_5",
@@ -9805,7 +9875,12 @@
         }
       ],
       "questionsCount": 4,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_6",
@@ -10076,7 +10151,12 @@
         }
       ],
       "questionsCount": 6,
-      "flashcardsCount": 8
+      "flashcardsCount": 8,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_7",
@@ -10294,7 +10374,12 @@
         }
       ],
       "questionsCount": 6,
-      "flashcardsCount": 8
+      "flashcardsCount": 8,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_8",
@@ -10582,7 +10667,12 @@
         }
       ],
       "questionsCount": 8,
-      "flashcardsCount": 9
+      "flashcardsCount": 9,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_9",
@@ -10733,7 +10823,12 @@
         }
       ],
       "questionsCount": 3,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_10",
@@ -10981,7 +11076,12 @@
         }
       ],
       "questionsCount": 5,
-      "flashcardsCount": 7
+      "flashcardsCount": 7,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_11",
@@ -11224,7 +11324,12 @@
         }
       ],
       "questionsCount": 5,
-      "flashcardsCount": 7
+      "flashcardsCount": 7,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_12",
@@ -11380,7 +11485,12 @@
         }
       ],
       "questionsCount": 3,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_13",
@@ -11600,7 +11710,12 @@
         }
       ],
       "questionsCount": 6,
-      "flashcardsCount": 8
+      "flashcardsCount": 8,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_14",
@@ -11801,7 +11916,12 @@
         }
       ],
       "questionsCount": 5,
-      "flashcardsCount": 8
+      "flashcardsCount": 8,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_15",
@@ -11942,7 +12062,12 @@
         }
       ],
       "questionsCount": 2,
-      "flashcardsCount": 4
+      "flashcardsCount": 4,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_16",
@@ -12161,7 +12286,12 @@
         }
       ],
       "questionsCount": 4,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_17",
@@ -12347,7 +12477,12 @@
         }
       ],
       "questionsCount": 5,
-      "flashcardsCount": 6
+      "flashcardsCount": 6,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "por_18",
@@ -12503,7 +12638,12 @@
         }
       ],
       "questionsCount": 4,
-      "flashcardsCount": 5
+      "flashcardsCount": 5,
+      "sources": [
+        95,
+        96,
+        97
+      ]
     },
     {
       "id": "rlm_1",
@@ -12862,7 +13002,10 @@
         }
       ],
       "questionsCount": 14,
-      "flashcardsCount": 16
+      "flashcardsCount": 16,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_2",
@@ -13245,7 +13388,10 @@
         }
       ],
       "questionsCount": 12,
-      "flashcardsCount": 14
+      "flashcardsCount": 14,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_3",
@@ -13638,7 +13784,10 @@
         }
       ],
       "questionsCount": 14,
-      "flashcardsCount": 17
+      "flashcardsCount": 17,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_4",
@@ -13940,7 +14089,10 @@
         }
       ],
       "questionsCount": 10,
-      "flashcardsCount": 13
+      "flashcardsCount": 13,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_5",
@@ -14405,7 +14557,10 @@
         }
       ],
       "questionsCount": 15,
-      "flashcardsCount": 18
+      "flashcardsCount": 18,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_6",
@@ -14770,7 +14925,10 @@
         }
       ],
       "questionsCount": 12,
-      "flashcardsCount": 16
+      "flashcardsCount": 16,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_7",
@@ -15142,7 +15300,10 @@
         }
       ],
       "questionsCount": 12,
-      "flashcardsCount": 14
+      "flashcardsCount": 14,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "rlm_8",
@@ -15463,7 +15624,10 @@
         }
       ],
       "questionsCount": 11,
-      "flashcardsCount": 14
+      "flashcardsCount": 14,
+      "sources": [
+        96
+      ]
     },
     {
       "id": "atu_1",
@@ -17854,7 +18018,8 @@
         56,
         62,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 3,
       "questionsCount": 10,
@@ -17878,7 +18043,8 @@
         63,
         64,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 6,
       "questionsCount": 19,
@@ -17901,7 +18067,8 @@
         87,
         88,
         89,
-        91
+        91,
+        98
       ],
       "blocksCount": 4,
       "questionsCount": 11,
@@ -17924,7 +18091,8 @@
         63,
         65,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 5,
       "questionsCount": 16,
@@ -17946,7 +18114,8 @@
         60,
         65,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 4,
       "questionsCount": 10,
@@ -17968,7 +18137,8 @@
         61,
         86,
         89,
-        91
+        91,
+        98
       ],
       "blocksCount": 3,
       "questionsCount": 7,
@@ -17992,7 +18162,8 @@
         69,
         86,
         89,
-        91
+        91,
+        98
       ],
       "blocksCount": 6,
       "questionsCount": 15,
@@ -18014,7 +18185,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 4,
       "questionsCount": 10,
@@ -18037,7 +18209,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 12,
       "questionsCount": 29,
@@ -18061,7 +18234,8 @@
         68,
         69,
         86,
-        91
+        91,
+        98
       ],
       "blocksCount": 3,
       "questionsCount": 8,
@@ -18229,6 +18403,11 @@
       "catName": "Língua Portuguesa",
       "title": "1. Compreensão e interpretação de textos",
       "editalRef": "Item 1 de Língua Portuguesa — Compreensão e interpretação de textos.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 7,
       "flashcardsCount": 8
@@ -18239,6 +18418,11 @@
       "catName": "Língua Portuguesa",
       "title": "2. Gêneros e tipos de texto",
       "editalRef": "Item 2 de Língua Portuguesa — Gêneros e tipos de texto.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 4,
       "flashcardsCount": 5
@@ -18249,6 +18433,11 @@
       "catName": "Língua Portuguesa",
       "title": "3. Significação das palavras",
       "editalRef": "Item 3 de Língua Portuguesa — Significação das palavras.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 6,
       "flashcardsCount": 7
@@ -18259,6 +18448,11 @@
       "catName": "Língua Portuguesa",
       "title": "4. Figuras de Sintaxe",
       "editalRef": "Item 4 de Língua Portuguesa — Figuras de Sintaxe.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 4,
       "flashcardsCount": 6
@@ -18269,6 +18463,11 @@
       "catName": "Língua Portuguesa",
       "title": "5. Figuras de Linguagem",
       "editalRef": "Item 5 de Língua Portuguesa — Figuras de Linguagem.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 4,
       "flashcardsCount": 5
@@ -18279,6 +18478,11 @@
       "catName": "Língua Portuguesa",
       "title": "6. Articulação textual: operadores sequenciais, expressões referenciais",
       "editalRef": "Item 6 de Língua Portuguesa — Articulação textual: operadores sequenciais, expressões referenciais.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 6,
       "flashcardsCount": 8
@@ -18289,6 +18493,11 @@
       "catName": "Língua Portuguesa",
       "title": "7. Coesão e coerência textual",
       "editalRef": "Item 7 de Língua Portuguesa — Coesão e coerência textual.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 6,
       "flashcardsCount": 8
@@ -18299,6 +18508,11 @@
       "catName": "Língua Portuguesa",
       "title": "8. Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras",
       "editalRef": "Item 8 de Língua Portuguesa — Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 8,
       "flashcardsCount": 9
@@ -18309,6 +18523,11 @@
       "catName": "Língua Portuguesa",
       "title": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais",
       "editalRef": "Item 9 de Língua Portuguesa — Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 3,
       "flashcardsCount": 5
@@ -18319,6 +18538,11 @@
       "catName": "Língua Portuguesa",
       "title": "10. Concordância verbal e nominal",
       "editalRef": "Item 10 de Língua Portuguesa — Concordância verbal e nominal.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 5,
       "flashcardsCount": 7
@@ -18329,6 +18553,11 @@
       "catName": "Língua Portuguesa",
       "title": "11. Regência verbal e nominal",
       "editalRef": "Item 11 de Língua Portuguesa — Regência verbal e nominal.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 5,
       "flashcardsCount": 7
@@ -18339,6 +18568,11 @@
       "catName": "Língua Portuguesa",
       "title": "12. Crase",
       "editalRef": "Item 12 de Língua Portuguesa — Crase.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 3,
       "flashcardsCount": 5
@@ -18349,6 +18583,11 @@
       "catName": "Língua Portuguesa",
       "title": "13. Colocação pronominal",
       "editalRef": "Item 13 de Língua Portuguesa — Colocação pronominal.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 6,
       "flashcardsCount": 8
@@ -18359,6 +18598,11 @@
       "catName": "Língua Portuguesa",
       "title": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos",
       "editalRef": "Item 14 de Língua Portuguesa — Estrutura da oração e do período: aspectos sintáticos e semânticos.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 3,
       "questionsCount": 5,
       "flashcardsCount": 8
@@ -18369,6 +18613,11 @@
       "catName": "Língua Portuguesa",
       "title": "15. Acentuação gráfica",
       "editalRef": "Item 15 de Língua Portuguesa — Acentuação gráfica.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 2,
       "flashcardsCount": 4
@@ -18379,6 +18628,11 @@
       "catName": "Língua Portuguesa",
       "title": "16. Ortografia",
       "editalRef": "Item 16 de Língua Portuguesa — Ortografia.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 4,
       "flashcardsCount": 5
@@ -18389,6 +18643,11 @@
       "catName": "Língua Portuguesa",
       "title": "17. Pontuação",
       "editalRef": "Item 17 de Língua Portuguesa — Pontuação.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 5,
       "flashcardsCount": 6
@@ -18399,6 +18658,11 @@
       "catName": "Língua Portuguesa",
       "title": "18. Variação linguística",
       "editalRef": "Item 18 de Língua Portuguesa — Variação linguística.",
+      "sources": [
+        95,
+        96,
+        97
+      ],
       "blocksCount": 2,
       "questionsCount": 4,
       "flashcardsCount": 5
@@ -18409,6 +18673,9 @@
       "catName": "Raciocínio Lógico",
       "title": "1. Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum",
       "editalRef": "Item 1 de Raciocínio Lógico — Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum.",
+      "sources": [
+        96
+      ],
       "blocksCount": 3,
       "questionsCount": 14,
       "flashcardsCount": 16
@@ -18419,6 +18686,9 @@
       "catName": "Raciocínio Lógico",
       "title": "2. Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem",
       "editalRef": "Item 2 de Raciocínio Lógico — Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem.",
+      "sources": [
+        96
+      ],
       "blocksCount": 5,
       "questionsCount": 12,
       "flashcardsCount": 14
@@ -18429,6 +18699,9 @@
       "catName": "Raciocínio Lógico",
       "title": "3. Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa",
       "editalRef": "Item 3 de Raciocínio Lógico — Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa.",
+      "sources": [
+        96
+      ],
       "blocksCount": 5,
       "questionsCount": 14,
       "flashcardsCount": 17
@@ -18439,6 +18712,9 @@
       "catName": "Raciocínio Lógico",
       "title": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada",
       "editalRef": "Item 4 de Raciocínio Lógico — Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada.",
+      "sources": [
+        96
+      ],
       "blocksCount": 4,
       "questionsCount": 10,
       "flashcardsCount": 13
@@ -18449,6 +18725,9 @@
       "catName": "Raciocínio Lógico",
       "title": "5. Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores",
       "editalRef": "Item 5 de Raciocínio Lógico — Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores.",
+      "sources": [
+        96
+      ],
       "blocksCount": 6,
       "questionsCount": 15,
       "flashcardsCount": 18
@@ -18459,6 +18738,9 @@
       "catName": "Raciocínio Lógico",
       "title": "6. Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras",
       "editalRef": "Item 6 de Raciocínio Lógico — Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras.",
+      "sources": [
+        96
+      ],
       "blocksCount": 5,
       "questionsCount": 12,
       "flashcardsCount": 16
@@ -18469,6 +18751,9 @@
       "catName": "Raciocínio Lógico",
       "title": "7. Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações",
       "editalRef": "Item 7 de Raciocínio Lógico — Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações.",
+      "sources": [
+        96
+      ],
       "blocksCount": 4,
       "questionsCount": 12,
       "flashcardsCount": 14
@@ -18479,6 +18764,9 @@
       "catName": "Raciocínio Lógico",
       "title": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial",
       "editalRef": "Item 8 de Raciocínio Lógico — Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial.",
+      "sources": [
+        96
+      ],
       "blocksCount": 4,
       "questionsCount": 11,
       "flashcardsCount": 14

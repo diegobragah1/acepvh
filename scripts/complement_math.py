@@ -64,6 +64,64 @@ Antes de calcular, identifique se todos os valores têm o mesmo peso. Depois con
 ]
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root/'data/app_data.json').read_text())
+
+# Official reference layer for the newly split Portuguese and RLM lessons.
+# These links are discovery anchors; each lesson still needs page/section-level
+# checking before a legal or pedagogical claim is marked as verified.
+official_sources = [
+    {
+        'num': 95,
+        'folder': 'REFERÊNCIAS OFICIAIS — EDUCAÇÃO',
+        'title': 'Base Nacional Comum Curricular (BNCC) — MEC',
+        'name': 'Base Nacional Comum Curricular (BNCC) — MEC',
+        'url': 'https://basenacionalcomum.mec.gov.br/',
+        'note': 'Referência oficial para práticas de linguagem, leitura, produção textual e análise linguística.',
+        'status': 'official-index', 'revoked': False,
+    },
+    {
+        'num': 96,
+        'folder': 'REFERÊNCIAS OFICIAIS — INEP',
+        'title': 'Matrizes de Referência de Língua Portuguesa e Matemática do Saeb — Inep',
+        'name': 'Matrizes de Referência de Língua Portuguesa e Matemática do Saeb — Inep',
+        'url': 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas',
+        'note': 'Descritores oficiais para organizar leitura, interpretação, resolução de problemas e matemática.',
+        'status': 'official-index', 'revoked': False,
+    },
+    {
+        'num': 97,
+        'folder': 'REFERÊNCIAS OFICIAIS — PRESIDÊNCIA',
+        'title': 'Manual de Redação da Presidência da República',
+        'name': 'Manual de Redação da Presidência da República',
+        'url': 'https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica',
+        'note': 'Referência oficial complementar para clareza, coesão, concisão e redação oficial.',
+        'status': 'official-index', 'revoked': False,
+    },
+    {
+        'num': 98,
+        'folder': 'REFERÊNCIAS OFICIAIS — SAÚDE',
+        'title': 'Guia de Vigilância em Saúde — 6ª edição revisada, volume 2',
+        'name': 'Guia de Vigilância em Saúde — 6ª edição revisada, volume 2',
+        'url': 'https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-2-6a-edicao/view',
+        'note': 'Referência atualizada para vigilância, arboviroses e doenças de importância em saúde pública.',
+        'status': 'official-index', 'revoked': False,
+    },
+]
+by_source = {s['num']: s for s in data.get('sources', [])}
+for source in official_sources:
+    by_source[source['num']] = source
+data['sources'] = [by_source[n] for n in sorted(by_source)]
+
+# The original 94 sources remain untouched. These official anchors make the
+# newly divided lessons discoverable and auditable without pretending that a
+# URL alone proves every paragraph. We keep the links at lesson level because
+# the current schema has no per-claim citation field yet.
+source_by_cat = {'por': [95, 96, 97], 'rlm': [96], 'esp': [98]}
+for lesson in data['lessons']:
+    additions = source_by_cat.get(lesson.get('cat'), [])
+    refs = lesson.get('sources') or []
+    if isinstance(refs, dict):
+        refs = refs.get('value', [])
+    lesson['sources'] = list(dict.fromkeys([*refs, *additions]))
 for lid, name, theory, summary, questions, cards in items:
     title = 'Complemento autoral — ' + name
     block = dict(title=title, modoA_markdown=theory, modoB_markdown=summary, modoA='', modoB='', questions=questions, flashcards=[dict(f=f,b=b) for f,b in cards])
