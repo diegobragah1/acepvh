@@ -2,6 +2,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta } from '../utils/status';
 import { renderMarkdownToHtml } from '../utils/markdown';
+import { protectMath } from '../utils/math';
+import { questionIdentity } from '../utils/questionIdentity';
 import { toSafeString } from '../utils/normalizeData';
 import { TopicStatus, Source } from '../types';
 import { LessonMindMapView } from './LessonMindMapView';
@@ -108,7 +110,7 @@ export const Tab2Apostila: React.FC = () => {
     setLessonAnswers(prev => {
       const next = { ...prev };
       for (let i = 0; i < count; i++) {
-        delete next[`${lessonId}_b${bIdx}_q${i}`];
+        delete next[questionIdentity(`${lessonId}_b${bIdx}_q${i}`, currentLesson?.blocks[bIdx]?.questions?.[i])];
       }
       return next;
     });
@@ -229,7 +231,8 @@ export const Tab2Apostila: React.FC = () => {
   // Helper to apply live search highlight and Cloze (Active Recall) transformation on rendered HTML
   const processDidacticHtml = (rawHtml: string, blockPrefix: string): string => {
     if (!rawHtml) return '';
-    let processed = rawHtml;
+    const math = protectMath(rawHtml);
+    let processed = math.text;
 
     // 1. Highlight in-lesson search matches outside HTML tags
     const query = inLessonQuery.trim();
@@ -257,7 +260,7 @@ export const Tab2Apostila: React.FC = () => {
       });
     }
 
-    return processed;
+    return math.restore(processed);
   };
 
   // Delegate clicks on Cloze chips inside dangerouslySetInnerHTML containers
@@ -284,7 +287,7 @@ export const Tab2Apostila: React.FC = () => {
     (currentLesson.blocks || []).forEach((b, bIdx) => {
       (b.questions || []).forEach((q, qIdx) => {
         totalQ++;
-        const chosen = lessonAnswers[`${currentLesson.id}_b${bIdx}_q${qIdx}`];
+        const chosen = lessonAnswers[questionIdentity(`${currentLesson.id}_b${bIdx}_q${qIdx}`, q)];
         if (chosen !== undefined) {
           answeredQ++;
           if (chosen === q.ans) correctQ++;
@@ -919,7 +922,7 @@ export const Tab2Apostila: React.FC = () => {
                         const bQCount = (b.questions || []).length;
                         let bAnswered = 0;
                         for (let i = 0; i < bQCount; i++) {
-                          if (lessonAnswers[`${currentLesson.id}_b${idx}_q${i}`] !== undefined) bAnswered++;
+                          if (lessonAnswers[questionIdentity(`${currentLesson.id}_b${idx}_q${i}`, b.questions?.[i])] !== undefined) bAnswered++;
                         }
                         const cleanBlockLabel = b.title.split('(')[0].trim();
                         return (
@@ -1082,7 +1085,7 @@ export const Tab2Apostila: React.FC = () => {
                   let answeredBlockQ = 0;
                   let correctBlockQ = 0;
                   (b.questions || []).forEach((q, qIdx) => {
-                    const ch = lessonAnswers[`${currentLesson.id}_b${bIdx}_q${qIdx}`];
+                    const ch = lessonAnswers[questionIdentity(`${currentLesson.id}_b${bIdx}_q${qIdx}`, q)];
                     if (ch !== undefined) {
                       answeredBlockQ++;
                       if (ch === q.ans) correctBlockQ++;
@@ -1208,7 +1211,7 @@ export const Tab2Apostila: React.FC = () => {
                               {b.questions && b.questions.length > 0 && (
                                 <div className="space-y-3">
                                   {b.questions.map((qObj, qIdx) => {
-                                    const qKey = `${currentLesson.id}_b${bIdx}_q${qIdx}`;
+                                    const qKey = questionIdentity(`${currentLesson.id}_b${bIdx}_q${qIdx}`, qObj);
                                     const chosen = lessonAnswers[qKey];
                                     const answered = chosen !== undefined;
 

@@ -55,7 +55,7 @@ Nos exercícios sobre transferência financeira, não memorize apenas “fundo a
   {
     id:'esp_3',title:'Atribuições, requisitos e evolução legal: como não misturar regimes',
     theory:`## Leis modificadoras e texto consolidado
-As Leis 13.595/2018 e 13.708/2018 alteraram a Lei 11.350/2006. Para estudar, acompanhe a redação incorporada a cada artigo, distinguindo texto vigente e histórico. A lei modificadora explica de onde veio a mudança; o texto consolidado permite localizar a regra no conjunto. A denominação Lei Ruth Brilhante consta na Lei 11.350, incluída pela Lei 14.799/2023; não deve ser atribuída automaticamente a toda alteração anterior.
+As Leis 13.595/2018 e 13.708/2018 alteraram a Lei 11.350/2006. Para estudar, acompanhe a redação incorporada a cada artigo, distinguindo texto vigente e histórico. A lei modificadora explica de onde veio a mudança; o texto consolidado permite localizar a regra no conjunto. A denominação Lei Ruth Brilhante consta na Lei 11.350, incluída pela Lei 14.799/2024; não deve ser atribuída automaticamente a toda alteração anterior.
 
 ## ACS e ACE: integração sem identidade completa
 O ACS atua com referência à atenção básica e ao vínculo com a comunidade. O ACE desenvolve vigilância, prevenção e controle de doenças e promoção da saúde, conforme a legislação e supervisão. Há ações compartilhadas, mas isso não elimina as atribuições específicas. Em uma questão que descreva pesquisa entomológica, é necessário identificar a atividade e sua base legal, sem concluir que ambos os cargos têm requisitos idênticos em todos os pontos.

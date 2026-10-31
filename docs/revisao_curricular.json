@@ -1,0 +1,4365 @@
+{
+  "date": "2026-10-31",
+  "coverageCertified": false,
+  "method": "triagem-textual-e-conferencias-pontuais",
+  "lessons": [
+    {
+      "id": "esp_1",
+      "title": "1. Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "1 - Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200.",
+      "finding": "O título limita a consolidação à EC 120/2022; isso não comprova atualização até o marco aplicável ao edital. Conferir cada caput, parágrafo e inciso, inclusive financiamento.",
+      "requirements": [
+        {
+          "term": "Art. 196",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Art. 197",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Art. 198",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Art. 199",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Art. 200",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Emendas Constitucionais",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_2",
+      "title": "2. Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "2 - Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990.",
+      "finding": "PNAB é exigida expressamente neste item, mas os seis blocos concentram-se nas duas leis. A cobertura da portaria deve ser demonstrada também pela remissão à esp_5. Transcrições precisam de confronto artigo a artigo.",
+      "requirements": [
+        {
+          "term": "Lei 8.080",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "Portaria 2.436",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "Lei 8.142",
+          "mentionBlocks": [
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 19,
+      "flashcards": 21,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_3",
+      "title": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018.",
+      "finding": "Revisão parcial: quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 e denominação Ruth Brilhante. Não houve certificação de todos os artigos e exercícios.",
+      "requirements": [
+        {
+          "term": "Lei 11.350",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Lei 13.708",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "Lei 13.595",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 11,
+      "flashcards": 12,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_4",
+      "title": "4. Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "4 - Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde.",
+      "finding": "Os blocos 3 e 5 repetem história natural e prevenção. Separar atribuições comuns (art. 15) das competências específicas (arts. 16–19). Quantidade de blocos não comprova enumeração completa.",
+      "requirements": [
+        {
+          "term": "princípios",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "diretrizes",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "atribuições",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "competências",
+          "mentionBlocks": [
+            1,
+            2,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "União",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estados",
+          "mentionBlocks": [
+            1,
+            2,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Municípios",
+          "mentionBlocks": [
+            1,
+            2,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "promoção",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "proteção",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 16,
+      "flashcards": 17,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_5",
+      "title": "5. Política Nacional de Atenção Básica",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "5 - Política Nacional de Atenção Básica.",
+      "finding": "Dois dos quatro blocos tratam do Decreto 7.508. Diferenciar redação da PNAB 2017 de normas posteriores sobre eAP/eMulti; conferir todo o anexo da Portaria 2.436, não apenas equipes e agentes.",
+      "requirements": [
+        {
+          "term": "Política Nacional de Atenção Básica",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "princípios",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "diretrizes",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "equipes",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "atribuições",
+          "mentionBlocks": [
+            1,
+            2,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "processo de trabalho",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "territorialização",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 11,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_6",
+      "title": "6. História e Evolução da Profissão de ACE",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "6 - História e Evolução da Profissão de ACE.",
+      "finding": "Corrigida a apresentação da jornada 30/10 como vigente. A linha do tempo institucional exige conferir datas e relação efetiva com a profissão; história geral do SUS é apenas contexto.",
+      "requirements": [
+        {
+          "term": "História",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Evolução",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "ACE",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 7,
+      "flashcards": 7,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_7",
+      "title": "7. Atribuições do Agente de Combate a Endemias",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "7 - Atribuições do Agente de Combate a Endemias.",
+      "finding": "Corrigida jornada em teoria e cartões. Anexo II retificado, p. 4, confirma oito atribuições municipais do ACE; não confundir sua lista com a enumeração federal. Dosagem, calibração e biossegurança ainda exigem fonte técnica específica.",
+      "requirements": [
+        {
+          "term": "Atribuições",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "Agente de Combate",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "atividades típicas",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "atividades assistidas",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "atividades integradas",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 15,
+      "flashcards": 16,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_8",
+      "title": "8. Vigilância em Saúde",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "8 - Vigilância em Saúde.",
+      "finding": "Há conteúdo de indicadores e sistemas, mas prazos de notificação e versões dos sistemas precisam de validação normativa por agravo. A lista nacional não pode ser presumida atual pelo nome de um sistema.",
+      "requirements": [
+        {
+          "term": "Vigilância em Saúde",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "epidemiológica",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "sanitária",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "ambiental",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "trabalhador",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 12,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_9",
+      "title": "9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "9 - Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19.",
+      "finding": "Conferir individualmente as 14 doenças, separando agente, ciclo, transmissão, quadro, vigilância e controle. Vacinas e profilaxias exigem protocolo e data; um quadro comparativo não certifica o capítulo inteiro.",
+      "requirements": [
+        {
+          "term": "Raiva",
+          "mentionBlocks": [
+            1,
+            4,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "verified": false
+        },
+        {
+          "term": "Esquistossomose",
+          "mentionBlocks": [
+            4,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "verified": false
+        },
+        {
+          "term": "Chagas",
+          "mentionBlocks": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "verified": false
+        },
+        {
+          "term": "Dengue",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            8
+          ],
+          "verified": false
+        },
+        {
+          "term": "Febre Amarela",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            8
+          ],
+          "verified": false
+        },
+        {
+          "term": "Febre Maculosa",
+          "mentionBlocks": [
+            8,
+            10,
+            11
+          ],
+          "verified": false
+        },
+        {
+          "term": "Influenza",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            8,
+            9,
+            10,
+            11
+          ],
+          "verified": false
+        },
+        {
+          "term": "Chikungunya",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Zika",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Leptospirose",
+          "mentionBlocks": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "verified": false
+        },
+        {
+          "term": "Tegumentar",
+          "mentionBlocks": [
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "Visceral",
+          "mentionBlocks": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "verified": false
+        },
+        {
+          "term": "Malária",
+          "mentionBlocks": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "verified": false
+        },
+        {
+          "term": "COVID",
+          "mentionBlocks": [
+            1,
+            4,
+            8,
+            9,
+            10,
+            11
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 29,
+      "flashcards": 35,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 7,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 8,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 9,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 10,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 11,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 12,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "esp_10",
+      "title": "10. Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "10 - Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle.",
+      "finding": "Aplicar os seis eixos às doenças cobradas; distinguir doença transmissível de transmissão direta. Não usar o vetor como sinônimo automático de reservatório ou hospedeiro definitivo.",
+      "requirements": [
+        {
+          "term": "agente etiológico",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "reservatório",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "hospedeiro",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "transmissão",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "sintomas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "medidas de controle",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 8,
+      "flashcards": 10,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_1",
+      "title": "1. Lei Orgânica do Município de Porto Velho/RO e atualizações",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "1 - Lei Orgânica do Município de Porto Velho/RO e atualizações.",
+      "finding": "Consolidação municipal sem versão e inventário de emendas não permite afirmar integralidade. Confrontar títulos, capítulos, artigos, disposições transitórias e emendas, não apenas organização dos poderes.",
+      "requirements": [
+        {
+          "term": "Lei Orgânica",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "atualizações",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 15,
+      "flashcards": 20,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_2",
+      "title": "2. Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações)",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "2 - Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações).",
+      "finding": "PDF histórico não basta para provar a redação vigente. Conferir provimento, vacância, direitos, vantagens, deveres, responsabilidades, penalidades, processo e regras transitórias na consolidação oficial.",
+      "requirements": [
+        {
+          "term": "385/2010",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "atualizações",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 15,
+      "flashcards": 20,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_3",
+      "title": "3. Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações)",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "3 - Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações).",
+      "finding": "Erro confirmado de enquadramento: LC 391 organiza cargos e empregos da Prefeitura em geral; não é um estatuto exclusivo do ACE/ACS. SAPL registra alterações de 2026. Tabelas e transcrições ainda não certificadas.",
+      "requirements": [
+        {
+          "term": "390/2010",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "391/2010",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "atualizações",
+          "mentionBlocks": [
+            2,
+            5
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 12,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_4",
+      "title": "4. Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "4 - Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).",
+      "finding": "A exigência abrange o Estatuto; conferir também acesso à justiça, capacidade, curatela, tomada de decisão apoiada, crimes e disposições finais. Não limitar a acessibilidade e atendimento prioritário.",
+      "requirements": [
+        {
+          "term": "13.146",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "inclusão",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "deficiência",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 12,
+      "flashcards": 13,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_5",
+      "title": "5. Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "5 - Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39.",
+      "finding": "O programa enumera dispositivos; cada artigo, inciso e parágrafo aplicável exige confronto. Conferir especialmente direitos trabalhistas, nacionalidade, fiscalização municipal, mandato eletivo e regime dos servidores.",
+      "requirements": [
+        {
+          "term": "Princípios Fundamentais",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 5",
+          "mentionBlocks": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 6",
+          "mentionBlocks": [
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 7",
+          "mentionBlocks": [
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 8",
+          "mentionBlocks": [
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 9",
+          "mentionBlocks": [
+            3,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 10",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 11",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 12",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 13",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 29",
+          "mentionBlocks": [
+            3,
+            4,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "29-A",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 30",
+          "mentionBlocks": [
+            1,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 31",
+          "mentionBlocks": [
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 37",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 38",
+          "mentionBlocks": [
+            3,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "art. 39",
+          "mentionBlocks": [
+            4,
+            6
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 14,
+      "flashcards": 18,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_6",
+      "title": "6. Lei de Licitações e Pregão (Lei Federal nº 14.133/2021)",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "6 - Lei de Licitações e Pregão (Lei Federal nº 14.133/2021).",
+      "finding": "A lei inteira é indicada. Conferir fases, agentes, modalidades, critérios, contratação direta, contratos, execução, sanções, controle e disposições finais. Valores atualizados e regimes transitórios exigem marco temporal e ato específico.",
+      "requirements": [
+        {
+          "term": "14.133",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verified": false
+        },
+        {
+          "term": "licitação",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "verified": false
+        },
+        {
+          "term": "pregão",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 18,
+      "flashcards": 24,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 7,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "leg_7",
+      "title": "7. Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação.",
+      "finding": "Conferir três esferas e a existência de regulamentação municipal. Distinguir LAI, decreto regulamentador e regras de transparência; não certificar a esfera municipal com apenas uma fonte estadual.",
+      "requirements": [
+        {
+          "term": "12.527",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estadual",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Municipal",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 12,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_1",
+      "title": "1. Compreensão e interpretação de textos",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "1 - Compreensão e interpretação de textos.",
+      "finding": "A teoria deve distinguir informação explícita, inferência, pressuposto, implícito, finalidade e ponto de vista com textos efetivamente analisados. Conferência integral das interpretações e alternativas pendente.",
+      "requirements": [
+        {
+          "term": "compreensão",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "interpretação",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 7,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_2",
+      "title": "2. Gêneros e tipos de texto",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "2 - Gêneros e tipos de texto.",
+      "finding": "Foi retirada na leitura a afirmação sem prova de frequência de 100% da banca. Conferir distinção entre gênero e sequência tipológica; um gênero pode combinar sequências.",
+      "requirements": [
+        {
+          "term": "gêneros",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "tipos",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 4,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_3",
+      "title": "3. Significação das palavras",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "3 - Significação das palavras.",
+      "finding": "O item aberto exige mais que uma lista de pares: conferir efeitos de contexto, ambiguidade e relações semânticas. Conteúdos de interpretação misturados não comprovam todas essas relações.",
+      "requirements": [
+        {
+          "term": "significação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "sinonímia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "antonímia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "polissemia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "homonímia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "paronímia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "denotação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "conotação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 6,
+      "flashcards": 7,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_4",
+      "title": "4. Figuras de Sintaxe",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "4 - Figuras de Sintaxe.",
+      "finding": "Corrigir definição excessivamente restritiva de elipse: zeugma é um caso particular, não uma categoria incompatível. Validar exemplos e separar repetição expressiva de vício de linguagem.",
+      "requirements": [
+        {
+          "term": "Figuras de Sintaxe",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "elipse",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "zeugma",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "hipérbato",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "silepse",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "anacoluto",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "anáfora",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "pleonasmo",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "polissíndeto",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "assíndeto",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 4,
+      "flashcards": 6,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 1,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_5",
+      "title": "5. Figuras de Linguagem",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "5 - Figuras de Linguagem.",
+      "finding": "Conteúdo principal é curto e não prova exaustão do item aberto. Conferir figuras sonoras e de pensamento, sobreposições e efeitos de sentido nos exemplos.",
+      "requirements": [
+        {
+          "term": "Figuras de Linguagem",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "metáfora",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "metonímia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "comparação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "personificação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "hipérbole",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "eufemismo",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "ironia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "antítese",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "paradoxo",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "sinestesia",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 4,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_6",
+      "title": "6. Articulação textual: operadores sequenciais, expressões referenciais",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "6 - Articulação textual: operadores sequenciais, expressões referenciais.",
+      "finding": "Operadores dependem do sentido no texto. Conferir adição, oposição, concessão, causa, consequência, conclusão e retomadas, sem converter mnemônicos em equivalências universais.",
+      "requirements": [
+        {
+          "term": "operadores sequenciais",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "expressões referenciais",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 6,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_7",
+      "title": "7. Coesão e coerência textual",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "7 - Coesão e coerência textual.",
+      "finding": "As quatro metarregras são uma abordagem didática, não uma lista exaustiva de toda coerência textual. Conferir progressão temática, referência, substituição, elipse e relações lógicas.",
+      "requirements": [
+        {
+          "term": "coesão",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "coerência",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 6,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_8",
+      "title": "8. Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "finding": "É necessário cruzar cada uma das dez classes com definição, classificação, flexão e emprego. Aulas de verbos e sintaxe inseridas aqui não substituem essa conferência sistemática.",
+      "requirements": [
+        {
+          "term": "identificação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "definição",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "classificação",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "flexão",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "emprego",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "substantivo",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "artigo",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "adjetivo",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "pronome",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "numeral",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "verbo",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "advérbio",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "preposição",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "conjunção",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "interjeição",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "formação",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 8,
+      "flashcards": 9,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 2,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_9",
+      "title": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "9 - Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais.",
+      "finding": "O corpo principal é muito sintético para demonstrar cobertura integral de conjugação e correlação. Conferir imperativo, tempos compostos, irregulares, impessoais, defectivos, abundantes e transposição de vozes.",
+      "requirements": [
+        {
+          "term": "flexão",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "conjugação",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "vozes",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "correlação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "tempos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "modos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 3,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 3,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_10",
+      "title": "10. Concordância verbal e nominal",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "10 - Concordância verbal e nominal.",
+      "finding": "Conferir regra geral e condições dos casos especiais; evitar tratar percentuais, partitivos e sujeito composto como regras sem alternativas admitidas pela norma. Há conteúdo de subordinação deslocado.",
+      "requirements": [
+        {
+          "term": "concordância verbal",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "concordância nominal",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 5,
+      "flashcards": 7,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_11",
+      "title": "11. Regência verbal e nominal",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "11 - Regência verbal e nominal.",
+      "finding": "Há forte mistura com crase e pontuação. Regência nominal precisa de desenvolvimento próprio; lista de verbos frequentes não esgota o item nem justifica alegação de frequência da banca.",
+      "requirements": [
+        {
+          "term": "regência verbal",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "regência nominal",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 5,
+      "flashcards": 7,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_12",
+      "title": "12. Crase",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "12 - Crase.",
+      "finding": "O rótulo “10 casos” é didático, não exaustivo. Conferir demonstrativos, relativos, topônimos, locuções, paralelismo, elipse e condições dos casos facultativos.",
+      "requirements": [
+        {
+          "term": "crase",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "obrigatórios",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "facultativos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "proibidos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 3,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_13",
+      "title": "13. Colocação pronominal",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "13 - Colocação pronominal.",
+      "finding": "Formação de palavras e revisão geral de sintaxe ocupam blocos principais. Conferir atração, pontuação, infinitivo, particípio e locuções, com distinção entre norma-padrão e usos efetivos.",
+      "requirements": [
+        {
+          "term": "colocação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "próclise",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "mesóclise",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "ênclise",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "locuções",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 6,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 1,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_14",
+      "title": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
+      "finding": "O primeiro bloco é apresentado como simulado; não substitui a exposição organizada dos termos da oração e relações de sentido do período. Conferir funções de QUE/SE sem reduzi-las a duas categorias.",
+      "requirements": [
+        {
+          "term": "oração",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "período",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "sintáticos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "semânticos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "sujeito",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "predicado",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "coordenação",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "subordinação",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 5,
+      "flashcards": 8,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 3,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_15",
+      "title": "15. Acentuação gráfica",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "15 - Acentuação gráfica.",
+      "finding": "Conferir todas as terminações, ditongos abertos, hiatos, diferenciais e mudanças do Acordo. Porquês e pares semânticos são de ortografia e não comprovam acentuação.",
+      "requirements": [
+        {
+          "term": "acentuação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "monossílabos",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "oxítonas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "paroxítonas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "proparoxítonas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "hiato",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 2,
+      "flashcards": 4,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 5,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_16",
+      "title": "16. Ortografia",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "16 - Ortografia.",
+      "finding": "Erro confirmado: “opostos se atraem” e “sempre” não cobrem as exceções dos prefixos. A ortografia também exige grafia e convenções além de hífen e pares de palavras.",
+      "requirements": [
+        {
+          "term": "ortografia",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "hífen",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "porquês",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 4,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 2,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_17",
+      "title": "17. Pontuação",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "17 - Pontuação.",
+      "finding": "Bloco geral de quatro matérias dispersa o tópico. Conferir efeitos de pontuação, restritivas/explicativas e intercalações; não equiparar proibição de separar termos a impossibilidade de intercalar elementos.",
+      "requirements": [
+        {
+          "term": "pontuação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "vírgula",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "ponto e vírgula",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "dois-pontos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "travessão",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "parênteses",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "aspas",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "reticências",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 5,
+      "flashcards": 6,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "por_18",
+      "title": "18. Variação linguística",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "18 - Variação linguística.",
+      "finding": "O item aberto não se esgota em quatro rótulos. Conferir adequação, registros, modalidades oral/escrita, variedades e preconceito linguístico com análise de exemplos.",
+      "requirements": [
+        {
+          "term": "variação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "diatópica",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "diastrática",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "diafásica",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "diacrônica",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "norma-padrão",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "norma culta",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 4,
+      "flashcards": 5,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 4,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_1",
+      "title": "1. Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "1 - Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum.",
+      "finding": "Corrigida renderização das fórmulas. Conferir propriedades e restrições de domínio, frações e dízimas, 0 e 1 na primalidade, sinais e condições de raízes/potências. A leitura integral dos exercícios ainda está pendente.",
+      "requirements": [
+        {
+          "term": "naturais",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "inteiros",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "racionais",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "reais",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "adição",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "subtração",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "multiplicação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "divisão",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "potenciação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "radiciação",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "decimais",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "valor absoluto",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "propriedades",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "fatores primos",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "múltiplos",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "divisores",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "MDC",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "MMC",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 14,
+      "flashcards": 16,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 51,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 5,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_2",
+      "title": "2. Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "2 - Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem.",
+      "finding": "Há dois laboratórios com temas quase iguais. Conferir relações mantidas constantes na regra composta, base de comparação e percentuais sucessivos; proporção não é hipótese automática de todo problema.",
+      "requirements": [
+        {
+          "term": "razões",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "proporções",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "diretamente",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "inversamente",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "regra de três simples",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "regra de três composta",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "porcentagem",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 12,
+      "flashcards": 14,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_3",
+      "title": "3. Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "3 - Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa.",
+      "finding": "Reparados delimitadores e parênteses da média dos diâmetros. Geometria extra ocupa três blocos, mas não substitui quantidade, massa e tempo. Aproximação do tronco de cone não deve virar dosagem operacional sem validação técnica.",
+      "requirements": [
+        {
+          "term": "quantidade",
+          "mentionBlocks": [
+            1,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "tempo",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "comprimento",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "capacidade",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "massa",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 14,
+      "flashcards": 17,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 46,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_4",
+      "title": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "4 - Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada.",
+      "finding": "Corrigida exibição de fórmulas e exemplo verbal ambíguo. Conferir casos de sistemas, domínio, coeficientes, gráfico, raiz e condição de pesos; não tratar função constante como de primeiro grau.",
+      "requirements": [
+        {
+          "term": "equações",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "sistemas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "função",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "resolução de problemas",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "média aritmética simples",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "ponderada",
+          "mentionBlocks": [
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 10,
+      "flashcards": 13,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 32,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 15,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_5",
+      "title": "5. Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "5 - Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores.",
+      "finding": "Blocos 2 e 6 repetem o mesmo título e extensa teoria. Há questões de conjuntos deslocadas. Conferir escopo de negação, interpretação de OU e domínio dos quantificadores.",
+      "requirements": [
+        {
+          "term": "proposições simples",
+          "mentionBlocks": [
+            1,
+            2,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "compostas",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "conectivos",
+          "mentionBlocks": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "tabelas-verdade",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "negação",
+          "mentionBlocks": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "equivalências",
+          "mentionBlocks": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "verified": false
+        },
+        {
+          "term": "implicações",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "quantificadores",
+          "mentionBlocks": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 15,
+      "flashcards": 18,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 6,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_6",
+      "title": "6. Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "6 - Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras.",
+      "finding": "Corrigidos escapes que exibiam “ext{Se}” e R$. Falta demonstrar exercício e explicação para cada componente, especialmente sequências com figuras e palavras. Validade não implica verdade factual das premissas.",
+      "requirements": [
+        {
+          "term": "premissas",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "conclusões",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "inferências",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "validade",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "diagramas",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "notação",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "representação",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "pertinência",
+          "mentionBlocks": [
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "igualdade",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "inclusão",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "subconjuntos",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "unitário",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "vazio",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "universo",
+          "mentionBlocks": [
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "partes",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "finitos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "infinitos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "união",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "interseção",
+          "mentionBlocks": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "diferença",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "complementar",
+          "mentionBlocks": [
+            3,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "números",
+          "mentionBlocks": [
+            3,
+            4,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "letras",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "palavras",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "figuras",
+          "mentionBlocks": [
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "associação",
+          "mentionBlocks": [
+            2,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "verdades",
+          "mentionBlocks": [
+            2,
+            5
+          ],
+          "verified": false
+        },
+        {
+          "term": "mentiras",
+          "mentionBlocks": [
+            2,
+            5
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 12,
+      "flashcards": 16,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 5,
+          "formulas": 40,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_7",
+      "title": "7. Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "7 - Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações.",
+      "finding": "Conferir escolha ordenada versus não ordenada, restrições, repetição e universo dos objetos. Sequências e probabilidade ocupam blocos do item e podem mascarar lacunas em contagem.",
+      "requirements": [
+        {
+          "term": "princípio fundamental",
+          "mentionBlocks": [
+            1,
+            2,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "arranjos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "permutações",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "combinações",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 12,
+      "flashcards": 14,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 15,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "rlm_8",
+      "title": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "8 - Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial.",
+      "finding": "Corrigido gabarito de múltiplos de 4 ou 6: 10/30 = 1/3. Revisar todos os demais cálculos. Reposição não é definição de independência; não reposição exige análise do experimento.",
+      "requirements": [
+        {
+          "term": "conceitos básicos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "probabilidades",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "espaços amostrais finitos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "lógico",
+          "mentionBlocks": [
+            1,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "sequencial",
+          "mentionBlocks": [
+            4
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 11,
+      "flashcards": 14,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 21,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 18,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_1",
+      "title": "1. Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "1 - Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional.",
+      "finding": "A janela de cinco anos é móvel e precisa de data de corte. “2021–2026” não comprova cinco anos completos. Falta demonstrar acervo de fatos datados nas quatro escalas, não apenas metodologia de leitura.",
+      "requirements": [
+        {
+          "term": "políticos",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "econômicos",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "sociais",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Município",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estado",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "Brasil",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "mundo",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "cinco anos",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 8,
+      "flashcards": 9,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_2",
+      "title": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "2 - Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo.",
+      "finding": "Cada tipo de movimento deve ser cruzado com as quatro escalas. Patrimônio local e panorama histórico nacional não comprovam movimentos sociais internacionais e estaduais.",
+      "requirements": [
+        {
+          "term": "artísticos",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "culturais",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "sociais",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "Município",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estado",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "Brasil",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "mundo",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 7,
+      "flashcards": 10,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_3",
+      "title": "3. Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "3 - Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo.",
+      "finding": "Concentração em Porto Velho/RO e repetição de linha do tempo. Dados estatísticos precisam de indicador, unidade, território, ano e publicação. Distritos de lotação não equivalem automaticamente a distritos administrativos.",
+      "requirements": [
+        {
+          "term": "geográficos",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "históricos",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "físicos",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "econômicos",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "sociais",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "políticos",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "estatísticos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "Município",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estado",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "Brasil",
+          "mentionBlocks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "verified": false
+        },
+        {
+          "term": "mundo",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 7,
+      "flashcards": 11,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 4,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_4",
+      "title": "4. Noções de cidadania. Símbolos nacionais, estaduais e municipais",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "4 - Noções de cidadania. Símbolos nacionais, estaduais e municipais.",
+      "finding": "Conferir cada símbolo na lei que o institui, seus significados e usos. O bloco geográfico sobre distritos não comprova cidadania nem símbolos. Há divergência de contagens de distritos entre aulas.",
+      "requirements": [
+        {
+          "term": "cidadania",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "símbolos nacionais",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "símbolos estaduais",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "símbolos municipais",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 11,
+      "flashcards": 13,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_5",
+      "title": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "5 - Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo.",
+      "finding": "O título panorâmico não prova os 17 eixos em quatro escalas. Religião e outras áreas não podem desaparecer por concentração em controle vetorial. Eventos, leis e técnicas exigem fonte e data individuais.",
+      "requirements": [
+        {
+          "term": "economia",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "ecologia",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "história",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "política",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "meio ambiente",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "justiça",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "segurança pública",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "saúde",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "cultura",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "educação",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "religião",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "qualidade de vida",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "esportes",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "turismo",
+          "mentionBlocks": [
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "georreferenciamento",
+          "mentionBlocks": [
+            1
+          ],
+          "verified": false
+        },
+        {
+          "term": "inovações tecnológicas",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "científicas",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "Município",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estado",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "Brasil",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "mundo",
+          "mentionBlocks": [],
+          "verified": false
+        }
+      ],
+      "questions": 8,
+      "flashcards": 10,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    },
+    {
+      "id": "atu_6",
+      "title": "6. Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo",
+      "status": "conferencia-integral-pendente",
+      "coverageCertified": false,
+      "literal": "6 - Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo.",
+      "finding": "Notícias em Geral: site da Prefeitura é exigência expressa adicional do programa e deve ter acervo datado. Um roteiro de consulta não substitui notícias efetivamente estudadas. Conferir integração das escalas nacional e mundial.",
+      "requirements": [
+        {
+          "term": "econômica",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "cultural",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
+          "term": "histórica",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "geográfica",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "socioambiental",
+          "mentionBlocks": [
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Município",
+          "mentionBlocks": [
+            1,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Estado",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "Brasil",
+          "mentionBlocks": [
+            1,
+            2,
+            3
+          ],
+          "verified": false
+        },
+        {
+          "term": "mundo",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "Notícias",
+          "mentionBlocks": [
+            2
+          ],
+          "verified": false
+        },
+        {
+          "term": "Prefeitura",
+          "mentionBlocks": [
+            1,
+            2
+          ],
+          "verified": false
+        }
+      ],
+      "questions": 12,
+      "flashcards": 11,
+      "math": [
+        {
+          "block": 1,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 2,
+          "formulas": 0,
+          "syntaxErrors": 0
+        },
+        {
+          "block": 3,
+          "formulas": 0,
+          "syntaxErrors": 0
+        }
+      ]
+    }
+  ]
+}

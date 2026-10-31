@@ -1,6 +1,9 @@
+import { protectMath } from './math';
+
 export function renderMarkdownToHtml(mdText: string): string {
   if (!mdText) return "";
-  const lines = String(mdText).split("\n");
+  const math = protectMath(String(mdText));
+  const lines = math.text.split("\n");
   let html = '<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed">';
   let inList = false;
   let inTable = false;
@@ -86,5 +89,5 @@ export function renderMarkdownToHtml(mdText: string): string {
   if (inList) html += "</ul>";
   if (inCode) html += "</pre>";
   html += "</div>";
-  return html;
+  return math.restore(html);
 }

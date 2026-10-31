@@ -38,6 +38,7 @@ export interface Source {
 }
 
 export interface Question {
+  revision?: string;
   q: string;
   options: string[];
   ans: number;

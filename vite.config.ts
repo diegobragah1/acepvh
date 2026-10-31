@@ -5,6 +5,15 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ command }) => ({
   plugins: [
     {
+      name: 'katex-modern-fonts',
+      enforce: 'pre',
+      transform(code, id) {
+        if (!id.endsWith('/katex/dist/katex.min.css')) return;
+        // Modern browsers use WOFF2; avoid embedding duplicate WOFF and TTF fallbacks.
+        return code.replace(/src:(url\([^)]*\.woff2\)\s*format\(["']woff2["']\)),[^;]+;/g, 'src:$1;');
+      },
+    },
+    {
       name: 'dual-mode-github-pages-html',
       transformIndexHtml: {
         order: 'pre',
@@ -44,6 +53,8 @@ export default defineConfig(({ command }) => ({
     },
   },
   build: {
+    // Keep KaTeX fonts inside the stylesheet in both static publication copies.
+    assetsInlineLimit: 100000,
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
@@ -51,7 +62,7 @@ export default defineConfig(({ command }) => ({
       output: {
         entryFileNames: 'assets/app-bundle.js',
         chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/app-bundle.[ext]',
+        assetFileNames: asset => asset.name?.endsWith('.css') ? 'assets/app-bundle.css' : 'assets/[name]-[hash][extname]',
       },
     },
   },
