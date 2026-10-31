@@ -5,7 +5,7 @@ import { renderMarkdownToHtml } from '../utils/markdown';
 import { toSafeString } from '../utils/normalizeData';
 import { TopicStatus, Source } from '../types';
 import { LessonMindMapView } from './LessonMindMapView';
-import { PAUTA_ESPECIFICA_ITEMS } from '../data/pautaEspecificaMap';
+import { PAUTA_ESPECIFICA_ITEMS, PAUTA_LEGISLACAO_ITEMS, PAUTA_PORTUGUES_ITEMS, PAUTA_RLM_ITEMS, PAUTA_GERAIS_ITEMS, ALL_PAUTA_ITEMS } from '../data/pautaEspecificaMap';
 
 interface VFChallengeItem {
   id: string;
@@ -41,6 +41,7 @@ export const Tab2Apostila: React.FC = () => {
   const [showVFTrainer, setShowVFTrainer] = useState(true);
   const [showPautaLocator, setShowPautaLocator] = useState(true);
   const [pautaOnlyHighlighted, setPautaOnlyHighlighted] = useState(false);
+  const [pautaDisciplineTab, setPautaDisciplineTab] = useState<'esp' | 'leg' | 'por' | 'rlm' | 'atu' | 'all'>('esp');
 
   // Track chosen answers for current lesson questions: qKey -> optionIndex
   const [lessonAnswers, setLessonAnswers] = useState<Record<string, number>>({});
@@ -291,7 +292,7 @@ export const Tab2Apostila: React.FC = () => {
         <div className="bg-white rounded-2xl p-4 shadow-sm border border-slate-200 space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-xs font-extrabold uppercase tracking-wider text-slate-800">
-              Módulos do Edital (32 Aulas)
+              Módulos do Edital (49 Aulas)
             </span>
             <span className="text-xs font-bold text-teal-800 bg-teal-50 px-2 py-0.5 rounded-full border border-teal-200">
               {filteredLessons.length} {filteredLessons.length === 1 ? 'aula' : 'aulas'}
@@ -318,12 +319,12 @@ export const Tab2Apostila: React.FC = () => {
               onChange={(e) => setCategoryFilter(e.target.value)}
               className="w-full text-xs p-2 rounded-lg border border-slate-300 bg-white font-medium"
             >
-              <option value="all">Todas as Disciplinas (32 Aulas)</option>
+              <option value="all">Todas as Disciplinas (49 Aulas)</option>
               <option value="esp">Conhecimentos Específicos ACE (10 Aulas)</option>
               <option value="leg">Legislação e Direito (7 Aulas)</option>
-              <option value="por">Língua Portuguesa (6 Aulas)</option>
-              <option value="rlm">Raciocínio Lógico (6 Aulas)</option>
-              <option value="atu">Conhecimentos Gerais (3 Aulas)</option>
+              <option value="por">Língua Portuguesa (18 Aulas)</option>
+              <option value="rlm">Raciocínio Lógico (8 Aulas)</option>
+              <option value="atu">Conhecimentos Gerais e Atualidades (6 Aulas)</option>
             </select>
           </div>
 
@@ -619,7 +620,7 @@ export const Tab2Apostila: React.FC = () => {
               )}
             </div>
 
-            {/* Pauta Oficial de Conhecimentos Específicos (Anexo IV) — Categorizada em 10 Tópicos (1 a 10) */}
+            {/* Pauta Oficial Categorizada (Anexo IV) — Todas as 5 Disciplinas (49 Tópicos) */}
             <div
               id="pauta-especifica-locator"
               className="bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 text-white rounded-2xl p-4 shadow-md border border-teal-600/50 space-y-3 no-print"
@@ -627,11 +628,76 @@ export const Tab2Apostila: React.FC = () => {
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="px-2.5 py-0.5 rounded-md bg-amber-400 text-slate-950 text-[11px] font-black uppercase tracking-wider">
-                    🎯 Conhecimentos Específicos Categorizados (Tópicos 1 a 10)
+                    🎯 Pauta Categorizada do Edital (Anexo IV)
                   </span>
-                  <span className="text-xs font-bold text-teal-200">
-                    Organização 1 a 10 Exata do Edital (Aulas 1 a 10 — Clique para abrir diretamente cada categoria)
-                  </span>
+                  <div className="flex flex-wrap items-center gap-1 bg-slate-950/80 p-1 rounded-xl border border-slate-700">
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('esp')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'esp'
+                          ? 'bg-teal-500 text-slate-950 shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Específicos (1 a 10)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('leg')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'leg'
+                          ? 'bg-indigo-500 text-white shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Legislação (1 a 7)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('por')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'por'
+                          ? 'bg-rose-500 text-white shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Português (1 a 18)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('rlm')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'rlm'
+                          ? 'bg-violet-500 text-white shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Raciocínio Lógico (1 a 8)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('atu')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'atu'
+                          ? 'bg-sky-500 text-slate-950 shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Gerais e Atualidades (1 a 6)
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPautaDisciplineTab('all')}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold transition ${
+                        pautaDisciplineTab === 'all'
+                          ? 'bg-amber-400 text-slate-950 shadow'
+                          : 'text-slate-300 hover:text-white'
+                      }`}
+                    >
+                      Todas (49)
+                    </button>
+                  </div>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <button
@@ -643,14 +709,14 @@ export const Tab2Apostila: React.FC = () => {
                         : 'bg-slate-800 text-amber-300 border-amber-500/40 hover:bg-slate-700'
                     }`}
                   >
-                    {pautaOnlyHighlighted ? '★ Mostrando Categorias em Destaque (Ver Todas as 10)' : '★ Filtrar Categorias em Destaque (3, 4, 5, 6, 7 e 10)'}
+                    {pautaOnlyHighlighted ? '★ Mostrando Destaques (Ver Todos)' : '★ Filtrar Destaques'}
                   </button>
                   <button
                     type="button"
                     onClick={() => setShowPautaLocator(prev => !prev)}
                     className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700"
                   >
-                    {showPautaLocator ? 'Recolher Categorias ▲' : 'Expandir Categorias 1–10 ▼'}
+                    {showPautaLocator ? 'Recolher Categorias ▲' : 'Expandir Categorias ▼'}
                   </button>
                 </div>
               </div>
@@ -658,50 +724,80 @@ export const Tab2Apostila: React.FC = () => {
               {showPautaLocator && (
                 <div className="space-y-3 pt-1">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                    {PAUTA_ESPECIFICA_ITEMS.filter(item => !pautaOnlyHighlighted || item.isHighlightedUserRequest).map(item => {
-                      const isActiveLesson = currentLesson.id === item.lessonId;
-                      return (
-                        <button
-                          key={item.id}
-                          type="button"
-                          onClick={() => jumpToLessonAndBlock(item.lessonId, item.blockIndex)}
-                          className={`text-left p-2.5 rounded-xl border transition flex flex-col justify-between gap-1.5 ${
-                            isActiveLesson
-                              ? 'bg-teal-500/25 border-amber-400 ring-1 ring-amber-300'
-                              : item.isHighlightedUserRequest
-                              ? 'bg-slate-800/95 hover:bg-slate-800 border-amber-500/50'
-                              : 'bg-slate-800/75 hover:bg-slate-800 border-slate-700'
-                          }`}
-                        >
-                          <div className="space-y-1">
-                            <div className="flex items-center justify-between gap-1">
-                              <span
-                                className={`px-2 py-0.5 rounded text-[10px] font-extrabold uppercase ${
-                                  item.isHighlightedUserRequest
-                                    ? 'bg-amber-400 text-slate-950'
-                                    : 'bg-teal-500/20 text-teal-300 border border-teal-500/30'
-                                }`}
-                              >
-                                CATEGORIA {item.num} {item.isHighlightedUserRequest ? '★' : ''}
-                              </span>
-                              <span className="text-[10px] font-bold text-slate-300 bg-slate-900 px-2 py-0.5 rounded">
-                                {item.lessonLabel}
-                              </span>
+                    {(pautaDisciplineTab === 'esp'
+                      ? PAUTA_ESPECIFICA_ITEMS
+                      : pautaDisciplineTab === 'leg'
+                      ? PAUTA_LEGISLACAO_ITEMS
+                      : pautaDisciplineTab === 'por'
+                      ? PAUTA_PORTUGUES_ITEMS
+                      : pautaDisciplineTab === 'rlm'
+                      ? PAUTA_RLM_ITEMS
+                      : pautaDisciplineTab === 'atu'
+                      ? PAUTA_GERAIS_ITEMS
+                      : ALL_PAUTA_ITEMS
+                    )
+                      .filter(item => !pautaOnlyHighlighted || item.isHighlightedUserRequest)
+                      .map(item => {
+                        const isActiveLesson = currentLesson.id === item.lessonId;
+                        return (
+                          <button
+                            key={item.id}
+                            type="button"
+                            onClick={() => jumpToLessonAndBlock(item.lessonId, item.blockIndex)}
+                            className={`text-left p-2.5 rounded-xl border transition flex flex-col justify-between gap-1.5 ${
+                              isActiveLesson
+                                ? 'bg-teal-500/25 border-amber-400 ring-1 ring-amber-300'
+                                : item.isHighlightedUserRequest
+                                ? 'bg-slate-800/95 hover:bg-slate-800 border-amber-500/50'
+                                : 'bg-slate-800/75 hover:bg-slate-800 border-slate-700'
+                            }`}
+                          >
+                            <div className="space-y-1">
+                              <div className="flex items-center justify-between gap-1">
+                                <span
+                                  className={`px-2 py-0.5 rounded text-[10px] font-extrabold uppercase ${
+                                    item.isHighlightedUserRequest
+                                      ? 'bg-amber-400 text-slate-950'
+                                      : item.discipline === 'leg'
+                                      ? 'bg-indigo-500/30 text-indigo-200 border border-indigo-400/40'
+                                      : item.discipline === 'por'
+                                      ? 'bg-rose-500/30 text-rose-200 border border-rose-400/40'
+                                      : item.discipline === 'rlm'
+                                      ? 'bg-violet-500/30 text-violet-200 border border-violet-400/40'
+                                      : item.discipline === 'atu'
+                                      ? 'bg-sky-500/30 text-sky-200 border border-sky-400/40'
+                                      : 'bg-teal-500/20 text-teal-300 border border-teal-500/30'
+                                  }`}
+                                >
+                                  {item.discipline === 'leg'
+                                    ? `LEGISLAÇÃO ${item.num}`
+                                    : item.discipline === 'por'
+                                    ? `PORTUGUÊS ${item.num}`
+                                    : item.discipline === 'rlm'
+                                    ? `RACIOCÍNIO LÓGICO ${item.num}`
+                                    : item.discipline === 'atu'
+                                    ? `GERAIS ${item.num}`
+                                    : `ESPECÍFICO ${item.num}`}{' '}
+                                  {item.isHighlightedUserRequest ? '★' : ''}
+                                </span>
+                                <span className="text-[10px] font-bold text-slate-300 bg-slate-900 px-2 py-0.5 rounded">
+                                  {item.lessonLabel}
+                                </span>
+                              </div>
+                              <div className="text-xs font-extrabold text-white leading-snug">
+                                {item.pautaLiteral}
+                              </div>
+                              <div className="text-[11px] text-slate-300 leading-tight line-clamp-2">
+                                {item.description}
+                              </div>
                             </div>
-                            <div className="text-xs font-extrabold text-white leading-snug">
-                              {item.pautaLiteral}
+                            <div className="pt-1 border-t border-slate-700/60 flex items-center justify-between text-[10px] font-bold text-teal-300">
+                              <span className="truncate">{item.blockTitle.split('(')[0].trim()}</span>
+                              <span className="shrink-0 ml-1 text-amber-300">Abrir Aula &#8594;</span>
                             </div>
-                            <div className="text-[11px] text-slate-300 leading-tight line-clamp-2">
-                              {item.description}
-                            </div>
-                          </div>
-                          <div className="pt-1 border-t border-slate-700/60 flex items-center justify-between text-[10px] font-bold text-teal-300">
-                            <span className="truncate">{item.blockTitle.split('(')[0].trim()}</span>
-                            <span className="shrink-0 ml-1 text-amber-300">Abrir Categoria {item.num} &#8594;</span>
-                          </div>
-                        </button>
-                      );
-                    })}
+                          </button>
+                        );
+                      })}
                   </div>
                 </div>
               )}

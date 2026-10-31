@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta, getCatBadgeClass } from '../utils/status';
 import { TopicStatus } from '../types';
-import { PAUTA_ESPECIFICA_ITEMS } from '../data/pautaEspecificaMap';
+import { PAUTA_ESPECIFICA_ITEMS, PAUTA_LEGISLACAO_ITEMS, PAUTA_PORTUGUES_ITEMS, PAUTA_RLM_ITEMS, PAUTA_GERAIS_ITEMS, ALL_PAUTA_ITEMS } from '../data/pautaEspecificaMap';
 
 export const Tab7Programatico: React.FC = () => {
   const { appData, setCurrentTab, setCurrentLessonId, getTopicStatus, updateTopicStatus } = useApp();
@@ -10,9 +10,10 @@ export const Tab7Programatico: React.FC = () => {
   const [catFilter, setCatFilter] = useState('all');
   const [statusFilter, setStatusFilter] = useState('all');
   const [showPautaTable, setShowPautaTable] = useState(true);
+  const [pautaTableDisc, setPautaTableDisc] = useState<'all' | 'esp' | 'leg' | 'por' | 'rlm' | 'atu'>('all');
 
   const lessons = appData?.lessons || [];
-  const total = lessons.length || 32;
+  const total = lessons.length || 49;
 
   let cNotStarted = 0, cStudying = 0, cCompleted = 0, cReview = 0, cMastered = 0;
   lessons.forEach(l => {
@@ -133,29 +134,87 @@ export const Tab7Programatico: React.FC = () => {
         </div>
       </div>
 
-      {/* Mapeamento Literal 1 para 1 da Pauta de Conhecimentos Específicos (Anexo IV) */}
+      {/* Mapeamento Literal 1 para 1 da Pauta Completa do Edital (49 Tópicos) */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border-2 border-teal-600/30 space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <div className="space-y-0.5">
-            <div className="flex items-center gap-2">
+          <div className="space-y-1">
+            <div className="flex flex-wrap items-center gap-2">
               <span className="px-2.5 py-0.5 rounded-md bg-amber-400 text-slate-950 text-[11px] font-black uppercase">
-                ★ Pauta Literal de Conhecimentos Específicos (Anexo IV)
+                ★ Pauta Categorizada Oficial (Anexo IV)
               </span>
               <span className="text-xs font-bold text-teal-800">
-                100% dos Blocos do Edital Mapeados com Acesso Direto
+                Específicos (1–10), Legislação (1–7), Português (1–18), Raciocínio Lógico (1–8) &amp; Gerais (1–6)
               </span>
             </div>
             <p className="text-xs text-slate-600">
-              Confira abaixo onde cada item literal da pauta de Conhecimentos Específicos está localizado nas aulas e clique para abrir diretamente o bloco correspondente:
+              Confira abaixo a categorização exata de todas as 5 disciplinas do edital (49 tópicos numerados) e clique para abrir diretamente a aula correspondente:
             </p>
           </div>
-          <button
-            type="button"
-            onClick={() => setShowPautaTable(prev => !prev)}
-            className="px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300"
-          >
-            {showPautaTable ? 'Ocultar Mapa da Pauta ▲' : 'Mostrar Mapa da Pauta ▼'}
-          </button>
+          <div className="flex flex-wrap items-center gap-1.5">
+            <div className="flex flex-wrap items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs font-bold">
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('all')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'all' ? 'bg-slate-900 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Todos (49)
+              </button>
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('esp')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'esp' ? 'bg-teal-600 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Específicos (1 a 10)
+              </button>
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('leg')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'leg' ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Legislação (1 a 7)
+              </button>
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('por')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'por' ? 'bg-rose-600 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Português (1 a 18)
+              </button>
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('rlm')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'rlm' ? 'bg-violet-600 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Raciocínio Lógico (1 a 8)
+              </button>
+              <button
+                type="button"
+                onClick={() => setPautaTableDisc('atu')}
+                className={`px-2.5 py-1 rounded-lg transition ${
+                  pautaTableDisc === 'atu' ? 'bg-sky-600 text-white' : 'text-slate-700 hover:bg-slate-200'
+                }`}
+              >
+                Gerais e Atualidades (1 a 6)
+              </button>
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowPautaTable(prev => !prev)}
+              className="px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300"
+            >
+              {showPautaTable ? 'Ocultar Mapa ▲' : 'Mostrar Mapa ▼'}
+            </button>
+          </div>
         </div>
 
         {showPautaTable && (
@@ -163,29 +222,59 @@ export const Tab7Programatico: React.FC = () => {
             <table className="w-full text-left border-collapse text-xs">
               <thead>
                 <tr className="bg-slate-900 text-white">
-                  <th className="p-2.5 rounded-tl-xl font-bold">Tópico Literal na Pauta do Edital (Conhecimentos Específicos)</th>
-                  <th className="p-2.5 font-bold">Aula &amp; Bloco Correspondente</th>
+                  <th className="p-2.5 rounded-tl-xl font-bold">Disciplina / Nº</th>
+                  <th className="p-2.5 font-bold">Tópico Literal Categorizado na Pauta do Edital</th>
+                  <th className="p-2.5 font-bold">Aula Correspondente</th>
                   <th className="p-2.5 font-bold">Conteúdo Integral Abordado</th>
                   <th className="p-2.5 rounded-tr-xl font-bold text-right">Acesso</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200">
-                {PAUTA_ESPECIFICA_ITEMS.map(item => (
+                {(pautaTableDisc === 'esp'
+                  ? PAUTA_ESPECIFICA_ITEMS
+                  : pautaTableDisc === 'leg'
+                  ? PAUTA_LEGISLACAO_ITEMS
+                  : pautaTableDisc === 'por'
+                  ? PAUTA_PORTUGUES_ITEMS
+                  : pautaTableDisc === 'rlm'
+                  ? PAUTA_RLM_ITEMS
+                  : pautaTableDisc === 'atu'
+                  ? PAUTA_GERAIS_ITEMS
+                  : ALL_PAUTA_ITEMS
+                ).map(item => (
                   <tr
                     key={item.id}
                     className={item.isHighlightedUserRequest ? 'bg-amber-50/70 hover:bg-amber-100/70' : 'hover:bg-slate-50'}
                   >
-                    <td className="p-2.5 font-bold text-slate-900 align-top">
-                      <div className="flex items-start gap-1.5">
-                        {item.isHighlightedUserRequest && (
-                          <span className="shrink-0 mt-0.5 px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 text-[10px] font-black">
-                            ★ FOCO
-                          </span>
-                        )}
-                        <span>{item.pautaLiteral}</span>
-                      </div>
+                    <td className="p-2.5 align-top whitespace-nowrap">
+                      <span
+                        className={`px-2 py-0.5 rounded text-[10px] font-extrabold uppercase ${
+                          item.discipline === 'leg'
+                            ? 'bg-indigo-100 text-indigo-900 border border-indigo-300'
+                            : item.discipline === 'por'
+                            ? 'bg-rose-100 text-rose-900 border border-rose-300'
+                            : item.discipline === 'rlm'
+                            ? 'bg-violet-100 text-violet-900 border border-violet-300'
+                            : item.discipline === 'atu'
+                            ? 'bg-sky-100 text-sky-900 border border-sky-300'
+                            : 'bg-teal-100 text-teal-900 border border-teal-300'
+                        }`}
+                      >
+                        {item.discipline === 'leg'
+                          ? `Legislação #${item.num}`
+                          : item.discipline === 'por'
+                          ? `Português #${item.num}`
+                          : item.discipline === 'rlm'
+                          ? `Raciocínio Lógico #${item.num}`
+                          : item.discipline === 'atu'
+                          ? `Gerais #${item.num}`
+                          : `Específicos #${item.num}`}
+                      </span>
                     </td>
-                    <td className="p-2.5 text-teal-900 font-bold align-top">
+                    <td className="p-2.5 font-bold text-slate-900 align-top">
+                      <span>{item.pautaLiteral}</span>
+                    </td>
+                    <td className="p-2.5 text-teal-900 font-bold align-top whitespace-nowrap">
                       <div>{item.lessonLabel}</div>
                       <div className="text-[11px] text-slate-600 font-semibold">{item.blockTitle.split('(')[0].trim()}</div>
                     </td>
@@ -198,7 +287,7 @@ export const Tab7Programatico: React.FC = () => {
                         onClick={() => handleOpenLessonAndBlock(item.lessonId, item.blockIndex)}
                         className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-[11px] whitespace-nowrap shadow-xs"
                       >
-                        Abrir Bloco &#8594;
+                        Abrir Aula &#8594;
                       </button>
                     </td>
                   </tr>

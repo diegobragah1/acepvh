@@ -38,7 +38,7 @@ export const Tab1Painel: React.FC = () => {
             onClick={() => setCurrentTab('tab-apostila')}
             className="px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow transition self-start"
           >
-            Estudar as 32 Aulas Aprofundadas &rarr;
+            Estudar as 49 Aulas Aprofundadas &rarr;
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm">
