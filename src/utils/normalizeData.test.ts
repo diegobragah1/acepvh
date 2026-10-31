@@ -103,3 +103,65 @@ test('normalizeAppData validates all 32 lessons in public/data/app_data.json wit
     });
   });
 });
+
+test('Conhecimentos Especificos lessons are categorized into the exact 10 topics (esp_1 to esp_10) requested by the user', () => {
+  const jsonPath = path.resolve(process.cwd(), 'public/data/app_data.json');
+  const raw = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+  const normalized = normalizeAppData(raw);
+
+  const espLessons = normalized.lessons.filter(l => l.cat === 'esp');
+  assert.equal(espLessons.length, 10, 'Must have exactly 10 Conhecimentos Específicos lessons');
+
+  // Verify the first 10 lessons in normalized.lessons are esp_1 through esp_10 in exact order
+  for (let i = 0; i < 10; i++) {
+    assert.equal(normalized.lessons[i].id, `esp_${i + 1}`);
+  }
+
+  const byId = Object.fromEntries(espLessons.map(l => [l.id, l]));
+
+  // 1 - Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200.
+  assert.ok(byId['esp_1'].title.includes('1. Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200'));
+  assert.ok(byId['esp_1'].blocks.length >= 3);
+
+  // 2 - Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990.
+  assert.ok(byId['esp_2'].title.includes('2. Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990'));
+  assert.ok(byId['esp_2'].blocks.length >= 6);
+
+  // 3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018.
+  assert.ok(byId['esp_3'].title.includes('3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018'));
+  assert.ok(byId['esp_3'].blocks[0].title.includes('Lei Federal nº 13.708/2018'));
+  assert.ok(byId['esp_3'].blocks.length >= 4);
+
+  // 4 - Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde.
+  assert.ok(byId['esp_4'].title.includes('4. Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde'));
+  assert.ok(byId['esp_4'].blocks.length >= 5);
+
+  // 5 - Política Nacional de Atenção Básica.
+  assert.equal(byId['esp_5'].title, '5. Política Nacional de Atenção Básica');
+  assert.ok(byId['esp_5'].blocks.length >= 4);
+
+  // 6 - História e Evolução da Profissão de ACE.
+  assert.equal(byId['esp_6'].title, '6. História e Evolução da Profissão de ACE');
+  assert.ok(byId['esp_6'].blocks.length >= 3);
+
+  // 7 - Atribuições do Agente de Combate a Endemias.
+  assert.equal(byId['esp_7'].title, '7. Atribuições do Agente de Combate a Endemias');
+  assert.ok(byId['esp_7'].blocks.length >= 6);
+
+  // 8 - Vigilância em Saúde.
+  assert.equal(byId['esp_8'].title, '8. Vigilância em Saúde');
+  assert.ok(byId['esp_8'].blocks.length >= 4);
+
+  // 9 - Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19.
+  assert.ok(byId['esp_9'].title.includes('9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19'));
+  assert.equal(byId['esp_9'].blocks.length, 12);
+
+  // 10 - Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle.
+  assert.equal(
+    byId['esp_10'].title,
+    '10. Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle'
+  );
+  assert.ok(byId['esp_10'].blocks.length >= 3);
+});
+
+

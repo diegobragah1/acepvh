@@ -5,6 +5,7 @@ import { renderMarkdownToHtml } from '../utils/markdown';
 import { toSafeString } from '../utils/normalizeData';
 import { TopicStatus, Source } from '../types';
 import { LessonMindMapView } from './LessonMindMapView';
+import { PAUTA_ESPECIFICA_ITEMS } from '../data/pautaEspecificaMap';
 
 interface VFChallengeItem {
   id: string;
@@ -38,6 +39,8 @@ export const Tab2Apostila: React.FC = () => {
   const [collapsedBlocks, setCollapsedBlocks] = useState<Record<string, boolean>>({});
   const [vfAnswers, setVfAnswers] = useState<Record<string, boolean>>({});
   const [showVFTrainer, setShowVFTrainer] = useState(true);
+  const [showPautaLocator, setShowPautaLocator] = useState(true);
+  const [pautaOnlyHighlighted, setPautaOnlyHighlighted] = useState(false);
 
   // Track chosen answers for current lesson questions: qKey -> optionIndex
   const [lessonAnswers, setLessonAnswers] = useState<Record<string, number>>({});
@@ -128,6 +131,22 @@ export const Tab2Apostila: React.FC = () => {
       next[`${currentLesson.id}_${idx}`] = true;
     });
     setCollapsedBlocks(next);
+  };
+
+  const jumpToLessonAndBlock = (lessonId: string, blockIdx: number) => {
+    setCurrentLessonId(lessonId);
+    if (currentStudyMode === 'MAPA') {
+      setCurrentStudyMode('ALL');
+    }
+    setBlockTypeFilter('all');
+    setInLessonQuery('');
+    setCollapsedBlocks(prev => ({ ...prev, [`${lessonId}_${blockIdx}`]: false }));
+    setTimeout(() => {
+      const el = document.getElementById(`lesson-block-${blockIdx}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 120);
   };
 
   const goToPrevLesson = () => {
@@ -600,6 +619,94 @@ export const Tab2Apostila: React.FC = () => {
               )}
             </div>
 
+            {/* Pauta Oficial de Conhecimentos Específicos (Anexo IV) — Categorizada em 10 Tópicos (1 a 10) */}
+            <div
+              id="pauta-especifica-locator"
+              className="bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 text-white rounded-2xl p-4 shadow-md border border-teal-600/50 space-y-3 no-print"
+            >
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="px-2.5 py-0.5 rounded-md bg-amber-400 text-slate-950 text-[11px] font-black uppercase tracking-wider">
+                    🎯 Conhecimentos Específicos Categorizados (Tópicos 1 a 10)
+                  </span>
+                  <span className="text-xs font-bold text-teal-200">
+                    Organização 1 a 10 Exata do Edital (Aulas 1 a 10 — Clique para abrir diretamente cada categoria)
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => setPautaOnlyHighlighted(prev => !prev)}
+                    className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition ${
+                      pautaOnlyHighlighted
+                        ? 'bg-amber-400 text-slate-950 border-amber-300'
+                        : 'bg-slate-800 text-amber-300 border-amber-500/40 hover:bg-slate-700'
+                    }`}
+                  >
+                    {pautaOnlyHighlighted ? '★ Mostrando Categorias em Destaque (Ver Todas as 10)' : '★ Filtrar Categorias em Destaque (3, 4, 5, 6, 7 e 10)'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowPautaLocator(prev => !prev)}
+                    className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700"
+                  >
+                    {showPautaLocator ? 'Recolher Categorias ▲' : 'Expandir Categorias 1–10 ▼'}
+                  </button>
+                </div>
+              </div>
+
+              {showPautaLocator && (
+                <div className="space-y-3 pt-1">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    {PAUTA_ESPECIFICA_ITEMS.filter(item => !pautaOnlyHighlighted || item.isHighlightedUserRequest).map(item => {
+                      const isActiveLesson = currentLesson.id === item.lessonId;
+                      return (
+                        <button
+                          key={item.id}
+                          type="button"
+                          onClick={() => jumpToLessonAndBlock(item.lessonId, item.blockIndex)}
+                          className={`text-left p-2.5 rounded-xl border transition flex flex-col justify-between gap-1.5 ${
+                            isActiveLesson
+                              ? 'bg-teal-500/25 border-amber-400 ring-1 ring-amber-300'
+                              : item.isHighlightedUserRequest
+                              ? 'bg-slate-800/95 hover:bg-slate-800 border-amber-500/50'
+                              : 'bg-slate-800/75 hover:bg-slate-800 border-slate-700'
+                          }`}
+                        >
+                          <div className="space-y-1">
+                            <div className="flex items-center justify-between gap-1">
+                              <span
+                                className={`px-2 py-0.5 rounded text-[10px] font-extrabold uppercase ${
+                                  item.isHighlightedUserRequest
+                                    ? 'bg-amber-400 text-slate-950'
+                                    : 'bg-teal-500/20 text-teal-300 border border-teal-500/30'
+                                }`}
+                              >
+                                CATEGORIA {item.num} {item.isHighlightedUserRequest ? '★' : ''}
+                              </span>
+                              <span className="text-[10px] font-bold text-slate-300 bg-slate-900 px-2 py-0.5 rounded">
+                                {item.lessonLabel}
+                              </span>
+                            </div>
+                            <div className="text-xs font-extrabold text-white leading-snug">
+                              {item.pautaLiteral}
+                            </div>
+                            <div className="text-[11px] text-slate-300 leading-tight line-clamp-2">
+                              {item.description}
+                            </div>
+                          </div>
+                          <div className="pt-1 border-t border-slate-700/60 flex items-center justify-between text-[10px] font-bold text-teal-300">
+                            <span className="truncate">{item.blockTitle.split('(')[0].trim()}</span>
+                            <span className="shrink-0 ml-1 text-amber-300">Abrir Categoria {item.num} &#8594;</span>
+                          </div>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Lesson Body Container */}
             <article className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 space-y-6">
               {/* Lesson Header */}
@@ -698,6 +805,7 @@ export const Tab2Apostila: React.FC = () => {
                         for (let i = 0; i < bQCount; i++) {
                           if (lessonAnswers[`${currentLesson.id}_b${idx}_q${i}`] !== undefined) bAnswered++;
                         }
+                        const cleanBlockLabel = b.title.split('(')[0].trim();
                         return (
                           <a
                             key={idx}
@@ -710,7 +818,7 @@ export const Tab2Apostila: React.FC = () => {
                             }}
                             className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-teal-50 hover:bg-teal-100 text-teal-900 border border-teal-200 transition"
                           >
-                            <span>📑 {b.title.split('—')[0].trim()}</span>
+                            <span>📑 {cleanBlockLabel.length > 82 ? cleanBlockLabel.slice(0, 80) + '…' : cleanBlockLabel}</span>
                             {bQCount > 0 && (
                               <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-white text-teal-800 border border-teal-200">
                                 {bAnswered}/{bQCount} Q

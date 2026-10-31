@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { getStatusMeta, getCatBadgeClass } from '../utils/status';
 import { TopicStatus } from '../types';
+import { PAUTA_ESPECIFICA_ITEMS } from '../data/pautaEspecificaMap';
 
 export const Tab7Programatico: React.FC = () => {
   const { appData, setCurrentTab, setCurrentLessonId, getTopicStatus, updateTopicStatus } = useApp();
   const [searchQuery, setSearchQuery] = useState('');
   const [catFilter, setCatFilter] = useState('all');
   const [statusFilter, setStatusFilter] = useState('all');
+  const [showPautaTable, setShowPautaTable] = useState(true);
 
   const lessons = appData?.lessons || [];
   const total = lessons.length || 32;
@@ -52,6 +54,19 @@ export const Tab7Programatico: React.FC = () => {
     setCurrentLessonId(lessonId);
     setCurrentTab('tab-apostila');
     window.scrollTo({ top: 300, behavior: 'smooth' });
+  };
+
+  const handleOpenLessonAndBlock = (lessonId: string, blockIdx: number) => {
+    setCurrentLessonId(lessonId);
+    setCurrentTab('tab-apostila');
+    setTimeout(() => {
+      const el = document.getElementById(`lesson-block-${blockIdx}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: 300, behavior: 'smooth' });
+      }
+    }, 150);
   };
 
   return (
@@ -116,6 +131,82 @@ export const Tab7Programatico: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Mapeamento Literal 1 para 1 da Pauta de Conhecimentos Específicos (Anexo IV) */}
+      <div className="bg-white rounded-2xl p-5 shadow-sm border-2 border-teal-600/30 space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="space-y-0.5">
+            <div className="flex items-center gap-2">
+              <span className="px-2.5 py-0.5 rounded-md bg-amber-400 text-slate-950 text-[11px] font-black uppercase">
+                ★ Pauta Literal de Conhecimentos Específicos (Anexo IV)
+              </span>
+              <span className="text-xs font-bold text-teal-800">
+                100% dos Blocos do Edital Mapeados com Acesso Direto
+              </span>
+            </div>
+            <p className="text-xs text-slate-600">
+              Confira abaixo onde cada item literal da pauta de Conhecimentos Específicos está localizado nas aulas e clique para abrir diretamente o bloco correspondente:
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setShowPautaTable(prev => !prev)}
+            className="px-3 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300"
+          >
+            {showPautaTable ? 'Ocultar Mapa da Pauta ▲' : 'Mostrar Mapa da Pauta ▼'}
+          </button>
+        </div>
+
+        {showPautaTable && (
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse text-xs">
+              <thead>
+                <tr className="bg-slate-900 text-white">
+                  <th className="p-2.5 rounded-tl-xl font-bold">Tópico Literal na Pauta do Edital (Conhecimentos Específicos)</th>
+                  <th className="p-2.5 font-bold">Aula &amp; Bloco Correspondente</th>
+                  <th className="p-2.5 font-bold">Conteúdo Integral Abordado</th>
+                  <th className="p-2.5 rounded-tr-xl font-bold text-right">Acesso</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-200">
+                {PAUTA_ESPECIFICA_ITEMS.map(item => (
+                  <tr
+                    key={item.id}
+                    className={item.isHighlightedUserRequest ? 'bg-amber-50/70 hover:bg-amber-100/70' : 'hover:bg-slate-50'}
+                  >
+                    <td className="p-2.5 font-bold text-slate-900 align-top">
+                      <div className="flex items-start gap-1.5">
+                        {item.isHighlightedUserRequest && (
+                          <span className="shrink-0 mt-0.5 px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 text-[10px] font-black">
+                            ★ FOCO
+                          </span>
+                        )}
+                        <span>{item.pautaLiteral}</span>
+                      </div>
+                    </td>
+                    <td className="p-2.5 text-teal-900 font-bold align-top">
+                      <div>{item.lessonLabel}</div>
+                      <div className="text-[11px] text-slate-600 font-semibold">{item.blockTitle.split('(')[0].trim()}</div>
+                    </td>
+                    <td className="p-2.5 text-slate-600 align-top max-w-md">
+                      {item.description}
+                    </td>
+                    <td className="p-2.5 text-right align-top">
+                      <button
+                        type="button"
+                        onClick={() => handleOpenLessonAndBlock(item.lessonId, item.blockIndex)}
+                        className="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-700 text-white font-bold text-[11px] whitespace-nowrap shadow-xs"
+                      >
+                        Abrir Bloco &#8594;
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </div>
 
       {/* Filter and Search Bar */}
@@ -212,14 +303,23 @@ export const Tab7Programatico: React.FC = () => {
                 {/* Subtopics bullet list */}
                 <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
                   <div className="text-[11px] font-bold text-slate-500 uppercase mb-1.5">
-                    Subtópicos &amp; Conteúdos Trabalhados:
+                    Subtópicos &amp; Blocos Trabalhados nesta Aula (Clique em qualquer bloco para abrir direto):
                   </div>
-                  <ul className="list-disc pl-5 space-y-1 text-xs text-slate-700">
+                  <ul className="space-y-1.5 text-xs text-slate-700">
                     {subtopics.length > 0 ? (
                       subtopics.map((t, idx) => (
-                        <li key={idx} className="leading-relaxed">
-                          <strong className="text-slate-800">{(t || '').split('.')[0] || 'Tópico'}:</strong>{' '}
-                          {(t || '').replace(/^[^.]+\.\s*/, '')}
+                        <li key={idx} className="leading-relaxed flex items-start justify-between gap-2 bg-white p-2 rounded-lg border border-slate-200/80 hover:border-teal-400 transition">
+                          <div>
+                            <strong className="text-teal-900">Bloco #{idx + 1}:</strong>{' '}
+                            <span className="font-semibold text-slate-800">{t}</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => handleOpenLessonAndBlock(l.id, idx)}
+                            className="shrink-0 px-2.5 py-1 rounded-md bg-teal-50 hover:bg-teal-600 hover:text-white text-teal-800 font-bold text-[11px] border border-teal-200 transition"
+                          >
+                            Ir ao Bloco &#8594;
+                          </button>
                         </li>
                       ))
                     ) : (

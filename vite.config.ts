@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [
     {
       name: 'dual-mode-github-pages-html',
@@ -20,11 +20,28 @@ export default defineConfig({
     },
     react(),
   ],
-  // Base relativa './' garante funcionamento tanto em https://diegobragah1.github.io/acepvh/ quanto em raiz /
-  base: './',
+  // Base '/' no dev server (porta 3000) e './' no build para GitHub Pages (/acepvh/)
+  base: command === 'build' ? './' : '/',
+  optimizeDeps: {
+    entries: ['src/main.tsx'],
+    include: ['react', 'react-dom', 'react-dom/client', 'lucide-react'],
+  },
   server: {
     port: 3000,
     host: '0.0.0.0',
+    hmr: process.env.DISABLE_HMR !== 'true',
+    watch: {
+      ignored: [
+        '**/dist/**',
+        '**/assets/**',
+        '**/data/**',
+        '**/public/data/**',
+        '**/content/**',
+        '**/scripts/**',
+        '**/sources/**',
+        '**/.playwright-cli/**',
+      ],
+    },
   },
   build: {
     outDir: 'dist',
@@ -38,4 +55,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));
