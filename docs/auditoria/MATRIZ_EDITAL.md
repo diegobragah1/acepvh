@@ -221,14 +221,22 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_16-c01 | 16 - Ortografia. | ortografia | por_16 | data/app_data.json#/lessons/32/blocks | Não atribuído / PENDENTE |
 | por_16-c02 | 16 - Ortografia. | hífen | por_16 | data/app_data.json#/lessons/32/blocks | Não atribuído / PENDENTE |
 | por_16-c03 | 16 - Ortografia. | porquês | por_16 | data/app_data.json#/lessons/32/blocks | Não atribuído / PENDENTE |
-| por_17-c01 | 17 - Pontuação. | pontuação | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c02 | 17 - Pontuação. | vírgula | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c03 | 17 - Pontuação. | ponto e vírgula | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c04 | 17 - Pontuação. | dois-pontos | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c05 | 17 - Pontuação. | travessão | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c06 | 17 - Pontuação. | parênteses | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c07 | 17 - Pontuação. | aspas | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
-| por_17-c08 | 17 - Pontuação. | reticências | por_17 | data/app_data.json#/lessons/33/blocks | Não atribuído / PENDENTE |
+| por_17-c01 | 17 - Pontuação. | pontuação | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c02 | 17 - Pontuação. | vírgula | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c03 | 17 - Pontuação. | ponto e vírgula | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c04 | 17 - Pontuação. | dois-pontos | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c05 | 17 - Pontuação. | travessão | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c06 | 17 - Pontuação. | parênteses | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c07 | 17 - Pontuação. | aspas | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c08 | 17 - Pontuação. | reticências | por_17 | data/app_data.json#/lessons/33/blocks | SUPERFICIAL / PENDENTE |
+| por_17-c09 | 17 - Pontuação. | Distinguir separação indevida de termos sintáticos e delimitação de intercalações | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c10 | 17 - Pontuação. | Distinguir e pontuar vocativo e aposto explicativo | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c11 | 17 - Pontuação. | Pontuar adjuntos adverbiais deslocados conforme construção, extensão e clareza | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c12 | 17 - Pontuação. | Pontuar orações adverbiais antepostas e justificar sua relação com a principal | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c13 | 17 - Pontuação. | Analisar vírgula na coordenação, especialmente antes de e e com conectivos deslocados | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c14 | 17 - Pontuação. | Relacionar pontuação de relativas à delimitação do referente sem inferências indevidas | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c15 | 17 - Pontuação. | Pontuar enumerações e omissão de termos recuperáveis, incluindo zeugma | por_17 | data/app_data.json#/lessons/33/blocks | PARCIAL / PENDENTE |
+| por_17-c16 | 17 - Pontuação. | Distinguir encerramento declarativo, pergunta direta/indireta e efeito exclamativo | por_17 | data/app_data.json#/lessons/33/blocks | SUPERFICIAL / PENDENTE |
 | por_18-c01 | 18 - Variação linguística. | variação | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
 | por_18-c02 | 18 - Variação linguística. | diatópica | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |
 | por_18-c03 | 18 - Variação linguística. | diastrática | por_18 | data/app_data.json#/lessons/34/blocks | PARCIAL / PENDENTE |

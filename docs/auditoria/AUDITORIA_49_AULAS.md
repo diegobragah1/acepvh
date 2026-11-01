@@ -362,9 +362,11 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_17]. 2 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_17.md](AUDITORIA_POR_17.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Bloco geral de quatro matérias dispersa o tópico. Conferir efeitos de pontuação, restritivas/explicativas e intercalações; não equiparar proibição de separar termos a impossibilidade de intercalar elementos.
 
-Estado: auditoria integral pendente. Fila: por_17-c01, por_17-c02, por_17-c03, por_17-c04, por_17-c05, por_17-c06, por_17-c07, por_17-c08.
+Estado: auditoria integral pendente. Fila: por_17-c01, por_17-c02, por_17-c03, por_17-c04, por_17-c05, por_17-c06, por_17-c07, por_17-c08, por_17-c09, por_17-c10, por_17-c11, por_17-c12, por_17-c13, por_17-c14, por_17-c15, por_17-c16.
 
 Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fontes e referências cruzadas; níveis por subcompetência com evidências; testes e revisão de aplicação.
 

@@ -19491,7 +19491,7 @@
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "pontuação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19536,11 +19536,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Escopo disperso em acentuacao/regencia; harmonizar materiais antigos e revisados e ampliar pratica dos sinais.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19563,15 +19572,26 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Escopo disperso em acentuacao/regencia; harmonizar materiais antigos e revisados e ampliar pratica dos sinais.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[0].questions[1..2]",
+        "por_17.blocks[1].questions[0]",
+        "por_17.complemento.questions[0..1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json",
+      "itensComRessalva": [
+        "por_17.blocks[1].questions[0]: efeito expressivo da substituicao",
+        "por_17.complemento.questions[1].options[3]: distrator metalinguistico"
+      ]
     },
     {
       "id": "por_17-c02",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "vírgula",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19616,11 +19636,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Mapa impoe contagem de tres palavras; alinhar com teoria revisada e evitar automatismos por posicao.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19643,15 +19672,22 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Mapa impoe contagem de tres palavras; alinhar com teoria revisada e evitar automatismos por posicao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[0].questions[1..2]",
+        "por_17.blocks[1].questions[0]",
+        "por_17.complemento.questions[0..1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
     },
     {
       "id": "por_17-c03",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "ponto e vírgula",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19696,11 +19732,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: ponto e virgula; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Exemplo de enumeracao complexa e definicao presentes, mas nao ha exercicio dedicado ou comparacao de reescritas.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19723,15 +19768,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Exemplo de enumeracao complexa e definicao presentes, mas nao ha exercicio dedicado ou comparacao de reescritas.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
     },
     {
       "id": "por_17-c04",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "dois-pontos",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19776,11 +19824,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: dois-pontos; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Enumeracao, explicacao e fala exemplificadas, sem questao interativa especifica.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19803,15 +19860,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Enumeracao, explicacao e fala exemplificadas, sem questao interativa especifica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
     },
     {
       "id": "por_17-c05",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "travessão",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19856,11 +19916,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distinguir abertura de fala e intercalação; qualificar preservacao de efeito ao substituir virgulas.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19883,15 +19952,24 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Distinguir abertura de fala e intercalação; qualificar preservacao de efeito ao substituir virgulas.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[1].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json",
+      "itensComRessalva": [
+        "por_17.blocks[1].questions[0]: efeito expressivo da substituicao",
+        "por_17.complemento.questions[1].options[3]: distrator metalinguistico"
+      ]
     },
     {
       "id": "por_17-c06",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "parênteses",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -19936,11 +20014,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Intercalacao acessoria explicada; falta pratica de retirada/reinsercao e condicoes de encaixe.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -19963,15 +20050,24 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Intercalacao acessoria explicada; falta pratica de retirada/reinsercao e condicoes de encaixe.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[1].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json",
+      "itensComRessalva": [
+        "por_17.blocks[1].questions[0]: efeito expressivo da substituicao",
+        "por_17.complemento.questions[1].options[3]: distrator metalinguistico"
+      ]
     },
     {
       "id": "por_17-c07",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "aspas",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -20016,11 +20112,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA: aspas",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distingue citacao/mencao/distanciamento; fontes das transcricoes nao autenticadas e sem exercicio dedicado.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -20043,15 +20148,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Distingue citacao/mencao/distanciamento; fontes das transcricoes nao autenticadas e sem exercicio dedicado.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
     },
     {
       "id": "por_17-c08",
       "itemOriginal": "17 - Pontuação.",
       "aula": "por_17",
       "subcompetencia": "reticências",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/33/blocks",
       "fontesCadastradas": [
@@ -20096,11 +20204,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: paragrafo final",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Reticencias recebem definicao breve, sem exemplo contrastivo, questao dedicada ou cartao.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_17.blocks[0].questions[0]",
@@ -20123,8 +20240,760 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Reticencias recebem definicao breve, sem exemplo contrastivo, questao dedicada ou cartao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c09",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Distinguir separação indevida de termos sintáticos e delimitação de intercalações",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distinguir separacao indevida de par de virgulas de intercalacao; revisar distrator metalinguistico do complemento.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Distinguir separacao indevida de par de virgulas de intercalacao; revisar distrator metalinguistico do complemento.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.complemento.questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json",
+      "itensComRessalva": [
+        "por_17.blocks[1].questions[0]: efeito expressivo da substituicao",
+        "por_17.complemento.questions[1].options[3]: distrator metalinguistico"
+      ]
+    },
+    {
+      "id": "por_17-c10",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Distinguir e pontuar vocativo e aposto explicativo",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Vocativo e aposto tem exemplos e questoes; qualificar destaque discursivo de sinais alternativos.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Vocativo e aposto tem exemplos e questoes; qualificar destaque discursivo de sinais alternativos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[1].questions[0]",
+        "por_17.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c11",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Pontuar adjuntos adverbiais deslocados conforme construção, extensão e clareza",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: mapa: branches[1].nodes[1]; blocks[0..1].modoA",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Regra numerica do mapa contradiz ressalva da teoria; falta pratica dedicada de extensao e clareza.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Regra numerica do mapa contradiz ressalva da teoria; falta pratica dedicada de extensao e clareza.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c12",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Pontuar orações adverbiais antepostas e justificar sua relação com a principal",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Temporal anteposta resolvida; ampliar contraste com posposicao e tipos de relacao, com fonte especifica.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Temporal anteposta resolvida; ampliar contraste com posposicao e tipos de relacao, com fonte especifica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[0].questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c13",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Analisar vírgula na coordenação, especialmente antes de e e com conectivos deslocados",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar sujeitos diferentes com nao obrigatoriedade automatica; desenvolver deslocamento dos conectivos.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Harmonizar sujeitos diferentes com nao obrigatoriedade automatica; desenvolver deslocamento dos conectivos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c14",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Relacionar pontuação de relativas à delimitação do referente sem inferências indevidas",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA/B; blocks[0].flashcards[1]; complemento",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Cartao ainda infere exclusividade dos agentes com EPI; alinhar com ressalva do bloco 1 sobre grupo externo.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Cartao ainda infere exclusividade dos agentes com EPI; alinhar com ressalva do bloco 1 sobre grupo externo.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_17.blocks[0].questions[2]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c15",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Pontuar enumerações e omissão de termos recuperáveis, incluindo zeugma",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: enumeracao/zeugma; blocks[1].modoA",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Enumeracao exemplificada, zeugma apenas citado neste recorte; ampliar recuperacao de termos e exercicios.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Enumeracao exemplificada, zeugma apenas citado neste recorte; ampliar recuperacao de termos e exercicios.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
+    },
+    {
+      "id": "por_17-c16",
+      "itemOriginal": "17 - Pontuação.",
+      "aula": "por_17",
+      "subcompetencia": "Distinguir encerramento declarativo, pergunta direta/indireta e efeito exclamativo",
+      "nivel": "SUPERFICIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/33/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        },
+        {
+          "id": 113,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 114,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/virgula-antes-da-conjuncao-e",
+          "consultaComprovada": false
+        },
+        {
+          "id": 115,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/ponto-e-virgula",
+          "consultaComprovada": false
+        },
+        {
+          "id": 116,
+          "url": "https://www12.senado.leg.br/manualdecomunicacao/estilos/aspas",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: paragrafo final",
+        "docs/auditoria/AUDITORIA_POR_17.md#achados-localizados-e-encaminhamentos"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_17.md: mapa, modos B e cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Ponto final/interrogacao/exclamacao recebem definicao breve, sem contraste desenvolvido e sem pratica especifica.",
+        "Confronto documental e autenticacao de origem pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_17.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Ponto final/interrogacao/exclamacao recebem definicao breve, sem contraste desenvolvido e sem pratica especifica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_PONTUACAO.json"
     },
     {
       "id": "por_18-c01",

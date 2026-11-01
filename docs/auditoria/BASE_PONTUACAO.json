@@ -1,0 +1,80 @@
+{
+  "lote": "PONTUACAO_2026-10-31",
+  "auditadoEm": "2026-10-31T21:25:12.267756-03:00",
+  "commitBase": "b24c52021295de124efab4b528d913b9eb47d27f",
+  "datasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "metodoHashComponentes": "SHA-256 de JSON UTF-8, chaves ordenadas, ensure_ascii=False, separadores virgula e dois-pontos, sem espacos; arquivos integrais usam bytes originais.",
+  "arquivosLidos": {
+    "data/app_data.json": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "src/data/deepening/portugues.ts": "472bc1d0b10f2c5d783940438657d2f35c9a1b43a8f229bdc1de35d7c8259758",
+    "src/data/deepening/index.ts": "d40e2af077271a342e5ecc55a5bf6a2f9fd75e4fad42343e7f0a904b57ff820a"
+  },
+  "aulas": {
+    "por_17": {
+      "sha256": "7f850fc3a607a2dd8691b1176d946e5beff7846f9b35664527d80dd03f629e0f",
+      "hashesComponentes": {
+        "mindMap": "2f4b4a17c5fa9ecb6bf2187d9acfbcbf7284adcd61802c6cee402d4514d4f5a2",
+        "blocks[0].title": "ed4dbad9d54fa0432c3582d9c04da6dec987a43168ac30699a782cfb7a7ca4fc",
+        "blocks[0].modoA": "d41229fac303c9ed4ffaaaef0bb1a9c8e3d6b6da4cee6fcaf21ce70bd47d9693",
+        "blocks[0].modoB": "4facdd24b7e78bf48b7fc667ef65448f0ec0ab002a99c8ea5c5bd9addbfb09ff",
+        "blocks[0].modoA_markdown": "74c6027217559e44eb2aa48ef77a6c72c1c8309c7d49b7df936437aada1706ad",
+        "blocks[0].modoB_markdown": "9b8d3700e653a57ef6f34029c9dedc7bcd36d68911478e7045129bd41c958bba",
+        "blocks[0].questions": "58c592e9149efecadc96c66ce259d23a3a7e0f1e33c6ad0fb0cac00906c60080",
+        "blocks[0].flashcards": "2fc00b73261946ebffdf10aa0144ab915cbc6f67d54c5c1b1479bcdc3920accb",
+        "blocks[1].title": "7df09828a9fd0d6a50b1f4547eb55e033794e1b9f9666cbccc451115e2e64537",
+        "blocks[1].modoA": "ed2410cd06ff2f05eae48d496ff2874facaa159d6377e6d7d0db11b6adfe07b4",
+        "blocks[1].modoB": "432dc33525e233e7d0330bd02f6dedb5de565df73dfdd608286e6f95286f751f",
+        "blocks[1].modoA_markdown": "90eb172cdb44519f610066c6c063a95cf83910db2bd3fac5c84301f54b0f7a57",
+        "blocks[1].modoB_markdown": "78a9c55a3ccdc4d16424d3e67485c841778fa10477ef0b9175fd2056a7ac6576",
+        "blocks[1].questions": "92c039ffade10e375c2e2f8abb444eb077e9f79557658af86be1afb4c620f117",
+        "blocks[1].flashcards": "66c2386a2d150df0e357d03a3b626069aba8c751870fbca7c5c2066c2b91396d"
+      },
+      "blocosPrincipais": 2,
+      "questoesPrincipais": 5,
+      "cartoesPrincipais": 6,
+      "escopoMarkdown": "Trechos correspondentes aos achados; leitura principal em HTML A/B.",
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_17",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_17.md"
+    }
+  },
+  "consultasExternas": {
+    "novaConsultaRealizada": false,
+    "conteudoExternoLido": false,
+    "limite": "Conferencia editorial interna. Tentativas bloqueadas registradas em lotes anteriores nao foram repetidas nem tratadas como observacao nova.",
+    "registroAnterior": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "limites": [
+    "Sem reconferencia do Anexo IV/retificacoes",
+    "Sem inspecao visual",
+    "Sem autenticacao da origem das questoes ou transcricoes",
+    "Nenhuma alteracao em conteudo ou identificadores"
+  ],
+  "matriz": {
+    "idsPreservados": [
+      "por_17-c01",
+      "por_17-c02",
+      "por_17-c03",
+      "por_17-c04",
+      "por_17-c05",
+      "por_17-c06",
+      "por_17-c07",
+      "por_17-c08"
+    ],
+    "idsAcrescentados": [
+      "por_17-c09",
+      "por_17-c10",
+      "por_17-c11",
+      "por_17-c12",
+      "por_17-c13",
+      "por_17-c14",
+      "por_17-c15",
+      "por_17-c16"
+    ],
+    "criterio": "Decomposicao editorial ampliavel; nao certifica exaustao do edital."
+  }
+}
