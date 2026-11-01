@@ -1,0 +1,86 @@
+{
+  "lote": "CONCORDANCIA_2026-10-31",
+  "auditadoEm": "2026-10-31T21:20:23.479414-03:00",
+  "commitBase": "9ab155b8a7fbb6de56856ad7bc6e17ad8af08656",
+  "datasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "metodoHashComponentes": "SHA-256 de JSON UTF-8, chaves ordenadas, ensure_ascii=False, separadores virgula e dois-pontos, sem espacos; arquivos integrais usam bytes originais.",
+  "arquivosLidos": {
+    "data/app_data.json": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "src/data/deepening/portugues.ts": "472bc1d0b10f2c5d783940438657d2f35c9a1b43a8f229bdc1de35d7c8259758",
+    "src/data/deepening/index.ts": "d40e2af077271a342e5ecc55a5bf6a2f9fd75e4fad42343e7f0a904b57ff820a"
+  },
+  "aulas": {
+    "por_10": {
+      "sha256": "ad661956681ea499cf04a50e4d9dd7c3fe04cf037fff2d104a8568944afee4fc",
+      "hashesComponentes": {
+        "mindMap": "a0920e264ad01e8ad898c65bdf963f42f442a347b1971d2e8c141bf59066790a",
+        "blocks[0].title": "373869045ca39955881f44e35eee103c713f0e650e9af68bf5ef5ebf12d10d96",
+        "blocks[0].modoA": "52d227b65b0020a40252674c1e34793736abbe16320cc2302ee6097c5c131ac3",
+        "blocks[0].modoB": "e2bb4f946d96e5636388b6d5ea8e8e84dac2663520da04ada043ed9b0659f8a7",
+        "blocks[0].modoA_markdown": "a469fa0548c52bf945830d29410a8048df7383c74f666191bdd44e67303d2c7b",
+        "blocks[0].modoB_markdown": "a736dc9c57302e3463568b06947e27af2401bb57d8077d893c48063dd4e161c0",
+        "blocks[0].questions": "0f3f27598413312142388e28e66a76e2afb3491b6de7ba0f3df043426ef5d85a",
+        "blocks[0].flashcards": "1e58d3485043cd7d536c11d4d5dc52157b9f8556dc0105e746eaedfcf343a989",
+        "blocks[1].title": "a72bd8d56ec7a56c1127870e473ce2f765af7d1f3f596e241f8fe2d87fc7bbef",
+        "blocks[1].modoA": "5a188776dfe28401c52a539bcc73cf3d1da833c58e9a02b127d97c4ec9bd5550",
+        "blocks[1].modoB": "bec4c2a4c23061a38dde079a1d01e48e07087e08e14a970b6ee7aec3a38e534e",
+        "blocks[1].modoA_markdown": "372ff102ef8c5cbf68af70e60b0aa7f7f66810da08fe2336e891adbcef9b8f40",
+        "blocks[1].modoB_markdown": "bd5a4561267d1867a9c0b3e726a3bb549d5d9e683cbaaae1a4684d25de154c84",
+        "blocks[1].questions": "69d8ada66cb70170da6576f5dc71aab48b7fabfbf827b8f25cd1946cdf04382a",
+        "blocks[1].flashcards": "fd0a7553d461641479a8a5008e7b04dd356b6214a832a29dbe88f6a9fd42e527",
+        "blocks[2].title": "c353d3b8dd0df12af178ee6d7ac7c32419595643b2ec74f445a1abfa5bab5aad",
+        "blocks[2].modoA": "e59806fdec323140589d87c9b06bb73c654ec596108dca616e2596c759774556",
+        "blocks[2].modoB": "71ac3ccc5cf47b352a95c80c828b624b2d9ec1011e69ab422c87f1c2ad31d846",
+        "blocks[2].questions": "b43f041e38a7e5392378313d6b1ec889f6481eb474776e639653f77e18ee4fe4",
+        "blocks[2].flashcards": "098cf255d9c58db04531d3251a79d8853224a271742a7b3f501a1236d654a309"
+      },
+      "blocosPrincipais": 3,
+      "questoesPrincipais": 5,
+      "cartoesPrincipais": 7,
+      "escopoMarkdown": "Trechos correspondentes aos achados; leitura principal em HTML A/B.",
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_10",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_10.md"
+    }
+  },
+  "consultasExternas": {
+    "resultado": "Duas tentativas bloqueadas pelo proxy com HTTP 403 antes da leitura; nenhum texto externo lido.",
+    "urlsTentadas": [
+      "https://www.funag.gov.br/manual/index.php?title=Concord%C3%A2ncia_verbal",
+      "https://www.aulete.com.br/alerta"
+    ]
+  },
+  "limites": [
+    "Confronto normativo e autenticacao de origem pendentes",
+    "Sem reconferencia do Anexo IV/retificacoes",
+    "Sem inspecao visual",
+    "Nenhuma alteracao no dataset, gabaritos ou identificadores"
+  ],
+  "matriz": {
+    "idsPreservados": [
+      "por_10-c01",
+      "por_10-c02"
+    ],
+    "idsAcrescentados": [
+      "por_10-c03",
+      "por_10-c04",
+      "por_10-c05",
+      "por_10-c06",
+      "por_10-c07",
+      "por_10-c08",
+      "por_10-c09",
+      "por_10-c10",
+      "por_10-c11",
+      "por_10-c12",
+      "por_10-c13",
+      "por_10-c14",
+      "por_10-c15",
+      "por_10-c16"
+    ],
+    "criterio": "Desdobramento editorial ampliavel; nao representa exaustao do item do edital."
+  }
+}

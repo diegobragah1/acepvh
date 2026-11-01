@@ -177,8 +177,22 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_9-c04 | 9 - Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais. | correlação | por_9 | data/app_data.json#/lessons/25/blocks | Não atribuído / PENDENTE |
 | por_9-c05 | 9 - Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais. | tempos | por_9 | data/app_data.json#/lessons/25/blocks | Não atribuído / PENDENTE |
 | por_9-c06 | 9 - Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais. | modos | por_9 | data/app_data.json#/lessons/25/blocks | Não atribuído / PENDENTE |
-| por_10-c01 | 10 - Concordância verbal e nominal. | concordância verbal | por_10 | data/app_data.json#/lessons/26/blocks | Não atribuído / PENDENTE |
-| por_10-c02 | 10 - Concordância verbal e nominal. | concordância nominal | por_10 | data/app_data.json#/lessons/26/blocks | Não atribuído / PENDENTE |
+| por_10-c01 | 10 - Concordância verbal e nominal. | concordância verbal | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c02 | 10 - Concordância verbal e nominal. | concordância nominal | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c03 | 10 - Concordância verbal e nominal. | Identificar o nucleo do sujeito e justificar a concordancia na ordem direta e com termos intervenientes | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c04 | 10 - Concordância verbal e nominal. | Analisar sujeito composto anteposto e posposto, incluindo limites de atracao | por_10 | data/app_data.json#/lessons/26/blocks | SUPERFICIAL / PENDENTE |
+| por_10-c05 | 10 - Concordância verbal e nominal. | Distinguir concordancias admitidas com expressoes partitivas | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c06 | 10 - Concordância verbal e nominal. | Resolver porcentagens com especificador e determinativo, incluindo concordancia do predicativo | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c07 | 10 - Concordância verbal e nominal. | Analisar concordancia em construcoes com relativos que e quem | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c08 | 10 - Concordância verbal e nominal. | Justificar singular e plural com mais de um, reciprocidade e repeticao | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c09 | 10 - Concordância verbal e nominal. | Analisar ser, dar, bater e soar em horas, datas e distancias | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c10 | 10 - Concordância verbal e nominal. | Distinguir haver existencial, fazer temporal e verbos pessoais, incluindo auxiliares | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c11 | 10 - Concordância verbal e nominal. | Distinguir se apassivador, indeterminador e outros usos para decidir a concordancia | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c12 | 10 - Concordância verbal e nominal. | Resolver concordancia de adjetivo anteposto e posposto a varios substantivos | por_10 | data/app_data.json#/lessons/26/blocks | SUPERFICIAL / PENDENTE |
+| por_10-c13 | 10 - Concordância verbal e nominal. | Delimitar concordancia em e proibido, e necessario, e bom e e permitido | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c14 | 10 - Concordância verbal e nominal. | Distinguir paradigmas de anexo, incluso, obrigado, mesmo, proprio e quite | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c15 | 10 - Concordância verbal e nominal. | Analisar funcao e flexao de meio, bastante, muito, pouco, caro e barato | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
+| por_10-c16 | 10 - Concordância verbal e nominal. | Distinguir usos e flexao de menos e alerta | por_10 | data/app_data.json#/lessons/26/blocks | PARCIAL / PENDENTE |
 | por_11-c01 | 11 - Regência verbal e nominal. | regência verbal | por_11 | data/app_data.json#/lessons/27/blocks | Não atribuído / PENDENTE |
 | por_11-c02 | 11 - Regência verbal e nominal. | regência nominal | por_11 | data/app_data.json#/lessons/27/blocks | Não atribuído / PENDENTE |
 | por_12-c01 | 12 - Crase. | crase | por_12 | data/app_data.json#/lessons/28/blocks | Não atribuído / PENDENTE |

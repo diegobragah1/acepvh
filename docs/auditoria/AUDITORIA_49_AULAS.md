@@ -278,9 +278,11 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_10]. 3 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_10.md](AUDITORIA_POR_10.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Conferir regra geral e condições dos casos especiais; evitar tratar percentuais, partitivos e sujeito composto como regras sem alternativas admitidas pela norma. Há conteúdo de subordinação deslocado.
 
-Estado: auditoria integral pendente. Fila: por_10-c01, por_10-c02.
+Estado: auditoria integral pendente. Fila: por_10-c01, por_10-c02, por_10-c03, por_10-c04, por_10-c05, por_10-c06, por_10-c07, por_10-c08, por_10-c09, por_10-c10, por_10-c11, por_10-c12, por_10-c13, por_10-c14, por_10-c15, por_10-c16.
 
 Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fontes e referências cruzadas; níveis por subcompetência com evidências; testes e revisão de aplicação.
 

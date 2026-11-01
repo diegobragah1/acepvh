@@ -1,0 +1,382 @@
+{
+  "por_10-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[0].questions[0]",
+      "por_10.blocks[1].questions[0]",
+      "por_10.blocks[2].questions[0]",
+      "por_10.complemento.questions[0..1]"
+    ],
+    "pendenciasCriticas": [
+      "Resumo impoe plural a existir e VTD+se; varios casos especiais nao recebem exercicios ou desenvolvimento proporcional.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Resumo impoe plural a existir e VTD+se; varios casos especiais nao recebem exercicios ou desenvolvimento proporcional.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[0].questions[0]",
+      "por_10.blocks[1].questions[1]",
+      "por_10.blocks[2].questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Distinguir quite/quites, usos de mesmo, condicoes das expressoes predicativas e adjetivo com varios nucleos.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Distinguir quite/quites, usos de mesmo, condicoes das expressoes predicativas e adjetivo com varios nucleos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c03": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: complemento: Encontre o nucleo antes de flexionar",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Regra geral explicada com fiscalizacao dos imoveis; falta exercicio especifico com nucleo distante.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Regra geral explicada com fiscalizacao dos imoveis; falta exercicio especifico com nucleo distante.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c04": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: objetivos; complemento: sujeito composto",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Anteposto recebe um exemplo; posposto apenas mencionado. Desenvolver atracao, alternativas e ou/nem.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Anteposto recebe um exemplo; posposto apenas mencionado. Desenvolver atracao, alternativas e ou/nem.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c05": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: linha 3; blocks[2].modoA; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Ambas as concordancias sao exemplificadas; faltam exercicios e confronto das condicoes.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Ambas as concordancias sao exemplificadas; faltam exercicios e confronto das condicoes.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c06": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: linha 4; blocks[2].modoA; mapa",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Harmonizar determinativo anteposto e concordancia verbal/nominal; falta pratica dedicada.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Harmonizar determinativo anteposto e concordancia verbal/nominal; falta pratica dedicada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c07": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: linha 5",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Ha exemplos com eu/nos e que/quem; faltam pratica, limites e contraste com um dos que anunciado.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Ha exemplos com eu/nos e que/quem; faltam pratica, limites e contraste com um dos que anunciado.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c08": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: linha 6",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Reciprocidade exemplificada; repeticao so mencionada. Conferir alcance de apenas e elaborar contraste.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Reciprocidade exemplificada; repeticao so mencionada. Conferir alcance de apenas e elaborar contraste.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c09": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: ser; blocks[1].modoA: linha 7",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Horas recebem exemplos; datas e distancias sao anunciadas sem desenvolvimento. Sem exercicio especifico.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Horas recebem exemplos; datas e distancias sao anunciadas sem desenvolvimento. Sem exercicio especifico.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c10": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[0].questions[0]",
+      "por_10.blocks[1].questions[0]",
+      "por_10.blocks[2].questions[0]",
+      "por_10.complemento.questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Harmonizar regra de existir/ocorrer/acontecer com numero do sujeito; nao impor plural por serem pessoais.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Harmonizar regra de existir/ocorrer/acontecer com numero do sujeito; nao impor plural por serem pessoais.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c11": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[0].questions[0]",
+      "por_10.complemento.questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Ressalvas de singular/reflexivo nao chegam ao resumo; classificacao de tratar-se de exige confronto.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Ressalvas de singular/reflexivo nao chegam ao resumo; classificacao de tratar-se de exige confronto.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c12": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: objetivos nominais",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Adjetivo anteposto/posposto a varios substantivos e anunciado, sem analise comparativa no escopo lido.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Adjetivo anteposto/posposto a varios substantivos e anunciado, sem analise comparativa no escopo lido.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c13": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; cartoes",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[1].questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Regra por artigo nao delimita adequadamente interpretacao generica e nome especificado; confrontar Agua limpa e necessario.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Regra por artigo nao delimita adequadamente interpretacao generica e nome especificado; confrontar Agua limpa e necessario.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c14": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA; cartoes",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[0].questions[0]",
+      "por_10.blocks[1].questions[1]",
+      "por_10.blocks[2].questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Quite nao flexiona genero; separar mesmo em pessoa de uso adverbial; ampliar paradigmas e pratica.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Quite nao flexiona genero; separar mesmo em pessoa de uso adverbial; ampliar paradigmas e pratica.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c15": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[1].questions[1]",
+      "por_10.blocks[2].questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Meio/bastante recebem exemplos e distratores; caro/barato e demais usos carecem de contraste e pratica.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Meio/bastante recebem exemplos e distratores; caro/barato e demais usos carecem de contraste e pratica.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  },
+  "por_10-c16": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: menos/alerta",
+      "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_10.blocks[1].questions[1]: distrator menas"
+    ],
+    "pendenciasCriticas": [
+      "Preservar ressalva de alerta adverbial/adjetivo; Aulete nao foi relido por bloqueio; ampliar exercicio.",
+      "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Preservar ressalva de alerta adverbial/adjetivo; Aulete nao foi relido por bloqueio; ampliar exercicio.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+  }
+}

@@ -16317,7 +16317,7 @@
       "itemOriginal": "10 - Concordância verbal e nominal.",
       "aula": "por_10",
       "subcompetencia": "concordância verbal",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/26/blocks",
       "fontesCadastradas": [
@@ -16352,11 +16352,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Resumo impoe plural a existir e VTD+se; varios casos especiais nao recebem exercicios ou desenvolvimento proporcional.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_10.blocks[0].questions[0]",
@@ -16379,15 +16388,23 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Resumo impoe plural a existir e VTD+se; varios casos especiais nao recebem exercicios ou desenvolvimento proporcional.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[0].questions[0]",
+        "por_10.blocks[1].questions[0]",
+        "por_10.blocks[2].questions[0]",
+        "por_10.complemento.questions[0..1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
     },
     {
       "id": "por_10-c02",
       "itemOriginal": "10 - Concordância verbal e nominal.",
       "aula": "por_10",
       "subcompetencia": "concordância nominal",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/26/blocks",
       "fontesCadastradas": [
@@ -16422,11 +16439,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distinguir quite/quites, usos de mesmo, condicoes das expressoes predicativas e adjetivo com varios nucleos.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_10.blocks[0].questions[0]",
@@ -16449,8 +16475,1182 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Distinguir quite/quites, usos de mesmo, condicoes das expressoes predicativas e adjetivo com varios nucleos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[0].questions[0]",
+        "por_10.blocks[1].questions[1]",
+        "por_10.blocks[2].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c03",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Identificar o nucleo do sujeito e justificar a concordancia na ordem direta e com termos intervenientes",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: complemento: Encontre o nucleo antes de flexionar",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Regra geral explicada com fiscalizacao dos imoveis; falta exercicio especifico com nucleo distante.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Regra geral explicada com fiscalizacao dos imoveis; falta exercicio especifico com nucleo distante.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c04",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Analisar sujeito composto anteposto e posposto, incluindo limites de atracao",
+      "nivel": "SUPERFICIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: objetivos; complemento: sujeito composto",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Anteposto recebe um exemplo; posposto apenas mencionado. Desenvolver atracao, alternativas e ou/nem.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Anteposto recebe um exemplo; posposto apenas mencionado. Desenvolver atracao, alternativas e ou/nem.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c05",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Distinguir concordancias admitidas com expressoes partitivas",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: linha 3; blocks[2].modoA; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Ambas as concordancias sao exemplificadas; faltam exercicios e confronto das condicoes.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Ambas as concordancias sao exemplificadas; faltam exercicios e confronto das condicoes.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c06",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Resolver porcentagens com especificador e determinativo, incluindo concordancia do predicativo",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: linha 4; blocks[2].modoA; mapa",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar determinativo anteposto e concordancia verbal/nominal; falta pratica dedicada.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Harmonizar determinativo anteposto e concordancia verbal/nominal; falta pratica dedicada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c07",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Analisar concordancia em construcoes com relativos que e quem",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: linha 5",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Ha exemplos com eu/nos e que/quem; faltam pratica, limites e contraste com um dos que anunciado.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Ha exemplos com eu/nos e que/quem; faltam pratica, limites e contraste com um dos que anunciado.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c08",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Justificar singular e plural com mais de um, reciprocidade e repeticao",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: linha 6",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Reciprocidade exemplificada; repeticao so mencionada. Conferir alcance de apenas e elaborar contraste.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Reciprocidade exemplificada; repeticao so mencionada. Conferir alcance de apenas e elaborar contraste.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c09",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Analisar ser, dar, bater e soar em horas, datas e distancias",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: ser; blocks[1].modoA: linha 7",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Horas recebem exemplos; datas e distancias sao anunciadas sem desenvolvimento. Sem exercicio especifico.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Horas recebem exemplos; datas e distancias sao anunciadas sem desenvolvimento. Sem exercicio especifico.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c10",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Distinguir haver existencial, fazer temporal e verbos pessoais, incluindo auxiliares",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar regra de existir/ocorrer/acontecer com numero do sujeito; nao impor plural por serem pessoais.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Harmonizar regra de existir/ocorrer/acontecer com numero do sujeito; nao impor plural por serem pessoais.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[0].questions[0]",
+        "por_10.blocks[1].questions[0]",
+        "por_10.blocks[2].questions[0]",
+        "por_10.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c11",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Distinguir se apassivador, indeterminador e outros usos para decidir a concordancia",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Ressalvas de singular/reflexivo nao chegam ao resumo; classificacao de tratar-se de exige confronto.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Ressalvas de singular/reflexivo nao chegam ao resumo; classificacao de tratar-se de exige confronto.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[0].questions[0]",
+        "por_10.complemento.questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c12",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Resolver concordancia de adjetivo anteposto e posposto a varios substantivos",
+      "nivel": "SUPERFICIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: objetivos nominais",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Adjetivo anteposto/posposto a varios substantivos e anunciado, sem analise comparativa no escopo lido.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Adjetivo anteposto/posposto a varios substantivos e anunciado, sem analise comparativa no escopo lido.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c13",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Delimitar concordancia em e proibido, e necessario, e bom e e permitido",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; cartoes",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Regra por artigo nao delimita adequadamente interpretacao generica e nome especificado; confrontar Agua limpa e necessario.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Regra por artigo nao delimita adequadamente interpretacao generica e nome especificado; confrontar Agua limpa e necessario.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[1].questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c14",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Distinguir paradigmas de anexo, incluso, obrigado, mesmo, proprio e quite",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA; cartoes",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Quite nao flexiona genero; separar mesmo em pessoa de uso adverbial; ampliar paradigmas e pratica.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Quite nao flexiona genero; separar mesmo em pessoa de uso adverbial; ampliar paradigmas e pratica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[0].questions[0]",
+        "por_10.blocks[1].questions[1]",
+        "por_10.blocks[2].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c15",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Analisar funcao e flexao de meio, bastante, muito, pouco, caro e barato",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Meio/bastante recebem exemplos e distratores; caro/barato e demais usos carecem de contraste e pratica.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Meio/bastante recebem exemplos e distratores; caro/barato e demais usos carecem de contraste e pratica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[1].questions[1]",
+        "por_10.blocks[2].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
+    },
+    {
+      "id": "por_10-c16",
+      "itemOriginal": "10 - Concordância verbal e nominal.",
+      "aula": "por_10",
+      "subcompetencia": "Distinguir usos e flexao de menos e alerta",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/26/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        },
+        {
+          "id": 110,
+          "url": "https://www.aulete.com.br/gram/cap09-02-pronomes_pessoais",
+          "consultaComprovada": false
+        },
+        {
+          "id": 111,
+          "url": "https://www.aulete.com.br/alerta",
+          "consultaComprovada": false
+        },
+        {
+          "id": 112,
+          "url": "https://bd.camara.leg.br/bd/bitstream/handle/bdcamara/5684/manual_redacao.pdf",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: menos/alerta",
+        "docs/auditoria/AUDITORIA_POR_10.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_10.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Preservar ressalva de alerta adverbial/adjetivo; Aulete nao foi relido por bloqueio; ampliar exercicio.",
+        "Confronto documental e autenticacao das questoes pendentes; consultas externas bloqueadas.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_10.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Preservar ressalva de alerta adverbial/adjetivo; Aulete nao foi relido por bloqueio; ampliar exercicio.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_10.blocks[1].questions[1]: distrator menas"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_CONCORDANCIA.json"
     },
     {
       "id": "por_11-c01",
