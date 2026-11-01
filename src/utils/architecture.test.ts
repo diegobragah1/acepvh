@@ -91,4 +91,13 @@ describe('Structural Refactoring & Modular Data Integrity', () => {
     assert.equal(matchesLessonBlockFilter(enriched1.blocks[0], 'ALL', ''), true);
     assert.equal(matchesLessonBlockFilter(enriched1.blocks[0], 'QUIZ', ''), true);
   });
+
+  it('ensures GitHub Actions workflows install dependencies without requiring package-lock.json', () => {
+    const deployYml = fs.readFileSync(path.join(ROOT, '.github/workflows/deploy.yml'), 'utf8');
+    const checkYml = fs.readFileSync(path.join(ROOT, '.github/workflows/check.yml'), 'utf8');
+
+    assert.ok(!deployYml.includes('npm ci'), 'deploy.yml should not use npm ci without package-lock.json');
+    assert.ok(!checkYml.includes('npm ci'), 'check.yml should not use npm ci without package-lock.json');
+    assert.ok(!checkYml.includes('cache: npm'), 'check.yml should not require npm lockfile cache');
+  });
 });
