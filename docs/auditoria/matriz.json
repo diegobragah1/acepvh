@@ -14861,7 +14861,7 @@
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "identificação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -14881,11 +14881,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Identificacao concentra que/se, verbos e formacao; desenvolver as demais classes com criterios em contexto.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -14920,15 +14929,21 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Identificacao concentra que/se, verbos e formacao; desenvolver as demais classes com criterios em contexto.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[1..2]",
+        "por_8.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c02",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "definição",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -14948,11 +14963,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: lista de classes; blocks[2].modoA; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Definicoes breves nao desenvolvem igualmente as dez classes, especialmente artigo/numeral/interjeicao.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -14987,15 +15011,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Definicoes breves nao desenvolvem igualmente as dez classes, especialmente artigo/numeral/interjeicao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c03",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "classificação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15015,11 +15042,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distinguir classe de funcao e evitar classificacao por forma ou transitividade isolada.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15054,15 +15090,21 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Distinguir classe de funcao e evitar classificacao por forma ou transitividade isolada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[1..2]",
+        "por_8.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c04",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "flexão",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15082,11 +15124,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: plural dos compostos e paradigmas; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Flexao nominal simples exemplificada, mas compostos e variantes sem pratica; conferir paradigmas verbais.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15121,15 +15172,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Flexao nominal simples exemplificada, mas compostos e variantes sem pratica; conferir paradigmas verbais.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.complemento.questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c05",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "emprego",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15149,11 +15205,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Emprego de pronomes e classes depende de construcao/registro; generalizacoes antigas persistem.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15188,15 +15253,21 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Emprego de pronomes e classes depende de construcao/registro; generalizacoes antigas persistem.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[1..2]",
+        "por_8.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c06",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "substantivo",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15216,11 +15287,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: substantivos e plurais; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Desenvolver tipos, flexao e emprego alem de exemplos de conversao e plural simples.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15255,15 +15335,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Desenvolver tipos, flexao e emprego alem de exemplos de conversao e plural simples.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.complemento.questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c07",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "artigo",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15283,11 +15368,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: classes; complemento: artigo e conversao",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Artigo aparece como determinante/substantivador, sem desenvolvimento proprio dos tipos e usos.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15322,15 +15416,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Artigo aparece como determinante/substantivador, sem desenvolvimento proprio dos tipos e usos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c08",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "adjetivo",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15350,11 +15447,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: adjetivo/adverbio; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Contraste adjetivo/adverbio desenvolvido, mas flexao/classificacao e usos requerem ampliacao.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15389,15 +15495,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Contraste adjetivo/adverbio desenvolvido, mas flexao/classificacao e usos requerem ampliacao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.complemento.questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c09",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "pronome",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15417,11 +15528,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: mapa; blocks[0..1].modoA: pronomes e que/se",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Reduz o/a a OD e lhe a OI; ampliar funcoes e delimitar regras de relativos/colocacao.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15456,15 +15576,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Reduz o/a a OD e lhe a OI; ampliar funcoes e delimitar regras de relativos/colocacao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[1..2]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c10",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "numeral",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15484,11 +15609,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: lista; blocks[2].modoA; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Numeral recebe glosa quantidade/ordem sem sequencia de classificacao, flexao, emprego ou questao dedicada.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15523,15 +15657,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Numeral recebe glosa quantidade/ordem sem sequencia de classificacao, flexao, emprego ou questao dedicada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c11",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "verbo",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15551,11 +15688,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: paradigmas, vozes e correlacao; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Conferir certeza/fato real, MARIO e estruturas compostas/passivas; comentarios tem residuos de outras questoes.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15590,15 +15736,26 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Conferir certeza/fato real, MARIO e estruturas compostas/passivas; comentarios tem residuos de outras questoes.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[0].questions[0]",
+        "por_8.blocks[0].questions[2..3]",
+        "por_8.blocks[1].questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+      "comentariosComFalha": [
+        "por_8.blocks[0].questions[0].comment: alternativa E inexistente",
+        "por_8.blocks[0].questions[2].comment: planalto e propusermos ausentes do item"
+      ]
     },
     {
       "id": "por_8-c12",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "advérbio",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15618,11 +15775,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA: adverbio; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Contexto e termo modificado exemplificados; ampliar subtipos e emprego sem confundir invariabilidade com forma isolada.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15657,15 +15823,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Contexto e termo modificado exemplificados; ampliar subtipos e emprego sem confundir invariabilidade com forma isolada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.complemento.questions[0]: distrator"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c13",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "preposição",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15685,11 +15856,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: regencia e relativos; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Preposicao e tratada por ligacao/regencia, sem exposicao sistematica de classes, locucoes e relacoes.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15724,15 +15904,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Preposicao e tratada por ligacao/regencia, sem exposicao sistematica de classes, locucoes e relacoes.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c14",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "conjunção",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15752,11 +15935,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[1].modoA: que integrante; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Conjuncao integrante contrastada com relativo; nao esgota coordenacao, subordinacao e usos contextuais.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15791,15 +15983,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Conjuncao integrante contrastada com relativo; nao esgota coordenacao, subordinacao e usos contextuais.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[2]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c15",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "interjeição",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15819,11 +16016,20 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: lista de classes; blocks[2].modoA; cartao final",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Interjeicao e apenas nomeada entre as invariaveis, sem definicao desenvolvida, exemplos ou pratica.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15858,15 +16064,18 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Interjeicao e apenas nomeada entre as invariaveis, sem definicao desenvolvida, exemplos ou pratica.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_8-c16",
       "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
       "aula": "por_8",
       "subcompetencia": "formação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/24/blocks",
       "fontesCadastradas": [
@@ -15886,11 +16095,22 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
-      "evidenciaFonte": [],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [
+        "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/pt_BR.dic#L212503: entrada noitecer/abjkMò, evidencia contraria a inexistencia; nao valida processo formador; hash e escopo em BASE_MORFOLOGIA.json"
+      ],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Teste de retirada depende de alegacoes lexicais nao demonstradas; noitecer registrado contradiz inexistencia.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_8.blocks[0].questions[0]",
@@ -15925,8 +16145,676 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Teste de retirada depende de alegacoes lexicais nao demonstradas; noitecer registrado contradiz inexistencia.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[0].questions[1..2]",
+        "por_8.blocks[1].questions[0]",
+        "por_8.blocks[2].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+      "questoesComJustificativaPendente": [
+        "por_8.blocks[0].questions[1]",
+        "por_8.blocks[0].questions[2]",
+        "por_8.blocks[1].questions[0]",
+        "por_8.blocks[2].questions[0]"
+      ]
+    },
+    {
+      "id": "por_8-c17",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Identificar radical, afixos e estrutura relevante sem confundir apagamento grafico com analise morfologica",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: segmentacao/desvalorizacao; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Explicitar radical/base/afixos; tirar sufixo nao e simples apagamento grafico.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Explicitar radical/base/afixos; tirar sufixo nao e simples apagamento grafico.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+    },
+    {
+      "id": "por_8-c18",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Distinguir flexao paradigmatica de derivacao lexical em contexto",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: complemento: Flexao e derivacao; blocks[0].modoA",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Contraste de paradigma e unidade lexical recebe questao; ampliar outras classes e casos.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Contraste de paradigma e unidade lexical recebe questao; ampliar outras classes e casos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.complemento.questions[1]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+    },
+    {
+      "id": "por_8-c19",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Justificar prefixacao, sufixacao, derivacao prefixal e sufixal e parassintese com bases documentadas",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; cartoes de parassintese; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [
+        "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/pt_BR.dic#L212503: entrada noitecer/abjkMò, evidencia contraria a inexistencia; nao valida processo formador; hash e escopo em BASE_MORFOLOGIA.json"
+      ],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Fonte ortografica registra noitecer; confrontar estrutura e origem de anoitecer, subterraneo, desalmado e demais exemplos.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Fonte ortografica registra noitecer; confrontar estrutura e origem de anoitecer, subterraneo, desalmado e demais exemplos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[0].questions[1..2]",
+        "por_8.blocks[1].questions[0]",
+        "por_8.blocks[2].questions[0]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+      "questoesComJustificativaPendente": [
+        "por_8.blocks[0].questions[1]",
+        "por_8.blocks[0].questions[2]",
+        "por_8.blocks[1].questions[0]",
+        "por_8.blocks[2].questions[0]"
+      ]
+    },
+    {
+      "id": "por_8-c20",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Distinguir derivacao regressiva e conversao sem deduzir origem apenas pelo sentido",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..2].modoA: regressiva/conversao; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Nao decidir direcao derivacional so por sentido abstrato/concreto; distinguir analise contextual e origem.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Nao decidir direcao derivacional so por sentido abstrato/concreto; distinguir analise contextual e origem.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[1].questions[0]: combate"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+    },
+    {
+      "id": "por_8-c21",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Justificar composicao por justaposicao e aglutinacao distinguindo grafia, som e origem",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA/B: composicao",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Distinguir perda de fonema de perda de letra e conferir origem historica/segmentacao; sem questao dedicada.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Distinguir perda de fonema de perda de letra e conferir origem historica/segmentacao; sem questao dedicada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+    },
+    {
+      "id": "por_8-c22",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Justificar plural de substantivos compostos e reconhecer variantes conforme a estrutura",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0].modoA: plural dos compostos",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Lista estrutural sem pratica dedicada nem confronto suficiente de variantes e lexicalizacao.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Lista estrutural sem pratica dedicada nem confronto suficiente de variantes e lexicalizacao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+    },
+    {
+      "id": "por_8-c23",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Distinguir classes e funcoes de que e se na construcao completa",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: blocks[0..1].modoA/B; mapa; complemento",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar singular/plural, sujeito anteposto/posposto e exclusao de reflexivo/pronominal antes de PA/IIS.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Harmonizar singular/plural, sujeito anteposto/posposto e exclusao de reflexivo/pronominal antes de PA/IIS.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "por_8.blocks[0].questions[0]",
+        "por_8.blocks[1].questions[1..2]"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+      "comentariosComFalha": [
+        "por_8.blocks[0].questions[0].comment: alternativa E inexistente",
+        "por_8.blocks[0].questions[2].comment: planalto e propusermos ausentes do item"
+      ]
+    },
+    {
+      "id": "por_8-c24",
+      "itemOriginal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
+      "aula": "por_8",
+      "subcompetencia": "Analisar pronomes obliquos e relativos separando classe, funcao e regencia",
+      "nivel": "PARCIAL",
+      "validacao": "PENDENTE",
+      "localizacao": "data/app_data.json#/lessons/24/blocks",
+      "fontesCadastradas": [
+        {
+          "id": 95,
+          "url": "https://basenacionalcomum.mec.gov.br/",
+          "consultaComprovada": false
+        },
+        {
+          "id": 96,
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas",
+          "consultaComprovada": false
+        },
+        {
+          "id": 97,
+          "url": "https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica",
+          "consultaComprovada": false
+        }
+      ],
+      "evidenciaTeoria": [
+        "Localizadores do escopo lido: mapa: o/a/lhe; blocks[0].modoA: relativos",
+        "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+      ],
+      "evidenciaFonte": [],
+      "exerciciosValidados": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+      ],
+      "pendenciasCriticas": [
+        "Classe pronominal nao se reduz a OD/OI; conferir usos possessivos, preposicoes e colocacao por construcao.",
+        "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
+      "inventarioExercicios": [
+        {
+          "local": "por_8.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[0].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        }
+      ],
+      "lacunas": "Classe pronominal nao se reduz a OD/OI; conferir usos possessivos, preposicoes e colocacao por construcao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
     },
     {
       "id": "por_9-c01",

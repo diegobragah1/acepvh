@@ -1,0 +1,107 @@
+{
+  "lote": "MORFOLOGIA_2026-10-31",
+  "auditadoEm": "2026-10-31T21:31:38.516330-03:00",
+  "commitBase": "033be248c8718fe1273138340b6fce7e06e98c8d",
+  "datasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "metodoHashComponentes": "SHA-256 de JSON UTF-8, chaves ordenadas, ensure_ascii=False, separadores virgula e dois-pontos, sem espacos; arquivos integrais usam bytes originais.",
+  "arquivosLidos": {
+    "data/app_data.json": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "src/data/deepening/portugues.ts": "472bc1d0b10f2c5d783940438657d2f35c9a1b43a8f229bdc1de35d7c8259758",
+    "src/data/deepening/index.ts": "d40e2af077271a342e5ecc55a5bf6a2f9fd75e4fad42343e7f0a904b57ff820a"
+  },
+  "aulas": {
+    "por_8": {
+      "sha256": "f29800701493fe2b59a4c92d71d996659a49bb98cffeb9441c09006ae5a460f2",
+      "hashesComponentes": {
+        "mindMap": "03c587509878dbb4857a424980b8c6055be394d0898f360674d2bcc130beaa58",
+        "blocks[0].title": "4a8e6c7184642532a0131656d66b07fb468cbf489f1b1933998e964ad874f09e",
+        "blocks[0].modoA": "36208198a8ad45d464256c66027a5fe38925270d0a961682e9fc5aa734e03c94",
+        "blocks[0].modoB": "3fadea78d0029ee675d6b6998a96e0fd1ad11c88265b68a75ea03b328a58289f",
+        "blocks[0].modoA_markdown": "6f88c8946f45ec9a23facc3bc2c788735c02ac9657563b490b593abe50bc96f5",
+        "blocks[0].modoB_markdown": "6bf639a9945272f8428d65347508b4be26eb41214a3c4808f575db894d447a1e",
+        "blocks[0].questions": "9765ada793840b16e73b030aefa6cbd9056ae1a1d08ce0e3896818339a0b8a39",
+        "blocks[0].flashcards": "1349548138a801c2c442d0d5d76b05ebaae26d49af97d138eee69ed9f7fd487d",
+        "blocks[1].title": "87a1b55269095927d15bf45ce1f99ae9de5fb9c527d0bfe2bfb17324b4bacab0",
+        "blocks[1].modoA": "8e3640c11c6b9087ad73efb807b915f80369384746ab193815f2f55da8490143",
+        "blocks[1].modoB": "f8bc4a91375e9ba2b78006d9ece73b1b72d814d39b60e542f34fb07d6f2e478e",
+        "blocks[1].modoA_markdown": "31575db5b9e4ddd47b01f3ef6d8b4f55779a0b04809515c39e59c12be3361c94",
+        "blocks[1].modoB_markdown": "3487d0ff1db79b568799cf7a1689a6943ee7dad6ed58d509359a8d3df52e2902",
+        "blocks[1].questions": "f297368bad77ee4e80846f49caa9c0cd4ece74905b94585b2bca84075636098b",
+        "blocks[1].flashcards": "34ecf689298f130d1d2eadf4b88f04392f3ae03d210fa5e79254579610b1a30f",
+        "blocks[2].title": "2887f8f323a00831446c108730a54f6a1898ccff27a5228fe6bf1dbc601769de",
+        "blocks[2].modoA": "16d859d1ef78de2cb41bf94aefdf83d5a8a06c3bf390588711f8d6b0f7add2c4",
+        "blocks[2].modoB": "c4a65252ea7f3d034ab3dc9ecccc7989fae50d5501965982267390f9c02a1601",
+        "blocks[2].questions": "879347a182a1d388b8af5e4db9f250a04531df1afa963a507b9772aa0ec1c8e2",
+        "blocks[2].flashcards": "bcac92c04b2abe8bf36665512d9080b388e356728f985115b3ef4aa72acbebc9"
+      },
+      "blocosPrincipais": 3,
+      "questoesPrincipais": 8,
+      "cartoesPrincipais": 9,
+      "escopoMarkdown": "Trechos correspondentes aos achados; leitura principal em HTML A/B.",
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_8",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_8.md"
+    }
+  },
+  "fonteLexicalConsultada": {
+    "repositorio": "https://github.com/LibreOffice/dictionaries",
+    "commit": "4f1df64b2e8e14751aa7c2205d170ca016071315",
+    "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/pt_BR.dic",
+    "arquivo": "pt_BR/pt_BR.dic",
+    "sha256": "a38bfb26b68ece2834e79fe83e48d5792652970ace12db89d1b9674bf9933183",
+    "bytes": 4477695,
+    "entradasObservadas": [
+      {
+        "linha": 212503,
+        "entrada": "noitecer/abjkMò"
+      }
+    ],
+    "escopo": "Registro literal numa lista ortografica Hunspell; nao comprova etimologia, produtividade, frequencia ou classificacao de anoitecer. Ausencia de uma forma literal nao comprova inexistencia, pois ha afixos e limites de cobertura.",
+    "documentacaoConsultada": {
+      "url": "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/README_pt_BR.txt",
+      "sha256": "9974ce691fdc1fe731717d7a2dc668244405fdc2bf9bf3367eb9b29e85177c88",
+      "escopoLido": "Apresentacao e identificacao do arquivo como dicionario ortografico pt-BR para Hunspell; nao e uma gramatica morfologica."
+    }
+  },
+  "limites": [
+    "Registro ortografico nao valida processo formador, etimologia ou produtividade",
+    "Ausencia de entrada literal nao prova inexistencia",
+    "Sem reconferencia do Anexo IV/retificacoes ou inspecao visual",
+    "Nenhuma alteracao no dataset ou identificadores"
+  ],
+  "matriz": {
+    "idsPreservados": [
+      "por_8-c01",
+      "por_8-c02",
+      "por_8-c03",
+      "por_8-c04",
+      "por_8-c05",
+      "por_8-c06",
+      "por_8-c07",
+      "por_8-c08",
+      "por_8-c09",
+      "por_8-c10",
+      "por_8-c11",
+      "por_8-c12",
+      "por_8-c13",
+      "por_8-c14",
+      "por_8-c15",
+      "por_8-c16"
+    ],
+    "idsAcrescentados": [
+      "por_8-c17",
+      "por_8-c18",
+      "por_8-c19",
+      "por_8-c20",
+      "por_8-c21",
+      "por_8-c22",
+      "por_8-c23",
+      "por_8-c24"
+    ],
+    "criterio": "Decomposicao editorial ampliavel; nao certifica exaustao do edital."
+  }
+}

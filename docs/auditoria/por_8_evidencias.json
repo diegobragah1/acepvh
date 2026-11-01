@@ -1,0 +1,594 @@
+{
+  "por_8-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[1..2]",
+      "por_8.complemento.questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Identificacao concentra que/se, verbos e formacao; desenvolver as demais classes com criterios em contexto.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Identificacao concentra que/se, verbos e formacao; desenvolver as demais classes com criterios em contexto.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: lista de classes; blocks[2].modoA; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Definicoes breves nao desenvolvem igualmente as dez classes, especialmente artigo/numeral/interjeicao.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Definicoes breves nao desenvolvem igualmente as dez classes, especialmente artigo/numeral/interjeicao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c03": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[1..2]",
+      "por_8.complemento.questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Distinguir classe de funcao e evitar classificacao por forma ou transitividade isolada.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Distinguir classe de funcao e evitar classificacao por forma ou transitividade isolada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c04": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: plural dos compostos e paradigmas; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.complemento.questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Flexao nominal simples exemplificada, mas compostos e variantes sem pratica; conferir paradigmas verbais.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Flexao nominal simples exemplificada, mas compostos e variantes sem pratica; conferir paradigmas verbais.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c05": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[1..2]",
+      "por_8.complemento.questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Emprego de pronomes e classes depende de construcao/registro; generalizacoes antigas persistem.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Emprego de pronomes e classes depende de construcao/registro; generalizacoes antigas persistem.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c06": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: substantivos e plurais; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.complemento.questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Desenvolver tipos, flexao e emprego alem de exemplos de conversao e plural simples.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Desenvolver tipos, flexao e emprego alem de exemplos de conversao e plural simples.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c07": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: classes; complemento: artigo e conversao",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Artigo aparece como determinante/substantivador, sem desenvolvimento proprio dos tipos e usos.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Artigo aparece como determinante/substantivador, sem desenvolvimento proprio dos tipos e usos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c08": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: adjetivo/adverbio; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.complemento.questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Contraste adjetivo/adverbio desenvolvido, mas flexao/classificacao e usos requerem ampliacao.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Contraste adjetivo/adverbio desenvolvido, mas flexao/classificacao e usos requerem ampliacao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c09": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: mapa; blocks[0..1].modoA: pronomes e que/se",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[1..2]"
+    ],
+    "pendenciasCriticas": [
+      "Reduz o/a a OD e lhe a OI; ampliar funcoes e delimitar regras de relativos/colocacao.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Reduz o/a a OD e lhe a OI; ampliar funcoes e delimitar regras de relativos/colocacao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c10": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: lista; blocks[2].modoA; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Numeral recebe glosa quantidade/ordem sem sequencia de classificacao, flexao, emprego ou questao dedicada.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Numeral recebe glosa quantidade/ordem sem sequencia de classificacao, flexao, emprego ou questao dedicada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c11": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: paradigmas, vozes e correlacao; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[0].questions[0]",
+      "por_8.blocks[0].questions[2..3]",
+      "por_8.blocks[1].questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Conferir certeza/fato real, MARIO e estruturas compostas/passivas; comentarios tem residuos de outras questoes.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Conferir certeza/fato real, MARIO e estruturas compostas/passivas; comentarios tem residuos de outras questoes.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+    "comentariosComFalha": [
+      "por_8.blocks[0].questions[0].comment: alternativa E inexistente",
+      "por_8.blocks[0].questions[2].comment: planalto e propusermos ausentes do item"
+    ]
+  },
+  "por_8-c12": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA: adverbio; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.complemento.questions[0]: distrator"
+    ],
+    "pendenciasCriticas": [
+      "Contexto e termo modificado exemplificados; ampliar subtipos e emprego sem confundir invariabilidade com forma isolada.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Contexto e termo modificado exemplificados; ampliar subtipos e emprego sem confundir invariabilidade com forma isolada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c13": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: regencia e relativos; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Preposicao e tratada por ligacao/regencia, sem exposicao sistematica de classes, locucoes e relacoes.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Preposicao e tratada por ligacao/regencia, sem exposicao sistematica de classes, locucoes e relacoes.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c14": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[1].modoA: que integrante; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[2]"
+    ],
+    "pendenciasCriticas": [
+      "Conjuncao integrante contrastada com relativo; nao esgota coordenacao, subordinacao e usos contextuais.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Conjuncao integrante contrastada com relativo; nao esgota coordenacao, subordinacao e usos contextuais.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c15": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: lista de classes; blocks[2].modoA; cartao final",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Interjeicao e apenas nomeada entre as invariaveis, sem definicao desenvolvida, exemplos ou pratica.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Interjeicao e apenas nomeada entre as invariaveis, sem definicao desenvolvida, exemplos ou pratica.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c16": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [
+      "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/pt_BR.dic#L212503: entrada noitecer/abjkMò, evidencia contraria a inexistencia; nao valida processo formador; hash e escopo em BASE_MORFOLOGIA.json"
+    ],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[0].questions[1..2]",
+      "por_8.blocks[1].questions[0]",
+      "por_8.blocks[2].questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Teste de retirada depende de alegacoes lexicais nao demonstradas; noitecer registrado contradiz inexistencia.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Teste de retirada depende de alegacoes lexicais nao demonstradas; noitecer registrado contradiz inexistencia.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+    "questoesComJustificativaPendente": [
+      "por_8.blocks[0].questions[1]",
+      "por_8.blocks[0].questions[2]",
+      "por_8.blocks[1].questions[0]",
+      "por_8.blocks[2].questions[0]"
+    ]
+  },
+  "por_8-c17": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: segmentacao/desvalorizacao; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Explicitar radical/base/afixos; tirar sufixo nao e simples apagamento grafico.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Explicitar radical/base/afixos; tirar sufixo nao e simples apagamento grafico.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c18": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: complemento: Flexao e derivacao; blocks[0].modoA",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.complemento.questions[1]"
+    ],
+    "pendenciasCriticas": [
+      "Contraste de paradigma e unidade lexical recebe questao; ampliar outras classes e casos.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Contraste de paradigma e unidade lexical recebe questao; ampliar outras classes e casos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c19": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA/B; mapa; cartoes de parassintese; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [
+      "https://raw.githubusercontent.com/LibreOffice/dictionaries/4f1df64b2e8e14751aa7c2205d170ca016071315/pt_BR/pt_BR.dic#L212503: entrada noitecer/abjkMò, evidencia contraria a inexistencia; nao valida processo formador; hash e escopo em BASE_MORFOLOGIA.json"
+    ],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[0].questions[1..2]",
+      "por_8.blocks[1].questions[0]",
+      "por_8.blocks[2].questions[0]"
+    ],
+    "pendenciasCriticas": [
+      "Fonte ortografica registra noitecer; confrontar estrutura e origem de anoitecer, subterraneo, desalmado e demais exemplos.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Fonte ortografica registra noitecer; confrontar estrutura e origem de anoitecer, subterraneo, desalmado e demais exemplos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+    "questoesComJustificativaPendente": [
+      "por_8.blocks[0].questions[1]",
+      "por_8.blocks[0].questions[2]",
+      "por_8.blocks[1].questions[0]",
+      "por_8.blocks[2].questions[0]"
+    ]
+  },
+  "por_8-c20": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..2].modoA: regressiva/conversao; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[1].questions[0]: combate"
+    ],
+    "pendenciasCriticas": [
+      "Nao decidir direcao derivacional so por sentido abstrato/concreto; distinguir analise contextual e origem.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Nao decidir direcao derivacional so por sentido abstrato/concreto; distinguir analise contextual e origem.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c21": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA/B: composicao",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Distinguir perda de fonema de perda de letra e conferir origem historica/segmentacao; sem questao dedicada.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Distinguir perda de fonema de perda de letra e conferir origem historica/segmentacao; sem questao dedicada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c22": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0].modoA: plural dos compostos",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Lista estrutural sem pratica dedicada nem confronto suficiente de variantes e lexicalizacao.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Lista estrutural sem pratica dedicada nem confronto suficiente de variantes e lexicalizacao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  },
+  "por_8-c23": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: blocks[0..1].modoA/B; mapa; complemento",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "por_8.blocks[0].questions[0]",
+      "por_8.blocks[1].questions[1..2]"
+    ],
+    "pendenciasCriticas": [
+      "Harmonizar singular/plural, sujeito anteposto/posposto e exclusao de reflexivo/pronominal antes de PA/IIS.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Harmonizar singular/plural, sujeito anteposto/posposto e exclusao de reflexivo/pronominal antes de PA/IIS.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json",
+    "comentariosComFalha": [
+      "por_8.blocks[0].questions[0].comment: alternativa E inexistente",
+      "por_8.blocks[0].questions[2].comment: planalto e propusermos ausentes do item"
+    ]
+  },
+  "por_8-c24": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "Localizadores do escopo lido: mapa: o/a/lhe; blocks[0].modoA: relativos",
+      "docs/auditoria/AUDITORIA_POR_8.md#achados-localizados"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_8.md: mapa, modos B e todos os cartoes principais/complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [],
+    "pendenciasCriticas": [
+      "Classe pronominal nao se reduz a OD/OI; conferir usos possessivos, preposicoes e colocacao por construcao.",
+      "Confronto gramatical/morfologico e autenticacao das atribuicoes pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Classe pronominal nao se reduz a OD/OI; conferir usos possessivos, preposicoes e colocacao por construcao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_MORFOLOGIA.json"
+  }
+}

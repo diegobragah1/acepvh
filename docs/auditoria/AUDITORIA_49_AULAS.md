@@ -256,9 +256,11 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_8]. 3 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_8.md](AUDITORIA_POR_8.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: É necessário cruzar cada uma das dez classes com definição, classificação, flexão e emprego. Aulas de verbos e sintaxe inseridas aqui não substituem essa conferência sistemática.
 
-Estado: auditoria integral pendente. Fila: por_8-c01, por_8-c02, por_8-c03, por_8-c04, por_8-c05, por_8-c06, por_8-c07, por_8-c08, por_8-c09, por_8-c10, por_8-c11, por_8-c12, por_8-c13, por_8-c14, por_8-c15, por_8-c16.
+Estado: auditoria integral pendente. Fila: por_8-c01, por_8-c02, por_8-c03, por_8-c04, por_8-c05, por_8-c06, por_8-c07, por_8-c08, por_8-c09, por_8-c10, por_8-c11, por_8-c12, por_8-c13, por_8-c14, por_8-c15, por_8-c16, por_8-c17, por_8-c18, por_8-c19, por_8-c20, por_8-c21, por_8-c22, por_8-c23, por_8-c24.
 
 Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fontes e referências cruzadas; níveis por subcompetência com evidências; testes e revisão de aplicação.
 
