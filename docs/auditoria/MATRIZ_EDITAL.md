@@ -153,8 +153,8 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_5-c11 | 5 - Figuras de Linguagem. | sinestesia | por_5 | data/app_data.json#/lessons/21/blocks | Não atribuído / PENDENTE |
 | por_6-c01 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | operadores sequenciais | por_6 | data/app_data.json#/lessons/22/blocks | Não atribuído / PENDENTE |
 | por_6-c02 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | expressões referenciais | por_6 | data/app_data.json#/lessons/22/blocks | Não atribuído / PENDENTE |
-| por_7-c01 | 7 - Coesão e coerência textual. | coesão | por_7 | data/app_data.json#/lessons/23/blocks | Não atribuído / PENDENTE |
-| por_7-c02 | 7 - Coesão e coerência textual. | coerência | por_7 | data/app_data.json#/lessons/23/blocks | Não atribuído / PENDENTE |
+| por_7-c01 | 7 - Coesão e coerência textual. | coesão | por_7 | data/app_data.json#/lessons/23/blocks | PARCIAL / PENDENTE |
+| por_7-c02 | 7 - Coesão e coerência textual. | coerência | por_7 | data/app_data.json#/lessons/23/blocks | PARCIAL / PENDENTE |
 | por_8-c01 | 8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras. | identificação | por_8 | data/app_data.json#/lessons/24/blocks | Não atribuído / PENDENTE |
 | por_8-c02 | 8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras. | definição | por_8 | data/app_data.json#/lessons/24/blocks | Não atribuído / PENDENTE |
 | por_8-c03 | 8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras. | classificação | por_8 | data/app_data.json#/lessons/24/blocks | Não atribuído / PENDENTE |
@@ -190,14 +190,14 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_13-c03 | 13 - Colocação pronominal. | mesóclise | por_13 | data/app_data.json#/lessons/29/blocks | Não atribuído / PENDENTE |
 | por_13-c04 | 13 - Colocação pronominal. | ênclise | por_13 | data/app_data.json#/lessons/29/blocks | Não atribuído / PENDENTE |
 | por_13-c05 | 13 - Colocação pronominal. | locuções | por_13 | data/app_data.json#/lessons/29/blocks | Não atribuído / PENDENTE |
-| por_14-c01 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | oração | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c02 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | período | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c03 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | sintáticos | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c04 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | semânticos | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c05 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | sujeito | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c06 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | predicado | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c07 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | coordenação | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
-| por_14-c08 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | subordinação | por_14 | data/app_data.json#/lessons/30/blocks | Não atribuído / PENDENTE |
+| por_14-c01 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | oração | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
+| por_14-c02 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | período | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
+| por_14-c03 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | sintáticos | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
+| por_14-c04 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | semânticos | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
+| por_14-c05 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | sujeito | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
+| por_14-c06 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | predicado | por_14 | data/app_data.json#/lessons/30/blocks | SUPERFICIAL / PENDENTE |
+| por_14-c07 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | coordenação | por_14 | data/app_data.json#/lessons/30/blocks | SUPERFICIAL / PENDENTE |
+| por_14-c08 | 14 - Estrutura da oração e do período: aspectos sintáticos e semânticos. | subordinação | por_14 | data/app_data.json#/lessons/30/blocks | PARCIAL / PENDENTE |
 | por_15-c01 | 15 - Acentuação gráfica. | acentuação | por_15 | data/app_data.json#/lessons/31/blocks | Não atribuído / PENDENTE |
 | por_15-c02 | 15 - Acentuação gráfica. | monossílabos | por_15 | data/app_data.json#/lessons/31/blocks | Não atribuído / PENDENTE |
 | por_15-c03 | 15 - Acentuação gráfica. | oxítonas | por_15 | data/app_data.json#/lessons/31/blocks | Não atribuído / PENDENTE |

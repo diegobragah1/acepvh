@@ -1,5 +1,5 @@
 {
-  "baseDatasetSha256": "1baa36e294d09cead697375277901fbad50a845d47fb1f09ad83629f2798155e",
+  "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
   "statusPermitidos": [
     "AUSENTE",
     "SUPERFICIAL",
@@ -14550,7 +14550,7 @@
       "itemOriginal": "7 - Coesão e coerência textual.",
       "aula": "por_7",
       "subcompetencia": "coesão",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/23/blocks",
       "fontesCadastradas": [
@@ -14570,11 +14570,22 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_7.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_7].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_7"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_7.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Direcao referencial nao deve ser deduzida da forma este/esse isolada; resumo e cartao omitem ressalvas presentes na teoria.",
+        "Desenvolver deixis, elipse e cadeias referenciais; delimitar atalhos sobre conectivos.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_7.blocks[0].questions[0]",
@@ -14601,15 +14612,20 @@
           "revision": "20261031-coerencia-contexto"
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Direcao referencial nao deve ser deduzida da forma este/esse isolada; resumo e cartao omitem ressalvas presentes na teoria. Desenvolver deixis, elipse e cadeias referenciais; delimitar atalhos sobre conectivos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_7.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_7-c02",
       "itemOriginal": "7 - Coesão e coerência textual.",
       "aula": "por_7",
       "subcompetencia": "coerência",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/23/blocks",
       "fontesCadastradas": [
@@ -14629,11 +14645,22 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_7.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_7].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_7"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_7.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Conciliar enumeracoes dos criterios de coerencia e fundamentar atribuicao a Charolles.",
+        "Explicitar expectativa concessiva no estudo de caso; ampliar revisao de paragrafos e contextos.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_7.blocks[0].questions[0]",
@@ -14660,8 +14687,13 @@
           "revision": "20261031-coerencia-contexto"
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Conciliar enumeracoes dos criterios de coerencia e fundamentar atribuicao a Charolles. Explicitar expectativa concessiva no estudo de caso; ampliar revisao de paragrafos e contextos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_7.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_8-c01",
@@ -15782,6 +15814,18 @@
         {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -15833,6 +15877,18 @@
         },
         {
           "local": "por_9.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -15886,6 +15942,18 @@
         {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -15937,6 +16005,18 @@
         },
         {
           "local": "por_9.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -15990,6 +16070,18 @@
         {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -16041,6 +16133,18 @@
         },
         {
           "local": "por_9.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -16343,6 +16447,14 @@
           "revision": null
         },
         {
+          "local": "por_12.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_12.blocks[1].questions[0]",
           "revision": null
         },
@@ -16397,6 +16509,14 @@
       "inventarioExercicios": [
         {
           "local": "por_12.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[2]",
           "revision": null
         },
         {
@@ -16457,6 +16577,14 @@
           "revision": null
         },
         {
+          "local": "por_12.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_12.blocks[1].questions[0]",
           "revision": null
         },
@@ -16511,6 +16639,14 @@
       "inventarioExercicios": [
         {
           "local": "por_12.blocks[0].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[0].questions[2]",
           "revision": null
         },
         {
@@ -16875,7 +17011,7 @@
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "oração",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -16905,11 +17041,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Desenvolver limites da contagem de oracoes, locucoes e oracoes reduzidas.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -16932,15 +17078,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Desenvolver limites da contagem de oracoes, locucoes e oracoes reduzidas.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c02",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "período",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -16970,11 +17121,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Falta analise completa de periodos mistos e de todas as relacoes anunciadas.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -16997,15 +17158,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Falta analise completa de periodos mistos e de todas as relacoes anunciadas.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c03",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "sintáticos",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17035,11 +17201,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Resumo generaliza classificacao de se e de complemento nominal; nao decide funcao apenas por posicao ou transitividade.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17062,15 +17238,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Resumo generaliza classificacao de se e de complemento nominal; nao decide funcao apenas por posicao ou transitividade.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c04",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "semânticos",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17100,11 +17281,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Qualificar oposicao parte/todo; duas questoes principais tem redacao mais forte que o necessario.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17127,15 +17318,24 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Qualificar oposicao parte/todo; duas questoes principais tem redacao mais forte que o necessario.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json",
+      "questoesComRessalva": [
+        "por_14.blocks[1].questions[0]",
+        "por_14.blocks[2].questions[0]"
+      ]
     },
     {
       "id": "por_14-c05",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "sujeito",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17165,11 +17365,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Desenvolver todos os tipos de sujeito e harmonizar singular/plural de existir com a regra.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17192,15 +17402,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Desenvolver todos os tipos de sujeito e harmonizar singular/plural de existir com a regra.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c06",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "predicado",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17230,11 +17445,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Tipos de predicado e predicativos nao sao desenvolvidos proporcionalmente ao recorte; exemplo isolado no complemento.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17257,15 +17482,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Tipos de predicado e predicativos nao sao desenvolvidos proporcionalmente ao recorte; exemplo isolado no complemento.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c07",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "coordenação",
-      "nivel": null,
+      "nivel": "SUPERFICIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17295,11 +17525,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Mapa lista cinco sindeticas, mas falta desenvolvimento sistematico, assindeticas e exercicios especificos.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17322,15 +17562,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Mapa lista cinco sindeticas, mas falta desenvolvimento sistematico, assindeticas e exercicios especificos.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
     },
     {
       "id": "por_14-c08",
       "itemOriginal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
       "aula": "por_14",
       "subcompetencia": "subordinação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/30/blocks",
       "fontesCadastradas": [
@@ -17360,11 +17605,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+        "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+        "src/data/deepening/portugues.ts: entrada por_14"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+      ],
+      "pendenciasCriticas": [
+        "Completar adverbiais, reduzidas e introdutores de substantivas; corrigir diagnosticos por pontuacao isolada.",
+        "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+        "Inspecao visual desktop/mobile pendente."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_14.blocks[0].questions[0]",
@@ -17387,8 +17642,17 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Completar adverbiais, reduzidas e introdutores de substantivas; corrigir diagnosticos por pontuacao isolada.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json",
+      "questoesComRessalva": [
+        "por_14.blocks[1].questions[0]",
+        "por_14.blocks[2].questions[0]"
+      ]
     },
     {
       "id": "por_15-c01",

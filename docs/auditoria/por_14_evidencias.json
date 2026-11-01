@@ -1,0 +1,210 @@
+{
+  "por_14-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Desenvolver limites da contagem de oracoes, locucoes e oracoes reduzidas.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Desenvolver limites da contagem de oracoes, locucoes e oracoes reduzidas.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Falta analise completa de periodos mistos e de todas as relacoes anunciadas.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Falta analise completa de periodos mistos e de todas as relacoes anunciadas.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c03": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Resumo generaliza classificacao de se e de complemento nominal; nao decide funcao apenas por posicao ou transitividade.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Resumo generaliza classificacao de se e de complemento nominal; nao decide funcao apenas por posicao ou transitividade.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c04": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Qualificar oposicao parte/todo; duas questoes principais tem redacao mais forte que o necessario.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Qualificar oposicao parte/todo; duas questoes principais tem redacao mais forte que o necessario.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json",
+    "questoesComRessalva": [
+      "por_14.blocks[1].questions[0]",
+      "por_14.blocks[2].questions[0]"
+    ]
+  },
+  "por_14-c05": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Desenvolver todos os tipos de sujeito e harmonizar singular/plural de existir com a regra.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Desenvolver todos os tipos de sujeito e harmonizar singular/plural de existir com a regra.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c06": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Tipos de predicado e predicativos nao sao desenvolvidos proporcionalmente ao recorte; exemplo isolado no complemento.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Tipos de predicado e predicativos nao sao desenvolvidos proporcionalmente ao recorte; exemplo isolado no complemento.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c07": {
+    "nivel": "SUPERFICIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Mapa lista cinco sindeticas, mas falta desenvolvimento sistematico, assindeticas e exercicios especificos.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Mapa lista cinco sindeticas, mas falta desenvolvimento sistematico, assindeticas e exercicios especificos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_14-c08": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_14.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_14].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_14"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_14.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_14.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Completar adverbiais, reduzidas e introdutores de substantivas; corrigir diagnosticos por pontuacao isolada.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Completar adverbiais, reduzidas e introdutores de substantivas; corrigir diagnosticos por pontuacao isolada.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json",
+    "questoesComRessalva": [
+      "por_14.blocks[1].questions[0]",
+      "por_14.blocks[2].questions[0]"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "por_7-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_7.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_7].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_7"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_7.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_7.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Direcao referencial nao deve ser deduzida da forma este/esse isolada; resumo e cartao omitem ressalvas presentes na teoria.",
+      "Desenvolver deixis, elipse e cadeias referenciais; delimitar atalhos sobre conectivos.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Direcao referencial nao deve ser deduzida da forma este/esse isolada; resumo e cartao omitem ressalvas presentes na teoria. Desenvolver deixis, elipse e cadeias referenciais; delimitar atalhos sobre conectivos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "por_7-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_7.md#achados-localizados",
+      "data/app_data.json: lessons[id=por_7].blocks[0..2].modoA",
+      "src/data/deepening/portugues.ts: entrada por_7"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_7.md: mapa, modos B e todos os cartoes principais e complemento"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_7.md: tabela com analise de todas as alternativas; nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Conciliar enumeracoes dos criterios de coerencia e fundamentar atribuicao a Charolles.",
+      "Explicitar expectativa concessiva no estudo de caso; ampliar revisao de paragrafos e contextos.",
+      "Confronto documental externo indisponivel nesta etapa; origem das questoes e Anexo IV/retificacoes a reconferir.",
+      "Inspecao visual desktop/mobile pendente."
+    ],
+    "lacunas": "Conciliar enumeracoes dos criterios de coerencia e fundamentar atribuicao a Charolles. Explicitar expectativa concessiva no estudo de caso; ampliar revisao de paragrafos e contextos.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  }
+}

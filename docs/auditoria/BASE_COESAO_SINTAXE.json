@@ -1,0 +1,92 @@
+{
+  "lote": "COESAO_SINTAXE_2026-10-31",
+  "auditadoEm": "2026-10-31T21:09:59.771031-03:00",
+  "commitBase": "e067d90f5b8d2dce349ea08cb5d34f477c830da0",
+  "datasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "metodoHashComponentes": "SHA-256 de JSON UTF-8, chaves ordenadas, ensure_ascii=False, separadores virgula e dois-pontos, sem espacos; arquivos integrais usam bytes originais.",
+  "arquivosLidos": {
+    "data/app_data.json": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "src/data/deepening/portugues.ts": "472bc1d0b10f2c5d783940438657d2f35c9a1b43a8f229bdc1de35d7c8259758",
+    "src/data/deepening/index.ts": "d40e2af077271a342e5ecc55a5bf6a2f9fd75e4fad42343e7f0a904b57ff820a"
+  },
+  "aulas": {
+    "por_7": {
+      "sha256": "90de9d62d305999d22797e48736fad6908f45c42afa9dd307487a13d6aaf7b4f",
+      "hashesComponentes": {
+        "mindMap": "29ca79316e029f5ad0c55aa2618b9e37ec1ff2864fc4d5a007efaed12dfa76b7",
+        "blocks[0].title": "c723cc78811e212a8eff99b22c0630091b99f2b5a1a668a8d37cf48c7f2e1873",
+        "blocks[0].modoA": "e65bc6bc7824db6f0bde7f3336d510226c1d9ad4f35592249c375c4fe5e1254d",
+        "blocks[0].modoB": "e3f1f99daf66f175d96371aba89303c9bb679be25160444838b6c7d310645713",
+        "blocks[0].modoA_markdown": "a55363fbb1194ed7a06bbf08aac78d9059739e7ef9b99ea2070401523b731cc9",
+        "blocks[0].modoB_markdown": "83b54a313a307255393dff17762f2ac7f014124d8457948ff788ff6a6af04032",
+        "blocks[0].questions": "66ae10f93499cb6c05dc2a683855f17c29b1082eb98506ca05b6d0a82caad63e",
+        "blocks[0].flashcards": "a47a55eb497eadfaccec2590b6357154125f5ab91bb8041190fd76dd77a5b65d",
+        "blocks[1].title": "2fd46e8a372d7e980a0dfae4eb53434af26951455e37c93ada97ebc982f67c29",
+        "blocks[1].modoA": "a53d635a1e55202340caae07e5a0b9f4713e32643801a946efeecbf45107251a",
+        "blocks[1].modoB": "27626640208295b970503061ca6aaf47ccabe5e9d7773dbf0427d4d6986697ae",
+        "blocks[1].questions": "f446da6cf321255f52b7f5bc37cb2627b64ba626cf36683096954a7a280588f3",
+        "blocks[1].flashcards": "250f546dd1d377abbdf89367fd51819c52b2cca15fd66d3cffbce5f748a8b441",
+        "blocks[2].title": "7acde421f9c3e32ee83971a2df00992eae4d7a1a02ec1c5cec145840d3f09e12",
+        "blocks[2].modoA": "afaa65cfb2fb42dddddae0e1735a8a7935e315c260feb0219e5037f8cf2b96fd",
+        "blocks[2].modoB": "ceaeeb2e9eadad4cf75941a377c18c3d9889aa6e44ff646a8744f35040710732",
+        "blocks[2].questions": "ad8309bf23074326accc2892ec68d668c27da3892108484fcc79e548df1b9b1f",
+        "blocks[2].flashcards": "14dba29531e3e2796a7313f2757a3d61b36af38dccc0b56e0ab253a3ca2fb32a"
+      },
+      "blocosPrincipais": 3,
+      "questoesPrincipais": 6,
+      "cartoesPrincipais": 8,
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_7",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_7.md"
+    },
+    "por_14": {
+      "sha256": "1782232a5230df9e81f1a1681f2755b384ec0894d763cdf535d2d618934a9376",
+      "hashesComponentes": {
+        "mindMap": "6ef21aff052094b50e660928a45a1fe951c57a649de525af8efd1b763b348e84",
+        "blocks[0].title": "2689ff2206e2632d7d9636e596d9654d284dbbadee10a68c4920ed856587bee3",
+        "blocks[0].modoA": "6cad43d62f17a94fa9e2f3c341f2091c8300badd6048b52ee6476b16afbe1fd0",
+        "blocks[0].modoB": "875e1d5d3464e27751e5865c935b0cffbe7651172ae30f48f6e95cd61cecfc76",
+        "blocks[0].questions": "eb3a87c1a24336afa17b4a3005b195f48f5f4a897802626dd05dfe84d40b0b52",
+        "blocks[0].flashcards": "925cb78ef912cd514abe77b29167dfb7584020f2bb37bc9c0a6a5728bd45e67d",
+        "blocks[1].title": "28f03f05302f90f2a25bd1d1e9e415e864beddcb4abf2c6b1e9d37bcf94082ad",
+        "blocks[1].modoA": "c2a6a75c2c1e862bfa91274f94f093c14cb3bb122965b39e473460e84d46e968",
+        "blocks[1].modoB": "b52045afb89853dc0e161ed1ec8aa3e975e20e173bb9f7a658e80c753f384d3d",
+        "blocks[1].questions": "f19b07c9d1a1e35ab749aba04c2900c5a5dbc1fc26416e1fca5ac36445f74e8c",
+        "blocks[1].flashcards": "b783a44012d5ba20b570837ee8a01b5f8f7161fdfab3937c2646c12dd2f43879",
+        "blocks[2].title": "951cb9d7f5c1cede323c008268b3ca9297a1c14ae090a22c91c3a6d846d11cd0",
+        "blocks[2].modoA": "887d38138aa4151c41d26b7144c59aadf3e09274df1312563d8d9a34f8655716",
+        "blocks[2].modoB": "453c4ab31b315710702c8ad8a461707e12159b00004008a4154010e3b2150252",
+        "blocks[2].questions": "ec64df6fe9c88270f3b85d9c718ee8ba4303a031fc68bc3bae94159ed0257e4a",
+        "blocks[2].flashcards": "cb1809c8ddb7d3376e7ced75e8de15a6a0bba0173e779a7292cbddc8d22f8159"
+      },
+      "blocosPrincipais": 3,
+      "questoesPrincipais": 5,
+      "cartoesPrincipais": 8,
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_14",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_14.md"
+    }
+  },
+  "consultasExternas": {
+    "resultado": "Bloqueio do proxy HTTP 403 antes da leitura; nenhum texto externo consultado.",
+    "urlsTentadas": [
+      "https://www12.senado.leg.br/manualdecomunicacao/estilos/pronomes-demonstrativos",
+      "https://www.ceale.fae.ufmg.br/glossarioceale/verbetes/coesao-textual",
+      "https://www.ceale.fae.ufmg.br/glossarioceale/verbetes/coerencia-textual"
+    ]
+  },
+  "limites": [
+    "Reconferencia do Anexo IV e retificacoes pendente",
+    "Sem inspecao visual",
+    "Conferencia editorial interna nao autentica banca nem certifica informacao epidemiologica",
+    "Nenhuma alteracao no dataset ou identificadores"
+  ]
+}

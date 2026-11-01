@@ -206,6 +206,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_4]. 2 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_4.md](AUDITORIA_POR_4.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Corrigir definição excessivamente restritiva de elipse: zeugma é um caso particular, não uma categoria incompatível. Validar exemplos e separar repetição expressiva de vício de linguagem.
 
 Estado: auditoria integral pendente. Fila: por_4-c01, por_4-c02, por_4-c03, por_4-c04, por_4-c05, por_4-c06, por_4-c07, por_4-c08, por_4-c09, por_4-c10.
@@ -215,6 +217,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_5 — 5. Figuras de Linguagem
 
 Local: data/app_data.json, lessons[id=por_5]. 2 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_5.md](AUDITORIA_POR_5.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: Conteúdo principal é curto e não prova exaustão do item aberto. Conferir figuras sonoras e de pensamento, sobreposições e efeitos de sentido nos exemplos.
 
@@ -236,6 +240,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_7]. 3 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_7.md](AUDITORIA_POR_7.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: As quatro metarregras são uma abordagem didática, não uma lista exaustiva de toda coerência textual. Conferir progressão temática, referência, substituição, elipse e relações lógicas.
 
 Estado: auditoria integral pendente. Fila: por_7-c01, por_7-c02.
@@ -255,6 +261,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_9 — 9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais
 
 Local: data/app_data.json, lessons[id=por_9]. 2 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_9.md](AUDITORIA_POR_9.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: O corpo principal é muito sintético para demonstrar cobertura integral de conjugação e correlação. Conferir imperativo, tempos compostos, irregulares, impessoais, defectivos, abundantes e transposição de vozes.
 
@@ -276,6 +284,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_11]. 3 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_11.md](AUDITORIA_POR_11.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Há forte mistura com crase e pontuação. Regência nominal precisa de desenvolvimento próprio; lista de verbos frequentes não esgota o item nem justifica alegação de frequência da banca.
 
 Estado: auditoria integral pendente. Fila: por_11-c01, por_11-c02.
@@ -285,6 +295,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_12 — 12. Crase
 
 Local: data/app_data.json, lessons[id=por_12]. 2 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_12.md](AUDITORIA_POR_12.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: O rótulo “10 casos” é didático, não exaustivo. Conferir demonstrativos, relativos, topônimos, locuções, paralelismo, elipse e condições dos casos facultativos.
 
@@ -296,6 +308,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_13]. 3 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_13.md](AUDITORIA_POR_13.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Formação de palavras e revisão geral de sintaxe ocupam blocos principais. Conferir atração, pontuação, infinitivo, particípio e locuções, com distinção entre norma-padrão e usos efetivos.
 
 Estado: auditoria integral pendente. Fila: por_13-c01, por_13-c02, por_13-c03, por_13-c04, por_13-c05.
@@ -305,6 +319,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_14 — 14. Estrutura da oração e do período: aspectos sintáticos e semânticos
 
 Local: data/app_data.json, lessons[id=por_14]. 3 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_14.md](AUDITORIA_POR_14.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: O primeiro bloco é apresentado como simulado; não substitui a exposição organizada dos termos da oração e relações de sentido do período. Conferir funções de QUE/SE sem reduzi-las a duas categorias.
 
@@ -316,6 +332,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_15]. 2 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_15.md](AUDITORIA_POR_15.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: Conferir todas as terminações, ditongos abertos, hiatos, diferenciais e mudanças do Acordo. Porquês e pares semânticos são de ortografia e não comprovam acentuação.
 
 Estado: auditoria integral pendente. Fila: por_15-c01, por_15-c02, por_15-c03, por_15-c04, por_15-c05, por_15-c06.
@@ -325,6 +343,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_16 — 16. Ortografia
 
 Local: data/app_data.json, lessons[id=por_16]. 2 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_16.md](AUDITORIA_POR_16.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: Erro confirmado: “opostos se atraem” e “sempre” não cobrem as exceções dos prefixos. A ortografia também exige grafia e convenções além de hífen e pares de palavras.
 
