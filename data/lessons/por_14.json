@@ -1,0 +1,241 @@
+{
+  "id": "por_14",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos",
+  "editalRef": "Item 14 de Língua Portuguesa — Estrutura da oração e do período: aspectos sintáticos e semânticos.",
+  "mindMap": {
+    "centralTitle": "14. Estrutura da Oração e do Período",
+    "centralSubtitle": "Item 14 de Língua Portuguesa — Análise Sintática, Coordenação e Subordinação",
+    "branches": [
+      {
+        "title": "1. Termos Essenciais e Integrantes",
+        "icon": "🏛️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Sujeito e Predicado",
+            "detail": "Simples, composto, oculto, indeterminado e oração sem sujeito"
+          },
+          {
+            "label": "OD, OI e CN vs. AA",
+            "detail": "Complemento Nominal (paciente) vs. Adjunto Adnominal (agente)"
+          }
+        ]
+      },
+      {
+        "title": "2. Termos Acessórios e SE/QUE",
+        "icon": "🔍",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Adjunto Adverbial, Aposto e Vocativo",
+            "detail": "Circunstâncias, explicação e chamamento"
+          },
+          {
+            "label": "Funções do SE e do QUE",
+            "detail": "PA vs. IIS; Pronome relativo vs. Conjunção integrante"
+          }
+        ]
+      },
+      {
+        "title": "3. Período por Coordenação",
+        "icon": "🔗",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Assindéticas e 5 Sindéticas",
+            "detail": "Aditiva, Adversativa, Alternativa, Conclusiva e Explicativa"
+          }
+        ]
+      },
+      {
+        "title": "4. Período por Subordinação",
+        "icon": "🌿",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Substantivas (6) e Adjetivas (2)",
+            "detail": "Introduzidas por conjunção integrante; Restritiva vs. Explicativa"
+          },
+          {
+            "label": "9 Orações Adverbiais",
+            "detail": "Causal, Concessiva, Condicional, Conformativa, Consecutiva, Comparativa, Final, Proporcional, Temporal"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 14.1 — Simulado Dirigido IBGP: Funções da Palavra \"SE\" (Partícula Apassivadora vs. Índice de Indeterminação) e Valores do \"QUE\"",
+      "modoA": "<h4>4.1 Como Diferenciar \"SE\" Partícula Apassivadora (PA) vs. Índice de Indeterminação do Sujeito (IIS) em 5 Segundos</h4>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Classificação do \"SE\"</th><th class=\"p-2 border\">Tipo de Verbo</th><th class=\"p-2 border\">Regra de Concordância</th><th class=\"p-2 border\">Exemplo Clássico IBGP</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Partícula Apassivadora (Pronome Apassivador)</td><td class=\"p-2 border\"><strong>VTD</strong> ou <strong>VTDI</strong> (quem faz algo, faz <em>alguma coisa</em> sem preposição obrigatória)</td><td class=\"p-2 border\">Tem <strong>sujeito paciente</strong>; o verbo concorda com ele, no singular ou plural. Admite transposição para a voz passiva analítica.</td><td class=\"p-2 border\"><em>\"Vistoriaram-<strong>se</strong> os imóveis.\"</em> (= Os imóveis foram vistoriados).</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Índice de Indeterminação do Sujeito (IIS)</td><td class=\"p-2 border\"><strong>VTI</strong>, <strong>VI</strong> ou <strong>VL</strong> (verbo com preposição, intransitivo ou de ligação)</td><td class=\"p-2 border\">Sujeito Indeterminado! O verbo fica <strong>OBRIGATORIAMENTE na 3ª pessoa do SINGULAR</strong>!</td><td class=\"p-2 border\"><em>\"Precisa-<strong>se</strong> de agentes.\"</em> / <em>\"Confia-<strong>se</strong> nos protocolos.\"</em> / <em>\"Vive-<strong>se</strong> bem aqui.\"</em></td></tr>\n</tbody></table></div>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Guia Definitivo de Vozes Verbais (Ativa, Passiva Analítica, Passiva Sintética e Reflexiva), Correlação Verbal e Colocação Pronominal na IBGP</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Tópico Morfossintático</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Regra Prática de Transformação e Identificação</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Exemplo Resolvido Passo a Passo</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Conversão Voz Ativa ⇄ Voz Passiva Analítica ⇄ Voz Passiva Sintética (Pronominal)</td>\n          <td class=\"p-2\">Na transformação regular para a passiva, parte-se de uma construção com <strong>objeto direto (VTD ou VTDI)</strong>. Existem exceções lexicais, como <em>obedecer</em> e <em>desobedecer</em>, que admitem passiva apesar da regência indireta.<br>• O <strong>Objeto Direto</strong> da Ativa vira o <strong>Sujeito Paciente</strong> da Passiva;<br>• O verbo auxiliar <em>SER</em> assume exatamente o <strong>mesmo tempo e modo</strong> do verbo principal da Ativa;<br>• Na Passiva Sintética (Verbo + SE), o verbo concorda obrigatoriamente com o Sujeito Paciente!</td>\n          <td class=\"p-2\">• <strong>Voz Ativa:</strong> \"Os agentes <em>inspecionaram</em> (Pret. Perf.) <u>os terrenos baldios</u> (OD).\"<br>• <strong>Passiva Analítica:</strong> \"<u>Os terrenos baldios</u> (Sujeito Paciente) <em>foram inspecionados</em> (Pret. Perf.) pelos agentes (Agente da Passiva).\"<br>• <strong>Passiva Sintética:</strong> \"<em>Inspecionaram-se</em> <u>os terrenos baldios</u>.\" (SE = Partícula Apassivadora!).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Diferença Cirúrgica entre \"SE\" Partícula Apassivadora (PA) e \"SE\" Índice de Indeterminação do Sujeito (IIS)</td>\n          <td class=\"p-2\">• <strong>SE = PA (VTD ou VTDI sem preposição no argumento):</strong> Tem Sujeito Paciente expresso; o verbo concorda no singular ou plural.<br>• <strong>SE = IIS (VTI, VI ou VL — frequentemente com preposição):</strong> Sujeito Indeterminado; o verbo fica <strong>OBRIGATORIAMENTE na 3ª pessoa do SINGULAR</strong>!</td>\n          <td class=\"p-2\">• <strong>PA (Plural):</strong> \"<em>Notificaram-se</em> <u>novos casos de malária</u>.\" (= Novos casos foram notificados).<br>• <strong>IIS (Singular obrigatório):</strong> \"<em>Precisa-se</em> <u>de novos agentes</u>.\" / \"<em>Confia-se</em> <u>nas equipes de campo</u>.\" / \"<em>Vive-se</em> bem em Porto Velho.\"</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Colocação Pronominal (Próclise, Mesóclise e Ênclise)</td>\n          <td class=\"p-2\">• <strong>Proibição Absoluta nº 1:</strong> NUNCA se inicia período com pronome oblíquo átono (<em>\"Me dê...\"</em> é errado na norma culta; o certo é <em>\"Dê-me...\"</em>).<br>• <strong>Proibição Absoluta nº 2:</strong> NUNCA se usa ênclise após <strong>Futuro do Presente, Futuro do Pretérito ou Particípio</strong>!<br>• <strong>Próclise Obrigatória (Palavras Atrativas — Mnemônico NR-PI-CS):</strong> Palavras <strong>N</strong>egativas (não, nunca, jamais), Advérbios (sem vírgula após eles), Pronomes <strong>R</strong>elativos, <strong>P</strong>ronomes <strong>I</strong>ndefinidos (tudo, alguém, ninguém), Pronomes <strong>I</strong>nterrogativos, <strong>C</strong>onjunções <strong>S</strong>ubordinativas (que, se, embora, quando, como) e frases optativas/exclamativas.</td>\n          <td class=\"p-2\">Se o verbo estiver no <strong>Futuro do Presente</strong> (<em>realizará</em>) ou <strong>Futuro do Pretérito</strong> (<em>realizaria</em>):<br>1. Se houver palavra atrativa → <strong>PRÓCLISE</strong> (\"Não <em>se</em> realizará a vistoria\");<br>2. Sem fator de próclise, no início do período formal → <strong>MESÓCLISE</strong> (\"<em>Realizar-se-á</em> a vistoria amanhã\").</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div><!-- REVISAO:SE --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Diagnóstico das funções de se</h4><p>A transitividade deve ser analisada junto com a estrutura e o sentido, não como fórmula automática. Compare: <strong>Vendem-se casas</strong> → casas são vendidas, com sujeito paciente plural; <strong>Vende-se uma casa</strong> → uma casa é vendida, com sujeito paciente singular; <strong>Precisa-se de ajudantes</strong> → indeterminação do sujeito, verbo no singular; <strong>Ela se lavou</strong> → ela lavou a si mesma, pronome reflexivo; <strong>Os colegas se abraçaram</strong> → abraçaram uns aos outros, leitura recíproca; <strong>Ela se arrependeu</strong> → o pronome integra o verbo pronominal. A análise de PA/IIS pressupõe excluir esses outros usos.</p><p>Na passiva sintética, o sujeito paciente pode vir antes ou depois do verbo. Não se conclui que todo termo sem preposição é sujeito nem que toda construção VTD + se é passiva. Nas questões, confira a paráfrase com ser + particípio e a referência do pronome. Fonte: Aulete, Pronomes pessoais e verbetes se/pronominal; Regência para as exceções de obedecer/desobedecer.</p></div>",
+      "modoB": "<ul>\n<li><strong>Na passiva sintética, VTD + SE apassivador:</strong> O termo seguinte é Sujeito Paciente e o verbo concorda com ele (<em>\"Notificaram-se os casos\"</em>).</li>\n<li><strong>VTI / VI / VL + SE = Índice de Indeterminação do Sujeito (IIS):</strong> O verbo fica SEMPRE no singular (<em>\"Necessita-se de novos agentes\"</em>).</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Funções do \"SE\" e Vozes Verbais — Inédita 2026) Compare os períodos: (I) \"Eliminam-se criadouros de Aedes aegypti durante a visita domiciliar\" e (II) \"Necessita-se de novos equipamentos de proteção individual\". A palavra \"se\" classifica-se, em (I) e (II), respectivamente, como:",
+          "options": [
+            "A) Pronome reflexivo e conjunção integrante.",
+            "B) Partícula apassivadora (acompanhando verbo transitivo direto, com sujeito paciente \"criadouros\") e índice de indeterminação do sujeito (acompanhando verbo transitivo indireto, mantendo o verbo obrigatoriamente no singular).",
+            "C) Índice de indeterminação do sujeito em ambos os casos.",
+            "D) Conjunção condicional e partícula expletiva de realce."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Em (I), \"eliminar\" é VTD (\"criadouros de Aedes aegypti são eliminados\" = sujeito paciente plural, SE = partícula apassivadora). Em (II), \"necessitar\" é VTI (quem necessita, necessita DE algo), logo SE = índice de indeterminação do sujeito e o verbo fica obrigatoriamente no singular."
+        },
+        {
+          "q": "(Questão de estudo — Morfossintaxe do \"QUE\" — Inédita 2026) Em \"A orientação que o Agente de Combate às Endemias transmitiu aos moradores evitou novos focos\", o vocábulo \"que\" retoma o substantivo antecedente (\"A orientação\") e classifica-se morfologicamente como:",
+          "options": [
+            "A) Conjunção subordinativa integrante.",
+            "B) Pronome relativo (substituível por \"a qual\", introduzindo oração subordinada adjetiva restritiva).",
+            "C) Preposição acidental.",
+            "D) Advérbio de intensidade."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Quando o \"que\" retoma um substantivo antecedente e equivale a \"o qual / a qual\", classifica-se como pronome relativo."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Como diferenciar o \"SE\" Partícula Apassivadora do \"SE\" Índice de Indeterminação do Sujeito?",
+          "front": "Como diferenciar o \"SE\" Partícula Apassivadora do \"SE\" Índice de Indeterminação do Sujeito?",
+          "b": "Compare a estrutura e o sentido. Em \"Vendem-se casas\", há sujeito paciente e paráfrase \"casas são vendidas\": se apassivador, concordância plural. Em \"Precisa-se de vendedores\", há sujeito indeterminado e verbo singular. VTD com se também pode ser reflexivo (\"Ela se lavou\") ou recíproco (\"Eles se abraçaram\"); a transitividade sozinha não decide.",
+          "back": "Compare a estrutura e o sentido. Em \"Vendem-se casas\", há sujeito paciente e paráfrase \"casas são vendidas\": se apassivador, concordância plural. Em \"Precisa-se de vendedores\", há sujeito indeterminado e verbo singular. VTD com se também pode ser reflexivo (\"Ela se lavou\") ou recíproco (\"Eles se abraçaram\"); a transitividade sozinha não decide.",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        },
+        {
+          "f": "Como diferenciar o \"QUE\" Pronome Relativo do \"QUE\" Conjunção Integrante?",
+          "front": "Como diferenciar o \"QUE\" Pronome Relativo do \"QUE\" Conjunção Integrante?",
+          "b": "Pronome Relativo retoma substantivo antecedente e troca por \"O QUAL / A QUAL\". Conjunção Integrante introduz oração substantiva e a oração inteira troca por \"ISSO\".",
+          "back": "Pronome Relativo retoma substantivo antecedente e troca por \"O QUAL / A QUAL\". Conjunção Integrante introduz oração substantiva e a oração inteira troca por \"ISSO\".",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        },
+        {
+          "f": "Quais são os 4 casos clássicos de palavras que SEMPRE atraem o pronome oblíquo para antes do verbo (Próclise obrigatória)?",
+          "front": "Quais são os 4 casos clássicos de palavras que SEMPRE atraem o pronome oblíquo para antes do verbo (Próclise obrigatória)?",
+          "b": "1) Palavras negativas (não, nunca); 2) Advérbios sem vírgula (já, sempre); 3) Pronomes relativos, indefinidos e interrogativos (que, tudo, quem); 4) Conjunções subordinativas (embora, quando, se).",
+          "back": "1) Palavras negativas (não, nunca); 2) Advérbios sem vírgula (já, sempre); 3) Pronomes relativos, indefinidos e interrogativos (que, tudo, quem); 4) Conjunções subordinativas (embora, quando, se).",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 14.2 — Laboratório de Classificação de Orações Subordinadas (Substantivas, Adjetivas e Adverbiais) e Concordância de Verbos Impessoais",
+      "modoA": "<h4>4.1 Quadro-Síntese das Orações Subordinadas Substantivas e Adjetivas</h4>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Tipo de Oração Subordinada</th><th class=\"p-2 border\">Teste Rápido de Prova</th><th class=\"p-2 border\">Impacto da Vírgula / Sentido</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Substantiva Subjetiva</td><td class=\"p-2 border\">Troque a oração por <strong>ISSO</strong> → funciona como <strong>Sujeito</strong> da principal (não há sujeito na oração principal!).</td><td class=\"p-2 border\">Ex.: <em>\"É fundamental [que todos tampem a caixa d'água]\"</em> (= <strong>Isso</strong> é fundamental).</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Substantiva Objetiva Direta / Indireta</td><td class=\"p-2 border\">Troque por <strong>ISSO</strong> (OD) ou <strong>DISSO/NISSO</strong> (OI) completando um verbo que já tem sujeito.</td><td class=\"p-2 border\">Ex.: <em>\"O ACE informou [que voltaria na quinzena]\"</em> (= O ACE informou <strong>isso</strong> → Objetiva Direta).</td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Adjetiva Restritiva (SEM vírgula)</td><td class=\"p-2 border\">Iniciada por pronome relativo (<em>que, quem, cujo, onde</em>) <strong>SEM vírgula</strong>.</td><td class=\"p-2 border\"><strong>Restringe/delimita</strong> o subconjunto: <em>\"Os pneus <strong>que acumulam água</strong> devem ser recolhidos\"</em> (apenas os que acumulam água).</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Adjetiva Explicativa (COM vírgula)</td><td class=\"p-2 border\">Iniciada por pronome relativo <strong>isolada por vírgulas</strong>.</td><td class=\"p-2 border\"><strong>Generaliza</strong> característica própria do todo: <em>\"O Aedes aegypti, <strong>que possui hábitos diurnos</strong>, transmite a dengue\"</em> (todos têm hábito diurno).</td></tr>\n</tbody></table></div>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Quadro Completo de Classificação das Orações Subordinadas (Substantivas, Adjetivas e Adverbiais) e Casos Especiais de Concordância na IBGP</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Grupo de Oração Subordinada</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Como Identificar em 5 Segundos (Teste da Substituição)</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Subtipos e Diferenças de Sentido</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Orações Subordinadas SUBSTANTIVAS (6 Tipos)</td>\n          <td class=\"p-2\">Introduzidas por <strong>Conjunção Integrante (\"QUE\" ou \"SE\")</strong>. <strong>Macete:</strong> Substitua toda a oração iniciada por QUE/SE pela palavra <strong>\"ISSO\"</strong> (ou <em>\"disso / a isso\"</em>). Se couber perfeitamente, a conjunção é Integrante e a oração é Substantiva!</td>\n          <td class=\"p-2\">1. <strong>Subjetiva</strong> (funciona como sujeito: \"É fundamental <em>que eliminemos os focos</em>\" = <em>Isso</em> é fundamental);<br>2. <strong>Objetiva Direta</strong> (\"O agente informou <em>que coletou as larvas</em>\" = informou <em>isso</em>);<br>3. <strong>Objetiva Indireta</strong> (\"A equipe necessita <em>de que todos colaborem</em>\" = necessita <em>disso</em>);<br>4. <strong>Completiva Nominal</strong> (completa substantivo/adjetivo/advérbio com preposição: \"Temos certeza <em>de que venceremos a dengue</em>\");<br>5. <strong>Predicativa</strong> (após verbo de ligação: \"O objetivo é <em>que nenhum imóvel fique fechado</em>\");<br>6. <strong>Apositiva</strong> (após dois-pontos explicando um nome: \"Só desejamos uma coisa: <em>que a população tenha saúde</em>\").</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Orações Subordinadas ADJETIVAS (Restritiva vs. Explicativa)</td>\n          <td class=\"p-2\">Introduzidas por <strong>Pronome Relativo (\"que, quem, o qual, cujo, onde\")</strong>. <strong>Macete:</strong> Substitua o \"QUE\" por <strong>\"O QUAL / A QUAL / OS QUAIS / AS QUAIS\"</strong>.</td>\n          <td class=\"p-2\">• <strong>Restritiva (SEM vírgulas):</strong> Restringe/limita o sentido a uma parte do conjunto. Ex.: \"Os imóveis <em>que estavam fechados</em> foram revisitados\" (apenas uma parte estava fechada).<br>• <strong>Explicativa (ISOLADA POR VÍRGULAS):</strong> Generaliza a característica para a totalidade do conjunto. Ex.: \"Os imóveis, <em>que estavam fechados</em>, foram revisitados\" (todos os imóveis estavam fechados!). <strong>A retirada das vírgulas MANTÉM a correção gramatical, mas ALTERA o sentido!</strong></td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Verbos Impessoais na Concordância Verbal (HAVER vs. EXISTIR e FAZER)</td>\n          <td class=\"p-2\">• <strong>HAVER</strong> (no sentido de <em>existir, ocorrer, acontecer</em> ou indicando <em>tempo decorrido</em>) e <strong>FAZER</strong> (indicando <em>tempo decorrido ou clima</em>) são <strong>IMPESSOAIS (Oração Sem Sujeito)</strong> e ficam <strong>SEMPRE na 3ª pessoa do SINGULAR</strong> (inclusive seus auxiliares: <em>Deve haver, Pode haver, Vai fazer</em>).<br>• Já os verbos <strong>EXISTIR, OCORRER e ACONTECER</strong> são <strong>PESSOAIS</strong> e concordam no singular ou no plural com seu sujeito!</td>\n          <td class=\"p-2\">• Certo: \"<strong>Havia / Deve haver</strong> muitos focos no bairro.\" (Singular!).<br>• Certo: \"<strong>Existiam / Devem existir</strong> muitos focos no bairro.\" (Plural!).<br>• Certo: \"<strong>Faz / Vai fazer</strong> dez anos que trabalho na SEMUSA.\" (Singular!).</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul>\n<li><strong>Oração Substantiva = Troca por ISSO!</strong> Se a oração principal não tem sujeito (ex.: \"É necessário que... / Convém que... / Sabe-se que...\"), a oração é <strong>Subjetiva</strong>!</li>\n<li><strong>Adjetiva SEM vírgula = Restritiva (parte do grupo) | Adjetiva COM vírgula = Explicativa (todo o grupo).</strong></li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Período Composto e Orações Adjetivas — Inédita 2026) Assinale a alternativa que analisa CORRETAMENTE a diferença semântica e sintática entre (I) \"Os imóveis que estavam fechados serão revisitados pelo ACE\" e (II) \"Os imóveis, que estavam fechados, serão revisitados pelo ACE\":",
+          "options": [
+            "A) Não há nenhuma alteração de sentido entre os dois períodos.",
+            "B) Em (I), a ausência de vírgulas caracteriza oração subordinada adjetiva restritiva (indicando que apenas uma parte dos imóveis estava fechada); em (II), o emprego das vírgulas transforma a oração em adjetiva explicativa (pressupondo que a totalidade dos imóveis referidos estava fechada).",
+            "C) Em (II), as vírgulas separam o sujeito do verbo principal, constituindo erro gramatical.",
+            "D) Ambas as orações destacadas são subordinadas substantivas subjetivas."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Esta é uma das questões mais cobradas pela IBGP: a retirada ou inserção de vírgulas em orações adjetivas mantém a correção gramatical, mas altera o sentido (sem vírgula = restritiva/parte; com vírgula = explicativa/totalidade)."
+        },
+        {
+          "q": "(Questão de estudo — Concordância Verbal de Verbos Impessoais — Inédita 2026) Assinale a alternativa em que a concordância verbal respeita integralmente a norma-padrão da Língua Portuguesa:",
+          "options": [
+            "A) Haviam muitos focos de mosquitos no terreno baldio.",
+            "B) Fazem cinco anos que o último inquérito entomológico foi realizado.",
+            "C) Devem haver novas campanhas de vacinação no próximo semestre.",
+            "D) Havia dezenas de tambores destampados no quintal, mas já faz dois meses que foram eliminados."
+          ],
+          "ans": 3,
+          "comment": "Gabarito: D. O verbo \"haver\" no sentido de existir/ocorrer e o verbo \"fazer\" indicando tempo decorrido são impessoais (oração sem sujeito) e permanecem obrigatoriamente na 3ª pessoa do singular (inclusive transmitindo sua impessoalidade ao verbo auxiliar: \"Deve haver\")."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença de sentido entre uma Oração Subordinada Adjetiva Restritiva (sem vírgula) e uma Explicativa (com vírgulas)?",
+          "front": "Qual a diferença de sentido entre uma Oração Subordinada Adjetiva Restritiva (sem vírgula) e uma Explicativa (com vírgulas)?",
+          "b": "A Restritiva (sem vírgula) limita o sentido a apenas uma PARTE do conjunto; a Explicativa (com vírgulas) generaliza uma informação sobre TODO o conjunto.",
+          "back": "A Restritiva (sem vírgula) limita o sentido a apenas uma PARTE do conjunto; a Explicativa (com vírgulas) generaliza uma informação sobre TODO o conjunto.",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        },
+        {
+          "f": "Como classificar a oração destacada em \"É indispensável [que o ACE utilize os EPIs]\"?",
+          "front": "Como classificar a oração destacada em \"É indispensável [que o ACE utilize os EPIs]\"?",
+          "b": "Oração Subordinada Substantiva SUBJETIVA (equivale a \"ISSO é indispensável\" e exerce a função de sujeito da oração principal).",
+          "back": "Oração Subordinada Substantiva SUBJETIVA (equivale a \"ISSO é indispensável\" e exerce a função de sujeito da oração principal).",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        },
+        {
+          "f": "Por que a frase \"Devem haver muitos candidatos inscritos\" está incorreta?",
+          "front": "Por que a frase \"Devem haver muitos candidatos inscritos\" está incorreta?",
+          "b": "Porque o verbo \"haver\" (no sentido de existir) é impessoal e transmite sua impessoalidade ao verbo auxiliar da locução; o correto é \"DEVE haver muitos candidatos inscritos\".",
+          "back": "Porque o verbo \"haver\" (no sentido de existir) é impessoal e transmite sua impessoalidade ao verbo auxiliar da locução; o correto é \"DEVE haver muitos candidatos inscritos\".",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 14.3 — Termos da Oração (Complemento Nominal vs. Adjunto Adnominal) e Período Composto por Coordenação e Subordinação",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 14: Estrutura da oração e do período: aspectos sintáticos e semânticos)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 14 de Língua Portuguesa — Sintaxe da Oração e do Período</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Análise Sintática Completa: Termos da Oração e Classificação das Orações Coordenadas e Subordinadas</h4>\n  </div>\n  <div class=\"grid grid-cols-1 md:grid-cols-2 gap-3 text-xs\">\n    <div class=\"p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5\">\n      <div class=\"font-extrabold text-slate-900\">1. Adjunto Adnominal (AA) vs. Complemento Nominal (CN)</div>\n      <p class=\"text-slate-700\">Quando um termo preposicionado com <strong>DE</strong> acompanha um <strong>substantivo abstrato</strong>:<br>• <strong>Adjunto Adnominal (Agente / Posse):</strong> pratica a ação (<em>\"A vistoria <strong>do agente</strong> foi rápida\"</em> $\\rightarrow$ o agente vistoriou = AA).<br>• <strong>Complemento Nominal (Paciente / Alvo):</strong> sofre a ação ou completa adjetivo/advérbio (<em>\"A vistoria <strong>do imóvel</strong> foi rápida\"</em> $\\rightarrow$ o imóvel foi vistoriado = CN).</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-indigo-50 border border-indigo-200 space-y-1.5\">\n      <div class=\"font-extrabold text-indigo-950\">2. Orações Subordinadas Adjetivas: Restritiva vs. Explicativa</div>\n      <p class=\"text-slate-700\">Introduzidas por pronome relativo (<em>que = o qual</em>):<br>• <strong>Restritiva (SEM vírgulas):</strong> limita/restringe o sentido a uma parte do grupo (<em>\"Os moradores <strong>que limpam o quintal</strong> evitam a dengue\"</em> $\\rightarrow$ apenas os que limpam).<br>• <strong>Explicativa (COM vírgulas):</strong> generaliza uma característica própria de todo o conjunto (<em>\"O homem, <strong>que é mortal</strong>, precisa cuidar da saúde\"</em>).</p>\n    </div>\n  </div>\n</div><!-- AUDITORIA:POR14 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Termos da Oração (Sujeito, Predicado, Complementos e Acessórios) e Orações Reduzidas</h4><p>1. <strong>Classificação Completa do Sujeito</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Simples</strong>: um único núcleo (<em>\"A <strong>equipe</strong> chegou\"</em>).</li><li><strong>Composto</strong>: dois ou mais núcleos (<em>\"O <strong>supervisor</strong> e a <strong>agente</strong> chegaram\"</em>).</li><li><strong>Desinencial (Oculto / Elíptico)</strong>: não expresso na oração, mas determinado pela desinência verbal ou pelo contexto imediato (<em>\"<strong>Inspecionamos</strong> os quarteirões\"</em> → sujeito <em>nós</em>).</li><li><strong>Indeterminado</strong>: (a) verbo na 3ª pessoa do plural sem referente anterior (<em>\"<strong>Bateram</strong> à porta\"</em>); ou (b) verbo na 3ª pessoa do singular (VI, VTI ou VL) + índice de indeterminação do sujeito <strong>se</strong> (<em>\"<strong>Precisa-se</strong> de voluntários\"</em>).</li><li><strong>Oração sem Sujeito (Verbo Impessoal)</strong>: <em>haver</em> no sentido de existir/ocorrer, <em>fazer/haver</em> indicando tempo decorrido e verbos de fenômenos meteorológicos em sentido literal (<em>\"<strong>Havia</strong> muitos processos\"</em>, <em>\"<strong>Choveu</strong> ontem\"</em>).</li></ul><p>2. <strong>Os 3 Tipos de Predicado</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Predicado Verbal</strong>: núcleo é um verbo significativo (VTD, VTI, VTDI ou VI), sem predicativo (<em>\"O agente <strong>vistoriou</strong> o imóvel\"</em>).</li><li><strong>Predicado Nominal</strong>: verbo de ligação (<em>ser, estar, permanecer, ficar, continuar, parecer, tornar-se</em>) + <strong>predicativo do sujeito</strong> como núcleo (<em>\"O imóvel <strong>permaneceu limpo</strong>\"</em>).</li><li><strong>Predicado Verbo-Nominal</strong>: possui dois núcleos — um verbo significativo (ação/processo) + um predicativo (do sujeito ou do objeto): <em>\"Os agentes <strong>retornaram cansados</strong>\"</em> (verbo intransitivo <em>retornaram</em> + predicativo do sujeito <em>cansados</em>); <em>\"A comissão <strong>julgou procedente</strong> o recurso\"</em> (VTD <em>julgou</em> + predicativo do objeto <em>procedente</em>).</li></ul><p>3. <strong>Aposto vs. Vocativo</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Aposto</strong>: termo nominal que explica, especifica, resume ou enumera outro nome (<em>\"Porto Velho, <strong>capital de Rondônia</strong>, possui área territorial extensa\"</em>; <em>\"A meta da semana — <strong>visitar cem imóveis</strong> — foi cumprida\"</em>: aposto oracional).</li><li><strong>Vocativo</strong>: termo independente que interpela/chama o interlocutor, sempre isolado por pontuação (<em>\"<strong>Moradores</strong>, mantenham os reservatórios vedados\"</em>).</li></ul><p>4. <strong>Orações Subordinadas Reduzidas (Infinitivo, Gerúndio e Particípio)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Não são introduzidas por conjunção/pronome relativo e apresentam o verbo numa das formas nominais. Para classificá-las, desenvolva-as com conectivo: <em>\"É fundamental <strong>conferir os dados</strong>\"</em> (= <em>que se confiram os dados</em> → Subordinada Substantiva Subjetiva Reduzida de Infinitivo); <em>\"Terminada a reunião, saíram\"</em> (= <em>Quando terminou a reunião</em> → Subordinada Adverbial Temporal Reduzida de Particípio).</li></ul></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>AA vs. CN (Substantivo Abstrato):</strong> Agente = <strong>Adjunto Adnominal</strong>; Paciente = <strong>Complemento Nominal</strong>. Se ligar a adjetivo ou advérbio, é SEMPRE <strong>Complemento Nominal</strong>!</li>\n  <li><strong>Adjetiva sem vírgula = Restritiva</strong> (parte); <strong>Adjetiva com vírgula = Explicativa</strong> (todo).</li>\n</ul><!-- AUDITORIA:POR14 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Predicado verbal (núcleo: verbo significativo), nominal (VL + predicativo do sujeito) e verbo-nominal (verbo significativo + predicativo).</li><li>Orações reduzidas (infinitivo, gerúndio, particípio): desenvolver com conectivo para identificar a função substantiva, adjetiva ou adverbial.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Aspectos Sintáticos e Semânticos do Período) Compare os dois períodos abaixo:\nI. \"Os reservatórios que estavam destampados receberam tratamento larvicida.\"\nII. \"Os reservatórios, que estavam destampados, receberam tratamento larvicida.\"\nSobre o efeito sintático e semântico da pontuação nesses períodos, é CORRETO afirmar que:",
+          "options": [
+            "Em I e II o sentido é exatamente idêntico, sendo o uso das vírgulas meramente estilístico.",
+            "Em I, a oração adjetiva restritiva indica que apenas uma parte dos reservatórios (os que estavam destampados) recebeu tratamento; em II, a oração adjetiva explicativa indica que todos os reservatórios estavam destampados e todos receberam tratamento.",
+            "Em I há erro gramatical por ausência de vírgulas obrigatórias antes do pronome relativo.",
+            "Em II a oração destacada entre vírgulas classifica-se como subordinada substantiva objetiva direta."
+          ],
+          "ans": 1,
+          "comment": "A retirada ou colocação de vírgulas em orações subordinadas adjetivas altera a classificação sintática (de restritiva para explicativa) e muda o sentido semântico do período (de subconjunto restrito para totalidade)."
+        },
+        {
+          "auditId": "por_14-autoral-1",
+          "q": "(Autoral — Tipos de Predicado e Função do Predicativo) Compare os períodos: I. \"Os servidores permaneciam atentos durante a instrução.\" / II. \"Os servidores concluíram atentos a vistoria do setor.\" / III. \"A comissão considerou válido o formulário.\" Os predicados de I, II e III classificam-se, respectivamente, como:",
+          "options": [
+            "nominal (com predicativo do sujeito), verbo-nominal (com predicativo do sujeito) e verbo-nominal (com predicativo do objeto).",
+            "verbal, nominal e verbal.",
+            "verbo-nominal, verbal e nominal.",
+            "nominal nos três períodos, pois todos contêm adjetivos."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, \"permaneciam\" é verbo de ligação e \"atentos\" é predicativo do sujeito (predicado nominal). Em II, \"concluíram\" é verbo significativo (VTD) e \"atentos\" caracteriza o sujeito no momento da ação (predicado verbo-nominal com predicativo do sujeito). Em III, \"considerou\" é VTD e \"válido\" é predicativo do objeto \"o formulário\" (predicado verbo-nominal)."
+        },
+        {
+          "auditId": "por_14-autoral-2",
+          "q": "(Autoral — Orações Reduzidas e Complemento Nominal vs. Adjunto Adnominal) No período \"Concluída a leitura do relatório pelo supervisor, ficou evidente a necessidade de revisão dos anexos\", assinale a análise sintática correta:",
+          "options": [
+            "\"Concluída a leitura...\" é oração subordinada adverbial temporal reduzida de particípio; \"do relatório\" e \"de revisão\" são complementos nominais.",
+            "\"Concluída a leitura...\" é oração coordenada sindética conclusiva; \"do relatório\" é sujeito paciente.",
+            "\"de revisão\" é adjunto adnominal restritivo, pois \"necessidade\" é verbo transitivo indireto.",
+            "\"pelo supervisor\" é vocativo isolado por vírgula."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Concluída a leitura...\" equivale a \"Quando foi concluída a leitura...\" (adverbial temporal reduzida de particípio). Tanto \"do relatório\" (alvo da leitura) quanto \"de revisão\" (complemento exigido pelo substantivo abstrato \"necessidade\") exercem função de complemento nominal."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Como diferenciar Adjunto Adnominal de Complemento Nominal diante de um substantivo abstrato?",
+          "b": "Se o termo preposicionado pratica a ação (sentido ativo/agente), é Adjunto Adnominal; se sofre a ação (sentido passivo/paciente), é Complemento Nominal.",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        },
+        {
+          "f": "Qual a diferença semântica entre Oração Adjetiva Restritiva (sem vírgula) e Explicativa (com vírgula)?",
+          "b": "A Restritiva particulariza/restringe um subgrupo; a Explicativa generaliza uma informação válida para todos os elementos do termo antecedente.",
+          "lessonTitle": "14. Estrutura da oração e do período: aspectos sintáticos e semânticos"
+        }
+      ],
+      "modoA_markdown": "\n### Termos da Oração (Sujeito, Predicado, Complementos e Acessórios) e Orações Reduzidas\n1. **Classificação Completa do Sujeito**:\n   - **Simples**: um único núcleo (*\"A **equipe** chegou\"*).\n   - **Composto**: dois ou mais núcleos (*\"O **supervisor** e a **agente** chegaram\"*).\n   - **Desinencial (Oculto / Elíptico)**: não expresso na oração, mas determinado pela desinência verbal ou pelo contexto imediato (*\"**Inspecionamos** os quarteirões\"* → sujeito *nós*).\n   - **Indeterminado**: (a) verbo na 3ª pessoa do plural sem referente anterior (*\"**Bateram** à porta\"*); ou (b) verbo na 3ª pessoa do singular (VI, VTI ou VL) + índice de indeterminação do sujeito **se** (*\"**Precisa-se** de voluntários\"*).\n   - **Oração sem Sujeito (Verbo Impessoal)**: *haver* no sentido de existir/ocorrer, *fazer/haver* indicando tempo decorrido e verbos de fenômenos meteorológicos em sentido literal (*\"**Havia** muitos processos\"*, *\"**Choveu** ontem\"*).\n2. **Os 3 Tipos de Predicado**:\n   - **Predicado Verbal**: núcleo é um verbo significativo (VTD, VTI, VTDI ou VI), sem predicativo (*\"O agente **vistoriou** o imóvel\"*).\n   - **Predicado Nominal**: verbo de ligação (*ser, estar, permanecer, ficar, continuar, parecer, tornar-se*) + **predicativo do sujeito** como núcleo (*\"O imóvel **permaneceu limpo**\"*).\n   - **Predicado Verbo-Nominal**: possui dois núcleos — um verbo significativo (ação/processo) + um predicativo (do sujeito ou do objeto): *\"Os agentes **retornaram cansados**\"* (verbo intransitivo *retornaram* + predicativo do sujeito *cansados*); *\"A comissão **julgou procedente** o recurso\"* (VTD *julgou* + predicativo do objeto *procedente*).\n3. **Aposto vs. Vocativo**:\n   - **Aposto**: termo nominal que explica, especifica, resume ou enumera outro nome (*\"Porto Velho, **capital de Rondônia**, possui área territorial extensa\"*; *\"A meta da semana — **visitar cem imóveis** — foi cumprida\"*: aposto oracional).\n   - **Vocativo**: termo independente que interpela/chama o interlocutor, sempre isolado por pontuação (*\"**Moradores**, mantenham os reservatórios vedados\"*).\n4. **Orações Subordinadas Reduzidas (Infinitivo, Gerúndio e Particípio)**:\n   - Não são introduzidas por conjunção/pronome relativo e apresentam o verbo numa das formas nominais. Para classificá-las, desenvolva-as com conectivo: *\"É fundamental **conferir os dados**\"* (= *que se confiram os dados* → Subordinada Substantiva Subjetiva Reduzida de Infinitivo); *\"Terminada a reunião, saíram\"* (= *Quando terminou a reunião* → Subordinada Adverbial Temporal Reduzida de Particípio).<!-- AUDITORIA:POR14 -->\n\n### Termos da Oração (Sujeito, Predicado, Complementos e Acessórios) e Orações Reduzidas\n1. **Classificação Completa do Sujeito**:\n   - **Simples**: um único núcleo (*\"A **equipe** chegou\"*).\n   - **Composto**: dois ou mais núcleos (*\"O **supervisor** e a **agente** chegaram\"*).\n   - **Desinencial (Oculto / Elíptico)**: não expresso na oração, mas determinado pela desinência verbal ou pelo contexto imediato (*\"**Inspecionamos** os quarteirões\"* → sujeito *nós*).\n   - **Indeterminado**: (a) verbo na 3ª pessoa do plural sem referente anterior (*\"**Bateram** à porta\"*); ou (b) verbo na 3ª pessoa do singular (VI, VTI ou VL) + índice de indeterminação do sujeito **se** (*\"**Precisa-se** de voluntários\"*).\n   - **Oração sem Sujeito (Verbo Impessoal)**: *haver* no sentido de existir/ocorrer, *fazer/haver* indicando tempo decorrido e verbos de fenômenos meteorológicos em sentido literal (*\"**Havia** muitos processos\"*, *\"**Choveu** ontem\"*).\n2. **Os 3 Tipos de Predicado**:\n   - **Predicado Verbal**: núcleo é um verbo significativo (VTD, VTI, VTDI ou VI), sem predicativo (*\"O agente **vistoriou** o imóvel\"*).\n   - **Predicado Nominal**: verbo de ligação (*ser, estar, permanecer, ficar, continuar, parecer, tornar-se*) + **predicativo do sujeito** como núcleo (*\"O imóvel **permaneceu limpo**\"*).\n   - **Predicado Verbo-Nominal**: possui dois núcleos — um verbo significativo (ação/processo) + um predicativo (do sujeito ou do objeto): *\"Os agentes **retornaram cansados**\"* (verbo intransitivo *retornaram* + predicativo do sujeito *cansados*); *\"A comissão **julgou procedente** o recurso\"* (VTD *julgou* + predicativo do objeto *procedente*).\n3. **Aposto vs. Vocativo**:\n   - **Aposto**: termo nominal que explica, especifica, resume ou enumera outro nome (*\"Porto Velho, **capital de Rondônia**, possui área territorial extensa\"*; *\"A meta da semana — **visitar cem imóveis** — foi cumprida\"*: aposto oracional).\n   - **Vocativo**: termo independente que interpela/chama o interlocutor, sempre isolado por pontuação (*\"**Moradores**, mantenham os reservatórios vedados\"*).\n4. **Orações Subordinadas Reduzidas (Infinitivo, Gerúndio e Particípio)**:\n   - Não são introduzidas por conjunção/pronome relativo e apresentam o verbo numa das formas nominais. Para classificá-las, desenvolva-as com conectivo: *\"É fundamental **conferir os dados**\"* (= *que se confiram os dados* → Subordinada Substantiva Subjetiva Reduzida de Infinitivo); *\"Terminada a reunião, saíram\"* (= *Quando terminou a reunião* → Subordinada Adverbial Temporal Reduzida de Particípio)."
+    }
+  ],
+  "questionsCount": 7,
+  "flashcardsCount": 8,
+  "sources": [
+    95,
+    96,
+    97,
+    110,
+    112
+  ]
+}

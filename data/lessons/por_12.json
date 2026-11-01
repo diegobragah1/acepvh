@@ -1,0 +1,217 @@
+{
+  "id": "por_12",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "12. Crase",
+  "editalRef": "Item 12 de Língua Portuguesa — Crase.",
+  "mindMap": {
+    "centralTitle": "12. Emprego do Sinal Indicativo de Crase",
+    "centralSubtitle": "Item 12 de Língua Portuguesa — Casos Proibidos, Facultativos e Obrigatórios",
+    "branches": [
+      {
+        "title": "1. Regra Geral e Testes",
+        "icon": "🎯",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Fusão a + a = à",
+            "detail": "Preposição a + Artigo feminino a (ou aquele/aquela/aquilo)"
+          },
+          {
+            "label": "Teste do Masculino",
+            "detail": "Se no masculino vira AO(S), no feminino tem crase À(S)"
+          }
+        ]
+      },
+      {
+        "title": "2. Casos Proibidos",
+        "icon": "🚫",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Masculino e Verbo",
+            "detail": "A pé, a prazo, a partir de, começou a falar"
+          },
+          {
+            "label": "Pronomes e Plural sem S",
+            "detail": "A ela, a toda, a qualquer, gota a gota, a situações"
+          }
+        ]
+      },
+      {
+        "title": "3. Situações de Uso Facultativo",
+        "icon": "⚖️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Preposição ATÉ",
+            "detail": "Fui até a / até à unidade"
+          },
+          {
+            "label": "Nome Próprio e Possessivo",
+            "detail": "Entreguei a/à Ana; Refiro-me a/à minha equipe"
+          }
+        ]
+      },
+      {
+        "title": "4. Casos Obrigatórios",
+        "icon": "✅",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Locuções Femininas e Horas",
+            "detail": "Às vezes, à noite, à medida que, às 14h45"
+          },
+          {
+            "label": "Casa, Terra e Distância",
+            "detail": "Casa e terra dependem do sentido e da presença de artigo. Distância determinada: à distância de; sem medida, há variação entre manuais, inclusive admissão de à distância por clareza."
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 12.1 — Mapa Definitivo da Crase: Regra Geral, os 10 Casos Proibidos, os 3 Casos Facultativos e os Casos Obrigatórios",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 12: Crase)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 12 de Língua Portuguesa — Emprego da Crase</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Crase: fundamentos, condições de uso e casos especiais</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Crase é a fusão da preposição <strong>a</strong> com o artigo feminino <strong>a(s)</strong> (ou com o <em>a</em> inicial de <em>aquele/aquela/aquilo</em>). <strong>Teste prático, quando houver equivalente adequado:</strong> Troque a palavra feminina por uma <strong>masculina equivalente</strong>; se no masculino aparecer <strong>AO(S)</strong>, há crase no feminino!</p>\n  </div>\n  <div class=\"grid grid-cols-1 md:grid-cols-3 gap-3 text-xs\">\n    <div class=\"p-3.5 rounded-xl bg-rose-50 border border-rose-200 space-y-1.5\">\n      <div class=\"font-extrabold text-rose-950\">🚫 1. Casos PROIBIDOS (Nunca use!)</div>\n      <p class=\"text-slate-700\">1) Antes de palavra <strong>masculina</strong> (<em>a pé, a cavalo, a prazo</em>).<br>2) Antes de <strong>verbo</strong> no infinitivo (<em>a partir de, começou a chover</em>).<br>3) Antes de <strong>artigo indefinido</strong> (<em>a uma pessoa</em>; não confunda com <em>à uma hora da tarde</em>, indicação de hora precisa).<br>4) Antes de pronomes que não admitem artigo, como os pessoais e a maioria dos de tratamento e indefinidos (<em>a ela, a Vossa Senhoria, a toda gente, a qualquer</em>).<br>5) Entre palavras repetidas (<em>gota a gota, frente a frente, dia a dia</em>).<br>6) <strong>\"A\" no singular + palavra no plural:</strong> crase nem a pau! (<em>Refiro-me a situações graves</em>).</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-amber-50 border border-amber-200 space-y-1.5\">\n      <div class=\"font-extrabold text-amber-950\">⚖️ 2. Três situações frequentes de uso facultativo</div>\n      <p class=\"text-slate-700\"><strong>Mnemônico: \"ATÉ MARIA SUA amiga\"</strong><br>1) Depois da preposição <strong>ATÉ</strong> + palavra feminina (<em>Fui até a / até à secretaria</em>).<br>2) Antes de <strong>nome próprio feminino</strong> no singular (<em>Entreguei a / à Maria</em>).<br>3) Antes de <strong>pronome possessivo adjetivo feminino</strong> no singular (<em>Refiro-me a sua / à sua equipe</em> — no plural, distinguem-se <em>a suas equipes</em>, sem artigo, e <em>às suas equipes</em>, com artigo. A forma <em>as suas equipes</em> não atende à regência de <em>referir-se a</em>).</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 space-y-1.5\">\n      <div class=\"font-extrabold text-emerald-950\">✅ 3. Casos OBRIGATÓRIOS</div>\n      <p class=\"text-slate-700\">1) <strong>Locuções adverbiais, prepositivas e conjuntivas femininas:</strong> <em>às vezes, à noite, à tarde, à vista, às pressas, à medida que, à proporção que, à espera de</em>.<br>2) <strong>Horas determinadas:</strong> <em>A prova começará às 14h45</em> (exceto após <em>para, desde, após, entre</em>).<br>3) Expressão <strong>\"à moda de\"</strong> subentendida (mesmo diante de masculino: <em>bife à milanesa, gol à Pelé</em>).</p>\n    </div>\n  </div>\n</div><h4>Hora precisa, intervalo e duração</h4><p>Compare: “A reunião começa à uma hora da tarde” (hora precisa); “A reunião começa daqui a uma hora” (intervalo futuro); “A reunião começou há uma hora” (tempo decorrido); “Voltarei a uma hora qualquer” (horário indeterminado). A palavra uma pode ser numeral ou artigo indefinido: a decisão depende da construção.</p>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Teste do Masculino:</strong> <em>Vou à unidade $\\rightarrow$ Vou <strong>ao</strong> posto</em> (tem crase!).</li>\n  <li><strong>Teste do \"Vou a, volto DA\":</strong> <em>Vou a Porto Velho, volto <strong>DE</strong> Porto Velho</em> (crase pra quê?); <em>Vou à Bahia, volto <strong>DA</strong> Bahia</em> (crase há!).</li>\n  <li><strong>Singular antes de Plural:</strong> <em>\"a\" + plural = PROIBIDO crase</em>; <em>\"às\" + plural = OBRIGATÓRIO crase</em>.</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Emprego do Sinal Indicativo de Crase) Assinale a alternativa em que o emprego do acento grave indicativo de crase é OBRIGATÓRIO em todas as ocorrências:",
+          "options": [
+            "O agente dirigiu-se àquela residência às nove horas da manhã, à procura de possíveis criadouros.",
+            "A orientação foi repassada gota à gota à toda a população a partir de segunda-feira.",
+            "Entregamos o boletim à coordenadora e retornamos à Porto Velho à pé.",
+            "O curso refere-se à medidas preventivas aplicadas à qualquer imóvel urbano."
+          ],
+          "ans": 0,
+          "comment": "Em A: \"dirigiu-se àquela\" (preposição a + pronome demonstrativo aquela), \"às nove horas\" (locução adverbial de hora exata) e \"à procura de\" (locução prepositiva de base feminina). Em B, C e D há casos proibidos (gota a gota, a toda, a Porto Velho, a pé, a medidas, a qualquer)."
+        },
+        {
+          "auditId": "crase-hora",
+          "q": "(Autoral) Qual frase usa o acento grave adequadamente?",
+          "options": [
+            "Voltarei daqui à uma hora.",
+            "A reunião começou à uma hora da tarde.",
+            "A reunião começou a uma hora, isto é, sessenta minutos atrás.",
+            "O prazo terminará há uma hora, contando de agora."
+          ],
+          "ans": 1,
+          "comment": "B indica uma hora precisa. A marca intervalo futuro e exige a; C marca tempo decorrido e exige há; D também confunde tempo futuro com decorrido."
+        },
+        {
+          "auditId": "crase-distancia",
+          "q": "(Autoral) Qual análise respeita a variação de orientação sobre distância?",
+          "options": [
+            "O acento é sempre proibido sem número.",
+            "A presença de distância sempre torna o acento obrigatório.",
+            "À distância de cinquenta metros é construção com especificador; sem medida, é preciso observar o contexto e a orientação do manual adotado.",
+            "Toda ocorrência de distância é uma locução adverbial."
+          ],
+          "ans": 2,
+          "comment": "C distingue a construção determinada e a variação registrada. A ignora orientações que admitem o acento por clareza; B ignora funções sintáticas diferentes; D é falsa em frases como “medimos a distância”, com objeto direto."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quais são três situações frequentes de uso facultativo do acento grave?",
+          "b": "1) Após até, quando se admite também a preposição a e o termo feminino admite artigo: até a/à escola. 2) Antes de nome feminino quando o contexto admite artigo facultativo: a/à Maria. 3) Antes de possessivo feminino adjetivo com artigo facultativo: a/à minha equipe. No plural, a minhas equipes/às minhas equipes; não se alternam as/às mantendo a mesma regência. A facultatividade depende da construção, não apenas da presença dessas palavras.",
+          "lessonTitle": "12. Crase"
+        },
+        {
+          "f": "Por que não há crase em \"O agente orientou a respeito de visitas a residências fechadas\"?",
+          "b": "Porque \"respeito\" é palavra masculina e em \"a residências\" o \"a\" está no singular diante de palavra no plural (sem artigo definido).",
+          "lessonTitle": "12. Crase"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 12.2 — Casos Especiais de Crase (Até, Casa, Terra, Distância e Paralelismo) e Uso de Ponto e Vírgula / Travessão na IBGP",
+      "modoA": "<h4>4.1 Os 5 Casos Especiais de Crase que Decidem a Prova IBGP</h4>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Palavra / Caso</th><th class=\"p-2 border\">SEM Crase</th><th class=\"p-2 border\">COM Crase Obrigatória</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">CASA (no sentido de lar)</td><td class=\"p-2 border\">Sem especificador: <em>\"O agente voltou <strong>a casa</strong> cedo.\"</em></td><td class=\"p-2 border\">Com especificador/determinante: <em>\"O agente voltou <strong>à casa dos pais</strong>.\"</em></td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">TERRA (oposto de bordo)</td><td class=\"p-2 border\">Sem especificador: <em>\"Os barqueiros do Madeira voltaram <strong>a terra</strong>.\"</em></td><td class=\"p-2 border\">Com especificador: <em>\"Voltaram <strong>à terra natal</strong>.\"</em></td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">DISTÂNCIA</td><td class=\"p-2 border\">Uso sem especificador: <em>\"ensino a distância\"</em>. Há variação entre manuais: o Senado admite <em>à distância</em> por clareza, mesmo sem medida.</td><td class=\"p-2 border\">Determinada (com número/medida): <em>\"Estava <strong>à distância de 50 metros</strong>.\"</em></td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Paralelismo Preposicional (De ... a / Da ... à)</td><td class=\"p-2 border\">Sem artigo no 1º termo: <em>\"De segunda <strong>a</strong> sexta\"</em> / <em>\"Das 8h <strong>a</strong>s 12h\"</em> (errado! veja ao lado).</td><td class=\"p-2 border\">Com artigo no 1º termo: <em>\"<strong>Da</strong> segunda <strong>à</strong> sexta-feira\"</em> / <em>\"<strong>Das</strong> 14h45 <strong>às</strong> 17h45.\"</em></td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Locuções Femininas de Instrumento (\"à máquina\", \"à mão\")</td><td class=\"p-2 border\">Locuções masculinas nunca têm crase (<em>a vapor, a prazo, a pé, a lápis</em>).</td><td class=\"p-2 border\">Locuções adverbiais, prepositivas e conjuntivas femininas recebem crase: <em><strong>às</strong> pressas, <strong>à</strong> noite, <strong>à</strong> medida que, <strong>à</strong> proporção que</em>.</td></tr>\n</tbody></table></div>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Tabela de Regência dos Verbos Selecionados, Casos Especiais de Crase e Regras de Ouro da Vírgula</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Verbo</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Transitividade e Regência conforme o Sentido na Norma Culta</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Aceita \"LHE\" como complemento?</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">1. ASSISTIR</td>\n          <td class=\"p-2\">• Sentido de <strong>VER / PRESENCIAR</strong>: <strong>VTI (rege preposição \"A\")</strong> → \"Assistimos <strong>ao</strong> treinamento da SEMUSA / Assistimos <strong>a ele</strong>.\"<br>• Sentido de <strong>SOCORRER / AJUDAR / PRESTAR ASSISTÊNCIA</strong>: <strong>VTD (sem preposição)</strong> → \"O médico assistiu <strong>o</strong> paciente / assistiu-<strong>o</strong>.\"<br>• Sentido de <strong>CABER / PERTENCER DIREITO</strong>: <strong>VTI (rege \"A\")</strong> → \"Esse direito assiste <strong>ao</strong> servidor / assiste-<strong>lhe</strong>.\"</td>\n          <td class=\"p-2\">No sentido de VER, <strong>NÃO aceita \"lhe\"</strong> (usa-se <em>a ele / a ela</em>). Só aceita <em>\"lhe\"</em> no sentido de caber direito (\"Assiste-lhe razão\").</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">2. ASPIRAR</td>\n          <td class=\"p-2\">• Sentido de <strong>INALAR / CHEIRAR / SUGGAR</strong>: <strong>VTD</strong> → \"O agente não deve aspirar <strong>o</strong> vapor do inseticida.\"<br>• Sentido de <strong>DESEJAR / ALMEJAR CARGO</strong>: <strong>VTI (rege preposição \"A\")</strong> → \"Todos aspiram <strong>à</strong> vaga de ACE em Porto Velho / aspiram <strong>a ela</strong>.\"</td>\n          <td class=\"p-2\">No sentido de desejar, <strong>NÃO aceita \"lhe\"</strong> (obrigatoriamente <em>aspirar a ele / a ela</em>).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">3. VISAR</td>\n          <td class=\"p-2\">• Sentido de <strong>MIRAR (alvo) ou DAR VISTO / RUBRICAR</strong>: <strong>VTD</strong> → \"O supervisor visou <strong>o</strong> boletim FAD-01.\"<br>• Sentido de <strong>TER POR OBJETIVO / PRETENDER</strong>: <strong>VTI (rege preposição \"A\")</strong> → \"A campanha visa <strong>à</strong> eliminação do vetor / visa <strong>a</strong> proteger a população.\"</td>\n          <td class=\"p-2\">No sentido de objetivar, <strong>NÃO aceita \"lhe\"</strong> (usa-se <em>visar a ele / a ela</em>).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">4. OBEDECER e DESOBEDECER</td>\n          <td class=\"p-2\">Com complemento, na regência normativa, são <strong>VTI (preposição \"A\")</strong>; também podem ocorrer sem complemento expresso. → \"O servidor deve obedecer <strong>às</strong> normas de biossegurança e <strong>ao</strong> estatuto.\"</td>\n          <td class=\"p-2\"><strong>SIM!</strong> (\"Obedeça-lhe\"). Curiosidade: embora sejam VTI, admitem voz passiva (\"As normas foram obedecidas\").</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">5. PREFERIR</td>\n          <td class=\"p-2\"><strong>VTDI:</strong> Quem prefere, <strong>prefere UMA COISA (OD) A OUTRA (OI com preposição \"A\")</strong>.<br>• É <strong>PROIBIDO</strong> usar <em>\"prefiro mais / antes ... do que\"</em>!</td>\n          <td class=\"p-2\">Certo: \"Prefiro o controle mecânico <strong>ao</strong> controle químico\" / \"Prefiro a prevenção <strong>à</strong> doença\".</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">6. IMPLICAR</td>\n          <td class=\"p-2\">No sentido de <strong>ACARRETAR / GERAR CONSEQUÊNCIA</strong>, é <strong>VTD (DIRETO, SEM a preposição \"em\"!)</strong> → \"A falta de posse em 30 dias implica <strong>a</strong> perda da nomeação\" (e NÃO \"implica na perda\").</td>\n          <td class=\"p-2\">Erro conceitual a evitar! No sentido de acarretar, <em>implicar</em> não tem preposição \"em\".</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">7. CHEGAR e IR</td>\n          <td class=\"p-2\">São verbos intransitivos que exigem a <strong>preposição \"A\" (e NUNCA \"em\")</strong> para indicar destino! → \"Chegamos <strong>à</strong> unidade de saúde / Fomos <strong>ao</strong> Distrito de Calama.\"</td>\n          <td class=\"p-2\">Errado: \"Chegamos no posto de saúde\". Certo: \"Chegamos <strong>ao</strong> posto de saúde\".</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">8. ESQUECER e LEMBRAR</td>\n          <td class=\"p-2\">• <strong>Sem pronome oblíquo:</strong> são <strong>VTD (sem preposição)</strong> → \"Esqueci <strong>o</strong> crachá / Lembrei <strong>o</strong> prazo.\"<br>• <strong>Pronominais (esquecer-se / lembrar-se):</strong> são <strong>VTI (exigem preposição \"DE\")</strong> → \"Esqueci-<strong>me do</strong> crachá / Lembrei-<strong>me do</strong> prazo.\"</td>\n          <td class=\"p-2\">Regra da gangorra: <strong>Com pronome, com preposição; sem pronome, sem preposição!</strong></td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div><!-- AUDITORIA:POR12 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Condições Estruturais da Crase: Pronomes Possessivos, Demonstrativos e Paralelismo</h4><p>1. <strong>Pronomes Possessivos Femininos (<em>minha, tua, sua, nossa, vossa</em>)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Possessivo Adjetivo no Singular</strong> (acompanhando substantivo feminino expresso): a crase é <strong>facultativa</strong>, porque o artigo definido antes do possessivo adjetivo é facultativo (<em>\"Refiro-me <strong>a</strong> sua equipe\"</em> = apenas preposição / <em>\"Refiro-me <strong>à</strong> sua equipe\"</em> = preposição + artigo).</li><li><strong>Possessivo Adjetivo no Plural</strong>: se usado <em>\"a suas equipes\"</em> (sem artigo), não há crase; se usado <em>\"às suas equipes\"</em> (com artigo plural <em>\"as\"</em>), a crase é <strong>obrigatória</strong>.</li><li><strong>Possessivo Substantivo</strong> (quando substitui um substantivo já citado, sem nome expresso depois): o artigo é obrigatório, tornando a crase <strong>obrigatória</strong> (<em>\"Não me refiro à equipe do setor norte, mas <strong>à sua</strong>\"</em>).</li></ul><p>2. <strong>Demonstrativos <em>Aquele, Aquela, Aquilo</strong></em>: A crase ocorre pela fusão da preposição <strong>a</strong> com a vogal inicial <strong>a-</strong> do demonstrativo, independentemente do gênero do substantivo que o acompanha (<em>\"Entregou o laudo <strong>àquele</strong> supervisor\"</em>).</p><p>3. <strong>Topônimos e as palavras <em>Casa</em> e <em>Terra</strong></em>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><em>Casa</em> (no sentido de próprio lar/domicílio, sem especificador) e <em>terra</em> (no sentido de solo firme em oposição a bordo) não admitem artigo: <em>\"Voltou <strong>a</strong> casa cedo\"</em>, <em>\"Os tripulantes desceram <strong>a</strong> terra\"</em>. Quando especificadas, recebem artigo e crase: <em>\"Voltou <strong>à</strong> casa dos pais\"</em>, <em>\"Retornou <strong>à</strong> terra natal\"</em>.</li></ul></div>",
+      "modoB": "<ul>\n<li><strong>Casa e Terra:</strong> Só levam crase se vierem <strong>especificadas</strong> (<em>à casa de João, à terra dos meus avós</em>).</li>\n<li><strong>Distância:</strong> Usa-se <em>à distância de 30 metros</em>. Sem especificador, há divergência de orientação: usa-se <em>ensino a distância</em>, mas o Manual do Senado também admite <em>à distância</em> por clareza. Não se deve proibir universalmente o acento por falta de medida.</li>\n<li><strong>Paralelismo:</strong> \"<strong>De</strong> 8h <strong>a</strong> 12h\" (sem crase) vs. \"<strong>Das</strong> 8h <strong>às</strong> 12h\" (com crase obrigatória!).</li>\n<li><strong>Crase Facultativa (3 casos):</strong> 1) Diante de pronome possessivo feminino adjetivo (<em>à/a minha equipe</em>); 2) Diante de nome próprio feminino (<em>à/a Maria</em>); 3) Após a preposição \"até\" + palavra feminina (<em>até à/a porta</em>).</li>\n</ul><!-- AUDITORIA:POR12 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Possessivo adjetivo feminino singular (a/à sua equipe): crase facultativa; possessivo substantivo (à sua): crase obrigatória.</li><li>Diante de plural: \"a normas\" (só preposição, sem crase) vs. \"às normas\" (preposição + artigo, crase obrigatória).</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Emprego do Sinal Indicativo de Crase — Inédita 2026) Assinale a alternativa em que o emprego (ou a ausência) do acento grave indicativo de crase está INTEGRALMENTE de acordo com a norma-padrão:",
+          "options": [
+            "A) O atendimento no posto avançado funcionará de 8h às 17h, de segunda à sexta-feira.",
+            "B) À medida que o período chuvoso avança em Porto Velho, os agentes redobram a atenção às caixas d’água destampadas, realizando vistorias das 8h às 14h.",
+            "C) O supervisor dirigiu-se à Vossa Senhoria para entregar os boletins à lápis.",
+            "D) Os agentes caminharam à pé até a distância de dez metros do igarapé."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. \"À medida que\" (locução conjuntiva feminina = crase obrigatória), \"atenção às caixas d’água\" (regência de atenção a + artigo as) e \"das 8h às 14h\" (paralelismo perfeito). Em A faltou paralelismo (\"de... a\" ou \"da... à\"); em C/D não há crase antes de pronome de tratamento nem antes de palavras masculinas (\"a lápis\", \"a pé\")."
+        },
+        {
+          "q": "(Questão de estudo — Pontuação e Travessões — Inédita 2026) No período \"O controle mecânico de criadouros — método prioritário e sustentável preconizado pelo Ministério da Saúde — deve preceder a aplicação química de larvicidas\", o par de travessões foi empregado para:",
+          "options": [
+            "A) Indicar mudança de interlocutor em discurso direto.",
+            "B) Isolar um termo explicativo (aposto explicativo), podendo ser substituído por um par de vírgulas ou parênteses sem prejuízo à correção gramatical.",
+            "C) Separar o sujeito simples do seu predicado verbal.",
+            "D) Marcar uma citação textual obrigatória em língua estrangeira."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O par de travessões (duplo travessão) isola um aposto explicativo intercalado e equivale gramaticalmente a um par de vírgulas ou parênteses."
+        },
+        {
+          "auditId": "por_12-autoral-1",
+          "q": "(Autoral — Possessivos Adjetivos vs. Substantivos e Plural) Compare: I. \"Dirigiu o pedido ___ sua coordenadora.\" / II. \"Não me refiro à meta do mês passado, mas ___ nossa.\" / III. \"O relatório fez menção ___ diretrizes técnicas.\" O emprego do acento grave é, respectivamente:",
+          "options": [
+            "facultativo em I (a/à), obrigatório em II (à) e proibido em III caso se empregue apenas \"a\" (ou obrigatório caso se empregue \"às\").",
+            "obrigatório nos três casos, independentemente da presença de artigo.",
+            "proibido em I e II por haver pronome possessivo, e facultativo no plural sem \"s\" em III.",
+            "facultativo nos três casos."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, \"sua\" é pronome possessivo adjetivo feminino singular (acompanha \"coordenadora\"), tornando facultativo o artigo e a crase (\"a sua\" ou \"à sua\"); em II, \"nossa\" é pronome possessivo substantivo (retoma \"meta\" elidida), exigindo o artigo (\"à nossa\"); em III, diante de plural, ou se usa apenas a preposição \"a\" sem crase, ou \"às\" com crase obrigatória."
+        },
+        {
+          "auditId": "por_12-autoral-2",
+          "q": "(Autoral — Paralelismo e Uso de \"Casa/Terra\") Assinale a alternativa em que o emprego do sinal indicativo de crase está integralmente correto:",
+          "options": [
+            "O agente retornou a casa após o expediente de segunda a sexta-feira, mas no sábado foi à casa da avó.",
+            "O agente retornou à casa após o expediente de segunda à sexta-feira, mas no sábado foi a casa da avó.",
+            "O atendimento funcionará de 8h às 12h para orientar à todos os moradores.",
+            "A equipe ficou frente à frente com o problema e reportou-o à Vossa Senhoria."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Casa\" sem especificador (próprio lar) não recebe artigo (\"retornou a casa\"); \"de segunda a sexta-feira\" mantém paralelismo sem artigo; e \"à casa da avó\" recebe crase porque \"casa\" está especificada. Em C falta paralelismo (\"das 8h às 12h\" ou \"de 8h a 12h\") e \"todos\" é masculino; em D há palavras repetidas (\"frente a frente\") e pronome de tratamento (\"a Vossa Senhoria\")."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quais são três situações frequentes de uso facultativo do acento grave?",
+          "front": "Quais são três situações frequentes de uso facultativo do acento grave?",
+          "b": "1) Após até, quando se admite também a preposição a e o termo feminino admite artigo: até a/à escola. 2) Antes de nome feminino quando o contexto admite artigo facultativo: a/à Maria. 3) Antes de possessivo feminino adjetivo com artigo facultativo: a/à minha equipe. No plural, a minhas equipes/às minhas equipes; não se alternam as/às mantendo a mesma regência. A facultatividade depende da construção, não apenas da presença dessas palavras.",
+          "back": "1) Após até, quando se admite também a preposição a e o termo feminino admite artigo: até a/à escola. 2) Antes de nome feminino quando o contexto admite artigo facultativo: a/à Maria. 3) Antes de possessivo feminino adjetivo com artigo facultativo: a/à minha equipe. No plural, a minhas equipes/às minhas equipes; não se alternam as/às mantendo a mesma regência. A facultatividade depende da construção, não apenas da presença dessas palavras.",
+          "lessonTitle": "12. Crase"
+        },
+        {
+          "f": "Quando a palavra \"distância\" recebe acento indicativo de crase?",
+          "front": "Quando a palavra \"distância\" recebe acento indicativo de crase?",
+          "b": "Com especificador: \"à distância de 100 metros\". Sem especificador, a orientação depende do contexto e do manual: \"ensino a distância\" é usual, mas o Senado também admite \"à distância\" por clareza. A ausência de medida não proíbe universalmente o acento.",
+          "back": "Com especificador: \"à distância de 100 metros\". Sem especificador, a orientação depende do contexto e do manual: \"ensino a distância\" é usual, mas o Senado também admite \"à distância\" por clareza. A ausência de medida não proíbe universalmente o acento.",
+          "lessonTitle": "12. Crase"
+        },
+        {
+          "f": "Por que \"De segunda à sexta\" está incorreto segundo o paralelismo sintático?",
+          "front": "Por que \"De segunda à sexta\" está incorreto segundo o paralelismo sintático?",
+          "b": "Porque se o primeiro termo não tem artigo (\"De segunda\"), o segundo também não admite artigo (\"a sexta\"). O correto é \"De segunda a sexta\" ou \"Da segunda à sexta\".",
+          "back": "Porque se o primeiro termo não tem artigo (\"De segunda\"), o segundo também não admite artigo (\"a sexta\"). O correto é \"De segunda a sexta\" ou \"Da segunda à sexta\".",
+          "lessonTitle": "12. Crase"
+        }
+      ],
+      "modoA_markdown": "\n### Condições Estruturais da Crase: Pronomes Possessivos, Demonstrativos e Paralelismo\n1. **Pronomes Possessivos Femininos (*minha, tua, sua, nossa, vossa*)**:\n   - **Possessivo Adjetivo no Singular** (acompanhando substantivo feminino expresso): a crase é **facultativa**, porque o artigo definido antes do possessivo adjetivo é facultativo (*\"Refiro-me **a** sua equipe\"* = apenas preposição / *\"Refiro-me **à** sua equipe\"* = preposição + artigo).\n   - **Possessivo Adjetivo no Plural**: se usado *\"a suas equipes\"* (sem artigo), não há crase; se usado *\"às suas equipes\"* (com artigo plural *\"as\"*), a crase é **obrigatória**.\n   - **Possessivo Substantivo** (quando substitui um substantivo já citado, sem nome expresso depois): o artigo é obrigatório, tornando a crase **obrigatória** (*\"Não me refiro à equipe do setor norte, mas **à sua**\"*).\n2. **Demonstrativos *Aquele, Aquela, Aquilo***: A crase ocorre pela fusão da preposição **a** com a vogal inicial **a-** do demonstrativo, independentemente do gênero do substantivo que o acompanha (*\"Entregou o laudo **àquele** supervisor\"*).\n3. **Topônimos e as palavras *Casa* e *Terra***:\n   - *Casa* (no sentido de próprio lar/domicílio, sem especificador) e *terra* (no sentido de solo firme em oposição a bordo) não admitem artigo: *\"Voltou **a** casa cedo\"*, *\"Os tripulantes desceram **a** terra\"*. Quando especificadas, recebem artigo e crase: *\"Voltou **à** casa dos pais\"*, *\"Retornou **à** terra natal\"*.<!-- AUDITORIA:POR12 -->\n\n### Condições Estruturais da Crase: Pronomes Possessivos, Demonstrativos e Paralelismo\n1. **Pronomes Possessivos Femininos (*minha, tua, sua, nossa, vossa*)**:\n   - **Possessivo Adjetivo no Singular** (acompanhando substantivo feminino expresso): a crase é **facultativa**, porque o artigo definido antes do possessivo adjetivo é facultativo (*\"Refiro-me **a** sua equipe\"* = apenas preposição / *\"Refiro-me **à** sua equipe\"* = preposição + artigo).\n   - **Possessivo Adjetivo no Plural**: se usado *\"a suas equipes\"* (sem artigo), não há crase; se usado *\"às suas equipes\"* (com artigo plural *\"as\"*), a crase é **obrigatória**.\n   - **Possessivo Substantivo** (quando substitui um substantivo já citado, sem nome expresso depois): o artigo é obrigatório, tornando a crase **obrigatória** (*\"Não me refiro à equipe do setor norte, mas **à sua**\"*).\n2. **Demonstrativos *Aquele, Aquela, Aquilo***: A crase ocorre pela fusão da preposição **a** com a vogal inicial **a-** do demonstrativo, independentemente do gênero do substantivo que o acompanha (*\"Entregou o laudo **àquele** supervisor\"*).\n3. **Topônimos e as palavras *Casa* e *Terra***:\n   - *Casa* (no sentido de próprio lar/domicílio, sem especificador) e *terra* (no sentido de solo firme em oposição a bordo) não admitem artigo: *\"Voltou **a** casa cedo\"*, *\"Os tripulantes desceram **a** terra\"*. Quando especificadas, recebem artigo e crase: *\"Voltou **à** casa dos pais\"*, *\"Retornou **à** terra natal\"*."
+    }
+  ],
+  "questionsCount": 7,
+  "flashcardsCount": 5,
+  "sources": [
+    95,
+    96,
+    97,
+    107,
+    108
+  ]
+}

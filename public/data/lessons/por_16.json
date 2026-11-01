@@ -1,0 +1,253 @@
+{
+  "id": "por_16",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "16. Ortografia",
+  "editalRef": "Item 16 de Língua Portuguesa — Ortografia.",
+  "mindMap": {
+    "centralTitle": "Ortografia Oficial, Acentuação Gráfica, Hífen, Semântica e Figuras de Linguagem",
+    "centralSubtitle": "Regras de Acentuação, Novo Acordo Ortográfico, Os 4 Porquês, Sinonímia/Paronímia e Figuras",
+    "mnemonic": "Oxítonas acentuadas = A, E, O, EM, ENS | Paroxítonas NÃO acentuadas = A, E, O, EM, ENS | Proparoxítonas = TODAS! | Hífen: conferir a regra do prefixo antes de aplicar a regra geral das vogais.",
+    "deadlinesAndNumbers": [
+      {
+        "value": "100% Acentuadas",
+        "label": "Todas as palavras Proparoxítonas recebem acento gráfico sem exceção",
+        "ref": "Regra Geral"
+      },
+      {
+        "value": "ÉI, ÓI, ÉU",
+        "label": "Ditongos abertos que PERDERAM o acento nas PAROXÍTONAS (ideia, jiboia, heroico)",
+        "ref": "Novo Acordo"
+      },
+      {
+        "value": "ÉI / ÓI",
+        "label": "Sem acento nas paroxítonas (ideia, heroico)",
+        "ref": "Ortografia"
+      },
+      {
+        "value": "Têm / Vêm",
+        "label": "Acento diferencial de plural na 3ª pessoa (Ele tem -> Eles têm; Ele vem -> Eles vêm)",
+        "ref": "Acento Diferencial"
+      }
+    ],
+    "branches": [
+      {
+        "title": "1. Acentuação Gráfica e Novo Acordo Ortográfico",
+        "icon": "✍️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Oxítonas vs. Paroxítonas vs. Hiatos (I e U)",
+            "detail": "Oxítonas: terminadas em A, E, O, EM, ENS (cajá, café, cipó, armazém). Paroxítonas: conferir a lista de terminações acentuadas: r, x, n, l, i(s), us, um/uns, ã(s), ão(s), ps e ditongo; a simples inversão da regra das oxítonas não basta, como mostra \"cantam\" (fácil, tórax, ímã, órgãos). Hiatos I e U: acentuados quando sozinhos na sílaba (sa-ú-de, ba-ú, sa-í-da; mas NÃO antes de NH: rainha, nem após ditongo em paroxítona: feiura).",
+            "badge": "Regras de Ouro"
+          },
+          {
+            "label": "Acentos Diferenciais Mantidos",
+            "detail": "PÔDE (passado) vs. PODE (presente); PÔR (verbo) vs. POR (preposição); TÊM/VÊM (plural) e derivados (mantêm, intervêm).",
+            "badge": "Diferenciais"
+          }
+        ]
+      },
+      {
+        "title": "2. Hífen, Os 4 Porquês e Pares Parônimos",
+        "icon": "🔗",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Regra Visual do Hífen",
+            "detail": "Na regra geral: micro-ondas e anti-inflamatório; autoescola e infraestrutura; antisséptico e ultrassom. Ressalvas: coorganizar, reeleição e prefixos tônicos pós-, pré-, pró- (pré-escolar).",
+            "badge": "Iguais vs. Opostos"
+          },
+          {
+            "label": "Parônimos e Homônimos Campeões",
+            "detail": "Ratificar (confirmar) vs. Retificar (corrigir); Eminente (ilustre) vs. Iminente (prestes a ocorrer); Flagrante (evidente) vs. Fragrante (perfumado); Mal (≠ bem) vs. Mau (≠ bom).",
+            "badge": "Semântica"
+          }
+        ]
+      },
+      {
+        "title": "3. Figuras de Linguagem Mais Cobradas na IBGP",
+        "icon": "🎭",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Metáfora vs. Comparação vs. Metonímia",
+            "detail": "Metáfora = comparação implícita SEM conectivo ('A prevenção é um escudo'). Comparação = COM conectivo ('como, tal qual'). Metonímia = substituição lógica: autor pela obra, parte pelo todo, marca pelo produto.",
+            "badge": "Semelhança vs. Troca"
+          },
+          {
+            "label": "Antítese, Paradoxo, Eufemismo, Hipérbole e Prosopopeia",
+            "detail": "Antítese = palavras opostas; Paradoxo = ideias contraditórias que se fundem; Eufemismo = suavização ('partiu desta para melhor'); Hipérbole = exagero ('morrer de rir'); Prosopopeia = personificação.",
+            "badge": "Figuras de Pensamento"
+          }
+        ]
+      },
+      {
+        "title": "4. Parônimos e Homônimos de Prova",
+        "icon": "🔤",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Ponto-Chave #1",
+            "detail": "Ratificar (confirmar) vs. Retificar (corrigir/consertar)",
+            "badge": "Síntese IBGP"
+          },
+          {
+            "label": "Iminente vs. Eminente",
+            "detail": "Iminente = prestes a acontecer; Eminente = ilustre, elevado, notável.",
+            "badge": "PARÔNIMOS"
+          },
+          {
+            "label": "Eminente (prestes a ocorrer",
+            "detail": "iminente! / elevado: eminente)",
+            "badge": "Síntese IBGP"
+          },
+          {
+            "label": "Ponto-Chave #4",
+            "detail": "Descrição (descrever) vs. Discrição (ser discreto/reservado)",
+            "badge": "Síntese IBGP"
+          }
+        ]
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "As palavras 'idéia', 'jibóia', 'heróico' e 'vôo' continuam acentuadas pela regra dos ditongos abertos e hiatos.",
+        "right": "FALSO! Pelo Novo Acordo Ortográfico, perderam o acento os ditongos abertos ÉI e ÓI nas PAROXÍTONAS (ideia, jiboia, heroico) e os hiatos OO e EE (voo, leem, veem). Mas nas OXÍTONAS o acento continua: herói, chapéu, anéis!"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 16.1 — Laboratório Didático Passo a Passo: Tabela Definitiva do Hífen, Os 4 Porquês e Casos Especiais de Ortografia IBGP",
+      "modoA_markdown": "### 1. Hífen: regra geral e condições específicas\nO encontro de letras ajuda a organizar parte das formações prefixais. Não é uma regra universal de ortografia nem há evidência apresentada para a alegação anterior de frequência na banca.\n\n| Formação | Condição e exemplos |\n| --- | --- |\n| Segundo elemento com h | Hífen em anti-higiênico e super-homem; existem formações com perda de h, como desumano e inábil. |\n| Vogais iguais | Hífen em micro-ondas e anti-inflamatório; ressalvar co-, como em cooperação. Reeleição também se escreve sem hífen. |\n| Vogais diferentes | Aglutinação em autoescola e infraestrutura; verificar regras especiais do prefixo. |\n| Prefixo em vogal + r/s | Duplicação em antirracismo e antissocial. A condição do final do prefixo é indispensável. |\n| Hiper-, inter-, super- + r | Hífen em hiper-requintado, inter-regional e super-resistente. |\n| Circum- e pan- | Hífen antes de vogal, m, n e h: pan-americano, pan-negritude, circum-navegação. |\n| Ex- e vice- | Hífen: ex-presidente (estado anterior), vice-diretor. |\n| Pós-, pré-, pró- tônicos | Hífen quando o segundo elemento tem vida própria: pós-graduação, pré-natal. Formas átonas se aglutinam: prever, promover. |\n\nFonte primária: [Acordo Ortográfico — Câmara](https://www.camara.leg.br/internet/reformaortografica/decreto_e_texto_do_acordo.pdf), Bases XV e XVI. Consulte a grafia lexical no VOLP quando necessário. O quadro não esgota compostos, locuções, translineação ou os demais aspectos da ortografia.\n\n### 2. Os quatro porquês e distinções de grafia\n1. **Por que (separado e sem acento):**\n   - **Início/meio de pergunta direta ou indireta** (= *por qual razão*): *\"Por que o morador fechou o imóvel?\"*\n   - **Relativo** (= *pelo qual / pela qual / pelos quais*): *\"Os caminhos **por que** (= pelos quais) passei estavam alagados.\"*\n2. **Por quê (separado e com acento):**\n   - **Em posição tônica**, normalmente no fim da oração ou antes de uma pausa: *\"Eles não aplicaram o larvicida. Alguém sabe **por quê**?\"*\n3. **Porque (junto e sem acento):**\n   - **Resposta / Explicação / Causa** (= *pois, já que, visto que, como*): *\"Use o EPI **porque** (= pois) o inseticida exige proteção.\"*\n4. **Porquê (junto e com acento):**\n   - **Substantivo** (= *o motivo, a razão*), vem precedido de artigo/pronome (*o, um, este*) e aceita plural (*os porquês*): *\"Não entendi **o porquê** de tanta recusa.\"*\n\n### 3. Pares de palavras para distinguir pelo contexto\n- **Mal** (oposto de *bem* — advérbio/conjunção temporal) vs. **Mau** (oposto de *bom* — adjetivo: *mau cheiro, mau hábito*).\n- **Onde** (lugar fixo, verbos estáticos: *morar, estar, ficar*) vs. **Aonde** (movimento *a + onde*, verbos que pedem a preposição *a*: *ir aonde, chegar aonde*).\n- **Há** (tempo decorrido = *faz* ou sentido de *existir*: *\"Há dois anos atuo na SEMUSA\"*) vs. **A** (tempo futuro ou distância: *\"Daqui a duas semanas sairá o edital\"*).\n- **Afim** (adjetivo = *semelhante, correlato*: *\"ideias afins\"*) vs. **A fim de** (locução prepositiva de **finalidade** = *para*: *\"Estudou a fim de passar\"*).",
+      "modoB_markdown": "### ⚡ Resumo Visual para Revisão de 1 Minuto (Hífen + Porquês)\n- **Regra geral de vogais iguais (ressalvas: coorganizar e reeleição):** *anti-inflamatório, micro-ondas, inter-regional*.\n- **Regra geral de vogais diferentes (ressalva: prefixos tônicos pós-, pré-, pró-):** *autoavaliação, infraestrutura, antiaéreo*.\n- **Vogal + R/S -> Dobra:** *antisséptico, ultrassom, autorretrato, contrarregra*.\n- **Mal ≠ Bem** | **Mau ≠ Bom** | **Há = Tempo decorrido/Existir** | **A = Futuro/Distância**.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">1. Hífen: regra geral e condições específicas</h4><p>O encontro de letras ajuda a organizar parte das formações prefixais. Não é uma regra universal de ortografia nem há evidência apresentada para a alegação anterior de frequência na banca.</p><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Formação</th><th class=\"p-2 border border-slate-300 text-left\">Condição e exemplos</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Segundo elemento com h</td><td class=\"p-2 border border-slate-200 align-top\">Hífen em anti-higiênico e super-homem; existem formações com perda de h, como desumano e inábil.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Vogais iguais</td><td class=\"p-2 border border-slate-200 align-top\">Hífen em micro-ondas e anti-inflamatório; ressalvar co-, como em cooperação. Reeleição também se escreve sem hífen.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Vogais diferentes</td><td class=\"p-2 border border-slate-200 align-top\">Aglutinação em autoescola e infraestrutura; verificar regras especiais do prefixo.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Prefixo em vogal + r/s</td><td class=\"p-2 border border-slate-200 align-top\">Duplicação em antirracismo e antissocial. A condição do final do prefixo é indispensável.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Hiper-, inter-, super- + r</td><td class=\"p-2 border border-slate-200 align-top\">Hífen em hiper-requintado, inter-regional e super-resistente.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Circum- e pan-</td><td class=\"p-2 border border-slate-200 align-top\">Hífen antes de vogal, m, n e h: pan-americano, pan-negritude, circum-navegação.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Ex- e vice-</td><td class=\"p-2 border border-slate-200 align-top\">Hífen: ex-presidente (estado anterior), vice-diretor.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Pós-, pré-, pró- tônicos</td><td class=\"p-2 border border-slate-200 align-top\">Hífen quando o segundo elemento tem vida própria: pós-graduação, pré-natal. Formas átonas se aglutinam: prever, promover.</td></tr></tbody></table></div><p>Fonte primária: <a href=\"https://www.camara.leg.br/internet/reformaortografica/decreto_e_texto_do_acordo.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Acordo Ortográfico — Câmara</a>, Bases XV e XVI. Consulte a grafia lexical no VOLP quando necessário. O quadro não esgota compostos, locuções, translineação ou os demais aspectos da ortografia.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">2. Os quatro porquês e distinções de grafia</h4><p>1. <strong>Por que (separado e sem acento):</strong></p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Início/meio de pergunta direta ou indireta</strong> (= <em>por qual razão</em>): <em>\"Por que o morador fechou o imóvel?\"</em></li><li><strong>Relativo</strong> (= <em>pelo qual / pela qual / pelos quais</em>): <em>\"Os caminhos <strong>por que</strong> (= pelos quais) passei estavam alagados.\"</em></li></ul><p>2. <strong>Por quê (separado e com acento):</strong></p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Em posição tônica</strong>, normalmente no fim da oração ou antes de uma pausa: <em>\"Eles não aplicaram o larvicida. Alguém sabe <strong>por quê</strong>?\"</em></li></ul><p>3. <strong>Porque (junto e sem acento):</strong></p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Resposta / Explicação / Causa</strong> (= <em>pois, já que, visto que, como</em>): <em>\"Use o EPI <strong>porque</strong> (= pois) o inseticida exige proteção.\"</em></li></ul><p>4. <strong>Porquê (junto e com acento):</strong></p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Substantivo</strong> (= <em>o motivo, a razão</em>), vem precedido de artigo/pronome (<em>o, um, este</em>) e aceita plural (<em>os porquês</em>): <em>\"Não entendi <strong>o porquê</strong> de tanta recusa.\"</em></li></ul><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">3. Pares de palavras para distinguir pelo contexto</h4><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Mal</strong> (oposto de <em>bem</em> — advérbio/conjunção temporal) vs. <strong>Mau</strong> (oposto de <em>bom</em> — adjetivo: <em>mau cheiro, mau hábito</em>).</li><li><strong>Onde</strong> (lugar fixo, verbos estáticos: <em>morar, estar, ficar</em>) vs. <strong>Aonde</strong> (movimento <em>a + onde</em>, verbos que pedem a preposição <em>a</em>: <em>ir aonde, chegar aonde</em>).</li><li><strong>Há</strong> (tempo decorrido = <em>faz</em> ou sentido de <em>existir</em>: <em>\"Há dois anos atuo na SEMUSA\"</em>) vs. <strong>A</strong> (tempo futuro ou distância: <em>\"Daqui a duas semanas sairá o edital\"</em>).</li><li><strong>Afim</strong> (adjetivo = <em>semelhante, correlato</em>: <em>\"ideias afins\"</em>) vs. <strong>A fim de</strong> (locução prepositiva de <strong>finalidade</strong> = <em>para</em>: <em>\"Estudou a fim de passar\"</em>).</li></ul></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">⚡ Resumo Visual para Revisão de 1 Minuto (Hífen + Porquês)</h4><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Regra geral de vogais iguais (ressalvas: coorganizar e reeleição):</strong> <em>anti-inflamatório, micro-ondas, inter-regional</em>.</li><li><strong>Regra geral de vogais diferentes (ressalva: prefixos tônicos pós-, pré-, pró-):</strong> <em>autoavaliação, infraestrutura, antiaéreo</em>.</li><li><strong>Vogal + R/S -> Dobra:</strong> <em>antisséptico, ultrassom, autorretrato, contrarregra</em>.</li><li><strong>Mal ≠ Bem</strong> | <strong>Mau ≠ Bom</strong> | <strong>Há = Tempo decorrido/Existir</strong> | <strong>A = Futuro/Distância</strong>.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Novo Acordo Ortográfico e Emprego do Hífen) Assinale a alternativa em que TODAS as palavras estão grafadas CORRETAMENTE de acordo com as regras vigentes da ortografia oficial:",
+          "options": [
+            "A) Anti-inflamatório, micro-ondas, antisséptico, infraestrutura, autoescola.",
+            "B) Antiinflamatório, microondas, anti-séptico, infra-estrutura, auto-escola.",
+            "C) Anti-inflamatório, microondas, antisséptico, infra-estrutura, autoescola.",
+            "D) Antiinflamatório, micro-ondas, anti-séptico, infraestrutura, auto-escola."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. 'Anti-inflamatório' e 'micro-ondas' levam hífen porque o prefixo termina com a mesma vogal com que se inicia o segundo elemento (iguais se separam). 'Antisséptico' junta e dobra o 's' (prefixo terminado em vogal + 's'). 'Infraestrutura' e 'autoescola' juntam sem hífen porque têm vogais diferentes."
+        },
+        {
+          "q": "(Questão de estudo — Uso dos Porquês e Há/A) Assinale a alternativa que preenche CORRETA e respectivamente as lacunas da frase: '______ o índice de infestação subiu neste bairro? Subiu ______ muitos terrenos estavam abandonados ______ mais de seis meses, e ninguém explicou o ______ dessa negligência.'",
+          "options": [
+            "A) Por que — porque — há — porquê",
+            "B) Porque — por que — a — por quê",
+            "C) Por quê — porque — há — por que",
+            "D) Por que — por quê — a — porquê"
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. 1ª lacuna: 'Por que' (início de pergunta = por qual razão); 2ª lacuna: 'porque' (resposta/causa = pois, já que); 3ª lacuna: 'há' (tempo passado/decorrido = faz mais de seis meses); 4ª lacuna: 'porquê' (substantivo antecedido do artigo 'o' = o motivo)."
+        },
+        {
+          "q": "(Questão de estudo — Figuras de Linguagem) Na frase 'A cidade inteira de Porto Velho comemorou a inauguração do novo centro de controle de zoonoses, mas alguns moradores ainda morrem de medo de agulha na hora da vacinação', ocorrem, respectivamente, nos trechos 'A cidade inteira' (o lugar pelos seus habitantes) e 'morrem de medo' (exagero intencional), as figuras de linguagem:",
+          "options": [
+            "A) Eufemismo e Prosopopeia.",
+            "B) Metonímia e Hipérbole.",
+            "C) Antítese e Catacrese.",
+            "D) Pleonasmo e Sinestesia."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. 'A cidade inteira comemorou' emprega o continente pelo conteúdo (o município pelos seus moradores), configurando METONÍMIA. Já 'morrem de medo' expressa um exagero intencional para dar ênfase, configurando HIPÉRBOLE."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é a regra geral do hífen quando o prefixo termina em vogal e a segunda palavra começa com VOGAL IGUAL vs. VOGAL DIFERENTE?",
+          "front": "Qual é a regra geral do hífen quando o prefixo termina em vogal e a segunda palavra começa com VOGAL IGUAL vs. VOGAL DIFERENTE?",
+          "b": "Regra geral na prefixação: anti-inflamatório e micro-ondas; autoescola e infraestrutura. Antes de aplicar, confira regras especiais: coorganizar e reeleição não levam hífen; pré-escolar leva por prefixo tônico acentuado.",
+          "back": "Regra geral na prefixação: anti-inflamatório e micro-ondas; autoescola e infraestrutura. Antes de aplicar, confira regras especiais: coorganizar e reeleição não levam hífen; pré-escolar leva por prefixo tônico acentuado.",
+          "lessonTitle": "16. Ortografia"
+        },
+        {
+          "f": "O que acontece quando o prefixo termina em vogal e a segunda palavra começa com R ou S?",
+          "front": "O que acontece quando o prefixo termina em vogal e a segunda palavra começa com R ou S?",
+          "b": "Não se usa hífen e dobram-se as consoantes R ou S (ex: antisséptico, ultrassom, autorretrato, contrarregra).",
+          "back": "Não se usa hífen e dobram-se as consoantes R ou S (ex: antisséptico, ultrassom, autorretrato, contrarregra).",
+          "lessonTitle": "16. Ortografia"
+        },
+        {
+          "f": "Quando se usa 'há' (com H) e quando se usa 'a' (sem H) em expressões de tempo?",
+          "front": "Quando se usa 'há' (com H) e quando se usa 'a' (sem H) em expressões de tempo?",
+          "b": "'Há' indica tempo decorrido (equivale a 'faz': 'há dois anos'). 'A' indica tempo FUTURO ou distância ('daqui a dez dias').",
+          "back": "'Há' indica tempo decorrido (equivale a 'faz': 'há dois anos'). 'A' indica tempo FUTURO ou distância ('daqui a dez dias').",
+          "lessonTitle": "16. Ortografia"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 16.2 — Dificuldades Ortográficas de Prova: Mal vs. Mau, Onde vs. Aonde, Mas vs. Mais, Há vs. A, Senão vs. Se não e Afim vs. A fim de",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 16: Ortografia)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 16 de Língua Portuguesa — Ortografia Oficial</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Tabela Prática de Expressões Ortográficas que Caem em Todas as Provas IBGP</h4>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Expressão</th>\n          <th class=\"p-2.5 border border-slate-700\">Regra de Substituição Rápida</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Correto</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">MAL vs. MAU</td><td class=\"p-2.5 border border-slate-200\">• <strong>MAL $\\leftrightarrow$ BEM</strong> (advérbio, substantivo ou conjunção temporal = \"assim que\").<br>• <strong>MAU $\\leftrightarrow$ BOM</strong> (adjetivo que qualifica substantivo).</td><td class=\"p-2.5 border border-slate-200\">\"Ele passou <strong>mal</strong> (bem) por causa do <strong>mau</strong> (bom) cheiro.\" / \"<strong>Mal</strong> (assim que) chegou, choveu.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">ONDE vs. AONDE</td><td class=\"p-2.5 border border-slate-200\">• <strong>ONDE (= EM que lugar):</strong> verbos de permanência/estáticos (morar, estar, ficar).<br>• <strong>AONDE (= A que lugar):</strong> verbos de movimento que regem preposição <strong>A</strong> (ir, chegar, dirigir-se).</td><td class=\"p-2.5 border border-slate-200\">\"O bairro <strong>onde</strong> moro é tranquilo; <strong>aonde</strong> você vai agora?\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">HÁ vs. A (Tempo/Distância)</td><td class=\"p-2.5 border border-slate-200\">• <strong>HÁ (= faz / passado):</strong> tempo já decorrido.<br>• <strong>A (futuro ou distância):</strong> tempo futuro (\"daqui a\") ou distância espacial.</td><td class=\"p-2.5 border border-slate-200\">\"O posto foi inaugurado <strong>há</strong> dois anos, fica <strong>a</strong> cem metros daqui e fechará daqui <strong>a</strong> duas horas.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">SENÃO vs. SE NÃO</td><td class=\"p-2.5 border border-slate-200\">• <strong>SE NÃO (separado):</strong> equivale a <strong>\"caso não\"</strong> (condição).<br>• <strong>SENÃO (junto):</strong> equivale a \"do contrário\", \"exceto/salvo\", \"mas sim\" ou \"defeito/falha\".</td><td class=\"p-2.5 border border-slate-200\">\"Tampe a caixa, <strong>senão</strong> (do contrário) o mosquito prolifera.\" / \"<strong>Se não</strong> (caso não) chover, iremos ao campo.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">A FIM DE vs. AFIM</td><td class=\"p-2.5 border border-slate-200\">• <strong>A FIM DE (separado):</strong> finalidade (= <strong>para</strong>).<br>• <strong>AFIM (junto):</strong> adjetivo que indica semelhança/afinidade (<em>ideias afins</em>).</td><td class=\"p-2.5 border border-slate-200\">\"Estudou <strong>a fim de</strong> (para) ser aprovado em cargos <strong>afins</strong> (semelhantes).\"</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div><!-- AUDITORIA:POR16 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Relações Som-Grafema (S/Z, X/CH, G/J, Ç/SS) e Convenções de Maiúsculas/Minúsculas</h4><p>1. <strong>Emprego de S e Z</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Grafam-se com <strong>S</strong>: sufixos formadores de adjetivos pátrios/origem (<strong>-ês, -esa</strong>: <em>português, rondoniense</em>), sufixos <strong>-oso/-osa</strong> (<em>perigoso, chuvoso</em>), formas dos verbos <strong>pôr e querer</strong> (<em>pus, pusera, quis, quisesse</em>) e verbos derivados de nomes que já possuem <strong>S</strong> no radical (<em>análise → analisar</em>; <em>pesquisa → pesquisar</em>; <em>paralisia → paralisar</em>).</li><li>Grafam-se com <strong>Z</strong>: sufixos <strong>-ez / -eza</strong> formadores de substantivos abstratos derivados de adjetivos (<em>limpo → limpeza</em>; <em>rígido → rigidez</em>; <em>sensato → sensatez</em>) e verbos terminados em <strong>-izar</strong> cuja palavra primitiva <strong>não possui S</strong> no radical (<em>atual → atualizar</em>; <em>higiênico → higienizar</em>; <em>concreto → concretizar</em>).</li></ul><p>2. <strong>Emprego de X e CH</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Grafam-se com <strong>X</strong>: normalmente após ditongo (<em>caixa, peixe, frouxo</em> — exceção: <em>recauchutar</em>), após a sílaba inicial <strong>en-</strong> (<em>enxada, enchente</em> é com <strong>ch</strong> porque deriva de <em>cheio</em>: <em>en + cheio → encher/enchente</em>; <em>enxergar, enxame, enxaqueca</em>) e após a sílaba inicial <strong>me-</strong> (<em>mexer, mexilhão</em> — exceção: <em>mecha</em>).</li></ul><p>3. <strong>Emprego de G e J</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Grafam-se com <strong>G</strong>: substantivos terminados em <strong>-agem, -igem, -ugem</strong> (<em>viagem [substantivo], vertigem, ferrugem</em> — exceção: <em>pajem, lambujem</em>). Atenção: <em>viajem</em> com <strong>J</strong> é forma do Presente do Subjuntivo do verbo <em>viajar</em> (<em>\"Espero que eles viajem em segurança\"</em>).</li></ul></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Mal $\\leftrightarrow$ Bem</strong> | <strong>Mau $\\leftrightarrow$ Bom</strong>.</li>\n  <li><strong>Há</strong> (passado = faz) vs. <strong>A</strong> (futuro = daqui a / distância).</li>\n  <li><strong>Se não</strong> (= caso não) vs. <strong>Senão</strong> (= do contrário / exceto).</li>\n</ul><!-- AUDITORIA:POR16 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Sufixos -ez/-eza (de adjetivos: limpeza, rigidez) e -izar sem S no radical (atualizar, higienizar) usam Z; analisar e pesquisar mantêm o S do radical.</li><li>\"A viagem\" (substantivo) grafa-se com G; \"que eles viajem\" (verbo no subjuntivo) grafa-se com J.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Ortografia Oficial) Assinale a alternativa em que o preenchimento das lacunas obedece rigorosamente à ortografia oficial:\n\"__________ seis meses a equipe atua no distrito __________ ficam as comunidades ribeirinhas, __________ orientar os moradores; __________ houver colaboração de todos, o índice de infestação subirá.\"",
+          "options": [
+            "A / aonde / afim de / senão",
+            "Há / onde / a fim de / se não",
+            "Há / aonde / a fim de / senão",
+            "A / onde / afim de / se não"
+          ],
+          "ans": 1,
+          "comment": "Tempo decorrido no passado = HÁ (\"Há seis meses\"); lugar estático com o verbo \"ficam\" = ONDE; finalidade (= para) = A FIM DE; condição negativa (= caso não) = SE NÃO."
+        },
+        {
+          "auditId": "por_16-autoral-1",
+          "q": "(Autoral — Grafia de S/Z, G/J e X/CH) Assinale a alternativa em que todas as palavras estão grafadas corretamente segundo a ortografia oficial:",
+          "options": [
+            "Ao analisar a pesquisa, a equipe recomendou higienizar o reservatório antes da enchente e antes que os técnicos viajem.",
+            "Ao analizar a pesquiza, a equipe recomendou higienisar o reservatório antes da enxente e antes que os técnicos viagem.",
+            "A paralização do sistema impediu a concretisação da viagem dos agentes que quizeram participar.",
+            "A limpeza das caixas exigiu que eles puzessem o equipamento próximo à mexa de iluminação."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Analisar\" e \"pesquisa\" mantêm o S do radical; \"higienizar\" recebe -izar com Z (radical sem S); \"enchente\" grafa-se com CH por derivar de \"cheio\"; e \"viajem\" (forma verbal no subjuntivo) grafa-se com J. Em B, C e D há erros em analizar/pesquiza/higienisar/enxente/viagem(verbo), paralização/concretisação/quizeram e puzessem/mexa."
+        },
+        {
+          "auditId": "por_16-autoral-2",
+          "q": "(Autoral — Hífen com Prefixos e Consoantes) Assinale a alternativa que apresenta a justificativa ortográfica correta para o emprego ou ausência de hífen nos vocábulos \"inter-regional\", \"sub-base\", \"coobrigação\" e \"anti-higiênico\":",
+          "options": [
+            "Em \"inter-regional\" e \"sub-base\" usa-se hífen porque o prefixo termina na mesma consoante com que se inicia o segundo elemento; em \"coobrigação\" o prefixo co- aglutina-se mesmo diante de o-; e em \"anti-higiênico\" usa-se hífen diante de h-.",
+            "Todos os quatro vocábulos deveriam ser grafados com hífen pela regra geral das vogais idênticas.",
+            "Em \"inter-regional\" ocorre encontro de duas vogais iguais; em \"coobrigação\" houve erro gráfico por ausência de hífen.",
+            "O prefixo \"sub-\" jamais admite hífen no Acordo Ortográfico de 1990."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Segundo a Base XVI do Acordo Ortográfico, prefixos terminados em -r ou -b levam hífen diante de palavra iniciada pela mesma consoante (inter-regional, sub-base) ou por h-; o prefixo \"co-\" aglutina-se em geral mesmo diante de \"o\" (coobrigação, coordenar, cooperar)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quando usar HÁ e quando usar A em expressões de tempo e distância?",
+          "b": "Usa-se HÁ para tempo passado decorrido (= faz); usa-se A para tempo futuro (\"daqui a pouco\") ou distância física (\"a dois quilômetros\").",
+          "lessonTitle": "16. Ortografia"
+        },
+        {
+          "f": "Qual a diferença entre ONDE e AONDE?",
+          "b": "ONDE indica lugar fixo/permanência (em que); AONDE indica movimento/destino com verbos que exigem a preposição A (ir aonde, chegar aonde).",
+          "lessonTitle": "16. Ortografia"
+        }
+      ],
+      "modoA_markdown": "\n### Relações Som-Grafema (S/Z, X/CH, G/J, Ç/SS) e Convenções de Maiúsculas/Minúsculas\n1. **Emprego de S e Z**:\n   - Grafam-se com **S**: sufixos formadores de adjetivos pátrios/origem (**-ês, -esa**: *português, rondoniense*), sufixos **-oso/-osa** (*perigoso, chuvoso*), formas dos verbos **pôr e querer** (*pus, pusera, quis, quisesse*) e verbos derivados de nomes que já possuem **S** no radical (*análise → analisar*; *pesquisa → pesquisar*; *paralisia → paralisar*).\n   - Grafam-se com **Z**: sufixos **-ez / -eza** formadores de substantivos abstratos derivados de adjetivos (*limpo → limpeza*; *rígido → rigidez*; *sensato → sensatez*) e verbos terminados em **-izar** cuja palavra primitiva **não possui S** no radical (*atual → atualizar*; *higiênico → higienizar*; *concreto → concretizar*).\n2. **Emprego de X e CH**:\n   - Grafam-se com **X**: normalmente após ditongo (*caixa, peixe, frouxo* — exceção: *recauchutar*), após a sílaba inicial **en-** (*enxada, enchente* é com **ch** porque deriva de *cheio*: *en + cheio → encher/enchente*; *enxergar, enxame, enxaqueca*) e após a sílaba inicial **me-** (*mexer, mexilhão* — exceção: *mecha*).\n3. **Emprego de G e J**:\n   - Grafam-se com **G**: substantivos terminados em **-agem, -igem, -ugem** (*viagem [substantivo], vertigem, ferrugem* — exceção: *pajem, lambujem*). Atenção: *viajem* com **J** é forma do Presente do Subjuntivo do verbo *viajar* (*\"Espero que eles viajem em segurança\"*).<!-- AUDITORIA:POR16 -->\n\n### Relações Som-Grafema (S/Z, X/CH, G/J, Ç/SS) e Convenções de Maiúsculas/Minúsculas\n1. **Emprego de S e Z**:\n   - Grafam-se com **S**: sufixos formadores de adjetivos pátrios/origem (**-ês, -esa**: *português, rondoniense*), sufixos **-oso/-osa** (*perigoso, chuvoso*), formas dos verbos **pôr e querer** (*pus, pusera, quis, quisesse*) e verbos derivados de nomes que já possuem **S** no radical (*análise → analisar*; *pesquisa → pesquisar*; *paralisia → paralisar*).\n   - Grafam-se com **Z**: sufixos **-ez / -eza** formadores de substantivos abstratos derivados de adjetivos (*limpo → limpeza*; *rígido → rigidez*; *sensato → sensatez*) e verbos terminados em **-izar** cuja palavra primitiva **não possui S** no radical (*atual → atualizar*; *higiênico → higienizar*; *concreto → concretizar*).\n2. **Emprego de X e CH**:\n   - Grafam-se com **X**: normalmente após ditongo (*caixa, peixe, frouxo* — exceção: *recauchutar*), após a sílaba inicial **en-** (*enxada, enchente* é com **ch** porque deriva de *cheio*: *en + cheio → encher/enchente*; *enxergar, enxame, enxaqueca*) e após a sílaba inicial **me-** (*mexer, mexilhão* — exceção: *mecha*).\n3. **Emprego de G e J**:\n   - Grafam-se com **G**: substantivos terminados em **-agem, -igem, -ugem** (*viagem [substantivo], vertigem, ferrugem* — exceção: *pajem, lambujem*). Atenção: *viajem* com **J** é forma do Presente do Subjuntivo do verbo *viajar* (*\"Espero que eles viajem em segurança\"*)."
+    }
+  ],
+  "questionsCount": 6,
+  "flashcardsCount": 5,
+  "sources": [
+    95,
+    96,
+    97,
+    106,
+    109
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "por_13",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "13. Colocação pronominal",
+  "editalRef": "Anexo IV — Língua Portuguesa: colocação pronominal.",
+  "mindMap": {
+    "centralTitle": "13. Colocação Pronominal (Topografia)",
+    "centralSubtitle": "Item 13 de Língua Portuguesa — Próclise, Mesóclise, Ênclise e Locuções Verbais",
+    "branches": [
+      {
+        "title": "1. Próclise (Antes do Verbo)",
+        "icon": "⬅️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Palavras Negativas e Advérbios",
+            "detail": "Não, nunca, jamais, aqui, sempre (sem vírgula!)"
+          },
+          {
+            "label": "Relativos, Indefinidos e Subordinativas",
+            "detail": "Que, quem, onde, tudo, alguém, quando, embora, se"
+          }
+        ]
+      },
+      {
+        "title": "2. Mesóclise (No Meio)",
+        "icon": "↔️",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Futuro do Presente/Pretérito",
+            "detail": "Futuro do presente/pretérito: realizar-se-á. Com sujeito anteposto, admite-se também próclise: a equipe se organizará."
+          },
+          {
+            "label": "Prioridade da Próclise",
+            "detail": "Se houver atrativo antes do futuro, usa-se Próclise!"
+          }
+        ]
+      },
+      {
+        "title": "3. Ênclise (Depois do Verbo)",
+        "icon": "➡️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Início de Frase e Imperativo",
+            "detail": "Pausa/vírgula delimita o alcance de palavras anteriores; avaliar a estrutura da oração seguinte e se há sujeito ou fator de próclise próprio."
+          },
+          {
+            "label": "Adaptações Fonéticas",
+            "detail": "R/S/Z → lo/la (fazê-lo); Som nasal M/ÃO → no/na (fizeram-no)"
+          }
+        ]
+      },
+      {
+        "title": "4. Restrições no registro formal",
+        "icon": "🚫",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Nunca Iniciar Período",
+            "detail": "No início absoluto do período formal, use Entregue-me; isso não descreve todas as variedades da fala brasileira."
+          },
+          {
+            "label": "Proibido Ênclise no Futuro e Particípio",
+            "detail": "Não se liga o pronome após a forma completa do futuro do presente/pretérito do indicativo nem após particípio. Examine a locução inteira."
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 13.1 — Fundamentos, fatores e colocação com um verbo",
+      "modoA_markdown": "## 13.1 — Fundamentos e colocação com um verbo\n\nColocação pronominal é a posição dos pronomes oblíquos átonos **me, te, se, o, a, os, as, lhe, lhes, nos, vos** em relação ao verbo. Não se confunde com escolher a função ou a referência do pronome. Em **Não lhe entreguei o documento**, primeiro se verifica que **lhe** representa o destinatário; depois se examina sua posição antes do verbo.\n\nEsta aula adota a escrita formal tradicional solicitada em questões de norma-padrão. Construções correntes na conversação brasileira podem seguir outro padrão. Identificar uma restrição do registro formal não equivale a declarar que os falantes de outras variedades “não sabem português”.\n\n| Posição | Exemplo autoral | Análise |\n|---|---|---|\n| Próclise: antes | Ninguém **me** avisou. | O pronome precede o verbo; há palavra negativa. |\n| Ênclise: depois | Avisaram-**me** ontem. | O pronome se liga ao verbo por hífen. |\n| Mesóclise: no interior | Avisar-**me**-ão amanhã. | O pronome fica entre a base do futuro e sua terminação. |\n\n### Fatores de próclise\n\nVerifique o alcance do fator dentro da oração. Palavras negativas (**não, nunca, ninguém**), relativos (**que, quem, onde**), indefinidos (**alguém, tudo**), interrogativos, conjunções subordinativas e certos advérbios antes do verbo favorecem ou exigem a anteposição na construção formal correspondente.\n\n- **Não se esqueça** do compromisso: a negação recai sobre a oração.\n- A pessoa **que me telefonou** deixou o contato: o relativo introduz a oração.\n- **Quando se encerrar** o prazo, confira o resultado: a conjunção introduz a subordinada.\n- **Aqui se atende** por ordem de chegada: o advérbio não está isolado.\n- **Quem lhe explicou** o procedimento? A interrogação tem vocábulo interrogativo antes do verbo.\n- **Deus o proteja!** A oração expressa desejo. Não basta existir exclamação para qualquer pronome ir antes do verbo: compare **Proteja-o Deus!**\n- **Em se tratando** desse assunto, consulte o responsável: construção com em + gerúndio.\n\nUm mnemônico não substitui a análise. O **que** de outra oração não atrai automaticamente um pronome através de um ponto; uma vírgula não elimina todos os fatores de próclise que possam existir depois dela. Em **Ontem, ninguém me avisou**, a negação continua presente. Em **Ontem, avisaram-me**, a ênclise é adequada ao novo início da construção verbal, sem outro fator.\n\n### Ênclise e restrições formais\n\nNo início absoluto do período formal, escreva **Entregue-me a ficha**, em vez de iniciar com **Me entregue**. Com futuro do presente ou do pretérito do indicativo, não se coloca o pronome depois da forma completa: **entregará-me** e **entregaria-me** não são as construções tradicionais aceitas. Use **entregar-me-á**, **entregar-me-ia** ou uma próclise admitida na frase.\n\nO particípio também não recebe pronome enclítico: não **tinha entregue-me**. A correção exige examinar o auxiliar e os demais termos: **Tinham-me entregue a ficha**; **Não me tinham entregue a ficha**. A restrição não proíbe qualquer pronome situado visualmente depois de um verbo: o que se examina é a ligação sintática com a forma verbal.\n\n### Mesóclise não é obrigatória em todo futuro sem atração\n\nNo início do período formal, sem fator de próclise: **Divulgar-se-á o resultado**. Com negação: **Não se divulgará o resultado**. Com sujeito expresso antes do verbo, também se admite anteposição: **A comissão lhe enviará o resultado** ou **A comissão enviar-lhe-á o resultado**. Portanto, a regra “sem palavra atrativa, sempre mesóclise” é incompleta. A mesóclise é característica de registro formal e não deve ser transferida para qualquer tempo chamado futuro.\n\n### Mudanças de forma com o/a/os/as\n\nNa ligação enclítica, o pronome acusativo pode assumir **lo/la/los/las** após supressão de r, s ou z: **entregar + o → entregá-lo**, **fiz + o → fi-lo**. Após terminação nasal, aparecem **no/na/nos/nas**: **entregaram + o → entregaram-no**, **põem + o → põem-no**. Isso não transforma **lhe** em objeto direto nem autoriza trocar todos os pronomes entre si. A grafia e a acentuação da forma resultante precisam ser conferidas.\n\nFontes de conferência: Manual de Redação da Câmara, seção 6.5; Aulete, Pronomes pessoais. Exemplos desta exposição são autorais.",
+      "modoB_markdown": "- Próclise: pronome antes; examine fatores e alcance na oração.\n- Ênclise: pronome depois, com hífen; não se liga ao particípio ou à forma completa do futuro do indicativo.\n- Mesóclise: futuro do presente/pretérito em contextos formais, sem fator de próclise. Com sujeito anteposto, também pode haver próclise.\n- Registro formal não descreve todos os usos da conversação brasileira.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">13.1 — Fundamentos e colocação com um verbo</h3><p>Colocação pronominal é a posição dos pronomes oblíquos átonos <strong>me, te, se, o, a, os, as, lhe, lhes, nos, vos</strong> em relação ao verbo. Não se confunde com escolher a função ou a referência do pronome. Em <strong>Não lhe entreguei o documento</strong>, primeiro se verifica que <strong>lhe</strong> representa o destinatário; depois se examina sua posição antes do verbo.</p><p>Esta aula adota a escrita formal tradicional solicitada em questões de norma-padrão. Construções correntes na conversação brasileira podem seguir outro padrão. Identificar uma restrição do registro formal não equivale a declarar que os falantes de outras variedades “não sabem português”.</p><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Posição</th><th class=\"p-2 border border-slate-300 text-left\">Exemplo autoral</th><th class=\"p-2 border border-slate-300 text-left\">Análise</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Próclise: antes</td><td class=\"p-2 border border-slate-200 align-top\">Ninguém <strong>me</strong> avisou.</td><td class=\"p-2 border border-slate-200 align-top\">O pronome precede o verbo; há palavra negativa.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Ênclise: depois</td><td class=\"p-2 border border-slate-200 align-top\">Avisaram-<strong>me</strong> ontem.</td><td class=\"p-2 border border-slate-200 align-top\">O pronome se liga ao verbo por hífen.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Mesóclise: no interior</td><td class=\"p-2 border border-slate-200 align-top\">Avisar-<strong>me</strong>-ão amanhã.</td><td class=\"p-2 border border-slate-200 align-top\">O pronome fica entre a base do futuro e sua terminação.</td></tr></tbody></table></div><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Fatores de próclise</h4><p>Verifique o alcance do fator dentro da oração. Palavras negativas (<strong>não, nunca, ninguém</strong>), relativos (<strong>que, quem, onde</strong>), indefinidos (<strong>alguém, tudo</strong>), interrogativos, conjunções subordinativas e certos advérbios antes do verbo favorecem ou exigem a anteposição na construção formal correspondente.</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Não se esqueça</strong> do compromisso: a negação recai sobre a oração.</li><li>A pessoa <strong>que me telefonou</strong> deixou o contato: o relativo introduz a oração.</li><li><strong>Quando se encerrar</strong> o prazo, confira o resultado: a conjunção introduz a subordinada.</li><li><strong>Aqui se atende</strong> por ordem de chegada: o advérbio não está isolado.</li><li><strong>Quem lhe explicou</strong> o procedimento? A interrogação tem vocábulo interrogativo antes do verbo.</li><li><strong>Deus o proteja!</strong> A oração expressa desejo. Não basta existir exclamação para qualquer pronome ir antes do verbo: compare <strong>Proteja-o Deus!</strong></li><li><strong>Em se tratando</strong> desse assunto, consulte o responsável: construção com em + gerúndio.</li></ul><p>Um mnemônico não substitui a análise. O <strong>que</strong> de outra oração não atrai automaticamente um pronome através de um ponto; uma vírgula não elimina todos os fatores de próclise que possam existir depois dela. Em <strong>Ontem, ninguém me avisou</strong>, a negação continua presente. Em <strong>Ontem, avisaram-me</strong>, a ênclise é adequada ao novo início da construção verbal, sem outro fator.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Ênclise e restrições formais</h4><p>No início absoluto do período formal, escreva <strong>Entregue-me a ficha</strong>, em vez de iniciar com <strong>Me entregue</strong>. Com futuro do presente ou do pretérito do indicativo, não se coloca o pronome depois da forma completa: <strong>entregará-me</strong> e <strong>entregaria-me</strong> não são as construções tradicionais aceitas. Use <strong>entregar-me-á</strong>, <strong>entregar-me-ia</strong> ou uma próclise admitida na frase.</p><p>O particípio também não recebe pronome enclítico: não <strong>tinha entregue-me</strong>. A correção exige examinar o auxiliar e os demais termos: <strong>Tinham-me entregue a ficha</strong>; <strong>Não me tinham entregue a ficha</strong>. A restrição não proíbe qualquer pronome situado visualmente depois de um verbo: o que se examina é a ligação sintática com a forma verbal.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Mesóclise não é obrigatória em todo futuro sem atração</h4><p>No início do período formal, sem fator de próclise: <strong>Divulgar-se-á o resultado</strong>. Com negação: <strong>Não se divulgará o resultado</strong>. Com sujeito expresso antes do verbo, também se admite anteposição: <strong>A comissão lhe enviará o resultado</strong> ou <strong>A comissão enviar-lhe-á o resultado</strong>. Portanto, a regra “sem palavra atrativa, sempre mesóclise” é incompleta. A mesóclise é característica de registro formal e não deve ser transferida para qualquer tempo chamado futuro.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Mudanças de forma com o/a/os/as</h4><p>Na ligação enclítica, o pronome acusativo pode assumir <strong>lo/la/los/las</strong> após supressão de r, s ou z: <strong>entregar + o → entregá-lo</strong>, <strong>fiz + o → fi-lo</strong>. Após terminação nasal, aparecem <strong>no/na/nos/nas</strong>: <strong>entregaram + o → entregaram-no</strong>, <strong>põem + o → põem-no</strong>. Isso não transforma <strong>lhe</strong> em objeto direto nem autoriza trocar todos os pronomes entre si. A grafia e a acentuação da forma resultante precisam ser conferidas.</p><p>Fontes de conferência: Manual de Redação da Câmara, seção 6.5; Aulete, Pronomes pessoais. Exemplos desta exposição são autorais.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Próclise: pronome antes; examine fatores e alcance na oração.</li><li>Ênclise: pronome depois, com hífen; não se liga ao particípio ou à forma completa do futuro do indicativo.</li><li>Mesóclise: futuro do presente/pretérito em contextos formais, sem fator de próclise. Com sujeito anteposto, também pode haver próclise.</li><li>Registro formal não descreve todos os usos da conversação brasileira.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que o emprego do pronome relativo e a colocação pronominal obedecem integralmente à norma-padrão da língua portuguesa:",
+          "options": [
+            "A) Nunca esquecerei-me do bairro onde os moradores cujas as casas foram visitadas agradeceram à equipe.",
+            "B) Nunca me esquecerei do bairro onde os moradores cujas casas foram visitadas agradeceram à equipe.",
+            "C) Me informaram ontem aonde fica a sede da Secretaria cujo o edital foi publicado.",
+            "D) Realizarão-se no próximo domingo as provas objetivas do concurso."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O advérbio negativo 'Nunca' atrai obrigatoriamente o pronome para antes do verbo (próclise: 'Nunca me esquecerei'), 'onde' indica lugar fixo ('no bairro') e 'cujas casas' indica posse sem artigo posposto. C) Não se inicia frase com pronome oblíquo e 'cujo' não aceita artigo; D) Verbo no futuro jamais aceita ênclise (o correto seria 'Realizar-se-ão')."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quais são as principais palavras atrativas que tornam obrigatória a PRÓCLISE?",
+          "front": "Quais são as principais palavras atrativas que tornam obrigatória a PRÓCLISE?",
+          "b": "Palavras negativas (não, nunca, ninguém), advérbios sem vírgula, pronomes relativos/indefinidos/demonstrativos e conjunções subordinativas (que, se, quando, embora).",
+          "back": "Palavras negativas (não, nunca, ninguém), advérbios sem vírgula, pronomes relativos/indefinidos/demonstrativos e conjunções subordinativas (que, se, quando, embora).",
+          "lessonTitle": "13. Colocação pronominal"
+        },
+        {
+          "f": "Por que a construção 'Realizarão-se as provas' está incorreta?",
+          "front": "Por que a construção 'Realizarão-se as provas' está incorreta?",
+          "b": "No início do período formal, sem palavra atrativa, emprega-se a mesóclise (\"Realizar-se-á a vistoria\"). Se houver palavra atrativa (\"Não se realizará\") ou sujeito expresso anteposto na prosa contemporânea (\"A vistoria se realizará\"), admite-se a próclise; a ênclise ao futuro simples é rejeitada pela norma-padrão.",
+          "back": "No início do período formal, sem palavra atrativa, emprega-se a mesóclise (\"Realizar-se-á a vistoria\"). Se houver palavra atrativa (\"Não se realizará\") ou sujeito expresso anteposto na prosa contemporânea (\"A vistoria se realizará\"), admite-se a próclise; a ênclise ao futuro simples é rejeitada pela norma-padrão.",
+          "lessonTitle": "13. Colocação pronominal"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 13.2 — Locuções verbais e revisão interdisciplinar",
+      "modoA_markdown": "## 13.2 — Locuções verbais, infinitivo e variação admitida\n\nUma locução combina auxiliar e verbo principal: **pode informar**, **está preparando**, **tinha enviado**. Identifique a forma do principal antes de escolher a colocação. A regra de um verbo isolado não pode ser aplicada mecanicamente à locução inteira.\n\n| Construção de referência formal | Exemplos autorais | O que conferir |\n|---|---|---|\n| Auxiliar + infinitivo, sem atração | Podemos-lhe entregar a cópia. / Podemos entregar-lhe a cópia. | Pronome ligado ao auxiliar ou ao infinitivo. |\n| Auxiliar + infinitivo, com negação | Não lhe podemos entregar a cópia. / Não podemos entregar-lhe a cópia. | A atração impede **não podemos-lhe**; a ligação ao infinitivo permanece admitida. |\n| Auxiliar + gerúndio, sem atração | Estava-lhe explicando o procedimento. / Estava explicando-lhe o procedimento. | O principal não é particípio. |\n| Auxiliar + particípio | Haviam-lhe comunicado a decisão. / Não lhe haviam comunicado a decisão. | O pronome não se liga depois de comunicado. |\n| Auxiliar no futuro + infinitivo | Poder-lhe-emos enviar o comprovante. / Poderemos enviar-lhe o comprovante. | Não escrever poderemos-lhe. |\n\nEssas alternativas seguem o modelo formal de referência, não uma descrição de todas as construções do português brasileiro. O uso de pronome sem hífen entre os verbos, como em **pode me informar**, é corrente no Brasil; o Manual da Câmara consultado recomenda evitar essa posição solta na redação oficial. A análise deve explicitar esse recorte, em vez de atribuir uma preferência institucional a toda situação de comunicação.\n\n### Infinitivo: cuidado com regras absolutas de atração\n\nCom infinitivo impessoal, há contextos em que se admite anteposição ou posposição mesmo após palavra atrativa ou preposição: **para não me prejudicar / para não prejudicar-me**; **receio de lhe contar / receio de contar-lhe**. No padrão do manual consultado, se o infinitivo é regido por **a** ou **por** e o pronome é **o/a/os/as**, usa-se a ligação depois: **começou a examiná-lo**, **fez tudo por encontrá-la**.\n\nO exemplo **Não se devem negligenciar os prazos** é correto. A existência de uma construção correta não prova que toda outra posição esteja proibida: a forma do verbo principal e o padrão adotado precisam ser considerados. Na análise de questões objetivas, descarte uma alternativa pelo erro que ela efetivamente contém, não por uma regra genérica sem condição de aplicação.\n\n### Pontuação e alcance do fator\n\nEm **Hoje, não me entregaram a cópia**, a vírgula após hoje não impede a próclise exigida por não. Em **Quando o atendimento terminou, entregaram-me a cópia**, a conjunção da primeira oração não determina a posição na segunda. Em **A pessoa que, ontem, me atendeu foi atenciosa**, a intercalação não autoriza ignorar a estrutura da oração relativa. É preciso localizar o verbo a que o pronome pertence, seus fatores e eventuais intercalações.\n\n### Como justificar uma resposta\n\n1. Identifique o pronome átono e o verbo ou a locução a que se liga.\n2. Confira a forma verbal: tempo simples, infinitivo, gerúndio ou particípio.\n3. Examine o início do período, os termos anteriores e o alcance dos fatores de próclise.\n4. Verifique se há mais de uma posição admitida.\n5. Releia a grafia: hífen, retirada de consoante e acento podem mudar.\n\nAs questões de crase e concordância conservadas neste bloco são **revisão interdisciplinar**, não substituem a exposição de colocação pronominal. Seus fundamentos próprios estão nas aulas 10, 11 e 12.\n\nFontes: Manual de Redação da Câmara, seções 6.5.4–6.5.5; Aulete, Pronomes pessoais. O recorte formal e as alternativas admitidas são parte da regra, não observações dispensáveis.",
+      "modoB_markdown": "- Locução: identificar auxiliar e principal.\n- Infinitivo/gerúndio admitem posições diferentes das do particípio.\n- Com particípio, o pronome se liga ao auxiliar, não ao particípio.\n- Não lhe podemos enviar / Não podemos enviar-lhe: duas construções formais admitidas.\n- Vírgula não elimina um fator posterior: Hoje, não me avisaram.\n- As questões de concordância/crase deste bloco são revisão interdisciplinar.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">13.2 — Locuções verbais, infinitivo e variação admitida</h3><p>Uma locução combina auxiliar e verbo principal: <strong>pode informar</strong>, <strong>está preparando</strong>, <strong>tinha enviado</strong>. Identifique a forma do principal antes de escolher a colocação. A regra de um verbo isolado não pode ser aplicada mecanicamente à locução inteira.</p><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Construção de referência formal</th><th class=\"p-2 border border-slate-300 text-left\">Exemplos autorais</th><th class=\"p-2 border border-slate-300 text-left\">O que conferir</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Auxiliar + infinitivo, sem atração</td><td class=\"p-2 border border-slate-200 align-top\">Podemos-lhe entregar a cópia. / Podemos entregar-lhe a cópia.</td><td class=\"p-2 border border-slate-200 align-top\">Pronome ligado ao auxiliar ou ao infinitivo.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Auxiliar + infinitivo, com negação</td><td class=\"p-2 border border-slate-200 align-top\">Não lhe podemos entregar a cópia. / Não podemos entregar-lhe a cópia.</td><td class=\"p-2 border border-slate-200 align-top\">A atração impede <strong>não podemos-lhe</strong>; a ligação ao infinitivo permanece admitida.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Auxiliar + gerúndio, sem atração</td><td class=\"p-2 border border-slate-200 align-top\">Estava-lhe explicando o procedimento. / Estava explicando-lhe o procedimento.</td><td class=\"p-2 border border-slate-200 align-top\">O principal não é particípio.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Auxiliar + particípio</td><td class=\"p-2 border border-slate-200 align-top\">Haviam-lhe comunicado a decisão. / Não lhe haviam comunicado a decisão.</td><td class=\"p-2 border border-slate-200 align-top\">O pronome não se liga depois de comunicado.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Auxiliar no futuro + infinitivo</td><td class=\"p-2 border border-slate-200 align-top\">Poder-lhe-emos enviar o comprovante. / Poderemos enviar-lhe o comprovante.</td><td class=\"p-2 border border-slate-200 align-top\">Não escrever poderemos-lhe.</td></tr></tbody></table></div><p>Essas alternativas seguem o modelo formal de referência, não uma descrição de todas as construções do português brasileiro. O uso de pronome sem hífen entre os verbos, como em <strong>pode me informar</strong>, é corrente no Brasil; o Manual da Câmara consultado recomenda evitar essa posição solta na redação oficial. A análise deve explicitar esse recorte, em vez de atribuir uma preferência institucional a toda situação de comunicação.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Infinitivo: cuidado com regras absolutas de atração</h4><p>Com infinitivo impessoal, há contextos em que se admite anteposição ou posposição mesmo após palavra atrativa ou preposição: <strong>para não me prejudicar / para não prejudicar-me</strong>; <strong>receio de lhe contar / receio de contar-lhe</strong>. No padrão do manual consultado, se o infinitivo é regido por <strong>a</strong> ou <strong>por</strong> e o pronome é <strong>o/a/os/as</strong>, usa-se a ligação depois: <strong>começou a examiná-lo</strong>, <strong>fez tudo por encontrá-la</strong>.</p><p>O exemplo <strong>Não se devem negligenciar os prazos</strong> é correto. A existência de uma construção correta não prova que toda outra posição esteja proibida: a forma do verbo principal e o padrão adotado precisam ser considerados. Na análise de questões objetivas, descarte uma alternativa pelo erro que ela efetivamente contém, não por uma regra genérica sem condição de aplicação.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Pontuação e alcance do fator</h4><p>Em <strong>Hoje, não me entregaram a cópia</strong>, a vírgula após hoje não impede a próclise exigida por não. Em <strong>Quando o atendimento terminou, entregaram-me a cópia</strong>, a conjunção da primeira oração não determina a posição na segunda. Em <strong>A pessoa que, ontem, me atendeu foi atenciosa</strong>, a intercalação não autoriza ignorar a estrutura da oração relativa. É preciso localizar o verbo a que o pronome pertence, seus fatores e eventuais intercalações.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Como justificar uma resposta</h4><p>1. Identifique o pronome átono e o verbo ou a locução a que se liga.</p><p>2. Confira a forma verbal: tempo simples, infinitivo, gerúndio ou particípio.</p><p>3. Examine o início do período, os termos anteriores e o alcance dos fatores de próclise.</p><p>4. Verifique se há mais de uma posição admitida.</p><p>5. Releia a grafia: hífen, retirada de consoante e acento podem mudar.</p><p>As questões de crase e concordância conservadas neste bloco são <strong>revisão interdisciplinar</strong>, não substituem a exposição de colocação pronominal. Seus fundamentos próprios estão nas aulas 10, 11 e 12.</p><p>Fontes: Manual de Redação da Câmara, seções 6.5.4–6.5.5; Aulete, Pronomes pessoais. O recorte formal e as alternativas admitidas são parte da regra, não observações dispensáveis.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Locução: identificar auxiliar e principal.</li><li>Infinitivo/gerúndio admitem posições diferentes das do particípio.</li><li>Com particípio, o pronome se liga ao auxiliar, não ao particípio.</li><li>Não lhe podemos enviar / Não podemos enviar-lhe: duas construções formais admitidas.</li><li>Vírgula não elimina um fator posterior: Hoje, não me avisaram.</li><li>As questões de concordância/crase deste bloco são revisão interdisciplinar.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão da Apostila / Regência e Crase — 2024) Considere o período adaptado da sua apostila:\n'As tecnologias digitais trouxeram grandes transformações para a educação, modificando processos que são compreendidos como benéficos por dinamizarem a aula e permitirem acesso mais rápido ___ diversas informações.'\nA lacuna desse período deve ser preenchida, segundo a norma-padrão, por:",
+          "options": [
+            "A) à (com acento grave obrigatório, por ser locução feminina).",
+            "B) a (apenas preposição 'a' exigida pelo substantivo 'acesso', sem acento grave porque precede expressão feminina no plural sem artigo).",
+            "C) há (do verbo haver indicando tempo decorrido).",
+            "D) às (obrigatoriamente com artigo definido, pois 'diversas' exige artigo)."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Questão trabalhada na sua apostila! O substantivo 'acesso' rege a preposição 'a' (acesso a algo); porém, antes da expressão plural indeterminada 'diversas informações', ocorre apenas a preposição simples 'a', sendo proibido o sinal indicativo de crase ('a' no singular + palavra no plural = crase proibida!)."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que a concordância verbal e nominal respeita integralmente a norma-padrão da Língua Portuguesa:",
+          "options": [
+            "A) Fazem três anos que não haviam tantos casos de dengue na região.",
+            "B) Faz três anos que não havia tantos casos de dengue na região, e seguem anexas as planilhas do LIRAa.",
+            "C) É proibido a entrada de pessoas estranhas no depósito de inseticidas.",
+            "D) A paciente estava meia cansada após a caminhada sob o sol."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O verbo 'fazer' indicando tempo decorrido ('Faz três anos') e o verbo 'haver' no sentido de existir ('não havia tantos casos') são impessoais e ficam na 3ª pessoa do singular; além disso, 'anexas' concorda com 'as planilhas'. Erros: na C, como há artigo 'a', o correto é 'É proibida a entrada'; na D, o advérbio é invariável ('meio cansada'); na A, 'haver' e 'fazer' foram flexionados indevidamente no plural."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Concordância, Regência e Crase — Perfil Edital SEMUSA/IBGP) Assinale a alternativa que está INTEGRALMENTE de acordo com as normas de concordância verbal e nominal, regência e crase da língua portuguesa:",
+          "options": [
+            "A) Houveram bastantes reclamações no bairro, o que implicou em novas vistorias à partir das 8 horas.",
+            "B) Fazem dois meses que precisa-se de novos equipamentos, mas é proibido a entrada sem crachá.",
+            "C) Deve haver soluções rápidas, pois o programa visa à proteção da comunidade e implica medidas rigorosas de vigilância.",
+            "D) Os agentes ficaram meios preocupados porque preferem mais atuar no campo do que ficar na sala."
+          ],
+          "ans": 2,
+          "comment": "Gabarito: C. 'Deve haver soluções' (haver no sentido de existir é impessoal e mantém a locução no singular); 'visa à proteção' (visar no sentido de almejar é VTI e pede preposição 'a' + artigo 'a' = crase); 'implica medidas' (implicar no sentido de acarretar é VTD direto sem 'em'). Erros da A: 'Houve bastantes reclamações', 'implicou novas vistorias' (sem 'em') e 'a partir' (sem crase antes de verbo). Erros da B: 'Faz dois meses' e 'é proibida a entrada' (com artigo 'a' concorda!). Erros da D: 'meio preocupados' (advérbio invariável) e 'preferem atuar no campo a ficar na sala' (sem 'mais' e sem 'do que')."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Colocação Pronominal e Crase Facultativa — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que a colocação pronominal obedece à norma-padrão e em que o acento grave indicativo de crase é FACULTATIVO (podendo ser retirado sem prejuízo à correção gramatical):",
+          "options": [
+            "A) Me entregaram o relatório ontem às 14 horas.",
+            "B) Nunca esquecerei-me do apoio que o agente deu à comunidade.",
+            "C) Jamais se descuidem da prevenção e enviem os dados até à sua supervisora.",
+            "D) Realizarão-se novos exames quando o médico solicitar à equipe."
+          ],
+          "ans": 2,
+          "comment": "Gabarito: C. O advérbio negativo 'Jamais' exige próclise ('Jamais se descuidem'); e tanto após a preposição 'até' quanto antes do pronome possessivo feminino singular 'sua' ('até à sua supervisora' / 'até a sua supervisora') o uso da crase é FACULTATIVO! Erro da A: proibido iniciar frase com pronome átono ('Me'). Erro da B: 'Nunca' atrai próclise ('Nunca me esquecerei'). Erro da D: proibido ênclise no futuro ('Realizar-se-ão')."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Por que não há crase em 'responder a questões' nem em 'acesso a diversas informações'?",
+          "front": "Por que não há crase em 'responder a questões' nem em 'acesso a diversas informações'?",
+          "b": "Porque o 'a' está no singular (apenas preposição) antes de palavras femininas no plural (sem artigo 'as'). Regra: 'A' no singular + palavra no plural = Crase Proibida!",
+          "back": "Porque o 'a' está no singular (apenas preposição) antes de palavras femininas no plural (sem artigo 'as'). Regra: 'A' no singular + palavra no plural = Crase Proibida!",
+          "lessonTitle": "13. Colocação pronominal"
+        },
+        {
+          "f": "Quais são os 3 casos em que o uso da crase é FACULTATIVO?",
+          "front": "Quais são os 3 casos em que o uso da crase é FACULTATIVO?",
+          "b": "Mnemônico 'ATÉ SUA MARIA':\n1. Depois da preposição ATÉ;\n2. Antes de pronome possessivo feminino singular (minha, tua, sua);\n3. Antes de nome próprio feminino.",
+          "back": "Mnemônico 'ATÉ SUA MARIA':\n1. Depois da preposição ATÉ;\n2. Antes de pronome possessivo feminino singular (minha, tua, sua);\n3. Antes de nome próprio feminino.",
+          "lessonTitle": "13. Colocação pronominal"
+        },
+        {
+          "f": "Como ficam os verbos HAVER (no sentido de existir) e FAZER (indicando tempo decorrido)?",
+          "front": "Como ficam os verbos HAVER (no sentido de existir) e FAZER (indicando tempo decorrido)?",
+          "b": "São verbos IMPESSOAIS (sem sujeito) e ficam SEMPRE na 3ª pessoa do singular ('Havia muitos casos', 'Deve haver soluções', 'Faz dez anos').",
+          "back": "São verbos IMPESSOAIS (sem sujeito) e ficam SEMPRE na 3ª pessoa do singular ('Havia muitos casos', 'Deve haver soluções', 'Faz dez anos').",
+          "lessonTitle": "13. Colocação pronominal"
+        },
+        {
+          "f": "Por que na frase 'É proibido entrada' o adjetivo fica no masculino, mas em 'É proibida a entrada' vai para o feminino?",
+          "front": "Por que na frase 'É proibido entrada' o adjetivo fica no masculino, mas em 'É proibida a entrada' vai para o feminino?",
+          "b": "Porque as expressões 'é proibido, é necessário, é bom, é permitido' ficam invariáveis quando o substantivo não tem determinante, mas concordam obrigatoriamente quando o substantivo vem antecedido de artigo ou pronome ('a entrada').",
+          "back": "Porque as expressões 'é proibido, é necessário, é bom, é permitido' ficam invariáveis quando o substantivo não tem determinante, mas concordam obrigatoriamente quando o substantivo vem antecedido de artigo ou pronome ('a entrada').",
+          "lessonTitle": "13. Colocação pronominal"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 13.3 — Correções comentadas e limites dos atalhos",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 13: Colocação pronominal)",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">13.3 — Conferência e correção comentada</h3><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Forma a revisar no registro formal</th><th class=\"p-2 border border-slate-300 text-left\">Correção possível</th><th class=\"p-2 border border-slate-300 text-left\">Justificativa</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Nunca esquecerei-me do prazo.</td><td class=\"p-2 border border-slate-200 align-top\">Nunca me esquecerei do prazo.</td><td class=\"p-2 border border-slate-200 align-top\">Próclise com a negação; não há ênclise na forma completa do futuro.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Realizarão-se novas reuniões.</td><td class=\"p-2 border border-slate-200 align-top\">Realizar-se-ão novas reuniões.</td><td class=\"p-2 border border-slate-200 align-top\">Mesóclise no início do período formal.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Quando encerrar-se a reunião...</td><td class=\"p-2 border border-slate-200 align-top\">Quando se encerrar a reunião...</td><td class=\"p-2 border border-slate-200 align-top\">Próclise na subordinada introduzida por quando.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">A equipe havia deslocado-se.</td><td class=\"p-2 border border-slate-200 align-top\">A equipe se havia deslocado.</td><td class=\"p-2 border border-slate-200 align-top\">O particípio não recebe pronome enclítico.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Ontem, não entregaram-me a ficha.</td><td class=\"p-2 border border-slate-200 align-top\">Ontem, não me entregaram a ficha.</td><td class=\"p-2 border border-slate-200 align-top\">Não continua sendo fator de próclise apesar da vírgula anterior.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Não podemos-lhe enviar a cópia.</td><td class=\"p-2 border border-slate-200 align-top\">Não lhe podemos enviar a cópia. / Não podemos enviar-lhe a cópia.</td><td class=\"p-2 border border-slate-200 align-top\">A posição depois do auxiliar não é a adotada com atração; há duas correções admitidas.</td></tr></tbody></table></div><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">O que os atalhos não permitem concluir</h4><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Todo se não é apassivador.</strong> Em <strong>Ela se preparou</strong>, há leitura reflexiva; em <strong>Ela se arrependeu</strong>, o pronome integra o verbo. A função do pronome e sua colocação são análises relacionadas, mas diferentes.</li><li><strong>Toda pergunta não exige a mesma posição.</strong> Examine o vocábulo interrogativo e a estrutura, não apenas o ponto de interrogação.</li><li><strong>Toda vírgula não obriga ênclise.</strong> Pode haver negação, relativo ou outra estrutura depois dela.</li><li><strong>Todo futuro sem negação não exige mesóclise.</strong> Considere o sujeito expresso e as posições admitidas.</li><li><strong>Toda locução não segue a regra do particípio.</strong> Infinitivo e gerúndio permitem construções que um particípio não permite.</li></ul><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Questões e cartões</h4><p>Confira o erro específico de cada alternativa. Nos comentários, uma correção possível não deve ser tratada como a única correção quando a norma admite outra. A identificação da banca ou de uma apostila depende de autenticação do original; a análise linguística não comprova autoria.</p><p>Ao concluir, o estudante deve conseguir explicar a posição escolhida e suas condições, reconhecer posições alternativas admitidas e distinguir a escrita formal de outros registros do português brasileiro.</p></div><!-- AUDITORIA:POR13 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Síntese das Posições nas Locuções Verbais e no Infinitivo Preposicionado</h4><p>1. <strong>Auxiliar + Infinitivo ou Gerúndio</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Sem fator de próclise antes da locução: <em>\"Quero <strong>explicar-lhe</strong>\"</em> / <em>\"Quero-<strong>lhe</strong> explicar\"</em> / <em>\"Quero <strong>lhe</strong> explicar\"</em>.</li><li>Com palavra atrativa antes do auxiliar (<em>não, nunca, já, que</em>): o pronome antecede o auxiliar (<strong>próclise ao auxiliar</strong>: <em>\"Não <strong>lhe</strong> quero explicar\"</em>) ou pospõe-se ao verbo principal (<strong>ênclise ao infinitivo/gerúndio</strong>: <em>\"Não quero <strong>explicar-lhe</strong>\"</em>). No português brasileiro culto, ocorre também a posição medial sem hífen.</li></ul><p>2. <strong>Auxiliar + Particípio</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>O particípio <strong>jamais admite ênclise</strong>. Portanto, o pronome coloca-se proclítico ou enclítico ao verbo auxiliar (conforme haja ou não palavra atrativa): <em>\"O documento <strong>havia-se</strong> extraviado\"</em> / <em>\"Não <strong>se</strong> havia extraviado\"</em> (nunca <em>\"havia extraviado-se\"</em>).</li></ul><p>3. <strong>Preposição <em>Para</em> + Infinitivo</strong>: mesmo precedido de <em>não</em>, o infinitivo regido pela preposição <em>para</em> admite tanto a próclise quanto a ênclise (<em>\"Para não <strong>o</strong> incomodar\"</em> ou <em>\"Para não <strong>incomodá-lo</strong>\"</em>).</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Nunca me esquecerei; realizar-se-ão; quando se encerrar; a equipe se havia deslocado.</li><li>Confira forma verbal, fatores, alcance, posições alternativas e grafia.</li><li>Função de se e colocação são análises distintas.</li><li>Fonte e autoria de questão exigem autenticação independente.</li></ul></div><!-- AUDITORIA:POR13 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Particípio nunca recebe ênclise: posicionar o pronome junto ao auxiliar.</li><li>Com \"para + não + infinitivo\", tanto próclise quanto ênclise são abonadas pela norma-padrão.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Colocação Pronominal) Assinale a alternativa em que a colocação do pronome oblíquo átono obedece rigorosamente à norma-padrão da língua portuguesa:",
+          "options": [
+            "Me informaram que os novos equipamentos chegarão amanhã.",
+            "Quando encerrar-se o ciclo do LIRAa, divulgarão-se os índices por bairro.",
+            "Nunca se devem negligenciar os depósitos de água ao nível do solo.",
+            "A equipe havia deslocado-se rapidamente para o distrito de Jaci-Paraná."
+          ],
+          "ans": 2,
+          "comment": "Em C, o advérbio negativo \"Nunca\" é palavra atrativa que exige próclise (\"Nunca se devem...\"). Em A, iniciou-se período com oblíquo; em B, \"Quando\" exige próclise (\"Quando se encerrar\") e futuro proíbe ênclise (\"divulgar-se-ão\"); em D, particípio proíbe ênclise (\"havia-se deslocado\")."
+        },
+        {
+          "auditId": "por_13-autoral-1",
+          "q": "(Autoral — Locuções Verbais com Infinitivo e Particípio) Assinale a alternativa em que a colocação pronominal na locução verbal respeita integralmente a norma-padrão:",
+          "options": [
+            "Os relatórios não tinham sido entregues a tempo, mas a equipe já os havia conferido.",
+            "Os relatórios tinham extraviado-se durante o transporte para a regional.",
+            "Nunca haviam avisado-nos sobre a mudança do horário da reunião.",
+            "A coordenação tinha orientado-lhes sobre o preenchimento das fichas."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Diante do advérbio \"já\", o pronome oblíquo \"os\" posiciona-se proclítico ao verbo auxiliar \"havia\" (\"já os havia conferido\"). Nas alternativas B, C e D houve ênclise ao particípio (\"extraviado-se\", \"avisado-nos\", \"orientado-lhes\"), construção rejeitada pela norma-padrão."
+        },
+        {
+          "auditId": "por_13-autoral-2",
+          "q": "(Autoral — Alcance da Atração e Infinitivo Preposicionado) Analise as frases: I. \"Passado o período chuvoso, iniciaram-se os mutirões de limpeza.\" / II. \"A supervisora revisou o texto para não o comprometer (ou: para não comprometê-lo).\" Sobre a colocação pronominal em I e II:",
+          "options": [
+            "Ambas estão corretas: em I, a oração reduzida anteposta isolada por vírgula não exerce atração sobre o verbo principal; em II, o infinitivo regido por \"para\" admite próclise ou ênclise mesmo com \"não\".",
+            "Ambas estão incorretas, pois qualquer palavra antes do verbo obriga à próclise e o advérbio \"não\" proíbe \"comprometê-lo\".",
+            "Apenas I está correta, pois o infinitivo jamais admite ênclise.",
+            "Apenas II está correta, pois em I deveria ocorrer mesóclise (\"iniciar-se-iam\")."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, após a pausa da oração reduzida anteposta (\"Passado o período chuvoso,\"), emprega-se regularmente a ênclise (\"iniciaram-se\"). Em II, com \"para + não + infinitivo\", os manuais normativos abonam tanto \"para não o comprometer\" quanto \"para não comprometê-lo\"."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quais são as 3 proibições absolutas de colocação pronominal na norma-padrão?",
+          "b": "A restrição recai sobre a ênclise às formas simples do Futuro do Presente e do Futuro do Pretérito do Indicativo (e ao particípio). Nas locuções com infinitivo ou gerúndio, o pronome pode pospor-se à forma nominal.",
+          "lessonTitle": "13. Colocação pronominal",
+          "back": "A restrição recai sobre a ênclise às formas simples do Futuro do Presente e do Futuro do Pretérito do Indicativo (e ao particípio). Nas locuções com infinitivo ou gerúndio, o pronome pode pospor-se à forma nominal."
+        },
+        {
+          "f": "Uma vírgula após advérbio obriga sempre a ênclise?",
+          "b": "Não. Em \"Ontem, avisaram-me\", há ênclise sem outro fator. Mas em \"Ontem, ninguém me avisou\", ninguém continua exigindo próclise. Examine a estrutura e os fatores depois da vírgula.",
+          "front": "Uma vírgula após advérbio obriga sempre a ênclise?",
+          "back": "Não. Em \"Ontem, avisaram-me\", há ênclise sem outro fator. Mas em \"Ontem, ninguém me avisou\", ninguém continua exigindo próclise. Examine a estrutura e os fatores depois da vírgula.",
+          "lessonTitle": "13. Colocação pronominal"
+        }
+      ],
+      "modoA_markdown": "## 13.3 — Conferência e correção comentada\n\n| Forma a revisar no registro formal | Correção possível | Justificativa |\n|---|---|---|\n| Nunca esquecerei-me do prazo. | Nunca me esquecerei do prazo. | Próclise com a negação; não há ênclise na forma completa do futuro. |\n| Realizarão-se novas reuniões. | Realizar-se-ão novas reuniões. | Mesóclise no início do período formal. |\n| Quando encerrar-se a reunião... | Quando se encerrar a reunião... | Próclise na subordinada introduzida por quando. |\n| A equipe havia deslocado-se. | A equipe se havia deslocado. | O particípio não recebe pronome enclítico. |\n| Ontem, não entregaram-me a ficha. | Ontem, não me entregaram a ficha. | Não continua sendo fator de próclise apesar da vírgula anterior. |\n| Não podemos-lhe enviar a cópia. | Não lhe podemos enviar a cópia. / Não podemos enviar-lhe a cópia. | A posição depois do auxiliar não é a adotada com atração; há duas correções admitidas. |\n\n### O que os atalhos não permitem concluir\n\n- **Todo se não é apassivador.** Em **Ela se preparou**, há leitura reflexiva; em **Ela se arrependeu**, o pronome integra o verbo. A função do pronome e sua colocação são análises relacionadas, mas diferentes.\n- **Toda pergunta não exige a mesma posição.** Examine o vocábulo interrogativo e a estrutura, não apenas o ponto de interrogação.\n- **Toda vírgula não obriga ênclise.** Pode haver negação, relativo ou outra estrutura depois dela.\n- **Todo futuro sem negação não exige mesóclise.** Considere o sujeito expresso e as posições admitidas.\n- **Toda locução não segue a regra do particípio.** Infinitivo e gerúndio permitem construções que um particípio não permite.\n\n### Questões e cartões\n\nConfira o erro específico de cada alternativa. Nos comentários, uma correção possível não deve ser tratada como a única correção quando a norma admite outra. A identificação da banca ou de uma apostila depende de autenticação do original; a análise linguística não comprova autoria.\n\nAo concluir, o estudante deve conseguir explicar a posição escolhida e suas condições, reconhecer posições alternativas admitidas e distinguir a escrita formal de outros registros do português brasileiro.<!-- AUDITORIA:POR13 -->\n\n### Síntese das Posições nas Locuções Verbais e no Infinitivo Preposicionado\n1. **Auxiliar + Infinitivo ou Gerúndio**:\n   - Sem fator de próclise antes da locução: *\"Quero **explicar-lhe**\"* / *\"Quero-**lhe** explicar\"* / *\"Quero **lhe** explicar\"*.\n   - Com palavra atrativa antes do auxiliar (*não, nunca, já, que*): o pronome antecede o auxiliar (**próclise ao auxiliar**: *\"Não **lhe** quero explicar\"*) ou pospõe-se ao verbo principal (**ênclise ao infinitivo/gerúndio**: *\"Não quero **explicar-lhe**\"*). No português brasileiro culto, ocorre também a posição medial sem hífen.\n2. **Auxiliar + Particípio**:\n   - O particípio **jamais admite ênclise**. Portanto, o pronome coloca-se proclítico ou enclítico ao verbo auxiliar (conforme haja ou não palavra atrativa): *\"O documento **havia-se** extraviado\"* / *\"Não **se** havia extraviado\"* (nunca *\"havia extraviado-se\"*).\n3. **Preposição *Para* + Infinitivo**: mesmo precedido de *não*, o infinitivo regido pela preposição *para* admite tanto a próclise quanto a ênclise (*\"Para não **o** incomodar\"* ou *\"Para não **incomodá-lo**\"*).",
+      "modoB_markdown": "- Nunca me esquecerei; realizar-se-ão; quando se encerrar; a equipe se havia deslocado.\n- Confira forma verbal, fatores, alcance, posições alternativas e grafia.\n- Função de se e colocação são análises distintas.\n- Fonte e autoria de questão exigem autenticação independente.<!-- AUDITORIA:POR13 -->\n- Particípio nunca recebe ênclise: posicionar o pronome junto ao auxiliar.\n- Com \"para + não + infinitivo\", tanto próclise quanto ênclise são abonadas pela norma-padrão."
+    }
+  ],
+  "questionsCount": 8,
+  "flashcardsCount": 8,
+  "sources": [
+    95,
+    96,
+    97,
+    110,
+    112
+  ]
+}

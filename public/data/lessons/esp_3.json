@@ -1,0 +1,392 @@
+{
+  "id": "esp_3",
+  "num": 5,
+  "slug": "05-lei-11350-2006-carreira-ace-vs-anexo-ii-semusa",
+  "subjectFolder": "conhecimentos-especificos",
+  "mdPath": "./content/revisao/esp_3.md",
+  "mdLegacyPath": "./content/esp_5.md",
+  "cat": "esp",
+  "catName": "Conhecimentos Específicos ACE",
+  "weight": "15 Questões • Peso 2 (30 pts)",
+  "title": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018",
+  "editalRef": "3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018 (incluindo Lei nº 14.536/2023 e EC nº 120/2022).",
+  "auditBadge": "CATEGORIA 3 DO EDITAL — MARCO LEGAL INTEGRAL DO ACE (11.350 + 13.708 + 13.595)",
+  "sources": [
+    61,
+    86,
+    87,
+    88,
+    89,
+    91,
+    98,
+    99
+  ],
+  "questionsCount": 11,
+  "flashcardsCount": 12,
+  "mindMap": {
+    "centralTitle": "3. Leis Federais da Carreira de ACE: Lei nº 11.350/2006 + Lei nº 13.708/2018 + Lei nº 13.595/2018",
+    "mnemonic": "Lei 11.350: marco legal; 13.595 e 13.708: alterações de 2018; 14.799/2024: denominação Ruth Brilhante. Jornada: art. 9º-A, § 2º vigente; incisos 30/10 revogados.",
+    "deadlinesAndNumbers": [
+      {
+        "value": "40 horas",
+        "label": "Jornada para garantia do piso; incisos 30/10 revogados"
+      },
+      {
+        "value": "A cada 2 anos",
+        "label": "Aperfeiçoamento: art. 5º, § 2º, sem mínimo de 200h nesse dispositivo"
+      },
+      {
+        "value": "95% do Piso",
+        "label": "Assistência financeira complementar da União aos Municípios (Art. 9º-C)"
+      },
+      {
+        "value": "2 Salários Mínimos",
+        "label": "Piso Nacional vigente por força da EC nº 120/2022 (R$ 3.242,00 no Anexo I SEMUSA PVH)"
+      }
+    ],
+    "branches": [
+      {
+        "title": "1. História e Evolução da Profissão de ACE (1903–2023)",
+        "icon": "📜",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Brigadas de Oswaldo Cruz -> DNERu (1956) -> SUCAM (1970)",
+            "detail": "Origens no modelo sanitarista-campanhista vertical (febre amarela, malária na EFMM e endemias rurais com os antigos Guardas de Endemias da SUCAM).",
+            "badge": "Raízes Históricas"
+          },
+          {
+            "label": "FUNASA (1991) e Descentralização (Portaria 1.399/1999)",
+            "detail": "Fusão da SUCAM com a Fundação SESP criando a FUNASA, seguida da municipalização das ações de vigilância e controle de endemias para as Secretarias Municipais (SEMUSA).",
+            "badge": "Municipalização"
+          },
+          {
+            "label": "EC 51/2006, Lei 11.350/2006, EC 120/2022 e Lei 14.536/2023",
+            "detail": "Criação formal do cargo de ACE via Processo Seletivo Público, piso de 2 salários mínimos (EC 120/22) e reconhecimento como profissional de saúde regulamentado (Lei 14.536/23).",
+            "badge": "Carreira Constitucional"
+          }
+        ]
+      },
+      {
+        "title": "2. Atribuições do Agente de Combate a Endemias (Arts. 3º a 4º-A)",
+        "icon": "🦟",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Atribuições Típicas do ACE (Art. 4º, § 1º — Lei 13.595/2018)",
+            "detail": "Vigilância, prevenção e controle de doenças: pesquisa entomológica/malacológica, cadastramento de imóveis, controle mecânico/químico/biológico e educação comunitária.",
+            "badge": "11 Atividades Típicas"
+          },
+          {
+            "label": "Atividades Assistidas por Nível Superior (Art. 4º, § 2º)",
+            "detail": "Vacinação animal, coleta/transporte de amostras biológicas de animais, investigação diagnóstica laboratorial e auxílio ao Médico Veterinário em necropsia de animais.",
+            "badge": "Supervisão Superior"
+          },
+          {
+            "label": "Atribuições Compartilhadas ACE + ACS (Art. 4º-A e PNAB)",
+            "detail": "Atuação integrada em Território Único: diagnóstico demográfico/ambiental, visitas domiciliares conjuntas, georreferenciamento e busca ativa de casos suspeitos.",
+            "badge": "Território Único"
+          }
+        ]
+      },
+      {
+        "title": "Jornada de 40h — redação vigente",
+        "icon": "⚖️",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Escalonamento do Piso (2019–2021) e EC 120/2022 (2 SM)",
+            "detail": "A Lei 13.708/2018 escalonou o piso nacional (R$ 1.250 em 2019; R$ 1.400 em 2020; R$ 1.550 em 2021) com reajuste em 1º de janeiro. A EC 120/2022 elevou para 2 salários mínimos.",
+            "badge": "Art. 9º-A, §§ 1º e 5º"
+          },
+          {
+            "label": "Jornada de 40h — redação vigente",
+            "detail": "A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente.",
+            "badge": "40h; 30/10 revogado"
+          },
+          {
+            "label": "Custeio de Locomoção (Art. 9º-H) e Curso Técnico (Art. 5º, § 2º-A)",
+            "detail": "Compete ao ente federado fornecer ou custear a locomoção de campo (Art. 9º-H). Cursos técnicos de ACE podem ser presenciais ou semipresenciais segundo diretrizes do CNE.",
+            "badge": "Lei 13.708/2018"
+          }
+        ]
+      },
+      {
+        "title": "4. Requisitos de Ingresso, Acumulação e Vedação de Terceirização",
+        "icon": "🛡️",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Requisitos do ACE (Art. 7º) vs. ACS (Art. 6º)",
+            "detail": "ACE exige Ensino Médio + Curso Introdutório de formação inicial (mínimo 40h), NÃO exigindo morar na microárea (requisito exclusivo do ACS no Art. 6º, I e Art. 10, parágrafo único).",
+            "badge": "Art. 7º Lei 11.350"
+          },
+          {
+            "label": "Acumulação de 2 Cargos de Saúde (Lei 14.536/2023 — Art. 2º-A)",
+            "detail": "ACE e ACS são profissionais de saúde regulamentados para fins do Art. 37, XVI, \"c\" da CF/88, podendo acumular 2 cargos públicos de saúde se houver compatibilidade de horários.",
+            "badge": "Lei 14.536/2023"
+          },
+          {
+            "label": "Vedação de Contratação Temporária ou Terceirizada (Art. 16)",
+            "detail": "É proibida a contratação temporária ou terceirizada de ACS e ACE, SALVO na hipótese de combate a surtos epidêmicos, na forma da lei aplicável.",
+            "badge": "Art. 16 Lei 11.350"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 3.1 — Lei 11.350/2006 e leis modificadoras: jornada, formação e remuneração",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h2 class=\"text-lg font-extrabold text-slate-900 mt-3\">Lei 11.350/2006 e leis modificadoras: jornada, formação e remuneração</h2><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Como ler as três leis do programa</h3><p>A Lei 11.350/2006 é a lei de referência. As Leis 13.595/2018 e 13.708/2018 são leis modificadoras: é preciso identificar quais dispositivos acrescentaram, alteraram ou revogaram. A redação introduzida em janeiro de 2018 não pode ser apresentada como vigente se foi revogada em agosto do mesmo ano. A denominação <strong>Lei Ruth Brilhante</strong> foi acrescentada à Lei 11.350 pela <strong>Lei 14.799/2024</strong>, e não é o nome legal da Lei 13.595/2018.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Jornada: redação vigente e redação histórica</h3><p>O art. 9º-A, § 2º, trata da jornada de <strong>40 horas semanais</strong> vinculada à garantia do piso. Abrange ações e serviços de promoção da saúde, vigilância epidemiológica e ambiental e combate a endemias. Assegura participação em planejamento, avaliação, detalhamento das atividades, registro de dados e reuniões de equipe. Essas atividades integram o trabalho; não são tempo livre nem serviço necessariamente extraordinário.</p><p>A divisão fixa <strong>30 horas externas e 10 horas internas</strong> apareceu na redação histórica dos incisos I e II. Esses incisos foram <strong>revogados pela Lei 13.708/2018</strong>. Portanto, é incorreto atribuir ao texto federal vigente uma divisão obrigatória 30/10. Eventual disciplina local da organização do trabalho exige identificar a norma local; não pode ser presumida a partir de dispositivo revogado. O art. 9º-A, § 4º, também manda considerar as condições climáticas na definição do horário de cumprimento da jornada.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Formação inicial e formação técnica</h3><p>O curso de formação inicial com aproveitamento e carga mínima de 40 horas é requisito do ACE no art. 7º. Não se confunde com o curso técnico do art. 5º. O art. 5º, § 3º, admite curso técnico presencial ou semipresencial, conforme diretrizes do Conselho Nacional de Educação. O § 2º prevê aperfeiçoamento a cada dois anos, sem fixar ali carga mínima de 200 horas; o § 2º-A trata de sua organização e financiamento tripartite. A formação e o aperfeiçoamento não dispensam os demais requisitos do cargo.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Piso e custeio da locomoção</h3><p>O escalonamento monetário de 2019–2021 previsto na Lei 13.708 é histórico. Deve ser estudado em conjunto com o piso constitucional de dois salários mínimos do art. 198, § 9º, após a EC 120/2022. Não confundir vencimento, remuneração total, incentivo financeiro transferido ao ente e gratificação local.</p><p>Pelo art. 9º-H, cabe ao ente fornecer ou custear a locomoção necessária ao exercício das atividades, conforme sua regulamentação. A Lei 15.014/2024 acrescentou a possibilidade de indenização de transporte, mediante opção, para ressarcimento do uso de meio próprio nos serviços externos nas condições legais. Isso não transforma qualquer deslocamento particular em despesa automaticamente indenizável.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Referência para conferência</h3><p><a href=\"https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Câmara dos Deputados — Lei 11.350 atualizada</a>: arts. 1º, 5º, 7º, 9º-A e 9º-H; anotações de alteração e revogação. Conferência pontual: 31/10/2026. A versão exigível deve seguir as disposições do edital sobre atualização legislativa.</p></div><!-- EC140:2026 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Atualização constitucional: EC 140/2026</h3><p>A Emenda Constitucional 140 foi promulgada e publicada em <strong>16/10/2026</strong>, entrando em vigor nessa data. O Anexo IV do edital inclui alterações posteriores de normas expressamente indicadas, ressalvada disposição específica. Como o programa exige a Constituição com emendas e os arts. 196 a 200, a alteração do art. 198 precisa integrar a leitura atual.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Quatro diretrizes no art. 198</h4><p>Os incisos I a III continuam: descentralização com direção única em cada esfera; atendimento integral, com prioridade preventiva sem prejuízo da assistência; participação da comunidade. O novo <strong>inciso IV</strong> acrescenta a atuação obrigatória e permanente de ACS e ACE, atividade essencial ao SUS e exclusiva de Estado. Portanto, a fórmula antiga de “três diretrizes constitucionais” já não descreve todo o caput vigente. Não confundir essas quatro diretrizes com o conjunto de princípios e diretrizes da Lei 8.080 ou com a PNAB.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Contratação e vínculo</h4><p>O <strong>§ 4º-A</strong> veda contratação temporária ou terceirizada, ressalvada emergência em saúde pública, na forma da lei. Essa é a redação constitucional atual. O art. 16 da Lei 11.350 contém a expressão “surtos epidêmicos” e deve ser distinguido do texto constitucional; “surto endêmico” não reproduz corretamente nenhuma dessas duas regras.</p><p>O <strong>§ 4º-B</strong> submete os agentes ao regime jurídico dos servidores nomeados para cargo de provimento efetivo. A leitura do art. 8º da Lei 11.350 exige considerar a hierarquia normativa e essa alteração posterior. O art. 12 da EC disciplina regularização de determinados vínculos existentes na data da promulgação, exige seleção pública nas condições ali estabelecidas e fixa prazo até <strong>31/12/2028</strong>. Não é autorização para ingresso sem seleção nem garantia automática a todo contratado precário.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Aposentadoria: regra permanente e transições</h4><p>O § 10 do art. 198 passou a remeter aos requisitos diferenciados dos arts. 40, § 5º-A, e 201, § 8º-A. A regra permanente prevê <strong>57 anos para mulher e 60 para homem</strong>, com <strong>25 anos de contribuição e de efetivo exercício na atividade</strong>. Idade e tempo exigidos são cumulativos.</p><p>Os arts. 3º e 6º da emenda estabelecem transições específicas para quem preenche as condições de ingresso e de regime previstas: até 2030, idades de 50/52 anos; até 2035, 52/54; até 2040, 54/56; a partir de 2041, 57/60, sempre observadas as demais exigências. Há redução de um ano de idade por ano de contribuição e exercício excedente a 25, limitada a cinco anos, nas condições desses artigos.</p><p>Os arts. 4º e 7º contêm outra hipótese de transição, com requisitos próprios de idade, contribuição, exercício e pontos. Integralidade, paridade, benefício extraordinário e revisão de benefícios dependem do regime e das condições dos arts. 3º a 11. Não se deve apresentar as idades permanentes como única regra aplicável nem prometer integralidade irrestrita a todos os agentes.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Fonte e marco da conferência</h4><p><a href=\"https://legis.senado.leg.br/norma/44187742/publicacao/44190103\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Texto da EC 140/2026 no Senado Federal</a>, especialmente arts. 1º–14. Consulta em 31/10/2026. Este texto explica os dispositivos; não substitui o texto oficial nem a análise individual de uma aposentadoria.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente.</p></div><!-- EC140:2026 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Após a EC 140/2026: quatro diretrizes no art. 198; contratação e vínculo nos §§ 4º-A e 4º-B; aposentadoria permanente e transições com requisitos próprios. Fonte: EC 140/2026, arts. 1º–14.</p></div>",
+      "questions": [
+        {
+          "q": "(Inédita — Padrão IBGP 2026) De acordo com a Lei Federal nº 13.708/2018, que alterou a Lei nº 11.350/2006 para regulamentar normas do exercício profissional de Agente de Combate às Endemias (ACE) e Agente Comunitário de Saúde (ACS), assinale a alternativa CORRETA:",
+          "options": [
+            "A) Os cursos técnicos de Agente de Combate às Endemias somente podem ser ministrados na modalidade 100% presencial, sendo vedado o ensino semipresencial.",
+            "B) A jornada de 40 horas semanais compreende ações de saúde e assegura planejamento, avaliação, registro de dados e reuniões de equipe; a Lei 13.708/2018 revogou os incisos que fixavam a divisão 30h/10h.",
+            "C) O custeio da locomoção necessária para o exercício das atividades de campo é de responsabilidade exclusiva e pessoal do próprio Agente de Combate às Endemias.",
+            "D) A jornada de trabalho para recebimento do piso salarial nacional passou a ser de 20 (vinte) horas semanais."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html, art. 9º-A, § 2º e incisos revogados.",
+          "revision": "20261031"
+        },
+        {
+          "q": "(Inédita — Padrão IBGP 2026) Nos termos expressos do Art. 9º-H e do Art. 5º, § 2º-A da Lei Federal nº 11.350/2006, incluídos pela Lei Federal nº 13.708/2018, é CORRETO afirmar que:",
+          "options": [
+            "A) Compete ao ente federado ao qual o ACE esteja vinculado fornecer ou custear a locomoção necessária para o exercício das atividades, conforme regulamento do ente federado; e os cursos técnicos de ACE poderão ser ministrados nas modalidades presencial e semipresencial conforme diretrizes do Conselho Nacional de Educação (CNE).",
+            "B) Compete exclusivamente ao Ministério dos Transportes fornecer veículos individuais a cada ACE, sendo vedada a indenização financeira pelo Município.",
+            "C) O curso técnico de ACE segue as diretrizes do Conselho Federal de Medicina e exige carga horária exclusivamente noturna.",
+            "D) O piso salarial nacional dos ACE somente pode ser reajustado a cada 5 (cinco) anos mediante plebiscito municipal."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. É a literalidade exata do Art. 9º-H e do Art. 5º, § 2º-A da Lei nº 11.350/2006, inseridos pela Lei Federal nº 13.708/2018."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "O que estabelece o Art. 9º-H da Lei nº 11.350/2006, incluído pela Lei Federal nº 13.708/2018?",
+          "b": "Compete ao ente federado ao qual o ACS ou o ACE esteja vinculado FORNECER OU CUSTEAR A LOCOMOÇÃO necessária para o exercício das atividades de campo, conforme regulamento do ente federado.",
+          "front": "O que estabelece o Art. 9º-H da Lei nº 11.350/2006, incluído pela Lei Federal nº 13.708/2018?",
+          "back": "Compete ao ente federado ao qual o ACS ou o ACE esteja vinculado FORNECER OU CUSTEAR A LOCOMOÇÃO necessária para o exercício das atividades de campo, conforme regulamento do ente federado.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "b": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "front": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "back": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        }
+      ],
+      "modoA_markdown": "# Lei 11.350/2006 e leis modificadoras: jornada, formação e remuneração\n\n## Como ler as três leis do programa\nA Lei 11.350/2006 é a lei de referência. As Leis 13.595/2018 e 13.708/2018 são leis modificadoras: é preciso identificar quais dispositivos acrescentaram, alteraram ou revogaram. A redação introduzida em janeiro de 2018 não pode ser apresentada como vigente se foi revogada em agosto do mesmo ano. A denominação **Lei Ruth Brilhante** foi acrescentada à Lei 11.350 pela **Lei 14.799/2024**, e não é o nome legal da Lei 13.595/2018.\n\n## Jornada: redação vigente e redação histórica\nO art. 9º-A, § 2º, trata da jornada de **40 horas semanais** vinculada à garantia do piso. Abrange ações e serviços de promoção da saúde, vigilância epidemiológica e ambiental e combate a endemias. Assegura participação em planejamento, avaliação, detalhamento das atividades, registro de dados e reuniões de equipe. Essas atividades integram o trabalho; não são tempo livre nem serviço necessariamente extraordinário.\n\nA divisão fixa **30 horas externas e 10 horas internas** apareceu na redação histórica dos incisos I e II. Esses incisos foram **revogados pela Lei 13.708/2018**. Portanto, é incorreto atribuir ao texto federal vigente uma divisão obrigatória 30/10. Eventual disciplina local da organização do trabalho exige identificar a norma local; não pode ser presumida a partir de dispositivo revogado. O art. 9º-A, § 4º, também manda considerar as condições climáticas na definição do horário de cumprimento da jornada.\n\n## Formação inicial e formação técnica\nO curso de formação inicial com aproveitamento e carga mínima de 40 horas é requisito do ACE no art. 7º. Não se confunde com o curso técnico do art. 5º. O art. 5º, § 3º, admite curso técnico presencial ou semipresencial, conforme diretrizes do Conselho Nacional de Educação. O § 2º prevê aperfeiçoamento a cada dois anos, sem fixar ali carga mínima de 200 horas; o § 2º-A trata de sua organização e financiamento tripartite. A formação e o aperfeiçoamento não dispensam os demais requisitos do cargo.\n\n## Piso e custeio da locomoção\nO escalonamento monetário de 2019–2021 previsto na Lei 13.708 é histórico. Deve ser estudado em conjunto com o piso constitucional de dois salários mínimos do art. 198, § 9º, após a EC 120/2022. Não confundir vencimento, remuneração total, incentivo financeiro transferido ao ente e gratificação local.\n\nPelo art. 9º-H, cabe ao ente fornecer ou custear a locomoção necessária ao exercício das atividades, conforme sua regulamentação. A Lei 15.014/2024 acrescentou a possibilidade de indenização de transporte, mediante opção, para ressarcimento do uso de meio próprio nos serviços externos nas condições legais. Isso não transforma qualquer deslocamento particular em despesa automaticamente indenizável.\n\n## Referência para conferência\n[Câmara dos Deputados — Lei 11.350 atualizada](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html): arts. 1º, 5º, 7º, 9º-A e 9º-H; anotações de alteração e revogação. Conferência pontual: 31/10/2026. A versão exigível deve seguir as disposições do edital sobre atualização legislativa.<!-- EC140:2026 -->\n## Atualização constitucional: EC 140/2026\n\nA Emenda Constitucional 140 foi promulgada e publicada em **16/10/2026**, entrando em vigor nessa data. O Anexo IV do edital inclui alterações posteriores de normas expressamente indicadas, ressalvada disposição específica. Como o programa exige a Constituição com emendas e os arts. 196 a 200, a alteração do art. 198 precisa integrar a leitura atual.\n\n### Quatro diretrizes no art. 198\nOs incisos I a III continuam: descentralização com direção única em cada esfera; atendimento integral, com prioridade preventiva sem prejuízo da assistência; participação da comunidade. O novo **inciso IV** acrescenta a atuação obrigatória e permanente de ACS e ACE, atividade essencial ao SUS e exclusiva de Estado. Portanto, a fórmula antiga de “três diretrizes constitucionais” já não descreve todo o caput vigente. Não confundir essas quatro diretrizes com o conjunto de princípios e diretrizes da Lei 8.080 ou com a PNAB.\n\n### Contratação e vínculo\nO **§ 4º-A** veda contratação temporária ou terceirizada, ressalvada emergência em saúde pública, na forma da lei. Essa é a redação constitucional atual. O art. 16 da Lei 11.350 contém a expressão “surtos epidêmicos” e deve ser distinguido do texto constitucional; “surto endêmico” não reproduz corretamente nenhuma dessas duas regras.\n\nO **§ 4º-B** submete os agentes ao regime jurídico dos servidores nomeados para cargo de provimento efetivo. A leitura do art. 8º da Lei 11.350 exige considerar a hierarquia normativa e essa alteração posterior. O art. 12 da EC disciplina regularização de determinados vínculos existentes na data da promulgação, exige seleção pública nas condições ali estabelecidas e fixa prazo até **31/12/2028**. Não é autorização para ingresso sem seleção nem garantia automática a todo contratado precário.\n\n### Aposentadoria: regra permanente e transições\nO § 10 do art. 198 passou a remeter aos requisitos diferenciados dos arts. 40, § 5º-A, e 201, § 8º-A. A regra permanente prevê **57 anos para mulher e 60 para homem**, com **25 anos de contribuição e de efetivo exercício na atividade**. Idade e tempo exigidos são cumulativos.\n\nOs arts. 3º e 6º da emenda estabelecem transições específicas para quem preenche as condições de ingresso e de regime previstas: até 2030, idades de 50/52 anos; até 2035, 52/54; até 2040, 54/56; a partir de 2041, 57/60, sempre observadas as demais exigências. Há redução de um ano de idade por ano de contribuição e exercício excedente a 25, limitada a cinco anos, nas condições desses artigos.\n\nOs arts. 4º e 7º contêm outra hipótese de transição, com requisitos próprios de idade, contribuição, exercício e pontos. Integralidade, paridade, benefício extraordinário e revisão de benefícios dependem do regime e das condições dos arts. 3º a 11. Não se deve apresentar as idades permanentes como única regra aplicável nem prometer integralidade irrestrita a todos os agentes.\n\n### Fonte e marco da conferência\n[Texto da EC 140/2026 no Senado Federal](https://legis.senado.leg.br/norma/44187742/publicacao/44190103), especialmente arts. 1º–14. Consulta em 31/10/2026. Este texto explica os dispositivos; não substitui o texto oficial nem a análise individual de uma aposentadoria.\n",
+      "modoB_markdown": "A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente.<!-- EC140:2026 -->\nApós a EC 140/2026: quatro diretrizes no art. 198; contratação e vínculo nos §§ 4º-A e 4º-B; aposentadoria permanente e transições com requisitos próprios. Fonte: EC 140/2026, arts. 1º–14."
+    },
+    {
+      "title": "Bloco 3.2 — Requisitos e regimes: ACE não é ACS",
+      "modoA_markdown": "# Requisitos e regimes: ACE não é ACS\n\n## Requisitos do ACE\nO art. 7º exige conclusão, com aproveitamento, de curso de formação inicial de pelo menos 40 horas e conclusão do ensino médio. O § 1º contempla a hipótese legal excepcional de inexistência de candidato com ensino médio, vinculada à conclusão desse nível no prazo legal; isso não autoriza ignorar a escolaridade expressamente exigida no edital. A análise do ingresso deve combinar lei, edital e situação descrita na questão.\n\n## A diferença quanto à residência\nA residência na área da comunidade em que atua é requisito do ACS no art. 6º, I, sujeito às disposições e exceções legais. Não consta como requisito geral do ACE no art. 7º. Trabalhar em território delimitado não equivale, por si só, a ter obrigação legal de morar naquele quarteirão.\n\n## Formação inicial, seleção e vínculo\nCurso de formação não substitui seleção pública. O art. 9º disciplina o processo seletivo público de provas ou de provas e títulos. A redação do art. 8º da Lei 11.350 menciona CLT, ressalvada lei local diversa; porém, a **EC 140/2026**, vigente desde 16/10/2026, acrescentou o **§ 4º-B ao art. 198 da Constituição**, submetendo esses agentes ao regime jurídico dos servidores nomeados para cargo efetivo. A leitura atual deve respeitar essa norma constitucional superior. A regularização dos vínculos anteriores segue os requisitos do art. 12 da emenda, inclusive seleção pública e prazo até 31/12/2028; não se trata de efetivação indistinta de qualquer contratação.\n\n## Jornada e organização do serviço\nPlanejamento, avaliação, registro e reuniões fazem parte da jornada descrita no art. 9º-A, § 2º. Os incisos históricos 30/10 estão revogados. A alternativa que transforma as 40 horas em visitas externas exclusivas também está errada: suprime atividades expressamente asseguradas pela lei.\n\n## Relação com o edital municipal\nO conteúdo programático e a descrição do cargo cumprem funções diferentes. O Anexo IV delimita os conhecimentos cobrados; o anexo de atribuições descreve o cargo do concurso. Se uma atribuição municipal parecer divergir da descrição federal, é necessário citar o texto e o cargo exatos. Não se deve transferir automaticamente ao ACE uma lista de atividades do ACS.\n\n## Referência para conferência\n[Lei 11.350 — texto atualizado na Câmara](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html): arts. 6º a 9º-A. A comparação integral com o anexo municipal de atribuições permanece pendente; este bloco não a certifica.",
+      "modoB_markdown": "ACE: art. 7º; ACS: art. 6º. Formação inicial e curso técnico são diferentes. Vínculo: considerar o art. 198, § 4º-B, após a EC 140/2026, e sua disciplina de regularização.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h2 class=\"text-lg font-extrabold text-slate-900 mt-3\">Requisitos e regimes: ACE não é ACS</h2><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Requisitos do ACE</h3><p>O art. 7º exige conclusão, com aproveitamento, de curso de formação inicial de pelo menos 40 horas e conclusão do ensino médio. O § 1º contempla a hipótese legal excepcional de inexistência de candidato com ensino médio, vinculada à conclusão desse nível no prazo legal; isso não autoriza ignorar a escolaridade expressamente exigida no edital. A análise do ingresso deve combinar lei, edital e situação descrita na questão.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">A diferença quanto à residência</h3><p>A residência na área da comunidade em que atua é requisito do ACS no art. 6º, I, sujeito às disposições e exceções legais. Não consta como requisito geral do ACE no art. 7º. Trabalhar em território delimitado não equivale, por si só, a ter obrigação legal de morar naquele quarteirão.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Formação inicial, seleção e vínculo</h3><p>Curso de formação não substitui seleção pública. O art. 9º disciplina o processo seletivo público de provas ou de provas e títulos. A redação do art. 8º da Lei 11.350 menciona CLT, ressalvada lei local diversa; porém, a <strong>EC 140/2026</strong>, vigente desde 16/10/2026, acrescentou o <strong>§ 4º-B ao art. 198 da Constituição</strong>, submetendo esses agentes ao regime jurídico dos servidores nomeados para cargo efetivo. A leitura atual deve respeitar essa norma constitucional superior. A regularização dos vínculos anteriores segue os requisitos do art. 12 da emenda, inclusive seleção pública e prazo até 31/12/2028; não se trata de efetivação indistinta de qualquer contratação.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Jornada e organização do serviço</h3><p>Planejamento, avaliação, registro e reuniões fazem parte da jornada descrita no art. 9º-A, § 2º. Os incisos históricos 30/10 estão revogados. A alternativa que transforma as 40 horas em visitas externas exclusivas também está errada: suprime atividades expressamente asseguradas pela lei.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Relação com o edital municipal</h3><p>O conteúdo programático e a descrição do cargo cumprem funções diferentes. O Anexo IV delimita os conhecimentos cobrados; o anexo de atribuições descreve o cargo do concurso. Se uma atribuição municipal parecer divergir da descrição federal, é necessário citar o texto e o cargo exatos. Não se deve transferir automaticamente ao ACE uma lista de atividades do ACS.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Referência para conferência</h3><p><a href=\"https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Lei 11.350 — texto atualizado na Câmara</a>: arts. 6º a 9º-A. A comparação integral com o anexo municipal de atribuições permanece pendente; este bloco não a certifica.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>ACE: art. 7º; ACS: art. 6º. Formação inicial e curso técnico são diferentes. Vínculo: considerar o art. 198, § 4º-B, após a EC 140/2026, e sua disciplina de regularização.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Considerando a Lei Federal nº 11.350/2006 e o Anexo II do Edital nº 25/2026 (SEMUSA Porto Velho), assinale a alternativa CORRETA:",
+          "options": [
+            "A) A jornada de 40 horas semanais compreende ações de saúde e assegura planejamento, avaliação, registro de dados e reuniões de equipe; a Lei 13.708/2018 revogou os incisos que fixavam a divisão 30h/10h.",
+            "B) O Curso Introdutório de formação inicial do ACE possui carga horária mínima de 10 horas e deve ser pago pelo próprio candidato.",
+            "C) Segundo o Anexo II do Edital SEMUSA de Porto Velho, é proibido ao ACE realizar visitas domiciliares periódicas ou registrar nascimentos, óbitos, doenças e outros agravos para fins de controle e planejamento.",
+            "D) A Lei Federal nº 11.350/2006 exige ensino superior completo em Biologia ou Medicina Veterinária para o ingresso no cargo de ACE."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html, art. 9º-A, § 2º e incisos revogados.",
+          "revision": "20261031"
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "front": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "b": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "back": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "Quais itens do Anexo II do Edital SEMUSA Porto Velho chamam atenção nas atribuições municipais do ACE?",
+          "front": "Quais itens do Anexo II do Edital SEMUSA Porto Velho chamam atenção nas atribuições municipais do ACE?",
+          "b": "Utilização de instrumentos para diagnóstico demográfico e sociocultural e registro, para fins exclusivos de controle e planejamento, de nascimentos, óbitos, doenças e outros agravos.",
+          "back": "Utilização de instrumentos para diagnóstico demográfico e sociocultural e registro, para fins exclusivos de controle e planejamento, de nascimentos, óbitos, doenças e outros agravos.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 3.3 — Atribuições: atividades típicas, assistidas e integradas",
+      "modoA_markdown": "# Atribuições: atividades típicas, assistidas e integradas\n\n## Regra geral do art. 4º\nO ACE exerce vigilância, prevenção e controle de doenças e promoção da saúde, segundo as diretrizes do SUS e sob supervisão do gestor do ente a que se vincula. A Lei 13.595 detalhou essas atividades, mas não conferiu competência clínica ilimitada ao agente.\n\n## Atividades típicas\nO art. 4º, § 1º, abrange educação e mobilização comunitária; prevenção e controle de doenças em interação com as equipes; identificação e encaminhamento de casos suspeitos; divulgação de sinais, sintomas, riscos e medidas preventivas; pesquisas entomológicas e malacológicas e coleta de reservatórios; cadastro de imóveis; controle químico e biológico, manejo ambiental e manejo integrado de vetores; ações de campo em pesquisa de projetos de controle; registro de informações; identificação de fatores ambientais de importância epidemiológica; e mobilização para medidas simples de manejo ambiental.\n\nIdentificar e encaminhar suspeita não equivale a confirmar diagnóstico. Registrar uma coleta não substitui sua análise. O controle químico exige orientação técnica, produto e procedimento adequados; a atribuição legal não é uma receita universal de aplicação.\n\n## Atividades assistidas\nO § 2º descreve participação em ações relativas a zoonoses e outras atividades ali enumeradas, com **assistência de profissional de nível superior e estrutura adequada**. O requisito de assistência deve ser conservado no enunciado e na resposta. Não é correto recortar um verbo da lista e apresentá-lo como autorização de exercício autônomo.\n\n## Atividades integradas com o ACS\nO art. 4º-A relaciona mobilização social por medidas de manejo ambiental, orientação sobre proteção individual e coletiva, planejamento e execução de ações de vigilância articuladas à atenção básica e outras ações integradas previstas no dispositivo. Integração não elimina a distinção entre os arts. 3º e 4º nem torna idênticos os requisitos de ingresso.\n\n## Referência para conferência\n[Lei 11.350 — Câmara](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html): arts. 2º, 2º-A, 4º e 4º-A. Este roteiro diferencia as categorias; para a enumeração literal de cada inciso, consulte o texto oficial vinculado.",
+      "modoB_markdown": "Art. 4º: atividades típicas e assistidas; art. 4º-A: integração. Suspeita não é diagnóstico. A assistência profissional exigida por lei não pode ser omitida.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h2 class=\"text-lg font-extrabold text-slate-900 mt-3\">Atribuições: atividades típicas, assistidas e integradas</h2><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Regra geral do art. 4º</h3><p>O ACE exerce vigilância, prevenção e controle de doenças e promoção da saúde, segundo as diretrizes do SUS e sob supervisão do gestor do ente a que se vincula. A Lei 13.595 detalhou essas atividades, mas não conferiu competência clínica ilimitada ao agente.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Atividades típicas</h3><p>O art. 4º, § 1º, abrange educação e mobilização comunitária; prevenção e controle de doenças em interação com as equipes; identificação e encaminhamento de casos suspeitos; divulgação de sinais, sintomas, riscos e medidas preventivas; pesquisas entomológicas e malacológicas e coleta de reservatórios; cadastro de imóveis; controle químico e biológico, manejo ambiental e manejo integrado de vetores; ações de campo em pesquisa de projetos de controle; registro de informações; identificação de fatores ambientais de importância epidemiológica; e mobilização para medidas simples de manejo ambiental.</p><p>Identificar e encaminhar suspeita não equivale a confirmar diagnóstico. Registrar uma coleta não substitui sua análise. O controle químico exige orientação técnica, produto e procedimento adequados; a atribuição legal não é uma receita universal de aplicação.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Atividades assistidas</h3><p>O § 2º descreve participação em ações relativas a zoonoses e outras atividades ali enumeradas, com <strong>assistência de profissional de nível superior e estrutura adequada</strong>. O requisito de assistência deve ser conservado no enunciado e na resposta. Não é correto recortar um verbo da lista e apresentá-lo como autorização de exercício autônomo.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Atividades integradas com o ACS</h3><p>O art. 4º-A relaciona mobilização social por medidas de manejo ambiental, orientação sobre proteção individual e coletiva, planejamento e execução de ações de vigilância articuladas à atenção básica e outras ações integradas previstas no dispositivo. Integração não elimina a distinção entre os arts. 3º e 4º nem torna idênticos os requisitos de ingresso.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Referência para conferência</h3><p><a href=\"https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Lei 11.350 — Câmara</a>: arts. 2º, 2º-A, 4º e 4º-A. Este roteiro diferencia as categorias; para a enumeração literal de cada inciso, consulte o texto oficial vinculado.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Art. 4º: atividades típicas e assistidas; art. 4º-A: integração. Suspeita não é diagnóstico. A assistência profissional exigida por lei não pode ser omitida.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão da Apostila / Lei 11.350 — 2026) Sobre a avaliação de desempenho e progressão funcional dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, prevista no art. 9º-G da Lei Federal nº 11.350/2006, analise as afirmativas:\nI. Deve ser realizada com paridade de critérios entre a gestão e os agentes.\nII. Deve observar a transparência do processo de avaliação, assegurando-se recurso administrativo.\nIII. Deve observar a adequação aos conteúdos ocupacionais e às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho prejudiquem a nota final da avaliação.\nIV. Deve considerar a carga horária cumprida e a formação técnica.\nEstão CORRETAS:",
+          "options": [
+            "A) Apenas I e III.",
+            "B) Apenas as afirmativas I, II e IV estão corretas.",
+            "C) Apenas II e III.",
+            "D) Apenas III e IV."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Questão idêntica à trabalhada na sua apostila! O art. 9º-G, inciso IV, estabelece exatamente o oposto do item III: a avaliação observará a adequação às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho NÃO prejudiquem a avaliação."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) De acordo com a Lei Federal nº 11.350/2006 (com a redação dada pelas Leis nº 13.595/2018 e nº 13.708/2018), sobre os requisitos e o regime de trabalho do Agente de Combate às Endemias (ACE), assinale a alternativa CORRETA:",
+          "options": [
+            "A) É obrigatório que o ACE resida no quarteirão específico onde realiza o controle químico desde a publicação do edital.",
+            "B) A jornada de trabalho de 40 (quarenta) horas semanais será destinada integralmente (40 horas) às visitas externas de campo, sendo proibido computar o tempo de registro de dados e planejamento na jornada.",
+            "C) São requisitos para o exercício da atividade de ACE haver concluído o ensino médio e haver concluído, com aproveitamento, curso de formação inicial com carga horária mínima de 40 (quarenta) horas.",
+            "D) A contratação terceirizada de ACE por empresas privadas de limpeza é a regra geral no âmbito do SUS."
+          ],
+          "ans": 2,
+          "comment": "Gabarito: C. O art. 7º exige ensino médio e curso de formação inicial com aproveitamento e carga mínima de 40h, observadas as disposições legais. A residência na comunidade é requisito do ACS, não requisito geral do ACE. A alternativa B exclui indevidamente planejamento e registros da jornada; A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. O art. 16 veda a terceirização, ressalvada a hipótese legal de surtos epidêmicos. Fonte: https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Nos termos do art. 16 da Lei Federal nº 11.350/2006, é vedada a contratação temporária ou terceirizada de Agentes Comunitários de Saúde e de Agentes de Combate às Endemias, SALVO na hipótese de:",
+          "options": [
+            "A) Redução de custos com folha de pagamento municipal.",
+            "B) Combate a surtos epidêmicos, na forma da lei aplicável.",
+            "C) Férias coletivas dos servidores efetivos.",
+            "D) Mudança de gestão municipal a cada 4 anos."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Literalidade do art. 16 da Lei nº 11.350/2006: a única exceção legal que autoriza contratação temporária de ACS e ACE é o combate a surtos epidêmicos."
+        },
+        {
+          "q": "(Questão Autoral Inédita — Epidemiologia e Notificação — Perfil Edital SEMUSA/IBGP) Na análise dos conceitos epidemiológicos aplicados à Vigilância em Saúde, um agente etiológico que infecta grande parte dos moradores expostos, mas no qual apenas uma pequena fração dos infectados desenvolve sintomas clínicos — sendo que, entre os poucos que adoecem, quase todos evoluem para formas gravíssimas ou óbito — apresenta:",
+          "options": [
+            "A) Baixa infectividade, alta patogenicidade e baixa virulência.",
+            "B) Alta infectividade, baixa patogenicidade e alta virulência.",
+            "C) Alta patogenicidade, baixa infectividade e letalidade nula.",
+            "D) Baixa virulência, alta patogenicidade e alta imunogenicidade."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Como infecta muitas pessoas = ALTA INFECTIVIDADE; como poucos infectados desenvolvem sintomas clínicos = BAIXA PATOGENICIDADE; e como entre os que adoecem a maioria evolui para formas graves ou fatais = ALTA VIRULÊNCIA (e alta letalidade)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quais são os 2 requisitos obrigatórios do Art. 7º da Lei 11.350/2006 para investidura no cargo de ACE?",
+          "front": "Quais são os 2 requisitos obrigatórios do Art. 7º da Lei 11.350/2006 para investidura no cargo de ACE?",
+          "b": "1. Ensino Médio completo;\n2. Curso de formação inicial com carga horária mínima de 40 horas (com aproveitamento).",
+          "back": "1. Ensino Médio completo;\n2. Curso de formação inicial com carga horária mínima de 40 horas (com aproveitamento).",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "front": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "b": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "back": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "Em qual única hipótese a Lei 11.350/2006 permite contratação temporária de ACE (Art. 16)?",
+          "front": "Em qual única hipótese a Lei 11.350/2006 permite contratação temporária de ACE (Art. 16)?",
+          "b": "Apenas na hipótese de combate a SURTOS EPIDÊMICOS, na forma da lei aplicável.",
+          "back": "Apenas na hipótese de combate a SURTOS EPIDÊMICOS, na forma da lei aplicável.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "Qual a diferença entre Caso Autóctone e Caso Alóctone (Importado) na investigação epidemiológica?",
+          "front": "Qual a diferença entre Caso Autóctone e Caso Alóctone (Importado) na investigação epidemiológica?",
+          "b": "Caso Autóctone é aquele cuja infecção ocorreu dentro do próprio município onde reside/foi diagnosticado; Caso Alóctone (Importado) é aquele cuja infecção foi contraída em outro município, estado ou país.",
+          "back": "Caso Autóctone é aquele cuja infecção ocorreu dentro do próprio município onde reside/foi diagnosticado; Caso Alóctone (Importado) é aquele cuja infecção foi contraída em outro município, estado ou país.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 3.4 — Roteiro normativo: alcance e limites da Lei 11.350",
+      "modoA_markdown": "# Roteiro normativo: alcance e limites da Lei 11.350\n\n## Organização da leitura\nOs arts. 1º a 5º tratam do enquadramento legal, do exercício no SUS, das atividades e da formação. Os arts. 6º e 7º diferenciam requisitos de ACS e ACE. Os arts. 8º e 9º disciplinam regime jurídico e seleção. Os arts. 9º-A a 9º-H tratam de piso, assistência financeira, incentivo, carreira e locomoção. O art. 10 regula hipóteses de rescisão unilateral. Os dispositivos seguintes contêm também regras federais e transitórias, que não podem ser transpostas automaticamente ao vínculo municipal.\n\n## Carreira e avaliação\nO art. 9º-G estabelece diretrizes para planos de carreira, incluindo remuneração paritária de ACS e ACE, metas, progressão e promoção, além de avaliação. Os princípios da avaliação incluem transparência, periodicidade, contribuição do servidor, adequação às condições reais de trabalho e direito a recurso. Uma diretriz federal não informa, sozinha, a classe, a referência ou o percentual de uma vantagem municipal.\n\n## Rescisão unilateral\nO art. 10 enumera falta grave, acumulação ilegal, necessidade de redução de quadro por excesso de despesa nas condições legais e insuficiência de desempenho. Nesta última hipótese, exige procedimento, conhecimento prévio dos padrões e recurso hierárquico com efeito suspensivo, apreciado em 30 dias. O parágrafo único contém hipótese específica do ACS ligada à residência; não deve ser estendida automaticamente ao ACE. A aplicação depende do regime jurídico adotado e das garantias cabíveis.\n\n## Contratação temporária e terceirização\nO art. 16 veda essas formas de contratação, ressalvada a hipótese legal de combate a surtos epidêmicos, na forma da lei aplicável. A ressalva não torna a terceirização a regra e não dispensa os limites da própria hipótese excepcional.\n\n## O que este bloco entrega\nEste é um roteiro de estudo comentado, **não uma transcrição integral nem uma consolidação oficial**. Para afirmar cobertura integral ainda é necessário confrontar todos os dispositivos, alterações, questões e cartões com a versão aplicável ao concurso. A lista de artigos no título não substitui essa conferência.\n\n## Fonte primária\n[Lei 11.350 atualizada — Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html). Localizadores: arts. 9º-G, 10 e 16; dispositivos federais e transitórios dos arts. 11 em diante. Consulta pontual em 31/10/2026.",
+      "modoB_markdown": "Roteiro comentado: carreira, avaliação, rescisão e vedação de terceirização. Não é transcrição integral nem consolidação oficial.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h2 class=\"text-lg font-extrabold text-slate-900 mt-3\">Roteiro normativo: alcance e limites da Lei 11.350</h2><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Organização da leitura</h3><p>Os arts. 1º a 5º tratam do enquadramento legal, do exercício no SUS, das atividades e da formação. Os arts. 6º e 7º diferenciam requisitos de ACS e ACE. Os arts. 8º e 9º disciplinam regime jurídico e seleção. Os arts. 9º-A a 9º-H tratam de piso, assistência financeira, incentivo, carreira e locomoção. O art. 10 regula hipóteses de rescisão unilateral. Os dispositivos seguintes contêm também regras federais e transitórias, que não podem ser transpostas automaticamente ao vínculo municipal.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Carreira e avaliação</h3><p>O art. 9º-G estabelece diretrizes para planos de carreira, incluindo remuneração paritária de ACS e ACE, metas, progressão e promoção, além de avaliação. Os princípios da avaliação incluem transparência, periodicidade, contribuição do servidor, adequação às condições reais de trabalho e direito a recurso. Uma diretriz federal não informa, sozinha, a classe, a referência ou o percentual de uma vantagem municipal.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Rescisão unilateral</h3><p>O art. 10 enumera falta grave, acumulação ilegal, necessidade de redução de quadro por excesso de despesa nas condições legais e insuficiência de desempenho. Nesta última hipótese, exige procedimento, conhecimento prévio dos padrões e recurso hierárquico com efeito suspensivo, apreciado em 30 dias. O parágrafo único contém hipótese específica do ACS ligada à residência; não deve ser estendida automaticamente ao ACE. A aplicação depende do regime jurídico adotado e das garantias cabíveis.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Contratação temporária e terceirização</h3><p>O art. 16 veda essas formas de contratação, ressalvada a hipótese legal de combate a surtos epidêmicos, na forma da lei aplicável. A ressalva não torna a terceirização a regra e não dispensa os limites da própria hipótese excepcional.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">O que este bloco entrega</h3><p>Este é um roteiro de estudo comentado, <strong>não uma transcrição integral nem uma consolidação oficial</strong>. Para afirmar cobertura integral ainda é necessário confrontar todos os dispositivos, alterações, questões e cartões com a versão aplicável ao concurso. A lista de artigos no título não substitui essa conferência.</p><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Fonte primária</h3><p><a href=\"https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-teal-700 underline font-semibold\">Lei 11.350 atualizada — Câmara dos Deputados</a>. Localizadores: arts. 9º-G, 10 e 16; dispositivos federais e transitórios dos arts. 11 em diante. Consulta pontual em 31/10/2026.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Roteiro comentado: carreira, avaliação, rescisão e vedação de terceirização. Não é transcrição integral nem consolidação oficial.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Lei nº 11.350/2006, Art. 2º, § 1º — Lei nº 14.536/2023) De acordo com a atualização promovida pela Lei nº 14.536/2023 no Art. 2º da Lei nº 11.350/2006, os Agentes Comunitários de Saúde (ACS) e os Agentes de Combate às Endemias (ACE):",
+          "options": [
+            "A) São considerados servidores exclusivamente administrativos, sendo-lhes vedada qualquer acumulação de cargos públicos.",
+            "B) São considerados profissionais de saúde, com profissões regulamentadas, para fins do disposto na alínea 'c' do inciso XVI do caput do art. 37 da Constituição Federal (acumulação remunerada de dois cargos ou empregos privativos de profissionais de saúde, quando houver compatibilidade de horários).",
+            "C) Podem acumular até três cargos públicos, independentemente de compatibilidade de horários.",
+            "D) Deixaram de integrar as equipes da Atenção Básica e da Vigilância em Saúde."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A Lei nº 14.536/2023 acrescentou o § 1º ao Art. 2º da Lei nº 11.350/2006, reconhecendo expressamente os ACS e os ACE como profissionais de saúde regulamentados para fins de acumulação constitucional lícita de dois cargos ou empregos privativos de profissionais de saúde."
+        },
+        {
+          "q": "(Questão de estudo — Lei nº 11.350/2006, Arts. 6º e 7º) Comparando os requisitos legais para o exercício das atividades de Agente Comunitário de Saúde (ACS) e de Agente de Combate às Endemias (ACE) previstos nos Arts. 6º e 7º da Lei nº 11.350/2006, assinale a alternativa CORRETA:",
+          "options": [
+            "A) Tanto o ACS quanto o ACE são obrigados a residir no bairro de atuação desde a data da publicação do edital, sob pena de demissão imediata.",
+            "B) Para o ACE (Art. 7º), exige-se haver concluído, com aproveitamento, curso de formação inicial, com carga horária mínima de 40 (quarenta) horas, e haver concluído o ensino médio, NÃO se aplicando ao ACE a exigência de residir na área da comunidade em que atuar.",
+            "C) O curso introdutório de formação inicial do ACE possui carga horária mínima de 200 (duzentas) horas presenciais.",
+            "D) Quando não houver candidato inscrito que preencha o requisito de ensino médio, é vedada a contratação de candidato com ensino fundamental em qualquer hipótese."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O requisito de residir na área da comunidade desde a data da publicação do edital consta apenas no Art. 6º, inciso I (aplicável ao ACS), não existindo no Art. 7º (aplicável ao ACE). Ambos exigem curso de formação inicial de no mínimo 40 horas e Ensino Médio."
+        },
+        {
+          "q": "[Autoral — Lei 11.350, art. 9º-A, § 2º] Sobre a jornada vinculada à garantia do piso, assinale a alternativa correta na redação dada pela Lei 13.708/2018.",
+          "options": [
+            "A) 20 horas para atividades de campo e 20 horas para descanso remunerado.",
+            "B) A jornada de 40 horas semanais compreende ações de saúde e assegura planejamento, avaliação, registro de dados e reuniões de equipe; a Lei 13.708/2018 revogou os incisos que fixavam a divisão 30h/10h.",
+            "C) 36 horas exclusivas dentro da Unidade Básica de Saúde e 4 horas em campo.",
+            "D) 40 horas exclusivas de visita domiciliar, sendo proibido computar o tempo de registro de dados e educação permanente na jornada."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: https://www2.camara.leg.br/legin/fed/lei/2006/lei-11350-5-outubro-2006-545707-normaatualizada-pl.html, art. 9º-A, § 2º e incisos revogados.",
+          "revision": "20261031"
+        },
+        {
+          "q": "(Questão de estudo — Lei nº 11.350/2006, Art. 16) A respeito da contratação temporária ou terceirizada de Agentes Comunitários de Saúde e de Agentes de Combate às Endemias, o Art. 16 da Lei nº 11.350/2006 dispõe que:",
+          "options": [
+            "A) É livremente permitida por meio de Organizações Sociais (OS) e OSCIPs a critério do Prefeito Municipal.",
+            "B) É vedada a contratação temporária ou terceirizada de Agentes Comunitários de Saúde e de Agentes de Combate às Endemias, salvo na hipótese de combate a surtos epidêmicos, na forma da lei aplicável.",
+            "C) É obrigatória para todos os municípios com menos de 50 mil habitantes.",
+            "D) Só é proibida para os ACS, sendo totalmente liberada a terceirização permanente dos ACE."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Trata-se da literalidade do Art. 16 da Lei nº 11.350/2006: 'É vedada a contratação temporária ou terceirizada de Agentes Comunitários de Saúde e de Agentes de Combate às Endemias, salvo na hipótese de combate a surtos epidêmicos, na forma da lei aplicável'."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "O ACE pode acumular seu cargo com outro cargo público privativo de profissional de saúde (Art. 2º, § 1º da Lei 11.350/06)?",
+          "front": "O ACE pode acumular seu cargo com outro cargo público privativo de profissional de saúde (Art. 2º, § 1º da Lei 11.350/06)?",
+          "b": "SIM! A Lei nº 14.536/2023 reconheceu os ACS e ACE como profissionais de saúde para fins do Art. 37, XVI, 'c' da CF/88 (havendo compatibilidade de horários).",
+          "back": "SIM! A Lei nº 14.536/2023 reconheceu os ACS e ACE como profissionais de saúde para fins do Art. 37, XVI, 'c' da CF/88 (havendo compatibilidade de horários).",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "front": "A Lei 11.350 vigente obriga a divisão de 40 horas em 30h externas e 10h internas?",
+          "b": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "back": "Não. A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente. Fonte: art. 9º-A, § 2º; Lei 13.708/2018.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "Qual é a carga horária mínima do curso introdutório de formação inicial para ACE e ACS (Arts. 6º e 7º da Lei 11.350/06)?",
+          "front": "Qual é a carga horária mínima do curso introdutório de formação inicial para ACE e ACS (Arts. 6º e 7º da Lei 11.350/06)?",
+          "b": "Mínimo de 40 (quarenta) horas.",
+          "back": "Mínimo de 40 (quarenta) horas.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        },
+        {
+          "f": "Em qual única hipótese a Lei nº 11.350/2006 (Art. 16) admite a contratação temporária de ACE e ACS?",
+          "front": "Em qual única hipótese a Lei nº 11.350/2006 (Art. 16) admite a contratação temporária de ACE e ACS?",
+          "b": "Exclusivamente na hipótese de combate a surtos epidêmicos, na forma da lei aplicável.",
+          "back": "Exclusivamente na hipótese de combate a surtos epidêmicos, na forma da lei aplicável.",
+          "lessonTitle": "3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018"
+        }
+      ]
+    }
+  ]
+}

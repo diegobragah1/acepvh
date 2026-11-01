@@ -1,0 +1,279 @@
+{
+  "id": "atu_2",
+  "num": 30,
+  "slug": "30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural",
+  "subjectFolder": "conhecimentos-gerais",
+  "mdPath": "./content/conhecimentos-gerais/30-historia-rondonia-porto-velho-ciclos-borracha-efmm-patrimonio-cultural.md",
+  "mdLegacyPath": "./content/atu_2.md",
+  "cat": "atu",
+  "catName": "Conhecimentos Gerais e Atualidades",
+  "weight": "5 Questões • Peso 2 (10 pts)",
+  "title": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo",
+  "editalRef": "2 - Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo.",
+  "auditBadge": "GERAIS ITEM 2 — HUMANIDADES: MOVIMENTOS ARTÍSTICOS, CULTURAIS E SOCIAIS",
+  "sources": [
+    77,
+    78,
+    79,
+    86,
+    91
+  ],
+  "questionsCount": 7,
+  "flashcardsCount": 10,
+  "mindMap": {
+    "centralTitle": "2. Humanidades: Movimentos Artísticos, Culturais e Sociais (Porto Velho, Rondônia, Brasil e Mundo)",
+    "mnemonic": "Mundo: Renascimento, Barroco, Vanguardas (Cubismo, Surrealismo) • Brasil: Barroco Mineiro (Aleijadinho), Semana de 1922 (Antropofagia/Tarsila/Mário), Tropicalismo (1967–68) • RO/PVH: Cultura Beradeira, EFMM, Três Caixas d’Água, Flor do Maracujá, Festa do Divino e RESEX",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Fevereiro de 1922",
+        "label": "Semana de Arte Moderna no Teatro Municipal de São Paulo (Marco do Modernismo Brasileiro)"
+      },
+      {
+        "value": "1967–1968 (Tropicália)",
+        "label": "Movimento Tropicalista (Caetano Veloso, Gilberto Gil, Gal Costa, Hélio Oiticica)"
+      },
+      {
+        "value": "Três Caixas d’Água (1910–1912)",
+        "label": "Monumento histórico e cultural de Porto Velho (\"Três Marias\") erguido na época da EFMM"
+      },
+      {
+        "value": "Flor do Maracujá e Divino",
+        "label": "Maiores manifestações folclóricas e culturais de Porto Velho e do Vale do Guaporé"
+      }
+    ],
+    "branches": [
+      {
+        "title": "1. Movimentos Artísticos Mundiais e Vanguardas Europeias",
+        "icon": "🎨",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Renascimento, Barroco, Romantismo e Realismo",
+            "detail": "Renascimento (humanismo e perspectiva: Da Vinci, Michelangelo); Barroco (contraste fé/razão); Romantismo (subjetivismo e nacionalismo); Realismo (crítica social objetiva).",
+            "badge": "História da Arte"
+          },
+          {
+            "label": "Vanguardas Europeias do Século XX",
+            "detail": "Cubismo (Picasso — geometrização), Surrealismo (Dalí — inconsciente), Expressionismo (Munch — emoção dramática), Futurismo e Dadaísmo.",
+            "badge": "Vanguardas Séc. XX"
+          }
+        ]
+      },
+      {
+        "title": "2. Movimentos Artísticos e Culturais do Brasil (Barroco, Semana de 22 e Tropicália)",
+        "icon": "🎭",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Semana de Arte Moderna de 1922 e Movimento Antropofágico (1928)",
+            "detail": "Realizada no Teatro Municipal de SP (Mário de Andrade, Oswald de Andrade, Tarsila do Amaral, Anita Malfatti, Villa-Lobos), rompeu com o academicismo e valorizou a identidade brasileira.",
+            "badge": "Modernismo 1922"
+          },
+          {
+            "label": "Bossa Nova, Cinema Novo e Tropicalismo (Anos 1950–1960)",
+            "detail": "Renovação estética e crítica social: Glauber Rocha (Cinema Novo) e Tropicália (Caetano, Gil, Gal, Hélio Oiticica).",
+            "badge": "Cultura Brasileira"
+          }
+        ]
+      },
+      {
+        "title": "3. Movimentos Artísticos e Culturais de Porto Velho e Rondônia",
+        "icon": "🚂",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Patrimônio Tombado (EFMM e Três Caixas d’Água) e Folclore Local",
+            "detail": "Complexo da Estrada de Ferro Madeira-Mamoré, As Três Caixas d’Água (\"Três Marias\"), Arraial Flor do Maracujá (Quadrilhas e Bois-Bumbás), Banda do Vai Quem Quer e Duelo na Fronteira (Guajará-Mirim).",
+            "badge": "Cultura de PVH/RO"
+          },
+          {
+            "label": "Identidade \"Beradeira\" e Festa do Divino no Vale do Guaporé",
+            "detail": "Valorização da cultura ribeirinha do Rio Madeira (\"beradeira\") e da secular Festa do Divino Espírito Santo nas comunidades quilombolas do Guaporé.",
+            "badge": "Patrimônio Imaterial"
+          }
+        ]
+      },
+      {
+        "title": "4. Movimentos Sociais no Mundo, no Brasil e na Amazônia",
+        "icon": "🤝",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Direitos Humanos, Movimento Socioambiental (RESEX) e Povos Indígenas",
+            "detail": "Movimentos civis, feministas, antirracistas e socioambientais. Na Amazônia: criação das Reservas Extrativistas (como a RESEX Lago do Cuniã em PVH) e defesa das Terras Indígenas (Karitiana, Karipuna, Kaxarari, Suruí, Uru-Eu-Wau-Wau).",
+            "badge": "Movimentos Sociais"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 2.1 — Cultura, Patrimônio Histórico Tombado e Manifestações Tradicionais de Porto Velho e Rondônia",
+      "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)\n\n**30. História de Rondônia e de Porto Velho (Ciclos da Borracha, Tratado de Petrópolis, EFMM, Rondon, Território do Guaporé, Estado de RO) e Patrimônio Cultural — Bloco 30.2 — Cultura, Patrimônio Histórico Tombado e Manifestações Tradicionais de Porto Velho e Rondônia**\n **Referência no Edital IBGP:** Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): História e cultura de Porto Velho e do Estado de Rondônia.\n **Fontes e PDFs Base Integrados:** PDF #77 (*9. Humanidades- movimentos artístico.pdf*), PDF #78 (*10. Humanidades- movimentos artístic.pdf*), PDF #79 (*11. Retrospectiva de Atualidades - M.pdf*), PDF #80 (*12. Simulado de Atualidades - Maio 2.pdf*), PDF #81 (*13. .Retrospectiva de Atualidades -.pdf*), PDF #82 (*14. .Simulado de Atualidades - Junho.pdf*), PDF #86 (*EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf*), PDF #91 (*Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf*).\n\n#### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)\n\n**BLOCO NOVO PÓS-AUDITORIA (LACUNA #2 DO EDITAL SANADA):** A cultura e o patrimônio material e imaterial de Porto Velho e de Rondônia fazem parte do conteúdo programático de Conhecimentos Gerais da IBGP.\n\nPrincipais marcos culturais, patrimônios históricos e manifestações populares de Porto Velho e Rondônia:\n\n- **1. Patrimônio Histórico e Arquitetônico de Porto Velho e RO:**\n\n  - **Complexo da Estrada de Ferro Madeira-Mamoré (EFMM — Tombado pelo IPHAN em 2005/2006):** Situado às margens do Rio Madeira em Porto Velho, reúne a Rotunda, oficinas, locomotivas a vapor (como a histórica *\"Coronel Church\" — Locomotiva nº 12*), galpões e museu, revitalizado recentemente como principal cartão-postal turístico da capital.\n  - **As Três Caixas d'Água (\"As Três Marias\" — Praça das Três Caixas d'Água):** Construídas entre **1910 e 1912** pela *Chicago Bridge & Iron Works* em chapas de aço rebitadas para abastecer os funcionários da EFMM. São o símbolo máximo no Brasão e na Bandeira de Porto Velho e tombadas como patrimônio histórico.\n  - **Catedral Metropolitana Sagrado Coração de Jesus, Prédio do Relógio (antiga sede administrativa da EFMM/UNIR Centro) e Cemitério da Candelária (Cemitério dos Inocentes).**\n  - **Real Forte Príncipe da Beira (Costa Marques/RO):** Maior edificação militar portuguesa do Brasil Colonial na Amazônia, tombado pelo IPHAN e reconhecido como Patrimônio Cultural.\n- **2. Manifestações Culturais e Folclóricas Tradicionais:**\n\n  - **Arraial Flor do Maracujá (Porto Velho — Patrimônio Cultural Imaterial de Rondônia):** A maior mostra de quadrilhas juninas e bois-bumbás da Amazônia Ocidental, criada na década de 1980, onde se apresentam grupos históricos de Boi-Bumbá de Porto Velho (como *Corre Campo, Diamante Negro, Az de Ouro, Estrela de Fogo e Maracanã*) e quadrilhas juninas tradicionais (*Rádio Farol, Rosa Divina, Girassol das Três Marias, Juabp*).\n  - **Banda do Vai Quem Quer (BVQQ):** Fundada em **1980** por **Manelão (Manoel Mendonça)** e amigos (hoje presidida por Siça Andrade), é o maior bloco de carnaval de rua da Amazônia Ocidental e patrimônio cultural imaterial, desfilando sempre no sábado de carnaval no centro de Porto Velho.\n  - **Festa do Divino Espírito Santo do Vale do Guaporé:** Tradição secular ribeirinha e quilombola (Pedras Negras, Santo Antônio do Guaporé, Costa Marques), reconhecida como patrimônio cultural imaterial.\n  - **Herança Barbadiana (Antilhana) e Indígena em Porto Velho:** Os descendentes dos trabalhadores caribenhos (de Barbados, Granada, Santa Lúcia, Trinidad) que construíram a EFMM formaram o histórico **Bairro Alto do Bode / Triângulo / Baixa da União**, deixando forte legado cultural, linguístico, religioso e gastronômico na capital, somado à rica diversidade de mais de 50 povos indígenas em Rondônia (como os Karitiana, Karipuna, Cinta-Larga, Suruí Paiter, Uru-Eu-Wau-Wau e Arara).\n\n#### 3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)\n\n**Patrimônio Histórico Tombado (IPHAN) e Manifestações Culturais de Porto Velho na Prova IBGP:**\n• Porto Velho abriga importantes patrimônios culturais materiais e imateriais: o conjunto arquitetônico e ferroviário da **Estrada de Ferro Madeira-Mamoré (EFMM)** e as **Três Caixas d'Água ('As Três Marias' — erguidas entre 1910 e 1912 pela Chicago Bridge & Iron Works)** são tombados em nível federal pelo **IPHAN** (junto com o Real Forte Príncipe da Beira, em Costa Marques, e as Linhas Telegráficas de Rondon).\n• Nas manifestações culturais populares de Porto Velho, destacam-se o **Arraial Flor do Maracujá** (tradicional mostra de quadrilhas juninas e bois-bumbás — como Boi Corre Campo, Az de Ouro e Diamante Negro), a **Banda do Vai Quem Quer** (maior bloco carnavalesco da Amazônia Ocidental, fundado em 1980 por Sílvio Santos/Manoel Mendonça), a Festa do Divino Espírito Santo no Vale do Guaporé e o Duelo na Fronteira em Guajará-Mirim.\n\n#### 4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)\n\n**Cidadania, Direitos Humanos e Povos Tradicionais / Indígenas em Rondônia:**\n• A formação sociocultural de Porto Velho reúne três grandes matrizes: (1) os **povos indígenas originários** (como as etnias Karitiana, Karipuna, Kaxarari, Uru-Eu-Wau-Wau, Cinta Larga, Paiter Suruí, Arara e Gavião) e as comunidades ribeirinhas e quilombolas (como no Vale do Guaporé — Pedras Negras, Forte Príncipe e Santo Antônio do Guaporé); (2) a imigração **nordestina** nos dois Ciclos da Borracha e a mão de obra internacional da EFMM (em especial os imigrantes caribenhos de **Barbados / barbadianos**, além de espanhóis, gregos e italianos); e (3) os migrantes **sulistas, sudestinos e centro-oestinos** atraídos pelos projetos de colonização do INCRA ao longo da BR-364 a partir da década de 1970.",
+      "modoB_markdown": "**ÍCONES CULTURAIS DE PORTO VELHO PARA A PROVA:**\n\n• **As Três Caixas d'Água (\"Três Marias\", 1910–1912)** + **Complexo da EFMM** (tombados como patrimônio histórico).\n\n• **Arraial Flor do Maracujá:** Maior festival folclórico de Quadrilhas e Bois-Bumbás de Porto Velho/RO.\n\n• **Banda do Vai Quem Quer (1980, Manelão):** Maior bloco carnavalesco da Amazônia Ocidental.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)</h5><p><strong>30. História de Rondônia e de Porto Velho (Ciclos da Borracha, Tratado de Petrópolis, EFMM, Rondon, Território do Guaporé, Estado de RO) e Patrimônio Cultural — Bloco 30.2 — Cultura, Patrimônio Histórico Tombado e Manifestações Tradicionais de Porto Velho e Rondônia</strong></p><p><strong>Referência no Edital IBGP:</strong> Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): História e cultura de Porto Velho e do Estado de Rondônia.</p><p><strong>Fontes e PDFs Base Integrados:</strong> PDF #77 (<em>9. Humanidades- movimentos artístico.pdf</em>), PDF #78 (<em>10. Humanidades- movimentos artístic.pdf</em>), PDF #79 (<em>11. Retrospectiva de Atualidades - M.pdf</em>), PDF #80 (<em>12. Simulado de Atualidades - Maio 2.pdf</em>), PDF #81 (<em>13. .Retrospectiva de Atualidades -.pdf</em>), PDF #82 (<em>14. .Simulado de Atualidades - Junho.pdf</em>), PDF #86 (<em>EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf</em>), PDF #91 (<em>Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf</em>).</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)</h5><p><strong>BLOCO NOVO PÓS-AUDITORIA (LACUNA #2 DO EDITAL SANADA):</strong> A cultura e o patrimônio material e imaterial de Porto Velho e de Rondônia fazem parte do conteúdo programático de Conhecimentos Gerais da IBGP.</p><p>Principais marcos culturais, patrimônios históricos e manifestações populares de Porto Velho e Rondônia:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>1. Patrimônio Histórico e Arquitetônico de Porto Velho e RO:</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Complexo da Estrada de Ferro Madeira-Mamoré (EFMM — Tombado pelo IPHAN em 2005/2006):</strong> Situado às margens do Rio Madeira em Porto Velho, reúne a Rotunda, oficinas, locomotivas a vapor (como a histórica <em>\"Coronel Church\" — Locomotiva nº 12</em>), galpões e museu, revitalizado recentemente como principal cartão-postal turístico da capital.</li><li><strong>As Três Caixas d'Água (\"As Três Marias\" — Praça das Três Caixas d'Água):</strong> Construídas entre <strong>1910 e 1912</strong> pela <em>Chicago Bridge & Iron Works</em> em chapas de aço rebitadas para abastecer os funcionários da EFMM. São o símbolo máximo no Brasão e na Bandeira de Porto Velho e tombadas como patrimônio histórico.</li><li><strong>Catedral Metropolitana Sagrado Coração de Jesus, Prédio do Relógio (antiga sede administrativa da EFMM/UNIR Centro) e Cemitério da Candelária (Cemitério dos Inocentes).</strong></li><li><strong>Real Forte Príncipe da Beira (Costa Marques/RO):</strong> Maior edificação militar portuguesa do Brasil Colonial na Amazônia, tombado pelo IPHAN e reconhecido como Patrimônio Cultural.</li><li><strong>2. Manifestações Culturais e Folclóricas Tradicionais:</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Arraial Flor do Maracujá (Porto Velho — Patrimônio Cultural Imaterial de Rondônia):</strong> A maior mostra de quadrilhas juninas e bois-bumbás da Amazônia Ocidental, criada na década de 1980, onde se apresentam grupos históricos de Boi-Bumbá de Porto Velho (como <em>Corre Campo, Diamante Negro, Az de Ouro, Estrela de Fogo e Maracanã</em>) e quadrilhas juninas tradicionais (<em>Rádio Farol, Rosa Divina, Girassol das Três Marias, Juabp</em>).</li><li><strong>Banda do Vai Quem Quer (BVQQ):</strong> Fundada em <strong>1980</strong> por <strong>Manelão (Manoel Mendonça)</strong> e amigos (hoje presidida por Siça Andrade), é o maior bloco de carnaval de rua da Amazônia Ocidental e patrimônio cultural imaterial, desfilando sempre no sábado de carnaval no centro de Porto Velho.</li><li><strong>Festa do Divino Espírito Santo do Vale do Guaporé:</strong> Tradição secular ribeirinha e quilombola (Pedras Negras, Santo Antônio do Guaporé, Costa Marques), reconhecida como patrimônio cultural imaterial.</li><li><strong>Herança Barbadiana (Antilhana) e Indígena em Porto Velho:</strong> Os descendentes dos trabalhadores caribenhos (de Barbados, Granada, Santa Lúcia, Trinidad) que construíram a EFMM formaram o histórico <strong>Bairro Alto do Bode / Triângulo / Baixa da União</strong>, deixando forte legado cultural, linguístico, religioso e gastronômico na capital, somado à rica diversidade de mais de 50 povos indígenas em Rondônia (como os Karitiana, Karipuna, Cinta-Larga, Suruí Paiter, Uru-Eu-Wau-Wau e Arara).</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)</h5><p><strong>Patrimônio Histórico Tombado (IPHAN) e Manifestações Culturais de Porto Velho na Prova IBGP:</strong></p><p>• Porto Velho abriga importantes patrimônios culturais materiais e imateriais: o conjunto arquitetônico e ferroviário da <strong>Estrada de Ferro Madeira-Mamoré (EFMM)</strong> e as <strong>Três Caixas d'Água ('As Três Marias' — erguidas entre 1910 e 1912 pela Chicago Bridge & Iron Works)</strong> são tombados em nível federal pelo <strong>IPHAN</strong> (junto com o Real Forte Príncipe da Beira, em Costa Marques, e as Linhas Telegráficas de Rondon).</p><p>• Nas manifestações culturais populares de Porto Velho, destacam-se o <strong>Arraial Flor do Maracujá</strong> (tradicional mostra de quadrilhas juninas e bois-bumbás — como Boi Corre Campo, Az de Ouro e Diamante Negro), a <strong>Banda do Vai Quem Quer</strong> (maior bloco carnavalesco da Amazônia Ocidental, fundado em 1980 por Sílvio Santos/Manoel Mendonça), a Festa do Divino Espírito Santo no Vale do Guaporé e o Duelo na Fronteira em Guajará-Mirim.</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)</h5><p><strong>Cidadania, Direitos Humanos e Povos Tradicionais / Indígenas em Rondônia:</strong></p><p>• A formação sociocultural de Porto Velho reúne três grandes matrizes: (1) os <strong>povos indígenas originários</strong> (como as etnias Karitiana, Karipuna, Kaxarari, Uru-Eu-Wau-Wau, Cinta Larga, Paiter Suruí, Arara e Gavião) e as comunidades ribeirinhas e quilombolas (como no Vale do Guaporé — Pedras Negras, Forte Príncipe e Santo Antônio do Guaporé); (2) a imigração <strong>nordestina</strong> nos dois Ciclos da Borracha e a mão de obra internacional da EFMM (em especial os imigrantes caribenhos de <strong>Barbados / barbadianos</strong>, além de espanhóis, gregos e italianos); e (3) os migrantes <strong>sulistas, sudestinos e centro-oestinos</strong> atraídos pelos projetos de colonização do INCRA ao longo da BR-364 a partir da década de 1970.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p><strong>ÍCONES CULTURAIS DE PORTO VELHO PARA A PROVA:</strong></p><p>• <strong>As Três Caixas d'Água (\"Três Marias\", 1910–1912)</strong> + <strong>Complexo da EFMM</strong> (tombados como patrimônio histórico).</p><p>• <strong>Arraial Flor do Maracujá:</strong> Maior festival folclórico de Quadrilhas e Bois-Bumbás de Porto Velho/RO.</p><p>• <strong>Banda do Vai Quem Quer (1980, Manelão):</strong> Maior bloco carnavalesco da Amazônia Ocidental.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Sobre o patrimônio histórico, arquitetônico e as manifestações culturais tradicionais de Porto Velho e do Estado de Rondônia, assinale a alternativa CORRETA:",
+          "options": [
+            "A) As Três Caixas d'Água ('Três Marias'), erguidas entre 1910 e 1912 durante a construção da Estrada de Ferro Madeira-Mamoré, figuram na bandeira e no brasão de Porto Velho; na cultura popular, destacam-se o Arraial Flor do Maracujá (quadrilhas e bois-bumbás) e a Banda do Vai Quem Quer.",
+            "B) O Complexo da Estrada de Ferro Madeira-Mamoré foi totalmente demolido em 1950 e não possui tombamento histórico.",
+            "C) A imigração barbadiana (caribenha) não teve nenhuma participação na construção da EFMM ou na formação dos bairros históricos de Porto Velho.",
+            "D) O Real Forte Príncipe da Beira foi construído no século XX no centro comercial de Ji-Paraná."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. As Três Caixas d'Água (1910-1912) e o Complexo da EFMM são os maiores marcos materiais de Porto Velho, enquanto o Arraial Flor do Maracujá e a Banda do Vai Quem Quer são os maiores patrimônios festivos da capital."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a origem das Três Caixas d'Água ('As Três Marias') de Porto Velho?",
+          "front": "Qual a origem das Três Caixas d'Água ('As Três Marias') de Porto Velho?",
+          "b": "Foram construídas entre 1910 e 1912 pela Chicago Bridge & Iron Works em aço rebitado para abastecer a Estrada de Ferro Madeira-Mamoré, tornando-se o símbolo oficial na Bandeira e no Brasão de Porto Velho.",
+          "back": "Foram construídas entre 1910 e 1912 pela Chicago Bridge & Iron Works em aço rebitado para abastecer a Estrada de Ferro Madeira-Mamoré, tornando-se o símbolo oficial na Bandeira e no Brasão de Porto Velho.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Quais são as duas maiores manifestações culturais populares anuais de Porto Velho (junina/folclórica e carnavalesca)?",
+          "front": "Quais são as duas maiores manifestações culturais populares anuais de Porto Velho (junina/folclórica e carnavalesca)?",
+          "b": "O Arraial Flor do Maracujá (mostra de quadrilhas e bois-bumbás) e a Banda do Vai Quem Quer (maior bloco carnavalesco da Amazônia Ocidental, fundado em 1980 por Manelão).",
+          "back": "O Arraial Flor do Maracujá (mostra de quadrilhas e bois-bumbás) e a Banda do Vai Quem Quer (maior bloco carnavalesco da Amazônia Ocidental, fundado em 1980 por Manelão).",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 2.2 — Movimentos Artísticos, Culturais e Sociais do Brasil e do Mundo: Do Renascimento e Barroco à Semana de Arte Moderna de 1922, Tropicalismo e Movimentos Sociais Contemporâneos",
+      "modoA": "<div class=\"space-y-3 text-xs sm:text-sm text-slate-800 leading-relaxed\">\n  <div class=\"bg-teal-900 text-white p-3.5 rounded-xl border border-teal-700\">\n    <span class=\"text-[11px] font-extrabold uppercase tracking-wider text-amber-300\">Item 2 de Conhecimentos Gerais — Humanidades</span>\n    <h4 class=\"text-sm sm:text-base font-extrabold mt-0.5\">Movimentos Artísticos, Culturais e Sociais no Brasil e no Mundo</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Síntese completa do PDF de Humanidades da Subpasta 7 complementada com movimentos sociais e patrimônios culturais.</p>\n  </div>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Grandes Movimentos Artísticos e Culturais na História Mundial e Brasileira</h5>\n  <div class=\"overflow-x-auto my-2\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\">\n      <thead class=\"bg-slate-800 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Movimento Artístico / Cultural</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Características Centrais</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Principais Expoentes (Mundo e Brasil)</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Renascimento Cultural (Sécs. XIV–XVI)</td>\n          <td class=\"p-2\">Antropocentrismo, racionalismo, humanismo, perspectiva geométrica e retomada dos valores greco-romanos.</td>\n          <td class=\"p-2\">Leonardo da Vinci, Michelangelo, Rafael Sanzio, Camões, Shakespeare.</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Barroco e Barroco Mineiro (Sécs. XVII–XVIII)</td>\n          <td class=\"p-2\">Dualismo entre fé e razão, contraste claro-escuro, dramaticidade e ornamentação intensa. No Brasil, expressou-se na arte sacra em pedra-sabão e madeira.</td>\n          <td class=\"p-2\">Caravaggio (Itália); no Brasil: <strong>Aleijadinho</strong> (Antônio Francisco Lisboa), <strong>Mestre Ataíde</strong>, Gregório de Matos e Padre Antônio Vieira.</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Vanguardas Europeias (Início do Séc. XX)</td>\n          <td class=\"p-2\">Ruptura com a arte acadêmica tradicional: <strong>Cubismo</strong> (geometrização), <strong>Expressionismo</strong> (subjetividade/dor), <strong>Futurismo</strong> (velocidade/máquina), <strong>Dadaísmo</strong> (irreverência/antiarte) e <strong>Surrealismo</strong> (inconsciente/sonhos).</td>\n          <td class=\"p-2\">Pablo Picasso (Cubismo — <em>Guernica</em>), Salvador Dalí (Surrealismo), Edvard Munch (Expressionismo — <em>O Grito</em>), Marcel Duchamp (Dadaísmo).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Modernismo Brasileiro e Semana de Arte Moderna (Fevereiro de 1922 — Teatro Municipal de SP)</td>\n          <td class=\"p-2\">Ruptura com o academicismo parnasiano, liberdade formal (verso livre), valorização da identidade nacional, da linguagem coloquial brasileira e do <strong>Manifesto Antropofágico (1928)</strong> (\"deglutir\" a cultura estrangeira e transformá-la em arte autenticamente brasileira).</td>\n          <td class=\"p-2\"><strong>Tarsila do Amaral</strong> (<em>Abaporu</em>, <em>Operários</em>), <strong>Anita Malfatti</strong>, <strong>Mário de Andrade</strong> (<em>Macunaíma</em>), <strong>Oswald de Andrade</strong>, Menotti Del Picchia, Heitor Villa-Lobos (música) e Victor Brecheret (escultura). Na 2ª fase: Candido Portinari (<em>Os Retirantes</em>) e Oscar Niemeyer.</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Bossa Nova, Cinema Novo e Tropicalismo (Anos 1950–1960)</td>\n          <td class=\"p-2\">Renovação estética brasileira: Bossa Nova (harmonia sofisticada), Cinema Novo (\"uma câmera na mão e uma ideia na cabeça\" — crítica social) e <strong>Tropicália (1967–1968)</strong>, que fundiu cultura pop/guitarra elétrica com ritmos tradicionais e retomou a antropofagia modernista.</td>\n          <td class=\"p-2\">Tom Jobim, João Gilberto e Vinicius de Moraes (Bossa Nova); Glauber Rocha (Cinema Novo); Caetano Veloso, Gilberto Gil, Gal Costa, Os Mutantes, Tom Zé e Hélio Oiticica (Tropicalismo).</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Movimentos Sociais no Mundo, no Brasil e na Amazônia</h5>\n  <ul class=\"list-disc pl-5 space-y-1.5\">\n    <li><strong>Movimentos Sociais Clássicos vs. Novos Movimentos Sociais:</strong> Os movimentos clássicos (séc. XIX e meados do séc. XX) concentravam-se nas relações trabalhistas e sindicais (movimento operário e campesinato). Já os <strong>Novos Movimentos Sociais</strong> (a partir da segunda metade do séc. XX e séc. XXI) articulam pautas de <strong>direitos humanos, igualdade racial (Movimento Negro), direitos das mulheres (Sufragismo e Feminismo), inclusão da pessoa com deficiência, preservação socioambiental e demarcação de terras indígenas e quilombolas</strong>.</li>\n    <li><strong>Movimentos Sociais Históricos da Amazônia e de Rondônia:</strong>\n      <ul class=\"list-disc pl-5 mt-1 space-y-1\">\n        <li><strong>Movimento dos Seringueiros e os \"Empates\" (anos 1970–1980):</strong> Liderado por Wilson Pinheiro e <strong>Chico Mendes</strong>, uniu trabalhadores extrativistas da Amazônia Ocidental na defesa da floresta em pé, dando origem ao conceito mundialmente reconhecido de <strong>Reserva Extrativista (RESEX)</strong> — hoje fundamental em Rondônia (como a RESEX Lago do Cuniã em Porto Velho e a RESEX Rio Ouro Preto em Guajará-Mirim);</li>\n        <li><strong>Movimento Indígena e Povos Tradicionais em Rondônia:</strong> Atuação de povos originários como os <strong>Karitiana, Karipuna, Uru-Eu-Wau-Wau, Cinta Larga, Suruí (Paiter Suruí), Gavião (Ikolen) e Arara</strong>, além das comunidades ribeirinhas e quilombolas do Vale do Guaporé e do Baixo Madeira.</li>\n      </ul>\n    </li>\n  </ul>\n</div>",
+      "modoB": "<ul class=\"list-disc pl-4 space-y-1 text-xs\">\n  <li><strong>Semana de Arte Moderna (Fevereiro de 1922, Teatro Municipal de SP):</strong> Mário de Andrade, Oswald de Andrade, Anita Malfatti, Tarsila do Amaral (<em>Abaporu</em> / Manifesto Antropofágico de 1928), Heitor Villa-Lobos e Victor Brecheret.</li>\n  <li><strong>Tropicalismo (1967–1968):</strong> Caetano Veloso, Gilberto Gil, Gal Costa, Tom Zé e Hélio Oiticica (sincretismo entre vanguarda, cultura pop e raízes brasileiras).</li>\n  <li><strong>Movimento Socioambiental Amazônico:</strong> Criou o modelo de <strong>Reserva Extrativista (RESEX)</strong>, como a <strong>RESEX Lago do Cuniã</strong> (localizada no Baixo Madeira, em Porto Velho).</li>\n</ul>",
+      "traps": [
+        "❌ Mito/Pegadinha: \"A Semana de Arte Moderna de 1922 ocorreu no Teatro Amazonas, em Manaus, e defendia o retorno ao estilo clássico português.\" — ✅ CORRETO: Ocorreu no Teatro Municipal de São Paulo (fevereiro de 1922) e rompeu com o academicismo, defendendo a identidade nacional e a liberdade estética.",
+        "❌ Mito/Pegadinha: \"As Reservas Extrativistas (RESEX), como a do Lago do Cuniã em Porto Velho, proíbem a permanência de populações ribeirinhas e extrativistas tradicionais.\" — ✅ CORRETO: A RESEX é uma Unidade de Conservação de Uso Sustentável criada justamente para proteger os meios de vida e a cultura das populações extrativistas tradicionais."
+      ],
+      "questions": [
+        {
+          "q": "(Questão de estudo — Perfil Humanidades) A Semana de Arte Moderna de 1922, realizada no Teatro Municipal de São Paulo, representou um divisor de águas na história artística e cultural brasileira. Assinale a alternativa que apresenta CORRETAMENTE características e protagonistas desse movimento:",
+          "options": [
+            "A) Ruptura com o academicismo e o parnasianismo, liberdade formal, valorização da linguagem coloquial e da identidade nacional, tendo como expoentes Mário de Andrade, Oswald de Andrade, Anita Malfatti, Tarsila do Amaral e Heitor Villa-Lobos.",
+            "B) Imitação rigorosa da escultura greco-romana clássica e proibição de temas ligados ao folclore e à cultura popular brasileira.",
+            "C) Movimento exclusivo da música eletrônica surgido na década de 1990 no Rio Grande do Sul.",
+            "D) Rejeição completa às vanguardas europeias em favor do retorno ao estilo colonial barroco do século XVII."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. O Modernismo de 1922 rompeu com o passadismo acadêmico e parnasiano, assimilou criticamente as vanguardas europeias (antropofagia cultural) e valorizou a identidade nacional, a cultura popular e a língua falada no Brasil."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Humanidades e Cultura de PVH) No município de Porto Velho e no estado de Rondônia, as manifestações artísticas, culturais e socioambientais refletem a pluralidade de povos indígenas, ribeirinhos, nordestinos e migrantes. Sobre o patrimônio cultural e os movimentos sociais locais, assinale a alternativa CORRETA:",
+          "options": [
+            "A) O Arraial Flor do Maracujá (Mostra de Quadrilhas e Bois-Bumbás) e a Banda do Vai Quem Quer constituem marcos tradicionais da cultura popular de Porto Velho, assim como a Reserva Extrativista (RESEX) Lago do Cuniã representa a conquista socioambiental das comunidades ribeirinhas do Baixo Madeira.",
+            "B) Porto Velho não possui nenhum bem tombado ou reconhecido como patrimônio histórico, pois a Estrada de Ferro Madeira-Mamoré foi construída no estado do Paraná.",
+            "C) As Caixas d’Água do Caiari (\"Três Marias\") foram demolidas em 1950 e substituídas por arranha-céus.",
+            "D) O movimento dos seringueiros na Amazônia defendia a substituição total da floresta nativa por desertos de mineração."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. O Arraial Flor do Maracujá, a Banda do Vai Quem Quer, as Três Caixas d’Água e o complexo da EFMM são ícones culturais de Porto Velho, e a RESEX Lago do Cuniã é referência nacional de manejo comunitário sustentável no Baixo Madeira."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Humanidades) Na história da arte brasileira do final da década de 1960 (1967–1968), o movimento cultural que retomou o conceito de \"antropofagia\" de Oswald de Andrade, unindo guitarras elétricas, música popular tradicional, artes plásticas (Hélio Oiticica) e cinema em obras de Caetano Veloso, Gilberto Gil, Gal Costa e Os Mutantes, ficou conhecido como:",
+          "options": [
+            "A) Arcadismo Mineiro.",
+            "B) Tropicalismo (ou Tropicália).",
+            "C) Realismo Científico.",
+            "D) Classicismo Quinhentista."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O Tropicalismo (Tropicália) revolucionou a cultura brasileira entre 1967 e 1968 ao fundir elementos da cultura pop internacional e das vanguardas com ritmos regionais brasileiros."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Humanidades: Quais foram os principais artistas e escritores ligados ao Modernismo de 1922 no Brasil?",
+          "b": "Mário de Andrade, Oswald de Andrade, Anita Malfatti, Tarsila do Amaral (quadro Abaporu), Menotti Del Picchia, Victor Brecheret e Heitor Villa-Lobos.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades Porto Velho: Quais são os principais marcos culturais e folclóricos da capital rondoniense?",
+          "b": "Complexo da Estrada de Ferro Madeira-Mamoré (EFMM), As Três Caixas d’Água (\"Três Marias\"), Arraial Flor do Maracujá (Quadrilhas e Bois-Bumbás), Banda do Vai Quem Quer e Festas do Divino no Guaporé/Madeira.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades e Movimentos Sociais: Qual Unidade de Conservação no Baixo Madeira (Porto Velho) simboliza a conquista das comunidades extrativistas e ribeirinhas (manejo de jacaré e pesca)?",
+          "b": "A Reserva Extrativista (RESEX) Lago do Cuniã.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades: Qual movimento artístico brasileiro de 1967–1968 (Caetano Veloso, Gilberto Gil, Hélio Oiticica) retomou a antropofagia modernista?",
+          "b": "O Tropicalismo (ou Tropicália).",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 2.3 — Movimentos Culturais, Literários, Musicais e Povos Tradicionais de Porto Velho e Rondônia (Regionalismo Amazônico, Beradeiro, Povos Indígenas e Patrimônio Imaterial)",
+      "modoA": "<div class=\"space-y-3 text-xs sm:text-sm text-slate-800 leading-relaxed\">\n  <div class=\"bg-teal-900 text-white p-3.5 rounded-xl border border-teal-700\">\n    <span class=\"text-[11px] font-extrabold uppercase tracking-wider text-amber-300\">Identidade Cultural de Porto Velho e Rondônia</span>\n    <h4 class=\"text-sm sm:text-base font-extrabold mt-0.5\">A Cultura \"Beradeira\", a Literatura Regional e os Movimentos Indígenas e Quilombolas</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Tópicos essenciais de Humanidades locais frequentemente cobrados em provas municipais de Porto Velho.</p>\n  </div>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. O Movimento de Valorização da Identidade \"Beradeira\" e a Música/Literatura de Porto Velho</h5>\n  <ul class=\"list-disc pl-5 space-y-1.5\">\n    <li><strong>Ressignificação do Termo \"Beradeiro\":</strong> Historicamente utilizado de forma pejorativa para designar quem vivia \"na beira\" dos rios (ribeirinhos do Rio Madeira, Machado, Guaporé e Mamoré), o termo <strong>\"Beradeiro\"</strong> foi ressignificado pelos movimentos culturais, musicais e acadêmicos de Porto Velho como símbolo de <strong>orgulho identitário, resistência amazônica e pertencimento ribeirinho</strong>.</li>\n    <li><strong>Expressões Musicais e Poéticas Locais:</strong> Destacam-se na história cultural de Porto Velho compositores, poetas e cronistas como <strong>Bado</strong>, <strong>Zezinho dos Palmares</strong>, <strong>Ernesto Melo</strong>, <strong>Sílvio Santos (Zé Katraca)</strong>, <strong>Antero Soares</strong>, além da historiografia regional de <strong>Abnael Machado de Lima</strong>, <strong>Esron Penha de Menezes</strong>, <strong>Manoel Rodrigues Ferreira</strong> (autor de <em>A Ferrovia do Diabo</em>) e <strong>Dante Ribeiro da Fonseca</strong>.</li>\n    <li><strong>Culinária e Saberes Tradicionais:</strong> Caldeirada de tucunaré e tambaqui no tucupi, mojica de peixe, farinha d’água de mandioca do Baixo Madeira, tacacá, açaí, cupuaçu e castanha-da-amazônia.</li>\n  </ul>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Diversidade Étnica, Povos Indígenas e Comunidades Quilombolas em Rondônia</h5>\n  <ul class=\"list-disc pl-5 space-y-1.5\">\n    <li><strong>Povos Indígenas em Porto Velho e Rondônia:</strong> Rondônia abriga mais de 50 etnias indígenas (inclusive grande diversidade linguística do tronco Tupi). No município de Porto Velho e entorno imediato destacam-se as Terras Indígenas <strong>Karitiana</strong> (famosa pela língua Arikém e artesanato), <strong>Karipuna</strong>, <strong>Kaxarari</strong> (na divisa com o Amazonas/Acre, distrito de Extrema) e <strong>Uru-Eu-Wau-Wau</strong> (na Serra dos Pacaás Novos).</li>\n    <li><strong>Comunidades Remanescentes de Quilombos e Festa do Divino Espírito Santo:</strong> Formadas historicamente por descendentes de trabalhadores africanos escravizados no século XVIII (ciclo do ouro e construção do Forte Príncipe da Beira no Vale do Guaporé), destacam-se comunidades como <strong>Pedras Negras, Santo Antônio do Guaporé, Jesus e Forte Príncipe da Beira</strong>, célebres pela secular <strong>Romaria fluvial da Festa do Divino Espírito Santo do Vale do Guaporé</strong> (reconhecida como patrimônio cultural imaterial).</li>\n  </ul>\n</div>",
+      "modoB": "<ul class=\"list-disc pl-4 space-y-1 text-xs\">\n  <li><strong>Cultura \"Beradeira\":</strong> Valorização identitária das populações ribeirinhas das margens (\"beiras\") do Rio Madeira e seus afluentes em Porto Velho.</li>\n  <li><strong>Terras Indígenas em Porto Velho e entorno:</strong> <strong>Karitiana</strong>, <strong>Karipuna</strong> e <strong>Kaxarari</strong> (além dos Paiter Suruí, Cinta Larga e Uru-Eu-Wau-Wau em Rondônia).</li>\n  <li><strong>Patrimônio Imaterial Afro-Rondoniense:</strong> Comunidades quilombolas do Vale do Guaporé (Pedras Negras, Santo Antônio) e a tradicional <strong>Festa do Divino Espírito Santo</strong>.</li>\n</ul>",
+      "traps": [
+        "❌ Mito/Pegadinha: \"O município de Porto Velho não possui terras indígenas demarcadas nem população ribeirinha tradicional.\" — ✅ CORRETO: Porto Velho abriga Terras Indígenas históricas como Karitiana, Karipuna e Kaxarari, além de dezenas de comunidades ribeirinhas no Baixo e Alto Madeira."
+      ],
+      "questions": [
+        {
+          "q": "(Questão de estudo — Perfil Humanidades RO/PVH) Nos movimentos culturais e identitários de Porto Velho, o termo historicamente associado às populações tradicionais que habitam as margens (\"beiras\") do Rio Madeira e de seus igarapés — hoje valorizado na música, na literatura e nas artes locais como símbolo de orgulho e pertencimento amazônico — é:",
+          "options": [
+            "A) Bandeirante paulista.",
+            "B) Beradeiro.",
+            "C) Tropeiro dos pampas.",
+            "D) Jangadeiro atlântico."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A identidade \"beradeira\" (do habitante da beira dos rios amazônicos, especialmente do Rio Madeira) é um marco cultural, artístico e literário de Porto Velho."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Humanidades RO) No território do município de Porto Velho e regiões limítrofes, destacam-se importantes Terras Indígenas reconhecidas pela preservação de suas línguas, saberes e biodiversidade amazônica, entre as quais se incluem:",
+          "options": [
+            "A) Karitiana, Karipuna e Kaxarari.",
+            "B) Asteca, Inca e Maia.",
+            "C) Zulu e Maori.",
+            "D) Sami e Inuit."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. As Terras Indígenas Karitiana, Karipuna e Kaxarari têm presença direta no território de Porto Velho e entorno."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Humanidades RO) No Vale do Rio Guaporé, em Rondônia, comunidades remanescentes de quilombos (como Pedras Negras e Santo Antônio do Guaporé) preservam há mais de um século uma importante manifestação religiosa e cultural fluvial reconhecida como patrimônio cultural imaterial do estado, denominada:",
+          "options": [
+            "A) Oktoberfest Germânica.",
+            "B) Festa do Divino Espírito Santo do Vale do Guaporé.",
+            "C) Festival de Inverno da Serra Gaúcha.",
+            "D) Cavalhada Goiana do Cerrado."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A Festa do Divino Espírito Santo do Vale do Guaporé é a mais tradicional manifestação religiosa e cultural das comunidades quilombolas e ribeirinhas da fronteira Brasil–Bolívia em Rondônia."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Humanidades PVH: O que significa a identidade cultural \"Beradeira\" em Porto Velho?",
+          "b": "Refere-se ao habitante tradicional da \"beira\" do Rio Madeira e seus afluentes, ressignificado pelas artes, literatura e música de Porto Velho como símbolo de orgulho ribeirinho amazônico.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades PVH: Quais são as 3 principais Terras Indígenas localizadas no município de Porto Velho e divisas?",
+          "b": "Terras Indígenas Karitiana, Karipuna e Kaxarari.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades RO: Qual obra clássica de Manoel Rodrigues Ferreira narra a epopeia da construção da Estrada de Ferro Madeira-Mamoré?",
+          "b": "O livro \"A Ferrovia do Diabo\".",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Humanidades RO: Qual celebração centenária das comunidades quilombolas do Vale do Guaporé é Patrimônio Cultural Imaterial de Rondônia?",
+          "b": "A Festa do Divino Espírito Santo do Vale do Guaporé.",
+          "lessonTitle": "2. Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    }
+  ]
+}

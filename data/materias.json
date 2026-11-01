@@ -1,116 +1,126 @@
-{
-  "concurso": "SEMUSA Porto Velho/RO 2026 — Edital nº 25/2026 (Retificação nº 01 — Edital nº 28/2026 — IBGP)",
-  "cargo": "Agente de Combate às Endemias (ACE — Códigos 340 a 356)",
-  "dataProva": "2026-12-13",
-  "totalQuestoesProva": 50,
-  "totalPontosProva": 100.0,
-  "materias": [
-    {
-      "id": "esp",
-      "slug": "conhecimentos-especificos",
-      "nome": "Conhecimentos Específicos (Saúde Coletiva & ACE)",
-      "questoesProva": 15,
-      "pesoQuestao": 2.0,
-      "pontosProva": 30.0,
-      "percentualProva": "30%",
-      "pastaContent": "./content/conhecimentos-especificos",
-      "totalAulas": 10,
-      "totalQuestoesBanco": 81,
-      "totalFlashcardsBanco": 90,
-      "aulas": [
-        "esp_1",
-        "esp_2",
-        "esp_3",
-        "esp_4",
-        "esp_5",
-        "esp_6",
-        "esp_7",
-        "esp_8",
-        "esp_9",
-        "esp_10"
-      ]
-    },
-    {
-      "id": "leg",
-      "slug": "legislacao",
-      "nome": "Legislação Municipal, Constitucional e Administrativa",
-      "questoesProva": 10,
-      "pesoQuestao": 2.0,
-      "pontosProva": 20.0,
-      "percentualProva": "20%",
-      "pastaContent": "./content/legislacao",
-      "totalAulas": 7,
-      "totalQuestoesBanco": 41,
-      "totalFlashcardsBanco": 54,
-      "aulas": [
-        "leg_1",
-        "leg_2",
-        "leg_3",
-        "leg_4",
-        "leg_5",
-        "leg_6",
-        "leg_7"
-      ]
-    },
-    {
-      "id": "por",
-      "slug": "portugues",
-      "nome": "Língua Portuguesa",
-      "questoesProva": 10,
-      "pesoQuestao": 2.0,
-      "pontosProva": 20.0,
-      "percentualProva": "20%",
-      "pastaContent": "./content/portugues",
-      "totalAulas": 6,
-      "totalQuestoesBanco": 31,
-      "totalFlashcardsBanco": 38,
-      "aulas": [
-        "por_1",
-        "por_2",
-        "por_3",
-        "por_4",
-        "por_5",
-        "por_6"
-      ]
-    },
-    {
-      "id": "rlm",
-      "slug": "raciocinio-logico",
-      "nome": "Raciocínio Lógico-Matemático",
-      "questoesProva": 10,
-      "pesoQuestao": 2.0,
-      "pontosProva": 20.0,
-      "percentualProva": "20%",
-      "pastaContent": "./content/raciocinio-logico",
-      "totalAulas": 6,
-      "totalQuestoesBanco": 36,
-      "totalFlashcardsBanco": 42,
-      "aulas": [
-        "rlm_1",
-        "rlm_2",
-        "rlm_3",
-        "rlm_4",
-        "rlm_5",
-        "rlm_6"
-      ]
-    },
-    {
-      "id": "atu",
-      "slug": "conhecimentos-gerais",
-      "nome": "Conhecimentos Gerais, História/Geografia de Porto Velho/RO e Atualidades",
-      "questoesProva": 5,
-      "pesoQuestao": 2.0,
-      "pontosProva": 10.0,
-      "percentualProva": "10%",
-      "pastaContent": "./content/conhecimentos-gerais",
-      "totalAulas": 3,
-      "totalQuestoesBanco": 18,
-      "totalFlashcardsBanco": 22,
-      "aulas": [
-        "atu_1",
-        "atu_2",
-        "atu_3"
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "esp",
+    "codigo": "ESP",
+    "nome": "Conhecimentos Específicos (ACE)",
+    "peso": "Peso 2,0 (30 pts)",
+    "cor": "#0d9488",
+    "totalAulas": 10,
+    "totalBlocosBase": 50,
+    "totalBlocosComAprofundamento": 60,
+    "totalQuestoesBase": 135,
+    "totalQuestoesComAprofundamento": 155,
+    "totalFlashcards": 169,
+    "aulasIds": [
+      "esp_1",
+      "esp_2",
+      "esp_3",
+      "esp_4",
+      "esp_5",
+      "esp_6",
+      "esp_7",
+      "esp_8",
+      "esp_9",
+      "esp_10"
+    ]
+  },
+  {
+    "id": "leg",
+    "codigo": "LEG",
+    "nome": "Legislação Municipal, SUS e Constitucional",
+    "peso": "Peso 2,0 (20 pts)",
+    "cor": "#d97706",
+    "totalAulas": 7,
+    "totalBlocosBase": 38,
+    "totalBlocosComAprofundamento": 45,
+    "totalQuestoesBase": 94,
+    "totalQuestoesComAprofundamento": 108,
+    "totalFlashcards": 133,
+    "aulasIds": [
+      "leg_1",
+      "leg_2",
+      "leg_3",
+      "leg_4",
+      "leg_5",
+      "leg_6",
+      "leg_7"
+    ]
+  },
+  {
+    "id": "por",
+    "codigo": "POR",
+    "nome": "Língua Portuguesa",
+    "peso": "Peso 2,0 (20 pts)",
+    "cor": "#4f46e5",
+    "totalAulas": 18,
+    "totalBlocosBase": 44,
+    "totalBlocosComAprofundamento": 62,
+    "totalQuestoesBase": 136,
+    "totalQuestoesComAprofundamento": 172,
+    "totalFlashcards": 141,
+    "aulasIds": [
+      "por_1",
+      "por_2",
+      "por_3",
+      "por_4",
+      "por_5",
+      "por_6",
+      "por_7",
+      "por_8",
+      "por_9",
+      "por_10",
+      "por_11",
+      "por_12",
+      "por_13",
+      "por_14",
+      "por_15",
+      "por_16",
+      "por_17",
+      "por_18"
+    ]
+  },
+  {
+    "id": "rlm",
+    "codigo": "RLM",
+    "nome": "Raciocínio Lógico-Matemático",
+    "peso": "Peso 2,0 (20 pts)",
+    "cor": "#7c3aed",
+    "totalAulas": 8,
+    "totalBlocosBase": 36,
+    "totalBlocosComAprofundamento": 44,
+    "totalQuestoesBase": 116,
+    "totalQuestoesComAprofundamento": 132,
+    "totalFlashcards": 141,
+    "aulasIds": [
+      "rlm_1",
+      "rlm_2",
+      "rlm_3",
+      "rlm_4",
+      "rlm_5",
+      "rlm_6",
+      "rlm_7",
+      "rlm_8"
+    ]
+  },
+  {
+    "id": "atu",
+    "codigo": "ATU",
+    "nome": "Conhecimentos Gerais, História e Geografia de RO",
+    "peso": "Peso 2,0 (10 pts)",
+    "cor": "#059669",
+    "totalAulas": 6,
+    "totalBlocosBase": 19,
+    "totalBlocosComAprofundamento": 25,
+    "totalQuestoesBase": 53,
+    "totalQuestoesComAprofundamento": 65,
+    "totalFlashcards": 76,
+    "aulasIds": [
+      "atu_1",
+      "atu_2",
+      "atu_3",
+      "atu_4",
+      "atu_5",
+      "atu_6"
+    ]
+  }
+]

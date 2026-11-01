@@ -1,0 +1,313 @@
+{
+  "id": "atu_5",
+  "num": 31,
+  "slug": "31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026",
+  "subjectFolder": "conhecimentos-gerais",
+  "mdPath": "./content/conhecimentos-gerais/31-georreferenciamento-sig-gps-sensoriamento-remoto-atualidades-2025-2026.md",
+  "mdLegacyPath": "./content/atu_3.md",
+  "cat": "atu",
+  "catName": "Conhecimentos Gerais e Atualidades",
+  "weight": "5 Questões • Peso 2 (10 pts)",
+  "title": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo",
+  "editalRef": "5 - Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo.",
+  "auditBadge": "GERAIS ITEM 5 — GEORREFERENCIAMENTO (SIG/GPS), ECOLOGIA, INOVAÇÕES E ATUALIDADES MULTITEMÁTICAS",
+  "sources": [
+    76,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    91
+  ],
+  "questionsCount": 8,
+  "flashcardsCount": 10,
+  "mindMap": {
+    "centralTitle": "5. Georreferenciamento (SIG/GPS/PRODES), Ecologia, Meio Ambiente (COP30), Saúde, Justiça, Educação, Esportes, Turismo e Inovações",
+    "mnemonic": "Georreferenciamento: GPS (24 satélites), SIRGAS 2000 (IBGE), SIG Vetorial (ponto/linha/polígono) vs. Matricial (pixel/raster), PRODES (anual) vs. DETER (alertas diários) • Inovação em Saúde: Wolbachia, Qdenga, BRI-Aedes • Ecologia: Hábitat vs. Nicho, COP30 em Belém",
+    "deadlinesAndNumbers": [
+      {
+        "value": "SIRGAS 2000",
+        "label": "Sistema Geodésico de Referência oficial do Brasil (adotado pelo IBGE para cartografia e georreferenciamento)"
+      },
+      {
+        "value": "PRODES vs. DETER (INPE)",
+        "label": "PRODES mede a taxa anual consolidada de desmatamento; DETER emite alertas rápidos quase diários para fiscalização"
+      },
+      {
+        "value": "Wolbachia e Qdenga",
+        "label": "Inovações biotecnológicas do Ministério da Saúde no controle e prevenção da Dengue e arboviroses"
+      },
+      {
+        "value": "COP30 (Belém/PA) e SBCE",
+        "label": "Conferência climática da ONU na Amazônia e criação do mercado regulado de carbono (Lei nº 15.042/2024)"
+      }
+    ],
+    "branches": [
+      {
+        "title": "1. Georreferenciamento, Coordenadas e Sistema Oficial (SIRGAS 2000)",
+        "icon": "🛰️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Latitude, Longitude e Datum Oficial",
+            "detail": "Latitude: distância ao Equador (0° a 90° N/S — Porto Velho fica a ~8°45' Sul). Longitude: distância a Greenwich (0° a 180° L/O — fuso UTC-4). Sistema Geodésico Oficial do Brasil: SIRGAS 2000!",
+            "badge": "SIRGAS 2000"
+          },
+          {
+            "label": "GNSS (GPS, GLONASS, Galileo, BeiDou)",
+            "detail": "3 segmentos do GPS: Espacial (satélites), Controle (estações em solo) e Usuário (aparelho/tablet do ACE em campo).",
+            "badge": "3 Segmentos GPS"
+          }
+        ]
+      },
+      {
+        "title": "2. SIG (Sistema de Informações Geográficas): Vetorial vs. Matricial",
+        "icon": "🗺️",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Dados Vetoriais (Geometria Discreta)",
+            "detail": "Representam feições por PONTO (um foco de Aedes, um caso notificado, um PIT), LINHA (uma rua, um igarapé) e POLÍGONO (um quarteirão, um bairro, um distrito).",
+            "badge": "Ponto / Linha / Polígono"
+          },
+          {
+            "label": "Dados Matriciais / Raster (Grade Contínua de Pixels)",
+            "detail": "Imagens de satélite, ortofotos de drones, modelos digitais de elevação e mapas contínuos de temperatura/vegetação (NDVI).",
+            "badge": "Grade de Pixels"
+          }
+        ]
+      },
+      {
+        "title": "3. Sensoriamento Remoto e Aplicações no Trabalho do ACE + Atualidades",
+        "icon": "🚁",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Drones, Buffer (Raio de Bloqueio) e Mapa de Kernel",
+            "detail": "Drones identificam caixas d'água destampadas e piscinas abandonadas. No SIG, o BUFFER traça o raio de bloqueio (ex: 150m ao redor do caso positivo) e o Mapa de Kernel mostra as manchas de calor (hotspots).",
+            "badge": "Buffer + Kernel"
+          },
+          {
+            "label": "Atualidades 2025/2026 (Amazônia, Clima e Saúde)",
+            "detail": "Eventos extremos no Rio Madeira (estiagens severas 2023/2024 seguidas de cheias), COP30 na Amazônia (Belém), expansão da vacina da dengue (QDenga) no SUS, Wolbachia e uso de armadilhas ovitrampas georreferenciadas.",
+            "badge": "Atualidades RO/Brasil"
+          }
+        ]
+      },
+      {
+        "title": "4. Atualidades Brasil/Mundo (2024–2026)",
+        "icon": "🌍",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Reforma Tributária (EC 132/2023 e LC 214/2025)",
+            "detail": "IVA Dual = CBS (Federal) + IBS (Estados/Municípios) + IS",
+            "badge": "Síntese IBGP"
+          },
+          {
+            "label": "Ponto-Chave #2",
+            "detail": "COP30 da ONU em Belém/PA (Amazônia) e expansão do bloco BRICS+",
+            "badge": "Síntese IBGP"
+          },
+          {
+            "label": "Censo IBGE 2022",
+            "detail": "Transição demográfica, queda da fecundidade (<2,1) e envelhecimento populacional",
+            "badge": "Síntese IBGP"
+          },
+          {
+            "label": "Saúde Pública MS",
+            "detail": "Incorporação da vacina Qdenga no PNI, Método Wolbachia e EDLs",
+            "badge": "Síntese IBGP"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 5.1 — Georreferenciamento Aplicado à Vigilância em Saúde e Meio Ambiente: SIG (GIS), GPS/GNSS, Sensoriamento Remoto, Dados Vetoriais vs. Matriciais (Raster) e PRODES/DETER",
+      "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)\n\n**31. Georreferenciamento Aplicado à Saúde e Meio Ambiente (SIG/GIS, GPS, Sensoriamento Remoto, PRODES/DETER) e Atualidades (COP30, Clima no Rio Madeira e Notícias Locais 2025–2026) — Bloco 31.1 — Georreferenciamento Aplicado à Vigilância em Saúde e Meio Ambiente: SIG (GIS), GPS/GNSS, Sensoriamento Remoto, Dados Vetoriais vs. Matriciais (Raster) e PRODES/DETER**\n **Referência no Edital IBGP:** Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): Georreferenciamento; Meio ambiente; Fatos políticos, econômicos, sociais e ambientais (nacional e local).\n **Fontes e PDFs Base Integrados:** PDF #70 (*1. Panorama Internacional – I.pdf*), PDF #71 (*2. Panorama Internacional – II.pdf*), PDF #72 (*3. Panorama Internacional – III.pdf*), PDF #76 (*7. Ecologia e Desenvolvimento Susten.pdf*), PDF #83 (*15. .Retrospectiva de Atualidades -.pdf*), PDF #84 (*16. .Simulado de Atualidades - Julho.pdf*), PDF #85 (*17. .Retrospectiva de Atualidades -.pdf*), PDF #86 (*EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf*), PDF #91 (*Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf*).\n\nObjetivos Claros de Aprendizagem da Estudo dirigido de Geotecnologias, Meio Ambiente e Atualidades\n- Analisar os impactos dos eventos climáticos extremos recentes na Amazônia e em Porto Velho: a estiagem histórica do Rio Madeira em 2023 e 2024 (menor cota da história em Porto Velho, crise de navegabilidade e fumaça das queimadas) vs. as cheias históricas (2014) e sua relação direta com a proliferação de endemias.\n- Dominar a divisão das Unidades de Conservação no SNUC (Lei nº 9.985/2000: Proteção Integral vs. Uso Sustentável, como as RESEX de Rondônia) e a realidade socioeconômica e ambiental da Amazônia Legal.\n- Conhecer as principais ações, programas, obras de infraestrutura, saúde pública e notícias oficiais recentes da Prefeitura de Porto Velho/RO e da SEMUSA (Referência: 2024–2026).\n\n#### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)\n\n**BLOCO NOVO PÓS-AUDITORIA (LACUNA #2 DO EDITAL SANADA):** O tópico de **Georreferenciamento** e geotecnologias aplicadas à vigilância epidemiológica, territorialização do ACE e monitoramento ambiental na Amazônia foi integralmente incorporado.\n\nAs geotecnologias e o **Georreferenciamento** são ferramentas essenciais tanto para a fiscalização ambiental na Amazônia quanto para o **mapeamento de casos e focos de vetores pelo ACE (e-SUS Território / GeoSaúde)**:\n\n- **1. Conceito de Georreferenciamento e Coordenadas Geográficas:**\n\n  - **Georreferenciar** uma imagem, um mapa ou um imóvel/caso de saúde significa **tornar suas coordenadas conhecidas em um dado sistema de referência geodésico oficial** (no Brasil, o sistema geodésico oficial adotado pelo IBGE é o **SIRGAS 2000**), atribuindo-lhe **Latitude** (paralelos: Norte/Sul de 0° a 90°), **Longitude** (meridianos: Leste/Oeste de 0° a 180°) e **Altitude**.\n- **2. As 3 Pilares das Geotecnologias (GPS/GNSS, Sensoriamento Remoto e SIG/GIS):**\n\n  - **GNSS / GPS (Sistema de Posicionamento Global por Satélite):** Constelação de satélites (GPS norte-americano, GLONASS russo, Galileo europeu, BeiDou chinês) que permite ao receptor (ou tablet/celular do ACE em campo) determinar sua posição exata na superfície terrestre (necessitando do sinal de no mínimo **4 satélites** para calcular latitude, longitude, altitude e correção de tempo).\n  - **Sensoriamento Remoto (SR):** Obtenção de informações e imagens da superfície terrestre **sem contato físico direto**, por meio de sensores instalados em satélites (como os satélites sino-brasileiros **CBERS**, o satélite 100% brasileiro **Amazônia-1** e a série **Landsat / Sentinel**), radares, VANTs/Drones ou fotografias aéreas (aerofotogrametria).\n  - **SIG (Sistema de Informação Geográfica — *GIS*):** Sistema computacional (ex.: **QGIS, ArcGIS, TerraView**) que permite **coletar, armazenar, cruzar, analisar e exibir dados georreferenciados em camadas (*layers*)**. • **Dados Vetoriais vs. Dados Matriciais (*Raster*) no SIG:** — **Dados Vetoriais:** Representam feições geográficas discretas por meio de **3 primitivas geométricas: PONTOS** (ex.: localização exata de um caso de dengue ou de uma armadilha de vetor), **LINHAS** (ex.: ruas, rios, estradas vicinais) e **POLÍGONOS** (ex.: limites de um quarteirão, bairro, microárea do ACE ou distrito de Porto Velho). — **Dados Matriciais (*Raster*):** Representam o espaço como uma **grade de células/pixels** (ex.: imagens de satélite, mapas de calor/Kernel de infestação do *Aedes aegypti*, modelos digitais de elevação e temperatura).\n- **3. Sistemas de Monitoramento por Satélite da Amazônia (INPE e CENSIPAM):**\n\n  - **PRODES (INPE):** Realiza o monitoramento anual do **desmatamento por corte raso** na Amazônia Legal, gerando as taxas anuais oficiais de desmatamento do governo brasileiro.\n  - **DETER (INPE):** Sistema de **alerta rápido diário/tempo quase real** de alterações na cobertura florestal (desmatamento e degradação por queimadas/exploração madeireira) para dar suporte imediato à fiscalização do **IBAMA, ICMBio e SEDAM/RO**.\n  - **SIPAM / CENSIPAM (Centro Gestor e Operacional do Sistema de Proteção da Amazônia):** Possui Centro Regional estratégico sediado em **Porto Velho/RO**, integrando dados de radares, satélites, meteorologia, hidrologia (monitoramento de cheias e secas do Rio Madeira) e combate a ilícitos ambientais e sanitários.\n\n#### 3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)\n\n**Aplicação Prática do Georreferenciamento (SIG/GPS) na Vigilância Epidemiológica e Ambiental da SEMUSA:**\n• Quando o ACE utiliza o tablet de campo (e-SUS Território) ou receptor GPS durante o LIRAa ou na investigação de caso autóctone de malária/dengue, ele coleta uma coordenada geográfica (latitude e longitude no sistema geodésico oficial do Brasil, o **SIRGAS 2000**) representada como um **dado vetorial do tipo PONTO**.\n• Na central de geoprocessamento da SEMUSA, esses pontos são cruzados em um **Sistema de Informações Geográficas (SIG / GIS — como o software livre QGIS)** com polígonos dos setores censitários/bairros e mapas de calor (*Kernel*) para delimitar exatamente o raio de 150 a 300 metros do bloqueio químico (UBV) e identificar áreas de vulnerabilidade socioambiental.\n\n#### 4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)\n\n**Quadro Técnico Comparativo: SIG vs. GPS/GNSS vs. Sensoriamento Remoto e PRODES vs. DETER (INPE):**\n• **Dados Vetoriais vs. Dados Matriciais (Raster) no SIG:** Os **Dados Vetoriais** representam feições geométricas discretas por coordenadas exatas: **Pontos** (imóvel positivo, unidade de saúde, armadilha ovitrampa), **Linhas** (ruas, igarapés, rede de drenagem) e **Polígonos** (quarteirões, bairros, distritos, terras indígenas). Já os **Dados Matriciais (Raster)** são formados por uma grade regular de células (**pixels**), como imagens de satélite, fotografias aéreas de drones e modelos digitais de elevação.\n• **PRODES vs. DETER (Monitoramento da Amazônia pelo INPE):** O **DETER** é o sistema de alerta **diário/rápido** (baixa/média resolução espacial) voltado a acionar imediatamente a fiscalização do IBAMA/ICMBio contra desmatamentos e degradação em curso. Já o **PRODES** utiliza imagens de alta resolução (Landsat/Sentinel/CBERS) para medir a **taxa anual oficial consolidada de desmatamento por corte raso** na Amazônia Legal (usada em acordos internacionais como o Acordo de Paris e o Fundo Amazônia).",
+      "modoB_markdown": "**RESUMO CIRÚRGICO DE GEORREFERENCIAMENTO PARA A PROVA IBGP:**\n\n• **Referencial Geodésico Oficial do Brasil (IBGE):** **SIRGAS 2000**.\n\n• **No SIG (QGIS):** **Vetor** = Ponto (caso/foco), Linha (rua/rio) e Polígono (quarteirão/bairro). | **Raster (Matricial)** = Grade de **pixels** (imagem de satélite / mapa de calor).\n\n• **INPE na Amazônia:** **PRODES** = taxa oficial anual de corte raso | **DETER** = alerta rápido diário para fiscalização do IBAMA/SEDAM.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)</h5><p><strong>31. Georreferenciamento Aplicado à Saúde e Meio Ambiente (SIG/GIS, GPS, Sensoriamento Remoto, PRODES/DETER) e Atualidades (COP30, Clima no Rio Madeira e Notícias Locais 2025–2026) — Bloco 31.1 — Georreferenciamento Aplicado à Vigilância em Saúde e Meio Ambiente: SIG (GIS), GPS/GNSS, Sensoriamento Remoto, Dados Vetoriais vs. Matriciais (Raster) e PRODES/DETER</strong></p><p><strong>Referência no Edital IBGP:</strong> Anexo IV — Conhecimentos Gerais e Atualidades (Nível Médio/ACE): Georreferenciamento; Meio ambiente; Fatos políticos, econômicos, sociais e ambientais (nacional e local).</p><p><strong>Fontes e PDFs Base Integrados:</strong> PDF #70 (<em>1. Panorama Internacional – I.pdf</em>), PDF #71 (<em>2. Panorama Internacional – II.pdf</em>), PDF #72 (<em>3. Panorama Internacional – III.pdf</em>), PDF #76 (<em>7. Ecologia e Desenvolvimento Susten.pdf</em>), PDF #83 (<em>15. .Retrospectiva de Atualidades -.pdf</em>), PDF #84 (<em>16. .Simulado de Atualidades - Julho.pdf</em>), PDF #85 (<em>17. .Retrospectiva de Atualidades -.pdf</em>), PDF #86 (<em>EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf</em>), PDF #91 (<em>Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf</em>).</p><p>Objetivos Claros de Aprendizagem da esta aula:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Compreender os temas de Ecologia, Meio Ambiente, Mudanças Climáticas e Desenvolvimento Sustentável, incluindo a realização da COP30 (30ª Conferência das Nações Unidas sobre Mudança do Clima) em Belém/PA em novembro de 2025.</li><li>Analisar os impactos dos eventos climáticos extremos recentes na Amazônia e em Porto Velho: a estiagem histórica do Rio Madeira em 2023 e 2024 (menor cota da história em Porto Velho, crise de navegabilidade e fumaça das queimadas) vs. as cheias históricas (2014) e sua relação direta com a proliferação de endemias.</li><li>Dominar a divisão das Unidades de Conservação no SNUC (Lei nº 9.985/2000: Proteção Integral vs. Uso Sustentável, como as RESEX de Rondônia) e a realidade socioeconômica e ambiental da Amazônia Legal.</li><li>Conhecer as principais ações, programas, obras de infraestrutura, saúde pública e notícias oficiais recentes da Prefeitura de Porto Velho/RO e da SEMUSA (Referência: 2024–2026).</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)</h5><p><strong>BLOCO NOVO PÓS-AUDITORIA (LACUNA #2 DO EDITAL SANADA):</strong> O tópico de <strong>Georreferenciamento</strong> e geotecnologias aplicadas à vigilância epidemiológica, territorialização do ACE e monitoramento ambiental na Amazônia foi integralmente incorporado.</p><p>As geotecnologias e o <strong>Georreferenciamento</strong> são ferramentas essenciais tanto para a fiscalização ambiental na Amazônia quanto para o <strong>mapeamento de casos e focos de vetores pelo ACE (e-SUS Território / GeoSaúde)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>1. Conceito de Georreferenciamento e Coordenadas Geográficas:</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Georreferenciar</strong> uma imagem, um mapa ou um imóvel/caso de saúde significa <strong>tornar suas coordenadas conhecidas em um dado sistema de referência geodésico oficial</strong> (no Brasil, o sistema geodésico oficial adotado pelo IBGE é o <strong>SIRGAS 2000</strong>), atribuindo-lhe <strong>Latitude</strong> (paralelos: Norte/Sul de 0° a 90°), <strong>Longitude</strong> (meridianos: Leste/Oeste de 0° a 180°) e <strong>Altitude</strong>.</li><li><strong>2. As 3 Pilares das Geotecnologias (GPS/GNSS, Sensoriamento Remoto e SIG/GIS):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>GNSS / GPS (Sistema de Posicionamento Global por Satélite):</strong> Constelação de satélites (GPS norte-americano, GLONASS russo, Galileo europeu, BeiDou chinês) que permite ao receptor (ou tablet/celular do ACE em campo) determinar sua posição exata na superfície terrestre (necessitando do sinal de no mínimo <strong>4 satélites</strong> para calcular latitude, longitude, altitude e correção de tempo).</li><li><strong>Sensoriamento Remoto (SR):</strong> Obtenção de informações e imagens da superfície terrestre <strong>sem contato físico direto</strong>, por meio de sensores instalados em satélites (como os satélites sino-brasileiros <strong>CBERS</strong>, o satélite 100% brasileiro <strong>Amazônia-1</strong> e a série <strong>Landsat / Sentinel</strong>), radares, VANTs/Drones ou fotografias aéreas (aerofotogrametria).</li><li><strong>SIG (Sistema de Informação Geográfica — <em>GIS</em>):</strong> Sistema computacional (ex.: <strong>QGIS, ArcGIS, TerraView</strong>) que permite <strong>coletar, armazenar, cruzar, analisar e exibir dados georreferenciados em camadas (<em>layers</em>)</strong>. • <strong>Dados Vetoriais vs. Dados Matriciais (<em>Raster</em>) no SIG:</strong> — <strong>Dados Vetoriais:</strong> Representam feições geográficas discretas por meio de <strong>3 primitivas geométricas: PONTOS</strong> (ex.: localização exata de um caso de dengue ou de uma armadilha de vetor), <strong>LINHAS</strong> (ex.: ruas, rios, estradas vicinais) e <strong>POLÍGONOS</strong> (ex.: limites de um quarteirão, bairro, microárea do ACE ou distrito de Porto Velho). — <strong>Dados Matriciais (<em>Raster</em>):</strong> Representam o espaço como uma <strong>grade de células/pixels</strong> (ex.: imagens de satélite, mapas de calor/Kernel de infestação do <em>Aedes aegypti</em>, modelos digitais de elevação e temperatura).</li><li><strong>3. Sistemas de Monitoramento por Satélite da Amazônia (INPE e CENSIPAM):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>PRODES (INPE):</strong> Realiza o monitoramento anual do <strong>desmatamento por corte raso</strong> na Amazônia Legal, gerando as taxas anuais oficiais de desmatamento do governo brasileiro.</li><li><strong>DETER (INPE):</strong> Sistema de <strong>alerta rápido diário/tempo quase real</strong> de alterações na cobertura florestal (desmatamento e degradação por queimadas/exploração madeireira) para dar suporte imediato à fiscalização do <strong>IBAMA, ICMBio e SEDAM/RO</strong>.</li><li><strong>SIPAM / CENSIPAM (Centro Gestor e Operacional do Sistema de Proteção da Amazônia):</strong> Possui Centro Regional estratégico sediado em <strong>Porto Velho/RO</strong>, integrando dados de radares, satélites, meteorologia, hidrologia (monitoramento de cheias e secas do Rio Madeira) e combate a ilícitos ambientais e sanitários.</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)</h5><p><strong>Aplicação Prática do Georreferenciamento (SIG/GPS) na Vigilância Epidemiológica e Ambiental da SEMUSA:</strong></p><p>• Quando o ACE utiliza o tablet de campo (e-SUS Território) ou receptor GPS durante o LIRAa ou na investigação de caso autóctone de malária/dengue, ele coleta uma coordenada geográfica (latitude e longitude no sistema geodésico oficial do Brasil, o <strong>SIRGAS 2000</strong>) representada como um <strong>dado vetorial do tipo PONTO</strong>.</p><p>• Na central de geoprocessamento da SEMUSA, esses pontos são cruzados em um <strong>Sistema de Informações Geográficas (SIG / GIS — como o software livre QGIS)</strong> com polígonos dos setores censitários/bairros e mapas de calor (<em>Kernel</em>) para delimitar exatamente o raio de 150 a 300 metros do bloqueio químico (UBV) e identificar áreas de vulnerabilidade socioambiental.</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)</h5><p><strong>Quadro Técnico Comparativo: SIG vs. GPS/GNSS vs. Sensoriamento Remoto e PRODES vs. DETER (INPE):</strong></p><p>• <strong>Dados Vetoriais vs. Dados Matriciais (Raster) no SIG:</strong> Os <strong>Dados Vetoriais</strong> representam feições geométricas discretas por coordenadas exatas: <strong>Pontos</strong> (imóvel positivo, unidade de saúde, armadilha ovitrampa), <strong>Linhas</strong> (ruas, igarapés, rede de drenagem) e <strong>Polígonos</strong> (quarteirões, bairros, distritos, terras indígenas). Já os <strong>Dados Matriciais (Raster)</strong> são formados por uma grade regular de células (<strong>pixels</strong>), como imagens de satélite, fotografias aéreas de drones e modelos digitais de elevação.</p><p>• <strong>PRODES vs. DETER (Monitoramento da Amazônia pelo INPE):</strong> O <strong>DETER</strong> é o sistema de alerta <strong>diário/rápido</strong> (baixa/média resolução espacial) voltado a acionar imediatamente a fiscalização do IBAMA/ICMBio contra desmatamentos e degradação em curso. Já o <strong>PRODES</strong> utiliza imagens de alta resolução (Landsat/Sentinel/CBERS) para medir a <strong>taxa anual oficial consolidada de desmatamento por corte raso</strong> na Amazônia Legal (usada em acordos internacionais como o Acordo de Paris e o Fundo Amazônia).</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p><strong>RESUMO CIRÚRGICO DE GEORREFERENCIAMENTO PARA A PROVA IBGP:</strong></p><p>• <strong>Referencial Geodésico Oficial do Brasil (IBGE):</strong> <strong>SIRGAS 2000</strong>.</p><p>• <strong>No SIG (QGIS):</strong> <strong>Vetor</strong> = Ponto (caso/foco), Linha (rua/rio) e Polígono (quarteirão/bairro). | <strong>Raster (Matricial)</strong> = Grade de <strong>pixels</strong> (imagem de satélite / mapa de calor).</p><p>• <strong>INPE na Amazônia:</strong> <strong>PRODES</strong> = taxa oficial anual de corte raso | <strong>DETER</strong> = alerta rápido diário para fiscalização do IBAMA/SEDAM.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) A utilização de geotecnologias e Sistemas de Informação Geográfica (SIG) é fundamental tanto na vigilância epidemiológica de endemias quanto no monitoramento ambiental da Amazônia. Sobre esse tema, assinale a alternativa CORRETA:",
+          "options": [
+            "A) No Sistema de Informação Geográfica (SIG), a representação vetorial utiliza pontos (ex.: casos notificados), linhas (ex.: rios e logradouros) e polígonos (ex.: limites de bairros e distritos), enquanto a representação matricial (raster) baseia-se em uma grade de células (pixels), como nas imagens de satélite.",
+            "B) O sistema DETER do INPE mede apenas o crescimento populacional urbano a cada 10 anos, sem uso de satélites.",
+            "C) O sensor remoto exige contato físico direto de um termômetro de vidro enterrado no solo por um agente.",
+            "D) O sistema geodésico oficial adotado atualmente pelo IBGE no Brasil é o SAD-1850."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em um SIG, dados vetoriais usam pontos, linhas e polígonos, ao passo que dados matriciais (raster) são formados por matrizes de pixels (como imagens orbitais de sensoriamento remoto e mapas de densidade de Kernel). O referencial oficial do IBGE é o SIRGAS 2000."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre Dados Vetoriais e Dados Matriciais (Raster) em um Sistema de Informação Geográfica (SIG)?",
+          "front": "Qual a diferença entre Dados Vetoriais e Dados Matriciais (Raster) em um Sistema de Informação Geográfica (SIG)?",
+          "b": "Vetoriais: representados por Pontos (foco/imóvel), Linhas (ruas/rios) e Polígonos (quarteirões/bairros). Matriciais (Raster): grade de pixels/células (imagens de satélite, mapas de calor).",
+          "back": "Vetoriais: representados por Pontos (foco/imóvel), Linhas (ruas/rios) e Polígonos (quarteirões/bairros). Matriciais (Raster): grade de pixels/células (imagens de satélite, mapas de calor).",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Qual a diferença entre os sistemas PRODES e DETER do INPE na Amazônia?",
+          "front": "Qual a diferença entre os sistemas PRODES e DETER do INPE na Amazônia?",
+          "b": "PRODES: mede a taxa oficial ANUAL de desmatamento por corte raso. DETER: sistema de ALERTA RÁPIDO (diário) de desmatamento e degradação para orientar a fiscalização imediata.",
+          "back": "PRODES: mede a taxa oficial ANUAL de desmatamento por corte raso. DETER: sistema de ALERTA RÁPIDO (diário) de desmatamento e degradação para orientar a fiscalização imediata.",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 5.2 — Biotecnologias de Ponta no Controle Vetorial MS (Wolbachia, Borrifação Residual com Fludora Fusion, BRI-Aedes e SISS-Geo)",
+      "modoA": "<h4>4.1 Novas Tecnologias Incorporadas pelo Ministério da Saúde no Controle Vetorial (2024–2026)</h4>\n<p>A banca IBGP cobra na parte de Atualidades e Conhecimentos Gerais/Específicos as inovações tecnológicas implementadas pelo Ministério da Saúde e Fiocruz no combate às endemias:</p>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Tecnologia / Ferramenta</th><th class=\"p-2 border\">Como Funciona</th><th class=\"p-2 border\">Por que Cai na Prova?</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Método <em>Wolbachia</em> (Fiocruz / WMP)</td><td class=\"p-2 border\">Bactéria intracelular natural (presente em 60% dos insetos) inserida no <em>Aedes aegypti</em>; <strong>impede que os vírus da Dengue, Zika, Chikungunya e Febre Amarela se desenvolvam dentro do mosquito</strong>.</td><td class=\"p-2 border\"><strong>NÃO é mosquito transgênico!</strong> É autossustentável: as fêmeas com <em>Wolbachia</em> transmitem a bactéria para todos os seus descendentes (substituição populacional).</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Estações Disseminadoras de Larvicida (EDLs — Fiocruz Amazônia)</td><td class=\"p-2 border\">Potes plásticos pretos com água e tecido impregnado com <strong>Piriproxifeno micronizado</strong> (regulador de crescimento de insetos — IGR).</td><td class=\"p-2 border\">A própria fêmea do <em>Aedes</em> pousa na EDL, suja as patas com o larvicida e o <strong>transporta para outros criadouros crípticos</strong> da vizinhança, impedindo a emergência de pupas em adultos!</td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Vacina contra a Dengue no SUS (Qdenga / TAK-003)</td><td class=\"p-2 border\">Vacina tetravalente de vírus vivo atenuado (DENV-1, 2, 3 e 4) incorporada ao PNI/SUS em 2024.</td><td class=\"p-2 border\">Esquema de <strong>2 doses com intervalo de 3 meses</strong> (faixa prioritária no PNI: adolescentes de 10 a 14 anos em municípios endêmicos, como Porto Velho). Contraindicada em gestantes e imunossuprimidos.</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">SISS-Geo (Sistema de Informação em Saúde Silvestre)</td><td class=\"p-2 border\">Plataforma georreferenciada da Fiocruz/MS por aplicativo móvel (funciona offline em campo).</td><td class=\"p-2 border\">Permite ao ACE registrar com coordenadas GPS achados de animais silvestres mortos/doentes (especialmente <strong>macacos / PNH para vigilância da Febre Amarela</strong>).</td></tr>\n</tbody></table></div>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Síntese Completa de Geoprocessamento em Saúde (SIG, GPS/GNSS, Dados Vetoriais vs. Matriciais, PRODES vs. DETER) e Atualidades Locais 2024–2026</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Conceito Geotecnológico / Atualidade</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Definição Técnica Exata e Diferenciação para a Prova IBGP</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Aplicação Prática na Vigilância em Saúde (SEMUSA)</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Dados Vetoriais vs. Dados Matriciais (Raster) no SIG (QGIS / ArcGIS)</td>\n          <td class=\"p-2\">• <strong>Modelo Vetorial (Geometrias discretas com coordenadas X, Y):</strong> Representa o espaço por meio de <strong>3 primitivas geométricas</strong>: <strong>Pontos</strong> (ex.: coordenada de um foco de <em>Aedes</em> ou casa de paciente com malária), <strong>Linhas / Polilinhas</strong> (ex.: ruas, córregos, igarapés, BR-364) e <strong>Polígonos</strong> (ex.: limites de quarteirões, bairros, microáreas e distritos).<br>• <strong>Modelo Matricial / Raster (Grade de Pixels / Células):</strong> Imagens contínuas formadas por linhas e colunas de pixels (ex.: imagens de satélite Landsat/Sentinel, fotos de drones, mapas contínuos de temperatura/altimetria e <strong>Mapas de Calor / Estimativa de Densidade de Kernel</strong>).</td>\n          <td class=\"p-2\">Questão clássica da IBGP: O <strong>Mapa de Kernel (Mapa de Calor / Manchas Quentes de Dengue)</strong> é uma superfície contínua gerada em formato <strong>Matricial (Raster)</strong> a partir de eventos pontuais (Vetoriais) georreferenciados pelo ACE!</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">GPS / GNSS (Sistema Global de Navegação por Satélite) e Datum Oficial do Brasil</td>\n          <td class=\"p-2\">O sistema GNSS engloba as constelações <strong>GPS (EUA), GLONASS (Rússia), Galileo (União Europeia) e BeiDou (China)</strong>. Para determinar a posição tridimensional exata (Latitude, Longitude e Altitude + correção do relógio do receptor), o aparelho precisa captar o sinal simultâneo de no mínimo <strong>4 (quatro) satélites</strong>!<br>• <strong>Datum Oficial do Brasil (IBGE):</strong> <strong>SIRGAS 2000</strong> (Sistema de Referência Geocêntrico para as Américas).</td>\n          <td class=\"p-2\">Usado pelos agentes da SEMUSA no aplicativo <strong>e-SUS Território</strong> e no <strong>SISS-Geo (Sistema de Informação em Saúde Silvestre)</strong> para registrar coordenadas exatas de imóveis rurais, criadouros de anofelinos e epizootias de macacos (Febre Amarela).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">PRODES vs. DETER (Sistemas do INPE na Amazônia Legal)</td>\n          <td class=\"p-2\">• <strong>PRODES (Programa de Monitoramento do Desmatamento na Amazônia Legal por Satélite):</strong> Usa imagens de alta resolução (20 a 30m, mín. 6,25 ha) para calcular a <strong>TAXA ANUAL OFICIAL consolidada de desmatamento por corte raso</strong> no Brasil.<br>• <strong>DETER (Sistema de Detecção de Desmatamento em Tempo Quase Real):</strong> Emite <strong>alertas diários rápidos</strong> de desmatamento e degradação florestal/cicatrizes de fogo para orientar a <strong>fiscalização imediata em campo pelo IBAMA, ICMBio e SEDAM-RO</strong>!</td>\n          <td class=\"p-2\">O desmatamento recente na borda da floresta (detectado pelo DETER) provoca desequilíbrio ecológico imediato e explosão de casos de <strong>Malária (\"malária de fronteira\"), Leishmaniose Tegumentar (LTA) e Oropouche</strong> nos distritos de Porto Velho!</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Vacina contra a Dengue no SUS (Qdenga® — Takeda e Butantan-DV) e Wolbachia em Porto Velho</td>\n          <td class=\"p-2\">• <strong>Vacina Qdenga® (TAK-003):</strong> Vacina tetravalente de vírus vivo atenuado (DENV-1, 2, 3 e 4) incorporada ao PNI/SUS em 2024 em esquema de <strong>2 doses com intervalo de 3 meses (90 dias)</strong> para crianças e adolescentes de <strong>10 a 14 anos</strong> nos municípios prioritários (incluindo Porto Velho!). Contraindicada para gestantes, lactantes e imunossuprimidos.<br>• <strong>Método Wolbachia (Fiocruz / WMP / MS):</strong> Liberação de mosquitos <em>Aedes aegypti</em> contendo a bactéria intracelular natural <em>Wolbachia pipientis</em> (não é mosquito transgênico!), que impede a replicação dos vírus da Dengue, Zika e Chikungunya dentro do mosquito.</td>\n          <td class=\"p-2\">Porto Velho foi selecionada pelo Ministério da Saúde tanto para a vacinação com Qdenga® na rede da SEMUSA quanto para as novas tecnologias de controle vetorial integrado (Estações Disseminadoras de Larvicida - EDLs, BRI-Aedes e Método Wolbachia).</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul>\n<li><strong>Método Wolbachia = Bactéria natural (NÃO é transgênico!):</strong> Bloqueia a replicação de Dengue, Zika e Chikungunya dentro do <em>Aedes aegypti</em> e passa de mãe para filhos.</li>\n<li><strong>EDL (Estação Disseminadora de Larvicida):</strong> Usa a própria fêmea do mosquito para espalhar <strong>Piriproxifeno</strong> (inibidor de crescimento) nos criadouros vizinhos.</li>\n<li><strong>Vacina da Dengue no SUS (Qdenga):</strong> Tetravalente atenuada, <strong>2 doses (intervalo de 3 meses)</strong>, público-alvo inicial no SUS de 10 a 14 anos; contraindicada em gestantes.</li>\n<li><strong>SISS-Geo:</strong> App de georreferenciamento (GPS offline) para notificação de epizootias em animais silvestres (macacos).</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Atualidades em Saúde Pública e Controle Vetorial — Inédita 2026) Entre as novas tecnologias preconizadas pelo Ministério da Saúde e pela Fiocruz para o controle de arboviroses no Brasil destacam-se o Método Wolbachia e as Estações Disseminadoras de Larvicida (EDLs). Sobre essas duas estratégias, assinale a alternativa CORRETA:",
+          "options": [
+            "A) O Método Wolbachia consiste na modificação genética (transgenia) do vírus da dengue para torná-lo letal aos seres humanos.",
+            "B) O Método Wolbachia utiliza uma bactéria intracelular natural (sem modificação genética) que bloqueia a transmissão de Dengue, Zika e Chikungunya pelo Aedes aegypti e é transmitida às próximas gerações do mosquito; já as EDLs utilizam a própria fêmea do mosquito para disseminar micropartículas de piriproxifeno entre criadouros.",
+            "C) As EDLs utilizam raticida cumarínico em pó para atrair roedores e mosquitos simultaneamente.",
+            "D) Ambas as tecnologias substituem integralmente o trabalho do ACE, extinguindo a necessidade do LIRAa."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O Método Wolbachia utiliza uma bactéria intracelular natural (não é mosquito transgênico) que reduz a capacidade do Aedes aegypti de transmitir arbovírus; e as EDLs usam potes impregnados com piriproxifeno para que a própria fêmea transporte o larvicida para outros criadouros."
+        },
+        {
+          "q": "(Questão de estudo — Georreferenciamento e Vigilância em Saúde — Inédita 2026) No trabalho de campo em áreas rurais e periurbanas de Porto Velho, o ACE utiliza ferramentas de Sistema de Posicionamento Global (GPS) e Sistemas de Informação Geográfica (SIG). A plataforma oficial desenvolvida pela Fiocruz em parceria com o Ministério da Saúde que permite registrar via celular (inclusive offline, por coordenadas GPS) animais silvestres doentes ou mortos (como primatas não humanos para alerta precoce de Febre Amarela) denomina-se:",
+          "options": [
+            "A) SISS-Geo (Sistema de Informação em Saúde Silvestre Georreferenciado).",
+            "B) SIAPE-Net.",
+            "C) CADÚNICO-Rural.",
+            "D) SIAFI-Operacional."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. O SISS-Geo (Sistema de Informação em Saúde Silvestre) é a ferramenta oficial georreferenciada usada pelo MS e pelos ACEs para monitoramento de epizootias (especialmente PNH para Febre Amarela)."
+        },
+        {
+          "q": "(Questão de estudo — Sensoriamento Remoto na Amazônia: PRODES vs. DETER — Inédita 2026) O Instituto Nacional de Pesquisas Espaciais (INPE) opera dois sistemas complementares de monitoramento por satélite da cobertura florestal na Amazônia Legal (incluindo Rondônia): o PRODES e o DETER. A diferença operacional fundamental entre eles é que:",
+          "options": [
+            "A) O PRODES mede apenas a temperatura dos oceanos, e o DETER monitora terremotos.",
+            "B) O DETER é um sistema de alerta diário/rápido de alterações na cobertura florestal para apoiar a fiscalização imediata em campo (IBAMA/SEDAM), enquanto o PRODES realiza o inventário anual consolidado de alta precisão da taxa oficial de desmatamento por corte raso na Amazônia Legal.",
+            "C) Ambos utilizam exclusivamente fotografias tiradas por submarinos fluviais.",
+            "D) O PRODES foi desativado em 1990."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Esta diferença cai muito em provas de Geografia/Atualidades: DETER = Alerta rápido (diário) para fiscalização imediata; PRODES = Taxa anual oficial consolidada de desmatamento por corte raso."
+        },
+        {
+          "q": "(Questão de estudo — Atualidades: Reforma Tributária EC 132/2023 — Inédita 2026) A Reforma Tributária sobre o consumo aprovada no Brasil (EC nº 132/2023 e regulamentada pela LC nº 214/2025) instituiu o modelo de IVA Dual, composto pela CBS (federal) e pelo IBS (subnacional). O IBS (Imposto sobre Bens e Serviços), de competência compartilhada entre Estados e Municípios, unificará gradualmente quais tributos atuais?",
+          "options": [
+            "A) Imposto de Renda (IR) e IPVA.",
+            "B) ICMS (estadual) e ISS (municipal).",
+            "C) IPTU e ITR.",
+            "D) INSS e FGTS."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. No IVA Dual brasileiro: a CBS (federal) substitui PIS e Cofins; e o IBS (estadual/municipal) substitui o ICMS (estadual) e o ISS (municipal), com cobrança no destino."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "O Aedes aegypti com Wolbachia (Wolbito) é um mosquito transgênico?",
+          "front": "O Aedes aegypti com Wolbachia (Wolbito) é um mosquito transgênico?",
+          "b": "NÃO! A Wolbachia é uma bactéria intracelular natural (presente em 60% dos insetos da natureza) que impede o desenvolvimento dos vírus da Dengue, Zika e Chikungunya no mosquito.",
+          "back": "NÃO! A Wolbachia é uma bactéria intracelular natural (presente em 60% dos insetos da natureza) que impede o desenvolvimento dos vírus da Dengue, Zika e Chikungunya no mosquito.",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Como funcionam as Estações Disseminadoras de Larvicida (EDLs) desenvolvidas pela Fiocruz Amazônia?",
+          "front": "Como funcionam as Estações Disseminadoras de Larvicida (EDLs) desenvolvidas pela Fiocruz Amazônia?",
+          "b": "São armadilhas com água e tela impregnada com Piriproxifeno em pó: a fêmea do Aedes pousa, adere o larvicida ao corpo e o espalha para outros criadouros ao depositar seus ovos.",
+          "back": "São armadilhas com água e tela impregnada com Piriproxifeno em pó: a fêmea do Aedes pousa, adere o larvicida ao corpo e o espalha para outros criadouros ao depositar seus ovos.",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Qual o esquema vacinal e o público prioritário da vacina contra a Dengue (Qdenga) no SUS?",
+          "front": "Qual o esquema vacinal e o público prioritário da vacina contra a Dengue (Qdenga) no SUS?",
+          "b": "Esquema de 2 doses com intervalo de 3 meses, destinada prioritariamente a crianças e adolescentes de 10 a 14 anos no PNI (contraindicada para gestantes e imunossuprimidos).",
+          "back": "Esquema de 2 doses com intervalo de 3 meses, destinada prioritariamente a crianças e adolescentes de 10 a 14 anos no PNI (contraindicada para gestantes e imunossuprimidos).",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "[Revisão Rápida #12 — 31] Qual é a pegadinha crítica da banca IBGP sobre este tema?",
+          "front": "[Revisão Rápida #12 — 31] Qual é a pegadinha crítica da banca IBGP sobre este tema?",
+          "b": "❌ Mito/Pegadinha: \"No Sistema de Informações Geográficas (SIG), uma imagem de satélite formada por pixels é classificada como dado vetorial.\" — ✅ CORRETO: FALSO! Imagens formadas por matriz de pixels são dados MATRICIAIS (RASTER). Dados VETORIAIS são aqueles representados por pontos, linhas e polígonos!",
+          "back": "❌ Mito/Pegadinha: \"No Sistema de Informações Geográficas (SIG), uma imagem de satélite formada por pixels é classificada como dado vetorial.\" — ✅ CORRETO: FALSO! Imagens formadas por matriz de pixels são dados MATRICIAIS (RASTER). Dados VETORIAIS são aqueles representados por pontos, linhas e polígonos!",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 5.3 — Panorama Multitemático do Edital: Economia, Ecologia, Meio Ambiente (COP30 na Amazônia), Justiça, Segurança Pública, Saúde, Educação, Qualidade de Vida, Esportes e Turismo (PVH, RO, Brasil e Mundo)",
+      "modoA": "<div class=\"space-y-3 text-xs sm:text-sm text-slate-800 leading-relaxed\">\n  <div class=\"bg-teal-900 text-white p-3.5 rounded-xl border border-teal-700\">\n    <span class=\"text-[11px] font-extrabold uppercase tracking-wider text-amber-300\">Item 5 de Conhecimentos Gerais — Eixos Multitemáticos Completos</span>\n    <h4 class=\"text-sm sm:text-base font-extrabold mt-0.5\">Meio Ambiente, Ecologia, Justiça, Segurança, Saúde, Educação, Esportes e Turismo</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Cobertura sistemática de todos os 16 subtemas listados no item 5 do conteúdo programático de Conhecimentos Gerais.</p>\n  </div>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Ecologia, Meio Ambiente e Clima: COP30 na Amazônia, Mercado de Carbono e Transição Energética</h5>\n  <ul class=\"list-disc pl-5 space-y-1.5\">\n    <li><strong>COP30 na Amazônia (Belém/PA — Novembro de 2025):</strong> A 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima (UNFCCC) realizou-se pela primeira vez na Amazônia brasileira (Belém/PA), tendo como pautas centrais: atualização das <strong>NDCs (Contribuições Nacionalmente Determinadas)</strong> para limitar o aquecimento a 1,5°C, financiamento climático para países em desenvolvimento, bioeconomia amazônica e o fundo internacional <strong>TFFF (Fundo Florestas Tropicais para Sempre)</strong> proposto pelo Brasil.</li>\n    <li><strong>Mercado Regulado de Créditos de Carbono no Brasil (Lei Federal nº 15.042/2024):</strong> Instituiu o <strong>Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE)</strong>, regulamentando metas de emissões para grandes indústrias e a geração de créditos de carbono florestais/REDD+ (com salvaguardas para povos indígenas e comunidades tradicionais na Amazônia).</li>\n    <li><strong>Conceitos de Ecologia Cobrados pela IBGP (PDF #76 do Drive):</strong>\n      <ul class=\"list-disc pl-5 mt-1 space-y-1\">\n        <li><strong>Hábitat vs. Nicho Ecológico:</strong> <em>Hábitat</em> é o \"endereço\" físico onde a espécie vive (ex.: água limpa parada sombreada para a larva do <em>Aedes aegypti</em> ou igarapés da floresta para o <em>Anopheles darlingi</em>); <em>Nicho ecológico</em> é a \"profissão\" / papel funcional da espécie no ecossistema (hábitos alimentares hematófagos da fêmea, horário de picada, predadores e reprodução);</li>\n        <li><strong>Relações Ecológicas:</strong> Harmônicas (Mutualismo, Protocooperação, Comensalismo, Inquilinismo) vs. Desarmônicas (<strong>Parasitismo</strong> — ex.: <em>Plasmodium</em> ou <em>Schistosoma</em> no humano; <strong>Predatismo</strong> — ex.: peixes larvófagos <em>Poecilia reticulata</em> predando larvas de mosquitos no controle biológico; Competição e Amensalismo).</li>\n      </ul>\n    </li>\n  </ul>\n\n  <h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Justiça, Segurança Pública, Educação, Qualidade de Vida, Esportes e Turismo</h5>\n  <div class=\"overflow-x-auto my-2\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\">\n      <thead class=\"bg-slate-800 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Área Temática do Item 5</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Destaques no Brasil, em Rondônia e em Porto Velho</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Justiça e Segurança Pública</td>\n          <td class=\"p-2\"><strong>SUSP (Sistema Único de Segurança Pública — Lei nº 13.675/2018)</strong>; combate aos crimes ambientais e garimpo ilegal na Amazônia; criação da Polícia Penal (EC 104/2019); endurecimento contra o feminicídio (<strong>Lei nº 14.994/2024 — Pacote Antifeminicídio</strong>, que tornou o feminicídio crime autônomo com pena de 20 a 40 anos de reclusão) e atuação premiada do <strong>TJRO e MP-RO</strong> (Selo Diamante CNJ em transparência e justiça digital).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Educação e Ciência</td>\n          <td class=\"p-2\">Novo FUNDEB Permanente (EC 108/2020), Programa <strong>Pé-de-Meia (Lei nº 14.818/2024)</strong> de incentivo financeiro-educacional para estudantes do ensino médio público, restrição ao uso de celulares nas escolas de educação básica (<strong>Lei Federal nº 15.100/2025</strong>) e expansão da <strong>UNIR (Universidade Federal de Rondônia)</strong> e do <strong>IFRO (Instituto Federal de Rondônia)</strong>.</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Esportes e Qualidade de Vida</td>\n          <td class=\"p-2\"><strong>Jogos Olímpicos de Paris 2024:</strong> Delegação brasileira conquistou 20 medalhas (3 ouros: <strong>Beatriz Souza</strong> no judô, <strong>Rebeca Andrade</strong> no solo da ginástica artística — tornando-se a maior medalhista olímpica da história do Brasil com 6 medalhas — e <strong>Ana Patrícia e Duda</strong> no vôlei de praia) e protagonismo histórico das mulheres (100% dos ouros brasileiros em Paris 2024).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Turismo em Porto Velho e Rondônia</td>\n          <td class=\"p-2\"><strong>Complexo Turístico da Estrada de Ferro Madeira-Mamoré (EFMM)</strong> revitalizado às margens do Rio Madeira, Parque Natural Municipal de Porto Velho (Parque Ecológico), Parque Circuito, Balneários e Cachoeira de Teotônio (memória histórica e vila), ecoturismo e pesca esportiva no Rio Madeira, Rio Machado e Vale do Guaporé (Forte Príncipe da Beira em Costa Marques).</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul class=\"list-disc pl-4 space-y-1 text-xs\">\n  <li><strong>Ecologia (Hábitat vs. Nicho):</strong> Hábitat = local físico onde vive; Nicho ecológico = papel funcional/comportamental da espécie.</li>\n  <li><strong>Meio Ambiente (2024–2025):</strong> <strong>COP30 em Belém/PA (Amazônia)</strong> e criação do mercado regulado de carbono no Brasil (<strong>SBCE — Lei nº 15.042/2024</strong>).</li>\n  <li><strong>Justiça, Educação e Esportes:</strong> Lei nº 14.994/2024 (Feminicídio crime autônomo: pena de 20 a 40 anos); Lei nº 15.100/2025 (restrição de celulares nas escolas) + Programa Pé-de-Meia; <strong>Rebeca Andrade</strong> = maior medalhista olímpica da história do Brasil (Paris 2024).</li>\n</ul>",
+      "traps": [
+        "❌ Mito/Pegadinha: \"Em ecologia, hábitat é o comportamento alimentar do mosquito e nicho ecológico é o endereço geográfico onde ele mora.\" — ✅ CORRETO: É o inverso! Hábitat é o local físico (\"endereço\") e Nicho Ecológico é o conjunto de relações e funções da espécie (\"profissão\").",
+        "❌ Mito/Pegadinha: \"A COP30 da ONU sobre Mudanças Climáticas foi transferida da Amazônia para a Antártida.\" — ✅ CORRETO: A COP30 teve como sede oficial a cidade de Belém (Pará), na Amazônia brasileira."
+      ],
+      "questions": [
+        {
+          "q": "(Questão de estudo — Perfil Ecologia e Meio Ambiente) Em Ecologia aplicada à Saúde Pública e ao Controle de Vetores, os conceitos de \"hábitat\" e \"nicho ecológico\" são fundamentais para compreender o comportamento de mosquitos transmissores de endemias. Assinale a alternativa CORRETA:",
+          "options": [
+            "A) Hábitat corresponde ao ambiente físico onde a espécie vive (seu \"endereço\"), enquanto nicho ecológico corresponde ao papel funcional, hábitos alimentares, horários de atividade e interações biológicas da espécie no ecossistema (sua \"profissão\").",
+            "B) Hábitat e nicho ecológico são termos exclusivos para rochas vulcânicas sem vida.",
+            "C) O uso de peixes larvófagos (como Poecilia reticulata) para devorar larvas de mosquitos em tanques é um exemplo de relação ecológica harmônica de mutualismo obrigatório.",
+            "D) O protozoário Plasmodium vivax mantém com o ser humano uma relação ecológica harmônica de comensalismo."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Hábitat é o local físico onde o organismo vive; nicho ecológico é o seu modo de vida e função no ecossistema. O uso de peixes larvófagos é predatismo (controle biológico), e o Plasmodium no humano é parasitismo (relação desarmônica interespecífica)."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Atualidades Brasil) No campo da justiça, educação e meio ambiente no Brasil entre 2024 e 2025, importantes marcos legislativos foram sancionados. Assinale a alternativa CORRETA:",
+          "options": [
+            "A) A Lei Federal nº 14.994/2024 transformou o feminicídio em crime autônomo no Código Penal (com pena de 20 a 40 anos de reclusão), a Lei nº 15.042/2024 instituiu o Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (mercado regulado de carbono) e a Lei nº 15.100/2025 disciplinou a restrição ao uso de aparelhos celulares nas escolas de educação básica.",
+            "B) O Brasil revogou todas as leis ambientais em 2024 e proibiu a realização da COP30 em Belém.",
+            "C) O Programa Pé-de-Meia foi criado para cobrar mensalidades obrigatórias de alunos do ensino fundamental público.",
+            "D) Nos Jogos Olímpicos de Paris 2024, o Brasil não conquistou nenhuma medalha de ouro."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Todos os três marcos legislativos recentes (Lei 14.994/2024 — Pacote Antifeminicídio; Lei 15.042/2024 — Mercado Regulado de Carbono / SBCE; e Lei 15.100/2025 — restrição de celulares nas escolas) tiveram amplo destaque na mídia nacional."
+        },
+        {
+          "q": "(Questão de estudo — Perfil Esportes e Atualidades) Nos Jogos Olímpicos de Paris 2024, o esporte brasileiro alcançou um marco histórico quando uma atleta tornou-se a maior medalhista olímpica da história do Brasil (entre homens e mulheres), somando seis medalhas olímpicas na carreira após conquistar o ouro no solo da ginástica artística. Trata-se de:",
+          "options": [
+            "A) Rebeca Andrade.",
+            "B) Hortência Marcari.",
+            "C) Maria Esther Bueno.",
+            "D) Daiane dos Santos."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Rebeca Andrade alcançou 6 medalhas olímpicas (2 em Tóquio 2020 e 4 em Paris 2024, incluindo o ouro no solo), superando Robert Scheidt e Torben Grael (5 medalhas cada)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Ecologia: Qual a diferença entre Hábitat e Nicho Ecológico?",
+          "b": "Hábitat é o local físico onde a espécie vive (\"endereço\"); Nicho ecológico é o papel funcional e comportamental que a espécie desempenha no ecossistema (\"profissão\").",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Meio Ambiente (2024–2025): Qual cidade da Amazônia brasileira sediou a COP30 da ONU e qual lei criou o mercado regulado de carbono no Brasil?",
+          "b": "Belém (Pará) sediou a COP30; a Lei Federal nº 15.042/2024 instituiu o Sistema Brasileiro de Comércio de Emissões (SBCE / mercado regulado de carbono).",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Justiça e Segurança (Lei nº 14.994/2024): O que mudou no crime de Feminicídio no Brasil?",
+          "b": "Tornou-se crime autônomo (Art. 121-A do Código Penal) com pena de reclusão de 20 a 40 anos (a maior pena máxima prevista para um crime no CP).",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        },
+        {
+          "f": "Esportes (Paris 2024): Quem se tornou a maior medalhista olímpica da história do Brasil (com 6 medalhas) e quem ganhou os 3 ouros brasileiros em Paris?",
+          "b": "Rebeca Andrade (maior medalhista, com 6 medalhas). Os 3 ouros de Paris 2024 foram de Beatriz Souza (judô), Rebeca Andrade (ginástica) e Ana Patrícia/Duda (vôlei de praia).",
+          "lessonTitle": "5. Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "rlm_4",
+  "cat": "rlm",
+  "catName": "Raciocínio Lógico",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada",
+  "editalRef": "Item 4 de Raciocínio Lógico — Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada.",
+  "mindMap": {
+    "centralTitle": "4. Equações, Sistemas, Função do 1º Grau e Médias",
+    "centralSubtitle": "Item 4 de Raciocínio Lógico — Álgebra Linear e Estatística Básica IBGP",
+    "branches": [
+      {
+        "title": "1. Equações do 1º Grau",
+        "icon": "🧮",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Forma Geral",
+            "detail": "ax + b = 0 ⇒ x = -b/a"
+          },
+          {
+            "label": "Frações Sucessivas",
+            "detail": "Multiplique pelo MMC dos denominadores"
+          },
+          {
+            "label": "Linguagem Algébrica",
+            "detail": "Consecutivos (x, x+1), dobro (2x), terça parte (x/3)"
+          }
+        ]
+      },
+      {
+        "title": "2. Sistemas Lineares (2×2)",
+        "icon": "🔗",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Método da Adição",
+            "detail": "Soma as equações cancelando uma incógnita"
+          },
+          {
+            "label": "Substituição",
+            "detail": "Isola x na 1ª e substitui na 2ª"
+          },
+          {
+            "label": "Problemas Clássicos",
+            "detail": "Motos (2 rodas) vs. Carros (4 rodas); Acertos vs. Erros"
+          }
+        ]
+      },
+      {
+        "title": "3. Função do 1º Grau f(x) = ax + b",
+        "icon": "📈",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Coeficiente Linear (b)",
+            "detail": "Valor inicial quando x = 0 (corta eixo y)"
+          },
+          {
+            "label": "Coeficiente Angular (a)",
+            "detail": "Taxa de variação (a > 0 crescente; a < 0 decrescente)"
+          },
+          {
+            "label": "Raiz da Função",
+            "detail": "f(x) = 0 ⇒ x = -b/a (corta eixo x)"
+          }
+        ]
+      },
+      {
+        "title": "4. Médias Simples e Ponderada",
+        "icon": "📊",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Média Simples",
+            "detail": "Soma = Média × n"
+          },
+          {
+            "label": "Média Ponderada",
+            "detail": "Σ(xᵢ · pᵢ) ÷ Σ(pᵢ)"
+          },
+          {
+            "label": "Pegadinha IBGP",
+            "detail": "Dividir sempre pela SOMA DOS PESOS!"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 4.1 — Equações do 1º Grau, Sistemas de Equações do 1º Grau e Função do 1º Grau (f(x) = ax + b): Resolução de Problemas",
+      "sourceRef": "Anexo IV — Raciocínio Lógico (Item 4: Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-indigo-950/90 text-white border border-indigo-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 4 de Raciocínio Lógico — Álgebra e Funções</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Equação do 1º Grau, Sistemas Lineares ($2 \\times 2$) e Função do 1º Grau ($f(x) = ax + b$)</h4>\n    <p class=\"text-xs text-indigo-100 mt-1\">Aprenda a traduzir enunciados em linguagem algébrica, resolver sistemas de duas incógnitas pelos métodos da Adição e Substituição e interpretar os coeficientes $a$ e $b$ da função afim.</p>\n  </div>\n\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Subtópico do Item 4</th>\n          <th class=\"p-2.5 border border-slate-700\">Estrutura Matemática e Método</th>\n          <th class=\"p-2.5 border border-slate-700\">Tradução de Enunciados IBGP</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\">\n          <td class=\"p-2.5 font-bold text-slate-900 border border-slate-200\">1. Equação do 1º Grau</td>\n          <td class=\"p-2.5 border border-slate-200\">Forma geral: $ax + b = 0$ (com $a \\ne 0$) $\\Rightarrow x = -\\frac{b}{a}$.<br>Ao lidar com frações, multiplique toda a equação pelo <strong>MMC dos denominadores</strong> para eliminar as frações imediatamente.</td>\n          <td class=\"p-2.5 border border-slate-200\">• \"O dobro de um número, menos 15\" $\\rightarrow 2x - 15$.<br>• \"Três números consecutivos\" $\\rightarrow x, x+1, x+2$.<br>• \"A terça parte do restante\" $\\rightarrow \\frac{1}{3}$ do que sobrou.</td>\n        </tr>\n        <tr class=\"bg-slate-50\">\n          <td class=\"p-2.5 font-bold text-slate-900 border border-slate-200\">2. Sistemas de Equações do 1º Grau ($2 \\times 2$)</td>\n          <td class=\"p-2.5 border border-slate-200\">$\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}$<br>• <strong>Método da Adição:</strong> multiplique uma equação para cancelar $x$ ou $y$ ao somar.<br>• <strong>Método da Substituição:</strong> isole uma variável (ex.: $y = c_1 - x$) e substitua na outra.</td>\n          <td class=\"p-2.5 border border-slate-200\">Problemas clássicos de \"total de itens e total de pontos/rodas/pés\" (ex.: questões certas valendo $+3$ e erradas $-1$; motos de 2 rodas e carros de 4 rodas).</td>\n        </tr>\n        <tr class=\"bg-white\">\n          <td class=\"p-2.5 font-bold text-slate-900 border border-slate-200\">3. Função do 1º Grau (Função Afim)</td>\n          <td class=\"p-2.5 border border-slate-200\">Lei de formação: <strong>$f(x) = ax + b$</strong> (gráfico é uma <strong>reta</strong>).<br>• <strong>$b$ (coeficiente linear / termo independente):</strong> valor inicial quando $x = 0$ ($f(0) = b$; onde a reta corta o eixo $y$).<br>• <strong>$a$ (coeficiente angular / taxa de variação):</strong> $a = \\frac{\\Delta y}{\\Delta x}$. Se $a > 0$, função <strong>crescente</strong>; se $a < 0$, <strong>decrescente</strong>.<br>• <strong>Raiz ou Zero da função:</strong> valor de $x$ para $f(x) = 0 \\Rightarrow x = -\\frac{b}{a}$.</td>\n          <td class=\"p-2.5 border border-slate-200\">Ex.: Estoque inicial de $b = 500$ kits que consome $a = -25$ kits por dia $\\rightarrow E(t) = 500 - 25t$. O estoque zera em $t = 500/25 = 20$ dias.</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div><!-- AUDITORIA:RLM4 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Classificação de Sistemas Lineares <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">2\\times 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">2</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span> e Condição da Função do 1º Grau</h4><p>1. <strong>Função Afim e Função do 1º Grau (<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding=\"application/x-tex\">f(x) = ax + b</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1076em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">b</span></span></span></span>)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Exige coeficientes reais <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo separator=\"true\">,</mo><mi>b</mi><mo>∈</mo><mi mathvariant=\"double-struck\">R</mi></mrow><annotation encoding=\"application/x-tex\">a, b \\in \\mathbb{R}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">b</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">∈</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6889em;\"></span><span class=\"mord mathbb\">R</span></span></span></span> com <strong><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo mathvariant=\"normal\">≠</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">a \\neq 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\"><span class=\"mrel\"><span class=\"mord katex-vbox\"><span class=\"katex-thinbox\"><span class=\"rlap\"><span class=\"katex-strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"katex-inner\"><span class=\"mord\"><span class=\"mrel\"></span></span></span><span class=\"katex-fix\"></span></span></span></span></span><span class=\"mspace nobreak\"></span><span class=\"mrel\">=</span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span></strong> para ser função polinomial do 1º grau (se <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">a = 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>, tem-se a função constante <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>b</mi></mrow><annotation encoding=\"application/x-tex\">f(x) = b</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1076em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">b</span></span></span></span>, cujo gráfico é uma reta horizontal paralela ao eixo <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span>).</li><li><strong>Raiz ou zero da função</strong>: valor de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> que anula <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">f(x)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1076em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">)</span></span></span></span>, dado por <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>0</mn><mo>⇒</mo><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mi>b</mi><mi>a</mi></mfrac></mrow><annotation encoding=\"application/x-tex\">ax + b = 0 \\Rightarrow x = -\\frac{b}{a}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">b</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⇒</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1.2251em;vertical-align:-0.345em;\"></span><span class=\"mord\">−</span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8801em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">a</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">b</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span></span></span></span>.</li><li><strong>Crescimento</strong>: se <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">a &gt; 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.5782em;vertical-align:-0.0391em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&gt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>, a função é estritamente crescente; se <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">a &lt; 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.5782em;vertical-align:-0.0391em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&lt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>, é estritamente decrescente.</li></ul><p>2. <strong>Sistemas Lineares <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>×</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">2\\times 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">2</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span></strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>SPD (Sistema Possível e Determinado)</strong>: possui uma única solução <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(x,y)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">y</span><span class=\"mclose\">)</span></span></span></span> (retas concorrentes).</li><li><strong>SPI (Sistema Possível e Indeterminado)</strong>: equações equivalentes, possuindo infinitas soluções (retas coincidentes).</li><li><strong>SI (Sistema Impossível)</strong>: equações contraditórias (ex.: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding=\"application/x-tex\">x + y = 5</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">y</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">5</span></span></span></span> e <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>14</mn></mrow><annotation encoding=\"application/x-tex\">2x + 2y = 14</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">2</span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.8389em;vertical-align:-0.1944em;\"></span><span class=\"mord\">2</span><span class=\"mord mathnormal\" style=\"margin-right:0.0359em;\">y</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">14</span></span></span></span>), não possuindo solução (retas paralelas distintas).</li></ul></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Equação do 1º Grau:</strong> Elimine denominadores multiplicando pelo MMC.</li>\n  <li><strong>Sistema $2 \\times 2$:</strong> 2 incógnitas exigem 2 equações independentes (use Adição ou Substituição).</li>\n  <li><strong>Função do 1º Grau ($f(x) = ax + b$):</strong> $b$ = valor fixo/inicial ($x=0$); $a$ = taxa de variação por unidade ($a>0$ crescente, $a<0$ decrescente); raiz = $-b/a$.</li>\n</ul><!-- AUDITORIA:RLM4 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Função do 1º grau f(x) = ax + b exige a ≠ 0; raiz x = -b/a.</li><li>Sistema 2×2 pode ser SPD (solução única), SPI (infinitas soluções) ou SI (nenhuma solução).</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Equação do 1º Grau com Frações) Um ACE recebeu um lote de fichas de visita. No primeiro dia utilizou 1/3 do lote; no segundo dia utilizou 2/5 do que havia restado; e no terceiro dia utilizou as 36 fichas finais, encerrando o lote. O total de fichas desse lote era:",
+          "options": [
+            "60 fichas.",
+            "75 fichas.",
+            "90 fichas.",
+            "108 fichas."
+          ],
+          "ans": 2,
+          "comment": "Seja x o total. 1º dia: usou (1/3)x, restaram (2/3)x. 2º dia: usou (2/5) do restante, logo sobraram (3/5) de (2/3)x = (6/15)x = (2/5)x. Como sobraram 36 fichas para o 3º dia: (2/5)x = 36 ⇒ 2x = 180 ⇒ x = 90 fichas."
+        },
+        {
+          "q": "(Questão de estudo — Sistema de Equações do 1º Grau) Em um ponto de apoio há 28 veículos da vigilância, entre motocicletas (2 rodas) e caminhonetes (4 rodas), totalizando 88 rodas no pátio. A diferença entre o número de caminhonetes e o número de motocicletas é:",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "ans": 1,
+          "comment": "Sistema: M + C = 28 (I) e 2M + 4C = 88 ⇒ M + 2C = 44 (II). Subtraindo (I) de (II): C = 44 - 28 = 16 caminhonetes. Logo, M = 28 - 16 = 12 motocicletas. A diferença C - M = 16 - 12 = 4."
+        },
+        {
+          "q": "(Questão de estudo — Função do 1º Grau) O volume V(t), em litros, de água em um reservatório que está sendo esvaziado para limpeza segue a função do 1º grau V(t) = 1.800 - 45t, em que t é o tempo em minutos. Em quantos minutos o reservatório estará completamente vazio (raiz da função)?",
+          "options": [
+            "30 minutos.",
+            "35 minutos.",
+            "40 minutos.",
+            "45 minutos."
+          ],
+          "ans": 2,
+          "comment": "O reservatório estará vazio quando V(t) = 0: 1.800 - 45t = 0 ⇒ 45t = 1.800 ⇒ t = 1.800 ÷ 45 = 40 minutos."
+        },
+        {
+          "q": "(Questão de estudo — Função do 1º Grau: Ponto de Equilíbrio) Duas equipes de campo iniciam a semana com metas acumuladas dadas por A(d) = 40 + 18d e B(d) = 100 + 6d, onde d é o número de dias trabalhados. O número de dias necessários para que ambas as equipes atinjam exatamente a mesma quantidade acumulada é:",
+          "options": [
+            "4 dias.",
+            "5 dias.",
+            "6 dias.",
+            "8 dias."
+          ],
+          "ans": 1,
+          "comment": "Igualando as funções: 40 + 18d = 100 + 6d ⇒ 18d - 6d = 100 - 40 ⇒ 12d = 60 ⇒ d = 5 dias."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Na função do 1º grau f(x) = ax + b, o que significam os coeficientes a e b?",
+          "b": "b (coeficiente linear) é o valor inicial quando x = 0 (corta o eixo y). a (coeficiente angular) é a taxa de variação por unidade de x (a > 0 crescente; a < 0 decrescente).",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "O que é a raiz (ou zero) de uma função do 1º grau f(x) = ax + b?",
+          "b": "É o valor de x que torna f(x) = 0, calculado por x = -b/a (ponto onde a reta corta o eixo x).",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Na resolução de problemas de frações sucessivas, se alguém gasta 1/4 e depois 2/3 do restante, que fração sobra?",
+          "b": "Multiplica-se o que sobra em cada etapa: (3/4) × (1/3) = 1/4 do total inicial.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Quando um sistema linear 2×2 é chamado de SPD (Sistema Possível e Determinado)?",
+          "b": "Quando admite uma única solução (um único par ordenado (x, y) onde as duas retas se interceptam).",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Como equacionar três números pares consecutivos?",
+          "b": "x, x + 2 e x + 4.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        }
+      ],
+      "modoA_markdown": "\n### Classificação de Sistemas Lineares $2\times 2$ e Condição da Função do 1º Grau\n1. **Função Afim e Função do 1º Grau ($f(x) = ax + b$)**:\n   - Exige coeficientes reais $a, b in mathbb{R}$ com **$a \neq 0$** para ser função polinomial do 1º grau (se $a = 0$, tem-se a função constante $f(x) = b$, cujo gráfico é uma reta horizontal paralela ao eixo $x$).\n   - **Raiz ou zero da função**: valor de $x$ que anula $f(x)$, dado por $ax + b = 0 Rightarrow x = -\frac{b}{a}$.\n   - **Crescimento**: se $a > 0$, a função é estritamente crescente; se $a < 0$, é estritamente decrescente.\n2. **Sistemas Lineares $2\times 2$**:\n   - **SPD (Sistema Possível e Determinado)**: possui uma única solução $(x,y)$ (retas concorrentes).\n   - **SPI (Sistema Possível e Indeterminado)**: equações equivalentes, possuindo infinitas soluções (retas coincidentes).\n   - **SI (Sistema Impossível)**: equações contraditórias (ex.: $x + y = 5$ e $2x + 2y = 14$), não possuindo solução (retas paralelas distintas).<!-- AUDITORIA:RLM4 -->\n\n### Classificação de Sistemas Lineares $2\\times 2$ e Condição da Função do 1º Grau\n1. **Função Afim e Função do 1º Grau ($f(x) = ax + b$)**:\n   - Exige coeficientes reais $a, b \\in \\mathbb{R}$ com **$a \\neq 0$** para ser função polinomial do 1º grau (se $a = 0$, tem-se a função constante $f(x) = b$, cujo gráfico é uma reta horizontal paralela ao eixo $x$).\n   - **Raiz ou zero da função**: valor de $x$ que anula $f(x)$, dado por $ax + b = 0 \\Rightarrow x = -\\frac{b}{a}$.\n   - **Crescimento**: se $a > 0$, a função é estritamente crescente; se $a < 0$, é estritamente decrescente.\n2. **Sistemas Lineares $2\\times 2$**:\n   - **SPD (Sistema Possível e Determinado)**: possui uma única solução $(x,y)$ (retas concorrentes).\n   - **SPI (Sistema Possível e Indeterminado)**: equações equivalentes, possuindo infinitas soluções (retas coincidentes).\n   - **SI (Sistema Impossível)**: equações contraditórias (ex.: $x + y = 5$ e $2x + 2y = 14$), não possuindo solução (retas paralelas distintas)."
+    },
+    {
+      "title": "Bloco 4.2 — Sistemas Lineares de 1º Grau (Métodos da Substituição e Adição) e Médias (Aritmética Simples e Ponderada)",
+      "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)\n\n**25. Operações com Conjuntos, Conjuntos Numéricos, Equações, Sistemas Lineares de 1º Grau e Médias (Aritmética Simples e Ponderada) — Bloco 25.2 — Sistemas Lineares de 1º Grau (Métodos da Substituição e Adição) e Médias (Aritmética Simples e Ponderada)**\n **Referência no Edital IBGP:** Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Conjuntos; Números naturais, inteiros, racionais e reais; Equações e sistemas lineares; Médias.\n **Fontes e PDFs Base Integrados:** PDF #9 (*9. Teoria dos Conjuntos.pdf*), PDF #10 (*10. Conjuntos Numéricos.pdf*), PDF #11 (*11. Operações Básicas.pdf*), PDF #13 (*13. Múltiplos e Divisores; MMC e MDC.pdf*), PDF #17 (*17. Equação do 1º Grau.pdf*), PDF #18 (*18. Introdução ao Estudo das Funções.pdf*), PDF #19 (*19. Função do 1º Grau.pdf*), PDF #86 (*EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf*), PDF #91 (*Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf*).\n\n#### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)\n\n**BLOCO NOVO PÓS-AUDITORIA (LACUNA #4 DAS FONTES DO DRIVE SANADA):** Nos 21 PDFs da pasta de Raciocínio Lógico do Google Drive, **Sistemas Lineares** e **Médias (Simples e Ponderada)** estavam ausentes, embora constem expressamente no Edital IBGP. Este bloco cobre 100% da teoria e exercícios resolvidos.\n\nDomine a resolução de **Sistemas de Equações do 1º Grau com 2 incógnitas (x e y)** e o cálculo de **Médias**:\n\n- **1. Sistemas Lineares de 1º Grau (2 × 2):**\n\n  - Um sistema linear com duas incógnitas (x e y) possui a forma: { a_(1x) + b_(1y) = c_(1) ; a_(2x) + b_(2y) = c_(2) }\n  - **Método da Substituição:** Isola-se uma incógnita na equação mais simples (ex.: x = c_(1) - y) e substitui-se na outra equação.\n  - **Método da Adição (Mais rápido na prova!):** Multiplicam-se uma ou ambas as equações por constantes adequadas para que uma das incógnitas fique com coeficientes simétricos (ex.: +2y e -2y) e somam-se as duas equações membro a membro, cancelando uma variável.\n  - **Exemplo Clássico de Prova (Problema das Motos e Carros / Depósitos Tipo A e B):** *\"Em um pátio da SEMUSA há 20 veículos entre motos (2 rodas) e carros (4 rodas), totalizando 64 rodas. Quantos carros e quantas motos há no pátio?\"* • Equação 1 (Total de veículos): M + C = 20 • Equação 2 (Total de rodas): 2M + 4C = 64 • Multiplicando a Equação 1 por (-2): -2M - 2C = -40. Somando com a Equação 2: 2C = 24 ⇒ **C = 12 carros** e **M = 8 motos**.\n- **2. Média Aritmética Simples (MA) vs. Média Aritmética Ponderada (MP):**\n\n  - **Média Aritmética Simples (MA):** É o quociente entre a **soma de todos os valores** e a **quantidade total de elementos (n)**: MA = ((x_(1) + x_(2) + ... + x_(n)) / n) ⇒ Soma dos elementos = MA × n *Dica de ouro:* Sempre que a questão der a média de n elementos, multiplique imediatamente Média × n para descobrir a **SOMA total**!\n  - **Média Aritmética Ponderada (MP):** Cada valor x_(i) é multiplicado pelo seu respectivo **peso (ou frequência) p_(i)**, dividindo-se o resultado pela **soma dos pesos**: MP = ((x_(1) · p_(1) + x_(2) · p_(2) + ... + x_(k) · p_(k)) / (p_(1) + p_(2) + ... + p_(k))) *Exemplo prático na própria prova do Edital SEMUSA:* Se um candidato acerta notas com pesos diferentes (Conhecimentos Específicos tem peso 3, Português peso 2, Legislação peso 2 e RLM/Atualidades peso 1), a nota ponderada multiplica cada pontuação pelo seu peso e divide pela soma dos pesos!\n\n#### 3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)\n\n**Aplicação Prática de Sistemas Lineares do 1º Grau e Médias (Simples e Ponderada) na Prova da SEMUSA:**\n• **Cálculo da Nota Ponderada no Edital SEMUSA:** Quando uma avaliação atribui pesos diferentes às disciplinas ou etapas, a média final é obtida multiplicando cada nota pelo seu respectivo peso e dividindo pela soma dos pesos.\n• **Truque da Soma na Média Aritmética Simples:** Se a média de imóveis vistoriados por 5 agentes em um dia foi de **24 imóveis**, multiplique imediatamente 5 × 24 = 120 imóveis no total! Se entrar um 6º agente que vistoriou 30 imóveis, a nova soma será 120 + 30 = 150, e a nova média será 150 ÷ 6 = 25 imóveis.\n\n#### 4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)\n\n**Dicionário Rápido de Tradução Algébrica para Equações e Sistemas do 1º Grau na Banca IBGP:**\n• *'O dobro de um número diminuído de 5'* → 2x - 5 (diferente de *'o dobro da diferença entre um número e 5'* → 2(x - 5)!).\n• *'A terça parte de um número somada aos seus dois quintos'* → (x / 3) + (2x / 5) (tire o MMC dos denominadores 3 e 5, que é 15, para eliminar as frações rapidamente!).\n• *'Três números inteiros consecutivos'* → x, x + 1, x + 2 (dica: a soma de 3 números consecutivos dividida por 3 dá sempre o **termo central**!).",
+      "modoB_markdown": "**FÓRMULAS SALVA-VIDAS — SISTEMAS E MÉDIAS:**\n\n• **Regra da Soma na Média Simples:** Soma = Média × Quantidade. Se a média de 5 dias de visitas foi 24 imóveis/dia, a soma dos 5 dias é 24 × 5 = 120 imóveis!\n\n• **Média Ponderada:** No denominador (embaixo da fração), divide-se sempre pela **SOMA DOS PESOS** (e nunca pela quantidade de notas!).",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)</h5><p><strong>25. Operações com Conjuntos, Conjuntos Numéricos, Equações, Sistemas Lineares de 1º Grau e Médias (Aritmética Simples e Ponderada) — Bloco 25.2 — Sistemas Lineares de 1º Grau (Métodos da Substituição e Adição) e Médias (Aritmética Simples e Ponderada)</strong></p><p><strong>Referência no Edital IBGP:</strong> Anexo IV — Raciocínio Lógico (Nível Médio/ACE): Conjuntos; Números naturais, inteiros, racionais e reais; Equações e sistemas lineares; Médias.</p><p><strong>Fontes e PDFs Base Integrados:</strong> PDF #9 (<em>9. Teoria dos Conjuntos.pdf</em>), PDF #10 (<em>10. Conjuntos Numéricos.pdf</em>), PDF #11 (<em>11. Operações Básicas.pdf</em>), PDF #13 (<em>13. Múltiplos e Divisores; MMC e MDC.pdf</em>), PDF #17 (<em>17. Equação do 1º Grau.pdf</em>), PDF #18 (<em>18. Introdução ao Estudo das Funções.pdf</em>), PDF #19 (<em>19. Função do 1º Grau.pdf</em>), PDF #86 (<em>EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf</em>), PDF #91 (<em>Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf</em>).</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)</h5><p><strong>BLOCO NOVO PÓS-AUDITORIA (LACUNA #4 DAS FONTES DO DRIVE SANADA):</strong> Nos 21 PDFs da pasta de Raciocínio Lógico do Google Drive, <strong>Sistemas Lineares</strong> e <strong>Médias (Simples e Ponderada)</strong> estavam ausentes, embora constem expressamente no Edital IBGP. Este bloco cobre 100% da teoria e exercícios resolvidos.</p><p>Domine a resolução de <strong>Sistemas de Equações do 1º Grau com 2 incógnitas (x e y)</strong> e o cálculo de <strong>Médias</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>1. Sistemas Lineares de 1º Grau (2 × 2):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li>Um sistema linear com duas incógnitas (x e y) possui a forma: { a_(1x) + b_(1y) = c_(1) ; a_(2x) + b_(2y) = c_(2) }</li><li><strong>Método da Substituição:</strong> Isola-se uma incógnita na equação mais simples (ex.: x = c_(1) - y) e substitui-se na outra equação.</li><li><strong>Método da Adição (Mais rápido na prova!):</strong> Multiplicam-se uma ou ambas as equações por constantes adequadas para que uma das incógnitas fique com coeficientes simétricos (ex.: +2y e -2y) e somam-se as duas equações membro a membro, cancelando uma variável.</li><li><strong>Exemplo Clássico de Prova (Problema das Motos e Carros / Depósitos Tipo A e B):</strong> <em>\"Em um pátio da SEMUSA há 20 veículos entre motos (2 rodas) e carros (4 rodas), totalizando 64 rodas. Quantos carros e quantas motos há no pátio?\"</em> • Equação 1 (Total de veículos): M + C = 20 • Equação 2 (Total de rodas): 2M + 4C = 64 • Multiplicando a Equação 1 por (-2): -2M - 2C = -40. Somando com a Equação 2: 2C = 24 ⇒ <strong>C = 12 carros</strong> e <strong>M = 8 motos</strong>.</li><li><strong>2. Média Aritmética Simples (MA) vs. Média Aritmética Ponderada (MP):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Média Aritmética Simples (MA):</strong> É o quociente entre a <strong>soma de todos os valores</strong> e a <strong>quantidade total de elementos (n)</strong>: MA = ((x_(1) + x_(2) + ... + x_(n)) / n) ⇒ Soma dos elementos = MA × n <em>Dica de ouro:</em> Sempre que a questão der a média de n elementos, multiplique imediatamente Média × n para descobrir a <strong>SOMA total</strong>!</li><li><strong>Média Aritmética Ponderada (MP):</strong> Cada valor x_(i) é multiplicado pelo seu respectivo <strong>peso (ou frequência) p_(i)</strong>, dividindo-se o resultado pela <strong>soma dos pesos</strong>: MP = ((x_(1) · p_(1) + x_(2) · p_(2) + ... + x_(k) · p_(k)) / (p_(1) + p_(2) + ... + p_(k))) <em>Exemplo prático na própria prova do Edital SEMUSA:</em> Se um candidato acerta notas com pesos diferentes (Conhecimentos Específicos tem peso 3, Português peso 2, Legislação peso 2 e RLM/Atualidades peso 1), a nota ponderada multiplica cada pontuação pelo seu peso e divide pela soma dos pesos!</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">3. Contextualização e Exemplos Práticos (Aplicações Reais na Prova IBGP e na Rotina da SEMUSA Porto Velho)</h5><p><strong>Aplicação Prática de Sistemas Lineares do 1º Grau e Médias (Simples e Ponderada) na Prova da SEMUSA:</strong></p><p>• <strong>Cálculo da Nota Ponderada no Edital SEMUSA:</strong> Quando uma avaliação atribui pesos diferentes às disciplinas ou etapas, a média final é obtida multiplicando cada nota pelo seu respectivo peso e dividindo pela soma dos pesos.</p><p>• <strong>Truque da Soma na Média Aritmética Simples:</strong> Se a média de imóveis vistoriados por 5 agentes em um dia foi de <strong>24 imóveis</strong>, multiplique imediatamente 5 × 24 = 120 imóveis no total! Se entrar um 6º agente que vistoriou 30 imóveis, a nova soma será 120 + 30 = 150, e a nova média será 150 ÷ 6 = 25 imóveis.</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">4. Material Complementar e Aprofundamento (Pesquisa Acadêmica, Jurisprudência e Atualizações Normativas)</h5><p><strong>Dicionário Rápido de Tradução Algébrica para Equações e Sistemas do 1º Grau na Banca IBGP:</strong></p><p>• <em>'O dobro de um número diminuído de 5'</em> → 2x - 5 (diferente de <em>'o dobro da diferença entre um número e 5'</em> → 2(x - 5)!).</p><p>• <em>'A terça parte de um número somada aos seus dois quintos'</em> → (x / 3) + (2x / 5) (tire o MMC dos denominadores 3 e 5, que é 15, para eliminar as frações rapidamente!).</p><p>• <em>'Três números inteiros consecutivos'</em> → x, x + 1, x + 2 (dica: a soma de 3 números consecutivos dividida por 3 dá sempre o <strong>termo central</strong>!).</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p><strong>FÓRMULAS SALVA-VIDAS — SISTEMAS E MÉDIAS:</strong></p><p>• <strong>Regra da Soma na Média Simples:</strong> Soma = Média × Quantidade. Se a média de 5 dias de visitas foi 24 imóveis/dia, a soma dos 5 dias é 24 × 5 = 120 imóveis!</p><p>• <strong>Média Ponderada:</strong> No denominador (embaixo da fração), divide-se sempre pela <strong>SOMA DOS PESOS</strong> (e nunca pela quantidade de notas!).</p></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Um Agente de Combate às Endemias visitou, de segunda a quinta-feira (4 dias), uma média aritmética simples de 25 imóveis por dia. Na sexta-feira, ele visitou 35 imóveis. Além disso, sabe-se que, do total de imóveis visitados nesses 5 dias, o número de imóveis residenciais (R) superou o número de imóveis comerciais (C) em 85 unidades (R - C = 85), não havendo outros tipos de imóveis. Qual foi a nova média diária dos 5 dias e quantos imóveis comerciais (C) foram visitados na semana?",
+          "options": [
+            "A) Nova média de 27 imóveis/dia e 25 imóveis comerciais.",
+            "B) Nova média de 30 imóveis/dia e 40 imóveis comerciais.",
+            "C) Nova média de 26 imóveis/dia e 15 imóveis comerciais.",
+            "D) Nova média de 28 imóveis/dia e 30 imóveis comerciais."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. 1º) Soma dos 4 primeiros dias = 25 x 4 = 100 imóveis. Com os 35 de sexta-feira, o total dos 5 dias é 100 + 35 = 135 imóveis. Logo, a nova média dos 5 dias é 135 / 5 = 27 imóveis/dia. 2º) Pelo sistema linear: R + C = 135 e R - C = 85. Somando as duas equações: 2R = 220 => R = 110 residenciais e C = 135 - 110 = 25 imóveis comerciais."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é a fórmula da Média Aritmética Ponderada e qual o erro mais comum que deve ser evitado?",
+          "front": "Qual é a fórmula da Média Aritmética Ponderada e qual o erro mais comum que deve ser evitado?",
+          "b": "MP = (x1.p1 + x2.p2 + ... + xn.pn) / (p1 + p2 + ... + pn). O denominador é sempre a SOMA DOS PESOS, e nunca o número de termos!",
+          "back": "MP = (x1.p1 + x2.p2 + ... + xn.pn) / (p1 + p2 + ... + pn). O denominador é sempre a SOMA DOS PESOS, e nunca o número de termos!",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Se a média aritmética simples de 6 números é 18, qual é a soma total desses 6 números?",
+          "front": "Se a média aritmética simples de 6 números é 18, qual é a soma total desses 6 números?",
+          "b": "Soma = Média x Quantidade = 18 x 6 = 108.",
+          "back": "Soma = Média x Quantidade = 18 x 6 = 108.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 4.3 — Laboratório IBGP de Média Aritmética Simples e Média Aritmética Ponderada: Problemas de Alteração de Soma e Pesos",
+      "sourceRef": "Anexo IV — Raciocínio Lógico (Item 4: Média aritmética simples e ponderada)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <h4 class=\"text-base font-extrabold\">Média Aritmética Simples vs. Média Aritmética Ponderada</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">O segredo da IBGP em questões de média é transformar imediatamente a média na <strong>SOMA DOS ELEMENTOS</strong> ($\\text{Soma} = \\text{Média} \\times n$).</p>\n  </div>\n\n  <div class=\"grid grid-cols-1 md:grid-cols-2 gap-3 text-xs\">\n    <div class=\"p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5\">\n      <div class=\"font-extrabold text-slate-900\">1. Média Aritmética Simples ($\\bar{x}$)</div>\n      <p class=\"text-slate-700\">$$\\bar{x} = \\frac{x_1 + x_2 + \\dots + x_n}{n} \\iff \\text{Soma} = \\bar{x} \\cdot n$$<br><strong>Atalho de ouro:</strong> Se a média de $5$ agentes é $24$ imóveis/dia, a soma dos $5$ é $5 \\times 24 = 120$. Se entra um $6º$ agente e a média sobe para $25$, a nova soma é $6 \\times 25 = 150$. Logo, o $6º$ agente visitou $150 - 120 = 30$ imóveis!</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-amber-50 border border-amber-200 space-y-1.5\">\n      <div class=\"font-extrabold text-amber-950\">2. Média Aritmética Ponderada ($\\bar{x}_p$)</div>\n      <p class=\"text-slate-700\">$$\\bar{x}_p = \\frac{x_1 \\cdot p_1 + x_2 \\cdot p_2 + \\dots + x_k \\cdot p_k}{p_1 + p_2 + \\dots + p_k}$$<br><strong>Pegadinha mortal:</strong> Divide-se pela <strong>SOMA DOS PESOS</strong> ($p_1 + p_2 + \\dots + p_k$), e NUNCA pela quantidade de parcelas!</p>\n    </div>\n  </div>\n</div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Regra da Soma (Média Simples):</strong> $\\text{Soma} = \\text{Média} \\times \\text{Quantidade}$.</li>\n  <li><strong>Média Ponderada:</strong> Multiplique cada valor pelo seu peso/frequência e divida pela <strong>soma dos pesos</strong>.</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Média Aritmética Simples: Entrada de Novo Elemento) A média diária de imóveis vistoriados por uma equipe de 6 agentes foi de 24 imóveis. Quando o 7º agente da equipe entregou seu boletim diário, a média de todo o grupo subiu para 25 imóveis. Quantos imóveis o 7º agente vistoriou?",
+          "options": [
+            "29 imóveis.",
+            "30 imóveis.",
+            "31 imóveis.",
+            "32 imóveis."
+          ],
+          "ans": 2,
+          "comment": "Soma dos 6 primeiros agentes = 6 × 24 = 144 imóveis. Nova soma com os 7 agentes = 7 × 25 = 175 imóveis. Logo, o 7º agente vistoriou 175 - 144 = 31 imóveis."
+        },
+        {
+          "q": "(Questão de estudo — Média Aritmética Ponderada) Em uma avaliação interna de capacitação da SEMUSA, a prova teórica tem peso 3, a prova prática de campo tem peso 5 e o estudo de caso tem peso 2. Se um candidato obteve nota 7,0 na teórica, 9,0 na prática e 8,0 no estudo de caso, sua média final ponderada foi:",
+          "options": [
+            "8,0.",
+            "8,2.",
+            "8,4.",
+            "8,5."
+          ],
+          "ans": 1,
+          "comment": "Média ponderada = [(7,0 × 3) + (9,0 × 5) + (8,0 × 2)] ÷ (3 + 5 + 2) = [21 + 45 + 16] ÷ 10 = 82 ÷ 10 = 8,2."
+        },
+        {
+          "q": "(Questão de estudo — Média Ponderada por Frequência) Em um setor com 10 agentes, 4 agentes têm 30 anos, 4 agentes têm 35 anos e 2 agentes têm 45 anos. A média de idade desse grupo é:",
+          "options": [
+            "34 anos.",
+            "35 anos.",
+            "36 anos.",
+            "36,6 anos."
+          ],
+          "ans": 1,
+          "comment": "Média = [(4 × 30) + (4 × 35) + (2 × 45)] ÷ (4 + 4 + 2) = [120 + 140 + 90] ÷ 10 = 350 ÷ 10 = 35 anos."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é o erro mais comum em questões de Média Aritmética Ponderada?",
+          "b": "Dividir pela quantidade de notas em vez de dividir pela SOMA DOS PESOS (p₁ + p₂ + ... + pₖ).",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Se a média aritmética de n números é M e somamos uma constante k a todos os números, o que acontece com a média?",
+          "b": "A nova média passa a ser M + k.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Como resolver rapidamente questões em que um elemento entra ou sai de um grupo alterando a média?",
+          "b": "Calcula-se a Soma Antes (n × M₁) e a Soma Depois ((n±1) × M₂); a diferença entre as somas é o valor do elemento.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Média ponderada com pesos iguais equivale a qual tipo de média?",
+          "b": "Equivale exatamente à Média Aritmética Simples.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        }
+      ]
+    },
+    {
+      "title": "Complemento autoral — Médias simples e ponderadas",
+      "modoA_markdown": "## Exemplo resolvido: média simples\nTrês resultados são 6, 8 e 10. Soma = 24; quantidade = 3; média = 24/3 = 8.\n\n## Exemplo resolvido: média ponderada\nUma nota 6 tem peso 1 e uma nota 9 tem peso 2.\n1. Produtos: 6 × 1 = 6; 9 × 2 = 18.\n2. Soma ponderada: 6 + 18 = 24.\n3. Soma dos pesos: 1 + 2 = 3.\n4. Média: 24/3 = 8.\nDividir pela quantidade de notas (2) daria 12, resultado fora do intervalo entre 6 e 9: um sinal de erro.\n\n## Estratégia de revisão\nAntes de calcular, identifique se todos os valores têm o mesmo peso. Depois confira se a média está entre o menor e o maior valor, considerando pesos positivos.",
+      "modoB_markdown": "Média simples = soma dos valores / quantidade. Média ponderada = soma dos produtos valor×peso / soma dos pesos. Com pesos positivos, a média permanece entre o menor e o maior valor.",
+      "modoA": "",
+      "modoB": "",
+      "questions": [
+        {
+          "q": "[Autoral] Qual é a média aritmética simples de 6, 8 e 10?",
+          "options": [
+            "A) 6",
+            "B) 8",
+            "C) 10",
+            "D) 24"
+          ],
+          "ans": 1,
+          "comment": "(6 + 8 + 10)/3 = 24/3 = 8. D é só a soma; A e C são os extremos, sem efetuar a operação."
+        },
+        {
+          "q": "[Autoral] Uma nota 6 tem peso 1 e uma nota 9 tem peso 2. Qual é a média ponderada?",
+          "options": [
+            "A) 7,5",
+            "B) 8",
+            "C) 9",
+            "D) 12"
+          ],
+          "ans": 1,
+          "comment": "(6×1 + 9×2)/(1+2) = 24/3 = 8. A ignora os pesos; C considera só uma nota; D divide por 2 em vez da soma dos pesos."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é o denominador da média ponderada?",
+          "b": "A soma dos pesos, e não necessariamente a quantidade de valores.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        },
+        {
+          "f": "Como verificar uma média com pesos positivos?",
+          "b": "Ela deve ficar entre o menor e o maior valor; isso detecta alguns erros, mas não substitui o cálculo.",
+          "lessonTitle": "4. Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada"
+        }
+      ]
+    }
+  ],
+  "questionsCount": 10,
+  "flashcardsCount": 13,
+  "sources": [
+    96
+  ]
+}

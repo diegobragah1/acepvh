@@ -1,0 +1,203 @@
+{
+  "id": "por_5",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "5. Figuras de Linguagem",
+  "editalRef": "Item 5 de Língua Portuguesa — Figuras de Linguagem.",
+  "mindMap": {
+    "centralTitle": "5. Figuras de Linguagem",
+    "centralSubtitle": "Item 5 de Língua Portuguesa — Figuras de Palavras, de Pensamento e de Som",
+    "branches": [
+      {
+        "title": "1. Figuras de Palavras (Tropos)",
+        "icon": "🎭",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Metáfora vs. Comparação",
+            "detail": "Metáfora: aproximação implícita de domínios por semelhança. Comparação (símile): aproximação explícita por conectivo comparativo (atenção: nem todo \"como\" é comparativo; pode ser causal ou conformativo)."
+          },
+          {
+            "label": "Metonímia e Catacrese",
+            "detail": "Parte pelo todo / Continente pelo conteúdo; Asa da xícara"
+          },
+          {
+            "label": "Sinestesia",
+            "detail": "Mistura de diferentes sentidos físicos"
+          }
+        ]
+      },
+      {
+        "title": "2. Oposição e Pensamento",
+        "icon": "⚡",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Antítese vs. Paradoxo",
+            "detail": "Palavras opostas vs. Contradição lógica fundida"
+          },
+          {
+            "label": "Ironia e Eufemismo",
+            "detail": "Dizer o oposto sarcástico vs. Suavizar ideia dura"
+          }
+        ]
+      },
+      {
+        "title": "3. Realce e Personificação",
+        "icon": "🌟",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Hipérbole",
+            "detail": "Exagero intencional expressivo"
+          },
+          {
+            "label": "Prosopopeia e Gradação",
+            "detail": "Humanização de inanimados; Sequência crescente/decrescente"
+          }
+        ]
+      },
+      {
+        "title": "4. Figuras de Som (Harmonia)",
+        "icon": "🎵",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Aliteração",
+            "detail": "Repetição de sons consonantais"
+          },
+          {
+            "label": "Assonância e Onomatopeia",
+            "detail": "Repetição de vogais; Imitação de ruídos"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 5.1 — Figuras de Linguagem (Semânticas e de Pensamento): Metáfora, Comparação, Metonímia, Catacrese, Sinestesia, Antítese, Paradoxo, Eufemismo, Ironia, Hipérbole e Prosopopeia",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 5: Figuras de Linguagem)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 5 de Língua Portuguesa — Figuras de Linguagem</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Quadro Comparativo Completo das Figuras de Palavras e de Pensamento</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Aprenda a distinguir imediatamente os pares que a banca IBGP coloca nas alternativas para confundir o candidato: <strong>Metáfora vs. Comparação</strong>, <strong>Metonímia vs. Catacrese</strong> e <strong>Antítese vs. Paradoxo</strong>.</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Figura de Linguagem</th>\n          <th class=\"p-2.5 border border-slate-700\">Definição e Chave de Identificação</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Prático</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Metáfora vs. Comparação (Símile)</td><td class=\"p-2.5 border border-slate-200\">• <strong>Metáfora:</strong> comparação implícita <strong>SEM conectivo</strong> comparativo.<br>• <strong>Comparação:</strong> comparação explícita <strong>COM conectivo</strong> (como, tal qual, feito, igual a).</td><td class=\"p-2.5 border border-slate-200\">• Metáfora: \"A prevenção é um escudo.\"<br>• Comparação: \"Ele trabalha <strong>como</strong> uma máquina.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Metonímia</td><td class=\"p-2.5 border border-slate-200\">Substituição de um termo por outro com relação de contiguidade/proximidade (autor pela obra, continente pelo conteúdo, marca pelo produto, parte pelo todo).</td><td class=\"p-2.5 border border-slate-200\">\"Lemos Machado de Assis.\" / \"Tomou dois copos de água.\" / \"Não tinha um teto onde morar.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Catacrese</td><td class=\"p-2.5 border border-slate-200\">Metáfora desgastada pelo uso cotidiano por falta de palavra específica no idioma.</td><td class=\"p-2.5 border border-slate-200\">\"Braço da cadeira\", \"dente de alho\", \"asa da xícara\", \"embarcar no avião\".</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Sinestesia</td><td class=\"p-2.5 border border-slate-200\">Cruzamento/fusão de sensações de <strong>órgãos dos sentidos diferentes</strong> (visão, audição, tato, olfato, paladar).</td><td class=\"p-2.5 border border-slate-200\">\"Um <strong>doce</strong> (paladar) <strong>olhar</strong> (visão) <strong>frio</strong> (tato).\" / \"Voz áspera.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">5. Antítese vs. Paradoxo (Oxímoro)</td><td class=\"p-2.5 border border-slate-200\">• <strong>Antítese:</strong> aproximação de palavras de sentidos opostos, sem ferir a lógica.<br>• <strong>Paradoxo:</strong> fusão contraditória na mesma ideia que desafia a lógica racional.</td><td class=\"p-2.5 border border-slate-200\">• Antítese: \"Onde há <strong>luz</strong>, combate-se a <strong>escuridão</strong>.\"<br>• Paradoxo: \"É ferida que <strong>dói e não se sente</strong>.\" / \"Silêncio ensurdecedor.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">6. Eufemismo vs. Hipérbole</td><td class=\"p-2.5 border border-slate-200\">• <strong>Eufemismo:</strong> suavização de ideia desagradável/trágica.<br>• <strong>Hipérbole:</strong> exagero intencional.</td><td class=\"p-2.5 border border-slate-200\">• Eufemismo: \"Faltou com a verdade\" / \"Descansou em paz.\"<br>• Hipérbole: \"Já expliquei isso <strong>um milhão de vezes</strong>!\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">7. Prosopopeia (Personificação) e Ironia</td><td class=\"p-2.5 border border-slate-200\">• <strong>Prosopopeia:</strong> atribuição de ações/sentimentos humanos a seres inanimados ou irracionais.<br>• <strong>Ironia:</strong> dizer o contrário do que se pensa com finalidade crítica/sarcástica.</td><td class=\"p-2.5 border border-slate-200\">• Prosopopeia: \"O rio Madeira chorava na seca.\"<br>• Ironia: \"Que excelente vizinho: deixou dez pneus cheios de água no quintal!\"</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Metáfora</strong> (sem \"como\") vs. <strong>Comparação</strong> (com \"como\").</li>\n  <li><strong>Antítese</strong> (oposição lógica: vida/morte) vs. <strong>Paradoxo</strong> (autocontradição: estar cego para ver).</li>\n  <li><strong>Metonímia:</strong> Parte pelo todo, continente pelo conteúdo, autor pela obra.</li>\n  <li><strong>Catacrese:</strong> Empréstimo por falta de nome próprio (pé da mesa, céu da boca).</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Figuras de Linguagem: Antítese vs. Paradoxo) Nos versos camonianos \"Amor é fogo que arde sem se ver; / é ferida que dói e não se sente; / é um contentamento descontente\", predomina a figura de linguagem denominada:",
+          "options": [
+            "Catacrese, pelo uso de termos emprestados do corpo humano.",
+            "Paradoxo (ou oxímoro), pois funde conceitos mutuamente excludentes que subvertem a lógica formal (\"dói e não se sente\", \"contentamento descontente\").",
+            "Eufemismo, pela suavização da ideia de morte.",
+            "Sinestesia, pela mistura de olfato e paladar."
+          ],
+          "ans": 1,
+          "comment": "Quando ideias opostas se fundem gerando uma contradição lógica aparente (\"ferida que dói e não se sente\", \"contentamento descontente\"), temos o Paradoxo (ou Oxímoro)."
+        },
+        {
+          "q": "(Questão de estudo — Metonímia) Na frase \"Durante a caminhada sob o sol de Porto Velho, o agente bebeu duas garrafas inteiras na parada de hidratação\", ocorre a figura de linguagem:",
+          "options": [
+            "Metonímia (o continente \"duas garrafas\" pelo conteúdo \"a água\").",
+            "Hipérbole.",
+            "Prosopopeia.",
+            "Sinestesia."
+          ],
+          "ans": 0,
+          "comment": "Ninguém bebe o plástico da garrafa, e sim o líquido nela contido: trata-se de Metonímia do tipo continente pelo conteúdo."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é a diferença entre Antítese e Paradoxo (Oxímoro)?",
+          "b": "Antítese aproxima termos de sentidos opostos mantendo cada um em seu domínio (\"luz e sombra\"). Paradoxo articula ideias aparentemente inconciliáveis na superfície para expressar um sentido profundo (\"ferida que dói e não se sente\"); quando condensado num único sintagma (\"silêncio eloquente\"), chama-se também oxímoro.",
+          "lessonTitle": "5. Figuras de Linguagem",
+          "front": "Qual é a diferença entre Antítese e Paradoxo (Oxímoro)?",
+          "back": "Antítese aproxima termos de sentidos opostos mantendo cada um em seu domínio (\"luz e sombra\"). Paradoxo articula ideias aparentemente inconciliáveis na superfície para expressar um sentido profundo (\"ferida que dói e não se sente\"); quando condensado num único sintagma (\"silêncio eloquente\"), chama-se também oxímoro."
+        },
+        {
+          "f": "O que é Sinestesia?",
+          "b": "É a associação de sensações percebidas por diferentes órgãos dos sentidos (ex.: \"perfume doce e quente\").",
+          "lessonTitle": "5. Figuras de Linguagem"
+        },
+        {
+          "f": "O que é Catacrese?",
+          "b": "É uma metáfora cristalizada pelo uso cotidiano na falta de um termo específico (dente de alho, asa da xícara, embarcar no trem).",
+          "lessonTitle": "5. Figuras de Linguagem"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 5.2 — Figuras de Som (Aliteração, Assonância, Onomatopeia e Paronomásia), Gradação, Perífrase e Apóstrofe",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 5: Figuras de Linguagem)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-slate-900 text-white border border-slate-700\">\n    <h4 class=\"text-base font-extrabold\">Figuras Sonoras (Harmonia) e Figuras Complementares de Pensamento</h4>\n    <p class=\"text-xs text-slate-300 mt-1\">Complete o domínio do Item 5 com as 4 figuras de harmonia sonora e as figuras de pensamento recorrentes em poemas e crônicas da IBGP.</p>\n  </div>\n  <div class=\"grid grid-cols-1 md:grid-cols-2 gap-3 text-xs\">\n    <div class=\"p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5\">\n      <div class=\"font-extrabold text-slate-900\">1. Figuras de Som (Harmonia)</div>\n      <p class=\"text-slate-700\">• <strong>Aliteração:</strong> repetição de sons <strong>consonantais</strong> (\"O <strong>r</strong>ato <strong>r</strong>oeu a <strong>r</strong>oupa do <strong>r</strong>ei de <strong>R</strong>oma\").<br>• <strong>Assonância:</strong> repetição de sons <strong>vocálicos</strong> (\"Sou <strong>a</strong>na, da c<strong>a</strong>ma, da c<strong>a</strong>na, ful<strong>a</strong>na, bac<strong>a</strong>na\").<br>• <strong>Onomatopeia:</strong> imitação escrita de ruídos ou sons naturais (\"zum-zum\", \"tique-taque\", \"atchim\").<br>• <strong>Paronomásia:</strong> aproximação expressiva de palavras parônimas (sons parecidos: \"Quem casa quer casa\" / \"Conhecer as manhas e as manhãs\").</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-amber-50 border border-amber-200 space-y-1.5\">\n      <div class=\"font-extrabold text-amber-950\">2. Gradação (Clímax/Anticlímax), Perífrase e Apóstrofe</div>\n      <p class=\"text-slate-700\">• <strong>Gradação:</strong> sequência encadeada de ideias em ordem crescente (clímax) ou decrescente (anticlímax): \"Um passo, um trote, uma corrida, um voo!\"<br>• <strong>Perífrase (ou Antonomásia):</strong> substituição de um nome por um epíteto ou característica notória (\"A Cidade das Três Caixas d'Água\" = Porto Velho; \"O Poeta dos Escravos\" = Castro Alves).<br>• <strong>Apóstrofe:</strong> interpelação/invocação enfática (corresponde ao vocativo na sintaxe): \"<strong>Ó Deus</strong>, onde estás que não respondes?\"</p>\n    </div>\n  </div>\n</div><!-- AUDITORIA:POR5 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Distinções Críticas: Metáfora vs. Comparação, Paradoxo vs. Oxímoro e Prosopopeia vs. Metonímia</h4><p>1. <strong>Como nem sempre introduz comparação</strong>: A <strong>comparação (símile)</strong> exige relação de semelhança entre dois termos mediada por conectivo comparativo (<em>como, tal qual, assim como</em>). Se a frase diz <em>\"Como choveu forte, a vistoria foi adiada\"</em>, o <em>como</em> é conjunção <strong>causal</strong> (= porque), sem figura de linguagem. Se diz <em>\"Conforme o manual, como orientou a coordenação...\"</em>, é <strong>conformativo</strong>.</p><p>2. <strong>Paradoxo e Oxímoro</strong>: O <strong>paradoxo</strong> não \"destrói a lógica do texto\"; ele constrói uma contradição aparente na superfície literal que se resolve na interpretação figurada ou poética. O <strong>oxímoro</strong> é a manifestação concentrada do paradoxo num mesmo sintagma nominal (<em>\"obscura clareza\"</em>, <em>\"silêncio ensurdecedor\"</em>).</p><p>3. <strong>Prosopopeia (Personificação) vs. Metonímia de Lugar pelos Habitantes</strong>: Em <em>\"A cidade despertou preocupada com a enchente\"</em>, pode haver <strong>metonímia</strong> (<em>a cidade</em> = <em>os moradores da cidade</em>) combinada a traço expressivo. Já em <em>\"O vento sussurrava segredos às árvores\"</em>, atribui-se ação estritamente humana/animada a ser inanimado (<strong>prosopopeia</strong>).</p><p>4. <strong>Catacrese e Sinestesia</strong>: Na <strong>catacrese</strong>, usa-se termo figurado cristalizado na língua por falta de vocábulo específico (<em>braço da cadeira, dente de alho, asa da xícara, embarcar no ônibus</em>). Na <strong>sinestesia</strong>, fundem-se sensações de órgãos dos sentidos diferentes (<em>voz doce e áspera</em> = audição + paladar + tato).</p></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Aliteração:</strong> Repetição de consoantes; <strong>Assonância:</strong> repetição de vogais.</li>\n  <li><strong>Gradação:</strong> Sequência progressiva ascendente (clímax) ou descendente (anticlímax).</li>\n  <li><strong>Perífrase / Antonomásia:</strong> Apelido consagrado de lugar ou pessoa.</li>\n  <li><strong>Apóstrofe:</strong> Invocação direta (vocativo literário).</li>\n</ul><!-- AUDITORIA:POR5 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Comparação exige relação de semelhança + conectivo; diferenciar de \"como\" causal/conformativo.</li><li>Catacrese: metáfora cristalizada por ausência de termo próprio (asa da xícara).</li><li>Sinestesia: cruzamento de sentidos sensoriais distintos.</li><li>Eufemismo suaviza; hipérbole intensifica por exagero.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Figuras Sonoras: Aliteração) No verso \"Vozes veladas, veludosas vozes, / Volúpias dos violões, vozes veladas\", de Cruz e Sousa, a repetição sistemática do fonema consonantal /v/ produz a figura de linguagem denominada:",
+          "options": [
+            "Assonância.",
+            "Aliteração.",
+            "Catacrese.",
+            "Eufemismo."
+          ],
+          "ans": 1,
+          "comment": "A repetição intencional de fonemas consonantais (/v/) para produzir efeito rítmico-sonoro chama-se Aliteração."
+        },
+        {
+          "q": "(Questão de estudo — Gradação) Em \"O foco começou como uma gota esquecida no quintal, virou poça, tornou-se criadouro, espalhou-se pelo quarteirão e tomou o bairro inteiro\", observa-se uma sequência progressiva ascendente que caracteriza a:",
+          "options": [
+            "Gradação (clímax).",
+            "Ironia.",
+            "Antítese.",
+            "Sinestesia."
+          ],
+          "ans": 0,
+          "comment": "O encadeamento de termos em ordem crescente de intensidade ou dimensão (gota → poça → criadouro → quarteirão → bairro) configura a Gradação ascendente (clímax)."
+        },
+        {
+          "auditId": "por_5-autoral-1",
+          "q": "(Autoral — Catacrese, Sinestesia e Eufemismo) Analise os enunciados: I. \"Foi preciso consertar o pé da mesa e a asa da xícara antes do atendimento.\" / II. \"Ouviu-se um grito áspero e gelado no corredor.\" / III. \"O servidor faltou com a verdade durante a sindicância.\" As figuras presentes em I, II e III são, respectivamente:",
+          "options": [
+            "Catacrese, sinestesia e eufemismo.",
+            "Metonímia, hipérbole e ironia.",
+            "Comparação, aliteração e paradoxo.",
+            "Prosopopeia, catacrese e antítese."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, \"pé da mesa\" e \"asa da xícara\" são usos cristalizados por ausência de nome específico (catacrese); em II, cruzam-se audição (\"grito\") e tato/temperatura (\"áspero e gelado\"), configurando sinestesia; em III, \"faltou com a verdade\" suaviza a ideia de \"mentiu\" (eufemismo)."
+        },
+        {
+          "auditId": "por_5-autoral-2",
+          "q": "(Autoral — Comparação vs. \"Como\" Causal/Conformativo) Em qual das alternativas abaixo a palavra \"como\" introduz efetivamente uma figura de comparação (símile)?",
+          "options": [
+            "Como o laboratório fechou mais cedo, as amostras seguiram para a central estadual.",
+            "O agente conferiu todas as planilhas como determinava o protocolo municipal.",
+            "A notícia espalhou-se pelo bairro como faísca em palha seca.",
+            "Como ninguém apresentou recurso no prazo legal, o processo foi arquivado."
+          ],
+          "ans": 2,
+          "comment": "Gabarito: C. Em C, \"como\" estabelece relação explícita de semelhança entre a velocidade da notícia e a propagação da faísca (comparação/símile). Em A e D, \"como\" é conjunção subordinativa causal (= já que); em B, é conjunção conformativa (= conforme)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre Aliteração e Assonância?",
+          "b": "Aliteração repete sons CONSONANTAIS; Assonância repete sons VOCÁLICOS.",
+          "lessonTitle": "5. Figuras de Linguagem"
+        },
+        {
+          "f": "O que é Gradação?",
+          "b": "É o encadeamento de palavras ou ideias em progressão crescente (clímax) ou decrescente (anticlímax).",
+          "lessonTitle": "5. Figuras de Linguagem"
+        }
+      ],
+      "modoA_markdown": "\n### Distinções Críticas: Metáfora vs. Comparação, Paradoxo vs. Oxímoro e Prosopopeia vs. Metonímia\n1. **Como nem sempre introduz comparação**: A **comparação (símile)** exige relação de semelhança entre dois termos mediada por conectivo comparativo (*como, tal qual, assim como*). Se a frase diz *\"Como choveu forte, a vistoria foi adiada\"*, o *como* é conjunção **causal** (= porque), sem figura de linguagem. Se diz *\"Conforme o manual, como orientou a coordenação...\"*, é **conformativo**.\n2. **Paradoxo e Oxímoro**: O **paradoxo** não \"destrói a lógica do texto\"; ele constrói uma contradição aparente na superfície literal que se resolve na interpretação figurada ou poética. O **oxímoro** é a manifestação concentrada do paradoxo num mesmo sintagma nominal (*\"obscura clareza\"*, *\"silêncio ensurdecedor\"*).\n3. **Prosopopeia (Personificação) vs. Metonímia de Lugar pelos Habitantes**: Em *\"A cidade despertou preocupada com a enchente\"*, pode haver **metonímia** (*a cidade* = *os moradores da cidade*) combinada a traço expressivo. Já em *\"O vento sussurrava segredos às árvores\"*, atribui-se ação estritamente humana/animada a ser inanimado (**prosopopeia**).\n4. **Catacrese e Sinestesia**: Na **catacrese**, usa-se termo figurado cristalizado na língua por falta de vocábulo específico (*braço da cadeira, dente de alho, asa da xícara, embarcar no ônibus*). Na **sinestesia**, fundem-se sensações de órgãos dos sentidos diferentes (*voz doce e áspera* = audição + paladar + tato).<!-- AUDITORIA:POR5 -->\n\n### Distinções Críticas: Metáfora vs. Comparação, Paradoxo vs. Oxímoro e Prosopopeia vs. Metonímia\n1. **Como nem sempre introduz comparação**: A **comparação (símile)** exige relação de semelhança entre dois termos mediada por conectivo comparativo (*como, tal qual, assim como*). Se a frase diz *\"Como choveu forte, a vistoria foi adiada\"*, o *como* é conjunção **causal** (= porque), sem figura de linguagem. Se diz *\"Conforme o manual, como orientou a coordenação...\"*, é **conformativo**.\n2. **Paradoxo e Oxímoro**: O **paradoxo** não \"destrói a lógica do texto\"; ele constrói uma contradição aparente na superfície literal que se resolve na interpretação figurada ou poética. O **oxímoro** é a manifestação concentrada do paradoxo num mesmo sintagma nominal (*\"obscura clareza\"*, *\"silêncio ensurdecedor\"*).\n3. **Prosopopeia (Personificação) vs. Metonímia de Lugar pelos Habitantes**: Em *\"A cidade despertou preocupada com a enchente\"*, pode haver **metonímia** (*a cidade* = *os moradores da cidade*) combinada a traço expressivo. Já em *\"O vento sussurrava segredos às árvores\"*, atribui-se ação estritamente humana/animada a ser inanimado (**prosopopeia**).\n4. **Catacrese e Sinestesia**: Na **catacrese**, usa-se termo figurado cristalizado na língua por falta de vocábulo específico (*braço da cadeira, dente de alho, asa da xícara, embarcar no ônibus*). Na **sinestesia**, fundem-se sensações de órgãos dos sentidos diferentes (*voz doce e áspera* = audição + paladar + tato)."
+    }
+  ],
+  "questionsCount": 6,
+  "flashcardsCount": 5,
+  "sources": [
+    95,
+    96,
+    97
+  ]
+}

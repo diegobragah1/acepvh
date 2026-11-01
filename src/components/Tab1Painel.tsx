@@ -132,7 +132,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center"><span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 font-bold">Peso 2,0</span></td>
                 <td className="p-2.5 text-center font-bold">20,0 pts</td>
                 <td className="p-2.5 text-center">20%</td>
-                <td className="p-2.5">Aulas 18 a 23 (<code>por_1</code> a <code>por_6</code>) &bull; PDFs #22 a #40</td>
+                <td className="p-2.5">Categorias 1 a 18 — Aulas 18 a 35 (<code>por_1</code> a <code>por_18</code>) &bull; PDFs #22 a #40</td>
               </tr>
               <tr className="bg-slate-50">
                 <td className="p-2.5 font-medium">Raciocínio Lógico</td>
@@ -140,7 +140,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center"><span className="px-2 py-0.5 rounded bg-purple-100 text-purple-800 font-bold">Peso 2,0</span></td>
                 <td className="p-2.5 text-center font-bold">20,0 pts</td>
                 <td className="p-2.5 text-center">20%</td>
-                <td className="p-2.5">Aulas 24 a 29 (<code>rlm_1</code> a <code>rlm_6</code>) &bull; PDFs #1 a #21</td>
+                <td className="p-2.5">Categorias 1 a 8 — Aulas 36 a 43 (<code>rlm_1</code> a <code>rlm_8</code>) &bull; PDFs #1 a #21</td>
               </tr>
               <tr className="bg-white">
                 <td className="p-2.5 font-medium">Legislação (LOM, LC 385, Leis 390/391, PcD, CF/88, Lei 14.133 e LAI)</td>
@@ -148,7 +148,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center"><span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-bold">Peso 2,0</span></td>
                 <td className="p-2.5 text-center font-bold">20,0 pts</td>
                 <td className="p-2.5 text-center">20%</td>
-                <td className="p-2.5">Aulas 11 a 17 (<code>leg_1</code> a <code>leg_7</code>) &bull; PDFs #41 a #54 e Docs #92–94</td>
+                <td className="p-2.5">Categorias 1 a 7 — Aulas 11 a 17 (<code>leg_1</code> a <code>leg_7</code>) &bull; PDFs #41 a #54 e Docs #92–94</td>
               </tr>
               <tr className="bg-slate-50">
                 <td className="p-2.5 font-medium">Conhecimentos Gerais e Atualidades (Município, Estado, Brasil e Mundo)</td>
@@ -156,7 +156,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center"><span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-bold">Peso 2,0</span></td>
                 <td className="p-2.5 text-center font-bold">10,0 pts</td>
                 <td className="p-2.5 text-center">10%</td>
-                <td className="p-2.5">Aulas 30 a 32 (<code>atu_1</code> a <code>atu_3</code>) &bull; PDFs #70 a #85</td>
+                <td className="p-2.5">Categorias 1 a 6 — Aulas 44 a 49 (<code>atu_1</code> a <code>atu_6</code>) &bull; PDFs #70 a #85</td>
               </tr>
               <tr className="bg-slate-900 text-white font-bold">
                 <td className="p-2.5">TOTAL DA PROVA OBJETIVA (ANEXO III RETIFICADO)</td>

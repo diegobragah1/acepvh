@@ -2,7 +2,7 @@
 
 Data: 31/10/2026. Conferência dos enunciados, alternativas e resposta assinalada das questões principais, com memória de cálculo/inferência abaixo. Não autentica a atribuição a bancas, não certifica os comentários completos, os cartões nem toda a teoria. Contextos clínicos, técnicos e operacionais são hipóteses matemáticas, não instruções de campo.
 
-Total examinado: 113 questões principais. A conferência encontrou um gabarito errado (rlm_8/1/1), símbolos corrompidos e enunciados a esclarecer. Os complementos anteriores não entram nessa contagem.
+Total examinado: 116 questões principais. A conferência encontrou um gabarito errado (rlm_8/1/1), símbolos corrompidos e enunciados a esclarecer. Os complementos anteriores não entram nessa contagem.
 
 | Aula | Bloco | Questão | Alternativa após correção | Memória de conferência / ressalva |
 | --- | ---: | ---: | --- | --- |
@@ -20,6 +20,8 @@ Total examinado: 113 questões principais. A conferência encontrou um gabarito 
 | rlm_1 | 3 | 1 | A | MDC(144,108)=36; 4+3=7 pacotes. A redação sobre kits idênticos foi esclarecida. |
 | rlm_1 | 3 | 2 | A | 360=2³·3²·5; expoentes somam 6 e divisores são 4·3·2=24. |
 | rlm_1 | 3 | 3 | C | MMC(40,45,60)=360 min; 7h+6h=13h. |
+| rlm_1 | 3 | 4 | A | /(−2)³/−√((−5)²)·(1/2)⁻¹+0,333...=8−5·2+1/3=−2+1/3=−5/3. |
+| rlm_1 | 3 | 5 | A | 1,2444...=(124−12)/90=112/90=56/45; 56+45=101. |
 | rlm_2 | 1 | 1 | C | 600·(8/6)·(6/5)·(5/4)=1.200. |
 | rlm_2 | 2 | 1 | B | 2,5·2·1,2=6 m³=6.000 L; massa hipotética=12 g. |
 | rlm_2 | 2 | 2 | C | 600·(8/5)·(5/6)·(6/4)=1.200. |
@@ -30,6 +32,7 @@ Total examinado: 113 questões principais. A conferência encontrou um gabarito 
 | rlm_2 | 3 | 3 | B | 1,30·0,80=1,04; aumento de 4%. |
 | rlm_2 | 4 | 1 | A | 1/4+1/12=1/3 tanque/h; tempo 3h. |
 | rlm_2 | 4 | 2 | D | 240·7/(2+3+7)=140. |
+| rlm_2 | 4 | 3 | A | Escala linear 1:25.000: 6 cm=1.500 m; razão de áreas=(25.000)²: 8 cm²=500.000 m²=50 ha. |
 | rlm_2 | 5 | 1 | B | 200·0,8·1,2=192. |
 | rlm_2 | 5 | 2 | D | 120·3/5=72. |
 | rlm_3 | 1 | 1 | B | 0,4·60=24; 3h24min. |

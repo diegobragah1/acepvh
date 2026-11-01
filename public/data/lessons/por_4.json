@@ -1,0 +1,215 @@
+{
+  "id": "por_4",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "4. Figuras de Sintaxe",
+  "editalRef": "Item 4 de Língua Portuguesa — Figuras de Sintaxe.",
+  "mindMap": {
+    "centralTitle": "4. Figuras de Sintaxe (Construção)",
+    "centralSubtitle": "Item 4 de Língua Portuguesa — Elipse, Zeugma, Silepse, Hipérbato, Anacoluto e Polissíndeto",
+    "branches": [
+      {
+        "title": "1. Figuras por Omissão",
+        "icon": "✂️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Elipse",
+            "detail": "Omissão de termo recuperável pelo contexto; a zeugma é um caso particular"
+          },
+          {
+            "label": "Zeugma",
+            "detail": "Omissão de termo JÁ expresso antes (com vírgula)"
+          },
+          {
+            "label": "Assíndeto",
+            "detail": "Omissão de conjunções coordenativas"
+          }
+        ]
+      },
+      {
+        "title": "2. Figuras por Repetição",
+        "icon": "🔁",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Polissíndeto",
+            "detail": "Repetição enfática de conjunção (e... e... e...)"
+          },
+          {
+            "label": "Anáfora",
+            "detail": "Repetição de palavra no início de frases/versos"
+          },
+          {
+            "label": "Pleonasmo",
+            "detail": "Redundância estilística ou objeto pleonástico"
+          }
+        ]
+      },
+      {
+        "title": "3. Inversão e Ruptura",
+        "icon": "🔀",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Hipérbato",
+            "detail": "Inversão da ordem direta Sujeito-Verbo-Complemento"
+          },
+          {
+            "label": "Anacoluto",
+            "detail": "Termo inicial solto sem função sintática na oração"
+          }
+        ]
+      },
+      {
+        "title": "4. Silepse (Ideológica)",
+        "icon": "🧠",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "De Gênero",
+            "detail": "Vossa Excelência ficou preocupado"
+          },
+          {
+            "label": "De Número e Pessoa",
+            "detail": "A multidão chegou cedo. Estavam todos animados / Os agentes estamos prontos"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 4.1 — Guia Completo das Figuras de Sintaxe (ou Construção): Elipse, Zeugma, Hipérbato, Pleonasmo, Assíndeto, Polissíndeto, Anacoluto, Anáfora e Silepse",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 4: Figuras de Sintaxe)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-amber-950/90 text-white border border-amber-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 4 de Língua Portuguesa — Tópico Exclusivo do Edital</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">As 9 Figuras de Sintaxe (ou de Construção) Cobradas pela IBGP</h4>\n    <p class=\"text-xs text-amber-100 mt-1\">O Edital nº 25/2026 destaca <strong>Figuras de Sintaxe</strong> no Item 4 separadamente das Figuras de Linguagem (Item 5). Figuras de sintaxe ocorrem quando há alteração na estrutura gramatical padrão da oração (omissão, repetição, inversão ou concordância ideológica).</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Figura de Sintaxe</th>\n          <th class=\"p-2.5 border border-slate-700\">Mecanismo Sintático</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Clássico de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Elipse</td><td class=\"p-2.5 border border-slate-200\">Omissão de um termo facilmente subentendido pelo contexto (recuperável pelo contexto).</td><td class=\"p-2.5 border border-slate-200\">\"Na varanda do imóvel, apenas dois vasos vazios.\" (omissão de <em>havia</em>).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Zeugma</td><td class=\"p-2.5 border border-slate-200\">Tipo especial de elipse: omissão de um termo (geralmente verbo) <strong>já expresso anteriormente</strong> na frase (marcado por vírgula!).</td><td class=\"p-2.5 border border-slate-200\">\"A equipe A inspecionou o centro; a equipe B<strong>,</strong> os distritos.\" (vírgula substitui <em>inspecionou</em>).</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Hipérbato (Inversão)</td><td class=\"p-2.5 border border-slate-200\">Inversão da ordem direta da oração (Sujeito + Verbo + Complemento).</td><td class=\"p-2.5 border border-slate-200\">\"Ouviram do Ipiranga as margens plácidas de um povo heroico o brado retumbante.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Polissíndeto vs. Assíndeto</td><td class=\"p-2.5 border border-slate-200\">• <strong>Polissíndeto:</strong> repetição enfática do conectivo (e, nem).<br>• <strong>Assíndeto:</strong> ausência de conectivos entre orações coordenadas (apenas vírgulas).</td><td class=\"p-2.5 border border-slate-200\">• Polissíndeto: \"Trabalha, <strong>e</strong> teima, <strong>e</strong> lima, <strong>e</strong> sofre, <strong>e</strong> sua!\"<br>• Assíndeto: \"Vim, vi, venci.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">5. Anáfora</td><td class=\"p-2.5 border border-slate-200\">Repetição intencional da mesma palavra ou expressão no <strong>início</strong> de versos ou períodos sucessivos.</td><td class=\"p-2.5 border border-slate-200\">\"<strong>Sem</strong> saneamento, <strong>sem</strong> prevenção, <strong>sem</strong> vigilância, não há saúde.\"</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">6. Pleonasmo</td><td class=\"p-2.5 border border-slate-200\">Redundância expressiva (pleonasmo literário) ou objeto direto/indireto pleonástico.</td><td class=\"p-2.5 border border-slate-200\">\"O laudo sanitário, entreguei-<strong>o</strong> ao supervisor.\" / \"Chovia uma triste chuva de resignação.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">7. Anacoluto</td><td class=\"p-2.5 border border-slate-200\">Quebra da estrutura sintática: um termo inicia a frase solto, sem função sintática na oração seguinte.</td><td class=\"p-2.5 border border-slate-200\">\"<strong>Eu</strong>, parece que me vai tudo mal.\" (O termo inicial não exerce função na oração iniciada por \"parece\".)</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">8. Silepse (Concordância Ideológica)</td><td class=\"p-2.5 border border-slate-200\">A concordância é feita com a <strong>ideia</strong> subentendida, e não com a forma gramatical:<br>• <strong>De Gênero:</strong> \"Vossa Excelência está preocupad<strong>o</strong>.\"<br>• <strong>De Número:</strong> \"O povo de Porto Velho compareceu em massa; estavam animad<strong>os</strong>.\"<br>• <strong>De Pessoa:</strong> \"Os rondonienses <strong>somos</strong> acolhedores.\" (3ª pl. $\\rightarrow$ 1ª pl.).</td><td class=\"p-2.5 border border-slate-200\">\"Todos os servidores da unidade <strong>estamos</strong> empenhados na campanha.\" (Silepse de pessoa).</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Elipse vs. Zeugma:</strong> A <strong>elipse</strong> omite um termo recuperável pelo contexto. A <strong>zeugma</strong> é uma elipse cujo termo já foi expresso.</li>\n  <li><strong>Silepse (Concordância Ideológica):</strong> De Gênero (V. Exa. está <em>cansado</em>), de Número (A multidão chegou cedo. <em>Estavam todos animados</em>) e de Pessoa (Os brasileiros <em>somos</em>).</li>\n  <li><strong>Polissíndeto:</strong> Repetição de conjunção (\"e... e... e...\"); <strong>Assíndeto:</strong> omissão de conjunção.</li>\n  <li><strong>Anacoluto:</strong> Termo inicial \"solto\" sem função sintática devido a pausa/mudança de construção.</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Figuras de Sintaxe: Silepse) Na oração \"Todos os agentes de combate às endemias deste distrito estamos comprometidos com a meta de bloqueio vetorial\", verifica-se o emprego da figura de sintaxe denominada:",
+          "options": [
+            "Silepse de pessoa, pois o sujeito de 3ª pessoa do plural (\"os agentes\") leva o verbo para a 1ª pessoa do plural (\"estamos\"), incluindo o emissor no grupo.",
+            "Zeugma, pela omissão de verbo anteriormente expresso.",
+            "Anacoluto, pela presença de termo órfão de função sintática.",
+            "Hipérbato, pela inversão violenta dos termos da oração."
+          ],
+          "ans": 0,
+          "comment": "Quando o sujeito está na 3ª pessoa do plural (\"Os agentes\") e o verbo concorda na 1ª pessoa do plural (\"estamos\") porque quem fala se inclui no grupo, ocorre Silepse de Pessoa."
+        },
+        {
+          "q": "(Questão de estudo — Figuras de Sintaxe: Zeugma) No período \"No turno matutino, a equipe inspecionou os imóveis residenciais; no vespertino, os pontos estratégicos\", a vírgula após \"no vespertino\" marca a ocorrência de:",
+          "options": [
+            "Anacoluto.",
+            "Polissíndeto.",
+            "Zeugma (supressão do verbo \"inspecionou\" já enunciado na primeira oração).",
+            "Pleonasmo vicioso."
+          ],
+          "ans": 2,
+          "comment": "A omissão de um termo (o verbo \"inspecionou\") que já foi explicitamente mencionado na oração anterior denomina-se Zeugma."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre Elipse e Zeugma?",
+          "b": "Elipse é a omissão de termo recuperável pelo contexto. Zeugma é um caso particular de elipse em que o termo omitido já foi expresso. A distinção não exclui a zeugma da categoria geral de elipse.",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        },
+        {
+          "f": "Quais são os 3 tipos de Silepse (concordância ideológica)?",
+          "b": "Silepse de Gênero (V. Sa. ficou satisfeito), Silepse de Número (A turma chegou cedo. Estavam todos animados) e Silepse de Pessoa (Os brasileiros somos resilientes).",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        },
+        {
+          "f": "O que é Anacoluto?",
+          "b": "É a quebra na estrutura sintática da frase que deixa um termo inicial solto, sem função sintática.",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 4.2 — Oficina Avançada de Figuras de Sintaxe (Elipse, Zeugma, Anáfora, Polissíndeto, Anacoluto e Silepse) e Parônimos de Prova",
+      "modoA": "<h4>4.1 Diferenciação Cirúrgica das Figuras de Sintaxe Cobradas pela IBGP</h4>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Figura de Sintaxe</th><th class=\"p-2 border\">Definição Exata</th><th class=\"p-2 border\">Exemplo Clássico</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Elipse</td><td class=\"p-2 border\">Omissão de termo subentendido pelo contexto (recuperável pelo contexto).</td><td class=\"p-2 border\"><em>\"No quintal, [havia] apenas dois pneus cobertos.\"</em></td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Zeugma</td><td class=\"p-2 border\">Tipo especial de elipse: omissão de termo <strong>JÁ EXPRESSO ANTERIORMENTE</strong> no período!</td><td class=\"p-2 border\"><em>\"O ACE inspecionou a caixa d'água; o supervisor, [inspecionou] os pneus.\"</em> (a vírgula marca a zeugma do verbo).</td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Silepse (Concordância Ideológica)</td><td class=\"p-2 border\">Concordância com a <strong>ideia implícita</strong> e não com a palavra expressa (pode ser de gênero, número ou pessoa).</td><td class=\"p-2 border\"><strong>Pessoa:</strong> <em>\"Os portovelhenses <strong>somos</strong> acolhedores\"</em> (3ª pl. → 1ª pl.).<br><strong>Número:</strong> <em>\"O povo chegou cedo e <strong>ocuparam</strong> a praça.\"</em><br><strong>Gênero:</strong> <em>\"Vossa Excelência está <strong>preocupado</strong>.\"</em></td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">Anacoluto</td><td class=\"p-2 border\">Termo colocado no início da frase que fica \"solto\" (sem função sintática) após uma pausa/mudança de construção.</td><td class=\"p-2 border\"><em>\"Esses terrenos abandonados, é urgente que a prefeitura os limpe.\"</em></td></tr>\n</tbody></table></div>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Quadro Integral de Figuras de Sintaxe (Construção), Figuras de Palavras/Pensamento e Parônimos/Homônimos Clássicos da IBGP</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Figura de Sintaxe / Construção</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Definição Técnica Exata</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Exemplo Clássico de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Elipse vs. Zeugma</td>\n          <td class=\"p-2\">• <strong>Elipse:</strong> Omissão de um termo facilmente subentendido pelo contexto, inclusive em casos particulares de retomada de termo já expresso.<br>• <strong>Zeugma:</strong> Tipo específico de elipse em que se omite um termo que <strong>JÁ FOI CITADO anteriormente</strong> no período (geralmente marcado por vírgula).</td>\n          <td class=\"p-2\">• <strong>Elipse:</strong> \"No quintal, apenas três caixas-d'água destampadas.\" (omitiu-se o verbo <em>havia</em>).<br>• <strong>Zeugma:</strong> \"O ACS atua na microárea da ESF; o ACE<strong>,</strong> no controle de endemias.\" (a vírgula substitui o verbo <em>atua</em> já dito antes!).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Polissíndeto vs. Assíndeto</td>\n          <td class=\"p-2\">• <strong>Polissíndeto:</strong> Repetição intencional da conjunção coordenativa (geralmente <em>\"e\"</em> ou <em>\"nem\"</em>).<br>• <strong>Assíndeto:</strong> Ausência de conjunções coordenativas entre orações ou termos, ligados apenas por vírgulas.</td>\n          <td class=\"p-2\">• <strong>Polissíndeto:</strong> \"O agente chega, <strong>e</strong> inspeciona, <strong>e</strong> coleta larvas, <strong>e</strong> orienta a família.\"<br>• <strong>Assíndeto:</strong> \"Chegou, inspecionou, coletou, orientou.\"</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Hipérbato (Inversão) e Anacoluto</td>\n          <td class=\"p-2\">• <strong>Hipérbato:</strong> Inversão da ordem direta canônica da frase (Sujeito + Verbo + Complemento).<br>• <strong>Anacoluto:</strong> Quebra da estrutura sintática da frase, deixando um termo inicial \"solto\" sem função sintática na oração seguinte.</td>\n          <td class=\"p-2\">• <strong>Hipérbato:</strong> \"Ouviram do Ipiranga as margens plácidas de um povo heroico o brado retumbante.\"<br>• <strong>Anacoluto:</strong> \"Eu, parece que me vai tudo mal.\"</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Silepse (Concordância Ideológica — de Gênero, Número ou Pessoa)</td>\n          <td class=\"p-2\">A concordância não é feita com a forma gramatical da palavra escrita, mas sim com a <strong>ideia subentendida na mente do falante</strong>.</td>\n          <td class=\"p-2\">• <strong>De Gênero:</strong> \"Vossa Excelência está preocupad<strong>o</strong>\" (falando com prefeito homem).<br>• <strong>De Número:</strong> \"O pessoal da equipe chegou cedo e já <strong>começaram</strong> a vistoria.\"<br>• <strong>De Pessoa:</strong> \"Os rondonienses <strong>somos</strong> acolhedores e trabalhadores.\"</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <div class=\"bg-slate-50 p-3 rounded-xl border border-slate-300 text-xs space-y-1\">\n    <p class=\"font-bold text-teal-900\">Dicionário dos 15 Pares de Parônimos e Homônimos Selecionados para Estudo:</p>\n    <p>• <strong>Ratificar</strong> (confirmar, validar) vs. <strong>Retificar</strong> (corrigir um erro, alterar — ex.: Retificação nº 01 do Edital);<br>\n    • <strong>Infringir</strong> (violar, desrespeitar uma lei) vs. <strong>Infligir</strong> (aplicar pena ou castigo);<br>\n    • <strong>Descrição</strong> (ato de descrever) vs. <strong>Discrição</strong> (qualidade de quem é discreto, reservado);<br>\n    • <strong>Flagrante</strong> (evidente, no ato do crime) vs. <strong>Fragrante</strong> (perfumado, aromático);<br>\n    • <strong>Eminente</strong> (ilustre, elevado, sublime) vs. <strong>Iminente</strong> (prestes a acontecer imediatamente — ex.: perigo iminente);<br>\n    • <strong>Mandado</strong> (ordem judicial — ex.: mandado de segurança) vs. <strong>Mandato</strong> (período de representação política ou procuração);<br>\n    • <strong>Discriminar</strong> (diferenciar, separar, segregar) vs. <strong>Descriminar</strong> (descriminalizar, tirar a culpa/crime);<br>\n    • <strong>Cessão</strong> (ato de ceder/doar) vs. <strong>Sessão</strong> (reunião, assembleia, tempo de cinema) vs. <strong>Seção / Secção</strong> (repartição, setor, corte);<br>\n    • <strong>Auferir</strong> (obter, colher lucros/vantagens) vs. <strong>Aferir</strong> (medir, calibrar, avaliar — ex.: aferir a vazão da bomba costal);<br>\n    • <strong>Comprimento</strong> (extensão, medida em metros) vs. <strong>Cumprimento</strong> (saudação ou ato de cumprir um dever).</p>\n  </div>\n</div><!-- AUDITORIA:POR4 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Aprofundamento: Zeugma sem Vírgula, Anacoluto vs. Topicalização e Registro na Silepse</h4><p>1. <strong>Elipse e Zeugma</strong>: A <strong>elipse</strong> é o gênero amplo (omissão de termo recuperável pelo contexto ou pela desinência verbal, como em <em>Visitamos o setor norte</em>, com sujeito <em>nós</em> elíptico). A <strong>zeugma</strong> é a espécie em que o termo omitido <strong>já foi expresso anteriormente no enunciado</strong> (<em>A equipe inspecionou as caixas; o supervisor, as calhas</em>). Embora a vírgula frequentemente marque o lugar do verbo suprimido, pode haver zeugma sem vírgula quando a estrutura sintática não exigir pausa (<em>Na primeira rua havia três terrenos baldios e na segunda apenas um</em> = <em>havia apenas um</em>).</p><p>2. <strong>Anacoluto vs. Topicalização com Retomada</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Anacoluto</strong>: o termo inicial fica <strong>sintaticamente solto</strong>, sem função na oração que se segue, porque houve mudança no planejamento da frase (<em>Esses lotes abandonados, é fundamental que a limpeza ocorra antes das chuvas</em> — <em>esses lotes abandonados</em> não é sujeito nem complemento de nenhum verbo).</li><li><strong>Topicalização / Objeto Pleonástico</strong>: quando o termo deslocado é retomado por pronome oblíquo (<em>Esses lotes abandonados, a equipe já os vistoriou</em>), há função sintática retomada pelo pronome <em>os</em>.</li></ul><p>3. <strong>Silepse e Adequação de Registro</strong>: Na silepse (de gênero, número ou pessoa), a concordância faz-se com a ideia subjacente (<em>Os moradores estamos atentos</em>). Em textos literários, crônicas e discursos persuasivos, produz efeito de inclusão ou expressividade; já na redação oficial estrita (ofícios, relatórios técnicos), prefere-se a concordância gramatical explícita.</p></div>",
+      "modoB": "<ul>\n<li><strong>Elipse = omissão recuperável pelo contexto | Zeugma = caso particular de elipse com termo já expresso.</strong></li>\n<li><strong>Silepse = Concordância com a IDEIA (Pessoa, Número ou Gênero).</strong></li>\n<li><strong>Anacoluto = Termo inicial \"solto\" sem função sintática por quebra da frase.</strong></li>\n</ul><!-- AUDITORIA:POR4 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Zeugma é subtipo de elipse (termo já expresso antes) e não depende exclusivamente de vírgula.</li><li>Anacoluto deixa o tópico inicial sem função sintática; não confundir com objeto pleonástico.</li><li>Hipérbato inverte a ordem direta; assíndeto omite conectivos; polissíndeto repete conectivos.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Figuras de Sintaxe — Inédita 2026) Na frase \"A equipe urbana vistoriou os bairros centrais; a equipe fluvial, os distritos do Baixo Madeira\", a vírgula empregada após \"equipe fluvial\" marca a omissão de uma forma verbal já expressa na oração anterior (\"vistoriou\"). Essa figura de construção (ou sintaxe) denomina-se:",
+          "options": [
+            "A) Anacoluto.",
+            "B) Zeugma.",
+            "C) Silepse de gênero.",
+            "D) Catacrese."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A zeugma consiste na omissão de um termo (geralmente verbo) que já foi enunciado anteriormente no mesmo período."
+        },
+        {
+          "q": "(Questão de estudo — Silepse / Concordância Ideológica — Inédita 2026) Em \"Todos os servidores da saúde de Porto Velho estamos empenhados no controle da malária\", verifica-se a concordância do verbo (\"estamos\", 1ª pessoa do plural) com a ideia de inclusão do falante no sujeito de 3ª pessoa (\"Todos os servidores\"). Essa figura de sintaxe é classificada como:",
+          "options": [
+            "A) Silepse de pessoa.",
+            "B) Silepse de gênero.",
+            "C) Pleonasmo vicioso.",
+            "D) Eufemismo."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Quando um sujeito de 3ª pessoa do plural (\"Todos os servidores\") leva o verbo para a 1ª pessoa do plural (\"estamos\", pois o emissor se inclui no grupo), ocorre silepse de pessoa."
+        },
+        {
+          "auditId": "por_4-autoral-1",
+          "q": "(Autoral — Anacoluto vs. Hipérbato e Polissíndeto) Analise os períodos: I. \"Aquelas caixas-d'água antigas do pátio, convém que a manutenção seja feita ainda hoje.\" / II. \"Dos laudos laboratoriais dependia o encerramento do caso.\" Assinale a alternativa que classifica corretamente os mecanismos sintáticos de I e II:",
+          "options": [
+            "Em I ocorre anacoluto (termo inicial anunciado sem função sintática na oração seguinte); em II ocorre hipérbato (inversão da ordem direta).",
+            "Em I ocorre zeugma verbal marcada por vírgula; em II ocorre silepse de número.",
+            "Em I ocorre polissíndeto coordenativo; em II ocorre pleonasmo vicioso.",
+            "Em ambos os períodos ocorre assíndeto por ausência de preposição."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, o sintagma inicial \"Aquelas caixas-d'água antigas do pátio\" fica solto sintaticamente após a quebra da estrutura (\"convém que...\"), configurando anacoluto. Em II, há inversão da ordem direta (\"O encerramento do caso dependia dos laudos laboratoriais\"), configurando hipérbato."
+        },
+        {
+          "auditId": "por_4-autoral-2",
+          "q": "(Autoral — Assíndeto, Polissíndeto e Pleonasmo) Compare: I. \"Chegou ao imóvel, abriu o portão, conferiu o quintal, registrou o boletim.\" / II. \"Trabalha, e pesquisa, e orienta, e revisa cada quarteirão.\" Assinale a classificação correta:",
+          "options": [
+            "I apresenta assíndeto (coordenação sem conjunção explícita, conferindo ritmo rápido); II apresenta polissíndeto (repetição enfática da conjunção).",
+            "I apresenta polissíndeto; II apresenta elipse pronominal viciosa.",
+            "I apresenta anacoluto; II apresenta silepse de pessoa.",
+            "Ambos exemplificam pleonasmo vicioso condenado em qualquer gênero textual."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Em I, as orações coordenadas sucedem-se sem conjunção (assíndeto); em II, a conjunção \"e\" é repetida intencionalmente antes de cada elemento coordenado (polissíndeto) para intensificar a continuidade das ações."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença exata entre Elipse e Zeugma?",
+          "front": "Qual a diferença exata entre Elipse e Zeugma?",
+          "b": "Elipse é a omissão de um termo recuperável pelo contexto. Zeugma é o caso particular em que o termo omitido já foi expresso.",
+          "back": "Elipse é a omissão de um termo recuperável pelo contexto. Zeugma é o caso particular em que o termo omitido já foi expresso.",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        },
+        {
+          "f": "Quais são os 3 tipos de Silepse (concordância ideológica)?",
+          "front": "Quais são os 3 tipos de Silepse (concordância ideológica)?",
+          "b": "Silepse de Gênero (\"Vossa Senhoria está atento\"), de Número (\"A multidão gritou e correram\") e de Pessoa (\"Os brasileiros somos resilientes\").",
+          "back": "Silepse de Gênero (\"Vossa Senhoria está atento\"), de Número (\"A multidão gritou e correram\") e de Pessoa (\"Os brasileiros somos resilientes\").",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        },
+        {
+          "f": "Qual a diferença entre os parônimos \"Ratificar\" e \"Retificar\" e entre \"Infringir\" e \"Infligir\"?",
+          "front": "Qual a diferença entre os parônimos \"Ratificar\" e \"Retificar\" e entre \"Infringir\" e \"Infligir\"?",
+          "b": "Ratificar = confirmar/validar; Retificar = corrigir. Infringir = violar/desrespeitar uma lei; Infligir = aplicar pena/castigo.",
+          "back": "Ratificar = confirmar/validar; Retificar = corrigir. Infringir = violar/desrespeitar uma lei; Infligir = aplicar pena/castigo.",
+          "lessonTitle": "4. Figuras de Sintaxe"
+        }
+      ],
+      "modoA_markdown": "\n### Aprofundamento: Zeugma sem Vírgula, Anacoluto vs. Topicalização e Registro na Silepse\n1. **Elipse e Zeugma**: A **elipse** é o gênero amplo (omissão de termo recuperável pelo contexto ou pela desinência verbal, como em *Visitamos o setor norte*, com sujeito *nós* elíptico). A **zeugma** é a espécie em que o termo omitido **já foi expresso anteriormente no enunciado** (*A equipe inspecionou as caixas; o supervisor, as calhas*). Embora a vírgula frequentemente marque o lugar do verbo suprimido, pode haver zeugma sem vírgula quando a estrutura sintática não exigir pausa (*Na primeira rua havia três terrenos baldios e na segunda apenas um* = *havia apenas um*).\n2. **Anacoluto vs. Topicalização com Retomada**:\n   - **Anacoluto**: o termo inicial fica **sintaticamente solto**, sem função na oração que se segue, porque houve mudança no planejamento da frase (*Esses lotes abandonados, é fundamental que a limpeza ocorra antes das chuvas* — *esses lotes abandonados* não é sujeito nem complemento de nenhum verbo).\n   - **Topicalização / Objeto Pleonástico**: quando o termo deslocado é retomado por pronome oblíquo (*Esses lotes abandonados, a equipe já os vistoriou*), há função sintática retomada pelo pronome *os*.\n3. **Silepse e Adequação de Registro**: Na silepse (de gênero, número ou pessoa), a concordância faz-se com a ideia subjacente (*Os moradores estamos atentos*). Em textos literários, crônicas e discursos persuasivos, produz efeito de inclusão ou expressividade; já na redação oficial estrita (ofícios, relatórios técnicos), prefere-se a concordância gramatical explícita.<!-- AUDITORIA:POR4 -->\n\n### Aprofundamento: Zeugma sem Vírgula, Anacoluto vs. Topicalização e Registro na Silepse\n1. **Elipse e Zeugma**: A **elipse** é o gênero amplo (omissão de termo recuperável pelo contexto ou pela desinência verbal, como em *Visitamos o setor norte*, com sujeito *nós* elíptico). A **zeugma** é a espécie em que o termo omitido **já foi expresso anteriormente no enunciado** (*A equipe inspecionou as caixas; o supervisor, as calhas*). Embora a vírgula frequentemente marque o lugar do verbo suprimido, pode haver zeugma sem vírgula quando a estrutura sintática não exigir pausa (*Na primeira rua havia três terrenos baldios e na segunda apenas um* = *havia apenas um*).\n2. **Anacoluto vs. Topicalização com Retomada**:\n   - **Anacoluto**: o termo inicial fica **sintaticamente solto**, sem função na oração que se segue, porque houve mudança no planejamento da frase (*Esses lotes abandonados, é fundamental que a limpeza ocorra antes das chuvas* — *esses lotes abandonados* não é sujeito nem complemento de nenhum verbo).\n   - **Topicalização / Objeto Pleonástico**: quando o termo deslocado é retomado por pronome oblíquo (*Esses lotes abandonados, a equipe já os vistoriou*), há função sintática retomada pelo pronome *os*.\n3. **Silepse e Adequação de Registro**: Na silepse (de gênero, número ou pessoa), a concordância faz-se com a ideia subjacente (*Os moradores estamos atentos*). Em textos literários, crônicas e discursos persuasivos, produz efeito de inclusão ou expressividade; já na redação oficial estrita (ofícios, relatórios técnicos), prefere-se a concordância gramatical explícita."
+    }
+  ],
+  "questionsCount": 6,
+  "flashcardsCount": 6,
+  "sources": [
+    95,
+    96,
+    97
+  ]
+}

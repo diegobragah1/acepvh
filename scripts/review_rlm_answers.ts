@@ -54,8 +54,15 @@ const working: Record<string,string[][]> = {
     ['100≡2 mod 7; domingo+2=terça. Data tratada como hipótese, sem validar cronograma de concurso.','14+19−1=32.','600/25+1=25 posições, incluindo os dois extremos.'],
   ],
 };
-// New exercises are appended in the same order as review_probability.ts.
+// New exercises are appended in the same order as review_probability.ts and execute_autonomous_audit_49.ts.
 // Keep the exact-count guards below: additions must have their own working.
+working.rlm_1[2].push(
+  '|(−2)³|−√((−5)²)·(1/2)⁻¹+0,333...=8−5·2+1/3=−2+1/3=−5/3.',
+  '1,2444...=(124−12)/90=112/90=56/45; 56+45=101.',
+);
+working.rlm_2[3].push(
+  'Escala linear 1:25.000: 6 cm=1.500 m; razão de áreas=(25.000)²: 8 cm²=500.000 m²=50 ha.',
+);
 working.rlm_8[0].push(
  'Pesos da roleta informados: primeira região=1/2; contar regiões seria indevido.',
  'Exatamente um: (7+5−2·2)/30=8/30=4/15.',

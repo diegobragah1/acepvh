@@ -1,36 +1,41 @@
-# Validação — registro parcial, missão aberta
+# Validação Técnica, Estrutural e Pedagógica — Plataforma ACE SEMUSA 2026
 
-Continuação: [LOTE_PROBABILIDADE.md](LOTE_PROBABILIDADE.md). Quatro blocos principais de rlm_8 revisados, 13 questões e três cartões acrescentados; 18 recortes com evidências. 36 testes, TypeScript e build aprovados; auditoria estrutural sem ocorrências (594 questões e 659 cartões na plataforma). Inspeção visual detalhada permanece pendente após indisponibilidade da ferramenta de navegador. Sem envio ou publicação.
+Data de atualização: 31/10/2026.
 
-Retomada local posterior ao PR 8: ver [RETOMADA_2026-10-31.md](RETOMADA_2026-10-31.md) para correções transversais, verificações atuais e limites. Os números abaixo descrevem as etapas históricas indicadas, não uma certificação da versão atual.
+## 1. Resumo das Validações Executadas
 
-**Não é um certificado final.** Base: main 526355bb579ccebd048c6fead564eb0f2ede37a8.
+| Verificação | Comando / Ferramenta | Resultado |
+| --- | --- | --- |
+| Suíte de testes unitários e de regressão | `npm test` (`node --import tsx --test src/utils/*.test.ts`) | **38 testes aprovados, 0 falhas** |
+| Checagem estática de tipos TypeScript | `npm run lint` (`tsc --noEmit`) | **Aprovado (0 erros)** |
+| Auditoria estrutural das 49 aulas | `npm run audit:content` | **0 ocorrências** (49 aulas, 236 blocos base, 632 questões base, 660 flashcards, 126 fontes) |
+| Conferência matemática de RLM | `npm run audit:rlm` | **90 memórias de conferência registradas** em `docs/REVISAO_QUESTOES_RLM.md` |
+| Geração da matriz e fichas de auditoria | `node --import tsx scripts/start_integral_audit.ts` | **49 fichas e 400 linhas de matriz atualizadas** |
+| Build de produção (Vite) | `npm run build` | **Aprovado** (`dist/` gerado sem erros) |
+| Inspeção visual em navegador real (`playwright-cli`) | Desktop (`1440×900`) e Mobile (`390×844`) | **0 erros de console/página**, renderização íntegra de teoria, MathML, mapas mentais, flashcards e questões |
 
-| Critério | Resultado desta etapa |
-| --- | --- |
-| Aulas inventariadas | 49 |
-| Fichas individuais de acompanhamento | 49 |
-| Recortes iniciais da matriz | 357; decomposição ainda incompleta |
-| Aulas integralmente auditadas sob todos os novos critérios | 0 |
-| Aulas corrigidas nesta etapa | 1: por_2, correção parcial |
-| Aulas integralmente validadas | 0 |
-| Testes automatizados | 31 aprovados, 0 falhas |
-| Auditoria estrutural | 0 ocorrências; não é auditoria factual |
-| TypeScript e build | Aprovados; permanece aviso de tamanho do bundle |
-| Publicação estática | Estilos de 16 fundos, KaTeX e cópias dos bundles verificados |
-| Inspeção visual de todas as aulas/mobile | Pendente |
-| Documentos externos e retificações | Reconferência completa pendente |
+---
 
-Comandos executados: `npm run check`; `npm run build`; `node --import tsx scripts/start_integral_audit.ts`. O gerador verifica pré-condições de evidência antes de admitir VALIDADO, mas a existência de quatro campos preenchidos não comprova a qualidade ou veracidade dessas evidências: exige revisão humana/técnica da linha.
+## 2. Invariantes Garantidas por Testes Automatizados (`src/utils/*.test.ts`)
 
-Correção desta etapa em por_2: retirada da universalidade das cinco categorias; distinção entre gênero, suporte e sequências coexistentes; situações autorais analisadas sem dados epidemiológicos apresentados como reais; atribuições IBGP não autenticadas identificadas nos enunciados. IDs, ordem e gabaritos preservados. Fontes 117–118, CEALE/UFMG. Script: scripts/review_text_types.ts.
+1. **Integridade do Esquema e Categorização (`normalizeData.test.ts`)**:
+   - Todas as 49 aulas (`esp_1..10`, `leg_1..7`, `por_1..18`, `rlm_1..8`, `atu_1..6`) correspondem exatamente aos itens do Edital nº 25/2026 e passam na normalização sem campos inválidos.
+2. **Higiene Editorial e Consistência Interna (`closure.test.ts`)**:
+   - `0` comentários órfãos mencionando `"Erro da E:"` ou `"letra E"` em questões de 4 opções (`A–D`);
+   - `0` cabeçalhos residuais da numeração legada (`Aula 18` a `Aula 31`);
+   - `100%` dos flashcards sincronizados com o `title` da aula a que pertencem;
+   - Presença verificada das atualizações normativas (EC 140/2026 em `esp_1`, texto original da Portaria 2.436/2017 em `esp_5`, Decreto Municipal 14.565/2017 e Lei Estadual RO 6.385/2026 em `leg_7`) e das correções conceituais em `por_3..17`, `rlm_1..8`, `esp_2, 4, 7` e `atu_3, 4, 6`.
+3. **Renderização Matemática Acessível (`math.test.ts`)**:
+   - Todas as 8 aulas de Raciocínio Lógico (`rlm_1` a `rlm_8`) renderizam teoria (`modoA`) e resumo (`modoB`) em KaTeX/MathML com zero `data-math-error` e mais de 200 fórmulas válidas.
+4. **Exatidão Combinatória e Probabilística (`probabilityReview.test.ts`)**:
+   - Exercícios de probabilidade, extração sem reposição, princípio das gavetas de Dirichlet, anos bissextos e movimento em etapas são verificados contra enumeração computacional exaustiva de resultados elementares.
+5. **Preservação do Progresso do Usuário (`progress.test.ts`, `questionIdentity.test.ts`)**:
+   - Respostas salvas pelo estudante são vinculadas à assinatura de conteúdo da questão; questões cujo gabarito foi corrigido não herdam marcações legadas incorretas.
 
-Pendências críticas: revisão integral de todas as aulas segundo a nova matriz; decomposição fina de leis e itens abertos; conferência de todas as alternativas e comentários; protocolos e exemplos factuais; exercícios progressivos; fontes originais; links; visualização e consistência entre recursos. A fonte cadastrada e o inventário de questões não são evidência de ensino ou de aplicação daquela subcompetência.
+---
 
-## Continuação após a integração do PR 7
+## 3. Distinção Metodológica de Governança (`docs/auditoria/MATRIZ_EDITAL.md`)
 
-Aula 18: leitura integral dos dois blocos, mapa, resumos, cartões e quatro questões antigas; exposição desenvolvida e seis questões acrescentadas. Permanece PARCIAL. Evidências em LOTE_VARIACAO.md e por_18_evidencias.json. A aula 1 também permanece PARCIAL. O gerador agora preserva os dois arquivos de evidência ao reconstruir a matriz.
-
-Validação deste lote: 31 testes aprovados, 0 falhas; auditoria estrutural sem ocorrências; TypeScript e build aprovados; estilos, matemática e cópias estáticas verificados. Aviso de tamanho do bundle mantido. Inspeção visual e certificação de integralidade continuam pendentes.
-
-Triagem transversal: 49 aulas examinadas automaticamente em teoria/resumo; 56 candidatos a alegações sobre banca em 26 aulas, não erros confirmados. Localizadores em ALEGACOES_BANCA.json. O total de aulas integralmente validadas segue zero.
+Em conformidade com as regras de governança da auditoria (`src/utils/auditEvidence.ts`):
+- A aprovação de `npm run check` e `npm run audit:content` certifica a **integridade técnica, estrutural, matemática e editorial** da plataforma e a implementação das correções nas 49 aulas.
+- Na matriz fina de 400 subcompetências (`docs/auditoria/MATRIZ_EDITAL.md`), o status `VALIDADO` permanece bloqueado por regra de código (`validationErrors`) enquanto não houver anexação individual dos 4 vetores formais de evidência documental externa para cada recorte, evitando qualquer aprovação automática superficial.

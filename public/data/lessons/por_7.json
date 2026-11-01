@@ -1,0 +1,257 @@
+{
+  "id": "por_7",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "7. Coesão e coerência textual",
+  "editalRef": "Item 7 de Língua Portuguesa — Coesão e coerência textual.",
+  "mindMap": {
+    "centralTitle": "7. Coesão e Coerência Textual",
+    "centralSubtitle": "Item 7 de Língua Portuguesa — Coesão Referencial/Sequencial e as 4 Metarregras da Coerência",
+    "branches": [
+      {
+        "title": "1. Coesão Referencial",
+        "icon": "🔗",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Anáfora (Retomada)",
+            "detail": "Retoma termo anterior (pronomes, esse/isso)"
+          },
+          {
+            "label": "Catáfora (Antecipação)",
+            "detail": "Anuncia termo posterior (este/isto)"
+          }
+        ]
+      },
+      {
+        "title": "2. Coesão Lexical e por Elipse",
+        "icon": "🧩",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Substituição Lexical",
+            "detail": "Sinônimos, hiperônimos, hipônimos e epítetos"
+          },
+          {
+            "label": "Coesão por Elipse",
+            "detail": "Omissão estratégica que evita repetição viciosa"
+          }
+        ]
+      },
+      {
+        "title": "3. Coesão Sequencial",
+        "icon": "➡️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Conectivos Coordenativos",
+            "detail": "Aditivos, adversativos, alternativos, conclusivos, explicativos"
+          },
+          {
+            "label": "Conectivos Subordinativos",
+            "detail": "Causais, concessivos, condicionais, finais, temporais, proporcionais"
+          }
+        ]
+      },
+      {
+        "title": "4. Coerência Textual",
+        "icon": "🧠",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "4 Metarregras (Charolles)",
+            "detail": "Repetição, Progressão, Não-Contradição e Relação"
+          },
+          {
+            "label": "Ambiguidade",
+            "detail": "Evitar duplo sentido no uso de \"seu/sua\" e \"que\""
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 7.1 — Coesão Referencial (Anáfora vs. Catáfora) e Coesão Sequencial (Quadro Completo das Conjunções Coordenativas e Subordinativas)",
+      "modoA_markdown": "#### 1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)\n\n**19. Coesão, Coerência, Conjunções, Operadores Argumentativos Escalares, Pressupostos e Subentendidos — Bloco 19.1 — Coesão Referencial (Anáfora vs. Catáfora) e Coesão Sequencial (Quadro Completo das Conjunções Coordenativas e Subordinativas)**\n **Referência no Edital IBGP:** Anexo IV — Língua Portuguesa (Nível Médio/ACE): Coesão e coerência; Conjunções; Operadores argumentativos; Pressupostos e subentendidos.\n **Fontes e PDFs Base Integrados:** PDF #26 (*5. Emprego das classes de palavras-.pdf*), PDF #37 (*16. Coesão e coerência textual.pdf*), PDF #39 (*18. Compreensão e interpretação de t.pdf*), PDF #86 (*EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf*), PDF #91 (*Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf*).\n\nObjetivos Claros de Aprendizagem da Estudo dirigido de Articulação, Coesão e Coerência Textual\n- Distinguir o emprego correto dos pronomes demonstrativos (este, esse, aquele) no tempo, no espaço e dentro do fluxo do texto (coesão anafórica vs. catafórica vs. distributiva).\n- Compreender os 4 princípios da Coerência Textual (Não Contradição, Não Tautologia, Relevância e Progressão Temática).\n- Dominar a Coesão Sequencial e a tabela completa de Conectivos (conjunções coordenativas e subordinativas adverbiais), identificando substituições equivalentes sem alteração de sentido nas questões da banca IBGP.\n\n#### 2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)\n\nA interpretação dos conectivos depende da relação entre as ideias no contexto:\n\n- **Coesão Referencial — Anáfora vs. Catáfora:**\n\n  - **Anáfora (Retomada — aponta para TRÁS):** Retoma termo já mencionado anteriormente. Uso de **este/esse/aquele**: entre dois termos já citados, **ESTE** retoma o mais próximo (último citado) e **AQUELE** retoma o mais distante (primeiro citado); para retomar uma ideia anterior geral, usa-se **ESSE / ISSO**.\n  - **Catáfora (Antecipação — aponta para FRENTE):** Anuncia termo que ainda será dito a seguir, usando-se **ESTE / ISTO** (ex.: \"O objetivo da vigilância é **este**: eliminar os focos do vetor\").\n- **Conjunções Coordenativas (5 tipos):**\n\n  - **Aditivas (soma):** e, nem, não só... mas também, tanto... quanto.\n  - **Adversativas (oposição/contraste):** mas, porém, contudo, todavia, entretanto, no entanto, não obstante (e o *\"e\"* com valor de *\"mas\"*).\n  - **Alternativas (escolha/alternância):** ou, ou... ou, ora... ora, quer... quer, seja... seja.\n  - **Conclusivas (conclusão lógica):** logo, portanto, por conseguinte, por isso, assim, destarte, **pois** (quando **posposto ao verbo**, entre vírgulas!).\n  - **Explicativas (justificativa):** que, porque, porquanto, **pois** (quando **anteposto ao verbo**).\n- **Conjunções Subordinativas Adverbiais (9 tipos — foco nas mais cobradas):**\n\n  - **Concessivas (oposição que não impede a ação principal):** **embora, conquanto, ainda que, mesmo que, se bem que, posto que, apesar de que, malgrado, por mais que**.\n  - **Causais (motivo/origem):** porque, já que, visto que, uma vez que, como (no início da frase), na medida em que.\n  - **Consecutivas (consequência):** *tão/tanto/tamanho...* **que**, de modo que, de sorte que.\n  - **Condicionais (hipótese):** se, caso, desde que, contanto que, a menos que, salvo se.\n  - **Proporcionais (simultaneidade gradual):** **à medida que, à proporção que**, ao passo que. (*Atenção:* \"na medida em que\" = causa; \"à medida que\" = proporção!).\n  - **Finais (objetivo):** para que, a fim de que. | **Temporais:** quando, enquanto, logo que, assim que, mal. | **Comparativas:** como, mais/menos... (do) que. | **Conformativas:** conforme, segundo, consoante, como.\n\n#### 3. Contextualização, Exemplos Práticos e Estudo de Caso Aplicado\n\nEstudo de Caso Aplicado: Resolução Passo a Passo: Retomada por 'Este' vs. 'Aquele' e Substituição de 'Conquanto'\n\n**Situação Prática:** Leia o período: 'A Dengue e a Malária exigem atenção constante em Porto Velho; esta é transmitida pelo Anopheles darlingi, conquanto aquela tenha como vetor o Aedes aegypti.' Pergunta-se: (a) A retomada por 'esta' e 'aquela' foi feita corretamente de acordo com a verdade científica e gramatical? (b) Qual é o valor semântico da conjunção 'conquanto' e por qual conectivo ela pode ser substituída?\n\n1. **Passo 1:** Passo 1 (Analisar os referentes de 'esta' e 'aquela'): Os dois termos antecedentes são 'A Dengue' (1º termo — mais distante) e 'a Malária' (2º termo — mais próximo). Gramaticalmente, 'esta' retoma o mais próximo ('a Malária' — transmitida pelo Anopheles darlingi) e 'aquela' retoma o mais distante ('A Dengue' — transmitida pelo Aedes aegypti). Portanto, a retomada está 100% CORRETA tanto gramatical quanto cientificamente!\n2. **Passo 2:** Passo 2 (Analisar 'conquanto'): A conjunção subordinativa 'conquanto' tem valor CONCESSIVO (oposição/ressalva) e equivale exatamente a 'embora', 'ainda que', 'mesmo que' ou 'posto que'.\n\n**Conclusão Aplicada:** (a) Sim: 'esta' retoma Malária (mais próxima) e 'aquela' retoma Dengue (mais distante); (b) 'Conquanto' indica concessão (= embora, ainda que, posto que).\n\n#### 4. Material Complementar e Aprofundamento Técnico (Foco IBGP)\n\n- **Os 3 Falsos Amigos dos Conectivos ('Conquanto', 'Posto que' e 'Porquanto'): 'Conquanto' e 'Posto que' significam EMBORA (Concessão); já 'Porquanto' significa PORQUE / VISTO QUE (Causa ou Explicação)!:** Anote esses três no topo do seu caderno! A banca IBGP coloca 'Porquanto' perguntando se indica oposição, ou coloca 'Conquanto' perguntando se indica conclusão. Grave: Conquanto / Posto que = Embora (Concessão); Porquanto = Porque (Causa/Explicação)!\n- **Diferença entre 'À medida que' e 'Na medida em que': 'À medida que' indica PROPORÇÃO (= à proporção que). 'Na medida em que' indica CAUSA (= visto que, já que, porque). A mistura 'À medida em que' NÃO existe na norma-padrão!:** Sempre que vir a expressão híbrida 'à medida em que', saiba que há erro gramatical de regência/coesão.\n- **Mobilidade do 'Pois': Antes do verbo = Explicativo ('Não foi trabalhar, pois estava doente' = porque); Depois do verbo, entre vírgulas = Conclusivo ('Estava com febre alta; procurou, pois, a UBS' = portanto).:** Basta olhar se o 'pois' está entre duas vírgulas depois do verbo: se estiver, troque mentalmente por 'portanto' (conclusiva)!",
+      "modoB_markdown": "**PARES PARA COMPARAÇÃO:**\n\n• **CONQUANTO** = Concessiva (= *embora*) vs. **PORQUANTO** = Explicativa/Causal (= *porque*).\n\n• **À MEDIDA QUE** = Proporcional vs. **NA MEDIDA EM QUE** = Causal (= *tendo em vista que*).\n\n• **POIS antes do verbo** = Explicativa vs. **POIS após o verbo (entre vírgulas)** = Conclusiva (= *portanto*).",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">1. Objetivo Claro da Aula & Título do Tópico (Alinhado ao Conteúdo Programático Oficial — Anexo IV ACE)</h5><p><strong>19. Coesão, Coerência, Conjunções, Operadores Argumentativos Escalares, Pressupostos e Subentendidos — Bloco 19.1 — Coesão Referencial (Anáfora vs. Catáfora) e Coesão Sequencial (Quadro Completo das Conjunções Coordenativas e Subordinativas)</strong></p><p><strong>Referência no Edital IBGP:</strong> Anexo IV — Língua Portuguesa (Nível Médio/ACE): Coesão e coerência; Conjunções; Operadores argumentativos; Pressupostos e subentendidos.</p><p><strong>Fontes e PDFs Base Integrados:</strong> PDF #26 (<em>5. Emprego das classes de palavras-.pdf</em>), PDF #37 (<em>16. Coesão e coerência textual.pdf</em>), PDF #39 (<em>18. Compreensão e interpretação de t.pdf</em>), PDF #86 (<em>EDITAL Nº 25/2026 Consolidado até Retificação nº 01 (IBGP).pdf</em>), PDF #91 (<em>Anexo IV Retificado — Conteúdos Programáticos Oficiais.pdf</em>).</p><p>Objetivos Claros de Aprendizagem da esta aula:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Dominar os mecanismos de Coesão Referencial: Anáfora (retoma termo anterior), Catáfora (antecipa termo posterior), Elipse e Dêixis, resolvendo questões de recuperação de referentes pronominais (o, a, lhe, cujo, onde, este/esse/aquele).</li><li>Distinguir o emprego correto dos pronomes demonstrativos (este, esse, aquele) no tempo, no espaço e dentro do fluxo do texto (coesão anafórica vs. catafórica vs. distributiva).</li><li>Compreender os 4 princípios da Coerência Textual (Não Contradição, Não Tautologia, Relevância e Progressão Temática).</li><li>Dominar a Coesão Sequencial e a tabela completa de Conectivos (conjunções coordenativas e subordinativas adverbiais), identificando substituições equivalentes sem alteração de sentido nas questões da banca IBGP.</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">2. Explicação Detalhada (Conteúdo Integral — Nível Livro Didático)</h5><p>A interpretação dos conectivos depende da relação entre as ideias no contexto:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Coesão Referencial — Anáfora vs. Catáfora:</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Anáfora (Retomada — aponta para TRÁS):</strong> Retoma termo já mencionado anteriormente. Uso de <strong>este/esse/aquele</strong>: entre dois termos já citados, <strong>ESTE</strong> retoma o mais próximo (último citado) e <strong>AQUELE</strong> retoma o mais distante (primeiro citado); para retomar uma ideia anterior geral, usa-se <strong>ESSE / ISSO</strong>.</li><li><strong>Catáfora (Antecipação — aponta para FRENTE):</strong> Anuncia termo que ainda será dito a seguir, usando-se <strong>ESTE / ISTO</strong> (ex.: \"O objetivo da vigilância é <strong>este</strong>: eliminar os focos do vetor\").</li><li><strong>Conjunções Coordenativas (5 tipos):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Aditivas (soma):</strong> e, nem, não só... mas também, tanto... quanto.</li><li><strong>Adversativas (oposição/contraste):</strong> mas, porém, contudo, todavia, entretanto, no entanto, não obstante (e o <em>\"e\"</em> com valor de <em>\"mas\"</em>).</li><li><strong>Alternativas (escolha/alternância):</strong> ou, ou... ou, ora... ora, quer... quer, seja... seja.</li><li><strong>Conclusivas (conclusão lógica):</strong> logo, portanto, por conseguinte, por isso, assim, destarte, <strong>pois</strong> (quando <strong>posposto ao verbo</strong>, entre vírgulas!).</li><li><strong>Explicativas (justificativa):</strong> que, porque, porquanto, <strong>pois</strong> (quando <strong>anteposto ao verbo</strong>).</li><li><strong>Conjunções Subordinativas Adverbiais (9 tipos — foco nas mais cobradas):</strong></li></ul><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Concessivas (oposição que não impede a ação principal):</strong> <strong>embora, conquanto, ainda que, mesmo que, se bem que, posto que, apesar de que, malgrado, por mais que</strong>.</li><li><strong>Causais (motivo/origem):</strong> porque, já que, visto que, uma vez que, como (no início da frase), na medida em que.</li><li><strong>Consecutivas (consequência):</strong> <em>tão/tanto/tamanho...</em> <strong>que</strong>, de modo que, de sorte que.</li><li><strong>Condicionais (hipótese):</strong> se, caso, desde que, contanto que, a menos que, salvo se.</li><li><strong>Proporcionais (simultaneidade gradual):</strong> <strong>à medida que, à proporção que</strong>, ao passo que. (<em>Atenção:</em> \"na medida em que\" = causa; \"à medida que\" = proporção!).</li><li><strong>Finais (objetivo):</strong> para que, a fim de que. | <strong>Temporais:</strong> quando, enquanto, logo que, assim que, mal. | <strong>Comparativas:</strong> como, mais/menos... (do) que. | <strong>Conformativas:</strong> conforme, segundo, consoante, como.</li></ul><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">3. Contextualização, Exemplos Práticos e Estudo de Caso Aplicado</h5><p>Estudo de Caso Aplicado: Resolução Passo a Passo: Retomada por 'Este' vs. 'Aquele' e Substituição de 'Conquanto'</p><p><strong>Situação Prática:</strong> Leia o período: 'A Dengue e a Malária exigem atenção constante em Porto Velho; esta é transmitida pelo Anopheles darlingi, conquanto aquela tenha como vetor o Aedes aegypti.' Pergunta-se: (a) A retomada por 'esta' e 'aquela' foi feita corretamente de acordo com a verdade científica e gramatical? (b) Qual é o valor semântico da conjunção 'conquanto' e por qual conectivo ela pode ser substituída?</p><p>1. <strong>Passo 1:</strong> Passo 1 (Analisar os referentes de 'esta' e 'aquela'): Os dois termos antecedentes são 'A Dengue' (1º termo — mais distante) e 'a Malária' (2º termo — mais próximo). Gramaticalmente, 'esta' retoma o mais próximo ('a Malária' — transmitida pelo Anopheles darlingi) e 'aquela' retoma o mais distante ('A Dengue' — transmitida pelo Aedes aegypti). Portanto, a retomada está 100% CORRETA tanto gramatical quanto cientificamente!</p><p>2. <strong>Passo 2:</strong> Passo 2 (Analisar 'conquanto'): A conjunção subordinativa 'conquanto' tem valor CONCESSIVO (oposição/ressalva) e equivale exatamente a 'embora', 'ainda que', 'mesmo que' ou 'posto que'.</p><p><strong>Conclusão Aplicada:</strong> (a) Sim: 'esta' retoma Malária (mais próxima) e 'aquela' retoma Dengue (mais distante); (b) 'Conquanto' indica concessão (= embora, ainda que, posto que).</p><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">4. Material Complementar e Aprofundamento Técnico (Foco IBGP)</h5><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Os 3 Falsos Amigos dos Conectivos ('Conquanto', 'Posto que' e 'Porquanto'): 'Conquanto' e 'Posto que' significam EMBORA (Concessão); já 'Porquanto' significa PORQUE / VISTO QUE (Causa ou Explicação)!:</strong> Anote esses três no topo do seu caderno! A banca IBGP coloca 'Porquanto' perguntando se indica oposição, ou coloca 'Conquanto' perguntando se indica conclusão. Grave: Conquanto / Posto que = Embora (Concessão); Porquanto = Porque (Causa/Explicação)!</li><li><strong>Diferença entre 'À medida que' e 'Na medida em que': 'À medida que' indica PROPORÇÃO (= à proporção que). 'Na medida em que' indica CAUSA (= visto que, já que, porque). A mistura 'À medida em que' NÃO existe na norma-padrão!:</strong> Sempre que vir a expressão híbrida 'à medida em que', saiba que há erro gramatical de regência/coesão.</li><li><strong>Mobilidade do 'Pois': Antes do verbo = Explicativo ('Não foi trabalhar, pois estava doente' = porque); Depois do verbo, entre vírgulas = Conclusivo ('Estava com febre alta; procurou, pois, a UBS' = portanto).:</strong> Basta olhar se o 'pois' está entre duas vírgulas depois do verbo: se estiver, troque mentalmente por 'portanto' (conclusiva)!</li></ul></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p><strong>PARES PARA COMPARAÇÃO:</strong></p><p>• <strong>CONQUANTO</strong> = Concessiva (= <em>embora</em>) vs. <strong>PORQUANTO</strong> = Explicativa/Causal (= <em>porque</em>).</p><p>• <strong>À MEDIDA QUE</strong> = Proporcional vs. <strong>NA MEDIDA EM QUE</strong> = Causal (= <em>tendo em vista que</em>).</p><p>• <strong>POIS antes do verbo</strong> = Explicativa vs. <strong>POIS após o verbo (entre vírgulas)</strong> = Conclusiva (= <em>portanto</em>).</p></div>",
+      "questions": [
+        {
+          "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) No período: 'Conquanto as chuvas amazônicas dificultem o acesso às estradas vicinais, os Agentes de Combate às Endemias realizaram todas as visitas nos distritos de Porto Velho', a conjunção em destaque estabelece relação lógico-semântica de:",
+          "options": [
+            "A) Causa e pode ser substituída por 'porquanto'.",
+            "B) Concessão e pode ser substituída, sem alteração de sentido, por 'Embora' ou 'Ainda que'.",
+            "C) Proporção e pode ser substituída por 'À medida que'.",
+            "D) Condição e pode ser substituída por 'Contanto que'."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. 'Conquanto' é conjunção subordinativa adverbial concessiva (equivale a 'embora', 'ainda que', 'mesmo que', 'posto que'). Já 'porquanto' é causal/explicativa (= porque)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre 'Conquanto' e 'Porquanto'?",
+          "front": "Qual a diferença entre 'Conquanto' e 'Porquanto'?",
+          "b": "Conquanto = Concessiva (= embora, ainda que). Porquanto = Causal/Explicativa (= porque, visto que).",
+          "back": "Conquanto = Concessiva (= embora, ainda que). Porquanto = Causal/Explicativa (= porque, visto que).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        },
+        {
+          "f": "Qual a diferença entre Anáfora e Catáfora no emprego dos pronomes demonstrativos?",
+          "front": "Qual a diferença entre Anáfora e Catáfora no emprego dos pronomes demonstrativos?",
+          "b": "Anáfora: retoma termo já dito antes (esse/isso; ou este para o mais próximo e aquele para o mais distante). Catáfora: antecipa termo que ainda vai ser dito (este/isto).",
+          "back": "Anáfora: retoma termo já dito antes (esse/isso; ou este para o mais próximo e aquele para o mais distante). Catáfora: antecipa termo que ainda vai ser dito (este/isto).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 7.2 — Laboratório IBGP de Coesão Referencial (Anáfora vs. Catáfora), Conjunções Adversativas/Concessivas e Pressupostos vs. Subentendidos",
+      "modoA": "<h4>3.1 Coesão Referencial: Anáfora vs. Catáfora vs. Deixis (Pegadinha Clássica IBGP)</h4>\n<p>Confira a direção para a qual o pronome aponta no texto:</p>\n<div class=\"overflow-x-auto my-3\"><table class=\"w-full text-left border-collapse text-xs\">\n<thead><tr class=\"bg-slate-800 text-white\"><th class=\"p-2 border\">Mecanismo Coesivo</th><th class=\"p-2 border\">Direção no Texto</th><th class=\"p-2 border\">Pronomes Demonstrativos Padrão</th><th class=\"p-2 border\">Exemplo Prático de Prova</th></tr></thead>\n<tbody>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">ANÁFORA (Retomada)</td><td class=\"p-2 border\">Aponta para <strong>TRÁS</strong> (termo já dito anteriormente)</td><td class=\"p-2 border\"><strong>ESSE, ESSA, ISSO</strong> (e pronomes <em>ele, o, a, cujo, o qual</em>)</td><td class=\"p-2 border\">\"O ACE vistoriou o imóvel. <strong>Essa</strong> ação evitou o surto.\" (<em>Essa ação</em> retoma o que foi dito antes).</td></tr>\n<tr class=\"bg-slate-50\"><td class=\"p-2 border font-bold\">CATÁFORA (Antecipação)</td><td class=\"p-2 border\">Aponta para a <strong>FRENTE</strong> (termo que ainda vai ser dito)</td><td class=\"p-2 border\"><strong>ESTE, ESTA, ISTO</strong></td><td class=\"p-2 border\">\"A meta da SEMUSA é <strong>esta</strong>: zerar os focos de dengue.\" (<em>esta</em> anuncia o que vem depois dos dois-pontos).</td></tr>\n<tr class=\"bg-white\"><td class=\"p-2 border font-bold\">Distinção de Dois Termos Anteriores</td><td class=\"p-2 border\">Retoma 2 termos já citados</td><td class=\"p-2 border\"><strong>ESTE</strong> (o último/mais próximo) vs. <strong>AQUELE</strong> (o primeiro/mais distante)</td><td class=\"p-2 border\">\"Dengue e Malária ocorrem em RO; <strong>esta</strong> (Malária) por <em>Anopheles</em>, <strong>aquela</strong> (Dengue) por <em>Aedes</em>.\"</td></tr>\n</tbody></table></div>\n<h4>3.2 Implícitos: Pressuposto (Marcado por gatilho linguístico) vs. Subentendido (Inferência do leitor)</h4>\n<ul>\n<li><strong>Pressuposto:</strong> Ideia implícita que decorre obrigatoriamente de uma <strong>palavra-gatilho</strong> no texto (verbos como <em>deixar de, voltar a, continuar, passar a</em>; advérbios como <em>já, ainda, até</em>; adjetivos). Ex.: <em>\"O morador <strong>voltou a</strong> cobrir a caixa d'água\"</em> → Pressuposto inegável: ele já havia coberto a caixa d'água alguma vez no passado!</li>\n<li><strong>Subentendido (Insinuação):</strong> Ideia deduzida pelo contexto, sem marca linguística obrigatória (de responsabilidade do ouvinte). Ex.: <em>\"Está chovendo muito e o quintal está cheio de pneus descobertos\"</em> → Subentendido: é preciso recolher/cobrir os pneus para não criar larvas.</li>\n</ul>\n<div class=\"mt-4 pt-4 border-t-2 border-teal-200 space-y-3\">\n  <h5 class=\"text-sm font-extrabold text-teal-900 uppercase tracking-wide\">5. Mapa Completo das 14 Classes de Conjunções (Coordenativas e Subordinativas Adverbiais) e Pronomes Demonstrativos no Espaço, Tempo e Texto</h5>\n  <div class=\"overflow-x-auto\">\n    <table class=\"min-w-full text-xs border border-slate-300 rounded-lg\">\n      <thead class=\"bg-teal-900 text-white\">\n        <tr>\n          <th class=\"p-2 border border-slate-300 text-left\">Relação Semântico-Discursiva</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Conectivos e Locuções Conjuntivas (Substituições Equivalentes na IBGP)</th>\n          <th class=\"p-2 border border-slate-300 text-left\">Armadilha de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200 bg-white\">\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Oposição / Contraste (Coordenativas Adversativas vs. Subordinativas Concessivas)</td>\n          <td class=\"p-2\">• <strong>Adversativas (fortalecem o argumento seguinte):</strong> mas, porém, contudo, todavia, entretanto, no entanto, não obstante.<br>• <strong>Concessivas (admitem um fato contrário que não impede a ação principal):</strong> embora, ainda que, mesmo que, se bem que, posto que, conquanto, apesar de que, a despeito de.</td>\n          <td class=\"p-2\"><strong>\"Posto que\"</strong> e <strong>\"Conquanto\"</strong> são <strong>CONCESSIVAS</strong> (= embora)! Candidatos desavisados acham que \"posto que\" é explicativa ou causal. E lembre-se: <strong>\"Porquanto\"</strong> é <strong>CAUSAL / EXPLICATIVA</strong> (= visto que, porque)!</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Causa vs. Consequência vs. Explicação</td>\n          <td class=\"p-2\">• <strong>Causais (origem do fato):</strong> porque, já que, visto que, uma vez que, como (sempre no início do período!), porquanto, na medida em que.<br>• <strong>Consecutivas (efeito/resultado):</strong> que (precedido de <em>tão, tanto, tamanho, tal</em>), de modo que, de sorte que, de forma que.<br>• <strong>Explicativas (justificam uma ordem/hipótese):</strong> que, porque, pois (antes do verbo), porquanto.</td>\n          <td class=\"p-2\">Diferença clássica:<br>• <strong>\"Na medida em que\"</strong> = <strong>CAUSAL</strong> (= tendo em vista que, porque);<br>• <strong>\"À medida que\"</strong> = <strong>PROPORCIONAL</strong> (= à proporção que). (\"À medida em que\" não existe na norma culta!).</td>\n        </tr>\n        <tr>\n          <td class=\"p-2 font-bold text-teal-900\">Condição vs. Conformidade vs. Finalidade vs. Proporção</td>\n          <td class=\"p-2\">• <strong>Condicionais:</strong> se, caso, contanto que, desde que (com verbo no subjuntivo), salvo se, a menos que, sem que.<br>• <strong>Conformativas:</strong> conforme, como (= conforme), segundo, consoante.<br>• <strong>Finais:</strong> para que, a fim de que, porque (= para que).<br>• <strong>Proporcionais:</strong> à medida que, à proporção que, ao passo que, quanto mais... mais.</td>\n          <td class=\"p-2\">A conjunção <strong>\"COMO\"</strong> é camaleônica na IBGP: (1) No início da frase introduzindo motivo = <strong>Causal</strong> (\"Como choveu, o nível do rio subiu\"); (2) Equivalendo a \"conforme\" = <strong>Conformativa</strong> (\"Fizemos o bloqueio como determinou o MS\"); (3) Estabelecendo paralelo = <strong>Comparativa</strong>.</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n  <div class=\"bg-amber-50 border-l-4 border-amber-600 p-3 rounded-r-lg text-xs\">\n    <strong>Quadro Definitivo de Coesão com ESTE / ESSE / AQUELE no Texto:</strong>\n    <ul class=\"list-disc pl-5 mt-1 space-y-1\">\n      <li><strong>ESSE / ESSA / ISSO (Anáfora — Olha para TRÁS):</strong> Retoma um termo ou ideia que <strong>já foi enunciado anteriormente</strong> no texto. Ex.: <em>\"O controle mecânico elimina criadouros; <strong>essa</strong> medida é prioritária.\"</em></li>\n      <li><strong>ESTE / ESTA / ISTO (Catáfora — Olha para a FRENTE):</strong> Anuncia um termo ou ideia que <strong>ainda vai ser dito a seguir</strong>. Ex.: <em>\"A regra de ouro da prevenção é <strong>esta</strong>: não deixar água parada.\"</em></li>\n      <li><strong>ESTE vs. AQUELE (Retomada de 2 termos antecedentes):</strong> Quando retomamos dois termos já citados (A e B), <strong>AQUELE</strong> retoma o termo mais distante (o 1º citado, A) e <strong>ESTE</strong> retoma o termo mais próximo (o último citado, B). Ex.: <em>\"O <u>ACS</u> e o <u>ACE</u> atuam juntos na UBS: <strong>aquele</strong> (o ACS) acompanha as famílias da microárea, enquanto <strong>este</strong> (o ACE) executa o controle vetorial e zoonótico.\"</em></li>\n    </ul>\n  </div>\n</div>",
+      "modoB": "<ul>\n<li><strong>Anáfora (Olha para TRÁS) = ESSE / ESSA / ISSO.</strong></li>\n<li><strong>Catáfora (Olha para FRENTE) = ESTE / ESTA / ISTO.</strong></li>\n<li><strong>Dois termos já citados: ESTE = o mais próximo (último citado) | AQUELE = o mais distante (primeiro citado).</strong></li>\n<li><strong>Pressuposto = Tem gatilho linguístico na frase</strong> (<em>ainda, já, parou de, voltou a</em>). <strong>Subentendido = Dedução contextual sem palavra-gatilho.</strong></li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — Coesão Referencial — Inédita 2026) No período: \"Tanto o Aedes aegypti quanto o Lutzomyia longipalpis são vetores de importância médica em Rondônia; este transmite a Leishmaniose Visceral, enquanto aquele transmite a Dengue\", os pronomes demonstrativos \"este\" e \"aquele\" exercem papel anafórico e retomam, respectivamente:",
+          "options": [
+            "A) Aedes aegypti e Lutzomyia longipalpis.",
+            "B) Lutzomyia longipalpis (termo mais próximo) e Aedes aegypti (termo mais distante).",
+            "C) Rondônia e Leishmaniose Visceral.",
+            "D) Dengue e Leishmaniose Visceral."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. Na retomada de dois termos antecedentes, \"este\" refere-se ao termo mencionado por último (mais próximo: Lutzomyia longipalpis) e \"aquele\" refere-se ao termo mencionado primeiro (mais distante: Aedes aegypti)."
+        },
+        {
+          "q": "(Questão de estudo — Conjunções e Semântica Argumentativa — Inédita 2026) Em \"Posto que os índices pluviométricos tenham aumentado em Porto Velho, a incidência de arboviroses recuou graças ao trabalho dos ACEs\", a locução conjuntiva \"Posto que\" introduz valor semântico concessivo e pode ser substituída, sem alteração de sentido e mantendo a correção gramatical, por:",
+          "options": [
+            "A) Porquanto.",
+            "B) Conquanto (ou Embora / Ainda que).",
+            "C) Portanto.",
+            "D) À medida que."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. \"Posto que\" e \"Conquanto\" são conjunções subordinativas CONCESSIVAS (= embora, ainda que). Atenção à pegadinha: \"Porquanto\" é explicativa/causal (= porque)!"
+        },
+        {
+          "q": "(Questão de estudo — Operadores Argumentativos — Inédita 2026) Na frase \"O agente visitou não apenas as residências térreas, mas também os comércios locais, inclusive os terrenos baldios\", os operadores argumentativos destacados estabelecem uma relação semântica de:",
+          "options": [
+            "A) Alternância excludente.",
+            "B) Adição / soma de argumentos na mesma direção argumentativa, com realce inclusivo.",
+            "C) Oposição adversativa.",
+            "D) Condição hipotética."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A estrutura correlativa \"não apenas... mas também\" e o operador \"inclusive\" somam argumentos que apontam para a mesma conclusão (abrangência do trabalho do agente)."
+        },
+        {
+          "q": "(Questão de estudo — Conjunções Subordinativas — Inédita 2026) Em \"Os focos de dengue reduziram-se no bairro à proporção que os moradores eliminaram os pratinhos de plantas\", a locução conjuntiva \"à proporção que\" exprime circunstância de:",
+          "options": [
+            "A) Concessão.",
+            "B) Proporcionalidade (equivalente a \"à medida que\").",
+            "C) Causa (equivalente a \"na medida em que\").",
+            "D) Finalidade."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. \"À proporção que\" e \"à medida que\" são locuções conjuntivas proporcionais. Atenção: \"na medida em que\" é causal (= porque, tendo em vista que)!"
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre Anáfora e Catáfora no uso dos pronomes demonstrativos?",
+          "front": "Qual a diferença entre Anáfora e Catáfora no uso dos pronomes demonstrativos?",
+          "b": "Anáfora retoma o que já foi dito antes (usa ESSE/ESSA/ISSO); Catáfora antecipa o que ainda será dito adiante (usa ESTE/ESTA/ISTO).",
+          "back": "Anáfora retoma o que já foi dito antes (usa ESSE/ESSA/ISSO); Catáfora antecipa o que ainda será dito adiante (usa ESTE/ESTA/ISTO).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        },
+        {
+          "f": "Qual a diferença semântica entre \"Posto que / Conquanto\" e \"Porquanto\"?",
+          "front": "Qual a diferença semântica entre \"Posto que / Conquanto\" e \"Porquanto\"?",
+          "b": "\"Posto que\" e \"Conquanto\" são CONCESSIVAS (= embora); já \"Porquanto\" é CAUSAL/EXPLICATIVA (= porque, visto que).",
+          "back": "\"Posto que\" e \"Conquanto\" são CONCESSIVAS (= embora); já \"Porquanto\" é CAUSAL/EXPLICATIVA (= porque, visto que).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        },
+        {
+          "f": "Na frase \"Os casos de malária deixaram de crescer no distrito\", qual é o pressuposto e qual é o gatilho linguístico?",
+          "front": "Na frase \"Os casos de malária deixaram de crescer no distrito\", qual é o pressuposto e qual é o gatilho linguístico?",
+          "b": "Pressuposto: Os casos de malária cresciam antes. Gatilho linguístico: a locução verbal aspectual \"deixaram de\".",
+          "back": "Pressuposto: Os casos de malária cresciam antes. Gatilho linguístico: a locução verbal aspectual \"deixaram de\".",
+          "lessonTitle": "7. Coesão e coerência textual"
+        },
+        {
+          "f": "[Revisão Rápida #12 — 19] Qual é a pegadinha crítica da banca IBGP sobre este tema?",
+          "front": "[Revisão Rápida #12 — 19] Qual é a pegadinha crítica da banca IBGP sobre este tema?",
+          "b": "❌ Mito/Pegadinha: \"A conjunção 'Conquanto' expressa conclusão (equivale a 'portanto').\" — ✅ CORRETO: FALSO! 'Conquanto' e 'Posto que' são conjunções subordinativas CONCESSIVAS (equivalem a 'embora'!).",
+          "back": "❌ Mito/Pegadinha: \"A conjunção 'Conquanto' expressa conclusão (equivale a 'portanto').\" — ✅ CORRETO: FALSO! 'Conquanto' e 'Posto que' são conjunções subordinativas CONCESSIVAS (equivalem a 'embora'!).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 7.3 — Coerência Textual: As 4 Metarregras de Charolles (Repetição, Progressão, Não-Contradição e Relação) e Ambiguidade",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 7: Coesão e coerência textual)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 7 de Língua Portuguesa — Coesão e Coerência</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Coesão (Costura Gramatical) vs. Coerência (Harmonia Lógica de Sentido)</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Enquanto a <strong>coesão</strong> é a ligação visível na superfície do texto (pronomes, conjunções, preposições, sinônimos), a <strong>coerência</strong> é a unidade lógica e semântica subjacente do texto.</p>\n  </div>\n  <div class=\"grid grid-cols-1 md:grid-cols-2 gap-3 text-xs\">\n    <div class=\"p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5\">\n      <div class=\"font-extrabold text-slate-900\">As 4 Metarregras da Coerência (Michel Charolles)</div>\n      <p class=\"text-slate-700\">1) <strong>Repetição (Continuidade temática):</strong> retomada do fio condutor.<br>2) <strong>Progressão:</strong> acréscimo constante de novas informações (evita a circularidade tautológica).<br>3) <strong>Não-Contradição:</strong> nenhuma afirmação pode invalidar logicamente outra no mesmo texto.<br>4) <strong>Relação (Articulação):</strong> os fatos precisam ter pertinência no mundo real ou discursivo.</p>\n    </div>\n    <div class=\"p-3.5 rounded-xl bg-amber-50 border border-amber-200 space-y-1.5\">\n      <div class=\"font-extrabold text-amber-950\">Ambiguidade pelo Pronome Possessivo \"SEU/SUA\"</div>\n      <p class=\"text-slate-700\">Na frase <em>\"O supervisor encontrou o agente em <strong>sua</strong> sala\"</em>, há ambiguidade (a sala é do supervisor ou do agente?). Para eliminar a ambiguidade, explicite o possuidor: <strong>na sala do supervisor</strong> ou <strong>na sala do agente</strong>. Trocar apenas por <em>dele</em> pode manter a ambiguidade.</p>\n    </div>\n  </div>\n</div><!-- AUDITORIA:POR7 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Dêixis (Enunciação) vs. Anáfora e Catáfora (Endófora)</h4><p>1. <strong>Referência Endofórica (dentro do texto)</strong>: ocorre quando o termo aponta para outro elemento expresso no próprio texto — seja retomando um antecedente (<strong>anáfora</strong>: <em>\"O relatório ficou pronto; <strong>ele</strong> será enviado hoje\"</em>) ou antecipando um consequente (<strong>catáfora</strong>: <em>\"O objetivo é <strong>este</strong>: zerar as pendências\"</em>).</p><p>2. <strong>Referência Exofórica / Dêixis (situação comunicativa)</strong>: ocorre quando pronomes e advérbios (<em>eu, tu, aqui, agora, hoje, ontem, amanhã</em>) dependem diretamente das coordenadas de quem fala (<strong>locutor</strong>), com quem fala (<strong>interlocutor</strong>), onde fala (<strong>espaço</strong>) e quando fala (<strong>tempo da enunciação</strong>). Exemplo: num bilhete sem data dizendo <em>\"Volto amanhã\"</em>, o advérbio <em>amanhã</em> é um <strong>dêitico temporal</strong> cuja interpretação exige saber o dia em que o bilhete foi escrito.</p><p>3. <strong>Coerência e as 4 Metarregras de Charolles</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Repetição (continuidade temática)</strong>: retomada de referentes por pronomes, hiperônimos, sinônimos ou elipse.</li><li><strong>Progressão</strong>: acréscimo de informações novas (rema) ao tema, evitando circularidade ou tautologia.</li><li><strong>Não-contradição</strong>: compatibilidade lógica e semântica entre as afirmações explícitas e implícitas do texto.</li><li><strong>Relação</strong>: articulação pertinente entre os fatos e conceitos no mundo textual representado.</li></ul></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Coesão:</strong> Mecanismos gramaticais e lexicais da superfície textual.</li>\n  <li><strong>Coerência:</strong> Nexo lógico global (Repetição, Progressão, Não-Contradição e Relação).</li>\n</ul><!-- AUDITORIA:POR7 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Anáfora (retoma) e catáfora (antecipa) apontam para elementos dentro do texto (endófora).</li><li>Dêixis aponta para a situação de enunciação (eu/tu, aqui, agora/hoje).</li><li>As 4 metarregras de Charolles exigem repetição com progressão, não-contradição e relação.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de revisão — Coesão e coerência) Na leitura isolada dos períodos abaixo, sem informação contextual adicional, qual alternativa emprega um conectivo que cria contraste não motivado pelos fatos apresentados?",
+          "options": [
+            "Como choveu intensamente durante toda a semana, o nível do rio Madeira subiu rapidamente.",
+            "Embora o morador tenha mantido o quintal rigorosamente limpo, não foram encontrados focos do mosquito.",
+            "Os agentes realizaram o bloqueio costal porque houve confirmação laboratorial de casos na localidade.",
+            "Caso os recipientes permaneçam destampados, a fêmea do Aedes aegypti poderá depositar seus ovos."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B, na leitura isolada proposta. Embora sinaliza concessão: algo ocorre apesar de uma expectativa contrária. Quintal rigorosamente limpo e ausência de focos são apresentados como fatos compatíveis, sem motivar o contraste. Isso não constitui proibição gramatical da frase: um contexto adicional poderia construir outra expectativa e justificar embora. A análise é discursiva, não a simples presença do conectivo.",
+          "revision": "20261031-coerencia-contexto"
+        },
+        {
+          "auditId": "por_7-autoral-1",
+          "q": "(Autoral — Dêixis vs. Anáfora e Catáfora) Em uma placa afixada sem data na porta de uma repartição lê-se: \"Hoje não haverá atendimento aqui; retornaremos amanhã.\" A dificuldade de interpretar \"hoje\", \"aqui\" e \"amanhã\" fora da situação concreta decorre do fato de esses termos funcionarem como:",
+          "options": [
+            "elementos dêiticos (exofóricos), cuja referência depende do tempo e do espaço da enunciação.",
+            "conjunções coordenativas conclusivas que exigem sujeito posposto.",
+            "hiperônimos lexicais que retomam substantivos já citados no parágrafo anterior.",
+            "orações subordinadas adjetivas restritivas sem antecedente expresso."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Hoje\", \"aqui\" e \"amanhã\" são dêiticos temporais e espaciais: seu referente concreto depende das coordenadas da situação de enunciação (quando e onde o aviso foi produzido/lido)."
+        },
+        {
+          "auditId": "por_7-autoral-2",
+          "q": "(Autoral — Cadeia Referencial e Progressão Textual) Leia: \"O municípios de Rondônia enfrentam desafios logísticos na estação chuvosa. Essa realidade exige planejamento prévio das equipes.\" O sintagma \"Essa realidade\" realiza coesão por meio de:",
+          "options": [
+            "encapsulamento anafórico (expressão nominal que resume e rotula a ideia da oração anterior, fazendo o texto progredir).",
+            "catáfora puramente fonética sem relação com o período anterior.",
+            "elipse do verbo principal da segunda oração.",
+            "dêixis de primeira pessoa do singular."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Essa realidade\" retoma e sintetiza toda a proposição anterior (encapsulamento anafórico), garantindo simultaneamente continuidade (repetição) e avanço informacional (progressão)."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual a diferença entre Coesão e Coerência?",
+          "b": "Coesão é a conexão gramatical na superfície do texto (conjunções, pronomes); Coerência é a harmonia lógica e de sentido global das ideias.",
+          "lessonTitle": "7. Coesão e coerência textual"
+        },
+        {
+          "f": "Quais são as 4 metarregras da coerência textual?",
+          "b": "Repetição (continuidade), Progressão (novas informações), Não-contradição (lógica interna) e Relação (conexão entre os fatos).",
+          "lessonTitle": "7. Coesão e coerência textual"
+        }
+      ],
+      "modoA_markdown": "\n### Dêixis (Enunciação) vs. Anáfora e Catáfora (Endófora)\n1. **Referência Endofórica (dentro do texto)**: ocorre quando o termo aponta para outro elemento expresso no próprio texto — seja retomando um antecedente (**anáfora**: *\"O relatório ficou pronto; **ele** será enviado hoje\"*) ou antecipando um consequente (**catáfora**: *\"O objetivo é **este**: zerar as pendências\"*).\n2. **Referência Exofórica / Dêixis (situação comunicativa)**: ocorre quando pronomes e advérbios (*eu, tu, aqui, agora, hoje, ontem, amanhã*) dependem diretamente das coordenadas de quem fala (**locutor**), com quem fala (**interlocutor**), onde fala (**espaço**) e quando fala (**tempo da enunciação**). Exemplo: num bilhete sem data dizendo *\"Volto amanhã\"*, o advérbio *amanhã* é um **dêitico temporal** cuja interpretação exige saber o dia em que o bilhete foi escrito.\n3. **Coerência e as 4 Metarregras de Charolles**:\n   - **Repetição (continuidade temática)**: retomada de referentes por pronomes, hiperônimos, sinônimos ou elipse.\n   - **Progressão**: acréscimo de informações novas (rema) ao tema, evitando circularidade ou tautologia.\n   - **Não-contradição**: compatibilidade lógica e semântica entre as afirmações explícitas e implícitas do texto.\n   - **Relação**: articulação pertinente entre os fatos e conceitos no mundo textual representado.<!-- AUDITORIA:POR7 -->\n\n### Dêixis (Enunciação) vs. Anáfora e Catáfora (Endófora)\n1. **Referência Endofórica (dentro do texto)**: ocorre quando o termo aponta para outro elemento expresso no próprio texto — seja retomando um antecedente (**anáfora**: *\"O relatório ficou pronto; **ele** será enviado hoje\"*) ou antecipando um consequente (**catáfora**: *\"O objetivo é **este**: zerar as pendências\"*).\n2. **Referência Exofórica / Dêixis (situação comunicativa)**: ocorre quando pronomes e advérbios (*eu, tu, aqui, agora, hoje, ontem, amanhã*) dependem diretamente das coordenadas de quem fala (**locutor**), com quem fala (**interlocutor**), onde fala (**espaço**) e quando fala (**tempo da enunciação**). Exemplo: num bilhete sem data dizendo *\"Volto amanhã\"*, o advérbio *amanhã* é um **dêitico temporal** cuja interpretação exige saber o dia em que o bilhete foi escrito.\n3. **Coerência e as 4 Metarregras de Charolles**:\n   - **Repetição (continuidade temática)**: retomada de referentes por pronomes, hiperônimos, sinônimos ou elipse.\n   - **Progressão**: acréscimo de informações novas (rema) ao tema, evitando circularidade ou tautologia.\n   - **Não-contradição**: compatibilidade lógica e semântica entre as afirmações explícitas e implícitas do texto.\n   - **Relação**: articulação pertinente entre os fatos e conceitos no mundo textual representado."
+    }
+  ],
+  "questionsCount": 8,
+  "flashcardsCount": 8,
+  "sources": [
+    95,
+    96,
+    97
+  ]
+}

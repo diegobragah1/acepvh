@@ -1,5 +1,5 @@
 {
-  "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "baseDatasetSha256": "c52037247577768ed96d48f6492285049bd42ab59941abf4fd5dedef27edb08a",
   "statusPermitidos": [
     "AUSENTE",
     "SUPERFICIAL",
@@ -12935,7 +12935,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -12947,6 +12947,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13009,7 +13017,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13021,6 +13029,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13083,7 +13099,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13095,6 +13111,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13157,7 +13181,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13169,6 +13193,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13231,7 +13263,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13243,6 +13275,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13305,7 +13345,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13317,6 +13357,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13382,7 +13430,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13394,6 +13442,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13456,7 +13512,7 @@
         },
         {
           "local": "por_3.blocks[0].questions[2]",
-          "revision": null
+          "revision": "20261101-por3-ratificar"
         },
         {
           "local": "por_3.blocks[0].questions[3]",
@@ -13468,6 +13524,14 @@
         },
         {
           "local": "por_3.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_3.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13525,6 +13589,14 @@
         {
           "local": "por_4.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -13575,6 +13647,14 @@
         },
         {
           "local": "por_4.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13627,6 +13707,14 @@
         {
           "local": "por_4.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -13677,6 +13765,14 @@
         },
         {
           "local": "por_4.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13729,6 +13825,14 @@
         {
           "local": "por_4.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -13779,6 +13883,14 @@
         },
         {
           "local": "por_4.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13831,6 +13943,14 @@
         {
           "local": "por_4.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -13881,6 +14001,14 @@
         },
         {
           "local": "por_4.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -13933,6 +14061,14 @@
         {
           "local": "por_4.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -13983,6 +14119,14 @@
         },
         {
           "local": "por_4.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_4.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14035,6 +14179,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14085,6 +14237,14 @@
         },
         {
           "local": "por_5.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14137,6 +14297,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14187,6 +14355,14 @@
         },
         {
           "local": "por_5.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14239,6 +14415,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14289,6 +14473,14 @@
         },
         {
           "local": "por_5.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14341,6 +14533,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14391,6 +14591,14 @@
         },
         {
           "local": "por_5.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14443,6 +14651,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14494,6 +14710,14 @@
         {
           "local": "por_5.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -14544,6 +14768,14 @@
         },
         {
           "local": "por_5.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_5.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -14614,6 +14846,14 @@
         },
         {
           "local": "por_6.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_6.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_6.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -14696,6 +14936,14 @@
         {
           "local": "por_6.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_6.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_6.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Harmonizar demonstrativos, delimitar relativo quem e uso de onde/aonde pela construcao; ampliar cadeias referenciais.",
@@ -14771,6 +15019,14 @@
         {
           "local": "por_7.blocks[2].questions[0]",
           "revision": "20261031-coerencia-contexto"
+        },
+        {
+          "local": "por_7.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_7.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Direcao referencial nao deve ser deduzida da forma este/esse isolada; resumo e cartao omitem ressalvas presentes na teoria. Desenvolver deixis, elipse e cadeias referenciais; delimitar atalhos sobre conectivos.",
@@ -14846,6 +15102,14 @@
         {
           "local": "por_7.blocks[2].questions[0]",
           "revision": "20261031-coerencia-contexto"
+        },
+        {
+          "local": "por_7.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_7.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Conciliar enumeracoes dos criterios de coerencia e fundamentar atribuicao a Charolles. Explicitar expectativa concessiva no estudo de caso; ampliar revisao de paragrafos e contextos.",
@@ -14926,6 +15190,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -15009,6 +15281,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Definicoes breves nao desenvolvem igualmente as dez classes, especialmente artigo/numeral/interjeicao.",
@@ -15087,6 +15367,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -15170,6 +15458,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Flexao nominal simples exemplificada, mas compostos e variantes sem pratica; conferir paradigmas verbais.",
@@ -15250,6 +15546,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -15333,6 +15637,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolver tipos, flexao e emprego alem de exemplos de conversao e plural simples.",
@@ -15414,6 +15726,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Artigo aparece como determinante/substantivador, sem desenvolvimento proprio dos tipos e usos.",
@@ -15492,6 +15812,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -15574,6 +15902,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Reduz o/a a OD e lhe a OI; ampliar funcoes e delimitar regras de relativos/colocacao.",
@@ -15655,6 +15991,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Numeral recebe glosa quantidade/ordem sem sequencia de classificacao, flexao, emprego ou questao dedicada.",
@@ -15733,6 +16077,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -15821,6 +16173,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Contexto e termo modificado exemplificados; ampliar subtipos e emprego sem confundir invariabilidade com forma isolada.",
@@ -15902,6 +16262,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Preposicao e tratada por ligacao/regencia, sem exposicao sistematica de classes, locucoes e relacoes.",
@@ -15980,6 +16348,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -16062,6 +16438,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Interjeicao e apenas nomeada entre as invariaveis, sem definicao desenvolvida, exemplos ou pratica.",
@@ -16142,6 +16526,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -16232,6 +16624,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Explicitar radical/base/afixos; tirar sufixo nao e simples apagamento grafico.",
@@ -16310,6 +16710,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -16393,6 +16801,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -16483,6 +16899,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Nao decidir direcao derivacional so por sentido abstrato/concreto; distinguir analise contextual e origem.",
@@ -16564,6 +16988,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Distinguir perda de fonema de perda de letra e conferir origem historica/segmentacao; sem questao dedicada.",
@@ -16643,6 +17075,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Lista estrutural sem pratica dedicada nem confronto suficiente de variantes e lexicalizacao.",
@@ -16721,6 +17161,14 @@
         },
         {
           "local": "por_8.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -16808,6 +17256,14 @@
         {
           "local": "por_8.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_8.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Classe pronominal nao se reduz a OD/OI; conferir usos possessivos, preposicoes e colocacao por construcao.",
@@ -16861,6 +17317,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -16874,6 +17334,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -16925,6 +17389,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -16938,6 +17406,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -16989,6 +17461,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -17002,6 +17478,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -17053,6 +17533,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -17066,6 +17550,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -17117,6 +17605,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -17130,6 +17622,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -17181,6 +17677,10 @@
           "revision": null
         },
         {
+          "local": "por_9.blocks[0].questions[2]",
+          "revision": null
+        },
+        {
           "local": "por_9.blocks[1].questions[0]",
           "revision": null
         },
@@ -17194,6 +17694,10 @@
         },
         {
           "local": "por_9.blocks[1].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "por_9.blocks[1].questions[4]",
           "revision": null
         }
       ],
@@ -17273,6 +17777,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -17361,6 +17873,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Distinguir quite/quites, usos de mesmo, condicoes das expressoes predicativas e adjetivo com varios nucleos.",
@@ -17447,6 +17967,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Regra geral explicada com fiscalizacao dos imoveis; falta exercicio especifico com nucleo distante.",
@@ -17528,6 +18056,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -17611,6 +18147,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Ambas as concordancias sao exemplificadas; faltam exercicios e confronto das condicoes.",
@@ -17692,6 +18236,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -17775,6 +18327,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Ha exemplos com eu/nos e que/quem; faltam pratica, limites e contraste com um dos que anunciado.",
@@ -17856,6 +18416,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -17939,6 +18507,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Horas recebem exemplos; datas e distancias sao anunciadas sem desenvolvimento. Sem exercicio especifico.",
@@ -18020,6 +18596,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -18108,6 +18692,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Ressalvas de singular/reflexivo nao chegam ao resumo; classificacao de tratar-se de exige confronto.",
@@ -18193,6 +18785,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Adjetivo anteposto/posposto a varios substantivos e anunciado, sem analise comparativa no escopo lido.",
@@ -18274,6 +18874,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -18358,6 +18966,14 @@
         },
         {
           "local": "por_10.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -18445,6 +19061,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Meio/bastante recebem exemplos e distratores; caro/barato e demais usos carecem de contraste e pratica.",
@@ -18530,6 +19154,14 @@
         {
           "local": "por_10.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_10.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Preservar ressalva de alerta adverbial/adjetivo; Aulete nao foi relido por bloqueio; ampliar exercicio.",
@@ -18590,6 +19222,14 @@
         {
           "local": "por_11.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_11.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_11.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -18644,6 +19284,14 @@
         },
         {
           "local": "por_11.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_11.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_11.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -18710,6 +19358,14 @@
         {
           "local": "por_12.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -18774,6 +19430,14 @@
         },
         {
           "local": "por_12.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -18840,6 +19504,14 @@
         {
           "local": "por_12.blocks[1].questions[1]",
           "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[3]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -18904,6 +19576,14 @@
         },
         {
           "local": "por_12.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "por_12.blocks[1].questions[3]",
           "revision": null
         }
       ],
@@ -18974,6 +19654,14 @@
         {
           "local": "por_13.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -19042,6 +19730,14 @@
         },
         {
           "local": "por_13.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -19112,6 +19808,14 @@
         {
           "local": "por_13.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -19181,6 +19885,14 @@
         {
           "local": "por_13.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -19249,6 +19961,14 @@
         },
         {
           "local": "por_13.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_13.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -19324,6 +20044,14 @@
         },
         {
           "local": "por_14.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -19405,6 +20133,14 @@
         {
           "local": "por_14.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Falta analise completa de periodos mistos e de todas as relacoes anunciadas.",
@@ -19485,6 +20221,14 @@
         {
           "local": "por_14.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Resumo generaliza classificacao de se e de complemento nominal; nao decide funcao apenas por posicao ou transitividade.",
@@ -19564,6 +20308,14 @@
         },
         {
           "local": "por_14.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -19649,6 +20401,14 @@
         {
           "local": "por_14.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolver todos os tipos de sujeito e harmonizar singular/plural de existir com a regra.",
@@ -19728,6 +20488,14 @@
         },
         {
           "local": "por_14.blocks[2].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
           "revision": null
         }
       ],
@@ -19809,6 +20577,14 @@
         {
           "local": "por_14.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Mapa lista cinco sindeticas, mas falta desenvolvimento sistematico, assindeticas e exercicios especificos.",
@@ -19889,6 +20665,14 @@
         {
           "local": "por_14.blocks[2].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_14.blocks[2].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Completar adverbiais, reduzidas e introdutores de substantivas; corrigir diagnosticos por pontuacao isolada.",
@@ -19946,6 +20730,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -19994,6 +20786,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20042,6 +20842,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20090,6 +20898,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20138,6 +20954,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20186,6 +21010,14 @@
         {
           "local": "por_15.blocks[1].questions[0]",
           "revision": "20261031-acentuacao-2"
+        },
+        {
+          "local": "por_15.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_15.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20246,6 +21078,14 @@
         },
         {
           "local": "por_16.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -20308,6 +21148,14 @@
         {
           "local": "por_16.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -20368,6 +21216,14 @@
         },
         {
           "local": "por_16.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_16.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -20457,6 +21313,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -20558,6 +21422,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Mapa impoe contagem de tres palavras; alinhar com teoria revisada e evitar automatismos por posicao.",
@@ -20654,6 +21526,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Exemplo de enumeracao complexa e definicao presentes, mas nao ha exercicio dedicado ou comparacao de reescritas.",
@@ -20746,6 +21626,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Enumeracao, explicacao e fala exemplificadas, sem questao interativa especifica.",
@@ -20837,6 +21725,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -20936,6 +21832,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Intercalacao acessoria explicada; falta pratica de retirada/reinsercao e condicoes de encaixe.",
@@ -21034,6 +21938,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Distingue citacao/mencao/distanciamento; fontes das transcricoes nao autenticadas e sem exercicio dedicado.",
@@ -21126,6 +22038,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Reticencias recebem definicao breve, sem exemplo contrastivo, questao dedicada ou cartao.",
@@ -21217,6 +22137,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -21316,6 +22244,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Vocativo e aposto tem exemplos e questoes; qualificar destaque discursivo de sinais alternativos.",
@@ -21411,6 +22347,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Regra numerica do mapa contradiz ressalva da teoria; falta pratica dedicada de extensao e clareza.",
@@ -21502,6 +22446,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -21597,6 +22549,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Harmonizar sujeitos diferentes com nao obrigatoriedade automatica; desenvolver deslocamento dos conectivos.",
@@ -21688,6 +22648,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -21783,6 +22751,14 @@
         {
           "local": "por_17.blocks[1].questions[0]",
           "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
+          "revision": null
         }
       ],
       "lacunas": "Enumeracao exemplificada, zeugma apenas citado neste recorte; ampliar recuperacao de termos e exercicios.",
@@ -21874,6 +22850,14 @@
         },
         {
           "local": "por_17.blocks[1].questions[0]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "por_17.blocks[1].questions[2]",
           "revision": null
         }
       ],
@@ -22659,6 +23643,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -22739,6 +23731,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -22821,6 +23821,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -22901,6 +23909,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -22983,6 +23999,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23063,6 +24087,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23145,6 +24177,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23225,6 +24265,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23307,6 +24355,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23387,6 +24443,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23469,6 +24533,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23549,6 +24621,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23631,6 +24711,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23711,6 +24799,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23793,6 +24889,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -23873,6 +24977,14 @@
         },
         {
           "local": "rlm_1.blocks[2].questions[2]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
           "revision": null
         }
       ],
@@ -23955,6 +25067,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -24036,6 +25156,14 @@
         {
           "local": "rlm_1.blocks[2].questions[2]",
           "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[3]",
+          "revision": null
+        },
+        {
+          "local": "rlm_1.blocks[2].questions[4]",
+          "revision": null
         }
       ],
       "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
@@ -24100,6 +25228,10 @@
         },
         {
           "local": "rlm_2.blocks[3].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "rlm_2.blocks[3].questions[2]",
           "revision": null
         },
         {
@@ -24176,6 +25308,10 @@
           "revision": null
         },
         {
+          "local": "rlm_2.blocks[3].questions[2]",
+          "revision": null
+        },
+        {
           "local": "rlm_2.blocks[4].questions[0]",
           "revision": null
         },
@@ -24246,6 +25382,10 @@
         },
         {
           "local": "rlm_2.blocks[3].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "rlm_2.blocks[3].questions[2]",
           "revision": null
         },
         {
@@ -24322,6 +25462,10 @@
           "revision": null
         },
         {
+          "local": "rlm_2.blocks[3].questions[2]",
+          "revision": null
+        },
+        {
           "local": "rlm_2.blocks[4].questions[0]",
           "revision": null
         },
@@ -24392,6 +25536,10 @@
         },
         {
           "local": "rlm_2.blocks[3].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "rlm_2.blocks[3].questions[2]",
           "revision": null
         },
         {
@@ -24468,6 +25616,10 @@
           "revision": null
         },
         {
+          "local": "rlm_2.blocks[3].questions[2]",
+          "revision": null
+        },
+        {
           "local": "rlm_2.blocks[4].questions[0]",
           "revision": null
         },
@@ -24538,6 +25690,10 @@
         },
         {
           "local": "rlm_2.blocks[3].questions[1]",
+          "revision": null
+        },
+        {
+          "local": "rlm_2.blocks[3].questions[2]",
           "revision": null
         },
         {

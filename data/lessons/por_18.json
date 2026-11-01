@@ -1,0 +1,274 @@
+{
+  "id": "por_18",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "18. Variação linguística",
+  "editalRef": "Item 18 de Língua Portuguesa — Variação linguística.",
+  "mindMap": {
+    "centralTitle": "18. Variação Linguística",
+    "centralSubtitle": "Item 18 de Língua Portuguesa — Variações Diatópica, Diastrática, Diafásica e Diacrônica",
+    "branches": [
+      {
+        "title": "1. Variação Diatópica (Lugar)",
+        "icon": "🗺️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Geográfica / Regional",
+            "detail": "Sotaques e vocabulário regional (carapanã, macaxeira)"
+          }
+        ]
+      },
+      {
+        "title": "2. Variação Diastrática (Social)",
+        "icon": "👥",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Grupos Sociais e Profissões",
+            "detail": "Jargão técnico de saúde, gírias juvenis e escolaridade"
+          }
+        ]
+      },
+      {
+        "title": "3. Variação Diafásica (Registro)",
+        "icon": "🎙️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Situacional / Contextual",
+            "detail": "Registro formal (ofício) vs. informal/coloquial (conversa)"
+          }
+        ]
+      },
+      {
+        "title": "4. Variação Diacrônica (Tempo)",
+        "icon": "⏳",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Histórica / Temporal",
+            "detail": "Evolução ao longo dos séculos (Vossa Mercê → Você)"
+          }
+        ]
+      },
+      {
+        "title": "5. Modalidade e avaliação",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Oral e escrito",
+            "detail": "Não são sinônimos de informal e formal."
+          },
+          {
+            "label": "Adequação e respeito",
+            "detail": "Justificar o ajuste do texto sem desqualificar seu autor."
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 18.1 — Fundamentos, adequação e revisão interdisciplinar",
+      "modoA_markdown": "## Variação linguística: critérios, contextos e avaliação de usos\n\n### Por onde começar\n\nUma língua reúne modos de falar e escrever associados a comunidades, situações e trajetórias. **Variação** é a possibilidade de diferentes realizações; **variedade** é um conjunto de usos característico de um grupo ou contexto; **variante** é uma realização em relação a outras possíveis. Não se deve confundir variação com simples desatenção, erro de digitação ou desconhecimento de uma regra específica.\n\nPara analisar, pergunte: o que mudou, entre quais falantes ou situações, e qual fator o enunciado destaca? Uma palavra isolada não determina a classe social, a escolaridade ou a capacidade intelectual de seu usuário. As diferenças podem aparecer no vocabulário, na pronúncia, nas formas gramaticais, na construção das frases e na organização da interação.\n\n### Quatro recortes úteis, com fatores que se cruzam\n\n| Recorte | O que compara | Exemplo autoral e limite |\n|---|---|---|\n| Diatópico/geográfico | Usos relacionados ao espaço e às comunidades | Denominações regionais para um alimento. Não significa que toda pessoa de uma região use apenas uma forma. |\n| Diastrático/social | Usos relacionados a grupos, redes, profissões e trajetórias | Vocabulário de jogadores ou de uma profissão. Não é sinônimo de linguagem de pessoas com pouca escolaridade. |\n| Diafásico/situacional | Ajustes conforme interlocutor, objetivo, gênero e monitoramento | A mesma profissional explica um procedimento de modos diferentes a um colega e a um iniciante. Não exige passar sempre de formal para informal. |\n| Diacrônico/histórico | Mudanças e permanências observadas ao longo do tempo | Comparar grafias de documentos de épocas distintas. Uma diferença entre pessoas de idades diferentes, sozinha, não comprova mudança histórica consumada. |\n\nEsses recortes são ferramentas de análise, não compartimentos exclusivos. Um termo profissional pode ser característico de um grupo e ser escolhido ou evitado conforme o interlocutor. Se a questão destaca **a mesma pessoa alternando o registro**, a explicação principal é situacional. Se compara a circulação de termos **entre grupos**, o foco é social. Justifique pelo contraste efetivamente apresentado.\n\nA sucessão histórica frequentemente apresentada como Vossa Mercê → vosmecê → você é uma simplificação didática. Formas e usos podem coexistir, e a história não é uma fila em que todos os falantes passam pela mesma etapa. A abreviação escrita **vc** não deve ser confundida com uma etapa obrigatória de mudança da pronúncia.\n\n### Norma-padrão, norma culta e registro\n\nEm uma distinção adotada em estudos sociolinguísticos, **norma-padrão** designa um modelo prescritivo de referência, enquanto **norma culta** se refere a usos efetivos de grupos escolarizados em situações socialmente reconhecidas. Os termos recebem tratamentos diferentes em obras e exercícios; aqui não são usados como sinônimos automáticos. “Culto”, nesse emprego técnico, não significa que outros grupos sejam desprovidos de cultura.\n\n**Formalidade** é uma dimensão da situação e do monitoramento. Uma pessoa escolarizada conversa informalmente com familiares. Um texto formal pode usar vocabulário simples e períodos curtos. Uma palavra difícil não torna um texto automaticamente adequado, e uma variedade regional não é, por definição, informal em qualquer situação.\n\nEm questão que pede reescrita **segundo a norma-padrão**, aplique as convenções solicitadas. Em questão sobre a fala de uma personagem, investigue como os usos constroem contexto, identidade ou efeito expressivo. Ensinar a convenção formal e respeitar a variedade de origem são objetivos compatíveis: ampliar repertório não exige desqualificar pessoas.\n\n### Fala, escrita e gêneros\n\nFala e escrita são modalidades, não graus fixos de formalidade. Uma sustentação oral, uma entrevista profissional e um comunicado lido em cerimônia podem ser muito monitorados. Uma mensagem escrita entre amigos pode ser coloquial. Há textos escritos feitos para leitura em voz alta, e há falas transcritas e editadas.\n\nA fala pode recorrer à entonação, ao gesto, a pausas e a reparos; a escrita pode recorrer à pontuação, à diagramação e à revisão. Isso não torna a fala desorganizada nem a escrita sempre planejada. Examine a produção real: uma aula oral pode ser preparada, enquanto uma mensagem escrita pode ser produzida rapidamente.\n\nAlguns materiais usam **diamésica** para examinar diferenças relacionadas ao meio ou à modalidade. O termo complementa os quatro recortes anteriores; não significa que a lista de quatro esgote toda classificação possível. Gênero, suporte, propósito e contexto também precisam ser considerados. Tipos e gêneros são desenvolvidos na aula 2.\n\n### Texto autoral A — Explicar para ser entendido\n\n> Na reunião técnica, Luísa disse: “Precisamos revisar a indexação do catálogo”. Ao orientar um novo voluntário, explicou: “Vamos conferir as palavras usadas para localizar cada livro”. O voluntário perguntou se deveria trocar todas elas. Luísa respondeu: “Primeiro, compare os termos com o assunto; depois me mostre as dúvidas”.\n\n1. **O que permanece?** O objetivo de conferir a representação dos assuntos dos livros.\n2. **O que muda?** A formulação e o grau de pressuposição de conhecimento técnico.\n3. **Qual fator é destacado?** A mudança de interlocutor e de finalidade imediata: variação situacional. O termo indexação também é associado a uma prática profissional, dimensão social.\n4. **Houve simples abandono de correção?** Não. A segunda explicação é acessível e pode integrar atendimento profissional. Clareza não é sinônimo de informalidade.\n5. **A primeira expressão é melhor em qualquer contexto?** Não. Pode ser precisa entre especialistas e pouco transparente para quem inicia.\n\nO texto não permite deduzir a renda, a região de nascimento ou a escolaridade de Luísa. Tampouco prova que todos os profissionais de uma área usem exatamente a mesma formulação.\n\n### Texto autoral B — Avaliar uma fala sem desqualificar seu usuário\n\n> Em uma entrevista para um projeto, alguém comenta: “Pelo seu sotaque, você não deve conseguir compreender o regulamento”. A candidata responde: “Posso explicar os critérios do documento e mostrar minha experiência”.\n\nO comentário inicial associa um traço de fala a incapacidade, sem avaliar o desempenho pertinente. Isso exemplifica preconceito linguístico. Um retorno técnico diferente seria apontar uma passagem do texto escrito que precisa ser ajustada à convenção exigida, justificando a revisão. O objeto dessa avaliação é a produção no contexto, não a dignidade, a inteligência ou o valor cultural da pessoa.\n\nRespeitar variedades não significa que toda formulação funcione igualmente bem para todo público. Se o interlocutor não compreende um jargão, explique-o. Se o gênero exige padronização, revise o texto. Não é necessário humilhar o falante nem inventar uma incapacidade a partir do sotaque.\n\n### Texto autoral C — Modalidade e planejamento\n\n> Situação 1: uma pesquisadora apresenta oralmente uma exposição preparada, com termos definidos e roteiro.\n> Situação 2: dois colegas trocam mensagens escritas: “chego já; guarda um lugar pra mim?”.\n\nA primeira é oral e planejada; a segunda é escrita e coloquial. A diferença mostra por que “oral = informal” e “escrito = formal” falham. Sem contexto adicional, não se pode transformar a mensagem particular em modelo para um ofício, nem afirmar que seus autores desconheçam a convenção formal.\n\n### Procedimento para resolver questões\n\nIdentifique se o comando pede descrição de uso, adequação ou correção normativa. Localize a característica que varia. Compare as situações e justifique o fator predominante. Verifique se a alternativa transforma uma tendência em regra universal, confunde modalidade com registro ou deduz origem e capacidade a partir de um indício insuficiente.\n\n**Erros recorrentes:** tratar regionalismo como incapacidade; classificar toda gíria como regional; chamar qualquer troca de palavra de mudança histórica; usar quatro rótulos como lista exaustiva; confundir linguagem acessível com linguagem inadequada; afirmar que todo uso literário deve imitar um documento oficial.\n\n### Revisão ativa\n\nExplique por que um termo pode revelar uma prática profissional e ser selecionado conforme o público. Crie um exemplo oral formal e outro escrito coloquial. Diferencie revisão de um texto e discriminação de seu autor. Reescreva uma instrução técnica para um iniciante, preservando informação e precisão. Depois confira se a mudança realmente atende ao novo interlocutor.\n\n### Referências e alcance\n\nO item obrigatório é Variação linguística, no Anexo IV do concurso. Referências pedagógicas complementares: CEALE/UFMG, verbete Variação linguística, Marcos Bagno; SME Goiânia, Variações linguísticas, seções de fatores e adequação; SEDU/ES, habilidade EF69LP55. Os currículos escolares são apoio didático, não documentos da IBGP. O material do CEALE sobre norma culta e norma-padrão foi localizado na busca, mas a abertura integral falhou; a distinção fica registrada para confronto adicional antes de validação integral. Os três textos e as análises são autorais e não descrevem pessoas ou eventos reais.\n",
+      "modoB_markdown": "- Variedade e variante não são incapacidade ou ausência de regras.\n- Geografia, grupo, situação e tempo podem atuar simultaneamente.\n- Norma-padrão, usos cultos e formalidade não são sinônimos automáticos.\n- Oral/escrito não determina formal/informal.\n- Avalie o texto no contexto; não discrimine o falante por sotaque.\n- Classifique pelo contraste apresentado, sem deduzir origem, escolaridade ou inteligência sem evidência.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Variação linguística: critérios, contextos e avaliação de usos</h3><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Por onde começar</h4><p>Uma língua reúne modos de falar e escrever associados a comunidades, situações e trajetórias. <strong>Variação</strong> é a possibilidade de diferentes realizações; <strong>variedade</strong> é um conjunto de usos característico de um grupo ou contexto; <strong>variante</strong> é uma realização em relação a outras possíveis. Não se deve confundir variação com simples desatenção, erro de digitação ou desconhecimento de uma regra específica.</p><p>Para analisar, pergunte: o que mudou, entre quais falantes ou situações, e qual fator o enunciado destaca? Uma palavra isolada não determina a classe social, a escolaridade ou a capacidade intelectual de seu usuário. As diferenças podem aparecer no vocabulário, na pronúncia, nas formas gramaticais, na construção das frases e na organização da interação.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Quatro recortes úteis, com fatores que se cruzam</h4><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Recorte</th><th class=\"p-2 border border-slate-300 text-left\">O que compara</th><th class=\"p-2 border border-slate-300 text-left\">Exemplo autoral e limite</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Diatópico/geográfico</td><td class=\"p-2 border border-slate-200 align-top\">Usos relacionados ao espaço e às comunidades</td><td class=\"p-2 border border-slate-200 align-top\">Denominações regionais para um alimento. Não significa que toda pessoa de uma região use apenas uma forma.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Diastrático/social</td><td class=\"p-2 border border-slate-200 align-top\">Usos relacionados a grupos, redes, profissões e trajetórias</td><td class=\"p-2 border border-slate-200 align-top\">Vocabulário de jogadores ou de uma profissão. Não é sinônimo de linguagem de pessoas com pouca escolaridade.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Diafásico/situacional</td><td class=\"p-2 border border-slate-200 align-top\">Ajustes conforme interlocutor, objetivo, gênero e monitoramento</td><td class=\"p-2 border border-slate-200 align-top\">A mesma profissional explica um procedimento de modos diferentes a um colega e a um iniciante. Não exige passar sempre de formal para informal.</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Diacrônico/histórico</td><td class=\"p-2 border border-slate-200 align-top\">Mudanças e permanências observadas ao longo do tempo</td><td class=\"p-2 border border-slate-200 align-top\">Comparar grafias de documentos de épocas distintas. Uma diferença entre pessoas de idades diferentes, sozinha, não comprova mudança histórica consumada.</td></tr></tbody></table></div><p>Esses recortes são ferramentas de análise, não compartimentos exclusivos. Um termo profissional pode ser característico de um grupo e ser escolhido ou evitado conforme o interlocutor. Se a questão destaca <strong>a mesma pessoa alternando o registro</strong>, a explicação principal é situacional. Se compara a circulação de termos <strong>entre grupos</strong>, o foco é social. Justifique pelo contraste efetivamente apresentado.</p><p>A sucessão histórica frequentemente apresentada como Vossa Mercê → vosmecê → você é uma simplificação didática. Formas e usos podem coexistir, e a história não é uma fila em que todos os falantes passam pela mesma etapa. A abreviação escrita <strong>vc</strong> não deve ser confundida com uma etapa obrigatória de mudança da pronúncia.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Norma-padrão, norma culta e registro</h4><p>Em uma distinção adotada em estudos sociolinguísticos, <strong>norma-padrão</strong> designa um modelo prescritivo de referência, enquanto <strong>norma culta</strong> se refere a usos efetivos de grupos escolarizados em situações socialmente reconhecidas. Os termos recebem tratamentos diferentes em obras e exercícios; aqui não são usados como sinônimos automáticos. “Culto”, nesse emprego técnico, não significa que outros grupos sejam desprovidos de cultura.</p><p><strong>Formalidade</strong> é uma dimensão da situação e do monitoramento. Uma pessoa escolarizada conversa informalmente com familiares. Um texto formal pode usar vocabulário simples e períodos curtos. Uma palavra difícil não torna um texto automaticamente adequado, e uma variedade regional não é, por definição, informal em qualquer situação.</p><p>Em questão que pede reescrita <strong>segundo a norma-padrão</strong>, aplique as convenções solicitadas. Em questão sobre a fala de uma personagem, investigue como os usos constroem contexto, identidade ou efeito expressivo. Ensinar a convenção formal e respeitar a variedade de origem são objetivos compatíveis: ampliar repertório não exige desqualificar pessoas.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Fala, escrita e gêneros</h4><p>Fala e escrita são modalidades, não graus fixos de formalidade. Uma sustentação oral, uma entrevista profissional e um comunicado lido em cerimônia podem ser muito monitorados. Uma mensagem escrita entre amigos pode ser coloquial. Há textos escritos feitos para leitura em voz alta, e há falas transcritas e editadas.</p><p>A fala pode recorrer à entonação, ao gesto, a pausas e a reparos; a escrita pode recorrer à pontuação, à diagramação e à revisão. Isso não torna a fala desorganizada nem a escrita sempre planejada. Examine a produção real: uma aula oral pode ser preparada, enquanto uma mensagem escrita pode ser produzida rapidamente.</p><p>Alguns materiais usam <strong>diamésica</strong> para examinar diferenças relacionadas ao meio ou à modalidade. O termo complementa os quatro recortes anteriores; não significa que a lista de quatro esgote toda classificação possível. Gênero, suporte, propósito e contexto também precisam ser considerados. Tipos e gêneros são desenvolvidos na aula 2.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Texto autoral A — Explicar para ser entendido</h4><blockquote class=\"bg-slate-100 border-l-4 border-teal-600 p-3 rounded-r-lg italic\">Na reunião técnica, Luísa disse: “Precisamos revisar a indexação do catálogo”. Ao orientar um novo voluntário, explicou: “Vamos conferir as palavras usadas para localizar cada livro”. O voluntário perguntou se deveria trocar todas elas. Luísa respondeu: “Primeiro, compare os termos com o assunto; depois me mostre as dúvidas”.</blockquote><p>1. <strong>O que permanece?</strong> O objetivo de conferir a representação dos assuntos dos livros.</p><p>2. <strong>O que muda?</strong> A formulação e o grau de pressuposição de conhecimento técnico.</p><p>3. <strong>Qual fator é destacado?</strong> A mudança de interlocutor e de finalidade imediata: variação situacional. O termo indexação também é associado a uma prática profissional, dimensão social.</p><p>4. <strong>Houve simples abandono de correção?</strong> Não. A segunda explicação é acessível e pode integrar atendimento profissional. Clareza não é sinônimo de informalidade.</p><p>5. <strong>A primeira expressão é melhor em qualquer contexto?</strong> Não. Pode ser precisa entre especialistas e pouco transparente para quem inicia.</p><p>O texto não permite deduzir a renda, a região de nascimento ou a escolaridade de Luísa. Tampouco prova que todos os profissionais de uma área usem exatamente a mesma formulação.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Texto autoral B — Avaliar uma fala sem desqualificar seu usuário</h4><blockquote class=\"bg-slate-100 border-l-4 border-teal-600 p-3 rounded-r-lg italic\">Em uma entrevista para um projeto, alguém comenta: “Pelo seu sotaque, você não deve conseguir compreender o regulamento”. A candidata responde: “Posso explicar os critérios do documento e mostrar minha experiência”.</blockquote><p>O comentário inicial associa um traço de fala a incapacidade, sem avaliar o desempenho pertinente. Isso exemplifica preconceito linguístico. Um retorno técnico diferente seria apontar uma passagem do texto escrito que precisa ser ajustada à convenção exigida, justificando a revisão. O objeto dessa avaliação é a produção no contexto, não a dignidade, a inteligência ou o valor cultural da pessoa.</p><p>Respeitar variedades não significa que toda formulação funcione igualmente bem para todo público. Se o interlocutor não compreende um jargão, explique-o. Se o gênero exige padronização, revise o texto. Não é necessário humilhar o falante nem inventar uma incapacidade a partir do sotaque.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Texto autoral C — Modalidade e planejamento</h4><blockquote class=\"bg-slate-100 border-l-4 border-teal-600 p-3 rounded-r-lg italic\">Situação 1: uma pesquisadora apresenta oralmente uma exposição preparada, com termos definidos e roteiro.</blockquote><blockquote class=\"bg-slate-100 border-l-4 border-teal-600 p-3 rounded-r-lg italic\">Situação 2: dois colegas trocam mensagens escritas: “chego já; guarda um lugar pra mim?”.</blockquote><p>A primeira é oral e planejada; a segunda é escrita e coloquial. A diferença mostra por que “oral = informal” e “escrito = formal” falham. Sem contexto adicional, não se pode transformar a mensagem particular em modelo para um ofício, nem afirmar que seus autores desconheçam a convenção formal.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Procedimento para resolver questões</h4><p>Identifique se o comando pede descrição de uso, adequação ou correção normativa. Localize a característica que varia. Compare as situações e justifique o fator predominante. Verifique se a alternativa transforma uma tendência em regra universal, confunde modalidade com registro ou deduz origem e capacidade a partir de um indício insuficiente.</p><p><strong>Erros recorrentes:</strong> tratar regionalismo como incapacidade; classificar toda gíria como regional; chamar qualquer troca de palavra de mudança histórica; usar quatro rótulos como lista exaustiva; confundir linguagem acessível com linguagem inadequada; afirmar que todo uso literário deve imitar um documento oficial.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Revisão ativa</h4><p>Explique por que um termo pode revelar uma prática profissional e ser selecionado conforme o público. Crie um exemplo oral formal e outro escrito coloquial. Diferencie revisão de um texto e discriminação de seu autor. Reescreva uma instrução técnica para um iniciante, preservando informação e precisão. Depois confira se a mudança realmente atende ao novo interlocutor.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Referências e alcance</h4><p>O item obrigatório é Variação linguística, no Anexo IV do concurso. Referências pedagógicas complementares: CEALE/UFMG, verbete Variação linguística, Marcos Bagno; SME Goiânia, Variações linguísticas, seções de fatores e adequação; SEDU/ES, habilidade EF69LP55. Os currículos escolares são apoio didático, não documentos da IBGP. O material do CEALE sobre norma culta e norma-padrão foi localizado na busca, mas a abertura integral falhou; a distinção fica registrada para confronto adicional antes de validação integral. Os três textos e as análises são autorais e não descrevem pessoas ou eventos reais.</p></div><!-- REVISAO:VARIACAO --><h3>Revisão interdisciplinar: funções da linguagem e interpretação</h3><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">1. As 6 Funções da Linguagem (Jakobson) Destrinchadas para a Prova IBGP</h4><p>Nesta revisão interdisciplinar, relacione o <strong>elemento da comunicação</strong> e a <strong>função da linguagem predominante</strong> no texto (especialmente em campanhas de saúde pública e textos jornalísticos):</p><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Função da Linguagem</th><th class=\"p-2 border border-slate-300 text-left\">Elemento Focado</th><th class=\"p-2 border border-slate-300 text-left\">Marcas Textuais que Entregam a Resposta</th><th class=\"p-2 border border-slate-300 text-left\">Exemplo Prático no Contexto ACE / Saúde</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>1. Referencial (Denotativa / Informativa)</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Referente / Contexto</strong> (Assunto)</td><td class=\"p-2 border border-slate-200 align-top\">3ª pessoa, linguagem objetiva, dados estatísticos, boletins epidemiológicos, notícias.</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"Exemplo fictício: a biblioteca abriu uma sala de leitura.\"</em></td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>2. Conativa (Apelativa)</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Receptor / Destinatário</strong></td><td class=\"p-2 border border-slate-200 align-top\">Verbos no <strong>Imperativo</strong> (<em>Elimine, Tampe, Receba</em>), vocativos (<em>Morador!</em>), destinatário (<em>você</em>, com flexão verbal de 3ª pessoa).</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"Morador, receba o Agente de Combate às Endemias e elimine a água parada!\"</em> (Campanhas da SEMUSA).</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>3. Emotiva (Expressiva)</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Emissor / Locutor</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>1ª pessoa</strong> (<em>eu sinto, minha dor</em>), interjeições, exclamações, subjetividade.</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"Senti um alívio imenso quando minha febre finalmente cedeu...\"</em></td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>4. Fática</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Canal / Contato</strong></td><td class=\"p-2 border border-slate-200 align-top\">Testar se o canal funciona ou abrir/manter/fechar conversa (<em>\"Alô?\", \"Bom dia, tudo bem?\", \"Entende?\"</em>).</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"Bom dia, dona Maria! Tudo bem com a senhora? Posso fazer a vistoria do quintal?\"</em></td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>5. Metalinguística</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Código</strong> (o código explicando o próprio código)</td><td class=\"p-2 border border-slate-200 align-top\">Dicionário definindo uma palavra, poema falando sobre como fazer um poema, gramática.</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"A palavra 'endemia' deriva do grego 'éndemos' e designa a presença constante de uma doença...\"</em></td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>6. Poética</strong></td><td class=\"p-2 border border-slate-200 align-top\"><strong>Mensagem</strong> (estética/forma)</td><td class=\"p-2 border border-slate-200 align-top\">Rimas, ritmo, sonoridade, figuras de linguagem, elaboração artística da frase.</td><td class=\"p-2 border border-slate-200 align-top\"><em>\"Água limpa ou parada, / se não for bem cuidada, / vira casa de mosquito.\"</em></td></tr></tbody></table></div><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">2. Variação Linguística: As 4 Dimensões (\"DIA-TO / DIA-STRA / DIA-FÁ / DIA-CRÔ\")</h4><p>1. <strong>Diatópica (Geográfica / Regional):</strong> Muda conforme o <strong>lugar/região</strong> (ex.: <em>macaxeira / mandioca / aipim</em>; vocabulário ribeirinho amazônico de Porto Velho, como <em>igarapé, banzeiro, carapanã</em>).</p><p>2. <strong>Diastrática (Social):</strong> Muda conforme o <strong>grupo social, faixa etária ou profissão</strong> (ex.: jargão técnico médico/epidemiológico do ACE vs. gíria juvenil).</p><p>3. <strong>Diafásica (Situacional / Registro):</strong> O <strong>mesmo falante</strong> adapta sua fala conforme a <strong>situação comunicativa</strong> (formal no relatório do SINAN vs. informal conversando com a família em casa).</p><p>4. <strong>Diacrônica (Histórica / Temporal):</strong> Muda ao longo do <strong>tempo</strong> (ex.: <em>Vossa Mercê -> vosmecê -> você</em>; <em>pharmacia -> farmácia</em>).</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">3. Os 3 Distratores (\"Armadilhas\") de Interpretação da Banca IBGP</h4><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Armadilha 1 — Extrapolação:</strong> A alternativa traz uma informação que até pode ser verdadeira no mundo real, mas <strong>NÃO está sustentada pelo texto</strong> nem por seus pressupostos.</li><li><strong>Armadilha 2 — Redução / Generalização Indevida:</strong> O texto diz <em>\"Alguns moradores recusaram a visita\"</em>, e a alternativa afirma <em>\"Todos os moradores rejeitam a atuação estatal\"</em> (cuidado com <strong>sempre, nunca, todos, apenas, exclusivamente</strong>).</li><li><strong>Armadilha 3 — Troca de Causa por Consequência:</strong> O texto diz <em>\"Devido ao acúmulo de lixo (CAUSA), aumentou a população de roedores (CONSEQUÊNCIA)\"</em>, e a alternativa inverte dizendo que o aumento de roedores causou o descarte de lixo.</li></ul></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Variedade e variante não são incapacidade ou ausência de regras.</li><li>Geografia, grupo, situação e tempo podem atuar simultaneamente.</li><li>Norma-padrão, usos cultos e formalidade não são sinônimos automáticos.</li><li>Oral/escrito não determina formal/informal.</li><li>Avalie o texto no contexto; não discrimine o falante por sotaque.</li><li>Classifique pelo contraste apresentado, sem deduzir origem, escolaridade ou inteligência sem evidência.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Em um cartaz fictício de orientação ao público com os dizeres: 'Morador, não dê folga para o mosquito! Limpe as calhas, vede a caixa d’água e receba o Agente de Combate às Endemias', predomina a função da linguagem:",
+          "options": [
+            "A) Metalinguística, pois o cartaz conceitua cientificamente o vocábulo mosquito.",
+            "B) Conativa (ou apelativa), pois o foco recai sobre o receptor/destinatário, utilizando vocativo e verbos no modo imperativo com o objetivo de persuadir e orientar o comportamento do cidadão.",
+            "C) Emotiva, pois expressa os sentimentos íntimos do autor em primeira pessoa.",
+            "D) Fática, pois limita-se a testar o funcionamento da linha telefônica."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O uso de vocativo ('Morador') e verbos no imperativo ('não dê', 'limpe', 'vede', 'receba') voltados a influenciar a conduta do leitor caracteriza a função CONATIVA (ou apelativa), típica de campanhas educativas de saúde pública."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Quando um Agente de Combate às Endemias utiliza termos técnicos como 'índice de infestação predial', 'larvicida biológico' e 'bloqueio de transmissão' ao redigir um relatório oficial na SEMUSA, mas emprega uma linguagem simples e acolhedora ao conversar com um morador idoso durante a visita domiciliar, observa-se adequação ligada sobretudo à variação:",
+          "options": [
+            "A) Diacrônica (arcaísmo do século XVIII).",
+            "B) Diafásica (ou situacional), pois o mesmo falante monitora e adapta o grau de formalidade do seu registro de acordo com a situação comunicativa e o interlocutor.",
+            "C) Ortográfica incorreta.",
+            "D) Sintática de regência verbal."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. A variação DIAFÁSICA (ou situacional/de registro) ocorre quando o mesmo falante alterna conscientemente entre o registro formal/técnico e o registro coloquial/acessível conforme o contexto e o ouvinte."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Na frase 'Os casos de malária VOLTARAM a cair nos distritos ribeirinhos de Porto Velho após o reforço das ações de controle vetorial', o verbo destacado ('voltaram') autoriza identificar o seguinte pressuposto linguístico:",
+          "options": [
+            "A) Os casos de malária nunca haviam caído antes na história de Porto Velho.",
+            "B) Os casos de malária já haviam apresentado queda em algum momento anterior.",
+            "C) A malária foi totalmente erradicada do planeta.",
+            "D) O reforço das ações de controle vetorial aumentou o número de casos."
+          ],
+          "ans": 1,
+          "comment": "Gabarito: B. O verbo 'voltar' (na locução 'voltaram a cair') funciona como gatilho linguístico de pressuposição: só pode 'voltar a cair' aquilo que já havia caído anteriormente."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual função da linguagem predomina nas campanhas educativas de saúde pública que usam verbos no Imperativo ('Vacine-se!', 'Elimine a água parada!')?",
+          "front": "Qual função da linguagem predomina nas campanhas educativas de saúde pública que usam verbos no Imperativo ('Vacine-se!', 'Elimine a água parada!')?",
+          "b": "Função CONATIVA (ou Apelativa), centrada no receptor/destinatário.",
+          "back": "Função CONATIVA (ou Apelativa), centrada no receptor/destinatário.",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Qual é a diferença entre Variação Diatópica, Diastrática, Diafásica e Diacrônica?",
+          "front": "Qual é a diferença entre Variação Diatópica, Diastrática, Diafásica e Diacrônica?",
+          "b": "Diatópica = lugar/região (ex: carapanã/pernilongo); Diastrática = grupo social/profissão; Diafásica = situação/grau de formalidade do mesmo falante; Diacrônica = evolução no tempo.",
+          "back": "Diatópica = lugar/região (ex: carapanã/pernilongo); Diastrática = grupo social/profissão; Diafásica = situação/grau de formalidade do mesmo falante; Diacrônica = evolução no tempo.",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Qual é a diferença entre Pressuposto e Subentendido na interpretação de textos?",
+          "front": "Qual é a diferença entre Pressuposto e Subentendido na interpretação de textos?",
+          "b": "Pressuposto: ideia implícita garantida por uma marca/palavra do próprio texto (ex: 'ainda', 'parou de', 'voltou a'). Subentendido: insinuação deduzida pelo contexto, de responsabilidade do ouvinte.",
+          "back": "Pressuposto: ideia implícita garantida por uma marca/palavra do próprio texto (ex: 'ainda', 'parou de', 'voltou a'). Subentendido: insinuação deduzida pelo contexto, de responsabilidade do ouvinte.",
+          "lessonTitle": "18. Variação linguística"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 18.2 — As 4 Dimensões da Variação Linguística (Diatópica, Diastrática, Diafásica e Diacrônica), Norma-Padrão vs. Norma Culta e Adequação",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 18: Variação linguística)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 18 de Língua Portuguesa — Variação Linguística</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Os 4 Tipos de Variação Linguística (Geográfica, Social, Situacional e Histórica)</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">A Sociolinguística ensina que nenhuma língua é homogênea ou estática: a língua varia conforme o <strong>lugar</strong>, o <strong>grupo social</strong>, a <strong>situação comunicativa</strong> e a <strong>época histórica</strong>.</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Tipo de Variação</th>\n          <th class=\"p-2.5 border border-slate-700\">Fator Determinante</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Clássico de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Diatópica (Geográfica ou Regional)</td><td class=\"p-2.5 border border-slate-200\">Diferenças de vocabulário e sotaque conforme a <strong>região/espaço geográfico</strong> (regionalismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Macaxeira / mandioca / aipim</em>; <em>jerimum / abóbora</em>; <em>carapanã / muriçoca / pernilongo</em> (em RO usa-se muito <em>carapanã</em>!).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Diastrática (Social ou Cultural)</td><td class=\"p-2.5 border border-slate-200\">Diferenças associadas a <strong>grupos sociais</strong>, faixa etária, profissão (jargão técnico) ou grau de escolaridade (gírias e socioletons).</td><td class=\"p-2.5 border border-slate-200\">Jargão médico/epidemiológico (<em>arbovirose, sorotipo, profilaxia</em>) vs. gíria juvenil.</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Diafásica (Situacional ou de Registro)</td><td class=\"p-2.5 border border-slate-200\">O <strong>mesmo falante</strong> adapta seu grau de formalidade conforme o <strong>contexto/interlocutor</strong> (registro formal vs. informal/coloquial).</td><td class=\"p-2.5 border border-slate-200\">Um ACE redige um ofício em norma-padrão formal ao Secretário, mas conversa em tom coloquial e acessível com o morador na visita domiciliar.</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Diacrônica (Histórica ou Temporal)</td><td class=\"p-2.5 border border-slate-200\">Evolução das palavras e construções ao longo do <strong>tempo histórico</strong> (arcaísmos vs. neologismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Vossa Mercê $\\rightarrow$ Vosmecê $\\rightarrow$ Você $\\rightarrow$ Cê</em>; <em>Pharmacia $\\rightarrow$ Farmácia</em>.</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Diatópica (Topo = Lugar):</strong> Regionalismos (<em>carapanã / pernilongo</em>).</li>\n  <li><strong>Diastrática (Estrato = Grupo Social):</strong> Gírias e jargões profissionais.</li>\n  <li><strong>Diafásica (Fase/Situação):</strong> Formal vs. Informal (adequação ao ouvinte e ao ambiente).</li>\n  <li><strong>Diacrônica (Crono = Tempo):</strong> Evolução histórica da língua (<em>Vossa Mercê $\\rightarrow$ Você</em>).</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Durante uma visita domiciliar em um distrito de Porto Velho, o Agente de Combate às Endemias explica ao morador: \"Seu João, precisamos eliminar a água parada para reduzir possíveis criadouros de mosquitos\". Ao retornar à base, o mesmo agente registra no sistema oficial: \"Realizada orientação em saúde quanto à eliminação de potenciais criadouros de culicídeos vetores\". A mudança de linguagem realizada pelo mesmo falante para adequar-se aos diferentes interlocutores e contextos comunicativos exemplifica a variação:",
+          "options": [
+            "Diacrônica (ou histórica).",
+            "Diafásica (ou situacional/de registro).",
+            "Ortográfica arcaica.",
+            "Fonológica patológica."
+          ],
+          "ans": 1,
+          "comment": "Gabarito B. O foco está no mesmo profissional adaptando a formulação à situação e ao público: variação diafásica. A exigiria comparação histórica; C confunde registro e ortografia; D introduz julgamento patológico sem fundamento. O cenário é fictício, não transcrição de visita ou prova oficial.",
+          "revision": "20261031-variacao-contexto"
+        },
+        {
+          "auditId": "variacao-autoral-1",
+          "q": "(Autoral — básica) No texto A da exposição, qual análise contempla os dois fatores relevantes?",
+          "options": [
+            "Indexação é sempre regional; trocar a explicação é mudança histórica.",
+            "A escolha do termo se liga à prática profissional e sua explicação ao interlocutor.",
+            "A explicação acessível elimina necessariamente a precisão técnica.",
+            "As duas falas comprovam que Luísa desconhece o sentido de indexação."
+          ],
+          "ans": 1,
+          "comment": "B articula grupo profissional e situação. A troca espaço/tempo sem evidência; C cria oposição entre clareza e precisão; D deduz desconhecimento apesar da explicação."
+        },
+        {
+          "auditId": "variacao-autoral-2",
+          "q": "(Autoral — básica) Qual conclusão sobre as situações do texto C é sustentada?",
+          "options": [
+            "A exposição oral é informal por não ter sido publicada.",
+            "As mensagens escritas precisam ter a mesma formalidade de um ofício.",
+            "A modalidade, sozinha, não determina planejamento ou formalidade.",
+            "A mensagem comprova incapacidade de escrever segundo convenções formais."
+          ],
+          "ans": 2,
+          "comment": "C corresponde ao contraste: oral planejado e escrito coloquial. A e B confundem modalidade e registro; D transforma um uso contextual em incapacidade."
+        },
+        {
+          "auditId": "variacao-autoral-3",
+          "q": "(Autoral — intermediária) No texto B, o preconceito está principalmente em:",
+          "options": [
+            "exigir que o regulamento possa ser compreendido.",
+            "avaliar a experiência pertinente ao projeto.",
+            "permitir que a candidata explique os critérios.",
+            "deduzir incapacidade de compreensão a partir do sotaque."
+          ],
+          "ans": 3,
+          "comment": "D associa um traço de fala a incapacidade sem avaliação. A, B e C são procedimentos que não implicam por si discriminação linguística."
+        },
+        {
+          "auditId": "variacao-autoral-4",
+          "q": "(Autoral — intermediária) Sobre norma-padrão e norma culta, na distinção adotada na aula, é correto afirmar:",
+          "options": [
+            "Modelo prescritivo e usos efetivos de grupos escolarizados são conceitos relacionados, mas distintos.",
+            "Norma culta identifica a ausência de cultura em outros grupos.",
+            "Todo falante escolarizado usa sempre o registro formal.",
+            "Norma-padrão é a transcrição exata de toda fala escolarizada."
+          ],
+          "ans": 0,
+          "comment": "A distingue modelo e usos. B transforma termo técnico em hierarquia cultural; C ignora alternância de registro; D confunde referência prescritiva e descrição de usos. A distinção deve ser explicitada porque obras podem empregar termos de modos diferentes."
+        },
+        {
+          "auditId": "variacao-autoral-5",
+          "q": "(Autoral — avançada) Um documento antigo contém grafia hoje substituída. Para estudar mudança histórica, o procedimento mais adequado é:",
+          "options": [
+            "Concluir que a grafia antiga prova menor inteligência de seus usuários.",
+            "Comparar documentos datados, convenções de cada época e condições de uso.",
+            "Atribuir toda diferença à região, independentemente das datas.",
+            "Supor que a forma antiga deixou imediatamente de circular após uma mudança oficial."
+          ],
+          "ans": 1,
+          "comment": "B situa temporalmente a comparação e as condições. A é julgamento infundado; C ignora a dimensão temporal; D confunde alteração de convenção e desaparecimento imediato de usos."
+        },
+        {
+          "auditId": "variacao-autoral-6",
+          "q": "(Autoral — avançada) Um atendente mantém vocabulário preciso, mas explica termos a uma pessoa sem experiência no assunto. Qual conclusão é mais adequada?",
+          "options": [
+            "A fala necessariamente se tornou informal e inadequada.",
+            "O ajuste elimina qualquer relação com a área profissional.",
+            "Acessibilidade pode integrar um atendimento formal e adequado.",
+            "O ajuste demonstra mudança histórica da língua em poucos minutos."
+          ],
+          "ans": 2,
+          "comment": "C não opõe clareza e formalidade. A e B acrescentam consequências que não decorrem do ajuste; D troca adequação situacional por comparação histórica."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Como memorizar rapidamente os 4 nomes técnicos da Variação Linguística?",
+          "b": "DiaTÓPICA = Topo/Lugar (regional); DiaSTRÁTICA = Estrato/Grupo social (jargão, gíria); DiaFÁSICA = Situação/Registro (formal vs. informal); DiaCRÔNICA = Crono/Tempo (histórica).",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Na perspectiva linguística moderna cobrada em concursos, o registro coloquial é considerado um \"erro\" que deve ser banido?",
+          "b": "Não! A linguística trabalha com o conceito de ADEQUAÇÃO: o registro formal é exigido em situações oficiais/escritas, e o registro coloquial é adequado em interações informais e familiares.",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Fala e escrita determinam o grau de formalidade?",
+          "front": "Fala e escrita determinam o grau de formalidade?",
+          "b": "Não. Uma apresentação oral pode ser preparada e formal; uma mensagem escrita pode ser coloquial.",
+          "back": "Não. Uma apresentação oral pode ser preparada e formal; uma mensagem escrita pode ser coloquial.",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Uma ocorrência pode ter fatores sociais e situacionais?",
+          "front": "Uma ocorrência pode ter fatores sociais e situacionais?",
+          "b": "Sim. Um termo profissional liga-se a um grupo; sua escolha diante de um público também depende da situação.",
+          "back": "Sim. Um termo profissional liga-se a um grupo; sua escolha diante de um público também depende da situação.",
+          "lessonTitle": "18. Variação linguística"
+        },
+        {
+          "f": "Qual é a diferença entre correção contextual e preconceito linguístico?",
+          "front": "Qual é a diferença entre correção contextual e preconceito linguístico?",
+          "b": "A primeira justifica ajustes na produção segundo a finalidade; o segundo desqualifica pessoas a partir de sua variedade ou sotaque.",
+          "back": "A primeira justifica ajustes na produção segundo a finalidade; o segundo desqualifica pessoas a partir de sua variedade ou sotaque.",
+          "lessonTitle": "18. Variação linguística"
+        }
+      ]
+    }
+  ],
+  "questionsCount": 10,
+  "flashcardsCount": 8,
+  "sources": [
+    95,
+    96,
+    97,
+    119,
+    120,
+    121
+  ]
+}

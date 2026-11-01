@@ -1,0 +1,543 @@
+{
+  "id": "rlm_8",
+  "cat": "rlm",
+  "catName": "Raciocínio Lógico",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial",
+  "editalRef": "Item 8 de Raciocínio Lógico — Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial.",
+  "mindMap": {
+    "centralTitle": "8. Probabilidade e Raciocínio Lógico e Sequencial",
+    "centralSubtitle": "Item 8 de Raciocínio Lógico — Espaços Finitos, União, Condicional, Casa dos Pombos e Sequencial",
+    "branches": [
+      {
+        "title": "1. Probabilidade em Espaços Finitos",
+        "icon": "🎲",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Lei de Laplace",
+            "detail": "P(A)=n(A)/n(Ω) somente com resultados elementares equiprováveis."
+          },
+          {
+            "label": "Complementar",
+            "detail": "P(pelo menos 1) = 1 - P(nenhum)"
+          },
+          {
+            "label": "Dados e Moedas",
+            "detail": "2 dados = 36 pares; n moedas = 2ⁿ casos"
+          }
+        ]
+      },
+      {
+        "title": "2. União (\"OU\"), Interseção (\"E\") e Condicional",
+        "icon": "🎯",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Regra do OU",
+            "detail": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)"
+          },
+          {
+            "label": "Regra do E",
+            "detail": "Geral: P(A∩B)=P(A)P(B|A). Independentes: P(A)P(B). Reposição exige sorteios independentes para justificar o produto simples."
+          },
+          {
+            "label": "Condicional P(A|B)",
+            "detail": "P(A|B)=P(A∩B)/P(B), P(B)>0; contagens somente no modelo equiprovável."
+          }
+        ]
+      },
+      {
+        "title": "3. Princípio da Casa dos Pombos",
+        "icon": "🕊️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Pior Cenário",
+            "detail": "Esgotar (k - 1) de cada uma das n categorias e somar + 1"
+          },
+          {
+            "label": "Fórmula Direta",
+            "detail": "m(k−1)+1: mínimo se o pior caso for realizável. Estoques: somar min(capacidade,k−1) e acrescentar um se a meta for possível."
+          },
+          {
+            "label": "Certeza Dedutiva",
+            "detail": "Garante \"com certeza\" pelo menos k elementos do mesmo grupo"
+          }
+        ]
+      },
+      {
+        "title": "4. Raciocínio Lógico e Sequencial",
+        "icon": "📅",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Calendários",
+            "detail": "Ciclo de 7 dias (avança o resto de N ÷ 7)"
+          },
+          {
+            "label": "Posicionamento em Filas",
+            "detail": "Total = Frente + Trás - 1"
+          },
+          {
+            "label": "Espaçamento em Linha",
+            "detail": "Linha aberta, divisão exata e pontas incluídas: L/d+1; circuito fechado: L/d."
+          },
+          {
+            "label": "Calendário gregoriano",
+            "detail": "Bissexto: divisível por 4, exceto século não divisível por 400."
+          },
+          {
+            "label": "Subida com recuo",
+            "detail": "H>S e S>D≥0: teto((H−S)/(S−D))+1; H≤S: um dia."
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 8.1 — Espaço amostral, eventos e regras de probabilidade",
+      "sourceRef": "Anexo IV — Raciocínio Lógico (Item 8: Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos)",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Probabilidade: construir o modelo antes de calcular</h3><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Pré-requisitos e vocabulário</h4><p>Revise frações e porcentagens na aula 2, conjuntos na aula 6 e contagem na aula 7. Aqui, o objetivo é representar resultados possíveis e calcular chances em espaços finitos. Todos os cenários numéricos desta exposição são fictícios, criados para estudo; não são dados epidemiológicos nem procedimentos de campo.</p><p>Um <strong>experimento aleatório</strong> tem resultado não determinado antecipadamente no modelo. Sortear uma ficha numerada de uma caixa é um exemplo. <strong>Espaço amostral</strong>, representado por <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><annotation encoding=\"application/x-tex\">\\Omega</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Ω</span></span></span></span>, reúne todos os resultados possíveis; <strong>evento</strong> é um subconjunto desse espaço. Para uma ficha de 1 a 6, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Ω</mi><mo>=</mo><mo stretchy=\"false\">{</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>2</mn><mo separator=\"true\">,</mo><mn>3</mn><mo separator=\"true\">,</mo><mn>4</mn><mo separator=\"true\">,</mo><mn>5</mn><mo separator=\"true\">,</mo><mn>6</mn><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\Omega=\\{1,2,3,4,5,6\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Ω</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">2</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">3</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">4</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">5</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">6</span><span class=\"mclose\">}</span></span></span></span> e o evento número par é <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>=</mo><mo stretchy=\"false\">{</mo><mn>2</mn><mo separator=\"true\">,</mo><mn>4</mn><mo separator=\"true\">,</mo><mn>6</mn><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">A=\\{2,4,6\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mord\">2</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">4</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">6</span><span class=\"mclose\">}</span></span></span></span>.</p><p>O evento impossível é o conjunto vazio; o evento certo é o espaço inteiro. Uma probabilidade fica entre 0 e 1, inclusive. Ao atribuir probabilidades aos resultados elementares de um espaço finito, a soma deve ser 1. Uma chance de 1/4 equivale a 0,25 ou 25%, não a 0,25%.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Quando contar casos funciona</h4><p>Se cada resultado elementar tiver a mesma chance, o espaço é <strong>equiprovável</strong> e podemos calcular <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>n</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mi mathvariant=\"normal\">/</mi><mi>n</mi><mo stretchy=\"false\">(</mo><mi mathvariant=\"normal\">Ω</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A)=n(A)/n(\\Omega)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">n</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mord\">/</span><span class=\"mord mathnormal\">n</span><span class=\"mopen\">(</span><span class=\"mord\">Ω</span><span class=\"mclose\">)</span></span></span></span>. Sem essa hipótese, somamos as probabilidades dos resultados do evento. Em uma roleta com três regiões de probabilidades 1/2, 1/3 e 1/6, a chance da primeira é 1/2: contar uma região entre três daria 1/3 e estaria errado.</p><p><strong>Exemplo resolvido — dois dados honestos e independentes.</strong> Identifique os dados por cor. Um resultado é um par ordenado, como (2,6), diferente de (6,2). Há 6 escolhas para o primeiro e 6 para o segundo: 36 pares equiprováveis. A soma 8 ocorre nos pares (2,6), (3,5), (4,4), (5,3) e (6,2). Assim, sua probabilidade é 5/36. As onze somas de 2 a 12 não são equiprováveis; a soma 2 tem somente um par, enquanto a soma 7 tem seis.</p><p>Também é possível usar resultados não ordenados, mas então é preciso atribuir pesos diferentes: o par sem ordem {2,6} reúne dois pares ordenados e {4,4} reúne apenas um. Misturar contagem ordenada no numerador e não ordenada no denominador produz erro.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">União, interseção e complementar</h4><p><strong>União</strong> significa A ou B, incluindo a possibilidade de ambos; <strong>interseção</strong> significa A e B. A regra <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A\\cup B)=P(A)+P(B)-P(A\\cap B)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∪</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∩</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span></span></span></span> desconta a sobreposição. Se o comando disser exatamente um dos eventos, é preciso excluir a interseção de ambos os grupos: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mtext>exatamente um</mtext><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mo>−</mo><mn>2</mn><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(\\text{exatamente um})=P(A)+P(B)-2P(A\\cap B)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord text\"><span class=\"mord\">exatamente um</span></span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">2</span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∩</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span></span></span></span>.</p><p><strong>Exemplo resolvido — números de 1 a 30.</strong> Há 7 múltiplos de 4 e 5 múltiplos de 6. Os números 12 e 24 pertencem aos dois grupos. Logo, existem 7+5−2=10 números múltiplos de 4 ou de 6, e a chance no sorteio uniforme é 10/30=1/3. Se fossem pedidos os números múltiplos de exatamente um deles, seriam 7+5−4=8, com chance 8/30=4/15.</p><p>O <strong>complementar</strong> de A reúne os resultados em que A não ocorre: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><msup><mi>A</mi><mi>c</mi></msup><mo stretchy=\"false\">)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A^c)=1-P(A)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">c</span></span></span></span></span></span></span></span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span></span></span></span>. Para pelo menos um sucesso, pode ser mais simples calcular 1 menos a chance de nenhum. Isso é uma escolha de estratégia; não dispensa a análise das dependências.</p><p><strong>Exemplo resolvido — chuva em um modelo hipotético.</strong> Suponha chances de 40% no sábado e 30% no domingo e, expressamente, independência entre esses eventos. A chance de nenhum dia chuvoso é 0,6×0,7=0,42. A chance de pelo menos um é 1−0,42=0,58. Somar 40%+30% contaria duas vezes os fins de semana com chuva em ambos os dias. A independência é uma hipótese do exercício, não uma conclusão sobre o clima real.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Condicional e independência</h4><p>Ao saber que B ocorreu, trabalhamos com <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mi mathvariant=\"normal\">∣</mi><mi>B</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mi mathvariant=\"normal\">/</mi><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A|B)=P(A\\cap B)/P(B)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mord\">∣</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∩</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mord\">/</span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span></span></span></span>, desde que <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">P(B)&gt;0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&gt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>. Em um espaço finito equiprovável, isso se torna <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mi mathvariant=\"normal\">/</mi><mi>n</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">n(A\\cap B)/n(B)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">n</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∩</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mord\">/</span><span class=\"mord mathnormal\">n</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span></span></span></span>. A ordem importa: P(A|B) e P(B|A) podem ser diferentes.</p><p><strong>Exemplo resolvido — leitura de uma condição.</strong> Entre 40 pessoas, 25 integram a equipe de campo e 15 são da administração. Na equipe de campo, 15 têm uma qualificação; na administração, 5 têm essa qualificação. Sabendo que a pessoa sorteada uniformemente tem a qualificação, restam 20 candidatas, das quais 15 são da equipe de campo: 15/20=75%. Na pergunta inversa, sabendo que é da equipe de campo, a chance de ter a qualificação é 15/25=60%.</p><p>A regra geral da multiplicação é <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mi mathvariant=\"normal\">∣</mi><mi>A</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A\\cap B)=P(A)P(B|A)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∩</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0502em;\">B</span><span class=\"mord\">∣</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span></span></span></span>, quando <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">P(A)&gt;0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1389em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&gt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>. Só se houver <strong>independência</strong> podemos trocar P(B|A) por P(B). O conectivo E, sozinho, não prova independência. Eventos mutuamente exclusivos não podem ocorrer juntos. Se ambos têm probabilidade positiva, não são independentes: a ocorrência de um impede o outro.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Retiradas sucessivas</h4><p>Em uma caixa com 6 fichas azuis e 4 verdes, faça duas retiradas uniformes sem reposição. A chance de duas azuis é (6/10)×(5/9)=1/3. Depois da primeira azul, diminuem tanto o total quanto o número de azuis. Já para azul seguida de verde, a chance é (6/10)×(4/9)=4/15: o total diminui, mas o número de verdes não diminui depois de retirar uma azul.</p><p>Com reposição, composição restaurada e sorteios independentes, a chance de duas azuis seria (6/10)²=9/25. Para uma azul e uma verde em qualquer ordem, sem reposição, some dois caminhos disjuntos: (6/10)×(4/9)+(4/10)×(6/9)=8/15. Não multiplique por dois automaticamente: faça isso apenas quando os dois caminhos tiverem probabilidades iguais.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Revisão ativa</h4><p>Antes da conta, declare o resultado elementar, o evento e as hipóteses de sorteio. Depois, confira se o denominador mudou, se houve sobreposição e se o resultado está entre 0 e 1. Explique por que a chance de uma soma dos dados não é 1/11 e por que sem reposição nem todo numerador diminui em uma unidade.</p><p>Referências de apoio: OpenStax, Introductory Statistics, seções 3.1, 3.2 e 3.3. A exposição e os exemplos resolvidos acima têm redação própria; não reproduzem questões oficiais.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Contar favoráveis/possíveis exige equiprobabilidade. União desconta a interseção; exatamente um exclui a interseção duas vezes. P(A|B)=P(A∩B)/P(B), para P(B)>0. Regra geral: P(A∩B)=P(A)P(B|A); o produto das probabilidades simples exige independência. Sem reposição, atualize a composição conforme a cor retirada. Complemento: P(pelo menos um)=1−P(nenhum).</p></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Em uma urna numerada de 1 a 30 correspondente aos quarteirões de um bairro, sorteia-se ao acaso 1 quarteirão para auditoria. A probabilidade de o número sorteado ser múltiplo de 4 OU múltiplo de 6 é de:",
+          "options": [
+            "3/10 (30%).",
+            "1/3 (33,3%).",
+            "2/5 (40%).",
+            "7/30 (23,3%)."
+          ],
+          "ans": 1,
+          "comment": "B: 7 múltiplos de 4, 5 de 6 e 2 comuns (12 e 24); (7+5−2)/30=1/3. A equivale a 9/30, não aos dez favoráveis; C soma 7+5 sem descontar os dois comuns; D usa apenas os sete múltiplos de 4. Modelo: sorteio uniforme.",
+          "revision": "20261031"
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Uma caixa contém 6 amostras positivas e 4 amostras negativas para larvas de Aedes aegypti. Retirando-se sucessivamente e sem reposição 2 amostras ao acaso, a probabilidade de ambas serem positivas é de:",
+          "options": [
+            "1/3.",
+            "9/25.",
+            "2/5.",
+            "1/2."
+          ],
+          "ans": 0,
+          "comment": "A: (6/10)×(5/9)=1/3. B, 9/25, corresponderia a duas retiradas com reposição e independência. C, 2/5, é a proporção inicial de negativas, não a chance de duas positivas. D não coincide com os 30 pares ordenados positivos entre 90 pares possíveis. O cenário é fictício."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) A probabilidade de chover em determinado distrito no sábado é de 40% e, de forma independente, a probabilidade de chover no domingo é de 30%. A probabilidade de chover em PELO MENOS UM desses dois dias do fim de semana é:",
+          "options": [
+            "58%.",
+            "62%.",
+            "70%.",
+            "42%."
+          ],
+          "ans": 0,
+          "comment": "A: sob a independência expressamente dada, P(nenhum)=0,6×0,7=0,42; P(pelo menos um)=0,58. D é a chance do complementar; C soma 40%+30% e duplica a interseção de 12%; B não resulta da união 40%+30%−12%. O exemplo não descreve previsão meteorológica real."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) No lançamento simultâneo e independente de dois dados honestos de 6 faces, a probabilidade de a soma dos pontos obtidos nas faces superiores ser igual a 8 é:",
+          "options": [
+            "1/6.",
+            "5/36.",
+            "1/9.",
+            "7/36."
+          ],
+          "ans": 1,
+          "comment": "B: há 36 pares ordenados equiprováveis. Os cinco favoráveis são (2,6),(3,5),(4,4),(5,3),(6,2). A, C e D equivalem a 6/36, 4/36 e 7/36, respectivamente; nenhuma conta os cinco pares corretos.",
+          "revision": "20261031"
+        },
+        {
+          "auditId": "probabilidade-equiprobabilidade",
+          "q": "(Autoral — básica) Uma roleta tem três regiões com probabilidades 1/2, 1/3 e 1/6. Qual é a probabilidade de parar na primeira região?",
+          "options": [
+            "1/3, porque há três regiões.",
+            "1/2, conforme a probabilidade atribuída.",
+            "2/3, porque duas regiões ficam de fora.",
+            "1, porque uma região será escolhida."
+          ],
+          "ans": 1,
+          "comment": "B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira."
+        },
+        {
+          "auditId": "probabilidade-exatamente-um",
+          "q": "(Autoral — intermediária) Sorteia-se uniformemente um inteiro de 1 a 30. Qual a chance de ser múltiplo de exatamente um entre 4 e 6?",
+          "options": [
+            "1/3.",
+            "2/5.",
+            "4/15.",
+            "1/15."
+          ],
+          "ans": 2,
+          "comment": "C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns."
+        },
+        {
+          "auditId": "probabilidade-cores-ordem",
+          "q": "(Autoral — intermediária) Há 6 fichas azuis e 4 verdes. Em duas retiradas uniformes sem reposição, qual a chance de sair azul e depois verde?",
+          "options": [
+            "1/5.",
+            "6/25.",
+            "1/3.",
+            "4/15."
+          ],
+          "ans": 3,
+          "comment": "D: (6/10)×(4/9)=4/15. A reduz indevidamente as verdes para três; B mantém o denominador dez como se houvesse reposição; C é a chance de duas azuis."
+        },
+        {
+          "auditId": "probabilidade-exclusao-independencia",
+          "q": "(Autoral — intermediária) Dois eventos são mutuamente exclusivos e ambos têm probabilidade positiva. Qual afirmação é correta?",
+          "options": [
+            "Eles são independentes porque não ocorrem juntos.",
+            "Eles são dependentes, pois a interseção é zero e o produto das probabilidades é positivo.",
+            "A probabilidade da união é zero.",
+            "A probabilidade de um deles deve ser um."
+          ],
+          "ans": 1,
+          "comment": "B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é a fórmula da Probabilidade da União P(A ∪ B)?",
+          "b": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B).",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Como calcular a chance de pelo menos um sucesso pelo complementar?",
+          "b": "P(pelo menos um)=1−P(nenhum). Para calcular nenhum por produto, confira as dependências; usar o complemento não prova independência.",
+          "front": "Como calcular a chance de pelo menos um sucesso pelo complementar?",
+          "back": "P(pelo menos um)=1−P(nenhum). Para calcular nenhum por produto, confira as dependências; usar o complemento não prova independência.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Quando dois eventos A e B são chamados de mutuamente exclusivos?",
+          "b": "Quando não podem ocorrer simultaneamente, isto é, A ∩ B = ∅ e P(A ∩ B) = 0.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Qual o tamanho do espaço amostral no lançamento simultâneo de dois dados de 6 faces e de n moedas?",
+          "b": "Dois dados: 6 × 6 = 36 resultados possíveis. n moedas: 2ⁿ resultados possíveis.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Qual é a fórmula de P(A|B) e quando podemos usar contagens?",
+          "b": "P(A|B)=P(A∩B)/P(B), para P(B)>0. Em espaço finito equiprovável, equivale a n(A∩B)/n(B).",
+          "front": "Qual é a fórmula de P(A|B) e quando podemos usar contagens?",
+          "back": "P(A|B)=P(A∩B)/P(B), para P(B)>0. Em espaço finito equiprovável, equivale a n(A∩B)/n(B).",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "O conectivo E garante independência?",
+          "front": "O conectivo E garante independência?",
+          "b": "Não. Use P(A∩B)=P(A)P(B|A). O produto P(A)P(B) exige independência.",
+          "back": "Não. Use P(A∩B)=P(A)P(B|A). O produto P(A)P(B) exige independência.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        }
+      ],
+      "modoA_markdown": "## Probabilidade: construir o modelo antes de calcular\n\n### Pré-requisitos e vocabulário\n\nRevise frações e porcentagens na aula 2, conjuntos na aula 6 e contagem na aula 7. Aqui, o objetivo é representar resultados possíveis e calcular chances em espaços finitos. Todos os cenários numéricos desta exposição são fictícios, criados para estudo; não são dados epidemiológicos nem procedimentos de campo.\n\nUm **experimento aleatório** tem resultado não determinado antecipadamente no modelo. Sortear uma ficha numerada de uma caixa é um exemplo. **Espaço amostral**, representado por $\\Omega$, reúne todos os resultados possíveis; **evento** é um subconjunto desse espaço. Para uma ficha de 1 a 6, $\\Omega=\\{1,2,3,4,5,6\\}$ e o evento número par é $A=\\{2,4,6\\}$.\n\nO evento impossível é o conjunto vazio; o evento certo é o espaço inteiro. Uma probabilidade fica entre 0 e 1, inclusive. Ao atribuir probabilidades aos resultados elementares de um espaço finito, a soma deve ser 1. Uma chance de 1/4 equivale a 0,25 ou 25%, não a 0,25%.\n\n### Quando contar casos funciona\n\nSe cada resultado elementar tiver a mesma chance, o espaço é **equiprovável** e podemos calcular $P(A)=n(A)/n(\\Omega)$. Sem essa hipótese, somamos as probabilidades dos resultados do evento. Em uma roleta com três regiões de probabilidades 1/2, 1/3 e 1/6, a chance da primeira é 1/2: contar uma região entre três daria 1/3 e estaria errado.\n\n**Exemplo resolvido — dois dados honestos e independentes.** Identifique os dados por cor. Um resultado é um par ordenado, como (2,6), diferente de (6,2). Há 6 escolhas para o primeiro e 6 para o segundo: 36 pares equiprováveis. A soma 8 ocorre nos pares (2,6), (3,5), (4,4), (5,3) e (6,2). Assim, sua probabilidade é 5/36. As onze somas de 2 a 12 não são equiprováveis; a soma 2 tem somente um par, enquanto a soma 7 tem seis.\n\nTambém é possível usar resultados não ordenados, mas então é preciso atribuir pesos diferentes: o par sem ordem {2,6} reúne dois pares ordenados e {4,4} reúne apenas um. Misturar contagem ordenada no numerador e não ordenada no denominador produz erro.\n\n### União, interseção e complementar\n\n**União** significa A ou B, incluindo a possibilidade de ambos; **interseção** significa A e B. A regra $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$ desconta a sobreposição. Se o comando disser exatamente um dos eventos, é preciso excluir a interseção de ambos os grupos: $P(\\text{exatamente um})=P(A)+P(B)-2P(A\\cap B)$.\n\n**Exemplo resolvido — números de 1 a 30.** Há 7 múltiplos de 4 e 5 múltiplos de 6. Os números 12 e 24 pertencem aos dois grupos. Logo, existem 7+5−2=10 números múltiplos de 4 ou de 6, e a chance no sorteio uniforme é 10/30=1/3. Se fossem pedidos os números múltiplos de exatamente um deles, seriam 7+5−4=8, com chance 8/30=4/15.\n\nO **complementar** de A reúne os resultados em que A não ocorre: $P(A^c)=1-P(A)$. Para pelo menos um sucesso, pode ser mais simples calcular 1 menos a chance de nenhum. Isso é uma escolha de estratégia; não dispensa a análise das dependências.\n\n**Exemplo resolvido — chuva em um modelo hipotético.** Suponha chances de 40% no sábado e 30% no domingo e, expressamente, independência entre esses eventos. A chance de nenhum dia chuvoso é 0,6×0,7=0,42. A chance de pelo menos um é 1−0,42=0,58. Somar 40%+30% contaria duas vezes os fins de semana com chuva em ambos os dias. A independência é uma hipótese do exercício, não uma conclusão sobre o clima real.\n\n### Condicional e independência\n\nAo saber que B ocorreu, trabalhamos com $P(A|B)=P(A\\cap B)/P(B)$, desde que $P(B)>0$. Em um espaço finito equiprovável, isso se torna $n(A\\cap B)/n(B)$. A ordem importa: P(A|B) e P(B|A) podem ser diferentes.\n\n**Exemplo resolvido — leitura de uma condição.** Entre 40 pessoas, 25 integram a equipe de campo e 15 são da administração. Na equipe de campo, 15 têm uma qualificação; na administração, 5 têm essa qualificação. Sabendo que a pessoa sorteada uniformemente tem a qualificação, restam 20 candidatas, das quais 15 são da equipe de campo: 15/20=75%. Na pergunta inversa, sabendo que é da equipe de campo, a chance de ter a qualificação é 15/25=60%.\n\nA regra geral da multiplicação é $P(A\\cap B)=P(A)P(B|A)$, quando $P(A)>0$. Só se houver **independência** podemos trocar P(B|A) por P(B). O conectivo E, sozinho, não prova independência. Eventos mutuamente exclusivos não podem ocorrer juntos. Se ambos têm probabilidade positiva, não são independentes: a ocorrência de um impede o outro.\n\n### Retiradas sucessivas\n\nEm uma caixa com 6 fichas azuis e 4 verdes, faça duas retiradas uniformes sem reposição. A chance de duas azuis é (6/10)×(5/9)=1/3. Depois da primeira azul, diminuem tanto o total quanto o número de azuis. Já para azul seguida de verde, a chance é (6/10)×(4/9)=4/15: o total diminui, mas o número de verdes não diminui depois de retirar uma azul.\n\nCom reposição, composição restaurada e sorteios independentes, a chance de duas azuis seria (6/10)²=9/25. Para uma azul e uma verde em qualquer ordem, sem reposição, some dois caminhos disjuntos: (6/10)×(4/9)+(4/10)×(6/9)=8/15. Não multiplique por dois automaticamente: faça isso apenas quando os dois caminhos tiverem probabilidades iguais.\n\n### Revisão ativa\n\nAntes da conta, declare o resultado elementar, o evento e as hipóteses de sorteio. Depois, confira se o denominador mudou, se houve sobreposição e se o resultado está entre 0 e 1. Explique por que a chance de uma soma dos dados não é 1/11 e por que sem reposição nem todo numerador diminui em uma unidade.\n\nReferências de apoio: OpenStax, Introductory Statistics, seções 3.1, 3.2 e 3.3. A exposição e os exemplos resolvidos acima têm redação própria; não reproduzem questões oficiais.\n",
+      "modoB_markdown": "Contar favoráveis/possíveis exige equiprobabilidade. União desconta a interseção; exatamente um exclui a interseção duas vezes. P(A|B)=P(A∩B)/P(B), para P(B)>0. Regra geral: P(A∩B)=P(A)P(B|A); o produto das probabilidades simples exige independência. Sem reposição, atualize a composição conforme a cor retirada. Complemento: P(pelo menos um)=1−P(nenhum)."
+    },
+    {
+      "title": "Bloco 8.2 — Laboratório de tabelas, caminhos e contagem",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Laboratório: escolher a operação e conferir o resultado</h3><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Tabela de dupla entrada</h4><p>Retome a equipe fictícia de 40 pessoas: 25 da equipe de campo e 15 da administração. Quinze pessoas da equipe de campo e cinco da administração têm uma qualificação.</p><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Grupo</th><th class=\"p-2 border border-slate-300 text-left\">Com qualificação</th><th class=\"p-2 border border-slate-300 text-left\">Sem qualificação</th><th class=\"p-2 border border-slate-300 text-left\">Total</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Campo</td><td class=\"p-2 border border-slate-200 align-top\">15</td><td class=\"p-2 border border-slate-200 align-top\">10</td><td class=\"p-2 border border-slate-200 align-top\">25</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Administração</td><td class=\"p-2 border border-slate-200 align-top\">5</td><td class=\"p-2 border border-slate-200 align-top\">10</td><td class=\"p-2 border border-slate-200 align-top\">15</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\">Total</td><td class=\"p-2 border border-slate-200 align-top\">20</td><td class=\"p-2 border border-slate-200 align-top\">20</td><td class=\"p-2 border border-slate-200 align-top\">40</td></tr></tbody></table></div><p>Cada pessoa ocupa uma única célula interna. Confira linhas, colunas e total antes de calcular. Em sorteio uniforme, a chance de ser de campo e ter qualificação é 15/40. A chance de ser de campo ou ter qualificação é (25+20−15)/40=30/40=3/4. Sabendo que a pessoa tem a qualificação, a chance de ser de campo é 15/20=3/4. As duas últimas respostas coincidem numericamente neste exemplo, mas respondem a eventos diferentes; igualdade de números não autoriza trocar união por condicional.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Uma amostra de cada cor</h4><p>Uma caixa contém 3 fichas azuis e 2 verdes. Em duas retiradas uniformes sem reposição, represente os caminhos:</p><ul class=\"list-disc pl-5 space-y-1\"><li>Azul e azul: (3/5)×(2/4)=3/10.</li><li>Azul e verde: (3/5)×(2/4)=3/10.</li><li>Verde e azul: (2/5)×(3/4)=3/10.</li><li>Verde e verde: (2/5)×(1/4)=1/10.</li></ul><p>A soma é 1. Uma de cada cor corresponde a dois caminhos: 3/10+3/10=3/5. Pelo menos uma azul é o complemento de duas verdes: 1−1/10=9/10. Exatamente uma azul vale 3/5, mostrando que pelo menos uma e exatamente uma não são sinônimos.</p><p>Uma segunda solução utiliza as fichas individualmente identificadas. Há C(5,2)=10 pares igualmente prováveis, dos quais 3×2=6 têm cores diferentes. A razão 6/10 confirma 3/5. As fórmulas combinatórias e suas demonstrações estão na aula 7; aqui a contagem serve ao cálculo de probabilidade.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Contagem com repetição: aplicação delimitada</h4><p>Preserve a distinção da aula 7: permutar todas as letras de DENGUE dá 6!/2!=360 anagramas, pois os dois Es são indistinguíveis. Para ARARA, o total é 5!/(3!×2!)=10. Não se exige que os anagramas formem palavras de dicionário. Se um procedimento gerar uniformemente todos os anagramas distintos de ARARA, a chance de começar com R é 2/5: há 4!/(3!×1!)=4 favoráveis entre os 10 possíveis.</p><p>Escolher uniformemente entre letras diferentes A e R a cada etapa seria outro procedimento e não produz, por si só, a distribuição uniforme dos dez anagramas. A descrição do mecanismo importa tanto quanto a fórmula de contagem.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Diagnóstico de respostas erradas</h4><p>No exemplo da qualificação, 15/40 ignora a condição; 15/25 responde à condição inversa; 20/40 calcula a chance de ter qualificação sem informação adicional. Em retiradas, usar sempre o denominador inicial supõe reposição indevidamente. Em tabelas, somar as margens sem subtrair a interseção duplica pessoas.</p><p>Para resolver um problema novo: escreva o evento em palavras, desenhe tabela ou árvore, calcule cada caminho e confira por um segundo método quando viável. Use PA, PG e contagem como ferramentas nas aulas 6 e 7; uma lista de fórmulas repetida não substitui a modelagem do experimento.</p><p>Referências de apoio: OpenStax, Introductory Statistics, seções 3.1 a 3.3. Exemplos e cálculos autorais; não há alegação de frequência de cobrança por banca.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Use tabela para distinguir união, interseção e condição. Em árvore, multiplique probabilidades condicionais ao longo de cada caminho e some caminhos disjuntos. Uma de cada cor pode ocorrer em duas ordens. Anagramas exigem descontar letras indistinguíveis; a aula 7 desenvolve a contagem.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Em uma unidade de vigilância com 40 servidores, 25 são Agentes de Combate às Endemias (ACE), dos quais 15 possuem curso superior. Entre os outros 15 servidores administrativos, 5 possuem curso superior. Escolhendo-se um servidor ao acaso e SABENDO-SE que ele possui curso superior, a probabilidade de ele ser um ACE é de:",
+          "options": [
+            "A) 37,5% (15/40).",
+            "B) 60% (15/25).",
+            "C) 75% (15/20).",
+            "D) 50% (20/40)."
+          ],
+          "ans": 2,
+          "comment": "C: a condição restringe o sorteio aos 20 com curso superior (15 ACEs e 5 administrativos); 15/20=75%. A ignora a condição; B calcula a condição inversa (curso superior entre ACEs); D calcula a fração de todos os servidores que têm curso superior. Cenário fictício, sorteio uniforme."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) O número total de anagramas distintos que podem ser formados com as 6 letras da palavra DENGUE é igual a:",
+          "options": [
+            "A) 720.",
+            "B) 360.",
+            "C) 120.",
+            "D) 60."
+          ],
+          "ans": 1,
+          "comment": "B: são seis letras, com dois Es indistinguíveis: 6!/2!=360. A conta duas vezes cada anagrama; C usa 5!, como se houvesse apenas cinco letras; D não corresponde à divisão pelo único grupo de letras repetidas. Não se exige significado lexical. Contagem desenvolvida na aula 7."
+        },
+        {
+          "auditId": "probabilidade-caminhos",
+          "q": "(Autoral — intermediária) Uma caixa tem 3 fichas azuis e 2 verdes. Em duas retiradas uniformes sem reposição, qual a chance de sair uma ficha de cada cor, em qualquer ordem?",
+          "options": [
+            "3/10.",
+            "9/25.",
+            "3/5.",
+            "9/10."
+          ],
+          "ans": 2,
+          "comment": "C: azul-verde dá 3/10 e verde-azul também, total 3/5. A conta apenas uma ordem; B é a chance de duas azuis com reposição; D é a chance de ao menos uma azul sem reposição."
+        },
+        {
+          "auditId": "probabilidade-condicao-inversa",
+          "q": "(Autoral — intermediária) No quadro da aula, 15 das 25 pessoas da equipe de campo têm qualificação. Sabendo que a pessoa sorteada uniformemente é da equipe de campo, qual a chance de ter qualificação?",
+          "options": [
+            "37,5%.",
+            "50%.",
+            "75%.",
+            "60%."
+          ],
+          "ans": 3,
+          "comment": "D: 15/25=60%. A usa o total de quarenta e calcula a interseção sem condição; B é a proporção geral de qualificados; C responde à condição inversa, campo entre qualificados."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Como resolver rapidamente questões de probabilidade que pedem a chance de ocorrer \"PELO MENOS UM\" evento?",
+          "front": "Como resolver rapidamente questões de probabilidade que pedem a chance de ocorrer \"PELO MENOS UM\" evento?",
+          "b": "Pelo evento complementar: P(pelo menos um) = 1 − P(nenhum).",
+          "back": "Pelo evento complementar: P(pelo menos um) = 1 − P(nenhum).",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Qual condição muda o denominador em P(A|B)?",
+          "front": "Qual condição muda o denominador em P(A|B)?",
+          "b": "O evento B, com P(B)>0. Use P(A∩B)/P(B); a razão de contagens n(A∩B)/n(B) exige espaço equiprovável.",
+          "back": "O evento B, com P(B)>0. Use P(A∩B)/P(B); a razão de contagens n(A∩B)/n(B) exige espaço equiprovável.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Como calcular o número de anagramas de uma palavra com letras repetidas (ex.: ARARA)?",
+          "front": "Como calcular o número de anagramas de uma palavra com letras repetidas (ex.: ARARA)?",
+          "b": "Divide-se o fatorial do total de letras pelo fatorial de cada letra repetida: em ARARA (5 letras, 3 A e 2 R) = 5! / (3! × 2!) = 120 / 12 = 10 anagramas.",
+          "back": "Divide-se o fatorial do total de letras pelo fatorial de cada letra repetida: em ARARA (5 letras, 3 A e 2 R) = 5! / (3! × 2!) = 120 / 12 = 10 anagramas.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        }
+      ],
+      "modoA_markdown": "## Laboratório: escolher a operação e conferir o resultado\n\n### Tabela de dupla entrada\n\nRetome a equipe fictícia de 40 pessoas: 25 da equipe de campo e 15 da administração. Quinze pessoas da equipe de campo e cinco da administração têm uma qualificação.\n\n| Grupo | Com qualificação | Sem qualificação | Total |\n|---|---|---|---|\n| Campo | 15 | 10 | 25 |\n| Administração | 5 | 10 | 15 |\n| Total | 20 | 20 | 40 |\n\nCada pessoa ocupa uma única célula interna. Confira linhas, colunas e total antes de calcular. Em sorteio uniforme, a chance de ser de campo e ter qualificação é 15/40. A chance de ser de campo ou ter qualificação é (25+20−15)/40=30/40=3/4. Sabendo que a pessoa tem a qualificação, a chance de ser de campo é 15/20=3/4. As duas últimas respostas coincidem numericamente neste exemplo, mas respondem a eventos diferentes; igualdade de números não autoriza trocar união por condicional.\n\n### Uma amostra de cada cor\n\nUma caixa contém 3 fichas azuis e 2 verdes. Em duas retiradas uniformes sem reposição, represente os caminhos:\n\n- Azul e azul: (3/5)×(2/4)=3/10.\n- Azul e verde: (3/5)×(2/4)=3/10.\n- Verde e azul: (2/5)×(3/4)=3/10.\n- Verde e verde: (2/5)×(1/4)=1/10.\n\nA soma é 1. Uma de cada cor corresponde a dois caminhos: 3/10+3/10=3/5. Pelo menos uma azul é o complemento de duas verdes: 1−1/10=9/10. Exatamente uma azul vale 3/5, mostrando que pelo menos uma e exatamente uma não são sinônimos.\n\nUma segunda solução utiliza as fichas individualmente identificadas. Há C(5,2)=10 pares igualmente prováveis, dos quais 3×2=6 têm cores diferentes. A razão 6/10 confirma 3/5. As fórmulas combinatórias e suas demonstrações estão na aula 7; aqui a contagem serve ao cálculo de probabilidade.\n\n### Contagem com repetição: aplicação delimitada\n\nPreserve a distinção da aula 7: permutar todas as letras de DENGUE dá 6!/2!=360 anagramas, pois os dois Es são indistinguíveis. Para ARARA, o total é 5!/(3!×2!)=10. Não se exige que os anagramas formem palavras de dicionário. Se um procedimento gerar uniformemente todos os anagramas distintos de ARARA, a chance de começar com R é 2/5: há 4!/(3!×1!)=4 favoráveis entre os 10 possíveis.\n\nEscolher uniformemente entre letras diferentes A e R a cada etapa seria outro procedimento e não produz, por si só, a distribuição uniforme dos dez anagramas. A descrição do mecanismo importa tanto quanto a fórmula de contagem.\n\n### Diagnóstico de respostas erradas\n\nNo exemplo da qualificação, 15/40 ignora a condição; 15/25 responde à condição inversa; 20/40 calcula a chance de ter qualificação sem informação adicional. Em retiradas, usar sempre o denominador inicial supõe reposição indevidamente. Em tabelas, somar as margens sem subtrair a interseção duplica pessoas.\n\nPara resolver um problema novo: escreva o evento em palavras, desenhe tabela ou árvore, calcule cada caminho e confira por um segundo método quando viável. Use PA, PG e contagem como ferramentas nas aulas 6 e 7; uma lista de fórmulas repetida não substitui a modelagem do experimento.\n\nReferências de apoio: OpenStax, Introductory Statistics, seções 3.1 a 3.3. Exemplos e cálculos autorais; não há alegação de frequência de cobrança por banca.\n",
+      "modoB_markdown": "Use tabela para distinguir união, interseção e condição. Em árvore, multiplique probabilidades condicionais ao longo de cada caminho e some caminhos disjuntos. Uma de cada cor pode ocorrer em duas ordens. Anagramas exigem descontar letras indistinguíveis; a aula 7 desenvolve a contagem."
+    },
+    {
+      "title": "Bloco 8.3 — Garantias, princípio das gavetas e estoques limitados",
+      "modoA_markdown": "## Garantias por contagem: princípio das gavetas\n\n### Certeza e probabilidade são perguntas diferentes\n\nDistribua objetos por categorias sem deixar objeto fora nem atribuí-lo a duas categorias. Se houver mais objetos que categorias, alguma categoria terá pelo menos dois. A justificativa é uma contradição simples: com no máximo um em cada uma das m categorias, haveria no máximo m objetos.\n\nPara garantir k objetos em alguma das m categorias, m(k−1)+1 é suficiente. Com m(k−1), ainda é possível colocar k−1 em cada categoria; mais um força a meta. Esse valor também é o mínimo se essa distribuição que evita a meta for possível. Em retiradas de estoque limitado, as capacidades podem diminuir o pior caso: a fórmula não deve ser aplicada como universal.\n\n**Exemplos resolvidos.** Para garantir duas pessoas com aniversário no mesmo mês, 12 pessoas poderiam ocupar meses distintos; 13 garantem coincidência. Para garantir quatro, 36 poderiam ocupar os 12 meses com três em cada; 37 garantem quatro. Com sete categorias para o dia da semana do nascimento, 7×3+1=22 pessoas garantem quatro no mesmo grupo. Para três aniversariantes no mesmo mês, 12×2+1=25. Essas são garantias combinatórias, sem hipótese de aniversários igualmente prováveis.\n\n### Objetivos parecidos exigem contas diferentes\n\nEm um cenário fictício, há dez botas direitas e dez esquerdas, todas do mesmo modelo e tamanho. Três retiradas sem olhar garantem duas do mesmo lado: são duas categorias e queremos duas em alguma delas. Para garantir um par calçável, porém, é preciso ter um pé de cada lado. No pior caso, saem as dez direitas antes da primeira esquerda; onze retiradas garantem o par. O problema mudou de dois na mesma categoria para presença das duas categorias.\n\n### Estoques desiguais\n\nEm uma caixa fictícia, há 8 fichas A, 12 B e 15 C. Para garantir dez da mesma categoria, maximize as retiradas sem obter dez: podem sair as 8 de A, 9 de B e 9 de C. O total é 26. A 27ª retirada garante a meta. Aplicar 3×9+1=28 dá uma garantia suficiente, mas não o mínimo, porque seria impossível tirar nove fichas A.\n\nPara estoque de capacidades $c_i$ e meta de k em alguma categoria, o maior total que evita a meta é $\\sum_i\\min(c_i,k-1)$. Se o estoque permite atingir a meta, acrescente um para obter o mínimo garantido. Se todas as categorias tiverem menos que k elementos, a meta é impossível, mesmo retirando tudo.\n\nAgora peça ao menos uma de cada categoria A, B e C. O pior caso evita a categoria menos numerosa A enquanto retira todas as 12 B e 15 C: 27 retiradas ainda podem falhar; 28 garantem as três categorias. Não é a mesma conta da meta dez de alguma categoria.\n\n**Mais um exemplo preservado.** Há 10 fichas azuis, 8 verdes e 5 vermelhas. Para garantir pelo menos duas de cada cor, podem sair todas as 18 azuis e verdes e apenas uma vermelha: 19 retiradas ainda falham. Com 20, a meta é garantida. Se o objetivo fosse duas de alguma cor, bastariam quatro retiradas: três ainda poderiam ter uma de cada.\n\n### Como provar que o número é mínimo\n\nMostre primeiro uma distribuição com N−1 retiradas que ainda evita a meta. Depois demonstre que toda distribuição com N alcança o objetivo. Dar apenas uma situação favorável não prova garantia. A ordem das retiradas não precisa ser provável; basta que seja possível para funcionar como contraexemplo.\n\nPergunte sempre: alguma categoria ou cada categoria? Mesmo tipo ou tipos diferentes? Há estoque suficiente? A pergunta pede possibilidade, chance ou certeza? Em uma caixa com duas fichas A e duas B, três retiradas garantem repetição, mas duas já podem repetir; poder ocorrer é diferente de ser inevitável.\n\nReferência de apoio: David Guichard, Combinatorics and Graph Theory, seção 1.7, princípio das gavetas e generalização. As aplicações e a análise dos estoques acima foram desenvolvidas para esta aula.\n",
+      "modoB_markdown": "Garantia exige considerar todas as distribuições possíveis. m(k−1)+1 garante k em alguma das m categorias; só é mínimo se o pior caso anterior for realizável. Estoques limitados: some min(capacidade,k−1), depois acrescente 1 se a meta for possível. Alguma categoria e cada categoria são objetivos distintos.",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Garantias por contagem: princípio das gavetas</h3><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Certeza e probabilidade são perguntas diferentes</h4><p>Distribua objetos por categorias sem deixar objeto fora nem atribuí-lo a duas categorias. Se houver mais objetos que categorias, alguma categoria terá pelo menos dois. A justificativa é uma contradição simples: com no máximo um em cada uma das m categorias, haveria no máximo m objetos.</p><p>Para garantir k objetos em alguma das m categorias, m(k−1)+1 é suficiente. Com m(k−1), ainda é possível colocar k−1 em cada categoria; mais um força a meta. Esse valor também é o mínimo se essa distribuição que evita a meta for possível. Em retiradas de estoque limitado, as capacidades podem diminuir o pior caso: a fórmula não deve ser aplicada como universal.</p><p><strong>Exemplos resolvidos.</strong> Para garantir duas pessoas com aniversário no mesmo mês, 12 pessoas poderiam ocupar meses distintos; 13 garantem coincidência. Para garantir quatro, 36 poderiam ocupar os 12 meses com três em cada; 37 garantem quatro. Com sete categorias para o dia da semana do nascimento, 7×3+1=22 pessoas garantem quatro no mesmo grupo. Para três aniversariantes no mesmo mês, 12×2+1=25. Essas são garantias combinatórias, sem hipótese de aniversários igualmente prováveis.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Objetivos parecidos exigem contas diferentes</h4><p>Em um cenário fictício, há dez botas direitas e dez esquerdas, todas do mesmo modelo e tamanho. Três retiradas sem olhar garantem duas do mesmo lado: são duas categorias e queremos duas em alguma delas. Para garantir um par calçável, porém, é preciso ter um pé de cada lado. No pior caso, saem as dez direitas antes da primeira esquerda; onze retiradas garantem o par. O problema mudou de dois na mesma categoria para presença das duas categorias.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Estoques desiguais</h4><p>Em uma caixa fictícia, há 8 fichas A, 12 B e 15 C. Para garantir dez da mesma categoria, maximize as retiradas sem obter dez: podem sair as 8 de A, 9 de B e 9 de C. O total é 26. A 27ª retirada garante a meta. Aplicar 3×9+1=28 dá uma garantia suficiente, mas não o mínimo, porque seria impossível tirar nove fichas A.</p><p>Para estoque de capacidades <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>c</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">c_i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">c</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> e meta de k em alguma categoria, o maior total que evita a meta é <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mo>∑</mo><mi>i</mi></msub><mi>min</mi><mo>⁡</mo><mo stretchy=\"false\">(</mo><msub><mi>c</mi><mi>i</mi></msub><mo separator=\"true\">,</mo><mi>k</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\sum_i\\min(c_i,k-1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1.0497em;vertical-align:-0.2997em;\"></span><span class=\"mop\"><span class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\">∑</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.162em;\"><span style=\"top:-2.4003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.2997em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mop\">min</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\">c</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"katex-sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0315em;\">k</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span>. Se o estoque permite atingir a meta, acrescente um para obter o mínimo garantido. Se todas as categorias tiverem menos que k elementos, a meta é impossível, mesmo retirando tudo.</p><p>Agora peça ao menos uma de cada categoria A, B e C. O pior caso evita a categoria menos numerosa A enquanto retira todas as 12 B e 15 C: 27 retiradas ainda podem falhar; 28 garantem as três categorias. Não é a mesma conta da meta dez de alguma categoria.</p><p><strong>Mais um exemplo preservado.</strong> Há 10 fichas azuis, 8 verdes e 5 vermelhas. Para garantir pelo menos duas de cada cor, podem sair todas as 18 azuis e verdes e apenas uma vermelha: 19 retiradas ainda falham. Com 20, a meta é garantida. Se o objetivo fosse duas de alguma cor, bastariam quatro retiradas: três ainda poderiam ter uma de cada.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Como provar que o número é mínimo</h4><p>Mostre primeiro uma distribuição com N−1 retiradas que ainda evita a meta. Depois demonstre que toda distribuição com N alcança o objetivo. Dar apenas uma situação favorável não prova garantia. A ordem das retiradas não precisa ser provável; basta que seja possível para funcionar como contraexemplo.</p><p>Pergunte sempre: alguma categoria ou cada categoria? Mesmo tipo ou tipos diferentes? Há estoque suficiente? A pergunta pede possibilidade, chance ou certeza? Em uma caixa com duas fichas A e duas B, três retiradas garantem repetição, mas duas já podem repetir; poder ocorrer é diferente de ser inevitável.</p><p>Referência de apoio: David Guichard, Combinatorics and Graph Theory, seção 1.7, princípio das gavetas e generalização. As aplicações e a análise dos estoques acima foram desenvolvidas para esta aula.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Garantia exige considerar todas as distribuições possíveis. m(k−1)+1 garante k em alguma das m categorias; só é mínimo se o pior caso anterior for realizável. Estoques limitados: some min(capacidade,k−1), depois acrescente 1 se a meta for possível. Alguma categoria e cada categoria são objetivos distintos.</p></div>",
+      "questions": [
+        {
+          "q": "(Autoral — cenário fictício) Em uma reunião do setor de Vigilância Ambiental da SEMUSA Porto Velho, estão presentes vários Agentes de Combate às Endemias lotados nos distritos municipais. Qual é o número mínimo de agentes que devem estar presentes na sala para garantir que, com certeza absoluta, pelo menos 4 deles façam aniversário no mesmo mês do ano?",
+          "options": [
+            "A) 13 agentes.",
+            "B) 36 agentes.",
+            "C) 37 agentes.",
+            "D) 49 agentes."
+          ],
+          "ans": 2,
+          "comment": "C: com 36 pessoas ainda podem existir exatamente três por mês; a 37ª força quatro em algum mês. A garante apenas duas; B ainda admite a distribuição sem quatro; D garante a meta, mas excede o mínimo. Não se pressupõe equiprobabilidade dos meses."
+        },
+        {
+          "q": "(Autoral — cenário fictício) Um supervisor de campo da SEMUSA guarda em uma caixa opaca: 12 fichas de visita técnica na cor verde, 8 fichas na cor amarela e 6 fichas na cor azul, todas de mesmo tamanho e textura. Sem poder olhar o conteúdo da caixa, o supervisor retira as fichas uma a uma. Quantas fichas ele deve retirar, no mínimo, para ter a certeza absoluta de que retirou pelo menos 2 fichas de cores diferentes?",
+          "options": [
+            "A) 3 fichas.",
+            "B) 13 fichas.",
+            "C) 14 fichas.",
+            "D) 21 fichas."
+          ],
+          "ans": 1,
+          "comment": "B: doze retiradas ainda podem ser todas verdes, mas a 13ª terá outra cor. A e C confundem ou excedem o limite: três ainda podem ser todas verdes e quatorze já não é o mínimo. D é suficiente, porém também excede treze. Objetivo: duas fichas com cores distintas, não duas de cada cor."
+        },
+        {
+          "auditId": "probabilidade-estoque",
+          "q": "(Autoral — avançada) Uma caixa contém 8 fichas A, 12 B e 15 C. Sem olhar, qual o mínimo de retiradas para garantir dez de alguma categoria?",
+          "options": [
+            "26.",
+            "27.",
+            "28.",
+            "35."
+          ],
+          "ans": 1,
+          "comment": "B: a maior retirada que evita dez é 8+9+9=26; a próxima força a meta. A ainda pode falhar; C aplica o limite genérico sem aproveitar o estoque A; D garante, mas não é mínimo."
+        },
+        {
+          "auditId": "probabilidade-cada-cor",
+          "q": "(Autoral — avançada) Há 10 fichas azuis, 8 verdes e 5 vermelhas. Qual o mínimo de retiradas sem olhar para garantir pelo menos duas de cada cor?",
+          "options": [
+            "4.",
+            "18.",
+            "19.",
+            "20."
+          ],
+          "ans": 3,
+          "comment": "D: 19 ainda podem ser 10 azuis+8 verdes+1 vermelha; a 20ª garante a segunda vermelha, e nenhuma outra cor pode ter menos de duas com vinte retiradas. A garante duas de alguma cor, não de todas; B e C ainda podem omitir a meta vermelha."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Quando m(k−1)+1 é o mínimo para garantir k na mesma categoria?",
+          "front": "Quando m(k−1)+1 é o mínimo para garantir k na mesma categoria?",
+          "b": "É suficiente pelo princípio das gavetas e mínimo se a distribuição de k−1 em cada categoria for possível. Estoques limitados podem reduzir o mínimo; se nenhuma categoria comporta k, a meta é impossível.",
+          "back": "É suficiente pelo princípio das gavetas e mínimo se a distribuição de k−1 em cada categoria for possível. Estoques limitados podem reduzir o mínimo; se nenhuma categoria comporta k, a meta é impossível.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Qual é o raciocínio da pior hipótese para provar um mínimo garantido?",
+          "front": "Qual é o raciocínio da pior hipótese para provar um mínimo garantido?",
+          "b": "Construa uma distribuição com N−1 que ainda evita a meta e demonstre que toda distribuição com N a atinge. Diferencie alguma categoria de cada categoria.",
+          "back": "Construa uma distribuição com N−1 que ainda evita a meta e demonstre que toda distribuição com N a atinge. Diferencie alguma categoria de cada categoria.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        }
+      ]
+    },
+    {
+      "title": "Bloco 8.4 — Calendários, filas, intervalos e problemas em etapas",
+      "sourceRef": "Anexo IV — Raciocínio Lógico (Item 8: Resolução de problemas envolvendo raciocínio lógico e sequencial)",
+      "modoA": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h3 class=\"text-base font-extrabold text-teal-900 bg-teal-50 px-3 py-1.5 rounded-lg border-l-4 border-teal-600 mt-3\">Raciocínio sequencial: representar etapas e limites</h3><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Calendários e contagem de dias</h4><p>Os dias da semana formam ciclos de sete. Para avançar N dias, divida N por 7 e use o resto. Partindo de domingo, 100=14×7+2: cem dias depois é terça-feira. Para retroceder, subtraia o resto; três dias antes de segunda-feira é sexta-feira.</p><p>Daqui a dez dias significa dez dias transcorridos: hoje é o instante zero. Se uma atividade ocorre diariamente de hoje até o décimo dia, incluindo as duas extremidades, há onze datas de atividade. Leia a convenção antes de aplicar a conta.</p><p>No calendário gregoriano, um ano é bissexto se for divisível por 4, exceto os divisíveis por 100 que não sejam divisíveis por 400. Assim, 2000 foi bissexto e 2100 não será. Um intervalo de 365 dias avança um dia da semana; um de 366 avança dois. Entre uma data e a mesma data do ano seguinte, verifique se o intervalo atravessa 29 de fevereiro; não basta olhar o rótulo do ano inicial. Datas como 29 de fevereiro exigem atenção porque não existem em todos os anos.</p><p>Em um mês de 31 dias, há quatro semanas completas e três dias restantes. Portanto, os dias da semana correspondentes às datas 1, 2 e 3 aparecem cinco vezes; os outros aparecem quatro. Em um mês de 30 dias, são dois dias da semana com cinco ocorrências.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Posições e intervalos</h4><p>Se Lucas é o 14º a partir do início e o 19º a partir do fim da mesma fila, há 13 antes dele, Lucas e 18 depois: 13+1+18=32. A forma abreviada é N=a+b−1. As posições precisam se referir à mesma pessoa, na mesma fila e no mesmo momento. Não aplique a soma a pessoas diferentes sem conhecer a distância ou sobreposição entre elas.</p><p>Em uma linha aberta de 600 m, com pontos a cada 25 m e presença nas duas pontas, existem 600/25=24 intervalos e 25 pontos. A expressão L/d+1 pressupõe que L seja múltiplo de d e que ambas as extremidades sejam incluídas. É um modelo matemático, não recomendação de espaçamento de equipamentos de vigilância.</p><p>Se a linha tiver 610 m, é impossível incluir ambas as pontas mantendo todos os intervalos exatamente iguais a 25 m. Se o comando permitir intervalos de no máximo 25 m, serão necessários pelo menos 25 intervalos e 26 pontos; o último pode medir 10 m. Se houver apenas marcas a cada 25 m a partir de zero, serão 25 marcas, de 0 a 600, e o ponto 610 não estará marcado.</p><p>Em um circuito fechado de 600 m, com espaçamento exato de 25 m, há 24 pontos, não 25: o final coincide com o início. Desenhe alguns intervalos para perceber a diferença entre linha e circuito.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Avanço com recuo: a última etapa é diferente</h4><p>Considere um objeto que parte do zero, avança S metros durante o dia, recua D à noite e para ao atingir H. Se H≤S, basta um dia. Se H>S e S>D≥0, depois de n−1 ciclos completos ele está em (n−1)(S−D). No dia n chega a <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><mi>S</mi><mo>−</mo><mi>D</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>S</mi></mrow><annotation encoding=\"application/x-tex\">(n-1)(S-D)+S</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">n</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0576em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0278em;\">D</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0576em;\">S</span></span></span></span>. Exigimos que essa altura seja pelo menos H.</p><p>Isolando n e lembrando que dias são inteiros, obtemos <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>=</mo><mo stretchy=\"false\">⌈</mo><mo stretchy=\"false\">(</mo><mi>H</mi><mo>−</mo><mi>S</mi><mo stretchy=\"false\">)</mo><mi mathvariant=\"normal\">/</mi><mo stretchy=\"false\">(</mo><mi>S</mi><mo>−</mo><mi>D</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">⌉</mo><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">n=\\lceil(H-S)/(S-D)\\rceil+1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">n</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">⌈(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0813em;\">H</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0576em;\">S</span><span class=\"mclose\">)</span><span class=\"mord\">/</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.0576em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0278em;\">D</span><span class=\"mclose\">)⌉</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"katex-base\"><span class=\"katex-strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span>. O símbolo de teto significa arredondar para o inteiro imediatamente acima, mantendo o inteiro quando a divisão já é exata.</p><p><strong>Exemplo resolvido:</strong> H=11, S=4 e D=1. O cálculo é teto(7/3)+1=3+1=4 dias. As alturas máximas diurnas são 4, 7, 10 e 13; o objetivo é atingido no quarto dia. Dividir sem arredondar daria 3,33 dias, incompatível com a pergunta sobre o número de dias de avanço. Dividir H pelo saldo diário daria teto(11/3)=4 neste exemplo, por coincidência; em H=10, S=4 e D=1, a resposta correta é três dias, não quatro.</p><p>Se H>S e S≤D, o modelo usual que impede descer abaixo de zero não acumula avanço suficiente para atingir a meta. Não use a fórmula com denominador zero ou negativo. Explicite a condição física e o momento em que o movimento termina.</p><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Sequências e verificação</h4><p>Nas sequências numéricas, examine diferenças, razões, alternância e agrupamento, mas confira a regra em todas as transições. Poucos termos, sem regra adicional, podem admitir mais de uma continuação. Se a regra informada for acrescentar os ímpares sucessivos 3, 5, 7, 9, a sequência 2, 5, 10, 17 terá próximo termo 26. Não transforme uma continuação possível em necessidade lógica quando o enunciado não fornece critério suficiente. A aula 6 desenvolve sequências e deduções; aqui se aplicam os mesmos cuidados aos problemas em etapas.</p><p>Antes de concluir, teste extremos: distância zero, um único intervalo, chegada no primeiro dia, ano secular e condição já satisfeita. Um desenho, uma tabela de etapas ou a enumeração dos primeiros casos costuma revelar erros de uma unidade.</p><p>Referência para a regra do calendário: US Naval Observatory, Leap Years. Exemplos, deduções de intervalos e de subida com recuo são autorais; a referência de calendário não é apresentada como fonte desses outros modelos.</p></div>",
+      "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Datas: use dias transcorridos e resto por 7; no calendário gregoriano, séculos só são bissextos quando divisíveis por 400. Fila: N=a+b−1 para a mesma pessoa. Linha aberta: L/d+1 somente com divisão exata e ambas as pontas; circuito fechado: L/d. Subida: se H>S>D≥0, dias=teto((H−S)/(S−D))+1; H≤S exige um dia.</p></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Considere como referência um domingo, 13/12/2026, sem vincular essa data ao cronograma de qualquer concurso. Daqui a exatos 100 dias após essa data, o dia da semana será:",
+          "options": [
+            "Segunda-feira.",
+            "Terça-feira.",
+            "Quarta-feira.",
+            "Quinta-feira."
+          ],
+          "ans": 1,
+          "comment": "B: 100=14×7+2; domingo mais dois dias é terça. A, C e D corresponderiam a restos 1, 3 e 4. A contagem usa cem dias transcorridos, sem incluir o dia inicial como primeiro dia já passado.",
+          "revision": "20261031"
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Em uma fila única de atendimento de vacinação, Lucas observa que é o 14º a partir do início da fila e o 19º a contar do final da fila. O número total de pessoas nessa fila é:",
+          "options": [
+            "31 pessoas.",
+            "32 pessoas.",
+            "33 pessoas.",
+            "34 pessoas."
+          ],
+          "ans": 1,
+          "comment": "B: treze antes, Lucas e dezoito depois: 13+1+18=32. A omite Lucas; C soma as duas posições sem corrigir a dupla contagem; D acrescenta outra unidade indevida."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Ao longo de uma avenida retilínea de 600 metros de extensão, um agente deve instalar ovitrampas a cada 25 metros, colocando obrigatoriamente uma no início (marco 0 m) e uma no final (marco 600 m) da avenida. O total de ovitrampas instaladas será:",
+          "options": [
+            "23.",
+            "24.",
+            "25.",
+            "26."
+          ],
+          "ans": 2,
+          "comment": "C: 600/25=24 intervalos; incluindo ambas as pontas, são 25 pontos. B conta intervalos como pontos; A elimina dois pontos indevidamente; D adiciona duas unidades aos intervalos. É um modelo matemático fictício, não uma orientação técnica de instalação."
+        },
+        {
+          "auditId": "probabilidade-bissexto",
+          "q": "(Autoral — básica) Pela regra do calendário gregoriano, qual afirmação está correta?",
+          "options": [
+            "2100 será bissexto por ser divisível por 4.",
+            "Todo ano divisível por 100 é bissexto.",
+            "2000 foi bissexto e 2100 não será.",
+            "Nenhum ano divisível por 100 é bissexto."
+          ],
+          "ans": 2,
+          "comment": "C: 2000 é divisível por 400; 2100 é divisível por 100, mas não por 400. A omite a exceção secular; B e D ignoram a distinção pela divisibilidade por 400."
+        },
+        {
+          "auditId": "probabilidade-subida",
+          "q": "(Autoral — intermediária) Um objeto parte do zero, sobe 4 m por dia e recua 1 m à noite; para ao atingir 11 m. Em qual dia atinge o objetivo?",
+          "options": [
+            "3º.",
+            "4º.",
+            "5º.",
+            "11º."
+          ],
+          "ans": 1,
+          "comment": "B: os máximos diurnos são 4,7,10,13. O terceiro dia ainda fica abaixo de onze; o quarto alcança. C acrescenta uma etapa desnecessária; D confunde a altura com a quantidade de dias. A fórmula precisa de teto: teto(7/3)+1=4."
+        },
+        {
+          "auditId": "probabilidade-circuito",
+          "q": "(Autoral — intermediária) Um circuito fechado de 600 m terá marcas igualmente espaçadas a cada 25 m. Quantas marcas distintas serão necessárias?",
+          "options": [
+            "24.",
+            "25.",
+            "23.",
+            "26."
+          ],
+          "ans": 0,
+          "comment": "A: 600/25=24 intervalos e 24 marcas, porque início e fim coincidem. B aplica a fórmula da linha aberta; C elimina uma marca necessária; D conta indevidamente duas extremidades extras."
+        },
+        {
+          "auditId": "probabilidade-linha-nao-divisivel",
+          "q": "(Autoral — avançada) Uma linha de 610 m deve ter marcas em ambas as pontas e todos os intervalos exatamente iguais a 25 m. Qual conclusão é correta?",
+          "options": [
+            "São 25 marcas e todos os intervalos medem 25 m.",
+            "São 26 marcas e todos os intervalos medem 25 m.",
+            "São 24 marcas e todos os intervalos medem 25 m.",
+            "As exigências são incompatíveis, pois 610 não é múltiplo de 25."
+          ],
+          "ans": 3,
+          "comment": "D: um número inteiro de intervalos de 25 m não totaliza 610 m. A e C não alcançam a ponta final; B admite a última distância de dez metros se houver marcas desde zero, contrariando o intervalo exato. Com intervalos de no máximo 25 m, a pergunta seria outra."
+        },
+        {
+          "auditId": "probabilidade-sequencia-regra",
+          "q": "(Autoral — básica) Uma sequência começa em 2 e avança somando, nessa ordem, os ímpares 3,5,7,9,... . Após 2,5,10,17, qual é o próximo termo?",
+          "options": [
+            "24.",
+            "25.",
+            "26.",
+            "34."
+          ],
+          "ans": 2,
+          "comment": "C: a próxima soma é 9, então 17+9=26. A repete o incremento sete; B não aplica o incremento informado; D dobra o último termo sem respaldo na regra. A regra explícita elimina ambiguidade de continuações."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Se uma pessoa ocupa a posição A de frente para trás e a posição B de trás para frente em uma fila, qual é o total de pessoas na fila?",
+          "b": "Total = A + B - 1.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Como descobrir o dia da semana após N dias corridos?",
+          "b": "Divide-se N por 7 e avança-se o número de dias correspondente ao RESTO da divisão.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Quando uma linha com comprimento L e espaçamento d tem L/d+1 pontos?",
+          "b": "Quando L é múltiplo de d, a linha é aberta e inclui as duas pontas. Em circuito fechado com divisão exata, há L/d pontos.",
+          "front": "Quando uma linha com comprimento L e espaçamento d tem L/d+1 pontos?",
+          "back": "Quando L é múltiplo de d, a linha é aberta e inclui as duas pontas. Em circuito fechado com divisão exata, há L/d pontos.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Em um mês de 31 dias, quantos dias da semana se repetem exatamente 5 vezes?",
+          "b": "Exatamente 3 dias da semana (aqueles que caem nos dias 1, 2 e 3 do mês).",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Como calcular os dias de subida com recuo?",
+          "front": "Como calcular os dias de subida com recuo?",
+          "b": "Se H≤S, um dia. Se H>S e S>D≥0, teto((H−S)/(S−D))+1; não há recuo depois de alcançar H.",
+          "back": "Se H≤S, um dia. Se H>S e S>D≥0, teto((H−S)/(S−D))+1; não há recuo depois de alcançar H.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        },
+        {
+          "f": "Qual é a exceção secular dos anos bissextos gregorianos?",
+          "front": "Qual é a exceção secular dos anos bissextos gregorianos?",
+          "b": "Um ano divisível por 100 só é bissexto se também for divisível por 400.",
+          "back": "Um ano divisível por 100 só é bissexto se também for divisível por 400.",
+          "lessonTitle": "8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial"
+        }
+      ],
+      "modoA_markdown": "## Raciocínio sequencial: representar etapas e limites\n\n### Calendários e contagem de dias\n\nOs dias da semana formam ciclos de sete. Para avançar N dias, divida N por 7 e use o resto. Partindo de domingo, 100=14×7+2: cem dias depois é terça-feira. Para retroceder, subtraia o resto; três dias antes de segunda-feira é sexta-feira.\n\nDaqui a dez dias significa dez dias transcorridos: hoje é o instante zero. Se uma atividade ocorre diariamente de hoje até o décimo dia, incluindo as duas extremidades, há onze datas de atividade. Leia a convenção antes de aplicar a conta.\n\nNo calendário gregoriano, um ano é bissexto se for divisível por 4, exceto os divisíveis por 100 que não sejam divisíveis por 400. Assim, 2000 foi bissexto e 2100 não será. Um intervalo de 365 dias avança um dia da semana; um de 366 avança dois. Entre uma data e a mesma data do ano seguinte, verifique se o intervalo atravessa 29 de fevereiro; não basta olhar o rótulo do ano inicial. Datas como 29 de fevereiro exigem atenção porque não existem em todos os anos.\n\nEm um mês de 31 dias, há quatro semanas completas e três dias restantes. Portanto, os dias da semana correspondentes às datas 1, 2 e 3 aparecem cinco vezes; os outros aparecem quatro. Em um mês de 30 dias, são dois dias da semana com cinco ocorrências.\n\n### Posições e intervalos\n\nSe Lucas é o 14º a partir do início e o 19º a partir do fim da mesma fila, há 13 antes dele, Lucas e 18 depois: 13+1+18=32. A forma abreviada é N=a+b−1. As posições precisam se referir à mesma pessoa, na mesma fila e no mesmo momento. Não aplique a soma a pessoas diferentes sem conhecer a distância ou sobreposição entre elas.\n\nEm uma linha aberta de 600 m, com pontos a cada 25 m e presença nas duas pontas, existem 600/25=24 intervalos e 25 pontos. A expressão L/d+1 pressupõe que L seja múltiplo de d e que ambas as extremidades sejam incluídas. É um modelo matemático, não recomendação de espaçamento de equipamentos de vigilância.\n\nSe a linha tiver 610 m, é impossível incluir ambas as pontas mantendo todos os intervalos exatamente iguais a 25 m. Se o comando permitir intervalos de no máximo 25 m, serão necessários pelo menos 25 intervalos e 26 pontos; o último pode medir 10 m. Se houver apenas marcas a cada 25 m a partir de zero, serão 25 marcas, de 0 a 600, e o ponto 610 não estará marcado.\n\nEm um circuito fechado de 600 m, com espaçamento exato de 25 m, há 24 pontos, não 25: o final coincide com o início. Desenhe alguns intervalos para perceber a diferença entre linha e circuito.\n\n### Avanço com recuo: a última etapa é diferente\n\nConsidere um objeto que parte do zero, avança S metros durante o dia, recua D à noite e para ao atingir H. Se H≤S, basta um dia. Se H>S e S>D≥0, depois de n−1 ciclos completos ele está em (n−1)(S−D). No dia n chega a $(n-1)(S-D)+S$. Exigimos que essa altura seja pelo menos H.\n\nIsolando n e lembrando que dias são inteiros, obtemos $n=\\lceil(H-S)/(S-D)\\rceil+1$. O símbolo de teto significa arredondar para o inteiro imediatamente acima, mantendo o inteiro quando a divisão já é exata.\n\n**Exemplo resolvido:** H=11, S=4 e D=1. O cálculo é teto(7/3)+1=3+1=4 dias. As alturas máximas diurnas são 4, 7, 10 e 13; o objetivo é atingido no quarto dia. Dividir sem arredondar daria 3,33 dias, incompatível com a pergunta sobre o número de dias de avanço. Dividir H pelo saldo diário daria teto(11/3)=4 neste exemplo, por coincidência; em H=10, S=4 e D=1, a resposta correta é três dias, não quatro.\n\nSe H>S e S≤D, o modelo usual que impede descer abaixo de zero não acumula avanço suficiente para atingir a meta. Não use a fórmula com denominador zero ou negativo. Explicite a condição física e o momento em que o movimento termina.\n\n### Sequências e verificação\n\nNas sequências numéricas, examine diferenças, razões, alternância e agrupamento, mas confira a regra em todas as transições. Poucos termos, sem regra adicional, podem admitir mais de uma continuação. Se a regra informada for acrescentar os ímpares sucessivos 3, 5, 7, 9, a sequência 2, 5, 10, 17 terá próximo termo 26. Não transforme uma continuação possível em necessidade lógica quando o enunciado não fornece critério suficiente. A aula 6 desenvolve sequências e deduções; aqui se aplicam os mesmos cuidados aos problemas em etapas.\n\nAntes de concluir, teste extremos: distância zero, um único intervalo, chegada no primeiro dia, ano secular e condição já satisfeita. Um desenho, uma tabela de etapas ou a enumeração dos primeiros casos costuma revelar erros de uma unidade.\n\nReferência para a regra do calendário: US Naval Observatory, Leap Years. Exemplos, deduções de intervalos e de subida com recuo são autorais; a referência de calendário não é apresentada como fonte desses outros modelos.\n",
+      "modoB_markdown": "Datas: use dias transcorridos e resto por 7; no calendário gregoriano, séculos só são bissextos quando divisíveis por 400. Fila: N=a+b−1 para a mesma pessoa. Linha aberta: L/d+1 somente com divisão exata e ambas as pontas; circuito fechado: L/d. Subida: se H>S>D≥0, dias=teto((H−S)/(S−D))+1; H≤S exige um dia."
+    }
+  ],
+  "questionsCount": 24,
+  "flashcardsCount": 17,
+  "sources": [
+    96,
+    122,
+    123,
+    124,
+    125,
+    126
+  ]
+}

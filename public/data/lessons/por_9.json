@@ -1,0 +1,223 @@
+{
+  "id": "por_9",
+  "cat": "por",
+  "catName": "Língua Portuguesa",
+  "weight": "10 Questões • Peso 2 (20 pts)",
+  "title": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais",
+  "editalRef": "Item 9 de Língua Portuguesa — Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais.",
+  "mindMap": {
+    "centralTitle": "9. Verbos: Flexão, Conjugação, Vozes e Correlação",
+    "centralSubtitle": "Item 9 de Língua Portuguesa — Tempos, Modos, Irregulares e Vozes Verbais",
+    "branches": [
+      {
+        "title": "1. Modos e Tempos Verbais",
+        "icon": "⏱️",
+        "color": "teal",
+        "nodes": [
+          {
+            "label": "Indicativo (Fato)",
+            "detail": "Indicativo (apresenta o evento como certo/factual no discurso), Subjuntivo (hipótese, possibilidade, condição ou desejo) e Imperativo (ordem, instrução, pedido ou conselho)."
+          },
+          {
+            "label": "Subjuntivo (Hipótese)",
+            "detail": "Presente (que), Imperfeito (se -sse), Futuro (quando/se)"
+          }
+        ]
+      },
+      {
+        "title": "2. Conjugação de Irregulares",
+        "icon": "⚠️",
+        "color": "indigo",
+        "nodes": [
+          {
+            "label": "Intervir / Provir (= Vir)",
+            "detail": "Ele interveio (passado); se ele intervier (futuro)"
+          },
+          {
+            "label": "Manter (= Ter) e Reaver",
+            "detail": "Se ele mantiver; eles reouveram"
+          }
+        ]
+      },
+      {
+        "title": "3. Correlação Verbal",
+        "icon": "🔗",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Condição Real",
+            "detail": "Se + Futuro do Subjuntivo → Futuro do Presente"
+          },
+          {
+            "label": "Condição Hipotética",
+            "detail": "Se + Imperfeito do Subjuntivo (-sse) → Futuro do Pretérito (-ria)"
+          }
+        ]
+      },
+      {
+        "title": "4. As Vozes Verbais",
+        "icon": "🔄",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Ativa vs. Passiva Analítica",
+            "detail": "OD vira Sujeito Paciente; verbo SER + Particípio"
+          },
+          {
+            "label": "Passiva Sintética e Reflexiva",
+            "detail": "VTD + SE + Sujeito Paciente; Sujeito age sobre si mesmo"
+          }
+        ]
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "title": "Bloco 9.1 — Verbos: Flexão, Conjugação de Irregulares (Intervir, Provir, Reaver, Precaver, Ver e Vir) e Correlação entre Tempos e Modos Verbais",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 9: Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 9 de Língua Portuguesa — Sistema Verbal</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Modos, Tempos, Correlação Verbal e Verbos Derivados de TER, VIR, PÔR e VER</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">Os verbos <strong>intervir, convir e provir</strong> conjugam-se exatamente como o verbo <strong>VIR</strong>; os verbos <strong>manter, deter e conter</strong> conjugam-se como <strong>TER</strong>; e <strong>reaver</strong> conjuga-se como <strong>HAVER</strong> (mas apenas nas formas em que \"haver\" possui a letra <strong>V</strong>!).</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Tópico Verbal</th>\n          <th class=\"p-2.5 border border-slate-700\">Regra de Ouro e Formas Corretas na Norma-Padrão</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Modos e Tempos Verbais</td><td class=\"p-2.5 border border-slate-200\">• <strong>Indicativo (Certeza/Fato):</strong> Presente, Pretérito Perfeito (fato concluído: <em>visitou</em>), Pretérito Imperfeito (ação habitual/contínua no passado: <em>visitava</em>), Pretérito Mais-que-perfeito (passado anterior a outro passado: <em>visitara = tinha visitado</em>), Futuro do Presente (<em>visitará</em>) e Futuro do Pretérito (condicional: <em>visitaria</em>).<br>• <strong>Subjuntivo (Hipótese/Dúvida/Desejo):</strong> Presente (<em>que ele visite</em>), Pretérito Imperfeito (<em>se ele visitasse</em>) e Futuro (<em>quando/se ele visitar</em>).<br>• <strong>Imperativo:</strong> Ordem, pedido ou instrução.</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Correlação Verbal Clássica</td><td class=\"p-2.5 border border-slate-200\">• <strong>Se + Futuro do Subjuntivo $\\leftrightarrow$ Futuro do Presente do Indicativo:</strong> \"Se o agente <strong>intervier</strong> (fut. subj.), o foco <strong>será</strong> (fut. pres.) eliminado.\"<br>• <strong>Se + Pretérito Imperfeito do Subjuntivo $\\leftrightarrow$ Futuro do Pretérito do Indicativo:</strong> \"Se o agente <strong>interviesse</strong> (imp. subj.), o foco <strong>seria</strong> (fut. pret.) eliminado.\"<br>• <strong>Presente do Indicativo $\\leftrightarrow$ Presente do Subjuntivo:</strong> \"É fundamental que a equipe <strong>mantenha</strong> o cronograma.\"</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Verbos Campeões de Pegadinha</td><td class=\"p-2.5 border border-slate-200\">• <strong>INTERVIR (= VIR):</strong> Eu <em>intervim</em>, ele <strong>interveio</strong> (e NUNCA <em>*interviu</em>!), nós <em>interviemos</em>; se ele <strong>intervier</strong>.<br>• <strong>MANTER / DETER (= TER):</strong> Ele <strong>manteve</strong> / <strong>deteve</strong>; se ele <strong>mantiver</strong> / <strong>detiver</strong>.<br>• <strong>VER vs. VIR no Futuro do Subjuntivo:</strong> \"Quando eu <strong>vir</strong> o relatório\" (verbo VER) vs. \"Quando eu <strong>vier</strong> ao posto\" (verbo VIR).<br>• <strong>REAVER (= HAVER com V):</strong> Eu <em>reouve</em>, ele <strong>reouve</strong>, se eles <strong>reouverem</strong> (não existe <em>*reavejo</em>!).</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div><!-- AUDITORIA:POR9 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><h4 class=\"text-sm font-extrabold text-slate-900 border-b border-slate-200 pb-1 mt-2\">Formação do Imperativo, Formas Nominais, Verbos Defectivos e Abundantes</h4><p>1. <strong>Formação do Imperativo (Afirmativo e Negativo)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Imperativo Negativo</strong>: todas as pessoas vêm integralmente do <strong>Presente do Subjuntivo</strong> sem alteração (<em>Não fales tu, não fale você, não falemos nós, não faleis vós, não falem vocês</em>).</li><li><strong>Imperativo Afirmativo</strong>: <em>tu</em> e <em>vós</em> vêm do <strong>Presente do Indicativo sem o -S final</strong> (<em>tu falas → fala tu</em>; <em>vós falais → falai vós</em>; exceção: <em>ser → sê tu, sede vós</em>). As demais pessoas (<em>você, nós, vocês</em>) vêm do <strong>Presente do Subjuntivo</strong> (<em>fale você, falemos nós, falem vocês</em>). Não misture tratamento de <em>tu</em> com forma de <em>você</em> no mesmo período formal.</li></ul><p>2. <strong>Verbos Defectivos (<em>Precaver, Reaver, Abolir</em>)</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Precaver-se</strong>: não é derivado de <em>ver</em> nem de <em>vir</em>. É verbo defectivo da 2ª conjugação: no Presente do Indicativo só possui <em>nós precavemos</em> e <em>vós precaveis</em> (portanto, não possui Presente do Subjuntivo nem Imperativo Negativo). No Pretérito Perfeito e tempos derivados é regular (<em>eu me precavi, se eu me precavesse, quando eu me precaver</em>).</li><li><strong>Reaver</strong>: segue a conjugação de <em>haver</em>, mas <strong>apenas nas formas em que <em>haver</em> conserva a letra V</strong> (<em>nós reavemos, vós reaveis, eu reouve, se eu reouvesse, quando eu reouver</em>).</li></ul><p>3. <strong>Formas Nominais e Verbos Abundantes</strong>:</p><ul class=\"list-disc pl-5 space-y-1\"><li><strong>Infinitivo</strong> (pessoal/impessoal), <strong>Gerúndio</strong> (<em>-ndo</em>, processo em curso) e <strong>Particípio</strong> (<em>-ado/-ido</em> regular ou formas irregulares).</li><li>Nos <strong>verbos abundantes</strong> (<em>aceitar, entregar, enxugar, expressar, expulsar, imprimir, prender, suspender</em>), usa-se o <strong>particípio regular (<em>-ado/-ido</em>)</strong> com os auxiliares <strong>ter e haver</strong> na voz ativa (<em>tinha aceitado, havia entregado, tinha imprimido</em>) e o <strong>particípio irregular (curto)</strong> com <strong>ser e estar</strong> na voz passiva ou estado (<em>foi aceito, está entregue, foi impresso</em>).</li></ul></div>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Intervir = Vir:</strong> Ele <strong>interveio</strong> no passado; se ele <strong>intervier</strong> no futuro.</li>\n  <li><strong>Pretérito Mais-que-perfeito (-ra átono):</strong> <em>aplicara = tinha aplicado</em> (ação passada anterior a outra ação passada).</li>\n  <li><strong>Correlação frequente em hipóteses:</strong> <em>Se + -sse (Imperfeito do Subjuntivo) $\\rightarrow$ -ria (Futuro do Pretérito)</em>.</li>\n</ul><!-- AUDITORIA:POR9 --><div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Imperativo afirmativo: tu/vós vêm do Presente do Indicativo sem -S; você/nós/vocês vêm do Presente do Subjuntivo.</li><li>Precaver não deriva de ver: no presente do indicativo só tem \"nós precavemos, vós precaveis\"; no pretérito é regular (precavi, precavesse).</li><li>Verbos abundantes: ter/haver + particípio regular (-ado/-ido); ser/estar + particípio irregular.</li></ul></div>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Assinale a alternativa em que a flexão e a correlação dos tempos e modos verbais estão em total conformidade com a norma-padrão:",
+          "options": [
+            "Se o supervisor intervisse a tempo, a equipe reaveria os equipamentos extraviados.",
+            "Caso a vigilância sanitária não intervier no imóvel abandonado, o foco proliferará.",
+            "Se o poder público interviesse prontamente na área alagada, os moradores reaveriam a segurança sanitária.",
+            "O coordenador interviu na reunião assim que viu os dados do LIRAa."
+          ],
+          "ans": 2,
+          "comment": "C: interviesse segue viesse, e reaveriam é futuro do pretérito, formando hipótese coerente. A usa intervisse em lugar de interviesse. B exige intervenha depois de caso, não intervier. D exige interveio em lugar de interviu. Os exemplos são construções para análise linguística; a forma verbal não comprova resultados sanitários."
+        },
+        {
+          "q": "(Questão de estudo — origem não autenticada) Na frase \"Quando a equipe de bloqueio chegou ao quarteirão, o morador já eliminara os recipientes com água parada\", a forma verbal \"eliminara\" está flexionada no:",
+          "options": [
+            "Futuro do presente do indicativo, indicando ação posterior à chegada da equipe.",
+            "Pretérito mais-que-perfeito simples do indicativo, expressando uma ação passada concluída antes de outra ação também passada (\"chegou\").",
+            "Pretérito imperfeito do indicativo, indicando ação habitual.",
+            "Futuro do subjuntivo, indicando hipótese futura."
+          ],
+          "ans": 1,
+          "comment": "B: eliminara equivale a tinha eliminado e situa a eliminação antes da chegada, expressa por chegou. A troca anterioridade por posterioridade; C atribui habitualidade não marcada por essa forma no contexto; D troca uma afirmação de passado por uma hipótese futura."
+        },
+        {
+          "auditId": "por_9-autoral-1",
+          "q": "(Autoral — Imperativo, Verbos Defectivos e Abundantes) Assinale a alternativa inteiramente correta segundo a norma-padrão quanto à flexão verbal:",
+          "options": [
+            "Quando a equipe reouver os equipamentos que tinham sido entregues à oficina, retomará o cronograma.",
+            "Se o servidor se precavir contra acidentes e ter impresso os mapas, concluirá a rota.",
+            "Quando nós reavermos os formulários que haviam sido entregados, arquivaremos o processo.",
+            "Não conferes tu os dados sem antes verificar se a coordenação já tinha aceito o prazo."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. \"Reouver\" é o futuro do subjuntivo de reaver (segue haver: houver → reouver), e com a locução passiva \"tinham sido\" emprega-se o particípio irregular \"entregues\". B erra \"precavir\" (o correto é \"precaver\", 2ª conjugação) e \"ter impresso\" (com ter/haver usa-se \"imprimido\"); C erra \"reavermos\" (correto: \"reouvermos\"); D usa presente do indicativo no imperativo negativo de tu (correto: \"Não confiras tu\") e \"tinha aceito\" (no padrão estrito prefere-se \"tinha aceitado\")."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Qual é a forma correta do verbo INTERVIR na 3ª pessoa do singular do Pretérito Perfeito e do Futuro do Subjuntivo?",
+          "b": "Pretérito Perfeito: \"Ele INTERVEIO\" (como \"ele veio\"). Futuro do Subjuntivo: \"Se ele INTERVIER\" (como \"se ele vier\").",
+          "lessonTitle": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais"
+        },
+        {
+          "f": "Qual é a diferença entre \"Quando ele VIR\" e \"Quando ele VIER\"?",
+          "b": "\"Quando ele VIR\" é o futuro do subjuntivo do verbo VER (enxergar); \"Quando ele VIER\" é o futuro do subjuntivo do verbo VIR (deslocar-se).",
+          "lessonTitle": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais"
+        },
+        {
+          "f": "Qual tempo verbal corresponde à desinência \"-ra\" átona (ex.: fizera, cantara, saíra)?",
+          "b": "Pretérito mais-que-perfeito simples do indicativo (equivale a \"tinha feito\", \"tinha cantado\", \"tinha saído\").",
+          "lessonTitle": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais"
+        }
+      ],
+      "modoA_markdown": "\n### Formação do Imperativo, Formas Nominais, Verbos Defectivos e Abundantes\n1. **Formação do Imperativo (Afirmativo e Negativo)**:\n   - **Imperativo Negativo**: todas as pessoas vêm integralmente do **Presente do Subjuntivo** sem alteração (*Não fales tu, não fale você, não falemos nós, não faleis vós, não falem vocês*).\n   - **Imperativo Afirmativo**: *tu* e *vós* vêm do **Presente do Indicativo sem o -S final** (*tu falas → fala tu*; *vós falais → falai vós*; exceção: *ser → sê tu, sede vós*). As demais pessoas (*você, nós, vocês*) vêm do **Presente do Subjuntivo** (*fale você, falemos nós, falem vocês*). Não misture tratamento de *tu* com forma de *você* no mesmo período formal.\n2. **Verbos Defectivos (*Precaver, Reaver, Abolir*)**:\n   - **Precaver-se**: não é derivado de *ver* nem de *vir*. É verbo defectivo da 2ª conjugação: no Presente do Indicativo só possui *nós precavemos* e *vós precaveis* (portanto, não possui Presente do Subjuntivo nem Imperativo Negativo). No Pretérito Perfeito e tempos derivados é regular (*eu me precavi, se eu me precavesse, quando eu me precaver*).\n   - **Reaver**: segue a conjugação de *haver*, mas **apenas nas formas em que *haver* conserva a letra V** (*nós reavemos, vós reaveis, eu reouve, se eu reouvesse, quando eu reouver*).\n3. **Formas Nominais e Verbos Abundantes**:\n   - **Infinitivo** (pessoal/impessoal), **Gerúndio** (*-ndo*, processo em curso) e **Particípio** (*-ado/-ido* regular ou formas irregulares).\n   - Nos **verbos abundantes** (*aceitar, entregar, enxugar, expressar, expulsar, imprimir, prender, suspender*), usa-se o **particípio regular (*-ado/-ido*)** com os auxiliares **ter e haver** na voz ativa (*tinha aceitado, havia entregado, tinha imprimido*) e o **particípio irregular (curto)** com **ser e estar** na voz passiva ou estado (*foi aceito, está entregue, foi impresso*).<!-- AUDITORIA:POR9 -->\n\n### Formação do Imperativo, Formas Nominais, Verbos Defectivos e Abundantes\n1. **Formação do Imperativo (Afirmativo e Negativo)**:\n   - **Imperativo Negativo**: todas as pessoas vêm integralmente do **Presente do Subjuntivo** sem alteração (*Não fales tu, não fale você, não falemos nós, não faleis vós, não falem vocês*).\n   - **Imperativo Afirmativo**: *tu* e *vós* vêm do **Presente do Indicativo sem o -S final** (*tu falas → fala tu*; *vós falais → falai vós*; exceção: *ser → sê tu, sede vós*). As demais pessoas (*você, nós, vocês*) vêm do **Presente do Subjuntivo** (*fale você, falemos nós, falem vocês*). Não misture tratamento de *tu* com forma de *você* no mesmo período formal.\n2. **Verbos Defectivos (*Precaver, Reaver, Abolir*)**:\n   - **Precaver-se**: não é derivado de *ver* nem de *vir*. É verbo defectivo da 2ª conjugação: no Presente do Indicativo só possui *nós precavemos* e *vós precaveis* (portanto, não possui Presente do Subjuntivo nem Imperativo Negativo). No Pretérito Perfeito e tempos derivados é regular (*eu me precavi, se eu me precavesse, quando eu me precaver*).\n   - **Reaver**: segue a conjugação de *haver*, mas **apenas nas formas em que *haver* conserva a letra V** (*nós reavemos, vós reaveis, eu reouve, se eu reouvesse, quando eu reouver*).\n3. **Formas Nominais e Verbos Abundantes**:\n   - **Infinitivo** (pessoal/impessoal), **Gerúndio** (*-ndo*, processo em curso) e **Particípio** (*-ado/-ido* regular ou formas irregulares).\n   - Nos **verbos abundantes** (*aceitar, entregar, enxugar, expressar, expulsar, imprimir, prender, suspender*), usa-se o **particípio regular (*-ado/-ido*)** com os auxiliares **ter e haver** na voz ativa (*tinha aceitado, havia entregado, tinha imprimido*) e o **particípio irregular (curto)** com **ser e estar** na voz passiva ou estado (*foi aceito, está entregue, foi impresso*)."
+    },
+    {
+      "title": "Bloco 9.2 — As Vozes Verbais (Ativa, Passiva Analítica, Passiva Sintética e Reflexiva) e Transformação de Vozes na IBGP",
+      "sourceRef": "Anexo IV — Língua Portuguesa (Item 9: Vozes verbais)",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-indigo-950/90 text-white border border-indigo-700\">\n    <h4 class=\"text-base font-extrabold\">Como Transformar Voz Ativa em Passiva Sem Errar o Tempo Verbal</h4>\n    <p class=\"text-xs text-indigo-100 mt-1\">Na conversão da <strong>Voz Ativa</strong> para a <strong>Voz Passiva Analítica</strong>, o <strong>Objeto Direto</strong> vira <strong>Sujeito Paciente</strong>, o <strong>Sujeito Agente</strong> vira <strong>Agente da Passiva</strong> (introduzido por <em>por/pelo</em>) e o verbo auxiliar <strong>SER</strong> assume <u>exatamente o mesmo tempo e modo</u> do verbo principal da ativa!</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Voz Verbal</th>\n          <th class=\"p-2.5 border border-slate-700\">Estrutura Sintática</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Equivalente</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Voz Ativa</td><td class=\"p-2.5 border border-slate-200\">Sujeito Agente + VTD (ou VTDI) + Objeto Direto.</td><td class=\"p-2.5 border border-slate-200\">\"A SEMUSA <strong>eliminou</strong> os focos.\" (Pretérito Perfeito).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Voz Passiva Analítica</td><td class=\"p-2.5 border border-slate-200\">Sujeito Paciente + <strong>Verbo SER + Particípio</strong> + Agente da Passiva.</td><td class=\"p-2.5 border border-slate-200\">\"Os focos <strong>foram eliminados</strong> pela SEMUSA.\" (Verbo <em>ser</em> no Pretérito Perfeito).</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Voz Passiva Sintética (Pronominal)</td><td class=\"p-2.5 border border-slate-200\">VTD (ou VTDI) + <strong>Partícula Apassivadora \"SE\"</strong> + Sujeito Paciente (concorda no plural!).</td><td class=\"p-2.5 border border-slate-200\">\"<strong>Eliminaram-se</strong> os focos.\" (= Os focos foram eliminados).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Voz Reflexiva / Recíproca</td><td class=\"p-2.5 border border-slate-200\">O sujeito pratica e recebe a ação simultaneamente (ou mutuamente).</td><td class=\"p-2.5 border border-slate-200\">\"O agente <strong>protegeu-se</strong> com o EPI.\" / \"Os colegas <strong>cumprimentaram-se</strong>.\"</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div><h4>Limites das classificações e das transformações</h4><p>A voz ativa não se restringe a verbos transitivos diretos: em “Os visitantes chegaram cedo”, há verbo intransitivo e não existe objeto direto para promover a sujeito de uma passiva. A estrutura VTD/VTDI apresentada no quadro é o modelo usual de transformação, não uma definição de toda oração ativa. Obedecer e desobedecer são exceções lexicais reconhecidas na passivização, conforme o resumo.</p><p>As correlações são modelos contextualizados, não pares obrigatórios para qualquer frase. “Se você encontrar o documento, avise a equipe” combina futuro do subjuntivo com uma instrução. Identifique a relação de condição, a referência temporal e a intenção antes de julgar a combinação.</p>",
+      "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Regra geral:</strong> a transformação em passiva parte de uma construção transitiva direta (VTD ou VTDI). Há exceções lexicais reconhecidas: <em>obedecer</em> e <em>desobedecer</em>, embora transitivos indiretos na regência normativa, admitem passiva: \"As normas foram obedecidas\". Não se deve estender essa exceção a todo VTI. Verbos intransitivos e de ligação não fornecem objeto direto para essa transformação.</li>\n  <li><strong>Voz Passiva Sintética:</strong> $VTD + SE + \\text{Sujeito Paciente}$ (o verbo concorda obrigatoriamente com o sujeito paciente: <em>Vistoriaram-se os terrenos</em>).</li>\n</ul>",
+      "questions": [
+        {
+          "q": "(Questão de estudo — origem não autenticada) Transpondo-se a oração na voz ativa \"As equipes de endemias haviam inspecionado todos os terrenos baldios do bairro\" para a voz passiva analítica, a forma verbal resultante será:",
+          "options": [
+            "foram inspecionados.",
+            "seriam inspecionados.",
+            "haviam sido inspecionados.",
+            "tinham inspecionado-se."
+          ],
+          "ans": 2,
+          "comment": "Na locução ativa \"haviam inspecionado\" (pretérito mais-que-perfeito composto), o verbo principal está no particípio (\"inspecionado\") precedido por \"haviam\". Na passiva analítica, mantém-se o auxiliar \"haviam\", acrescenta-se \"sido\" (particípio de SER) e flexiona-se \"inspecionados\" para concordar com o sujeito paciente plural: \"Todos os terrenos baldios do bairro haviam sido inspecionados pelas equipes de endemias\"."
+        },
+        {
+          "auditId": "passiva-excecao",
+          "q": "(Autoral — aplicação) Qual análise está de acordo com a distinção da aula?",
+          "options": [
+            "Obedecer nunca admite voz passiva porque exige preposição.",
+            "As normas foram obedecidas é uma passiva admitida, apesar da regência indireta de obedecer.",
+            "Todo verbo transitivo indireto admite passiva.",
+            "Todo verbo na voz ativa exige objeto direto."
+          ],
+          "ans": 1,
+          "comment": "B reconhece a exceção lexical. A a ignora; C generaliza indevidamente a exceção; D confunde voz ativa com a estrutura que normalmente permite sua transformação em passiva."
+        },
+        {
+          "auditId": "ativa-intransitivo",
+          "q": "(Autoral — aplicação) Em “Os visitantes chegaram cedo”, qual análise é adequada?",
+          "options": [
+            "A oração está na passiva porque os visitantes recebem a chegada.",
+            "Chegaram cedo contém um objeto direto que pode virar sujeito paciente.",
+            "Há construção ativa com verbo intransitivo; não há objeto direto para a transformação usual em passiva.",
+            "Cedo é o agente da passiva."
+          ],
+          "ans": 2,
+          "comment": "C distingue a classificação de voz da possibilidade de transformação. A confunde acontecimento com passiva; B inventa objeto direto; D atribui função de agente da passiva ao advérbio cedo."
+        },
+        {
+          "auditId": "correlacao",
+          "q": "(Autoral — aplicação) Em “Se você encontrar o documento, avise a equipe”, qual afirmação é correta?",
+          "options": [
+            "A construção é inadequada porque a oração principal precisa estar no futuro do presente.",
+            "Avise está no infinitivo pessoal.",
+            "Encontrar exprime uma ação passada concluída.",
+            "Uma condição no futuro do subjuntivo pode combinar-se com uma instrução no imperativo."
+          ],
+          "ans": 3,
+          "comment": "D descreve a relação entre condição e instrução. A trata um modelo frequente como única combinação possível; B confunde imperativo com infinitivo; C atribui passado a uma condição futura."
+        },
+        {
+          "auditId": "por_9-autoral-2",
+          "q": "(Autoral — Passiva Sintética no Singular e no Plural) Compare as construções: I. \"Divulgou-se o resultado preliminar do levantamento.\" / II. \"Divulgaram-se os resultados preliminares do levantamento.\" Assinale a análise correta:",
+          "options": [
+            "Ambas estão na voz passiva sintética, pois o verbo transitivo direto concorda com o sujeito paciente no singular em I (\"o resultado\") e no plural em II (\"os resultados\").",
+            "Apenas II é voz passiva sintética, pois o pronome apassivador exige obrigatoriamente verbo no plural.",
+            "Em I ocorre índice de indeterminação do sujeito; em II ocorre voz reflexiva recíproca.",
+            "Ambas estão na voz ativa com sujeito indeterminado."
+          ],
+          "ans": 0,
+          "comment": "Gabarito: A. Na voz passiva sintética (VTD + pronome apassivador \"se\"), o verbo concorda em número e pessoa com o sujeito paciente: singular em I (\"O resultado preliminar foi divulgado\") e plural em II (\"Os resultados preliminares foram divulgados\")."
+        }
+      ],
+      "flashcards": [
+        {
+          "f": "Como funciona a concordância na Voz Passiva Sintética (VTD + SE)?",
+          "b": "O verbo concorda obrigatoriamente com o Sujeito Paciente: \"Notificaram-se dois novos casos\" (= Dois novos casos foram notificados).",
+          "lessonTitle": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais"
+        },
+        {
+          "f": "Quais tipos de verbos podem ser transpostos para a Voz Passiva?",
+          "b": "A transformação usual parte de VTD ou VTDI com objeto direto. Há exceções lexicais: obedecer e desobedecer, embora transitivos indiretos na regência normativa, admitem passiva. Não estenda essa exceção a todo VTI.",
+          "lessonTitle": "9. Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais"
+        }
+      ]
+    }
+  ],
+  "questionsCount": 8,
+  "flashcardsCount": 5,
+  "sources": [
+    95,
+    96,
+    97,
+    108
+  ]
+}
