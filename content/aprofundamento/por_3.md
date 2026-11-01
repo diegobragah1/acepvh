@@ -17,6 +17,14 @@ Parônimos têm formas semelhantes e significados diferentes, como **descrição
 
 Teste o sentido no período. Sinônimos não são substitutos universais. Possessivos podem gerar ambiguidade. Hiperônimo inclui; hipônimo especifica. Parônimos exigem atenção à forma e ao contexto.
 
+| Relação Lexical | Conceito | Pares Clássicos de Prova | Significado de Cada Forma |
+| --- | --- | --- | --- |
+| **Paronímia** | Palavras parecidas na grafia/pronúncia, mas com sentidos distintos. | *Ratificar* × *Retificar* | **Ratificar** = confirmar, validar; **Retificar** = corrigir, emendar. |
+| **Paronímia** | Semelhança formal com distinção semântica. | *Descrição* × *Discrição* | **Descrição** = ato de descrever; **Discrição** = reserva, cautela. |
+| **Paronímia** | Semelhança formal com distinção semântica. | *Infringir* × *Infligir* | **Infringir** = violar regra/lei; **Infligir** = aplicar pena ou castigo. |
+| **Homonímia** | Mesma pronúncia (ou grafia), origens/sentidos diferentes. | *Sessão* / *Seção* / *Cessão* | **Sessão** = reunião/tempo; **Seção** = setor/repartição; **Cessão** = ato de ceder. |
+| **Hiperonímia / Hiponímia** | Relação de inclusão semântica (geral → específico). | *Arbovirose* (hiperônimo) → *Dengue* (hipônimo) | O hiperônimo retoma o hipônimo sem repetir a palavra e sem restringir indevidamente. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -41,11 +49,41 @@ Qual redação elimina a ambiguidade sobre a casa a ser visitada?
 
 **Gabarito: C.** “Da moradora” explicita o referente. Os possessivos e pronomes das demais alternativas mantêm possibilidades de referência dependentes do contexto.
 
+### Questão 3
+
+Assinale a alternativa em que o parônimo ou homônimo foi empregado com precisão vocabular na frase administrativa:
+
+- A) O coordenador reuniu a equipe na sessão de endemias para retificar os erros da planilha e ratificar o cronograma.
+- B) O servidor foi à seção plenária para infringir uma multa ao proprietário.
+- C) A equipe agiu com total descrição para não alardear os dados sigilosos.
+- D) O relatório de campo precisou ser ratificado porque continha dados incorretos que exigiam correção.
+
+**Gabarito: A.** Retificar significa corrigir erros e ratificar significa confirmar/validar. Na B, multa se inflige (aplica) e repartição é seção; na C, cautela é discrição; na D, corrigir erro exige retificar.
+
+### Questão 4
+
+No trecho “A equipe recolheu pneus e garrafas no terreno. Esses recipientes foram encaminhados ao ecoponto”, o termo “recipientes” estabelece coesão por:
+
+- A) Hiperonímia, retomando pneus e garrafas por uma categoria mais abrangente.
+- B) Antonímia, opondo-se ao sentido de ecoponto.
+- C) Paronímia em relação ao verbo recolher.
+- D) Ambiguidade involuntária sem referente no período anterior.
+
+**Gabarito: A.** “Recipientes” funciona como hiperônimo que engloba os termos mais específicos mencionados anteriormente.
+
 ## Flashcards
 
 **Como testar uma substituição por sinônimo?**
 
 Releia a frase completa, conferindo sentido, intensidade, referência e registro.
+
+**Qual a diferença entre ratificar e retificar?**
+
+Ratificar é confirmar/validar; retificar é corrigir/emendar.
+
+**O que diferencia seção, sessão e cessão?**
+
+Seção = setor/divisão; Sessão = tempo de uma reunião/apresentação; Cessão = ato de ceder/doar.
 
 ## Referências de consulta
 

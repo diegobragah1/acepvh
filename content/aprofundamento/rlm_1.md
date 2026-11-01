@@ -16,9 +16,19 @@ Duas rotinas repetem-se a cada 12 e 18 dias e ocorreram juntas hoje. O próximo 
 
 O vocabulário ajuda, mas não basta: “maior” no enunciado não significa sempre MDC. Identifique se a incógnita **divide as quantidades** ou **é múltiplo dos períodos**. Para frações, lembre que o denominador determina partes do todo; somar 1/2 e 1/3 exige denominador comum, resultando em 5/6, e não em 2/5.
 
+## Quantidade de divisores naturais e relação fundamental entre MMC e MDC
+Fatorado um número natural $N = p_1^{a} cdot p_2^{b} cdot p_3^{c}$ em fatores primos, a quantidade total de divisores naturais positivos de $N$ é obtida somando $1$ a cada expoente e multiplicando os resultados: $D(N) = (a+1)(b+1)(c+1)$. Por exemplo, $72 = 2^3 cdot 3^2$ possui $(3+1)(2+1) = 12$ divisores positivos. Além disso, para quaisquer dois inteiros positivos $a$ e $b$, vale sempre a identidade $	ext{MMC}(a,b) 	imes 	ext{MDC}(a,b) = a 	imes b$.
+
 ## Resumo de revisão
 
 MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns de ciclos. Primo tem dois divisores positivos. Decimal periódico é racional. Parênteses alteram a base da potência.
+
+| Ferramenta Aritmética | Fórmulas e Regras Práticas | Gatilho no Enunciado da Prova | Pegadinha Clássica |
+| --- | --- | --- | --- |
+| **MDC (Máximo Divisor Comum)** | Produto dos fatores primos **comuns** com os **menores** expoentes. | Dividir em partes iguais de **maior tamanho possível**, sem sobra (kits, equipes, lotes). | Confundir o **tamanho de cada kit** ($	ext{MDC}$) com o **total de kits** ($	ext{Soma} div 	ext{MDC}$). |
+| **MMC (Mínimo Múltiplo Comum)** | Produto de todos os fatores primos (comuns e não comuns) com os **maiores** expoentes. | Eventos periódicos que coincidem hoje e pergunta-se **quando voltarão a coincidir**. | Se a questão pede o dia do mês ou da semana, some o $	ext{MMC}$ à data inicial. |
+| **Relação Fundamental e Divisores** | $	ext{MMC}(a,b) cdot 	ext{MDC}(a,b) = a cdot b$; nº de divisores de $p^a q^b = (a+1)(b+1)$. | Dados $	ext{MMC}$, $	ext{MDC}$ e um dos números, achar o outro imediatamente. | Esquecer que o número **1 não é primo** nem composto, e que **2 é o único primo par**. |
+| **Fração Geratriz e Potências** | $0,aaaadots = rac{a}{9}$; $0,ababdots = rac{ab}{99}$. $(-3)^2 = +9$ × $-3^2 = -9$. | Somar dízimas periódicas ou calcular expressões com módulo e potência. | Achar que dízima periódica é número irracional (toda dízima periódica pertence a $mathbb{Q}$). |
 
 ## Exercícios autorais comentados
 
@@ -44,15 +54,41 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 
 **Gabarito: D.** MMC(12,18)=36. Seis é o MDC; 18 não é múltiplo de 12; somar períodos não encontra necessariamente um reencontro.
 
+### Questão 3
+
+[Autoral] Uma coordenação de endemias recebeu 120 tubos de coleta e 180 etiquetas de identificação e deseja distribuí-los em pacotes com a mesma quantidade total de itens do mesmo tipo, de modo que cada pacote tenha a maior capacidade possível sem misturar tubos com etiquetas no mesmo pacote e sem sobra. Quantos pacotes serão formados ao todo?
+
+- A) 5 pacotes ao todo (2 pacotes de tubos e 3 pacotes de etiquetas, com 60 unidades em cada pacote).
+- B) 60 pacotes ao todo.
+- C) 300 pacotes ao todo.
+- D) 12 pacotes ao todo.
+
+**Gabarito: A.** O maior divisor comum entre 120 e 180 é MDC(120, 180) = 60 unidades por pacote. Assim, formam-se 120/60 = 2 pacotes de tubos e 180/60 = 3 pacotes de etiquetas, totalizando 2 + 3 = 5 pacotes.
+
+### Questão 4
+
+[Autoral] Sabendo que o número natural $N = 2^3 \times 3^1 \times 5^2 = 600$ representa a quantidade de imóveis de um estrato, quantos divisores naturais positivos possui o número $600$?
+
+- A) 24 divisores positivos.
+- B) 6 divisores positivos.
+- C) 10 divisores positivos.
+- D) 30 divisores positivos.
+
+**Gabarito: A.** Somando 1 a cada expoente da decomposição em fatores primos (3, 1 e 2) e multiplicando os resultados, temos: (3 + 1) × (1 + 1) × (2 + 1) = 4 × 2 × 3 = 24 divisores naturais positivos.
+
 ## Flashcards
 
 **O que distingue um problema de MMC de um de MDC?**
 
-No MMC, o resultado é múltiplo das quantidades; no MDC, divide-as.
+No MMC, o resultado é múltiplo dos períodos (encontro futuro de ciclos); no MDC, divide as quantidades em partes iguais sem sobra.
 
 **0,333… é irracional?**
 
-Não. É uma dízima periódica igual a 1/3.
+Não. É uma dízima periódica igual a 1/3, portanto um número racional (Q).
+
+**Como calcular rapidamente a quantidade de divisores positivos de um número natural fatorado?**
+
+Decomponha em fatores primos, some 1 a cada expoente e multiplique os resultados: (a+1)(b+1)(c+1).
 
 ## Referências de consulta
 

@@ -20,6 +20,14 @@ Um aviso pode informar e orientar ao mesmo tempo. Em “Morador, confira os reci
 
 Variação é constitutiva da língua. Norma-padrão é referência prescritiva; norma culta descreve usos. Adeque o registro sem preconceito e sem perder precisão. Funções podem coexistir.
 
+| Dimensão de Variação / Função | Fator Determinante / Foco Comunicativo | Exemplo Prático | Palavra-Chave de Prova |
+| --- | --- | --- | --- |
+| **Diatópica (Geográfica / Regional)** | Espaço físico, região ou localidade dos falantes. | *Jerimum / abóbora*; *igarapé / córrego*; *macaxeira / mandioca*. | Regionalismo, sotaque e léxico local. |
+| **Diastrática (Social / Grupal)** | Grupo social, faixa etária, profissão (jargão técnico). | Jargão epidemiológico (*"bloqueio de transmissão, índice de Breteau"*). | Gírias, jargões profissionais, socioleto. |
+| **Diafásica (Situacional / Registro)** | Grau de formalidade e monitoramento conforme a situação e o interlocutor. | Relatório oficial para a chefia × conversa acolhedora no portão do morador. | Adequação vocabular, estilo formal vs. informal. |
+| **Diacrônica (Histórica)** | Evolução da língua ao longo do tempo (séculos/gerações). | *Vossa Mercê → vosmecê → você*; *pharmacia → farmácia*. | Arcaísmos e mudanças históricas. |
+| **Funções da Linguagem (Jakobson)** | **Referencial** (informação), **Conativa/Apelativa** (receptor/imperativo), **Emotiva** (1ª pessoa), **Metalinguística** (código explica o código), **Fática** (canal), **Poética** (forma da mensagem). | Cartaz preventivo: *"Proteja sua família!"* (Conativa) + dados de casos (Referencial). | Identifique a função **predominante** no trecho perguntado. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,11 +52,41 @@ Qual atitude favorece comunicação pública acessível?
 
 **Gabarito: C.** A clareza adapta a expressão e conserva a informação. Preconceito, jargão opaco e promessas indevidas dificultam a compreensão.
 
+### Questão 3
+
+Quando um manual técnico da vigilância utiliza termos específicos da profissão, como “pesquisa larvária”, “tratamento focal” e “ovitrampa”, observa-se sobretudo uma variedade associada à dimensão:
+
+- A) Diastrática (jargão técnico-profissional de um grupo específico de atuação).
+- B) Diacrônica do século XVI.
+- C) Incoerente por erro de concordância.
+- D) Exclusivamente fática de teste de microfone.
+
+**Gabarito: A.** O repertório técnico compartilhado por um grupo profissional constitui manifestação da variação diastrática (social/profissional), adequada ao contexto de comunicação especializada.
+
+### Questão 4
+
+No trecho de um glossário educativo: “Vetor biológico significa o organismo, como o mosquito Aedes aegypti, no qual o agente infeccioso se multiplica antes de ser transmitido”, predomina a função da linguagem:
+
+- A) Metalinguística, pois utiliza a própria língua para definir e explicar o significado de uma expressão do código.
+- B) Fática, pois limita-se a testar se o ouvinte está na linha telefônica.
+- C) Emotiva, pois relata memórias íntimas em primeira pessoa do singular.
+- D) Apelativa exclusiva, pois contém apenas interjeições de chamamento.
+
+**Gabarito: A.** Sempre que o texto define um conceito, explica o sentido de uma palavra ou comenta a própria estrutura linguística, destaca-se a função metalinguística (o código voltado para o próprio código).
+
 ## Flashcards
 
 **Norma-padrão e norma culta são idênticas?**
 
-Não. Uma é modelo prescritivo; a outra descreve usos de determinados grupos e contextos.
+Não. Norma-padrão é modelo prescritivo idealizado; norma culta descreve os usos reais praticados por falantes escolarizados em contextos monitorados.
+
+**Quais são as 4 dimensões clássicas da variação linguística?**
+
+Diatópica (regional), Diastrática (social/profissional), Diafásica (situacional/registro) e Diacrônica (histórica).
+
+**Qual função da linguagem predomina em campanhas de vacinação e combate ao Aedes que se dirigem ao cidadão no imperativo?**
+
+A função conativa (ou apelativa), centrada no destinatário para influenciar seu comportamento.
 
 ## Referências de consulta
 

@@ -20,6 +20,14 @@ Na revisão, descubra primeiro a função de cada termo. Depois confira se os si
 
 Analise funções, não apenas pausas. Vocativo é isolado; sujeito não se separa do verbo por vírgula gratuita. Intercalações exigem delimitação. A pontuação da relativa muda o alcance da informação.
 
+| Situação Sintática | Regra de Pontuação | Exemplo Correto | Erro Clássico de Prova |
+| --- | --- | --- | --- |
+| **Ordem Direta (SVC)** | **Proibido** usar vírgula única entre Sujeito e Verbo ou entre Verbo e Complemento. | "Os agentes de combate às endemias do turno matutino **visitaram** o bairro." | Colocar vírgula após sujeito longo antes do verbo. |
+| **Termo ou Oração Intercalada** | **Obrigatório** usar **par** de vírgulas (ou par de travessões/parênteses). | "A equipe**, durante a manhã de terça-feira,** vistoriou trinta lotes." | Abrir a intercalação com vírgula e esquecer a segunda vírgula que a fecha. |
+| **Aposto Explicativo e Vocativo** | **Obrigatório** isolar por vírgula(s). | "**Morador,** mantenha o quintal limpo em Porto Velho**, capital de Rondônia**." | Confundir vocativo (isolado por vírgula) com o sujeito da oração. |
+| **Adjunto Adverbial Deslocado** | De longa extensão (3 ou mais palavras): vírgula recomendada/obrigatória; curto: facultativa. | "**Logo após o término do período chuvoso na região,** o mutirão avançou." | Afirmar que a retirada da vírgula de um adjunto curto (*Ontem,*) gera erro gramatical. |
+| **Vírgula antes da conjunção "E"** | Usa-se quando as orações coordenadas têm **sujeitos diferentes** ou em polissíndeto enfático. | "A equipe inspecionou o pátio**, e** o morador cobriu a caixa-d'água." | Achar que nunca pode existir vírgula antes da conjunção *e*. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -40,15 +48,45 @@ Qual frase contém uma intercalação corretamente delimitada?
 - A) A equipe, retornou cedo.
 - B) A equipe, segundo a supervisora, retornou cedo.
 - C) A equipe segundo, a supervisora retornou cedo.
-- D) A equipe retornou, cedo sem motivo sintático.
+- D) A equipe segundo a supervisora, retornou cedo.
 
-**Gabarito: B.** As vírgulas isolam segundo a supervisora. Na primeira, a vírgula separa indevidamente sujeito e verbo; as demais não delimitam uma unidade adequada.
+**Gabarito: B.** As duas vírgulas isolam a expressão intercalada "segundo a supervisora". Na primeira, a vírgula separa indevidamente sujeito e verbo; na terceira e na quarta, falta o par de vírgulas nas extremidades da intercalação.
+
+### Questão 3
+
+No período “Os agentes de endemias visitaram os imóveis do setor norte, e a equipe de limpeza urbana recolheu os pneus inservíveis”, a vírgula antes da conjunção “e” justifica-se porque:
+
+- A) As duas orações coordenadas possuem sujeitos diferentes (“Os agentes de endemias” e “a equipe de limpeza urbana”).
+- B) A conjunção “e” introduz uma oração subordinada adjetiva restritiva.
+- C) É obrigatório separar o verbo “visitaram” de seu objeto direto.
+- D) Trata-se de um vocativo colocado no meio do período.
+
+**Gabarito: A.** Quando orações coordenadas unidas pela conjunção “e” apresentam sujeitos distintos, a norma-padrão recomenda o emprego da vírgula antes do conectivo para evitar leitura ambígua.
+
+### Questão 4
+
+Compare: I) “Os reservatórios, que estavam destampados, receberam tela de proteção” e II) “Os reservatórios que estavam destampados receberam tela de proteção”. Sobre o efeito das vírgulas, é correto afirmar:
+
+- A) Em I, subentende-se que todos os reservatórios considerados estavam destampados; em II, apenas o subconjunto dos que estavam destampados recebeu tela.
+- B) As duas frases possuem exatamente o mesmo sentido e alcance semântico.
+- C) A frase II apresenta erro de pontuação por omitir vírgula entre sujeito e verbo.
+- D) Em I, o trecho entre vírgulas funciona como objeto direto de receberam.
+
+**Gabarito: A.** A oração adjetiva explicativa (isolada por vírgulas em I) qualifica a totalidade do antecedente; a restritiva (sem vírgulas em II) delimita apenas a parte dos reservatórios que se encontrava destampada.
 
 ## Flashcards
 
 **Por que a vírgula não pode ser escolhida só pela respiração?**
 
 Porque deve marcar relações sintáticas e discursivas; uma pausa pessoal não justifica separar sujeito e verbo.
+
+**Quando é correto usar vírgula antes da conjunção aditiva “e”?**
+
+Principalmente quando une orações coordenadas com sujeitos diferentes ou em casos de polissíndeto enfático.
+
+**Qual o efeito de substituir as duas vírgulas de um aposto explicativo por dois travessões?**
+
+A substituição preserva a correção gramatical e dá maior destaque visual e discursivo ao aposto intercalado.
 
 ## Referências de consulta
 

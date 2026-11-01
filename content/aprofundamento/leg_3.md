@@ -21,6 +21,13 @@ O SAPL registra alterações e revogações. Quando versões aparecem em sequên
 
 LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e não é exclusiva do ACE. Relacione cargo, referência, jornada, parcela e vigência. Não some tabelas que se substituem.
 
+| Conceito de Carreira (LC 390/2010 e LC 391/2010) | Definição Técnica na Legislação Municipal | Ponto de Atenção na Prova |
+| --- | --- | --- |
+| **LC Municipal nº 390/2010** | Institui o **Plano de Carreira, Cargos e Remuneração (PCCR)** dos Profissionais da Saúde da SEMUSA/Porto Velho. | Disciplina ingresso por concurso, desenvolvimento funcional, jornada e estrutura remuneratória da saúde. |
+| **LC Municipal nº 391/2010** | Dispõe sobre a **reestruturação e organização de cargos e empregos públicos** da Prefeitura de Porto Velho e seus anexos. | Possui abrangência municipal ampla; não é uma lei exclusiva de um único cargo. |
+| **Vencimento × Remuneração** | **Vencimento**: retribuição pecuniária pelo exercício do cargo, fixada em lei (tabela base). **Remuneração**: vencimento do cargo acrescido das **vantagens pecuniárias permanentes e transitórias** estabelecidas em lei. | Gratificações transitórias (*pro labore faciendo*, como insalubridade ou localidade) dependem do efetivo exercício nas condições exigidas. |
+| **Desenvolvimento na Carreira (Progressão)** | Movimentação funcional do servidor estável entre **referências** (horizontal, por tempo/avaliação de desempenho) e **classes** (vertical, por qualificação/titulação), observados o interstício e os requisitos legais. | Nunca ocorre de forma automática sem cumprir o interstício, a avaliação periódica ou a comprovação da habilitação exigida. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -45,15 +52,41 @@ LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e n�
 
 **Gabarito: C.** A incidência da vantagem depende das condições legais. A alternativa correta não nega sua existência; exige identificar a hipótese aplicável.
 
+### Questão 3
+
+[Autoral] Na sistemática da Lei Complementar Municipal nº 385/2010 e da Lei Complementar nº 390/2010 (PCCR da Saúde de Porto Velho), a distinção correta entre “vencimento” e “remuneração” é:
+
+- A) O vencimento é a retribuição pecuniária básica pelo exercício do cargo público, com valor fixado em lei; a remuneração corresponde ao vencimento do cargo acrescido das vantagens pecuniárias estabelecidas em lei.
+- B) Vencimento é a soma de todas as diárias de viagem, enquanto remuneração é apenas o vale-transporte.
+- C) Ambos significam exclusivamente multa disciplinar descontada em folha.
+- D) Remuneração é sempre inferior ao vencimento básico.
+
+**Gabarito: A.** No direito administrativo e nos estatutos municipais de Porto Velho, vencimento é a parcela básica correspondente ao padrão/referência na tabela do cargo, ao passo que remuneração soma ao vencimento as vantagens pecuniárias legais (adicionais, gratificações).
+
+### Questão 4
+
+[Autoral] Sobre o desenvolvimento funcional do servidor no Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde do Município de Porto Velho (LC nº 390/2010), é correto afirmar que:
+
+- A) A evolução funcional nos níveis da carreira observa critérios objetivos de interstício temporal, avaliação de desempenho e/ou qualificação profissional, nos termos e condições definidos na lei.
+- B) Qualquer servidor recém-nomeado atinge automaticamente o último padrão da carreira no primeiro dia de posse.
+- C) A conclusão de qualquer curso livre extingue a exigência de jornada semanal de trabalho.
+- D) O desenvolvimento na carreira independe de previsão legal ou orçamentária.
+
+**Gabarito: A.** A movimentação na carreira (progressão funcional) é regrada por requisitos objetivos previstos na LC 390/2010, combinando tempo de efetivo exercício (interstício), avaliação de desempenho satisfatória e titulação/capacitação conforme a modalidade.
+
 ## Flashcards
 
 **Qual sequência ajuda a localizar uma remuneração?**
 
-Cargo, norma, classe/referência, jornada, parcela e data.
+Cargo, norma, classe/referência, jornada, parcela e data de vigência.
 
 **A LC 391 é exclusiva do ACE?**
 
 Não. Seu objeto de organização de cargos e empregos municipais é mais amplo.
+
+**Qual a diferença entre vencimento e remuneração?**
+
+Vencimento é o valor básico fixado em lei para a referência do cargo; remuneração é o vencimento acrescido das vantagens pecuniárias previstas em lei.
 
 ## Referências de consulta
 

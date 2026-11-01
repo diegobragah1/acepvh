@@ -19,6 +19,15 @@ Em uma questão de substituição, verifique quatro aspectos: relação lógica,
 
 Conectores dependem do contexto. Retomadas podem apontar para um nome ou uma proposição inteira. Apenas restringe; também acrescenta. Substituições exigem revisar sentido, sintaxe e pontuação.
 
+| Valor Semântico | Conectivos e Locuções Equivalentes | Armadilha de Substituição |
+| --- | --- | --- |
+| **Oposição / Adversidade** | *mas, porém, contudo, todavia, entretanto, no entanto* | Não confundir *porquanto* (causal/explicativo = porque) com *entretanto* (adversativo). |
+| **Concessão** | *embora, ainda que, mesmo que, conquanto, posto que, apesar de* | *Conquanto* e *posto que* são concessivos (= embora); exigem subjuntivo. |
+| **Causa / Explicação** | *porque, já que, visto que, uma vez que, como (inicial), porquanto* | *Como* causal ocorre tipicamente no início do período e equivale a *já que*. |
+| **Conclusão** | *portanto, logo, por conseguinte, assim, desse modo, destarte* | *Pois* posposto ao verbo (entre vírgulas) é conclusivo (= portanto). |
+| **Condição** | *se, caso, desde que, contanto que, salvo se, a menos que* | *Caso* exige verbo no subjuntivo (*Se chover* → *Caso chova*). |
+| **Proporção / Conformidade** | *à medida que, à proporção que* / *conforme, segundo, consoante* | Não confundir *à medida que* (proporção) com *na medida em que* (causa). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -43,11 +52,41 @@ Em “A visita foi remarcada; isso alterou a rota”, “isso” retoma:
 
 **Gabarito: B.** O demonstrativo encapsula o conteúdo da primeira oração. Retomadas referenciais não precisam apontar apenas para um substantivo.
 
+### Questão 3
+
+No período “O mutirão de limpeza ocorreu conforme o cronograma, conquanto a chuva tivesse atrasado o início dos trabalhos”, o conectivo “conquanto” pode ser substituído, sem alteração de sentido e de modo verbal, por:
+
+- A) Portanto.
+- B) Embora.
+- C) Porquanto.
+- D) Conforme.
+
+**Gabarito: B.** “Conquanto” é conjunção subordinativa concessiva equivalente a “embora” ou “ainda que”. “Porquanto” é causal/explicativo (= porque).
+
+### Questão 4
+
+Em “O agente examina dois fatores no imóvel: a vedação da caixa-d’água e o escoamento das calhas. Este evita água empoçada no telhado; aquela impede a entrada de fêmeas do vetor”, os pronomes “Este” e “aquela” retomam, respectivamente:
+
+- A) O escoamento das calhas e a vedação da caixa-d’água.
+- B) A vedação da caixa-d’água e o escoamento das calhas.
+- C) O agente e o imóvel.
+- D) O vetor e o telhado.
+
+**Gabarito: A.** Na retomada distributiva de dois termos antecedentes, “este/esta” refere-se ao último mencionado (mais próximo: escoamento das calhas) e “aquele/aquela” ao primeiro mencionado (mais distante: vedação da caixa-d’água).
+
 ## Flashcards
 
 **Qual o teste para o valor de um conectivo?**
 
 Substituí-lo por uma paráfrase e conferir a relação entre as ideias no período.
+
+**Qual o valor semântico de “conquanto” e “porquanto”?**
+
+Conquanto é concessivo (= embora); porquanto é causal/explicativo (= porque).
+
+**Como funcionam “este” e “aquele” ao retomar dois termos já citados?**
+
+Este retoma o termo mais próximo (último citado); aquele retoma o mais distante (primeiro citado).
 
 ## Referências de consulta
 

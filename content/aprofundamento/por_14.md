@@ -16,9 +16,22 @@ Compare “Os imóveis que estavam fechados serão revisitados” e “Os imóve
 
 Para resolver uma questão, não classifique pelo conectivo isolado. Primeiro descubra que papel a oração desempenha, depois observe o conector e, por fim, o efeito da pontuação. Esse caminho evita confundir que integrante com que relativo.
 
+## Complemento nominal versus adjunto adnominal
+Termos iniciados pela preposição **de** ligados a um substantivo frequentemente geram dúvida entre **complemento nominal (CN)** e **adjunto adnominal (AA)**:
+- Se o termo se liga a um **adjetivo** ou **advérbio**, é sempre **complemento nominal** (“fiel *ao regulamento*”, “longe *do foco*”).
+- Se o termo se liga a um **substantivo abstrato** e tem valor **paciente** (sofre a ação nominal), é **complemento nominal** (“a inspeção *do galpão*” → o galpão foi inspecionado).
+- Se o termo tem valor **agente** ou indica **posse/especificação** de substantivo concreto ou abstrato, é **adjunto adnominal** (“a inspeção *do agente*” → o agente inspecionou; “as fichas *da equipe*”).
+
 ## Resumo de revisão
 
 Localize predicados e funções. Substantiva ocupa função nominal; adjetiva caracteriza antecedente; adverbial indica circunstância. A vírgula pode mudar uma relativa de restritiva para explicativa.
+
+| Estrutura Sintática | Critério de Identificação Rápida | Exemplo Aplicado | Contraste Essencial |
+| --- | --- | --- | --- |
+| **Oração Subordinada Substantiva** | Substituível pelo pronome demonstrativo **ISSO**. | "É fundamental **que o morador coopere**" (= *Isso* é fundamental → Subjetiva). | Conjunção integrante (*que / se*) não retoma antecedente nominal. |
+| **Oração Subordinada Adjetiva** | Introduzida por pronome relativo (*que = o qual, onde, cujo*). | "As caixas **que estavam abertas** foram vedadas." | Sem vírgulas = **Restritiva** (parte do grupo); com vírgulas = **Explicativa** (todo o grupo). |
+| **Oração Subordinada Adverbial** | Exerce função de adjunto adverbial da oração principal (9 tipos). | "**Embora chovesse**, a equipe concluiu a quadra." (Concessiva). | Quando anteposta à oração principal, pede vírgula obrigatória. |
+| **Complemento Nominal × Adjunto Adnominal** | Termo paciente de nome abstrato/adjetivo/advérbio × termo agente ou posse. | "A coleta **das amostras**" (CN: paciente) × "A coleta **do técnico**" (AA: agente). | Teste da passiva: se o termo sofre a ação do substantivo abstrato, é Complemento Nominal. |
 
 ## Exercícios autorais comentados
 
@@ -44,11 +57,37 @@ A retirada das vírgulas de uma oração adjetiva explicativa pode:
 
 **Gabarito: B.** A relativa sem isolamento pode selecionar um subconjunto; por isso, a alteração afeta o alcance da afirmação. Pontuação também participa do sentido.
 
+### Questão 3
+
+Compare as expressões destacadas em: I) “A vistoria **do quarteirão** revelou três focos” e II) “A vistoria **do agente** seguiu todas as normas”. Os termos destacados exercem, respectivamente, as funções sintáticas de:
+
+- A) Complemento nominal (sofre a ação de vistoriar) e adjunto adnominal (pratica a ação de vistoriar).
+- B) Objeto direto e objeto indireto.
+- C) Sujeito simples e predicativo do sujeito.
+- D) Aposto explicativo e vocativo.
+
+**Gabarito: A.** Ambos se ligam ao substantivo abstrato “vistoria”: em I, o quarteirão é vistoriado (sentido passivo/paciente = complemento nominal); em II, o agente realiza a vistoria (sentido ativo/agente = adjunto adnominal).
+
+### Questão 4
+
+No período “Os supervisores tinham certeza **de que o bloqueio vetorial reduziria os casos**”, a oração destacada classifica-se como:
+
+- A) Oração subordinada substantiva completiva nominal.
+- B) Oração subordinada substantiva objetiva indireta.
+- C) Oração subordinada adjetiva restritiva.
+- D) Oração coordenada sindética explicativa.
+
+**Gabarito: A.** A oração preposicionada completa o sentido do substantivo abstrato “certeza” (tinham certeza disso), exercendo função de complemento nominal (subordinada substantiva completiva nominal).
+
 ## Flashcards
 
 **Como diferenciar que relativo de que integrante?**
 
-O relativo retoma antecedente; o integrante introduz uma oração que ocupa função nominal.
+O relativo retoma antecedente e equivale a o qual/a qual; o integrante introduz uma oração inteira que pode ser substituída por ISSO.
+
+**Como diferenciar complemento nominal de adjunto adnominal com a preposição “de”?**
+
+Ligado a substantivo abstrato, se o termo é paciente (sofre a ação, ex.: leitura do edital), é complemento nominal; se é agente ou posse (leitura do candidato), é adjunto adnominal.
 
 ## Referências de consulta
 

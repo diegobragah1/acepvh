@@ -20,6 +20,14 @@ Exoneração e demissão não são palavras intercambiáveis: demissão possui n
 
 Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a posse nas condições legais. Vencimento não é toda remuneração. Denúncia não prova infração; demissão e exoneração têm naturezas distintas.
 
+| Instituto na LC nº 385/2010 (RJU Porto Velho) | Definição e Consequência Estatutária | Distinção Fundamental de Prova |
+| --- | --- | --- |
+| **Formas de Provimento** | **Originário**: Nomeação. **Derivado**: Promoção, Readaptação, Reversão, Aproveitamento, Reintegração e Recondução. | **Promoção** e **Readaptação** são simultaneamente formas de **provimento** e de **vacância**. |
+| **Reintegração × Recondução × Reversão × Aproveitamento** | **Reintegração**: retorno do demitido quando invalidada a demissão (com ressarcimento). **Recondução**: retorno do estável ao cargo anterior (inabilitação em estágio probatório de outro cargo ou reintegração do anterior ocupante). **Reversão**: retorno do aposentado. **Aproveitamento**: retorno do servidor em disponibilidade. | Mnemonico clássico: **ReINtegração** = **IN**validação da demissão; **ReVerSão** = **V**elhice/aposentado; **Aproveitamento** = disponível. |
+| **Posse × Exercício (Investidura)** | **Investidura** ocorre com a **posse**. Se o nomeado tomar posse e não entrar em exercício no prazo legal, será **exonerado** de ofício; se não tomar posse no prazo, o ato de nomeação é **tornado sem efeito**. | Não tomar posse → torna sem efeito a nomeação; tomar posse e não entrar em exercício → exoneração. |
+| **Estágio Probatório (5 fatores — 3 anos)** | Avalia **Assiduidade, Disciplina, Capacidade de iniciativa, Produtividade e Responsabilidade**. | O servidor não aprovado no estágio probatório é **exonerado** (ou, se estável em cargo anterior, **reconduzido**), e não demitido. |
+| **Exoneração × Demissão** | **Exoneração**: desligamento **sem** caráter punitivo (a pedido ou de ofício). **Demissão**: penalidade **disciplinar** por falta grave apurada em PAD com contraditório e ampla defesa. | Nunca trate exoneração como penalidade disciplinar. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +52,41 @@ Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a 
 
 **Gabarito: C.** Responsabilidade exige enquadramento e devido procedimento. Exoneração não é necessariamente punitiva; denúncia precisa ser apurada; penalidades não são criadas livremente.
 
+### Questão 3
+
+[Autoral] Nos termos da Lei Complementar Municipal nº 385/2010 (Regime Jurídico dos Servidores Públicos do Município de Porto Velho), a reinvestidura do servidor estável no cargo anteriormente ocupado, ou no resultante de sua transformação, quando invalidada a sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens, denomina-se:
+
+- A) Reintegração.
+- B) Readaptação.
+- C) Aproveitamento.
+- D) Exoneração a pedido.
+
+**Gabarito: A.** A reintegração é a reinvestidura do servidor estável quando invalidada sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens. Readaptação refere-se a limitação física/mental; aproveitamento é o retorno de quem estava em disponibilidade.
+
+### Questão 4
+
+[Autoral] De acordo com a LC nº 385/2010, se o candidato nomeado para cargo de provimento efetivo não tomar posse dentro do prazo legal, e se o servidor empossado não entrar em exercício no prazo estabelecido, as consequências jurídicas corretas serão, respectivamente:
+
+- A) Será tornado sem efeito o ato de nomeação (quando não há posse) e o servidor será exonerado do cargo (quando há posse, mas não entra em exercício).
+- B) Ambos sofrerão pena de prisão perpétua.
+- C) O primeiro será aposentado compulsoriamente e o segundo promovido.
+- D) Não há qualquer consequência prevista no estatuto.
+
+**Gabarito: A.** Antes da posse ainda não houve investidura, razão pela qual o ato de provimento (nomeação) é tornado sem efeito; após a posse o candidato já foi investido no cargo, de modo que a ausência de entrada em exercício enseja sua exoneração de ofício.
+
 ## Flashcards
 
 **Aprovação, nomeação, posse e exercício são o mesmo evento?**
 
-Não. Seleção, provimento, investidura e desempenho devem ser distinguidos.
+Não. Seleção (concurso), provimento (nomeação), investidura (posse) e desempenho (exercício) são etapas distintas.
 
 **Uma denúncia prova uma infração?**
 
-Não. A conduta deve ser apurada pelo procedimento competente.
+Não. A conduta deve ser apurada por sindicância ou Processo Administrativo Disciplinar (PAD), assegurados o contraditório e a ampla defesa.
+
+**Qual a diferença entre Reintegração, Recondução, Reversão e Readaptação?**
+
+Reintegração = retorno do demitido (demissão invalidada); Recondução = retorno do estável ao cargo anterior; Reversão = retorno do aposentado; Readaptação = investidura em cargo compatível com limitação física/mental.
 
 ## Referências de consulta
 

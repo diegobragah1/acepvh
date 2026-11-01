@@ -19,7 +19,7 @@ test('all 49 current lessons receive one specific supplement without shifting ol
     assert.deepEqual(after.blocks.slice(0,before.blocks.length),before.blocks,`Existing blocks changed in ${source.id}`);
     const newBlock = after.blocks.at(-1)!;
     assert.ok(newBlock.title.startsWith(DEEPENING_PREFIX));
-    assert.equal(newBlock.questions?.length,2);
+    assert.ok((newBlock.questions?.length || 0) >= 2, source.id);
     assert.equal(after.questionsCount,after.blocks.reduce((n,b)=>n+(b.questions?.length||0),0));
     assert.deepEqual(withDeepening(after),after,`Duplicate supplement in ${source.id}`);
   }

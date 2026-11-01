@@ -15,9 +15,23 @@ Ativa: “Os agentes registraram as ocorrências.” Identifique sujeito agente,
 
 Nem todo verbo admite essa transformação: em “os agentes chegaram cedo”, não há objeto direto para assumir a posição de sujeito paciente. “Registram-se ocorrências” permite análise passiva; já “precisa-se de apoio” tem construção impessoalizante com verbo transitivo indireto.
 
+## Verbos derivados de TER, VIR e PÔR
+Quatro famílias de verbos irregulares respondem por grande parte das questões de flexão verbal:
+- Derivados de **TER** (*manter, conter, deter, reter*): *ele manteve* (pretérito perfeito), *se ele mantiver* (futuro do subjuntivo).
+- Derivados de **VIR** (*intervir, convir, provir, sobrevir*): *ele interveio* (pretérito perfeito), *se ele intervier* (futuro do subjuntivo), *eles intervieram*.
+- Derivados de **PÔR** (*compor, propor, repor, supor, depor*): *ele propôs* (pretérito perfeito), *se ele propuser* (futuro do subjuntivo).
+- Derivados de **VER** (*prever, rever, antever*): *ele previu* (pretérito perfeito), *se ele previr* (futuro do subjuntivo).
+
 ## Resumo de revisão
 
 Compare tempo, aspecto e modo. Intervir segue vir; se eu vir vem de ver; se eu vier vem de vir. Na passiva, preserve o tempo do auxiliar e faça o particípio concordar com o sujeito paciente.
+
+| Tempo / Correlação ou Derivado | Voz Ativa / Forma de Origem | Conversão Passiva / Flexão Padrão | Pegadinha Clássica |
+| --- | --- | --- | --- |
+| **Presente do Indicativo** | "A equipe **inspeciona** os lotes." | "Os lotes **são inspecionados** pela equipe." | Trocar por *foram inspecionados* (altera para pretérito perfeito). |
+| **Pretérito Imperfeito** | "A equipe **inspecionava** os lotes." | "Os lotes **eram inspecionados** pela equipe." | Confundir aspecto contínuo passado (*eram*) com pontual (*foram*). |
+| **Pretérito Mais-que-Perfeito** | "A equipe **inspecionara** (tinha inspecionado) os lotes." | "Os lotes **foram/tinham sido inspecionados**." | Esquecer que a terminação *-ra* átona equivale a *tinha + particípio*. |
+| **Família TER / VIR / PÔR / VER** | *Manter / Intervir / Propor / Prever* | *Manteve, mantiver / Interveio, intervier / Propôs, propuser / Previu, previr* | Formas inexistentes na norma-padrão: *"interviu"*, *"se eu prever"*, *"se ele manter"*. |
 
 ## Exercícios autorais comentados
 
@@ -43,15 +57,41 @@ Qual alternativa emprega corretamente o futuro do subjuntivo de ver?
 
 **Gabarito: B.** Vir é futuro do subjuntivo de ver. Vier pertence a vir. A forma ver é infinitivo e não corresponde ao paradigma exigido nessa oração condicional.
 
+### Questão 3
+
+Assinale a frase em que a conjugação dos verbos derivados de “vir”, “ter” e “pôr” respeita rigorosamente a norma-padrão:
+
+- A) O supervisor interveio na discussão e propôs que a equipe mantivesse o roteiro original.
+- B) O supervisor interviu na discussão e propôs que a equipe mantesse o roteiro original.
+- C) Se o coordenador intervir no setor, ele reporá os insumos imediatamente.
+- D) Quando os técnicos preverem a estiagem, conterão o desperdício.
+
+**Gabarito: A.** Intervir conjuga-se como vir (interveio); propor como pôr (propôs); manter como ter (mantivesse). “Interviu”, “mantesse”, “se intervir” e “preverem” (correto: previrem) violam o paradigma.
+
+### Questão 4
+
+No período “Quando a equipe chegou ao galpão, o proprietário já **retirara** os pneus inservíveis”, a forma verbal destacada está no:
+
+- A) Pretérito mais-que-perfeito do indicativo, indicando ação passada anterior a outra também passada.
+- B) Futuro do presente simples, indicando previsão.
+- C) Presente do subjuntivo, indicando dúvida.
+- D) Pretérito imperfeito do subjuntivo, indicando condição irreal.
+
+**Gabarito: A.** “Retirara” (sem acento gráfico, pronúncia paroxítona) é pretérito mais-que-perfeito simples do indicativo, equivalente à forma composta “tinha/havia retirado”.
+
 ## Flashcards
 
 **Como distinguir “se eu vir” de “se eu vier”?**
 
-Vir corresponde a ver; vier corresponde a vir.
+Vir corresponde ao futuro do subjuntivo de ver; vier corresponde ao futuro do subjuntivo de vir.
 
 **Como manter o tempo na passiva de “registravam”?**
 
 Use eram registradas/registrados, conforme o sujeito paciente.
+
+**Como se conjugam “intervir” e “manter” no pretérito perfeito e no futuro do subjuntivo?**
+
+Ele interveio / se ele intervier (segue vir); ele manteve / se ele mantiver (segue ter).
 
 ## Referências de consulta
 

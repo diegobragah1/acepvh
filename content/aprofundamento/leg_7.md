@@ -21,6 +21,14 @@ A LAI estabelece um quadro nacional, e os entes podem possuir regulamentações 
 
 Ativa divulga sem pedido; passiva responde. Pedido de interesse público não exige motivação. Prazo não é sempre 30 dias: imediato, ou até 20 e prorrogação justificada de 10. Restrição parcial não implica negar tudo.
 
+| Regra na Lei de Acesso à Informação (Lei 12.527/2011 e normas locais) | Prazo / Critério Legal | Detalhe Crucial de Prova |
+| --- | --- | --- |
+| **Diretriz Geral (Art. 3º, I)** | Observância da **publicidade como preceito geral** e do **sigilo como exceção**. | Quando houver parte sigilosa no documento, assegura-se o acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação (tarjamento) da parte sob sigilo (art. 7º, § 2º). |
+| **Pedido de Acesso (Art. 10)** | Exige identificação do requerente e especificação da informação; **são vedadas quaisquer exigências relativas aos motivos determinantes** da solicitação. | A busca e o fornecimento da informação são **gratuitos**, salvo custo de reprodução de documentos físicos (art. 12). |
+| **Prazo de Atendimento (Art. 11)** | **Acesso imediato** se disponível. Não sendo possível: até **20 (vinte) dias**, prorrogável por mais **10 (dez) dias** mediante justificativa expressa e ciência ao requerente. | Nunca responda *"prazo direto de 30 dias sem justificativa"*: é **imediato**, ou **20 + 10** motivados. |
+| **Prazo de Recurso (Art. 15)** | **10 (dez) dias** a contar da ciência da decisão de indeferimento ou não fornecimento das razões. | O recurso é dirigido à autoridade hierarquicamente superior à que exarou a decisão impugnada. |
+| **Prazos Máximos de Sigilo (Art. 24) e Informação Pessoal (Art. 31)** | **Ultrassecreta**: até **25 anos**; **Secreta**: até **15 anos**; **Reservada**: até **5 anos**. **Informação Pessoal** (intimidade, vida privada, honra e imagem): restrita por até **100 anos**. | Informações necessárias à tutela judicial ou administrativa de direitos fundamentais ou sobre violação de direitos humanos por agentes públicos **não poderão ser objeto de restrição de acesso** (art. 21, parágrafo único). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -45,15 +53,41 @@ Ativa divulga sem pedido; passiva responde. Pedido de interesse público não ex
 
 **Gabarito: B.** O art. 11 prioriza acesso imediato e disciplina prazo e prorrogação quando ele não é possível. Não há autorização para aguardar automaticamente 30 dias.
 
+### Questão 3
+
+[Autoral] Nos termos do art. 24, § 1º, e do art. 31, § 1º, I, da Lei Federal nº 12.527/2011 (LAI), os prazos máximos de restrição de acesso à informação classificada como ULTRASSECRETA, SECRETA e RESERVADA, bem como o prazo máximo de proteção das informações PESSOAIS relativas à intimidade, vida privada, honra e imagem, são, respectivamente:
+
+- A) 25 anos (ultrassecreta), 15 anos (secreta), 5 anos (reservada) e até 100 anos para informações pessoais a contar da data de sua produção.
+- B) 5 anos (ultrassecreta), 15 anos (secreta), 25 anos (reservada) e 10 anos para informações pessoais.
+- C) 100 anos para todas as categorias indistintamente.
+- D) 1 ano para qualquer informação pública ou pessoal.
+
+**Gabarito: A.** O art. 24, § 1º, fixa os prazos máximos de classificação a partir da produção da informação: I - ultrassecreta: 25 anos; II - secreta: 15 anos; III - reservada: 5 anos. Já o art. 31, § 1º, I, protege as informações pessoais relativas à intimidade, vida privada, honra e imagem pelo prazo máximo de 100 anos.
+
+### Questão 4
+
+[Autoral] No caso de indeferimento de acesso a informações ou às razões da negativa do acesso, o art. 15 da Lei nº 12.527/2011 assegura ao interessado o direito de interpor recurso, dirigido à autoridade hierarquicamente superior, no prazo de:
+
+- A) 10 (dez) dias, a contar da sua ciência.
+- B) 90 (noventa) dias úteis após o encerramento do exercício financeiro.
+- C) 24 (vinte e quatro) horas improrrogáveis.
+- D) 5 (cinco) anos contados do protocolo inicial.
+
+**Gabarito: A.** Conforme o art. 15, caput e parágrafo único, da Lei nº 12.527/2011, no caso de indeferimento de acesso a informações ou às razões da negativa do acesso, poderá o interessado interpor recurso contra a decisão no prazo de 10 (dez) dias a contar da sua ciência, dirigido à autoridade hierarquicamente superior.
+
 ## Flashcards
 
 **Transparência ativa substitui todo pedido?**
 
-Não. A publicação espontânea e o atendimento a solicitações se complementam.
+Não. A publicação espontânea (ativa) e o atendimento a solicitações (passiva/SIC) se complementam.
 
 **Um dado protegido torna todo documento necessariamente sigiloso?**
 
-Não. Deve-se avaliar acesso à parte não restrita conforme a legislação.
+Não. Assegura-se o acesso à parte não sigilosa por meio de certidão, extrato ou cópia com ocultação da parte sob sigilo (art. 7º, § 2º).
+
+**Quais são os prazos máximos de sigilo na LAI (Ultrassecreta, Secreta, Reservada) e o prazo de proteção de informação pessoal?**
+
+Ultrassecreta = 25 anos; Secreta = 15 anos; Reservada = 5 anos. Informação pessoal (intimidade/honra/imagem) = até 100 anos.
 
 ## Referências de consulta
 

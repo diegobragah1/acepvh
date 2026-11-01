@@ -17,9 +17,21 @@ A expansão urbana e as redes de transporte dialogam com trajetórias indígenas
 ## Síntese de uma resposta bem fundamentada
 Ao analisar um caso, escreva: fato e data; população e território; mecanismo plausível; evidência; limite da conclusão; resposta pública pertinente. “Aumentou o número de registros” exige perguntar se houve mais eventos ou melhor detecção. “Cresceu a economia” exige perguntar o que cresceu e quem se beneficiou. Esse procedimento integra os eixos do programa sem substituir estudo dos fatos por opiniões gerais.
 
+## Geografia física, hidrografia, unidades de conservação e saneamento em Porto Velho/RO
+- **Bacia do Rio Madeira e seus formadores:** o Rio Madeira — principal afluente da margem direita do Rio Amazonas em volume de água e transporte de sedimentos andinos (água barrenta/branca) — forma-se na fronteira Brasil–Bolívia pela confluência dos rios **Mamoré** e **Beni** (após este receber o Madre de Dios). Seus principais afluentes em território rondoniense incluem os rios **Guaporé, Abunã, Mutum-Paraná, Jaci-Paraná, Candeias, Jamari** e **Machado (Ji-Paraná)**.
+- **Clima e sazonalidade epidemiológica:** clima **Equatorial Quente e Úmido** (tipo *Am* na classificação de Köppen), com duas estações bem marcadas pelo regime pluviométrico: o **período chuvoso ("inverno amazônico", de novembro a abril)**, quando aumentam os alagamentos, os criadouros de *Aedes aegypti* e o risco de leptospirose; e o **período seco ("verão amazônico", de junho a setembro)**, quando ocorrem a vazante acentuada dos rios, a formação de coleções hídricas marginais propícias ao *Anopheles darlingi* na transição das águas e o pico de queimadas e doenças respiratórias.
+- **Unidades de Conservação e Terras Indígenas:** o território municipal e seu entorno abrigam importantes áreas protegidas, como a **Estação Ecológica de Cuniã**, a **Reserva Extrativista do Lago do Cuniã** (famosa pelo manejo sustentável de jacarés e pesca comunitária no Baixo Madeira), a **Floresta Nacional do Bom Futuro**, o **Parque Natural Municipal de Porto Velho** e Terras Indígenas como **Karipuna, Karitiana e Kaxarari**.
+
 ## Resumo de revisão
 
 Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos variam entre populações. PIB per capita não é salário individual. Escala, data e mecanismo sustentam uma análise socioambiental.
+
+| Dimensão Socioambiental (Porto Velho / RO) | Característica Estrutural | Conexão Direta com a Saúde Pública e o Trabalho do ACE |
+| --- | --- | --- |
+| **Hidrografia (Bacia do Rio Madeira)** | Formado pela confluência dos rios **Beni e Mamoré**; principais afluentes: Guaporé, Abunã, Jaci-Paraná, Candeias, Jamari e Machado (Ji-Paraná). | Eixo de vida das comunidades ribeirinhas; oscilações de cheia e vazante condicionam focos de malária (*Anopheles*) e casos de leptospirose. |
+| **Clima Equatorial (*Am*) e Sazonalidade** | **Chuvoso ("inverno")**: nov–abr; **Seco ("verão")**: jun–set. | No período chuvoso crescem criadouros de *Aedes* e alagamentos; no seco agravam-se queimadas (material particulado $PM_{2,5}$ → síndromes respiratórias) e isolamento fluvial. |
+| **Saneamento Básico e Urbanização** | Déficit histórico de cobertura de água tratada e esgotamento sanitário na Região Norte. | O abastecimento intermitente leva moradores a armazenar água em tambores/caixas baixas (depósitos **A2**), exigindo orientação e vedação contínua pelo ACE. |
+| **Unidades de Conservação e Povos Tradicionais** | RESEX Lago do Cuniã, ESEC Cuniã, FLONA Bom Futuro, TIs Karitiana, Karipuna e Kaxarari. | Atuação com respeito intercultural, equidade no acesso ao SUS (Subsistema de Atenção à Saúde Indígena — SASI-SUS / DSEI Porto Velho) e vigilância de zoonoses/malária. |
 
 ## Exercícios autorais comentados
 
@@ -45,15 +57,41 @@ Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos varia
 
 **Gabarito: B.** PIB per capita divide uma medida de produção pelo total populacional. Não representa a renda de cada pessoa e não elimina diferenças internas.
 
+### Questão 3
+
+[Autoral] Do ponto de vista hidrográfico, o Rio Madeira — que banha a sede e os distritos ribeirinhos de Porto Velho — é formado na fronteira entre o Brasil e a Bolívia pela confluência de quais rios principais e deságua em qual margem do Rio Amazonas?
+
+- A) É formado pela confluência dos rios Mamoré e Beni, sendo um dos principais afluentes da margem direita do Rio Amazonas.
+- B) É formado pelos rios Tietê e Paraná, desaguando no Oceano Atlântico Sul.
+- C) Nasce na Serra do Mar em São Paulo e deságua na margem esquerda do Rio Negro.
+- D) É um braço artificial aberto em 1990 a partir do Rio Tocantins.
+
+**Gabarito: A.** O Rio Madeira forma-se pelo encontro dos rios Beni e Mamoré (na altura de Nova Mamoré/Vila Bela) e corre no sentido sudoeste-nordeste até desaguar na margem direita do Rio Amazonas, abaixo de Manaus (próximo a Itacoatiara/AM).
+
+### Questão 4
+
+[Autoral] Relacionando o regime climático equatorial de Porto Velho e os indicadores de saneamento básico ao trabalho do Agente de Combate às Endemias, é correto afirmar que:
+
+- A) A combinação de período chuvoso intenso com deficiências na drenagem urbana e no abastecimento regular de água potável favorece tanto o acúmulo de água em recipientes domésticos de reserva (Grupo A2) quanto exposições ambientais à leptospirose em áreas alagáveis.
+- B) O clima polar seco de Porto Velho impede a reprodução de mosquitos durante todos os meses do ano.
+- C) A ausência de coleta de resíduos sólidos reduz a quantidade de criadouros do Grupo D2.
+- D) As queimadas da estação seca melhoram a função pulmonar de crianças e idosos.
+
+**Gabarito: A.** A sazonalidade climática amazônica e os gargalos de saneamento interagem diretamente com o perfil epidemiológico local: falhas no abastecimento levam ao armazenamento doméstico em tonéis (A2), chuvas e alagamentos ampliam criadouros e exposição à Leptospira, e a fumaça na seca agrava quadros respiratórios.
+
 ## Flashcards
 
 **Por que escala territorial importa?**
 
-Um indicador estadual ou municipal pode ocultar desigualdades entre localidades e populações.
+Um indicador estadual ou municipal pode ocultar desigualdades importantes entre a sede urbana, bairros periféricos e distritos rurais/ribeirinhos.
 
 **O que uma boa análise de caso explicita?**
 
-Fato/data, população/território, mecanismo, evidência, limite e resposta pertinente.
+Fato/data, população/território, mecanismo, evidência, limite e resposta pública pertinente.
+
+**Quais rios se unem para formar o Rio Madeira e quais são seus principais afluentes em Rondônia?**
+
+Forma-se pela confluência dos rios Beni e Mamoré; seus principais afluentes em RO incluem Guaporé, Abunã, Jaci-Paraná, Candeias, Jamari e Machado (Ji-Paraná).
 
 ## Referências de consulta
 

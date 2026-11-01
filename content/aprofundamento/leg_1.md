@@ -20,6 +20,14 @@ Nas versões que exibem histórico, texto antigo e redação nova podem aparecer
 
 Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar são funções distintas. Cooperação não elimina autonomia. Leia competência, objeto, condições e versão temporal.
 
+| Instituto na Lei Orgânica de Porto Velho | Regra Normativa / Quórum / Competência | Contraste / Pegadinha de Prova |
+| --- | --- | --- |
+| **Posição Federativa e Autonomia (Arts. 1º e 2º)** | O Município integra a República Federativa do Brasil e o Estado de Rondônia, com autonomia **política, administrativa e financeira**. | **Soberania** pertence apenas à República Federativa do Brasil (União internacional); Município possui **autonomia**. |
+| **Símbolos Municipais (Art. 3º)** | **Bandeira, Brasão e Hino**, além de outros estabelecidos em lei municipal. | Não confundir com os 4 símbolos nacionais (Bandeira, Hino, Armas e Selo da República). |
+| **Emenda à Lei Orgânica** | Votada em **dois turnos**, com interstício mínimo de **10 dias**, e aprovada por **2/3 (dois terços)** dos membros da Câmara Municipal. | Quem promulga a Emenda à Lei Orgânica é a **Mesa da Câmara Municipal** (não há sanção ou veto do Prefeito). |
+| **Competência Privativa × Comum** | **Privativa/Local**: legislar sobre assuntos de interesse local, suplementar legislação federal/estadual, organizar transporte coletivo e serviços locais. **Comum**: cuidar da saúde, proteger o meio ambiente e o patrimônio cultural em cooperação com União e Estado. | Prestar atendimento à saúde da população conta com a cooperação técnica e financeira da União e do Estado. |
+| **Controle Externo da Câmara** | Exercido pela Câmara Municipal com o auxílio do **Tribunal de Contas do Estado (TCE-RO)**. | O parecer prévio do Tribunal de Contas sobre as contas anuais do Prefeito só deixa de prevalecer por decisão de **2/3 (dois terços)** dos vereadores. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +52,41 @@ Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar
 
 **Gabarito: B.** Fiscalizar e executar são funções distintas. A existência de um controle não elimina os demais mecanismos de responsabilidade.
 
+### Questão 3
+
+[Autoral] Nos termos da Constituição Federal (art. 29) e da Lei Orgânica do Município de Porto Velho, o processo de elaboração ou emenda da Lei Orgânica Municipal exige:
+
+- A) Votação em dois turnos, com o interstício mínimo de dez dias, e aprovação por dois terços dos membros da Câmara Municipal, sendo promulgada pela própria Câmara.
+- B) Aprovação em turno único por maioria simples e sanção obrigatória do Governador do Estado.
+- C) Decreto individual do Prefeito Municipal sem participação do Poder Legislativo.
+- D) Referendo obrigatório da Organização das Nações Unidas.
+
+**Gabarito: A.** Tanto o art. 29, caput, da CF/88 quanto a Lei Orgânica Municipal determinam votação em dois turnos, com intervalo mínimo de 10 dias, e quórum qualificado de 2/3 dos membros da Câmara Municipal.
+
+### Questão 4
+
+[Autoral] No exercício do controle externo das contas anuais prestadas pelo Prefeito Municipal, o parecer prévio emitido pelo Tribunal de Contas:
+
+- A) Somente deixará de prevalecer por decisão de dois terços (2/3) dos membros da Câmara Municipal.
+- B) Pode ser anulado por simples despacho de um secretário municipal.
+- C) Não tem qualquer valor jurídico e é meramente decorativo.
+- D) Exige unanimidade dos eleitores do município em plebiscito.
+
+**Gabarito: A.** Conforme o art. 31, § 2º, da CF/88, reproduzido na Lei Orgânica Municipal, o parecer prévio do Tribunal de Contas sobre as contas que o Prefeito deve anualmente prestar só deixará de prevalecer por decisão de 2/3 dos membros da Câmara Municipal.
+
 ## Flashcards
 
 **Qual a diferença entre competência legislativa e administrativa?**
 
-Produzir regras e executar atividades/serviços são objetos diferentes de competência.
+Produzir regras (leis) e executar atividades/serviços públicos são objetos diferentes de competência.
 
 **Uma Lei Orgânica pode contrariar a Constituição?**
 
-Não. A autonomia municipal opera dentro do quadro constitucional.
+Não. A Lei Orgânica deve observar os princípios da Constituição Federal e da Constituição do respectivo Estado (simetria constitucional).
+
+**Qual o quórum e o procedimento para aprovar a Lei Orgânica ou suas emendas?**
+
+Dois turnos de votação, com interstício mínimo de 10 dias, aprovada por 2/3 dos membros da Câmara Municipal.
 
 ## Referências de consulta
 

@@ -20,6 +20,19 @@ Em problemas de associação, use tabela e registre tanto possibilidades quanto 
 
 Validade exclui premissas verdadeiras com conclusão falsa. Modus ponens/tollens são válidos; afirmar consequente não. União subtrai a interseção. Pertinência é elemento/conjunto; inclusão é conjunto/conjunto.
 
+| Regra de Inferência / Conjunto | Estrutura Formal | Conclusão Válida / Fórmula | Armadilha / Falácia |
+| --- | --- | --- | --- |
+| **Modus Ponens (Afirmação do Antecedente)** | Premissa 1: $p 	o q$; Premissa 2: $p$. | Logo, **$q$**. | Confundir com a falácia da afirmação do consequente ($p 	o q$ e $q$ **não** garante $p$). |
+| **Modus Tollens (Negação do Consequente)** | Premissa 1: $p 	o q$; Premissa 2: $
+eg q$. | Logo, **$
+eg p$**. | Confundir com a falácia da negação do antecedente ($p 	o q$ e $
+eg p$ **não** garante $
+eg q$). |
+| **Silogismo Disjuntivo** | Premissa 1: $p lor q$; Premissa 2: $
+eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a segunda é obrigatoriamente verdadeira. |
+| **Princípio da Inclusão-Exclusão (2 e 3 conjuntos)** | $n(A cup B) = n(A) + n(B) - n(A cap B)$ | Para 3 conjuntos: soma os individuais, subtrai as interseções 2 a 2 e soma $n(A cap B cap C)$. | Comece sempre preenchendo o Diagrama de Venn pela **interseção central**. |
+| **Conjunto das Partes $mathcal{P}(A)$** | Total de subconjuntos de $A$ com $n$ elementos $= 2^n$. | Subconjuntos próprios não vazios $= 2^n - 2$. | O conjunto vazio $emptyset$ é **subconjunto** de qualquer conjunto ($emptyset subset A$). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +57,41 @@ Validade exclui premissas verdadeiras com conclusão falsa. Modus ponens/tollens
 
 **Gabarito: B.** A inclusão A⊆B não implica B⊆A. João pode pertencer a B sem pertencer a A; esse contraexemplo mostra a invalidade.
 
+### Questão 3
+
+[Autoral] Considere verdadeiras as premissas: P1) “Se há pneus expostos à chuva, então surge foco de larvas”; P2) “Não surgiu foco de larvas neste pátio”. Aplicando a regra de inferência válida (Modus Tollens), conclui-se necessariamente que:
+
+- A) Não há pneus expostos à chuva neste pátio.
+- B) Há pneus expostos à chuva neste pátio.
+- C) Choveu todos os dias da semana.
+- D) O pátio não possui muro.
+
+**Gabarito: A.** Pelo Modus Tollens (se p → q é verdadeira e ¬q é verdadeira, então ¬p é verdadeira), a ausência do consequente (“não surgiu foco”) implica necessariamente a falsidade do antecedente (“não há pneus expostos à chuva”).
+
+### Questão 4
+
+[Autoral] Um conjunto $A$ reúne os 6 equipamentos básicos de proteção individual do agente em determinada operação. O número total de subconjuntos que compõem o Conjunto das Partes de $A$, denotado por $n(\mathcal{P}(A))$, é igual a:
+
+- A) 64.
+- B) 12.
+- C) 36.
+- D) 32.
+
+**Gabarito: A.** Um conjunto finito com n = 6 elementos distintos possui exatamente 2^n = 2^6 = 64 subconjuntos (incluindo o conjunto vazio e o próprio conjunto A).
+
 ## Flashcards
 
 **Como provar que um argumento é inválido?**
 
-Exibindo premissas verdadeiras e conclusão falsa em um contraexemplo.
+Exibindo um contraexemplo em que todas as premissas sejam verdadeiras e a conclusão seja falsa.
 
-**Qual a fórmula de dois conjuntos finitos?**
+**Qual a fórmula da união de dois conjuntos finitos?**
 
-n(A∪B)=n(A)+n(B)−n(A∩B).
+n(A∪B) = n(A) + n(B) − n(A∩B).
+
+**Por onde se deve começar a preencher um problema com Diagrama de Venn?**
+
+Sempre pela interseção central (elementos que pertencem simultaneamente a todos os conjuntos), descontando esse valor das regiões adjacentes.
 
 ## Referências de consulta
 

@@ -20,6 +20,13 @@ Em “registrar + o”, a combinação normativa é “registrá-lo”: retira-s
 
 Verifique oração, atração e pausa. Não se esqueça; encaminhar-se-á; não se encaminhará. Pronomes não se ligam encliticamente ao particípio nessa construção. Registrar + o → registrá-lo.
 
+| Posição do Pronome | Condições Determinantes na Norma-Padrão | Exemplos Corretos | Proibições Absolutas na Norma-Padrão |
+| --- | --- | --- | --- |
+| **Próclise (antes do verbo)** | Palavras atrativas: negativas (*não, nunca, jamais*), advérbios sem vírgula (*já, aqui*), relativos (*que, onde*), indefinidos (*tudo, ninguém*), conjunções subordinativas (*quando, embora, se*). | "Nunca **se** omita"; "O lote **que** **me** indicaram"; "Quando **se** analisa o mapa". | **Nunca iniciar período** com pronome oblíquo átono (*"Me entregaram o mapa"* → "Entregaram-me o mapa"). |
+| **Mesóclise (no meio do verbo)** | Verbos no **futuro do presente** ou **futuro do pretérito** sem palavra atrativa antes. | "**Realizar-se-á** o mutirão"; "**Falar-lhe-íamos** sobre o foco". | **Nunca usar ênclise no futuro** (*"Realizará-se"*, *"Faria-se"*). Se houver atrativo, usa-se próclise. |
+| **Ênclise (depois do verbo)** | Início de frase, imperativo afirmativo, gerúndio sem *em* ou após pausa (vírgula). | "**Inspecione-o** agora"; "Ontem, **registrou-se** o foco". | **Nunca usar ênclise no particípio** (*"Tinha entregado-lhe"* → "Tinha-lhe entregado"). |
+| **Adaptação Fonética (*o, a, os, as*)** | Verbo terminado em **-R, -S, -Z** → **lo, la**; terminado em som nasal (**-M, -ÃO, -ÕE**) → **no, na**. | *Fazer + o = fazê-lo*; *Repomos + os = repomo-los*; *Viram + a = viram-na*. | Confundir objeto direto (*o/lo/no*) com objeto indireto (*lhe*). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,11 +51,41 @@ Qual é a combinação de “registrar” com o pronome objeto “o”?
 
 **Gabarito: C.** Após r, o pronome o assume lo e a consoante final é retirada: registrá-lo. Lhe não exerce o mesmo papel de objeto direto nesse exemplo.
 
+### Questão 3
+
+Assinale a alternativa que obedece integralmente às regras de colocação pronominal da norma-padrão:
+
+- A) Me informaram que o cronograma de bloqueio foi alterado.
+- B) Os equipamentos que enviaram-nos ontem já estão em uso.
+- C) Realizar-se-á amanhã a conferência dos croquis, caso não se altere o expediente.
+- D) A equipe tinha comunicado-se com a coordenação antes do meio-dia.
+
+**Gabarito: C.** No início da oração com verbo no futuro do presente sem atrativo, emprega-se a mesóclise (“Realizar-se-á”); na segunda oração, o advérbio negativo “não” atrai o pronome (“não se altere”). A opção A inicia período com átono; B ignora atração do relativo “que”; D põe ênclise no particípio.
+
+### Questão 4
+
+Substituindo os complementos destacados por pronomes oblíquos átonos em “Os agentes **orientaram os moradores** e **entregaram o folheto aos proprietários**”, obtém-se na norma-padrão:
+
+- A) Os agentes orientaram-nos e entregaram-lhes o folheto.
+- B) Os agentes orientaram-lhes e entregaram-no eles.
+- C) Os agentes orientaram-os e entregaram-lo aos proprietários.
+- D) Os agentes lhes orientaram e entregaram-os o folheto.
+
+**Gabarito: A.** “Orientar” é transitivo direto e termina em som nasal (-am), exigindo “-nos” (orientaram-nos). Em “entregaram o folheto aos proprietários”, o objeto indireto humano plural “aos proprietários” é substituído por “-lhes”.
+
 ## Flashcards
 
 **Quando a mesóclise cede lugar à próclise?**
 
-Quando a construção exige atração, como em não se encaminhará.
+Quando há fator de atração antes do verbo no futuro, como em “não se encaminhará”.
+
+**Quais são as três proibições absolutas da colocação pronominal na norma-padrão?**
+
+1) Iniciar período com pronome átono; 2) Usar ênclise em verbos no futuro do presente ou do pretérito; 3) Usar ênclise em verbo no particípio.
+
+**Como ficam os pronomes o/a/os/as após verbos terminados em -R/-S/-Z e após som nasal (-M/-ÃO)?**
+
+Após -R, -S ou -Z, caem as consoantes e usa-se lo/la/los/las; após som nasal, usa-se no/na/nos/nas.
 
 ## Referências de consulta
 

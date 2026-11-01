@@ -20,6 +20,13 @@ Um bairro apresenta armazenamento inseguro de água porque o abastecimento é ir
 
 Universalidade inclui; equidade considera necessidades; integralidade articula cuidado. Competências são distribuídas e cooperativas. Educação e ação intersetorial podem enfrentar dimensões diferentes do mesmo risco.
 
+| Esfera / Princípio (Lei 8.080/90) | Palavras-Chave Legais (Arts. 7º, 16, 17 e 18) | Exemplo Aplicado à Vigilância | Distinção de Prova |
+| --- | --- | --- | --- |
+| **Direção Nacional (Ministério da Saúde — Art. 16)** | **Formular, avaliar e apoiar** políticas nacionais; coordenar sistemas nacionais de alta complexidade e vigilâncias; normatizar em caráter geral. | Definir o Programa Nacional de Controle da Dengue e adquirir insumos estratégicos nacionais. | A União normatiza e coordena nacionalmente; só executa diretamente em caráter suplementar/excepcional. |
+| **Direção Estadual (SES — Art. 17)** | **Coordenar, em caráter complementar, e executar** ações e serviços quando extrapolarem o município; apoiar técnica e financeiramente os municípios. | Apoiar os municípios rondonienses em surtos regionais e gerir laboratórios estaduais (LACEN). | O Estado articula a regionalização e suplementa os municípios. |
+| **Direção Municipal (SEMUSA — Art. 18)** | **Planejar, organizar, controlar, avaliar, gerir e EXECUTAR** os serviços públicos de saúde e as ações de vigilância no território local. | Executar as visitas domiciliares dos ACEs e gerir as UBS de Porto Velho. | Verbo-chave municipal na prova: **executar** os serviços públicos locais de saúde. |
+| **Princípios Doutrinários × Organizativos** | **Doutrinários**: Universalidade, Integralidade, Equidade. **Organizativos**: Descentralização, Regionalização/Hierarquização, Participação Social. | Equidade prioriza distritos ribeirinhos com maior vulnerabilidade epidemiológica. | Na letra literal do art. 7º da Lei 8.080/90, consta *"igualdade da assistência, sem preconceitos ou privilégios"*. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,6 +51,28 @@ Universalidade inclui; equidade considera necessidades; integralidade articula c
 
 **Gabarito: B.** A ação identifica níveis de determinação e demanda cooperação. Isso não atribui ao agente competência para executar sozinho todas as respostas intersetoriais.
 
+### Questão 3
+
+[Autoral] Na distribuição de competências prevista nos arts. 16 a 18 da Lei Federal nº 8.080/1990, a atribuição de “planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde” no âmbito local pertence precipuamente:
+
+- A) À direção municipal do Sistema Único de Saúde.
+- B) Exclusivamente à Organização Mundial da Saúde.
+- C) Ao Poder Judiciário estadual.
+- D) Às operadoras privadas de planos de saúde suplementar.
+
+**Gabarito: A.** O art. 18, inciso I, da Lei 8.080/1990 estabelece como competência da direção municipal do SUS planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde.
+
+### Questão 4
+
+[Autoral] De acordo com o art. 3º da Lei nº 8.080/1990, os níveis de saúde expressam a organização social e econômica do País, tendo a saúde como determinantes e condicionantes, entre outros:
+
+- A) A alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, a atividade física, o transporte, o lazer e o acesso aos bens e serviços essenciais.
+- B) Apenas a ausência de bactérias no sangue avaliada em exame hospitalar.
+- C) Exclusivamente a herança genética familiar, sem influência de saneamento ou moradia.
+- D) Unicamente a quantidade de medicamentos distribuídos em pronto-socorro.
+
+**Gabarito: A.** O art. 3º da Lei 8.080/1990 adota o conceito ampliado de saúde, elencando alimentação, moradia, saneamento básico, meio ambiente, trabalho, renda, educação, atividade física, transporte, lazer e acesso aos bens e serviços essenciais como determinantes e condicionantes.
+
 ## Flashcards
 
 **Equidade exige dividir tudo igualmente?**
@@ -53,6 +82,10 @@ Não. Exige considerar diferenças de necessidades e barreiras com critérios ju
 **Ação local é sempre responsabilidade exclusiva do município?**
 
 Não. O SUS distribui competências e prevê cooperação entre esferas.
+
+**Como diferenciar os verbos de competência da União, do Estado e do Município na Lei 8.080/1990?**
+
+União (art. 16): formular, avaliar e coordenar sistemas nacionais; Estado (art. 17): coordenar e, em caráter complementar, executar; Município (art. 18): gerir e executar os serviços públicos locais.
 
 ## Referências de consulta
 

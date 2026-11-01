@@ -20,6 +20,14 @@ Dois bairros com números absolutos iguais podem ter taxas diferentes se suas po
 
 Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalidade. Óbitos/população: mortalidade. Compare períodos e definições. Notificação e confirmação não são sinônimos.
 
+| Conceito Epidemiológico | Numerador ÷ Denominador (ou Definição) | O que Mede na Prática? | Contraste Importante |
+| --- | --- | --- | --- |
+| **Incidência** | $	ext{Casos NOVOS no período} div 	ext{População exposta ao risco}$ | Velocidade/risco de **adoecer** (surgir caso novo). | Essencial para doenças agudas e investigação de surtos. |
+| **Prevalência** | $	ext{Casos EXISTENTES (novos + antigos)} div 	ext{População total}$ | Carga total da doença na comunidade em dado momento. | Aumenta com a incidência e com a maior duração da doença; diminui com cura ou óbito. |
+| **Mortalidade Específica** | $	ext{Óbitos pela doença X} div 	ext{População total}$ | Risco de uma pessoa da população morrer por aquela causa. | Denominador é a **população inteira**, não apenas os doentes. |
+| **Letalidade** | $	ext{Óbitos pela doença X} div 	ext{Total de DOENTES de X} 	imes 100$ | **Gravidade** da doença entre os acometidos (ex.: Raiva humana $approx 100%$). | Denominador restrito aos **casos diagnosticados** da doença. |
+| **Endemia × Epidemia × Surto × Pandemia** | **Endemia**: dentro da faixa esperada local; **Epidemia**: acima do limite esperado; **Surto**: casos epidemiologicamente ligados em espaço restrito; **Pandemia**: vários países/continentes. | Orienta o nível de resposta e mobilização das equipes de vigilância. | Na Região Amazônica, a malária é **endêmica** (enquanto na Região extra-amazônica um foco autóctone exige alerta imediato). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +52,41 @@ Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalid
 
 **Gabarito: B.** Aumento de notificações requer investigar explicações concorrentes. Ele pode sinalizar transmissão, mas a conclusão exige avaliar definição, cobertura, busca ativa e período.
 
+### Questão 3
+
+[Autoral] Quando uma doença infecciosa ocorre de forma constante e habitual dentro dos limites esperados para uma determinada área geográfica ao longo dos anos (como a malária na bacia amazônica), esse padrão epidemiológico denomina-se:
+
+- A) Endemia.
+- B) Pandemia intercontinental.
+- C) Erradicação global.
+- D) Letalidade nula.
+
+**Gabarito: A.** Endemia é a presença habitual de uma doença ou agente infeccioso dentro de uma área geográfica determinada, mantendo incidência dentro da faixa esperada na série histórica local.
+
+### Questão 4
+
+[Autoral] No Sistema de Informação de Agravos de Notificação (SINAN), a notificação compulsória de agravos de relevância para a saúde pública é desencadeada, em regra:
+
+- A) Diante da simples suspeita clínica ou epidemiológica do caso, não sendo necessário aguardar o resultado definitivo de exame laboratorial para iniciar a notificação e as medidas de bloqueio.
+- B) Apenas após o trânsito em julgado de sentença judicial confirmando a doença.
+- C) Somente depois da alta hospitalar ou do óbito do paciente.
+- D) Exclusivamente por médicos legistas do Instituto Médico Legal.
+
+**Gabarito: A.** Para garantir oportunidade na interrupção da cadeia de transmissão (bloqueio vetorial, investigação de contatos, profilaxia), a notificação compulsória é realizada já diante da suspeita do agravo.
+
 ## Flashcards
 
 **Qual denominador distingue letalidade de mortalidade?**
 
-Letalidade usa casos da doença; mortalidade usa população.
+Letalidade usa os casos da doença como denominador; mortalidade usa a população total.
 
 **Uma ficha preenchida completa o ciclo da vigilância?**
 
-Não. A informação precisa ser qualificada, analisada e usada na decisão.
+Não. A informação precisa ser qualificada, analisada e usada na decisão ("informação para a ação").
+
+**Qual a diferença entre endemia, epidemia e surto?**
+
+Endemia = ocorrência habitual dentro do esperado; Epidemia = elevação clara acima do esperado; Surto = casos com vínculo epidemiológico restritos a local/instituição/quarteirão delimitado.
 
 ## Referências de consulta
 

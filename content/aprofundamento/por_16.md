@@ -20,6 +20,14 @@ Em exercícios, faça uma substituição de sentido antes de escolher a grafia. 
 
 Macetes de hífen têm limites e exceções. Porquê substantivo admite os porquês. Por que pode estar em pergunta indireta ou relativo. Analise a função de mal/mau, há/a e senão/se não.
 
+| Dúvida Ortográfica | Forma 1 (Quando Usar) | Forma 2 (Quando Usar) | Teste de Substituição Imediata |
+| --- | --- | --- | --- |
+| **Por que × Por quê** | **Por que**: início/meio de pergunta direta ou indireta (*por qual razão*) ou pronome relativo (*pelo qual*). | **Por quê**: antes de pausa forte ou fim de frase interrogativa. | Substitua por *"por qual razão"* ou *"pelo qual"*. Se vier antes de ponto, acentue. |
+| **Porque × Porquê** | **Porque**: conjunção causal/explicativa em respostas e justificativas. | **Porquê**: substantivo masculino precedido de determinante (*o porquê, um porquê*). | Substitua por *"pois / já que"* (*porque*) ou por *"o motivo"* (*o porquê*). |
+| **Mal × Mau** | **Mal**: advérbio (oposto de *bem*), substantivo (*o mal*) ou conjunção temporal (*logo que*). | **Mau**: adjetivo qualificativo (oposto de *bom*). | Troque por **bem** (→ *mal*) ou por **bom** (→ *mau*). |
+| **Senão × Se não** | **Senão**: *do contrário, caso contrário, a não ser, mas sim, defeito*. | **Se não**: conjunção condicional **se** + advérbio **não** (*caso não*). | Se couber *"caso não"* antes de verbo no subjuntivo/futuro, escreva separado (*se não*). |
+| **Acerca de × A cerca de × Há cerca de** | **Acerca de** = *sobre, a respeito de*. | **A cerca de** = distância/futuro aproximado; **Há cerca de** = tempo passado aproximado. | *"Falou acerca de dengue"*; *"Fica a cerca de 2 km"*; *"Ocorreu há cerca de dois meses"*. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,11 +52,41 @@ Qual grafia mostra que o macete “vogais iguais sempre exigem hífen” tem lim
 
 **Gabarito: B.** Coobrigação se escreve sem hífen, apesar do encontro de o com o. É necessário considerar as regras específicas do prefixo co-.
 
+### Questão 3
+
+Assinale a alternativa em que as formas “por que / por quê / porque / porquê” foram todas empregadas corretamente:
+
+- A) Os caminhos por que passamos estavam alagados; ninguém entendeu o porquê da demora, porque o aviso atrasou.
+- B) Não sabemos porque o imóvel estava fechado, nem o por que de o morador não atender.
+- C) Porquê a vistoria atrasou? Atrasou por que choveu forte pela manhã.
+- D) Eles reclamaram sem explicar por que, já que desconheciam o porque da norma.
+
+**Gabarito: A.** Em “os caminhos por que passamos”, equivale a “pelos quais” (separado sem acento); em “o porquê da demora”, vem substantivado pelo artigo “o” (junto com acento); em “porque o aviso atrasou”, introduz causa/explicação (junto sem acento).
+
+### Questão 4
+
+Complete corretamente as lacunas: “___ chover agora, cumpriremos a meta; mantenha a caixa vedada, ___ o vetor encontrará abrigo, pois ___ duas semanas registramos foco neste quarteirão.”
+
+- A) Se não / senão / há
+- B) Senão / se não / a
+- C) Se não / se não / há
+- D) Senão / senão / a
+
+**Gabarito: A.** Na primeira lacuna, “Se não chover” equivale a “Caso não chova” (condicional + negação); na segunda, “senão” equivale a “do contrário”; na terceira, “há duas semanas” indica tempo decorrido.
+
 ## Flashcards
 
 **Por que consultar o VOLP?**
 
 Para confirmar grafias e casos específicos que não são resolvidos por um macete geral.
+
+**Como diferenciar os 4 porquês rapidamente?**
+
+Por que = por qual razão / pelo qual; Por quê = antes de ponto; Porque = pois/já que; O porquê = o motivo (substantivo).
+
+**Qual a diferença entre “senão” e “se não”?**
+
+Senão = do contrário / a não ser; Se não = caso não (conjunção condicional + advérbio de negação).
 
 ## Referências de consulta
 

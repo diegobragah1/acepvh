@@ -20,6 +20,13 @@ Uma visita isolada pode resolver uma tarefa, mas acompanhamento longitudinal con
 
 Territorialização reúne localização e condições de vida. Adscrição organiza responsabilidade. Atenção básica é principal, não única porta. Integração ACS–ACE compartilha planejamento e preserva atribuições.
 
+| Conceito da PNAB (Portaria 2.436/2017) | Definição Operacional | Parâmetro / Regra Prática | Erro Comum em Provas |
+| --- | --- | --- | --- |
+| **Território-Processo** | Espaço vivo, dinâmico, com perfil demográfico, epidemiológico, social e ambiental em constante mudança. | Base para o planejamento local e mapeamento de áreas de risco. | Tratar território como mero mapa estático de ruas e lotes. |
+| **População Adscrita por eSF** | População vinculada a uma equipe de Saúde da Família para cuidado longitudinal. | **2.000 a 3.500 pessoas** por equipe (podendo ser menor em áreas vulneráveis/rurais/ribeirinhas). | Dizer que o limite é fixo em 10.000 pessoas para qualquer realidade territorial. |
+| **Microárea do ACS** | Subdivisão do território de responsabilidade de um ACS. | Máximo de **750 pessoas** por ACS. | Confundir o teto da microárea do ACS (750) com o da equipe inteira (2.000–3.500). |
+| **Integração Atenção Básica + Vigilância** | Recomendação expressa da PNAB e da PNVS (Res. 588/2018): base territorial única, planejamento conjunto e troca de informações entre ACS e ACE. | Reuniões conjuntas de equipe, mapa único de vulnerabilidades e ações educativas compartilhadas. | Afirmar que a atenção básica e a vigilância em saúde devem trabalhar em territórios incomunicáveis. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,6 +51,28 @@ Territorialização reúne localização e condições de vida. Adscrição orga
 
 **Gabarito: B.** A coordenação organiza o cuidado na rede. Principal não equivale a única; especialidades e urgências permanecem com funções próprias.
 
+### Questão 3
+
+[Autoral] Segundo a Política Nacional de Atenção Básica (Portaria nº 2.436/2017) e a Política Nacional de Vigilância em Saúde (Resolução CNS nº 588/2018), a integração entre as equipes de Atenção Básica e os Agentes de Combate às Endemias pressupõe:
+
+- A) A adoção de base territorial comum, o planejamento conjunto das ações de campo, o compartilhamento de dados epidemiológicos/entomológicos e a atuação articulada junto à comunidade.
+- B) A extinção das visitas domiciliares de controle vetorial e o fechamento dos laboratórios de entomologia.
+- C) A proibição de o ACE participar de reuniões da Unidade Básica de Saúde.
+- D) A fusão obrigatória do cargo de ACE com o cargo de médico da família.
+
+**Gabarito: A.** Tanto a PNAB quanto a PNVS determinam a integração entre Atenção Primária e Vigilância em Saúde por meio da compatibilização dos territórios de atuação, planejamento integrado, educação permanente conjunta e compartilhamento de informações.
+
+### Questão 4
+
+[Autoral] Na organização territorial prevista na PNAB (Portaria nº 2.436/2017), o parâmetro populacional de referência para cada Equipe de Saúde da Família (eSF) e o número máximo de pessoas por Agente Comunitário de Saúde (ACS) são, respectivamente:
+
+- A) De 2.000 a 3.500 pessoas por eSF (considerando vulnerabilidades locais) e no máximo 750 pessoas por ACS.
+- B) Exatamente 15.000 pessoas por eSF e 5.000 pessoas por ACS.
+- C) De 100 a 200 pessoas por eSF e 50 pessoas por ACS.
+- D) Não existe qualquer parâmetro populacional na PNAB.
+
+**Gabarito: A.** A PNAB 2017 preconiza população adscrita de 2.000 a 3.500 pessoas por equipe de Saúde da Família (podendo variar segundo vulnerabilidade e dispersão territorial, como em áreas ribeirinhas) e o limite máximo de 750 pessoas por ACS.
+
 ## Flashcards
 
 **Adscrição se resume a endereço?**
@@ -53,6 +82,10 @@ Não. Organiza vínculo e responsabilidade sanitária sobre uma população.
 **Visitas repetidas garantem longitudinalidade?**
 
 Não por si. É preciso continuidade de relação, informação e acompanhamento.
+
+**Quais são os parâmetros populacionais da PNAB 2017 para eSF e para cada ACS?**
+
+2.000 a 3.500 pessoas por equipe de Saúde da Família (eSF) e até 750 pessoas por ACS.
 
 ## Referências de consulta
 

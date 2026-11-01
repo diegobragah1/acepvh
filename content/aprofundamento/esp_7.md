@@ -20,6 +20,14 @@ O risco depende da tarefa, do ambiente, dos produtos e dos equipamentos. EPI é 
 
 Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta depósitos positivos por 100 imóveis. Controle segue protocolo e formulação; EPI não elimina todos os riscos.
 
+| Indicador / Modalidade Operacional | Fórmula ou Periodicidade Técnica | Classificação de Risco / Alvo Operacional | Detalhe Crucial de Campo |
+| --- | --- | --- | --- |
+| **Índice de Infestação Predial (IIP — LIRAa/LIA)** | $(	ext{Imóveis positivos} div 	ext{Imóveis pesquisados}) 	imes 100$ | **< 1,0%**: Satisfatório; **1,0% a 3,9%**: Alerta; **$ge$ 4,0%**: Risco de surto. | Considera no denominador apenas imóveis efetivamente **inspecionados** (exclui fechados/recusados). |
+| **Índice de Breteau (IB)** | $(	ext{Recipientes positivos} div 	ext{Imóveis pesquisados}) 	imes 100$ | Mede a densidade de depósitos positivos por 100 imóveis pesquisados. | Como um imóvel positivo pode ter 2 ou mais focos, tem-se sempre $	ext{IB} ge 	ext{IIP}$. |
+| **Grupos de Depósitos (A1, A2, B, C, D1, D2, E)** | **A1**: caixa elevada; **A2**: nível do solo; **B**: móveis (vasos/bebedouros); **C**: fixos (calhas/lajes); **D1**: pneus; **D2**: lixo/sucata; **E**: naturais (bromélias/ocos). | Permite direcionar a estratégia (ex.: se predomina A2, reforçar vedação e abastecimento; se D1/D2, mutirão e ecopontos). | Identificar o grupo predominante evita aplicar a ação errada no território. |
+| **Ponto Estratégico (PE) × Armadilhas** | **PE**: visita quinzenal (a cada **15 dias**) com pesquisa larvária e tratamento focal/residual. **Ovitrampa/Larvitrampa**: semanal (**7 dias**). | PE: cemitérios, borracharias, ferros-velhos, depósitos de sucata/recicláveis. | Nos PEs não se aguarda o ciclo bimestral regular da visita domiciliar. |
+| **Controle Mecânico, Biológico e Químico** | **Mecânico**: eliminar/vedar; **Biológico**: *Bti*; **Químico**: larvicida (focal) ou adulticida (perifocal/espacial UBV). | O controle **mecânico e manejo ambiental** são prioritários e permanentes; o UBV ("fumacê") só atinge alados em voo para bloqueio de transmissão. | O UBV não tem efeito residual nem mata ovos/larvas dentro da água. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +52,41 @@ Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta de
 
 **Gabarito: C.** Ausência de observação não equivale a resultado negativo. Registrar a condição real permite planejar retorno e avaliar cobertura.
 
+### Questão 3
+
+[Autoral] De acordo com as Diretrizes Nacionais para a Prevenção e Controle de Epidemias de Dengue (MS), um município que apresenta Índice de Infestação Predial (IIP) igual a 2,5% no LIRAa encontra-se na faixa classificada como:
+
+- A) Estado de Alerta (entre 1,0% e 3,9%), exigindo intensificação das ações de controle mecânico, focal e mobilização antes que atinja a faixa de risco de surto (igual ou superior a 4,0%).
+- B) Satisfatório, pois qualquer índice abaixo de 10% dispensa ações de vigilância.
+- C) Extinção completa do vetor na área urbana.
+- D) Incompatível com o cálculo matemático, pois o IIP só admite números acima de 50%.
+
+**Gabarito: A.** A classificação oficial do Ministério da Saúde para o IIP no LIRAa define: inferior a 1% = satisfatório; de 1% a 3,9% = alerta; igual ou superior a 4% = risco de surto.
+
+### Questão 4
+
+[Autoral] Na classificação padronizada de criadouros das Diretrizes Nacionais de Controle da Dengue, os pneus e materiais rodantes (Grupo D1), as calhas e lajes (Grupo C) e os locais com grande concentração desses materiais, como borracharias, cemitérios e ferros-velhos, recebem tratamento operacional específico. Nesses locais cadastrados como Pontos Estratégicos (PE), a periodicidade padrão de inspeção pelo ACE é:
+
+- A) Quinzenal (a cada 15 dias), em razão do elevado potencial de produção e dispersão de vetores.
+- B) Anual, realizada apenas no mês de dezembro.
+- C) Decenal, coincidindo com o censo demográfico do IBGE.
+- D) Facultativa, ocorrendo somente mediante ordem judicial.
+
+**Gabarito: A.** Enquanto a visita domiciliar de rotina ocorre em ciclos bimestrais (a cada 2 meses), os Pontos Estratégicos (PE) são inspecionados quinzenalmente (a cada 15 dias), e as armadilhas (ovitrampas/larvitrampas) são vistoriadas semanalmente.
+
 ## Flashcards
 
 **Por que IIP e Breteau podem ser diferentes?**
 
-Um imóvel positivo pode conter mais de um depósito positivo.
+Um imóvel positivo pode conter mais de um depósito positivo (por isso o Índice de Breteau é maior ou igual ao IIP).
 
 **Fechado significa negativo?**
 
-Não. Significa que a inspeção prevista não foi realizada.
+Não. Significa que a inspeção prevista não foi realizada e requer estratégias de recuperação de pendência.
+
+**Quais são as três faixas de risco do IIP no LIRAa?**
+
+Menor que 1%: Satisfatório; de 1% a 3,9%: Alerta; igual ou maior que 4%: Risco de surto.
 
 ## Referências de consulta
 

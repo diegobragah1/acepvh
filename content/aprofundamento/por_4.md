@@ -15,9 +15,25 @@ Em “Do portão, a agente observava o quintal”, a antecipação da circunstâ
 
 Pleonasmo expressivo reforça um termo com finalidade estilística. Ele deve ser distinguido de redundância desnecessária em uma redação técnica. A adequação depende do gênero: um efeito poético pode ser pouco útil em um relatório que exige concisão.
 
+## As três modalidades de silepse e o anacoluto
+A **silepse** (concordância ideológica) ocorre quando a flexão acompanha a ideia subentendida e não a forma gramatical explícita:
+1. **Silepse de gênero:** “Vossa Excelência está *preocupado*” (forma feminina com adjetivo masculino referindo-se a homem) ou “*Porto Velho* inteira *mobilizou-se*”.
+2. **Silepse de número:** “A *equipe* vistoriou o galpão e *saíram* ao meio-dia” (coletivo singular no primeiro verbo e plural ideológico no segundo).
+3. **Silepse de pessoa:** “Todos os *agentes* *sabemos* a importância da prevenção” (sujeito de 3ª pessoa plural com verbo na 1ª pessoa plural para incluir o enunciador).
+Já o **anacoluto** consiste na quebra da estrutura sintática inicial, deixando um termo solto sem função sintática na oração seguinte: “*Esses lotes abandonados*, é preciso que a fiscalização notifique os proprietários.”
+
 ## Resumo de revisão
 
 Reconstrua o termo omitido ou a ordem direta. Zeugma é uma espécie de elipse. Anáfora expressiva repete; referência anafórica retoma. Avalie o efeito e o gênero antes de chamar uma construção de erro.
+
+| Figura de Sintaxe | Operação Estrutural | Exemplo Autoral | Efeito de Sentido |
+| --- | --- | --- | --- |
+| **Elipse** | Omissão de termo facilmente subentendido pelo contexto. | "No pátio, [havia] três caixas destampadas." | Concisão e rapidez na frase. |
+| **Zeugma** | Omissão de termo já expresso anteriormente no período. | "O turno da manhã cobriu a zona norte; o da tarde, [cobriu] a sul." | Evita repetição verbal; frequentemente marcada por vírgula. |
+| **Assíndeto / Polissíndeto** | Ausência de conjunção coordenativa / repetição da conjunção. | "Entrou, olhou, anotou." / "E orienta, e inspeciona, e retorna." | Ritmo dinâmico e conciso (assíndeto) ou soma enfática (polissíndeto). |
+| **Anáfora** | Repetição da mesma palavra ou expressão no início de frases/versos. | "**Todo** foco importa. **Todo** cuidado protege." | Reforço rítmico e persuasivo em campanhas. |
+| **Silepse** | Concordância com a ideia (gênero, número ou pessoa), não com a palavra. | "A população compareceu ao mutirão e **apoiaram** a limpeza." | Aproximação expressiva ou inclusão do falante no grupo. |
+| **Anacoluto** | Termo inicial fica sintaticamente solto após pausa ou retomada. | "Aquele reservatório antigo, ninguém sabe quem o instalou." | Destaca o tópico em foco, comum na oralidade. |
 
 ## Exercícios autorais comentados
 
@@ -43,11 +59,41 @@ Em “Ana conferiu os relatórios; Bruno, os mapas”, a omissão de “conferiu
 
 **Gabarito: B.** “Precisamos” repete-se no início das estruturas, produzindo ênfase. Não se trata de pronome anafórico, e as estruturas são orações verbais.
 
+### Questão 3
+
+Na frase “Os servidores da vigilância conhecemos de perto a realidade de cada bairro”, o emprego de “conhecemos” com o sujeito “Os servidores da vigilância” configura:
+
+- A) Silepse de pessoa, pois o falante se inclui no grupo de terceira pessoa.
+- B) Zeugma de preposição obrigatória.
+- C) Assíndeto entre orações subordinadas.
+- D) Ambiguidade lexical por paronímia.
+
+**Gabarito: A.** A concordância ideológica de pessoa (3ª pessoa do plural “os servidores” com verbo na 1ª pessoa do plural “conhecemos”) inclui o enunciador no coletivo mencionado.
+
+### Questão 4
+
+Em “A equipe verificou as calhas, vedou os tambores, recolheu as garrafas, orientou os moradores”, a coordenação das orações sem conectivos exemplifica:
+
+- A) Polissíndeto.
+- B) Assíndeto.
+- C) Anacoluto.
+- D) Silepse de gênero.
+
+**Gabarito: B.** As orações coordenadas sucedem-se separadas apenas por vírgulas, sem conjunção aditiva explícita, caracterizando o assíndeto.
+
 ## Flashcards
 
 **Zeugma e elipse se excluem?**
 
-Não. Zeugma é uma elipse de termo já expresso.
+Não. Zeugma é uma elipse de termo já expresso anteriormente no enunciado.
+
+**Quais são os três tipos de silepse?**
+
+Silepse de gênero (ideia masculino/feminino), de número (coletivo singular com verbo no plural) e de pessoa (sujeito na 3ª pessoa e verbo na 1ª plural).
+
+**Qual a diferença entre assíndeto e polissíndeto?**
+
+Assíndeto omite os conectivos coordenativos; polissíndeto repete o conectivo a cada elemento enumerado.
 
 ## Referências de consulta
 

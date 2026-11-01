@@ -19,6 +19,13 @@ Ao revisar, pergunte: cada pronome tem referente reconhecível? As conclusões d
 
 Coesão liga; coerência constrói sentido global. Conectivo não corrige contradição. Progressão exige informação nova. Identifique referentes e limite conclusões ao que foi efetivamente afirmado.
 
+| Mecanismo Textual | Função no Texto | Exemplo Correto | Falha Frequente em Provas |
+| --- | --- | --- | --- |
+| **Coesão Referencial Anafórica** | Retoma termo já expresso no texto. | "O **laudo** ficou pronto; **ele** foi enviado." | Pronome com dois antecedentes possíveis gerando ambiguidade. |
+| **Coesão Referencial Catafórica** | Antecipa termo que será enunciado adiante. | "Só desejamos **isto**: **que todos cooperem**." | Empregar *esse/isso* quando se quer apontar para o que ainda virá (*este/isto*). |
+| **Coesão Lexical** | Substitui por sinônimo, hiperônimo ou nome síntese. | "Visitamos **Porto Velho**. A **capital rondoniense** avançou." | Usar termo substituto incompatível com a natureza do antecedente. |
+| **Coerência Lógica (Não Contradição)** | Compatibilidade entre premissas e conclusão do texto. | "Havia larvas; logo, o depósito foi tratado." | Usar conectivo conclusivo (*portanto*) para ligar ideias opostas ou contraditórias. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -43,11 +50,37 @@ Qual revisão melhora a clareza de “Maria conversou com Ana e ela registrou a 
 
 **Gabarito: C.** A repetição de Ana identifica quem fez o registro. Economia de palavras não deve impedir o reconhecimento do referente.
 
+### Questão 3
+
+Em “A supervisora destacou este ponto prioritário: a atualização diária dos croquis de quarteirão”, o pronome demonstrativo “este” realiza referência:
+
+- A) Catafórica, anunciando o termo que será explicitado após os dois-pontos.
+- B) Anafórica, retomando uma palavra do parágrafo anterior.
+- C) Exofórica exclusiva de tempo passado.
+- D) Incoerente, pois dois-pontos proíbem pronomes demonstrativos.
+
+**Gabarito: A.** O demonstrativo “este” antecipa o segmento apositivo que vem adiante (“a atualização diária dos croquis”), cumprindo papel catafórico.
+
+### Questão 4
+
+Assinale o período que apresenta quebra de coerência lógica pelo emprego inadequado do conectivo:
+
+- A) O imóvel estava fechado no horário comercial; por isso, o agente agendou retorno em horário alternativo.
+- B) Embora o morador limpasse o pátio semanalmente, a calha superior acumulava água sem que ele percebesse.
+- C) Os índices de infestação subiram de forma acentuada no bairro; portanto, nenhuma ação de controle precisa ser mantida.
+- D) Como o laboratório confirmou a positividade das amostras, a vigilância intensificou o bloqueio no quarteirão.
+
+**Gabarito: C.** Subida acentuada de infestação contradiz a conclusão de dispensar ações de controle; o conectivo conclusivo “portanto” explicita a incoerência.
+
 ## Flashcards
 
 **Muitos conectivos garantem coerência?**
 
 Não. As ideias ainda precisam ser compatíveis e relacionadas ao contexto e ao tema.
+
+**Qual a diferença entre anáfora e catáfora na coesão referencial?**
+
+Anáfora retoma um termo já dito (usa-se esse/isso); catáfora anuncia um termo que ainda será dito (usa-se este/isto).
 
 ## Referências de consulta
 

@@ -15,9 +15,21 @@ Nomes também selecionam complementos: “necessidade de apoio”, “favorável
 
 Para revisar uma frase, recoloque os termos na ordem mais simples e pergunte qual preposição a relação exige. Isso resolve melhor que memorizar apenas uma lista descontextualizada.
 
+## Informar, avisar, cientificar e implicar
+Verbos bitransitivos como **informar, avisar, certificar, notificar e prevenir** admitem dupla construção na norma-padrão: *informar algo a alguém* (OD de coisa + OI de pessoa) ou *informar alguém de/sobre algo* (OD de pessoa + OI de coisa). O que não se admite é colocar dois objetos diretos ou dois indiretos simultaneamente (ex.: *"informou ao morador que..."* com ambas as funções preposicionadas). Já o verbo **implicar**, no sentido de *acarretar / produzir como consequência*, é transitivo direto na norma-padrão (“O acúmulo de lixo **implica** risco sanitário”, sem a preposição *em*).
+
 ## Resumo de revisão
 
 Regência depende de sentido e construção. Na oração relativa, recupere a preposição do verbo ou nome. Onde/aonde/de onde exigem relação adequada. Cujo concorda com o termo possuído e não admite artigo depois.
+
+| Verbo | Sentido 1 (Transitivo Direto — sem preposição) | Sentido 2 (Transitivo Indireto — com preposição) | Observação de Prova |
+| --- | --- | --- | --- |
+| **Aspirar** | Inalar, sorver: *"Aspirou o pó químico."* | Almejar, desejar: *"Aspira **ao** cargo de ACE."* | Na acepção de desejar, não admite *lhe* (usa-se *a ele*). |
+| **Assistir** | Dar suporte/ajuda (TD ou TI): *"O médico assistiu o paciente."* | Presenciar, ver (TI): *"Assistiu **ao** treinamento."* / Caber direito: *"Assiste **ao** servidor."* | No sentido de ver/presenciar, exige preposição **a**. |
+| **Visar** | Mirar ou pôr visto: *"Visou o passaporte."* | Ter por objetivo (TI): *"A ação visa **à** redução de focos."* | Com sentido de objetivar, rege preposição **a** na norma-padrão. |
+| **Implicar** | Acarretar, gerar consequência: *"A recusa implica notificação."* | Ter implicância (*com*) ou envolver-se (*em*): *"Implicou-se em fraude."* | No sentido de acarretar, é VTD (evite *"implica em"*). |
+| **Obedecer / Desobedecer** | — | Sempre Transitivos Indiretos (preposição **a**): *"Obedeceu **ao** protocolo."* | Embora sejam VTI, admitem voz passiva por tradição gramatical. |
+| **Preferir** | — | VTDI (*preferir X **a** Y*): *"Prefiro prevenção **a** remediação."* | Não admite intensificadores (*muito mais, antes*) nem *do que*. |
 
 ## Exercícios autorais comentados
 
@@ -43,11 +55,41 @@ Qual construção emprega cujo corretamente?
 
 **Gabarito: C.** Cujas concorda com salas, termo possuído, sem artigo interposto. As demais formas erram concordância ou inserem artigo.
 
+### Questão 3
+
+Assinale a alternativa que respeita as regras de regência verbal da norma-padrão:
+
+- A) A campanha visa mais do que nunca na erradicação dos criadouros.
+- B) Preferimos atuar preventivamente nos bairros do que remediar surtos graves.
+- C) O descarte irregular de pneus implica proliferação de vetores, razão por que obedecemos às normas sanitárias.
+- D) O agente informou ao morador de que o retorno ocorreria na sexta-feira.
+
+**Gabarito: C.** “Implicar” (acarretar) é transitivo direto (“implica proliferação”) e “obedecer” é transitivo indireto (“às normas”). Na A, “visa à erradicação”; na B, “Preferimos atuar... a remediar”; na D, “informou o morador de que” ou “informou ao morador que”.
+
+### Questão 4
+
+No período “O imóvel ___ proprietário a equipe conversou fica na rua ___ nos dirigimos”, as lacunas são preenchidas corretamente por:
+
+- A) com cujo / aonde (ou à qual)
+- B) cujo o / onde
+- C) de que / donde
+- D) quem / na qual
+
+**Gabarito: A.** Quem conversa, conversa “com” alguém (com o proprietário do imóvel → “com cujo proprietário”); quem se dirige, dirige-se “a” algum lugar (“à qual” ou “aonde” nos dirigimos).
+
 ## Flashcards
 
 **Como descobrir a preposição antes de um relativo?**
 
 Reconstrua a oração simples: necessita de materiais → materiais de que necessita.
+
+**Qual a regência de “preferir” e “implicar” (no sentido de acarretar)?**
+
+Preferir X a Y (sem “mais” nem “do que”); implicar algo (transitivo direto, sem preposição “em”).
+
+**Qual a diferença entre “onde” e “aonde”?**
+
+Onde indica permanência/lugar em que (verbos estáticos); aonde combina a preposição “a” + “onde” para verbos que exigem direção/movimento a (ir, chegar, dirigir-se a).
 
 ## Referências de consulta
 

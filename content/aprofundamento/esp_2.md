@@ -20,6 +20,13 @@ Nos exercícios sobre transferência financeira, não memorize apenas “fundo a
 
 Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes, ordinariamente a cada quatro anos. Paridade dos usuários é em relação ao conjunto dos demais. Pactuação de gestores não é controle social.
 
+| Colegiado / Requisito (Leis 8.080 e 8.142) | Natureza e Periodicidade | Composição / Requisitos Legais | Função Principal |
+| --- | --- | --- | --- |
+| **Conferência de Saúde** | Consultiva/propositiva; reúne-se **a cada 4 anos** (convocada pelo Executivo ou, extraordinariamente, por esta ou pelo Conselho). | Vários segmentos sociais, com representação paritária de usuários. | Avaliar a situação de saúde e **propor as diretrizes** para a formulação da política de saúde. |
+| **Conselho de Saúde** | **Permanente e deliberativo** (decisões homologadas pelo chefe do poder legalmente constituído em cada esfera). | **50% Usuários** + **50% demais segmentos** (governo, prestadores de serviço e profissionais de saúde). | Atuar na **formulação de estratégias e no controle da execução** da política de saúde (inclusive aspectos econômicos e financeiros). |
+| **Comissões Intergestores (CIT, CIB, CIR)** | Fóruns de negociação e **pactuação entre gestores** (art. 14-A da Lei 8.080). | Apenas representantes dos gestores (União/Estados/Municípios), **sem** usuários. | Pactuar aspectos operacionais, financeiros e administrativos da gestão compartilhada do SUS. |
+| **6 Requisitos para Repasse (Art. 4º da Lei 8.142)** | Condições para Municípios, Estados e DF receberem recursos de cobertura assistencial. | 1) Fundo de Saúde; 2) Conselho de Saúde; 3) Plano de Saúde; 4) Relatórios de Gestão; 5) Contrapartida no orçamento; 6) Comissão de elaboração do **PCCS** (prazo de 2 anos). | Sem atender a esses requisitos, os recursos são administrados, respectivamente, pelos Estados ou pela União (art. 4º, parágrafo único). |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -44,15 +51,41 @@ Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes,
 
 **Gabarito: B.** A Lei 8.142 diferencia o caráter permanente do conselho e a reunião ordinária da conferência. Admite conferências extraordinárias e não transfere toda a execução administrativa a esses colegiados.
 
+### Questão 3
+
+[Autoral] Nos termos do art. 4º da Lei Federal nº 8.142/1990, assinale a alternativa que apresenta apenas requisitos exigidos dos Municípios, Estados e Distrito Federal para o recebimento regular e automático dos recursos de que trata o art. 3º da referida lei:
+
+- A) Fundo de Saúde, Conselho de Saúde, Plano de Saúde, Relatórios de Gestão, contrapartida de recursos no respectivo orçamento e Comissão de elaboração do Plano de Carreira, Cargos e Salários (PCCS).
+- B) Apenas a assinatura de termo de adesão com hospital privado lucrativo e a extinção do Conselho Municipal de Saúde.
+- C) Existência de faculdade pública de medicina no município e realização de conferência mensal de saúde.
+- D) Autorização prévia da Comissão Intergestores Tripartite para cada compra individual de insumo básico.
+
+**Gabarito: A.** Os seis incisos do art. 4º da Lei 8.142/1990 exigem: I - Fundo de Saúde; II - Conselho de Saúde; III - Plano de Saúde; IV - relatórios de gestão; V - contrapartida de recursos para a saúde no respectivo orçamento; VI - Comissão de elaboração do PCCS, previsto o prazo de dois anos para sua implantação.
+
+### Questão 4
+
+[Autoral] Sobre as Comissões Intergestores Bipartite (CIB) e Tripartite (CIT), reconhecidas no art. 14-A da Lei nº 8.080/1990, é correto afirmar que:
+
+- A) São foros de negociação e pactuação entre gestores quanto aos aspectos operacionais do SUS, não se confundindo com as instâncias de controle social com participação de usuários.
+- B) Substituem integralmente os Conselhos Municipais e Estaduais de Saúde na fiscalização popular das contas.
+- C) São compostas por 50% de moradores do bairro e 50% de agentes de combate às endemias.
+- D) Reúnem-se apenas uma vez a cada dez anos para votar emendas constitucionais.
+
+**Gabarito: A.** As Comissões Intergestores (CIT, CIB e CIR) reúnem exclusivamente gestores das esferas de governo para pactuação técnica e operacional, enquanto os Conselhos e Conferências exercem a participação social com paridade de usuários.
+
 ## Flashcards
 
 **Qual é a paridade dos usuários?**
 
-Metade dos assentos em relação ao conjunto dos demais segmentos.
+Metade (50%) dos assentos em relação ao conjunto dos demais segmentos (governo, prestadores e profissionais de saúde).
 
 **Comissão intergestores é conselho de saúde?**
 
-Não. Pactuação entre gestores e participação/controle social têm composições e finalidades distintas.
+Não. Pactuação entre gestores (CIT, CIB, CIR) e participação/controle social (Conselhos e Conferências) têm composições e finalidades distintas.
+
+**Quais são os 6 requisitos do art. 4º da Lei 8.142/1990 para repasse regular e automático?**
+
+Fundo de Saúde, Conselho de Saúde, Plano de Saúde, Relatórios de Gestão, contrapartida orçamentária e Comissão de elaboração do PCCS.
 
 ## Referências de consulta
 

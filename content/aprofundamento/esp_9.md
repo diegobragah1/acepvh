@@ -33,6 +33,13 @@ Saneamento, controle de vetores, proteção individual, vacinação quando indic
 
 Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele. Chagas vetorial: material fecal. Arboviroses e doenças respiratórias não compartilham todas as medidas de prevenção. Sintomas orientam suspeita, não diagnóstico isolado.
 
+| Recorte Diferencial de Prova | Ponto-Chave Clínico / Epidemiológico | Pegadinha Clássica de Banca |
+| --- | --- | --- |
+| **Dengue × Chikungunya × Zika** | **Dengue**: risco de choque/extravasamento plasmático na defervescência (3º ao 7º dia); **Chikungunya**: poliartralgia intensa/incapacitante (fases aguda, pós-aguda e crônica); **Zika**: exantema precoce, conjuntivite não purulenta, transmissão vertical/sexual (síndrome congênita). | Achar que quando a febre da dengue baixa o perigo acabou (é justamente o período crítico para **sinais de alarme**). |
+| **Febre Amarela (Silvestre × Urbana)** | No Brasil não há transmissão urbana desde **1942**; nos casos silvestres, os vetores são *Haemagogus* e *Sabethes*, e os macacos (**PNH**) adoecem e funcionam como **sentinelas** de epizootia. | Afirmar que os macacos transmitem diretamente o vírus ao ser humano sem mosquito. |
+| **Malária na Amazônia (Porto Velho)** | Agentes: *Plasmodium vivax* (mais frequente no Brasil/RO, com **hipnozoítos** hepáticos causadores de recaídas) e *P. falciparum* (formas graves). Vetor: fêmea de *Anopheles darlingi* (criadouros naturais limpos e sombreados). | Confundir o criadouro do *Anopheles* (coleções hídricas naturais/represas/igarapés) com o do *Aedes* (recipientes artificiais domésticos). |
+| **Doença de Chagas na Amazônia** | Principal forma de transmissão atual na Região Norte é a **transmissão oral** (ingestão de alimentos como açaí/bacaba contaminados com *T. cruzi* de triatomíneos triturados ou suas fezes). | Dizer que a transmissão oral de Chagas não existe ou que a única via possível é a picada salivar. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -57,15 +64,41 @@ Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele
 
 **Gabarito: B.** Medidas precisam atingir elementos da cadeia de transmissão. Controle de mosquito, saneamento, ventilação e avaliação de exposições não são intervenções intercambiáveis.
 
+### Questão 3
+
+[Autoral] No contexto epidemiológico da Região Amazônica (incluindo Porto Velho/RO), qual espécie de protozoário responde pela maioria dos casos autóctones de malária e caracteriza-se por formar formas latentes no fígado (hipnozoítos) capazes de provocar recaídas se o tratamento não incluir medicamento tecido-esquizonticida?
+
+- A) Plasmodium vivax.
+- B) Schistosoma mansoni.
+- C) Rickettsia rickettsii.
+- D) Leptospira interrogans.
+
+**Gabarito: A.** O Plasmodium vivax é a espécie predominante na Amazônia brasileira e forma hipnozoítos hepáticos responsáveis por recaídas tardias. O P. falciparum associa-se a maior gravidade aguda, mas não forma hipnozoítos.
+
+### Questão 4
+
+[Autoral] Na evolução clínica da dengue, o período de defervescência (queda da febre, geralmente entre o 3º e o 7º dia de doença) requer máxima atenção e orientação ao paciente porque:
+
+- A) Marca o momento em que podem surgir os sinais de alarme (como dor abdominal intensa e contínua, vômitos persistentes, hipotensão postural e sangramento de mucosas) decorrentes do aumento da permeabilidade vascular.
+- B) Indica cura definitiva imediata sem qualquer possibilidade de complicação.
+- C) Significa que a doença transformou-se em raiva humana.
+- D) Permite suspender toda hidratação oral do paciente.
+
+**Gabarito: A.** Na dengue, o desaparecimento da febre (defervescência) pode coincidir com o início da fase crítica de extravasamento plasmático; por isso, o ACE e a equipe de saúde devem orientar o reconhecimento imediato dos sinais de alarme.
+
 ## Flashcards
 
 **Por que não eliminar primatas não humanos em uma investigação de febre amarela?**
 
-São sentinelas importantes; o ciclo vetorial não se interrompe por essa conduta.
+São sentinelas epidemiológicas importantes (epizootias alertam a circulação viral); eles não transmitem o vírus diretamente e matá-los é crime ambiental.
 
-**Qual é o mecanismo vetorial clássico de Chagas?**
+**Qual é o mecanismo vetorial clássico de Chagas e qual via predomina hoje na Amazônia?**
 
-Contato de material fecal do triatomíneo infectado com porta de entrada; não a inoculação salivar típica dos mosquitos.
+O mecanismo vetorial clássico ocorre pelas fezes do triatomíneo depositadas após o repasto; na Amazônia, predomina hoje a transmissão oral por alimentos contaminados (como açaí/bacaba sem pasteurização/branqueamento).
+
+**Qual a diferença entre os vetores da Febre Amarela silvestre, da Malária e das Leishmanioses?**
+
+Febre Amarela silvestre: Haemagogus e Sabethes; Malária: Anopheles (prego/carapanã); Leishmanioses: Lutzomyia (flebotomíneo/mosquito-palha).
 
 ## Referências de consulta
 

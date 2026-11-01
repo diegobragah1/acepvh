@@ -23,6 +23,13 @@ Se duas equipes têm médias 6 e 9, mas contam com 10 e 20 pessoas, a média con
 
 Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Confira o sistema nas duas equações. Parcela fixa diferencia função afim de proporcionalidade. Média conjunta pondera os tamanhos dos grupos.
 
+| Tópico Algébrico | Fórmula / Estrutura | Aplicação Rápida | Cuidado na Prova |
+| --- | --- | --- | --- |
+| **Tradução Verbal para Equação** | *"A terça parte de $x$ excede 4 em 10"* $implies rac{x}{3} - 4 = 10$. | Cuidado com parênteses: *"o dobro de $(x+3)$"* é $2(x+3) = 2x+6$, e não $2x+3$. | Releia o comando para ver se pede $x$, o sucessor $x+1$ ou a soma. |
+| **Sistema Linear $2 	imes 2$** | $egin{cases} x + y = T \ a x + b y = S end{cases}$ | Método da adição/subtração elimina uma variável rapidamente. | Confira o par $(x,y)$ nas **duas** equações do enunciado. |
+| **Função do 1º Grau (Afim)** | $f(x) = a x + b$ ($a =$ taxa de variação; $b =$ valor inicial/fixo). | Raiz ou zero da função: $f(x)=0 implies x = -b/a$. Se $a>0$, é crescente; se $a<0$, decrescente. | Só é linear/proporcional se $b = 0$. |
+| **Média Simples × Média Ponderada** | $ar{x} = rac{sum x_i}{n}$ × $ar{x}_p = rac{p_1 x_1 + p_2 x_2 + dots}{p_1 + p_2 + dots}$ | Na média ponderada, divide-se pela **soma dos pesos** ($p_1+p_2+dots$), e não pela quantidade de parcelas. | No concurso ACE (Português peso 2, RLM peso 1, Gerais peso 1, Legislação peso 2, Específicos peso 3), a nota final usa média ponderada/pontos por peso. |
+
 ## Exercícios autorais comentados
 
 ### Questão 1
@@ -47,15 +54,41 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 
 **Gabarito: C.** A soma total é 10×6 + 20×9=240; dividir por 30 resulta em 8. Média simples entre 6 e 9 ignoraria os tamanhos dos grupos.
 
+### Questão 3
+
+[Autoral] Em um mutirão, foram vistoriados 50 imóveis entre residências (cada uma com 2 caixas-d’água) e pequenos comércios (cada um com 5 caixas-d’água), totalizando 136 caixas-d’água inspecionadas. Quantas residências foram vistoriadas?
+
+- A) 38 residências.
+- B) 12 residências.
+- C) 25 residências.
+- D) 40 residências.
+
+**Gabarito: A.** Sejam R as residências e C os comércios: R + C = 50 (logo C = 50 − R) e 2R + 5C = 136. Substituindo: 2R + 5(50 − R) = 136 → 2R + 250 − 5R = 136 → 3R = 114 → R = 38 residências (e C = 12 comércios).
+
+### Questão 4
+
+[Autoral] Um candidato obteve nota 8,0 em uma prova de peso 2; nota 7,0 em uma prova de peso 3; e nota 9,0 em uma prova de peso 5. Qual foi a sua média aritmética ponderada nessas três avaliações?
+
+- A) 8,2.
+- B) 8,0.
+- C) 7,5.
+- D) 9,0.
+
+**Gabarito: A.** Multiplicando cada nota pelo respectivo peso e dividindo pela soma dos pesos (2 + 3 + 5 = 10): [(8,0 × 2) + (7,0 × 3) + (9,0 × 5)] / 10 = (16 + 21 + 45) / 10 = 82 / 10 = 8,2.
+
 ## Flashcards
 
 **Por que C(x)=15+4x não é diretamente proporcional?**
 
-Há parcela fixa: C(0)=15, e a razão C(x)/x não é constante.
+Há parcela fixa: C(0)=15, e a razão C(x)/x não permanece constante.
 
-**Como conferir um sistema?**
+**Como conferir um sistema de equações?**
 
-Substitua os valores encontrados em todas as equações originais.
+Substitua os valores encontrados para x e y em todas as equações originais.
+
+**Qual o denominador correto no cálculo da média aritmética ponderada?**
+
+A soma de todos os pesos (p1 + p2 + ... + pn), e nunca o número de notas somadas.
 
 ## Referências de consulta
 
