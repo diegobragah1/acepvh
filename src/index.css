@@ -15,7 +15,28 @@ body {
   color: var(--text-primary);
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
+}
+
+.prose-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.prose-content table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.prose-content pre,
+.prose-content .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .mono {

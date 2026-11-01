@@ -101,7 +101,9 @@ export const PautaLocator: React.FC<PautaLocatorProps> = ({
   activeLessonId,
   onJumpToLessonBlock,
 }) => {
-  const [showPautaPanel, setShowPautaPanel] = useState(true);
+  const [showPautaPanel, setShowPautaPanel] = useState(() =>
+    typeof window !== 'undefined' ? window.innerWidth >= 768 : false
+  );
 
   return (
     <div className="bg-gradient-to-r from-teal-950 via-slate-900 to-teal-900 text-white rounded-2xl border border-teal-800 p-4 shadow-sm no-print">

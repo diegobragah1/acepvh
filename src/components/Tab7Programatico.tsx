@@ -150,7 +150,7 @@ export const Tab7Programatico: React.FC = () => {
           </div>
 
           {/* Global Progress Box */}
-          <div className="bg-slate-900 text-white rounded-2xl p-4 min-w-[260px] shadow-sm space-y-2">
+          <div className="bg-slate-900 text-white rounded-2xl p-4 w-full sm:w-auto sm:min-w-[260px] shadow-sm space-y-2">
             <div className="flex items-center justify-between text-xs font-bold">
               <span className="text-slate-300">Domínio do Edital (49 itens)</span>
               <span className="text-emerald-400 font-extrabold">

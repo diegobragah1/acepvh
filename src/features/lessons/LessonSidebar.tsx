@@ -41,7 +41,7 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
 }) => {
   return (
     <aside className="lg:col-span-3 space-y-3 no-print">
-      <div className="bg-white rounded-2xl border border-slate-200 p-3.5 shadow-sm space-y-3 sticky top-36">
+      <div className="bg-white rounded-2xl border border-slate-200 p-3.5 shadow-sm space-y-3 lg:sticky lg:top-16">
         <div className="flex items-center justify-between">
           <h3 className="text-xs font-extrabold uppercase tracking-wider text-slate-700">
             📚 Sumário ({filteredLessons.length}/{lessons.length} Aulas)

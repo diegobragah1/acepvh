@@ -33,7 +33,7 @@ export const App: React.FC = () => {
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
       <Header />
 
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-4 py-3 sm:py-5">
         {loading && (
           <div className="flex flex-col items-center justify-center p-12 space-y-4">
             <div className="w-10 h-10 border-4 border-teal-600 border-t-transparent rounded-full animate-spin"></div>

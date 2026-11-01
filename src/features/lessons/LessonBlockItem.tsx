@@ -95,7 +95,7 @@ export const LessonBlockItem: React.FC<LessonBlockItemProps> = React.memo(({
   return (
     <article
       id={`lesson-block-${blockIndex}`}
-      className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all"
+      className="scroll-mt-24 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all"
     >
       {/* Block Header */}
       <div className="bg-slate-900 text-white px-4 py-3 flex flex-wrap items-center justify-between gap-2">

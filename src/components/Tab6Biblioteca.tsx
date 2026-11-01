@@ -84,18 +84,18 @@ export const Tab6Biblioteca: React.FC = () => {
               Os cartões reúnem metadados, links e aulas relacionadas. Cadastro e tamanho informado não são comprovantes de leitura ou validação documental.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 w-full md:w-auto">
             <input
               type="text"
               placeholder="Filtrar por nome, assunto ou número..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm"
+              className="w-full sm:w-auto max-w-full px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm"
             />
             <select
               value={folderFilter}
               onChange={(e) => setFolderFilter(e.target.value)}
-              className="px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm font-semibold bg-slate-50"
+              className="w-full sm:w-auto max-w-full px-3 py-2 rounded-lg border border-slate-300 text-xs sm:text-sm font-semibold bg-slate-50"
             >
               <option value="all">Todas as pastas ({sources.length} fontes)</option>
               <option value="8 - EDITAL E LEIS OFICIAIS">8 - Editais IBGP e Leis Oficiais (9)</option>

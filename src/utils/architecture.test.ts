@@ -100,4 +100,20 @@ describe('Structural Refactoring & Modular Data Integrity', () => {
     assert.ok(!checkYml.includes('npm ci'), 'check.yml should not use npm ci without package-lock.json');
     assert.ok(!checkYml.includes('cache: npm'), 'check.yml should not require npm lockfile cache');
   });
+
+  it('configures compact Header with short mobile title, collapsible Edital info, and all 7 menu buttons visible without horizontal scrolling', () => {
+    const headerSrc = fs.readFileSync(path.join(ROOT, 'src/components/Header.tsx'), 'utf8');
+
+    assert.ok(headerSrc.includes('ACE — SEMUSA Porto Velho'), 'Mobile short title must be present');
+    assert.ok(headerSrc.includes('ⓘ Edital'), 'Collapsible Edital button must be present');
+    assert.ok(
+      headerSrc.includes('Edital nº 25/2026 + Retif. nº 01 (IBGP)') &&
+        headerSrc.includes('36 Vagas (27 AC + 2 PcD + 5 PN + 2 Indígenas)'),
+      'Full Edital details must be preserved inside the expandable section'
+    );
+    for (const label of ['Painel', 'Conteúdo', 'Aulas', 'Revisão', 'Endemias', 'Cronograma', 'Fontes']) {
+      assert.ok(headerSrc.includes(`shortLabel: '${label}'`), `Missing short menu label ${label}`);
+    }
+    assert.ok(!headerSrc.includes('overflow-x-auto'), 'Main navigation must not require horizontal scrolling');
+  });
 });
