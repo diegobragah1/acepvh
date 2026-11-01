@@ -122,14 +122,14 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_2-c05 | 2 - Gêneros e tipos de texto. | Analisar sequências combinadas e predominância | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
 | por_2-c06 | 2 - Gêneros e tipos de texto. | Relacionar finalidade, interlocutor e circulação | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
 | por_2-c07 | 2 - Gêneros e tipos de texto. | Comparar textos de gêneros diferentes sobre o mesmo assunto | por_2 | data/app_data.json#/lessons/18/blocks | Não atribuído / PENDENTE |
-| por_3-c01 | 3 - Significação das palavras. | significação | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c02 | 3 - Significação das palavras. | sinonímia | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c03 | 3 - Significação das palavras. | antonímia | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c04 | 3 - Significação das palavras. | polissemia | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c05 | 3 - Significação das palavras. | homonímia | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c06 | 3 - Significação das palavras. | paronímia | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c07 | 3 - Significação das palavras. | denotação | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
-| por_3-c08 | 3 - Significação das palavras. | conotação | por_3 | data/app_data.json#/lessons/19/blocks | Não atribuído / PENDENTE |
+| por_3-c01 | 3 - Significação das palavras. | significação | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c02 | 3 - Significação das palavras. | sinonímia | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c03 | 3 - Significação das palavras. | antonímia | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c04 | 3 - Significação das palavras. | polissemia | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c05 | 3 - Significação das palavras. | homonímia | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c06 | 3 - Significação das palavras. | paronímia | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c07 | 3 - Significação das palavras. | denotação | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
+| por_3-c08 | 3 - Significação das palavras. | conotação | por_3 | data/app_data.json#/lessons/19/blocks | PARCIAL / PENDENTE |
 | por_4-c01 | 4 - Figuras de Sintaxe. | Figuras de Sintaxe | por_4 | data/app_data.json#/lessons/20/blocks | Não atribuído / PENDENTE |
 | por_4-c02 | 4 - Figuras de Sintaxe. | elipse | por_4 | data/app_data.json#/lessons/20/blocks | Não atribuído / PENDENTE |
 | por_4-c03 | 4 - Figuras de Sintaxe. | zeugma | por_4 | data/app_data.json#/lessons/20/blocks | Não atribuído / PENDENTE |
@@ -151,8 +151,8 @@ Níveis possíveis: AUSENTE, SUPERFICIAL, PARCIAL, ADEQUADO, APROFUNDADO, VALIDA
 | por_5-c09 | 5 - Figuras de Linguagem. | antítese | por_5 | data/app_data.json#/lessons/21/blocks | Não atribuído / PENDENTE |
 | por_5-c10 | 5 - Figuras de Linguagem. | paradoxo | por_5 | data/app_data.json#/lessons/21/blocks | Não atribuído / PENDENTE |
 | por_5-c11 | 5 - Figuras de Linguagem. | sinestesia | por_5 | data/app_data.json#/lessons/21/blocks | Não atribuído / PENDENTE |
-| por_6-c01 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | operadores sequenciais | por_6 | data/app_data.json#/lessons/22/blocks | Não atribuído / PENDENTE |
-| por_6-c02 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | expressões referenciais | por_6 | data/app_data.json#/lessons/22/blocks | Não atribuído / PENDENTE |
+| por_6-c01 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | operadores sequenciais | por_6 | data/app_data.json#/lessons/22/blocks | PARCIAL / PENDENTE |
+| por_6-c02 | 6 - Articulação textual: operadores sequenciais, expressões referenciais. | expressões referenciais | por_6 | data/app_data.json#/lessons/22/blocks | PARCIAL / PENDENTE |
 | por_7-c01 | 7 - Coesão e coerência textual. | coesão | por_7 | data/app_data.json#/lessons/23/blocks | PARCIAL / PENDENTE |
 | por_7-c02 | 7 - Coesão e coerência textual. | coerência | por_7 | data/app_data.json#/lessons/23/blocks | PARCIAL / PENDENTE |
 | por_8-c01 | 8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras. | identificação | por_8 | data/app_data.json#/lessons/24/blocks | Não atribuído / PENDENTE |

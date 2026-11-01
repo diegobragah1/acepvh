@@ -12889,7 +12889,7 @@
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "significação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -12909,11 +12909,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Reorganizar identidade e escopo; figuras, ortografia e pontuacao ocupam grande parte da aula lexical.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -12940,15 +12950,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Reorganizar identidade e escopo; figuras, ortografia e pontuacao ocupam grande parte da aula lexical.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c02",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "sinonímia",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -12968,11 +12983,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Definicao e complemento nao sao acompanhados por questao interativa de substituicao sinonimica contextual.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -12999,15 +13024,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Definicao e complemento nao sao acompanhados por questao interativa de substituicao sinonimica contextual.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c03",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "antonímia",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13027,11 +13057,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Ampliar eixos de oposicao em contexto e exercicios de antonimia; pares isolados nao demonstram dominio.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13058,15 +13098,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Ampliar eixos de oposicao em contexto e exercicios de antonimia; pares isolados nao demonstram dominio.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c04",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "polissemia",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13086,11 +13131,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Confrontar acepcoes de cabeca/rede/ponto e explicitar limites do criterio de origem; falta exercicio dedicado.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13117,15 +13172,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confrontar acepcoes de cabeca/rede/ponto e explicitar limites do criterio de origem; falta exercicio dedicado.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c05",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "homonímia",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13145,11 +13205,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Confrontar entradas lexicograficas e convencao classificatoria de homofonos/homografos; falta contraste aplicado com polissemia.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13176,15 +13246,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Confrontar entradas lexicograficas e convencao classificatoria de homofonos/homografos; falta contraste aplicado com polissemia.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c06",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "paronímia",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13204,11 +13279,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar acepcoes das tabelas; oito linhas nao correspondem aos 12 pares anunciados; qualificar ratificar/retificar na questao 0/2.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13235,15 +13320,23 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Harmonizar acepcoes das tabelas; oito linhas nao correspondem aos 12 pares anunciados; qualificar ratificar/retificar na questao 0/2.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json",
+      "questoesComRessalva": [
+        "por_3.blocks[0].questions[2]"
+      ]
     },
     {
       "id": "por_3-c07",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "denotação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13263,11 +13356,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Dicionarizacao nao distingue uso denotativo de acepcao figurada registrada; rever macete e confrontar verbetes.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13294,15 +13397,20 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Dicionarizacao nao distingue uso denotativo de acepcao figurada registrada; rever macete e confrontar verbetes.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_3-c08",
       "itemOriginal": "3 - Significação das palavras.",
       "aula": "por_3",
       "subcompetencia": "conotação",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/19/blocks",
       "fontesCadastradas": [
@@ -13322,11 +13430,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_3].blocks",
+        "src/data/deepening/portugues.ts: entrada por_3"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Desenvolver efeito contextual e harmonizar com denotacao; exemplos de figuras nao substituem analise de acepcao.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_3.blocks[0].questions[0]",
@@ -13353,8 +13471,13 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Desenvolver efeito contextual e harmonizar com denotacao; exemplos de figuras nao substituem analise de acepcao.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_4-c01",
@@ -14432,7 +14555,7 @@
       "itemOriginal": "6 - Articulação textual: operadores sequenciais, expressões referenciais.",
       "aula": "por_6",
       "subcompetencia": "operadores sequenciais",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/22/blocks",
       "fontesCadastradas": [
@@ -14452,11 +14575,22 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_6.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_6].blocks",
+        "src/data/deepening/portugues.ts: entrada por_6"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_6.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Qualificar pressupostos e mas; retirar garantia de 30% sem corpus; desenvolver contraste de valores e construcoes.",
+        "Conferir questoes 1/0 e 1/2 sob ressalva contextual e comentario orfao de alternativa E em 1/3.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_6.blocks[0].questions[0]",
@@ -14483,15 +14617,27 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Qualificar pressupostos e mas; retirar garantia de 30% sem corpus; desenvolver contraste de valores e construcoes. Conferir questoes 1/0 e 1/2 sob ressalva contextual e comentario orfao de alternativa E em 1/3.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_6.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json",
+      "questoesComRessalva": [
+        "por_6.blocks[1].questions[0]",
+        "por_6.blocks[1].questions[2]"
+      ],
+      "comentariosComFalha": [
+        "por_6.blocks[1].questions[3].comment: alternativa E inexistente"
+      ]
     },
     {
       "id": "por_6-c02",
       "itemOriginal": "6 - Articulação textual: operadores sequenciais, expressões referenciais.",
       "aula": "por_6",
       "subcompetencia": "expressões referenciais",
-      "nivel": null,
+      "nivel": "PARCIAL",
       "validacao": "PENDENTE",
       "localizacao": "data/app_data.json#/lessons/22/blocks",
       "fontesCadastradas": [
@@ -14511,11 +14657,21 @@
           "consultaComprovada": false
         }
       ],
-      "evidenciaTeoria": [],
+      "evidenciaTeoria": [
+        "docs/auditoria/AUDITORIA_POR_6.md#achados-e-encaminhamentos",
+        "data/app_data.json: lessons[id=por_6].blocks",
+        "src/data/deepening/portugues.ts: entrada por_6"
+      ],
       "evidenciaFonte": [],
       "exerciciosValidados": [],
-      "evidenciaRevisao": [],
-      "pendenciasCriticas": [],
+      "evidenciaRevisao": [
+        "docs/auditoria/AUDITORIA_POR_6.md: modos B, mapa e cartoes, com lacunas registradas"
+      ],
+      "pendenciasCriticas": [
+        "Harmonizar demonstrativos, delimitar relativo quem e uso de onde/aonde pela construcao; ampliar cadeias referenciais.",
+        "Confronto documental de fontes e autenticacao das origens pendentes.",
+        "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+      ],
       "inventarioExercicios": [
         {
           "local": "por_6.blocks[0].questions[0]",
@@ -14542,8 +14698,13 @@
           "revision": null
         }
       ],
-      "lacunas": "Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.",
-      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões."
+      "lacunas": "Harmonizar demonstrativos, delimitar relativo quem e uso de onde/aonde pela construcao; ampliar cadeias referenciais.",
+      "criterioAceite": "Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.",
+      "exerciciosConferidosNestaEtapa": [
+        "docs/auditoria/AUDITORIA_POR_6.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+      ],
+      "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+      "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
     },
     {
       "id": "por_7-c01",

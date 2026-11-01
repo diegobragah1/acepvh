@@ -1,0 +1,91 @@
+{
+  "lote": "SEMANTICA_ARTICULACAO_2026-10-31",
+  "auditadoEm": "2026-10-31T21:15:44.535359-03:00",
+  "commitBase": "40ddf94295e296d3c4e167d1938e5baa3e7dbad5",
+  "datasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+  "metodoHashComponentes": "SHA-256 de JSON UTF-8, chaves ordenadas, ensure_ascii=False, separadores virgula e dois-pontos, sem espacos; arquivos integrais usam bytes originais.",
+  "arquivosLidos": {
+    "data/app_data.json": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "src/data/deepening/portugues.ts": "472bc1d0b10f2c5d783940438657d2f35c9a1b43a8f229bdc1de35d7c8259758",
+    "src/data/deepening/index.ts": "d40e2af077271a342e5ecc55a5bf6a2f9fd75e4fad42343e7f0a904b57ff820a"
+  },
+  "aulas": {
+    "por_3": {
+      "sha256": "d6f68ce684e2553493569cda6b612d7a9cbfd57ae3576b4a1ca2cfa29f940ea2",
+      "hashesComponentes": {
+        "mindMap": "bb1bc011e2fbb57714d2906ae43a798277b7b56f459f68886c4ef748daf12369",
+        "blocks[0].title": "fa4fc712f208c92f1eeeb3fcf684f3b10c0b5608cc6cdca5b52aeef0d10c3c0a",
+        "blocks[0].modoA": "499e8c226fa52ccf305ec42b005bc05f1555636dbe140b1b6c5cc71739d3641a",
+        "blocks[0].modoB": "0969f7fc39f8ed974d686aa2336e365357e2c5ff224874d9ea6e50076120ed19",
+        "blocks[0].modoA_markdown": "9366831b8011509a7b35dea6790c2168da4b8d52df09282d535871b29a27475c",
+        "blocks[0].modoB_markdown": "a609f2294791d7999463f961c437942a2079cb75338b14ad41c644b05b9dd144",
+        "blocks[0].questions": "1b7e2b06bba3fb88940e129101372c9296c7bab8c68fa373ad77f44172b9f790",
+        "blocks[0].flashcards": "7963078adf8ecee160359a7238173502cf54f6e31a29bea20513074e72afc03b",
+        "blocks[1].title": "4c055a75e0addaed11a93a2b6f81852d12574a3e70b95f9d1ad756dd8715ba46",
+        "blocks[1].modoA": "40c28699ebebeab6803d1f325df2ac005013b88cbdf6604f24e079fd6c5ff200",
+        "blocks[1].modoB": "6ea59eb70881c70064668f725ad33ec15dff55c72988a00c85220b372bc8c62e",
+        "blocks[1].questions": "fe28026017cb767a7df830c1f79a300609af349fe944f9feafe7d25cc5fa8394",
+        "blocks[1].flashcards": "281daf97c0cf6373d5902ff543dfc42c1f9909426aae42feda7323fa94bcf687"
+      },
+      "blocosPrincipais": 2,
+      "questoesPrincipais": 6,
+      "cartoesPrincipais": 7,
+      "escopoMarkdown": "Trechos correspondentes aos achados; leitura principal em HTML A/B.",
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_3",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_3.md"
+    },
+    "por_6": {
+      "sha256": "b02d56be847ef2c217b297eca8e9d1ef259b3ce49d9722c36b481669a3be55f2",
+      "hashesComponentes": {
+        "mindMap": "46b42cf736060abdb7a5d4913b23f3988c9f25a453a01435e011b516a58b90cc",
+        "blocks[0].title": "75fce6028ec0e079211978f68e0d6d38cd377742a7bf57865e34dbdc72f962cd",
+        "blocks[0].modoA": "f39a45390e06b4dd2b170dae556dbe021900efa59050b4f65e61ff060183dbc7",
+        "blocks[0].modoB": "2618b3b24c991bd424a869cb3f9bf02c8ff2d1c20479bce613493e558daeb653",
+        "blocks[0].modoA_markdown": "fd109df968a60b733bbbc07e8a1878ae0d2ccf5bc61c78801dcec620fadec891",
+        "blocks[0].modoB_markdown": "fc2300817defde815d05506b05b97b80bbfb7e617cad95e1c9e1c8eb48126299",
+        "blocks[0].questions": "1ac1ee0e060bb54392657801719436784bf3985d437dbce5f081e9d760c275d8",
+        "blocks[0].flashcards": "0865c3795806c4397521fc8cb8444e52e3db655910a896bed93016c2b96711dc",
+        "blocks[1].title": "990f2e4bd01dd6e116d4d841dda86ac7523307edaff77f65a622bf8cf1de0fec",
+        "blocks[1].modoA": "e943a955267ccfd9ee48312cc37e3d89aa6abe1593681c146e7a952f85da11b4",
+        "blocks[1].modoB": "8ced1adde3faf76a2b98d4be84e84808cd94ea9272e2a9261e0698f0c79e0efc",
+        "blocks[1].modoA_markdown": "8387af3485d88d8e48db74662e8d8fc0755bc0ad3b8b98b62079959cdf7443e4",
+        "blocks[1].modoB_markdown": "292370ce5ffc9c6392875f3e11e143b44d43baf081be96b09dc94a64340deca0",
+        "blocks[1].questions": "b2f64028f36c2b421ba2c675fdebc2a977f967655128a70e3af81ba1222869c1",
+        "blocks[1].flashcards": "295798f34e7345e572a598741cf65a56d24ea25f3aaececf00038f656a8be139",
+        "blocks[2].title": "0105cbbe68e1b3e5cf6efd46a745140590a9fc028967a2c147ffbc0b81ee1aa2",
+        "blocks[2].modoA": "93d4876f821999c7bbb96f1998c36bdb2c8dc6ff16cc0124d01af50d02232fb8",
+        "blocks[2].modoB": "57717a6441e0ac8260f9511e2d195d5b6c6e1900eff4fcf5139f5ad95b43819a",
+        "blocks[2].questions": "455da416f7c281e5aa567e49c18da136184dc081e5a721ad463e94f2c3d966f0",
+        "blocks[2].flashcards": "c33e04e2ee9b87819adde48e40893e3459699c19dbcaea38f8623eec34dffd6b"
+      },
+      "blocosPrincipais": 3,
+      "questoesPrincipais": 6,
+      "cartoesPrincipais": 8,
+      "escopoMarkdown": "Trechos correspondentes aos achados; leitura principal em HTML A/B.",
+      "complemento": {
+        "arquivo": "src/data/deepening/portugues.ts",
+        "id": "por_6",
+        "questoes": 2,
+        "cartoes": 1
+      },
+      "relatorio": "AUDITORIA_POR_6.md"
+    }
+  },
+  "consultasExternas": {
+    "novaConsultaRealizada": false,
+    "conteudoExternoLido": false,
+    "limite": "Lote de conferencia editorial interna. Bloqueio HTTP 403 de consultas linguisticas documentado no lote anterior; nao repetido nem tratado como nova observacao.",
+    "registroAnterior": "docs/auditoria/BASE_COESAO_SINTAXE.json"
+  },
+  "limites": [
+    "Sem reconferencia do Anexo IV/retificacoes",
+    "Sem inspecao visual",
+    "Sem autenticacao de banca ou validacao de informacoes epidemiologicas",
+    "Nenhuma alteracao no dataset ou identificadores"
+  ]
+}

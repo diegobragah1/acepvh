@@ -1,0 +1,60 @@
+{
+  "por_6-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_6.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_6].blocks",
+      "src/data/deepening/portugues.ts: entrada por_6"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_6.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_6.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Qualificar pressupostos e mas; retirar garantia de 30% sem corpus; desenvolver contraste de valores e construcoes.",
+      "Conferir questoes 1/0 e 1/2 sob ressalva contextual e comentario orfao de alternativa E em 1/3.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Qualificar pressupostos e mas; retirar garantia de 30% sem corpus; desenvolver contraste de valores e construcoes. Conferir questoes 1/0 e 1/2 sob ressalva contextual e comentario orfao de alternativa E em 1/3.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json",
+    "questoesComRessalva": [
+      "por_6.blocks[1].questions[0]",
+      "por_6.blocks[1].questions[2]"
+    ],
+    "comentariosComFalha": [
+      "por_6.blocks[1].questions[3].comment: alternativa E inexistente"
+    ]
+  },
+  "por_6-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_6.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_6].blocks",
+      "src/data/deepening/portugues.ts: entrada por_6"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_6.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_6.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Harmonizar demonstrativos, delimitar relativo quem e uso de onde/aonde pela construcao; ampliar cadeias referenciais.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Harmonizar demonstrativos, delimitar relativo quem e uso de onde/aonde pela construcao; ampliar cadeias referenciais.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  }
+}

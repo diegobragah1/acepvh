@@ -196,6 +196,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 
 Local: data/app_data.json, lessons[id=por_3]. 2 blocos.
 
+Diagnostico individual disponivel: [AUDITORIA_POR_3.md](AUDITORIA_POR_3.md). Consultar escopo, base e limites desse registro.
+
 Diagnóstico anterior a reconferir: O item aberto exige mais que uma lista de pares: conferir efeitos de contexto, ambiguidade e relações semânticas. Conteúdos de interpretação misturados não comprovam todas essas relações.
 
 Estado: auditoria integral pendente. Fila: por_3-c01, por_3-c02, por_3-c03, por_3-c04, por_3-c05, por_3-c06, por_3-c07, por_3-c08.
@@ -229,6 +231,8 @@ Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fonte
 ## por_6 — 6. Articulação textual: operadores sequenciais, expressões referenciais
 
 Local: data/app_data.json, lessons[id=por_6]. 3 blocos.
+
+Diagnostico individual disponivel: [AUDITORIA_POR_6.md](AUDITORIA_POR_6.md). Consultar escopo, base e limites desse registro.
 
 Diagnóstico anterior a reconferir: Operadores dependem do sentido no texto. Conferir adição, oposição, concessão, causa, consequência, conclusão e retomadas, sem converter mnemônicos em equivalências universais.
 

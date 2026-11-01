@@ -1,0 +1,205 @@
+{
+  "por_3-c01": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Reorganizar identidade e escopo; figuras, ortografia e pontuacao ocupam grande parte da aula lexical.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Reorganizar identidade e escopo; figuras, ortografia e pontuacao ocupam grande parte da aula lexical.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c02": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Definicao e complemento nao sao acompanhados por questao interativa de substituicao sinonimica contextual.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Definicao e complemento nao sao acompanhados por questao interativa de substituicao sinonimica contextual.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c03": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Ampliar eixos de oposicao em contexto e exercicios de antonimia; pares isolados nao demonstram dominio.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Ampliar eixos de oposicao em contexto e exercicios de antonimia; pares isolados nao demonstram dominio.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c04": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Confrontar acepcoes de cabeca/rede/ponto e explicitar limites do criterio de origem; falta exercicio dedicado.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Confrontar acepcoes de cabeca/rede/ponto e explicitar limites do criterio de origem; falta exercicio dedicado.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c05": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Confrontar entradas lexicograficas e convencao classificatoria de homofonos/homografos; falta contraste aplicado com polissemia.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Confrontar entradas lexicograficas e convencao classificatoria de homofonos/homografos; falta contraste aplicado com polissemia.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c06": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Harmonizar acepcoes das tabelas; oito linhas nao correspondem aos 12 pares anunciados; qualificar ratificar/retificar na questao 0/2.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Harmonizar acepcoes das tabelas; oito linhas nao correspondem aos 12 pares anunciados; qualificar ratificar/retificar na questao 0/2.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json",
+    "questoesComRessalva": [
+      "por_3.blocks[0].questions[2]"
+    ]
+  },
+  "por_3-c07": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Dicionarizacao nao distingue uso denotativo de acepcao figurada registrada; rever macete e confrontar verbetes.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Dicionarizacao nao distingue uso denotativo de acepcao figurada registrada; rever macete e confrontar verbetes.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  },
+  "por_3-c08": {
+    "nivel": "PARCIAL",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "docs/auditoria/AUDITORIA_POR_3.md#achados-e-encaminhamentos",
+      "data/app_data.json: lessons[id=por_3].blocks",
+      "src/data/deepening/portugues.ts: entrada por_3"
+    ],
+    "evidenciaFonte": [],
+    "exerciciosValidados": [],
+    "evidenciaRevisao": [
+      "docs/auditoria/AUDITORIA_POR_3.md: modos B, mapa e cartoes, com lacunas registradas"
+    ],
+    "exerciciosConferidosNestaEtapa": [
+      "docs/auditoria/AUDITORIA_POR_3.md: oito questoes com distratores; conferencia interna nao equivale a validacao documental"
+    ],
+    "pendenciasCriticas": [
+      "Desenvolver efeito contextual e harmonizar com denotacao; exemplos de figuras nao substituem analise de acepcao.",
+      "Confronto documental de fontes e autenticacao das origens pendentes.",
+      "Reconferencia do edital/retificacoes e inspecao visual pendentes."
+    ],
+    "lacunas": "Desenvolver efeito contextual e harmonizar com denotacao; exemplos de figuras nao substituem analise de acepcao.",
+    "baseDatasetSha256": "591a62c5d28c13eafbf43bf762050ccae6ec8629cbcb1a9f9ea52ce7d8274c98",
+    "baseRegistro": "docs/auditoria/BASE_SEMANTICA_ARTICULACAO.json"
+  }
+}
