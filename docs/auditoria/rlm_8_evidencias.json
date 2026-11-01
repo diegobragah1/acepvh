@@ -1,0 +1,379 @@
+{
+  "rlm_8-c01": {
+    "subcompetencia": "Definir experimento, resultado, espaço amostral e evento",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Conceitos e modelagem"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.1 Terminology: https://openstax.org/books/introductory-statistics/pages/3-1-terminology; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c02": {
+    "subcompetencia": "Escolher e aplicar regras de cálculo de probabilidades",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: União, multiplicação e complementar"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.2 Independent and Mutually Exclusive Events: https://openstax.org/books/introductory-statistics/pages/3-2-independent-and-mutually-exclusive-events; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md",
+      "OpenStax — Introductory Statistics, 3.3 Two Basic Rules of Probability: https://openstax.org/books/introductory-statistics/pages/3-3-two-basic-rules-of-probability; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns.",
+      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): D: (6/10)×(4/9)=4/15. A reduz indevidamente as verdes para três; B mantém o denominador dez como se houvesse reposição; C é a chance de duas azuis."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c03": {
+    "subcompetencia": "Representar espaços amostrais finitos sem contar somas como equiprováveis",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Quando contar casos funciona"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.1 Terminology: https://openstax.org/books/introductory-statistics/pages/3-1-terminology; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[3]: B: há 36 pares ordenados equiprováveis. Os cinco favoráveis são (2,6),(3,5),(4,4),(5,3),(6,2). A, C e D equivalem a 6/36, 4/36 e 7/36, respectivamente; nenhuma conta os cinco pares corretos.",
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c04": {
+    "subcompetencia": "Resolver problemas de garantia por raciocínio dedutivo",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_3.md: Garantias e estoques limitados"
+    ],
+    "evidenciaFonte": [
+      "David Guichard — Combinatorics and Graph Theory, 1.7 The Pigeonhole Principle: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_and_Graph_Theory_%28Guichard%29/01%3A_Fundamentals/1.07%3A_The_Pigeonhole_Principle; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): B: a maior retirada que evita dez é 8+9+9=26; a próxima força a meta. A ainda pode falhar; C aplica o limite genérico sem aproveitar o estoque A; D garante, mas não é mínimo.",
+      "rlm_8.blocks[2].questions[3] (probabilidade-cada-cor): D: 19 ainda podem ser 10 azuis+8 verdes+1 vermelha; a 20ª garante a segunda vermelha, e nenhuma outra cor pode ter menos de duas com vinte retiradas. A garante duas de alguma cor, não de todas; B e C ainda podem omitir a meta vermelha."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[2].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c05": {
+    "subcompetencia": "Resolver problemas sequenciais com condições explícitas",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_4.md: Representação de etapas e limites"
+    ],
+    "evidenciaFonte": [
+      "US Naval Observatory — Leap Years: https://aa.usno.navy.mil/faq/leap_years; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[3].questions[0]: B: 100=14×7+2; domingo mais dois dias é terça. A, C e D corresponderiam a restos 1, 3 e 4. A contagem usa cem dias transcorridos, sem incluir o dia inicial como primeiro dia já passado.",
+      "rlm_8.blocks[3].questions[4] (probabilidade-subida): B: os máximos diurnos são 4,7,10,13. O terceiro dia ainda fica abaixo de onze; o quarto alcança. C acrescenta uma etapa desnecessária; D confunde a altura com a quantidade de dias. A fórmula precisa de teto: teto(7/3)+1=4.",
+      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): C: a próxima soma é 9, então 17+9=26. A repete o incremento sete; B não aplica o incremento informado; D dobra o último termo sem respaldo na regra. A regra explícita elimina ambiguidade de continuações."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c06": {
+    "subcompetencia": "Distinguir equiprobabilidade de pesos diferentes",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Quando contar casos funciona"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.1 Terminology: https://openstax.org/books/introductory-statistics/pages/3-1-terminology; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira.",
+      "rlm_8.blocks[0].questions[3]: B: há 36 pares ordenados equiprováveis. Os cinco favoráveis são (2,6),(3,5),(4,4),(5,3),(6,2). A, C e D equivalem a 6/36, 4/36 e 7/36, respectivamente; nenhuma conta os cinco pares corretos."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c07": {
+    "subcompetencia": "Calcular união inclusiva e exatamente um evento",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: União, interseção e complementar"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.3 Two Basic Rules of Probability: https://openstax.org/books/introductory-statistics/pages/3-3-two-basic-rules-of-probability; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[0]: B: 7 múltiplos de 4, 5 de 6 e 2 comuns (12 e 24); (7+5−2)/30=1/3. A equivale a 9/30, não aos dez favoráveis; C soma 7+5 sem descontar os dois comuns; D usa apenas os sete múltiplos de 4. Modelo: sorteio uniforme.",
+      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c08": {
+    "subcompetencia": "Usar complementar sem presumir independência",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Complementar e dependência"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.2 Independent and Mutually Exclusive Events: https://openstax.org/books/introductory-statistics/pages/3-2-independent-and-mutually-exclusive-events; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md",
+      "OpenStax — Introductory Statistics, 3.3 Two Basic Rules of Probability: https://openstax.org/books/introductory-statistics/pages/3-3-two-basic-rules-of-probability; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[2]: A: sob a independência expressamente dada, P(nenhum)=0,6×0,7=0,42; P(pelo menos um)=0,58. D é a chance do complementar; C soma 40%+30% e duplica a interseção de 12%; B não resulta da união 40%+30%−12%. O exemplo não descreve previsão meteorológica real.",
+      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): C: azul-verde dá 3/10 e verde-azul também, total 3/5. A conta apenas uma ordem; B é a chance de duas azuis com reposição; D é a chance de ao menos uma azul sem reposição."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c09": {
+    "subcompetencia": "Distinguir independência de exclusão mútua",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Condicional e independência"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.2 Independent and Mutually Exclusive Events: https://openstax.org/books/introductory-statistics/pages/3-2-independent-and-mutually-exclusive-events; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[7] (probabilidade-exclusao-independencia): B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c10": {
+    "subcompetencia": "Resolver condicionamento e sua condição inversa",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_2.md: Tabela de dupla entrada"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.3 Two Basic Rules of Probability: https://openstax.org/books/introductory-statistics/pages/3-3-two-basic-rules-of-probability; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[1].questions[0]: C: a condição restringe o sorteio aos 20 com curso superior (15 ACEs e 5 administrativos); 15/20=75%. A ignora a condição; B calcula a condição inversa (curso superior entre ACEs); D calcula a fração de todos os servidores que têm curso superior. Cenário fictício, sorteio uniforme.",
+      "rlm_8.blocks[1].questions[3] (probabilidade-condicao-inversa): D: 15/25=60%. A usa o total de quarenta e calcula a interseção sem condição; B é a proporção geral de qualificados; C responde à condição inversa, campo entre qualificados."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[1].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c11": {
+    "subcompetencia": "Contar retiradas com e sem reposição",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_1.md: Retiradas sucessivas"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.2 Independent and Mutually Exclusive Events: https://openstax.org/books/introductory-statistics/pages/3-2-independent-and-mutually-exclusive-events; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[0].questions[1]: A: (6/10)×(5/9)=1/3. B, 9/25, corresponderia a duas retiradas com reposição e independência. C, 2/5, é a proporção inicial de negativas, não a chance de duas positivas. D não coincide com os 30 pares ordenados positivos entre 90 pares possíveis. O cenário é fictício.",
+      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): D: (6/10)×(4/9)=4/15. A reduz indevidamente as verdes para três; B mantém o denominador dez como se houvesse reposição; C é a chance de duas azuis."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c12": {
+    "subcompetencia": "Somar caminhos de cores em ordens diferentes",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_2.md: Uma amostra de cada cor"
+    ],
+    "evidenciaFonte": [
+      "OpenStax — Introductory Statistics, 3.3 Two Basic Rules of Probability: https://openstax.org/books/introductory-statistics/pages/3-3-two-basic-rules-of-probability; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): C: azul-verde dá 3/10 e verde-azul também, total 3/5. A conta apenas uma ordem; B é a chance de duas azuis com reposição; D é a chance de ao menos uma azul sem reposição."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[1].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c13": {
+    "subcompetencia": "Distinguir possibilidade, probabilidade e garantia",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_3.md: Certeza e probabilidade são perguntas diferentes"
+    ],
+    "evidenciaFonte": [
+      "David Guichard — Combinatorics and Graph Theory, 1.7 The Pigeonhole Principle: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_and_Graph_Theory_%28Guichard%29/01%3A_Fundamentals/1.07%3A_The_Pigeonhole_Principle; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[2].questions[0]: C: com 36 pessoas ainda podem existir exatamente três por mês; a 37ª força quatro em algum mês. A garante apenas duas; B ainda admite a distribuição sem quatro; D garante a meta, mas excede o mínimo. Não se pressupõe equiprobabilidade dos meses.",
+      "rlm_8.blocks[2].questions[1]: B: doze retiradas ainda podem ser todas verdes, mas a 13ª terá outra cor. A e C confundem ou excedem o limite: três ainda podem ser todas verdes e quatorze já não é o mínimo. D é suficiente, porém também excede treze. Objetivo: duas fichas com cores distintas, não duas de cada cor."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[2].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c14": {
+    "subcompetencia": "Adaptar gavetas a capacidades finitas e metas por categoria",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_3.md: Estoques desiguais; deduções próprias por pior caso"
+    ],
+    "evidenciaFonte": [
+      "David Guichard — Combinatorics and Graph Theory, 1.7 The Pigeonhole Principle: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_and_Graph_Theory_%28Guichard%29/01%3A_Fundamentals/1.07%3A_The_Pigeonhole_Principle; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): B: a maior retirada que evita dez é 8+9+9=26; a próxima força a meta. A ainda pode falhar; C aplica o limite genérico sem aproveitar o estoque A; D garante, mas não é mínimo.",
+      "rlm_8.blocks[2].questions[3] (probabilidade-cada-cor): D: 19 ainda podem ser 10 azuis+8 verdes+1 vermelha; a 20ª garante a segunda vermelha, e nenhuma outra cor pode ter menos de duas com vinte retiradas. A garante duas de alguma cor, não de todas; B e C ainda podem omitir a meta vermelha."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[2].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c15": {
+    "subcompetencia": "Contar dias transcorridos e inclusivos; aplicar regra gregoriana",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_4.md: Calendários e contagem de dias"
+    ],
+    "evidenciaFonte": [
+      "US Naval Observatory — Leap Years: https://aa.usno.navy.mil/faq/leap_years; consulta em 31/10/2026; escopo em LOTE_PROBABILIDADE.md"
+    ],
+    "fundamentacaoPropria": [],
+    "exerciciosValidados": [
+      "rlm_8.blocks[3].questions[0]: B: 100=14×7+2; domingo mais dois dias é terça. A, C e D corresponderiam a restos 1, 3 e 4. A contagem usa cem dias transcorridos, sem incluir o dia inicial como primeiro dia já passado.",
+      "rlm_8.blocks[3].questions[3] (probabilidade-bissexto): C: 2000 é divisível por 400; 2100 é divisível por 100, mas não por 400. A omite a exceção secular; B e D ignoram a distinção pela divisibilidade por 400."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c16": {
+    "subcompetencia": "Distinguir linha aberta, circuito e divisão não exata",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_4.md: Posições e intervalos; dedução por contagem de segmentos"
+    ],
+    "evidenciaFonte": [],
+    "fundamentacaoPropria": [
+      "Derivação explícita e exemplos em content/revisao/rlm_8_4.md; teste independente quando aplicável em src/utils/probabilityReview.test.ts; não se atribui esta dedução à fonte de calendário."
+    ],
+    "exerciciosValidados": [
+      "rlm_8.blocks[3].questions[2]: C: 600/25=24 intervalos; incluindo ambas as pontas, são 25 pontos. B conta intervalos como pontos; A elimina dois pontos indevidamente; D adiciona duas unidades aos intervalos. É um modelo matemático fictício, não uma orientação técnica de instalação.",
+      "rlm_8.blocks[3].questions[5] (probabilidade-circuito): A: 600/25=24 intervalos e 24 marcas, porque início e fim coincidem. B aplica a fórmula da linha aberta; C elimina uma marca necessária; D conta indevidamente duas extremidades extras.",
+      "rlm_8.blocks[3].questions[6] (probabilidade-linha-nao-divisivel): D: um número inteiro de intervalos de 25 m não totaliza 610 m. A e C não alcançam a ponta final; B admite a última distância de dez metros se houver marcas desde zero, contrariando o intervalo exato. Com intervalos de no máximo 25 m, a pergunta seria outra."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c17": {
+    "subcompetencia": "Resolver avanço com recuo com teto e condições de existência",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_4.md: Avanço com recuo; dedução por desigualdade e simulação"
+    ],
+    "evidenciaFonte": [],
+    "fundamentacaoPropria": [
+      "Derivação explícita e exemplos em content/revisao/rlm_8_4.md; teste independente quando aplicável em src/utils/probabilityReview.test.ts; não se atribui esta dedução à fonte de calendário."
+    ],
+    "exerciciosValidados": [
+      "rlm_8.blocks[3].questions[4] (probabilidade-subida): B: os máximos diurnos são 4,7,10,13. O terceiro dia ainda fica abaixo de onze; o quarto alcança. C acrescenta uma etapa desnecessária; D confunde a altura com a quantidade de dias. A fórmula precisa de teto: teto(7/3)+1=4."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  },
+  "rlm_8-c18": {
+    "subcompetencia": "Conferir regra de sequência e limites de inferência",
+    "nivel": "ADEQUADO",
+    "validacao": "PENDENTE",
+    "evidenciaTeoria": [
+      "content/revisao/rlm_8_4.md: Sequências e verificação; aplicação da regra explícita"
+    ],
+    "evidenciaFonte": [],
+    "fundamentacaoPropria": [
+      "Derivação explícita e exemplos em content/revisao/rlm_8_4.md; teste independente quando aplicável em src/utils/probabilityReview.test.ts; não se atribui esta dedução à fonte de calendário."
+    ],
+    "exerciciosValidados": [
+      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): C: a próxima soma é 9, então 17+9=26. A repete o incremento sete; B não aplica o incremento informado; D dobra o último termo sem respaldo na regra. A regra explícita elimina ambiguidade de continuações."
+    ],
+    "evidenciaRevisao": [
+      "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
+    ],
+    "pendenciasCriticas": [],
+    "lacunas": "Conferência visual e busca exaustiva de retificações posteriores não concluídas. O nível ADEQUADO descreve o recorte matemático revisado; a linha não é marcada VALIDADO. Itens de lógica e sequências também são distribuídos à aula 6."
+  }
+}

@@ -2,7 +2,7 @@
 
 Gerada por `npm run audit:content`. Inclui os complementos das 49 aulas aplicados na leitura da base. Não certifica exatidão factual de todo o acervo legado, vigência legal ou cobertura integral do edital.
 
-Inventário: 49 aulas; 236 blocos; 567 questões; 652 flashcards; 98 fontes cadastradas.
+Inventário: 49 aulas; 236 blocos; 599 questões; 659 flashcards; 126 fontes cadastradas.
 
 | Disciplina | Aulas |
 | --- | ---: |

@@ -1,0 +1,623 @@
+{
+  "baseSha256": "dae38049f4e50ce069a2fe6ed9a2d7d95c6f827e77571ff8ec369d49285542cc",
+  "datasetSha256": "19bc9d2fdf0c0709cad398351a35e25a97f0e31126a79370b4d48bc3a32e10de",
+  "criterio": "Retirada de frequência, posição fixa de alternativas e promessa de acerto sem documentação. Não certifica as afirmações factuais adjacentes.",
+  "changes": [
+    {
+      "aula": "esp_2",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "são campeões de cobrança recente em bancas como o IBGP",
+      "depois": "são examinados nesta aula; não há levantamento documental de frequência de cobrança nesta seção"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 2,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "são campeões de cobrança recente em bancas como o IBGP",
+      "depois": "são examinados nesta aula; não há levantamento documental de frequência de cobrança nesta seção"
+    },
+    {
+      "aula": "esp_4",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "A questão mais cobrada na história das provas de ACE da IBGP é trocar a definição do",
+      "depois": "Uma confusão conceitual a evitar é trocar a definição do"
+    },
+    {
+      "aula": "leg_5",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "A banca IBGP cobra em quase todas as provas a distinção literal entre os",
+      "depois": "Nesta seção, compare os"
+    },
+    {
+      "aula": "leg_5",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "A banca IBGP cobra em quase todas as provas a distinção literal entre os",
+      "depois": "Nesta seção, compare os"
+    },
+    {
+      "aula": "por_2",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "A banca IBGP inicia 100% de suas provas de Nível Médio/ACE com questões sobre",
+      "depois": "Este bloco revisa"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP!",
+      "depois": "Compare a regência de implicar e preferir nos exemplos acima; esta seleção didática não representa um levantamento de frequência em provas."
+    },
+    {
+      "aula": "por_8",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP!",
+      "depois": "Compare a regência de implicar e preferir nos exemplos acima; esta seleção didática não representa um levantamento de frequência em provas."
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP!",
+      "depois": "Compare a regência de implicar e preferir nos exemplos acima; esta seleção didática não representa um levantamento de frequência em provas."
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Esses dois verbos (Implicar e Preferir) são os mais cobrados de toda a língua portuguesa em provas da banca IBGP!",
+      "depois": "Compare a regência de implicar e preferir nos exemplos acima; esta seleção didática não representa um levantamento de frequência em provas."
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Na prova da banca IBGP, a alternativa A sempre traz o valor do MDC (40) e a alternativa C traz a soma dos grupos (5).",
+      "depois": "Neste exemplo, diferencie o tamanho de cada grupo (40) da quantidade de grupos (5). A posição das alternativas depende de cada questão."
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Na prova da banca IBGP, a alternativa A sempre traz o valor do MDC (40) e a alternativa C traz a soma dos grupos (5).",
+      "depois": "Neste exemplo, diferencie o tamanho de cada grupo (40) da quantidade de grupos (5). A posição das alternativas depende de cada questão."
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Proporcionalidade, regra de três e porcentagem estão presentes em 100% das provas da IBGP:",
+      "depois": "Proporcionalidade, regra de três e porcentagem são os assuntos desenvolvidos nesta seção:"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Proporcionalidade, regra de três e porcentagem estão presentes em 100% das provas da IBGP:",
+      "depois": "Proporcionalidade, regra de três e porcentagem são os assuntos desenvolvidos nesta seção:"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "A banca IBGP sempre fornece o",
+      "depois": "Se o enunciado fornecer o"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "A banca IBGP sempre fornece o",
+      "depois": "Se o enunciado fornecer o"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 3,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Na prova da banca IBGP, 90% dos erros em Geometria acontecem na",
+      "depois": "Ao resolver problemas de geometria, confira a"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 3,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Na prova da banca IBGP, 90% dos erros em Geometria acontecem na",
+      "depois": "Ao resolver problemas de geometria, confira a"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Em 90% das questões de Raciocínio Lógico da banca IBGP, o enunciado dá 3 ou 4 premissas compostas",
+      "depois": "Quando um problema apresentar premissas compostas"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 2,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Em 90% das questões de Raciocínio Lógico da banca IBGP, o enunciado dá 3 ou 4 premissas compostas",
+      "depois": "Quando um problema apresentar premissas compostas"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoB",
+      "occurrences": 1,
+      "antes": "OS 4 MACETES QUE RESOLVEM 90% DA PROVA DE LÓGICA DA IBGP",
+      "depois": "QUATRO PROCEDIMENTOS DE REVISÃO DE LÓGICA"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoB_markdown",
+      "occurrences": 1,
+      "antes": "OS 4 MACETES QUE RESOLVEM 90% DA PROVA DE LÓGICA DA IBGP",
+      "depois": "QUATRO PROCEDIMENTOS DE REVISÃO DE LÓGICA"
+    },
+    {
+      "aula": "atu_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "que são certeza de prova na banca IBGP",
+      "depois": "que serão estudadas nesta aula, sem previsão de cobrança na prova"
+    },
+    {
+      "aula": "atu_3",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "que são certeza de prova na banca IBGP",
+      "depois": "que serão estudadas nesta aula, sem previsão de cobrança na prova"
+    },
+    {
+      "aula": "esp_4",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados pela Banca IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "leg_2",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Questão Campeã da Banca IBGP na LC 385/2010",
+      "depois": "Estudo da LC 385/2010"
+    },
+    {
+      "aula": "leg_2",
+      "bloco": 2,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Questão Campeã da Banca IBGP na LC 385/2010",
+      "depois": "Estudo da LC 385/2010"
+    },
+    {
+      "aula": "leg_3",
+      "bloco": 3,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados na Prova IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "leg_3",
+      "bloco": 3,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Mais Cobrados na Prova IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "leg_7",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Pegadinha campeã da banca IBGP:",
+      "depois": "Afirmação incorreta para análise:"
+    },
+    {
+      "aula": "leg_7",
+      "bloco": 2,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Pegadinha campeã da banca IBGP:",
+      "depois": "Afirmação incorreta para análise:"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobradas pela IBGP",
+      "depois": "Selecionadas para Estudo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Mais Cobradas pela IBGP",
+      "depois": "Selecionadas para Estudo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados pela IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "por_4",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados pela IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "por_7",
+      "bloco": 0,
+      "campo": "modoB",
+      "occurrences": 1,
+      "antes": "DUPLAS CAMPEÃS DE PROVA DA IBGP",
+      "depois": "PARES PARA COMPARAÇÃO"
+    },
+    {
+      "aula": "por_7",
+      "bloco": 0,
+      "campo": "modoB_markdown",
+      "occurrences": 1,
+      "antes": "DUPLAS CAMPEÃS DE PROVA DA IBGP",
+      "depois": "PARES PARA COMPARAÇÃO"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "As Duas Funções Mais Cobradas da Partícula",
+      "depois": "Duas Funções da Partícula"
+    },
+    {
+      "aula": "por_8",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "As Duas Funções Mais Cobradas da Partícula",
+      "depois": "Duas Funções da Partícula"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "mais cobrados pela banca IBGP",
+      "depois": "selecionados para estudo"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "mais cobrados pela banca IBGP",
+      "depois": "selecionados para estudo"
+    },
+    {
+      "aula": "por_10",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Que Sempre Caem na IBGP",
+      "depois": "para Estudo"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "cobrada em todas as provas da IBGP",
+      "depois": "desenvolvida nesta revisão"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "cobrada em todas as provas da IBGP",
+      "depois": "desenvolvida nesta revisão"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados pela Banca IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "por_11",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Mais Cobrados pela Banca IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "por_12",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Pegadinha campeã da IBGP",
+      "depois": "Erro conceitual a evitar"
+    },
+    {
+      "aula": "por_17",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "para nunca errar na banca IBGP",
+      "depois": "como roteiro inicial de análise"
+    },
+    {
+      "aula": "por_17",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "para nunca errar na banca IBGP",
+      "depois": "como roteiro inicial de análise"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "o segredo para acertar 100% das questões de equações e sistemas da banca IBGP é traduzir cada frase do português para a matemática",
+      "depois": "um passo para resolver problemas de equações e sistemas é traduzir as relações do enunciado para a matemática"
+    },
+    {
+      "aula": "rlm_1",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "o segredo para acertar 100% das questões de equações e sistemas da banca IBGP é traduzir cada frase do português para a matemática",
+      "depois": "um passo para resolver problemas de equações e sistemas é traduzir as relações do enunciado para a matemática"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "veja como resolver em menos de 1 minuto os três tipos de questões mais cobrados pela banca IBGP",
+      "depois": "acompanhe a resolução de três modelos de problemas"
+    },
+    {
+      "aula": "rlm_2",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "veja como resolver em menos de 1 minuto os três tipos de questões mais cobrados pela banca IBGP",
+      "depois": "acompanhe a resolução de três modelos de problemas"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 2,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Quando um problema apresentar premissas compostas",
+      "depois": "Considere um problema que apresenta premissas compostas"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 2,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Quando um problema apresentar premissas compostas",
+      "depois": "Considere um problema que apresenta premissas compostas"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "são as campeãs absolutas de cobrança na prova de RLM da IBGP",
+      "depois": "são os temas desenvolvidos a seguir"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 4,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "são as campeãs absolutas de cobrança na prova de RLM da IBGP",
+      "depois": "são os temas desenvolvidos a seguir"
+    },
+    {
+      "aula": "rlm_6",
+      "bloco": 3,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Receita Infalível IBGP para Problemas com 3 Conjuntos",
+      "depois": "Procedimento para Problemas com 3 Conjuntos"
+    },
+    {
+      "aula": "atu_6",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Ponto Mais Cobrado pela Banca",
+      "depois": "Ponto para Estudo"
+    },
+    {
+      "aula": "atu_6",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Ponto Mais Cobrado pela Banca",
+      "depois": "Ponto para Estudo"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 4,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mapa Mental para acertar 100% na prova IBGP",
+      "depois": "Mapa Mental para Revisão"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 4,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Mapa Mental para acertar 100% na prova IBGP",
+      "depois": "Mapa Mental para Revisão"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 5,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Este bloco fecha 100% da Lei 8.080/1990",
+      "depois": "Este bloco aborda temas da Lei 8.080/1990"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 5,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "e traz 100% da",
+      "depois": "e apresenta a"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 5,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Este bloco fecha 100% da Lei 8.080/1990",
+      "depois": "Este bloco aborda temas da Lei 8.080/1990"
+    },
+    {
+      "aula": "esp_2",
+      "bloco": 5,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "e traz 100% da",
+      "depois": "e apresenta a"
+    },
+    {
+      "aula": "leg_1",
+      "bloco": 3,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Domine os pontos mais cobrados:",
+      "depois": "Estude os dispositivos selecionados:"
+    },
+    {
+      "aula": "leg_1",
+      "bloco": 3,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Domine os pontos mais cobrados:",
+      "depois": "Estude os dispositivos selecionados:"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Mais Cobrados em Provas da Banca IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "por_3",
+      "bloco": 0,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Mais Cobrados em Provas da Banca IBGP",
+      "depois": "Selecionados para Estudo"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Exemplo de Prova IBGP:",
+      "depois": "Exemplo didático — origem não autenticada:"
+    },
+    {
+      "aula": "rlm_3",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Exemplo de Prova IBGP:",
+      "depois": "Exemplo didático — origem não autenticada:"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 5,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Diagrama de Venn — Campeã na IBGP",
+      "depois": "Diagrama de Venn"
+    },
+    {
+      "aula": "rlm_5",
+      "bloco": 5,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "Diagrama de Venn — Campeã na IBGP",
+      "depois": "Diagrama de Venn"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 1,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "O Teste da Inversão para Nunca Confundir Arranjo com Combinação na Prova IBGP",
+      "depois": "O Teste da Inversão para Comparar Arranjo e Combinação"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 1,
+      "campo": "modoA_markdown",
+      "occurrences": 1,
+      "antes": "O Teste da Inversão para Nunca Confundir Arranjo com Combinação na Prova IBGP",
+      "depois": "O Teste da Inversão para Comparar Arranjo e Combinação"
+    },
+    {
+      "aula": "rlm_7",
+      "bloco": 3,
+      "campo": "modoA",
+      "occurrences": 1,
+      "antes": "Como Nunca Mais Confundir Arranjo, Permutação e Combinação na IBGP",
+      "depois": "Comparação entre Arranjo, Permutação e Combinação"
+    }
+  ]
+}

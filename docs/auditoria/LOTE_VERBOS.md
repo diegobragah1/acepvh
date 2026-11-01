@@ -1,0 +1,9 @@
+# Revisão delimitada de por_9
+
+Lidos os dois blocos principais, resumos, mapa, cinco cartões e três questões originais. Encontrada contradição: o resumo admitia passiva com obedecer/desobedecer, mas um cartão dizia que apenas VTD/VTDI poderiam ser transpostos. Cartão corrigido. Explicitado também que o modelo transitivo do quadro não define toda voz ativa: orações com verbo intransitivo podem ser ativas sem permitir a transformação usual em passiva.
+
+Desenvolvido o limite das correlações fixas com condição seguida de imperativo: “Se você encontrar o documento, avise a equipe”. Acrescentadas três questões autorais com justificativas de todas as alternativas. Ampliados os comentários das duas questões de conjugação e valor temporal; preservados os índices, alternativas e gabaritos antigos. Atribuições IBGP sem origem demonstrada foram identificadas como não autenticadas.
+
+Fontes localizadas em 31/10/2026: Ciberdúvidas, [Obedecer / voz passiva](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/obedecer--voz-passiva/8052) e [Sobre voz verbal](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/sobre-voz-verbal/23231). Os resultados de busca explicitam a exceção; não se registra consulta integral dessas páginas. A primeira referência confirma a possibilidade de passiva com obedecer. A construção com imperativo é exemplo autoral de aplicação, não questão oficial.
+
+Integração: scripts/review_verb_consistency.mjs. 36 testes existentes aprovados após a alteração. Permanece pendente desenvolver integralmente flexões, formas nominais, imperativo, tempos compostos, valores aspectuais e o confronto de todos os paradigmas com fontes completas. A revisão do complemento e a inspeção visual ainda precisam ser concluídas. Não é validação integral da aula nem das 49 aulas; alterações locais.

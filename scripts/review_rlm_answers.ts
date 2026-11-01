@@ -54,6 +54,29 @@ const working: Record<string,string[][]> = {
     ['100≡2 mod 7; domingo+2=terça. Data tratada como hipótese, sem validar cronograma de concurso.','14+19−1=32.','600/25+1=25 posições, incluindo os dois extremos.'],
   ],
 };
+// New exercises are appended in the same order as review_probability.ts.
+// Keep the exact-count guards below: additions must have their own working.
+working.rlm_8[0].push(
+ 'Pesos da roleta informados: primeira região=1/2; contar regiões seria indevido.',
+ 'Exatamente um: (7+5−2·2)/30=8/30=4/15.',
+ 'Azul depois verde: (6/10)(4/9)=4/15; quatro verdes permanecem após retirar azul.',
+ 'Exclusão com probabilidades positivas: P(A∩B)=0, mas P(A)P(B)>0; dependentes.',
+);
+working.rlm_8[1].push(
+ 'Ordens azul-verde e verde-azul: 3/10+3/10=3/5; enumeração de fichas identificadas confirma.',
+ 'Condição inversa: qualificados entre campo=15/25=60%.',
+);
+working.rlm_8[2].push(
+ 'Máximo sem dez iguais=8+9+9=26; a 27ª garante a meta. Estoque impede nove A.',
+ 'Máximo sem duas de cada cor=10+8+1=19; vinte garantem. Com vinte, nenhuma das outras cores pode ficar abaixo de duas.',
+);
+working.rlm_8[3].push(
+ '2000 é divisível por 400; 2100 é divisível por 100 e não por 400. Só 2000 é bissexto.',
+ 'Máximos diurnos 4,7,10,13: atinge onze no quarto dia; teto(7/3)+1=4.',
+ 'Circuito: 600/25=24 pontos distintos; a posição 600 coincide com zero.',
+ '610/25=24,4 não é inteiro: pontas incluídas e intervalos todos de 25 m são incompatíveis.',
+ 'Regra explícita: próximo incremento nove; 17+9=26.',
+);
 const data=JSON.parse(fs.readFileSync('data/app_data.json','utf8'));
 const lines=['# Conferência matemática das questões principais de RLM','',
   'Data: 31/10/2026. Conferência dos enunciados, alternativas e resposta assinalada das questões principais, com memória de cálculo/inferência abaixo. Não autentica a atribuição a bancas, não certifica os comentários completos, os cartões nem toda a teoria. Contextos clínicos, técnicos e operacionais são hipóteses matemáticas, não instruções de campo.','',

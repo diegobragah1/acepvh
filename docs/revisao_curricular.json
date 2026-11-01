@@ -1582,8 +1582,8 @@
           "verified": false
         }
       ],
-      "questions": 7,
-      "flashcards": 8,
+      "questions": 15,
+      "flashcards": 9,
       "math": [
         {
           "block": 1,
@@ -1621,7 +1621,7 @@
         {
           "term": "tipos",
           "mentionBlocks": [
-            2
+            1
           ],
           "verified": false
         }
@@ -2215,7 +2215,7 @@
           "verified": false
         }
       ],
-      "questions": 3,
+      "questions": 6,
       "flashcards": 5,
       "math": [
         {
@@ -2355,7 +2355,7 @@
           "verified": false
         }
       ],
-      "questions": 3,
+      "questions": 5,
       "flashcards": 5,
       "math": [
         {
@@ -2773,18 +2773,21 @@
         {
           "term": "norma-padrão",
           "mentionBlocks": [
+            1,
             2
           ],
           "verified": false
         },
         {
           "term": "norma culta",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            1
+          ],
           "verified": false
         }
       ],
-      "questions": 4,
-      "flashcards": 5,
+      "questions": 10,
+      "flashcards": 8,
       "math": [
         {
           "block": 1,
@@ -3677,22 +3680,20 @@
         },
         {
           "term": "probabilidades",
-          "mentionBlocks": [],
-          "verified": false
-        },
-        {
-          "term": "espaços amostrais finitos",
           "mentionBlocks": [
             1
           ],
           "verified": false
         },
         {
+          "term": "espaços amostrais finitos",
+          "mentionBlocks": [],
+          "verified": false
+        },
+        {
           "term": "lógico",
           "mentionBlocks": [
-            1,
-            3,
-            4
+            1
           ],
           "verified": false
         },
@@ -3704,12 +3705,12 @@
           "verified": false
         }
       ],
-      "questions": 11,
-      "flashcards": 14,
+      "questions": 24,
+      "flashcards": 17,
       "math": [
         {
           "block": 1,
-          "formulas": 21,
+          "formulas": 12,
           "syntaxErrors": 0
         },
         {
@@ -3719,12 +3720,12 @@
         },
         {
           "block": 3,
-          "formulas": 0,
+          "formulas": 2,
           "syntaxErrors": 0
         },
         {
           "block": 4,
-          "formulas": 18,
+          "formulas": 2,
           "syntaxErrors": 0
         }
       ]

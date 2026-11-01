@@ -1,5 +1,9 @@
 # Validação — registro parcial, missão aberta
 
+Continuação: [LOTE_PROBABILIDADE.md](LOTE_PROBABILIDADE.md). Quatro blocos principais de rlm_8 revisados, 13 questões e três cartões acrescentados; 18 recortes com evidências. 36 testes, TypeScript e build aprovados; auditoria estrutural sem ocorrências (594 questões e 659 cartões na plataforma). Inspeção visual detalhada permanece pendente após indisponibilidade da ferramenta de navegador. Sem envio ou publicação.
+
+Retomada local posterior ao PR 8: ver [RETOMADA_2026-10-31.md](RETOMADA_2026-10-31.md) para correções transversais, verificações atuais e limites. Os números abaixo descrevem as etapas históricas indicadas, não uma certificação da versão atual.
+
 **Não é um certificado final.** Base: main 526355bb579ccebd048c6fead564eb0f2ede37a8.
 
 | Critério | Resultado desta etapa |

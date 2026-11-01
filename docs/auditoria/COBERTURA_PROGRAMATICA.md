@@ -5,7 +5,7 @@ Cobertura declarada: 49 aulas e seus títulos vinculados ao programa. Cobertura 
 | Disciplina | Aulas inventariadas | Linhas iniciais | Aulas integralmente validadas |
 | --- | --- | --- | --- |
 | por | 18 | 120 | 0 |
-| rlm | 8 | 81 | 0 |
+| rlm | 8 | 94 | 0 |
 | esp | 10 | 61 | 0 |
 | leg | 7 | 33 | 0 |
 | atu | 6 | 62 | 0 |

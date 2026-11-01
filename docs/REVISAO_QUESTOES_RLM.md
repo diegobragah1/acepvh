@@ -2,7 +2,7 @@
 
 Data: 31/10/2026. Conferência dos enunciados, alternativas e resposta assinalada das questões principais, com memória de cálculo/inferência abaixo. Não autentica a atribuição a bancas, não certifica os comentários completos, os cartões nem toda a teoria. Contextos clínicos, técnicos e operacionais são hipóteses matemáticas, não instruções de campo.
 
-Total examinado: 100 questões principais. A conferência encontrou um gabarito errado (rlm_8/1/1), símbolos corrompidos e enunciados a esclarecer. Os complementos anteriores não entram nessa contagem.
+Total examinado: 113 questões principais. A conferência encontrou um gabarito errado (rlm_8/1/1), símbolos corrompidos e enunciados a esclarecer. Os complementos anteriores não entram nessa contagem.
 
 | Aula | Bloco | Questão | Alternativa após correção | Memória de conferência / ressalva |
 | --- | ---: | ---: | --- | --- |
@@ -99,10 +99,23 @@ Total examinado: 100 questões principais. A conferência encontrou um gabarito 
 | rlm_8 | 1 | 2 | A | (6/10)(5/9)=1/3. |
 | rlm_8 | 1 | 3 | A | 1−0,6·0,7=0,58. |
 | rlm_8 | 1 | 4 | B | Pares (2,6),(3,5),(4,4),(5,3),(6,2): 5/36, pressupondo lançamentos independentes. |
+| rlm_8 | 1 | 5 | B | Pesos da roleta informados: primeira região=1/2; contar regiões seria indevido. |
+| rlm_8 | 1 | 6 | C | Exatamente um: (7+5−2·2)/30=8/30=4/15. |
+| rlm_8 | 1 | 7 | D | Azul depois verde: (6/10)(4/9)=4/15; quatro verdes permanecem após retirar azul. |
+| rlm_8 | 1 | 8 | B | Exclusão com probabilidades positivas: P(A∩B)=0, mas P(A)P(B)>0; dependentes. |
 | rlm_8 | 2 | 1 | C | Universo condicionado: 15+5=20; 15/20=75%. |
 | rlm_8 | 2 | 2 | B | 6!/2!=360. |
+| rlm_8 | 2 | 3 | C | Ordens azul-verde e verde-azul: 3/10+3/10=3/5; enumeração de fichas identificadas confirma. |
+| rlm_8 | 2 | 4 | D | Condição inversa: qualificados entre campo=15/25=60%. |
 | rlm_8 | 3 | 1 | C | 12·(4−1)+1=37. |
 | rlm_8 | 3 | 2 | B | No pior caso, 12 verdes; a 13ª garante outra cor. |
+| rlm_8 | 3 | 3 | B | Máximo sem dez iguais=8+9+9=26; a 27ª garante a meta. Estoque impede nove A. |
+| rlm_8 | 3 | 4 | D | Máximo sem duas de cada cor=10+8+1=19; vinte garantem. Com vinte, nenhuma das outras cores pode ficar abaixo de duas. |
 | rlm_8 | 4 | 1 | B | 100≡2 mod 7; domingo+2=terça. Data tratada como hipótese, sem validar cronograma de concurso. |
 | rlm_8 | 4 | 2 | B | 14+19−1=32. |
 | rlm_8 | 4 | 3 | C | 600/25+1=25 posições, incluindo os dois extremos. |
+| rlm_8 | 4 | 4 | C | 2000 é divisível por 400; 2100 é divisível por 100 e não por 400. Só 2000 é bissexto. |
+| rlm_8 | 4 | 5 | B | Máximos diurnos 4,7,10,13: atinge onze no quarto dia; teto(7/3)+1=4. |
+| rlm_8 | 4 | 6 | A | Circuito: 600/25=24 pontos distintos; a posição 600 coincide com zero. |
+| rlm_8 | 4 | 7 | D | 610/25=24,4 não é inteiro: pontas incluídas e intervalos todos de 25 m são incompatíveis. |
+| rlm_8 | 4 | 8 | C | Regra explícita: próximo incremento nove; 17+9=26. |

@@ -1,0 +1,13 @@
+{
+  "escopo": "Correção de contradição entre definição geral da teoria e cartões; não certifica revisão integral.",
+  "changes": [
+    {
+      "aula": "por_4",
+      "bloco": 0,
+      "cartao": 0,
+      "campo": "b",
+      "antes": "Elipse é a omissão de um termo não mencionado antes; Zeugma é a omissão de um termo JÁ expresso anteriormente no período.",
+      "depois": "Elipse é a omissão de termo recuperável pelo contexto. Zeugma é um caso particular de elipse em que o termo omitido já foi expresso. A distinção não exclui a zeugma da categoria geral de elipse."
+    }
+  ]
+}

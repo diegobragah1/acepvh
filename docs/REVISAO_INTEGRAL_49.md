@@ -391,7 +391,7 @@ Programa de referência: 1 - Compreensão e interpretação de textos.
 
 A teoria deve distinguir informação explícita, inferência, pressuposto, implícito, finalidade e ponto de vista com textos efetivamente analisados. Conferência integral das interpretações e alternativas pendente.
 
-Inventário principal: 7 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 15 questões e 9 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -413,7 +413,7 @@ Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não receb
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | gêneros | Bloco(s) 1, 2 | Pendente |
-| tipos | Bloco(s) 2 | Pendente |
+| tipos | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -564,7 +564,7 @@ Programa de referência: 9 - Verbos: flexão, conjugação, vozes, correlação 
 
 O corpo principal é muito sintético para demonstrar cobertura integral de conjugação e correlação. Conferir imperativo, tempos compostos, irregulares, impessoais, defectivos, abundantes e transposição de vozes.
 
-Inventário principal: 3 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 6 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -619,7 +619,7 @@ Programa de referência: 12 - Crase.
 
 O rótulo “10 casos” é didático, não exaustivo. Conferir demonstrativos, relativos, topônimos, locuções, paralelismo, elipse e condições dos casos facultativos.
 
-Inventário principal: 3 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 5 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -743,7 +743,7 @@ Programa de referência: 18 - Variação linguística.
 
 O item aberto não se esgota em quatro rótulos. Conferir adequação, registros, modalidades oral/escrita, variedades e preconceito linguístico com análise de exemplos.
 
-Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 10 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -752,8 +752,8 @@ Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não receb
 | diastrática | Bloco(s) 1, 2 | Pendente |
 | diafásica | Bloco(s) 1, 2 | Pendente |
 | diacrônica | Bloco(s) 1, 2 | Pendente |
-| norma-padrão | Bloco(s) 2 | Pendente |
-| norma culta | Não localizada automaticamente | Pendente |
+| norma-padrão | Bloco(s) 1, 2 | Pendente |
+| norma culta | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -946,14 +946,14 @@ Programa de referência: 8 - Probabilidade: conceitos básicos e cálculo de pro
 
 Corrigido gabarito de múltiplos de 4 ou 6: 10/30 = 1/3. Revisar todos os demais cálculos. Reposição não é definição de independência; não reposição exige análise do experimento.
 
-Inventário principal: 11 questões e 14 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 24 questões e 17 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | conceitos básicos | Não localizada automaticamente | Pendente |
-| probabilidades | Não localizada automaticamente | Pendente |
-| espaços amostrais finitos | Bloco(s) 1 | Pendente |
-| lógico | Bloco(s) 1, 3, 4 | Pendente |
+| probabilidades | Bloco(s) 1 | Pendente |
+| espaços amostrais finitos | Não localizada automaticamente | Pendente |
+| lógico | Bloco(s) 1 | Pendente |
 | sequencial | Bloco(s) 4 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.

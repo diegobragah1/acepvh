@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-import {validationErrors} from '../src/utils/auditEvidence';
+import {validationErrors,applyEvidenceOverlay} from '../src/utils/auditEvidence';
 import {CURRICULUM_REVIEW} from '../src/data/curriculumReview';
 import {ALL_PAUTA_ITEMS} from '../src/data/pautaEspecificaMap';
 const data=JSON.parse(fs.readFileSync('data/app_data.json','utf8'));
@@ -8,23 +8,25 @@ const sha=crypto.createHash('sha256').update(fs.readFileSync('data/app_data.json
 const additions:Record<string,string[]>={
  por_1:['Localizar informações literais','Distinguir tema, assunto e ideias principal/secundárias','Justificar inferências por pistas textuais','Distinguir pressupostos e subentendidos','Distinguir fato, opinião e posicionamento','Identificar tese, argumentos e contra-argumentos','Reconhecer intenção e efeitos de sentido','Analisar progressão temática','Interpretar textos verbais e não verbais','Comparar reescritas semanticamente equivalentes','Diagnosticar extrapolação, redução e inversão nas alternativas'],
  por_2:['Distinguir gênero, suporte e sequência textual','Explicar diferenças entre classificações tipológicas','Analisar sequências combinadas e predominância','Relacionar finalidade, interlocutor e circulação','Comparar textos de gêneros diferentes sobre o mesmo assunto'],
+ rlm_8:['Distinguir equiprobabilidade de pesos diferentes','Calcular união inclusiva e exatamente um evento','Usar complementar sem presumir independência','Distinguir independência de exclusão mútua','Resolver condicionamento e sua condição inversa','Contar retiradas com e sem reposição','Somar caminhos de cores em ordens diferentes','Distinguir possibilidade, probabilidade e garantia','Adaptar gavetas a capacidades finitas e metas por categoria','Contar dias transcorridos e inclusivos; aplicar regra gregoriana','Distinguir linha aberta, circuito e divisão não exata','Resolver avanço com recuo com teto e condições de existência','Conferir regra de sequência e limites de inferência'],
 };
-const rows=data.lessons.flatMap((l:any)=>[...CURRICULUM_REVIEW[l.id].requirements,...(additions[l.id]||[])].map((skill:string,i:number)=>({
+let rows=data.lessons.flatMap((l:any)=>[...CURRICULUM_REVIEW[l.id].requirements,...(additions[l.id]||[])].map((skill:string,i:number)=>({
  id:`${l.id}-c${String(i+1).padStart(2,'0')}`,itemOriginal:ALL_PAUTA_ITEMS.find(x=>x.lessonId===l.id)?.pautaLiteral||l.editalRef,
  aula:l.id,subcompetencia:skill,nivel:null,validacao:'PENDENTE',
  localizacao:`data/app_data.json#/lessons/${data.lessons.indexOf(l)}/blocks`,
  fontesCadastradas:l.sources.map((n:number)=>({id:n,url:data.sources.find((s:any)=>s.num===n)?.url,consultaComprovada:false})),
  evidenciaTeoria:[],evidenciaFonte:[],exerciciosValidados:[],evidenciaRevisao:[],
+ pendenciasCriticas:[],
  inventarioExercicios:l.blocks.flatMap((b:any,j:number)=>(b.questions||[]).map((q:any,k:number)=>({local:`${l.id}.blocks[${j}].questions[${k}]`,revision:q.revision||null}))),
  lacunas:'Desenvolvimento, correção e aplicação ainda não avaliados individualmente para esta linha.',
  criterioAceite:'Explicação e restrições verificadas; exemplo resolvido; exercício inequívoco com alternativas comentadas; fonte com localizador; consistência de resumo/mapa/cartões.'
 })));
-for(const name of fs.readdirSync('docs/auditoria').filter(n=>/^por_\d+_evidencias\.json$/.test(n))){
+for(const name of fs.readdirSync('docs/auditoria').filter(n=>/^(?:por|rlm|esp|leg|atu)_\d+_evidencias\.json$/.test(n))){
  const overlay=JSON.parse(fs.readFileSync('docs/auditoria/'+name,'utf8'));
- for(const r of rows)if(overlay[r.id])Object.assign(r,overlay[r.id]);
+ rows=applyEvidenceOverlay(rows,overlay);
 }
 for(const r of rows) {
- const errors=validationErrors({...r,pendenciasCriticas:[]});
+ const errors=validationErrors(r);
  if(errors.length)throw Error(`${r.id}: ${errors.join(', ')}`);
 }
 const out={baseDatasetSha256:sha,statusPermitidos:['AUSENTE','SUPERFICIAL','PARCIAL','ADEQUADO','APROFUNDADO','VALIDADO'],nota:'null significa ainda não avaliado; nunca equivale a AUSENTE ou VALIDADO. Inventário não comprova vínculo didático.',rows};

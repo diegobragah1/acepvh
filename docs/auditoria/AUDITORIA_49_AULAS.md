@@ -428,7 +428,7 @@ Local: data/app_data.json, lessons[id=rlm_8]. 4 blocos.
 
 Diagnóstico anterior a reconferir: Corrigido gabarito de múltiplos de 4 ou 6: 10/30 = 1/3. Revisar todos os demais cálculos. Reposição não é definição de independência; não reposição exige análise do experimento.
 
-Estado: auditoria integral pendente. Fila: rlm_8-c01, rlm_8-c02, rlm_8-c03, rlm_8-c04, rlm_8-c05.
+Estado: auditoria integral pendente. Fila: rlm_8-c01, rlm_8-c02, rlm_8-c03, rlm_8-c04, rlm_8-c05, rlm_8-c06, rlm_8-c07, rlm_8-c08, rlm_8-c09, rlm_8-c10, rlm_8-c11, rlm_8-c12, rlm_8-c13, rlm_8-c14, rlm_8-c15, rlm_8-c16, rlm_8-c17, rlm_8-c18.
 
 Para fechar: leitura integral de A/B, mapa, cartões e todas as questões; fontes e referências cruzadas; níveis por subcompetência com evidências; testes e revisão de aplicação.
 

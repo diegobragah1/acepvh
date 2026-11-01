@@ -7,6 +7,16 @@ export interface AuditEvidence {
  evidenciaRevisao: string[];
  pendenciasCriticas: string[];
 }
+
+/** Apply persisted reviews without silently losing orphaned evidence or changing row IDs. */
+export function applyEvidenceOverlay<T extends {id:string}>(rows:T[], overlay:Record<string,Partial<T>>):T[] {
+ const known=new Set(rows.map(row=>row.id));
+ for(const [id,value] of Object.entries(overlay)) {
+  if(!known.has(id))throw Error(`Evidência sem competência correspondente: ${id}`);
+  if(value.id!==undefined&&value.id!==id)throw Error(`Identidade de evidência incompatível: ${id}`);
+ }
+ return rows.map(row=>({...row,...overlay[row.id],id:row.id}));
+}
 /** A palavra encontrada, uma URL cadastrada ou um teste de build não provam cobertura. */
 export function validationErrors(row:AuditEvidence): string[] {
  if(row.nivel!=='VALIDADO')return [];
