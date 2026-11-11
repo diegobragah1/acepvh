@@ -78,6 +78,8 @@ export const Tab7Programatico: React.FC = () => {
     appData,
     getTopicStatus,
     updateTopicStatus,
+    isSubtopicCompleted,
+    toggleSubtopicComplete,
     setCurrentLessonId,
     setCurrentTab,
     setCurrentStudyMode,
@@ -334,7 +336,13 @@ export const Tab7Programatico: React.FC = () => {
                               {statusMeta.icon} {statusMeta.label}
                             </span>
                             <span className="text-[11px] font-semibold text-slate-500">
-                              &bull; {lesson.blocks?.length || 0} blocos &bull; {qCount} questões &bull;{' '}
+                              &bull;{' '}
+                              {
+                                (lesson.blocks || []).filter((_, bIdx) =>
+                                  isSubtopicCompleted(lesson.id, bIdx)
+                                ).length
+                              }
+                              /{lesson.blocks?.length || 0} tópicos concluídos &bull; {qCount} questões &bull;{' '}
                               {fcCount} flashcards
                             </span>
                           </div>
@@ -399,26 +407,49 @@ export const Tab7Programatico: React.FC = () => {
                       {/* Expanded Blocks Preview */}
                       {isExpanded && (
                         <div className="mt-3 pt-3 border-t border-slate-200/80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-                          {(lesson.blocks || []).map((b, bIdx) => (
-                            <button
-                              key={bIdx}
-                              type="button"
-                              onClick={() => handleOpenLesson(lesson.id, 'ALL')}
-                              className="text-left p-2.5 rounded-xl bg-white hover:bg-teal-50/50 border border-slate-200 hover:border-teal-400 transition flex flex-col justify-between gap-1 cursor-pointer"
-                            >
-                              <div className="flex items-center justify-between gap-1">
-                                <span className="text-[10px] font-black uppercase text-teal-800">
-                                  Bloco {bIdx + 1}
-                                </span>
-                                <span className="text-[10px] font-bold text-slate-500">
-                                  {b.questions?.length || 0} Q / {b.flashcards?.length || 0} FC
-                                </span>
+                          {(lesson.blocks || []).map((b, bIdx) => {
+                            const subDone = isSubtopicCompleted(lesson.id, bIdx);
+                            return (
+                              <div
+                                key={bIdx}
+                                className={`p-2.5 rounded-xl border transition flex flex-col justify-between gap-2 ${
+                                  subDone
+                                    ? 'bg-emerald-50/60 border-emerald-300'
+                                    : 'bg-white border-slate-200 hover:border-teal-400'
+                                }`}
+                              >
+                                <div className="flex items-center justify-between gap-1">
+                                  <span className="text-[10px] font-black uppercase text-teal-800">
+                                    Tópico {bIdx + 1}
+                                  </span>
+                                  <button
+                                    type="button"
+                                    onClick={() => toggleSubtopicComplete(lesson.id, bIdx)}
+                                    aria-pressed={subDone}
+                                    className={`px-2 py-0.5 rounded-md text-[10px] font-extrabold border transition cursor-pointer ${
+                                      subDone
+                                        ? 'bg-emerald-600 text-white border-emerald-600'
+                                        : 'bg-slate-50 hover:bg-teal-50 text-slate-700 border-slate-300'
+                                    }`}
+                                  >
+                                    {subDone ? '✅ Concluído' : '⬜ Concluir'}
+                                  </button>
+                                </div>
+                                <button
+                                  type="button"
+                                  onClick={() => handleOpenLesson(lesson.id, 'ALL')}
+                                  className="text-left group cursor-pointer"
+                                >
+                                  <p className="text-xs font-bold text-slate-800 group-hover:text-teal-800 line-clamp-2">
+                                    {b.title}
+                                  </p>
+                                  <span className="text-[10px] font-semibold text-slate-500 mt-0.5 block">
+                                    {b.questions?.length || 0} Q / {b.flashcards?.length || 0} FC &middot; Abrir ➔
+                                  </span>
+                                </button>
                               </div>
-                              <p className="text-xs font-bold text-slate-800 line-clamp-2">
-                                {b.title}
-                              </p>
-                            </button>
-                          ))}
+                            );
+                          })}
                         </div>
                       )}
                     </div>

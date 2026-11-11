@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Lei de Laplace",
-            "detail": "P(A)=n(A)/n(Ω) somente com resultados elementares equiprováveis."
+            "detail": "P(A)=n(A)/n(Ω) somente com resultados elementares equiprováveis.",
+            "badge": "Foco #1"
           },
           {
             "label": "Complementar",
-            "detail": "P(pelo menos 1) = 1 - P(nenhum)"
+            "detail": "P(pelo menos 1) = 1 - P(nenhum)",
+            "badge": "Foco #2"
           },
           {
             "label": "Dados e Moedas",
-            "detail": "2 dados = 36 pares; n moedas = 2ⁿ casos"
+            "detail": "2 dados = 36 pares; n moedas = 2ⁿ casos",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,15 +38,18 @@
         "nodes": [
           {
             "label": "Regra do OU",
-            "detail": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)"
+            "detail": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+            "badge": "Foco #1"
           },
           {
             "label": "Regra do E",
-            "detail": "Geral: P(A∩B)=P(A)P(B|A). Independentes: P(A)P(B). Reposição exige sorteios independentes para justificar o produto simples."
+            "detail": "Geral: P(A∩B)=P(A)P(B|A). Independentes: P(A)P(B). Reposição exige sorteios independentes para justificar o produto simples.",
+            "badge": "Foco #2"
           },
           {
             "label": "Condicional P(A|B)",
-            "detail": "P(A|B)=P(A∩B)/P(B), P(B)>0; contagens somente no modelo equiprovável."
+            "detail": "P(A|B)=P(A∩B)/P(B), P(B)>0; contagens somente no modelo equiprovável.",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -54,15 +60,18 @@
         "nodes": [
           {
             "label": "Pior Cenário",
-            "detail": "Esgotar (k - 1) de cada uma das n categorias e somar + 1"
+            "detail": "Esgotar (k - 1) de cada uma das n categorias e somar + 1",
+            "badge": "Foco #1"
           },
           {
             "label": "Fórmula Direta",
-            "detail": "m(k−1)+1: mínimo se o pior caso for realizável. Estoques: somar min(capacidade,k−1) e acrescentar um se a meta for possível."
+            "detail": "m(k−1)+1: mínimo se o pior caso for realizável. Estoques: somar min(capacidade,k−1) e acrescentar um se a meta for possível.",
+            "badge": "Foco #2"
           },
           {
             "label": "Certeza Dedutiva",
-            "detail": "Garante \"com certeza\" pelo menos k elementos do mesmo grupo"
+            "detail": "Garante \"com certeza\" pelo menos k elementos do mesmo grupo",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -73,25 +82,63 @@
         "nodes": [
           {
             "label": "Calendários",
-            "detail": "Ciclo de 7 dias (avança o resto de N ÷ 7)"
+            "detail": "Ciclo de 7 dias (avança o resto de N ÷ 7)",
+            "badge": "Foco #1"
           },
           {
             "label": "Posicionamento em Filas",
-            "detail": "Total = Frente + Trás - 1"
+            "detail": "Total = Frente + Trás - 1",
+            "badge": "Foco #2"
           },
           {
             "label": "Espaçamento em Linha",
-            "detail": "Linha aberta, divisão exata e pontas incluídas: L/d+1; circuito fechado: L/d."
+            "detail": "Linha aberta, divisão exata e pontas incluídas: L/d+1; circuito fechado: L/d.",
+            "badge": "Foco #3"
           },
           {
             "label": "Calendário gregoriano",
-            "detail": "Bissexto: divisível por 4, exceto século não divisível por 400."
+            "detail": "Bissexto: divisível por 4, exceto século não divisível por 400.",
+            "badge": "Foco #4"
           },
           {
             "label": "Subida com recuo",
-            "detail": "H>S e S>D≥0: teto((H−S)/(S−D))+1; H≤S: um dia."
+            "detail": "H>S e S>D≥0: teto((H−S)/(S−D))+1; H≤S: um dia.",
+            "badge": "Foco #5"
           }
         ]
+      }
+    ],
+    "mnemonic": "Laplace: P(A) = Favoráveis / Total (equiprováveis) • Regra do OU = Soma e tira a Interseção • Regra do E = Multiplica • Pelo menos 1 = 1 - P(Nenhum) • Casa dos Pombos = Pior Caso + 1",
+    "deadlinesAndNumbers": [
+      {
+        "value": "P(A ∪ B) = P(A)+P(B)-P(A∩B)",
+        "label": "Probabilidade da União (\"A ou B\"): some as probabilidades individuais e subtraia a interseção para não contar em dobro",
+        "ref": "Regra do OU"
+      },
+      {
+        "value": "P(Pelo menos 1) = 1 - P(0)",
+        "label": "Evento complementar: muito mais rápido calcular 100% menos a probabilidade de NENHUM ocorrer",
+        "ref": "Complementar"
+      },
+      {
+        "value": "P(A|B) = P(A ∩ B) / P(B)",
+        "label": "Probabilidade Condicional (\"sabendo que B ocorreu\"): o evento B passa a ser o novo universo reduzido (denominador)",
+        "ref": "Condicional"
+      },
+      {
+        "value": "Pior Cenário + 1",
+        "label": "Princípio da Casa dos Pombos: esgote o limite máximo sem atingir a meta em todas as categorias e some + 1",
+        "ref": "Certeza Dedutiva"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em uma urna com 4 bolas verdes e 6 vermelhas, a probabilidade de retirar 2 bolas verdes seguidas SEM reposição é (4/10) × (4/10) = 16%.",
+        "right": "FALSO! Na retirada SEM reposição, a 1ª bola não volta para a urna: na 2ª retirada restam apenas 3 verdes num total de 9 bolas. Logo, P = (4/10) × (3/9) = 12/90 = 2/15 (≈ 13,33%)!"
+      },
+      {
+        "wrong": "Em uma caixa com 10 luvas pretas e 10 luvas brancas misturadas no escuro, bastam 2 retiradas para garantir com certeza um par da mesma cor.",
+        "right": "FALSO! No pior cenário, as 2 primeiras luvas podem sair de cores diferentes (1 preta e 1 branca). Pelo Princípio da Casa dos Pombos (2 cores × 1 + 1), são necessárias 3 retiradas para garantir um par da mesma cor!"
       }
     ]
   },

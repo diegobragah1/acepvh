@@ -29,19 +29,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "EC 132/2023 e LC 214/2025",
-        "label": "Reforma Tributária sobre o consumo: cria CBS (federal), IBS (estadual/municipal) e Imposto Seletivo"
+        "label": "Reforma Tributária sobre o consumo: cria CBS (federal), IBS (estadual/municipal) e Imposto Seletivo",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "203,08 Milhões (Censo 2022)",
-        "label": "População oficial do Brasil apurada pelo Censo IBGE 2022 (menor taxa histórica de crescimento: 0,52%/ano)"
+        "label": "População oficial do Brasil apurada pelo Censo IBGE 2022 (menor taxa histórica de crescimento: 0,52%/ano)",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "BRICS+ (2024–2025)",
-        "label": "Entrada de Egito, Etiópia, Irã, Emirados Árabes Unidos e Indonésia no bloco dos emergentes"
+        "label": "Entrada de Egito, Etiópia, Irã, Emirados Árabes Unidos e Indonésia no bloco dos emergentes",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "19 cm (Outubro de 2024)",
-        "label": "Nível mínimo histórico atingido pelo Rio Madeira em Porto Velho durante a estiagem severa na Amazônia"
+        "label": "Nível mínimo histórico atingido pelo Rio Madeira em Porto Velho durante a estiagem severa na Amazônia",
+        "ref": "Ref. Aula 30"
       }
     ],
     "branches": [
@@ -102,6 +106,17 @@
             "badge": "Porto Velho 2021–2026"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Geopolítica e Economia Mundial (BRICS+, G20 no Brasil, COP30 na Amazônia, Conflitos), Economia e Política Nacional (Reforma Tributária EC 132/2023, Censo 2022) e Fatos de Rondônia e Porto Velho (Estiagem/Cheias do Rio Madeira e Saúde)",
+    "goldenTraps": [
+      {
+        "wrong": "A Reforma Tributária aprovada pela EC nº 132/2023 unificou todos os tributos brasileiros em um único imposto federal gerido exclusivamente pela União.",
+        "right": "FALSO! O Brasil adotou o modelo de IVA DUAL: a CBS (Contribuição sobre Bens e Serviços, de competência federal, substituindo PIS/Cofins/IPI) e o IBS (Imposto sobre Bens e Serviços, de competência compartilhada de Estados e Municípios, substituindo ICMS e ISS)."
+      },
+      {
+        "wrong": "Durante os anos de 2023 e 2024, a Bacia do Rio Madeira em Porto Velho registrou exclusivamente cheias recordes ininterruptas, sem períodos de seca.",
+        "right": "FALSO! Em outubro de 2023 e setembro/outubro de 2024, o Rio Madeira em Porto Velho enfrentou as duas piores ESTIAGENS (secas históricas) já registradas pela ANA/CPRM, isolando comunidades ribeirinhas do Baixo Madeira."
       }
     ]
   },

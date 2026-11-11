@@ -4,7 +4,7 @@ export function renderMarkdownToHtml(mdText: string): string {
   if (!mdText) return "";
   const math = protectMath(String(mdText));
   const lines = math.text.split("\n");
-  let html = '<div class="space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed">';
+  let html = '<div class="space-y-1.5 text-[15px] sm:text-base text-slate-800 leading-[1.7]">';
   let inList = false;
   let inTable = false;
   let inCode = false;

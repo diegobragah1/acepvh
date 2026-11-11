@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Indicativo (Fato)",
-            "detail": "Indicativo (apresenta o evento como certo/factual no discurso), Subjuntivo (hipótese, possibilidade, condição ou desejo) e Imperativo (ordem, instrução, pedido ou conselho)."
+            "detail": "Indicativo (apresenta o evento como certo/factual no discurso), Subjuntivo (hipótese, possibilidade, condição ou desejo) e Imperativo (ordem, instrução, pedido ou conselho).",
+            "badge": "Foco #1"
           },
           {
             "label": "Subjuntivo (Hipótese)",
-            "detail": "Presente (que), Imperfeito (se -sse), Futuro (quando/se)"
+            "detail": "Presente (que), Imperfeito (se -sse), Futuro (quando/se)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Intervir / Provir (= Vir)",
-            "detail": "Ele interveio (passado); se ele intervier (futuro)"
+            "detail": "Ele interveio (passado); se ele intervier (futuro)",
+            "badge": "Foco #1"
           },
           {
             "label": "Manter (= Ter) e Reaver",
-            "detail": "Se ele mantiver; eles reouveram"
+            "detail": "Se ele mantiver; eles reouveram",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Condição Real",
-            "detail": "Se + Futuro do Subjuntivo → Futuro do Presente"
+            "detail": "Se + Futuro do Subjuntivo → Futuro do Presente",
+            "badge": "Foco #1"
           },
           {
             "label": "Condição Hipotética",
-            "detail": "Se + Imperfeito do Subjuntivo (-sse) → Futuro do Pretérito (-ria)"
+            "detail": "Se + Imperfeito do Subjuntivo (-sse) → Futuro do Pretérito (-ria)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Ativa vs. Passiva Analítica",
-            "detail": "OD vira Sujeito Paciente; verbo SER + Particípio"
+            "detail": "OD vira Sujeito Paciente; verbo SER + Particípio",
+            "badge": "Foco #1"
           },
           {
             "label": "Passiva Sintética e Reflexiva",
-            "detail": "VTD + SE + Sujeito Paciente; Sujeito age sobre si mesmo"
+            "detail": "VTD + SE + Sujeito Paciente; Sujeito age sobre si mesmo",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Indicativo = Certeza • Subjuntivo = Hipótese/Desejo • Imperativo Negativo = 100% do Presente do Subjuntivo • MARIO (Mediar, Ansiar, Remediar, Incendiar, Odiar -> -eio) • Intervir = Vir | Provir = Vir | Prover = Ver",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Pretérito Mais-que-Perfeito",
+        "label": "Desinência \"-RA\" átona (ex.: \"fizera, trouxera, houvera\") = \"tinha/havia feito\" (passado anterior a outro passado)",
+        "ref": "Tempos do Indicativo"
+      },
+      {
+        "value": "Intervir = Conjugado por VIR",
+        "label": "Passado: \"Ele interveio / Nós interviemos / Eles intervieram\". Futuro do Subjuntivo: \"Quando eu intervier\"",
+        "ref": "Verbos Derivados"
+      },
+      {
+        "value": "Ver vs. Vir no Subjuntivo",
+        "label": "VER -> Quando eu VIR / Se nós VÍRMOS; VIR -> Quando eu VIER / Se nós VIERMOS; MANTER -> Quando eu MANTIVER",
+        "ref": "Futuro do Subjuntivo"
+      },
+      {
+        "value": "Voz Passiva Sintética",
+        "label": "VTD (ou VTDI) + pronome apassivador \"SE\" + Sujeito Paciente (concorda no plural: \"Eliminam-se os focos\")",
+        "ref": "Vozes Verbais"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Na frase \"O supervisor interviu na reunião da equipe\", o verbo intervir está conjugado segundo a norma-padrão.",
+        "right": "FALSO! \"Intervir\" conjuga-se exatamente como \"VIR\" (ele veio → ele INTERVEIO; eles vieram → eles INTERVIERAM). A forma \"*interviu\" não existe na norma culta!"
+      },
+      {
+        "wrong": "A oração \"Precisa-se de novos agentes de endemias\" pode ser passada para a voz passiva analítica (\"Novos agentes são precisados\").",
+        "right": "FALSO! Como o verbo \"precisar\" é Transitivo Indireto (pede a preposição \"de\"), o \"SE\" é Índice de Indeterminação do Sujeito, e a oração está na VOZ ATIVA (não admite voz passiva!)."
       }
     ]
   },

@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Fusão a + a = à",
-            "detail": "Preposição a + Artigo feminino a (ou aquele/aquela/aquilo)"
+            "detail": "Preposição a + Artigo feminino a (ou aquele/aquela/aquilo)",
+            "badge": "Foco #1"
           },
           {
             "label": "Teste do Masculino",
-            "detail": "Se no masculino vira AO(S), no feminino tem crase À(S)"
+            "detail": "Se no masculino vira AO(S), no feminino tem crase À(S)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Masculino e Verbo",
-            "detail": "A pé, a prazo, a partir de, começou a falar"
+            "detail": "A pé, a prazo, a partir de, começou a falar",
+            "badge": "Foco #1"
           },
           {
             "label": "Pronomes e Plural sem S",
-            "detail": "A ela, a toda, a qualquer, gota a gota, a situações"
+            "detail": "A ela, a toda, a qualquer, gota a gota, a situações",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Preposição ATÉ",
-            "detail": "Fui até a / até à unidade"
+            "detail": "Fui até a / até à unidade",
+            "badge": "Foco #1"
           },
           {
             "label": "Nome Próprio e Possessivo",
-            "detail": "Entreguei a/à Ana; Refiro-me a/à minha equipe"
+            "detail": "Entreguei a/à Ana; Refiro-me a/à minha equipe",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Locuções Femininas e Horas",
-            "detail": "Às vezes, à noite, à medida que, às 14h45"
+            "detail": "Às vezes, à noite, à medida que, às 14h45",
+            "badge": "Foco #1"
           },
           {
             "label": "Casa, Terra e Distância",
-            "detail": "Casa e terra dependem do sentido e da presença de artigo. Distância determinada: à distância de; sem medida, há variação entre manuais, inclusive admissão de à distância por clareza."
+            "detail": "Casa e terra dependem do sentido e da presença de artigo. Distância determinada: à distância de; sem medida, há variação entre manuais, inclusive admissão de à distância por clareza.",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Troque a feminina por MASCULINA: se der AO, tem CRASE (À)! • 3 Facultativos = ATÉ + Minha/Sua/Nossa (singular) + Nome Próprio Feminino • NUNCA antes de Masculino, Verbo, Pronome Geral ou Plural com \"a\" no singular!",
+    "deadlinesAndNumbers": [
+      {
+        "value": "A (prep.) + A (art.) = À",
+        "label": "Teste infalível: substitua a palavra feminina por uma masculina equivalente; se aparecer \"AO\", ocorre crase (\"À\")",
+        "ref": "Regra Geral"
+      },
+      {
+        "value": "3 Casos Facultativos",
+        "label": "1. Após a preposição ATÉ; 2. Antes de pronome possessivo feminino singular (minha/sua); 3. Antes de nome próprio feminino",
+        "ref": "Uso Facultativo"
+      },
+      {
+        "value": "Locuções Femininas = À",
+        "label": "Locuções adverbiais, prepositivas e conjuntivas femininas levam crase obrigatória (\"às vezes, à noite, à medida que, à procura de\")",
+        "ref": "Uso Obrigatório"
+      },
+      {
+        "value": "Casa / Terra / Distância",
+        "label": "Sem especificador = SEM crase (\"Voltei a casa / Ficou a distância\"); Determinados = COM crase (\"Voltei à casa dos pais / Ficou à distância de 2m\")",
+        "ref": "Casos Especiais"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em \"A campanha refere-se a pessoas vulneráveis da comunidade\", falta o acento grave indicativo de crase em \"a pessoas\".",
+        "right": "FALSO! Quando o \"a\" está no singular diante de palavra no PLURAL (\"a pessoas\"), trata-se apenas de preposição (sem artigo), sendo PROIBIDO o uso da crase!"
+      },
+      {
+        "wrong": "Nas expressões de horas como \"O atendimento funciona de 8h às 17h\", o uso da crase em \"às 17h\" está correto.",
+        "right": "FALSO! Pela regra do paralelismo sintático: \"de 8h a 17h\" (sem artigo nos dois → sem crase) ou \"das 8h às 17h\" (com artigo nos dois → com crase)!"
       }
     ]
   },

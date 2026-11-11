@@ -6,110 +6,104 @@
   "title": "10. Concordância verbal e nominal",
   "editalRef": "Item 10 de Língua Portuguesa — Concordância verbal e nominal.",
   "mindMap": {
-    "centralTitle": "Sintaxe I: Análise Sintática (Termos da Oração) e Concordância Verbal e Nominal",
-    "centralSubtitle": "Tipos de Sujeito, Objeto Direto vs. Indireto, Verbos Impessoais (Haver/Fazer) e Concordância Nominal",
-    "mnemonic": "HAVER (existir) e FAZER (tempo) são impessoais (singular); EXISTIR é pessoal (concorda no singular ou no plural com o sujeito)",
+    "centralTitle": "10. Concordância Verbal e Nominal (Regra Geral e Casos Especiais IBGP)",
+    "centralSubtitle": "Verbos Impessoais (Haver e Fazer), Voz Passiva Sintética vs. Sujeito Indeterminado (SE), Sujeito Composto, Partitivos, Porcentagens e Concordância Nominal (Anexo, Mesmo, Meio, Bastante, É proibido)",
+    "mnemonic": "HAVER (= existir) e FAZER (= tempo) são IMPESSOAIS -> Ficam no SINGULAR (e passam a impessoalidade para o auxiliar: \"Deve haver / Vai fazer\")! • VTD + SE = Concorda (\"Vendem-se casas\") | VTI + SE = Singular (\"Trata-se de casos\")",
     "deadlinesAndNumbers": [
       {
-        "value": "5 Tipos de Sujeito",
-        "label": "Simples, Composto, Oculto/Desinencial, Indeterminado e Oração Sem Sujeito",
-        "ref": "Termos Essenciais"
+        "value": "Haver (Existir) = Singular",
+        "label": "\"Havia muitos focos / Deve haver soluções\" (impessoal, sem sujeito). Já \"Existir/Ocorrer\" têm sujeito e vão ao plural (\"Devem existir soluções\")",
+        "ref": "Verbos Impessoais"
       },
       {
-        "value": "100% Singular",
-        "label": "Verbo HAVER (= existir) e FAZER (tempo/clima) — inclusive nas locuções ('Deve haver')",
-        "ref": "Oração Sem Sujeito"
+        "value": "VTD + SE vs. VTI + SE",
+        "label": "VTD + SE (Partícula Apassivadora) concorda com o sujeito (\"Notificaram-se os casos\"); VTI/VI + SE (IIS) fica no singular (\"Precisa-se de técnicos\")",
+        "ref": "Partícula SE"
       },
       {
-        "value": "2 Subordinadas Adj.",
-        "label": "Restritiva (SEM vírgulas: limita a parte) vs. Explicativa (COM vírgulas: todo o grupo)",
-        "ref": "Período Composto"
+        "value": "Sujeito Posposto ao Verbo",
+        "label": "Com sujeito composto DEPOIS do verbo (\"Faltou/Faltaram água e cloro\"), o verbo concorda com todos (plural) ou com o núcleo mais próximo",
+        "ref": "Sujeito Composto"
+      },
+      {
+        "value": "É proibido vs. É proibida",
+        "label": "Sem determinante = invariável (\"É proibido entrada\"); Com artigo/pronome feminino = concorda (\"É proibida A entrada\")",
+        "ref": "Concordância Nominal"
       }
     ],
     "branches": [
       {
-        "title": "1. Termos da Oração e Tipos de Sujeito",
-        "icon": "🏗️",
+        "title": "1. Verbos Impessoais (Haver, Fazer, Fenômenos) e Verbo SER",
+        "icon": "🚫",
         "color": "teal",
         "nodes": [
           {
-            "label": "Sujeito Indeterminado vs. Oração Sem Sujeito",
-            "detail": "Indeterminado: 3ª pessoa do plural sem referente ('Roubaram a bicicleta') ou VTI/VI/VL + SE ('Precisa-se de técnicos'). Sem Sujeito: fenômenos da natureza, Haver (= existir/tempo) e Fazer (tempo/clima).",
-            "badge": "Essenciais"
+            "label": "Haver (= Existir/Ocorrer/Tempo) e Fazer (= Tempo/Clima)",
+            "detail": "Não possuem sujeito e ficam obrigatoriamente na 3ª pessoa do singular: \"Havia 20 focos no bairro / Faz três anos que passei\". Nas locuções verbais, contaminam o auxiliar: \"Deve haver 20 focos / Vai fazer três anos\". (Atenção: Existir, Ocorrer e Acontecer são pessoais e variam: \"Devem existir 20 focos\"!).",
+            "badge": "Deve haver vs. Devem existir"
           },
           {
-            "label": "Complemento Nominal vs. Adjunto Adnominal",
-            "detail": "Substantivo abstrato + preposição: se o termo PRATICA a ação = Adjunto Adnominal ('a resposta DO agente'); se SOFRE a ação (paciente) = Complemento Nominal ('a eliminação DO foco')!",
-            "badge": "Agente vs. Paciente"
+            "label": "Verbo SER em Horas, Datas e Distâncias",
+            "detail": "Concorda com o numeral: \"É uma hora / São duas horas / São vinte de junho\" (mas \"Hoje é dia 20 de junho\", concordando com a palavra \"dia\").",
+            "badge": "Horas e Datas"
           }
         ]
       },
       {
-        "title": "2. Concordância Verbal (Casos Especiais IBGP)",
+        "title": "2. Concordância com a Partícula \"SE\", Partitivos, Porcentagens e \"Mais de um\"",
         "icon": "✅",
-        "color": "emerald",
+        "color": "indigo",
         "nodes": [
           {
-            "label": "Haver vs. Existir",
-            "detail": "'Havia muitos focos / Deve haver muitos focos' (Singular!). 'Existiam muitos focos / Devem existir muitos focos' (Plural!).",
-            "badge": "Campeão de Prova!"
+            "label": "Partícula Apassivadora (PA) vs. Índice de Indeterminação (IIS)",
+            "detail": "Sem preposição no termo seguinte (VTD + SE) → Voz Passiva Sintética: o termo é Sujeito Paciente e o verbo CONCORDA (\"Analisaram-se as amostras\"). Com preposição obrigatória (VTI + SE) → Sujeito Indeterminado: verbo no SINGULAR (\"Trata-se de amostras graves\").",
+            "badge": "PA (Plural) vs. IIS (Singular)"
           },
           {
             "label": "Expressões Partitivas e Porcentagens",
-            "detail": "'A maioria dos moradores colaborou / colaboraram' (ambas corretas!). '20% dos imóveis foram vistoriados' (concorda com o número ou com o especificador).",
+            "detail": "Em \"A maioria dos moradores apoiou / apoiaram\" e \"1% dos imóveis apresentou / apresentaram\", o verbo pode concordar com o núcleo partitivo/numeral (singular) ou com o especificador plural.",
             "badge": "Dupla Concordância"
           }
         ]
       },
       {
-        "title": "3. Concordância Nominal (Anexo, Meio, Bastante, É Proibido)",
+        "title": "3. Concordância Nominal: Regra Geral vs. Concordância Atrativa",
         "icon": "📏",
         "color": "amber",
         "nodes": [
           {
-            "label": "Meio vs. Meia e Bastante vs. Bastantes",
-            "detail": "Meio = um pouco (invariável: 'ela está meio tonta'); Meia = metade ('meia colher'). Bastante = muito (invariável: 'eles são bastante ágeis'); Bastantes = muitos ('bastantes casos').",
-            "badge": "Advérbio vs. Pronome"
-          },
-          {
-            "label": "Anexo, Incluso, Obrigado, Mesmo e É Necessário",
-            "detail": "'As fichas seguem anexas' ('em anexo' é invariável). 'É proibido entrada' (sem artigo) vs. 'É proibida a entrada' (com artigo 'a').",
-            "badge": "Determinante!"
+            "label": "Adjetivo Posposto vs. Anteposto a Dois Substantivos",
+            "detail": "Posposto (\"tanque e caixa tampados / tampada\"): concorda com o mais próximo ou vai para o masculino plural (gramatical). Anteposto (\"Mantinha fechadas a caixa e o tonel\"): na função de adjunto adnominal concorda com o mais próximo.",
+            "badge": "Posposto vs. Anteposto"
           }
         ]
       },
       {
-        "title": "4. Orações Subordinadas (Substantivas e Adjetivas)",
-        "icon": "🗂️",
-        "color": "amber",
+        "title": "4. Casos Especiais de Concordância Nominal (Anexo, Mesmo, Meio, Bastante, Só)",
+        "icon": "🔑",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Substantivas",
-            "detail": "trocam por ISSO (Subjetiva, Objetiva Direta/Indireta, Completiva Nominal)",
-            "badge": "Síntese IBGP"
+            "label": "Anexo, Incluso, Mesmo, Próprio, Quite e Obrigado (Variáveis!)",
+            "detail": "Concordam em gênero e número com o substantivo/pronome a que se referem: \"As planilhas seguem anexas\" (exceção: \"em anexo\" é invariável); \"Elas mesmas fizeram a vistoria\" (mas \"mesmo\" = até/realmente é invariável); \"Estamos quites\".",
+            "badge": "Anexas / Elas mesmas"
           },
           {
-            "label": "Adjetiva Restritiva (SEM vírgula)",
-            "detail": "restringe a uma parte do conjunto",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Adjetiva Explicativa (COM vírgulas)",
-            "detail": "explica característica de todo o grupo",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Adverbiais",
-            "detail": "exprimem causa, concessão, condição, proporção, finalidade, tempo",
-            "badge": "Síntese IBGP"
+            "label": "Meio vs. Meia, Bastante vs. Bastantes e Só vs. Sós",
+            "detail": "Meio (= um pouco, advérbio) é invariável: \"A porta ficou meio aberta\"; Meia (= metade) varia: \"Tomou meia colher\". Só (= sozinho, adjetivo) varia: \"Eles ficaram sós\"; Só (= somente, advérbio) não varia (\"a sós\" também é invariável).",
+            "badge": "Meio aberta / Sós"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "Na frase 'Devem haver muitas questões de legislação na prova', o verbo auxiliar concorda corretamente com 'muitas questões'.",
-        "right": "FALSO! O verbo 'haver' (= existir) é impessoal (não tem sujeito; 'muitas questões' é objeto direto) e transmite sua impessoalidade ao auxiliar: o correto é 'DEVE haver muitas questões'!"
+        "wrong": "Na frase \"Devem haver muitos criadouros naquele terreno baldio\", o verbo auxiliar concorda corretamente com \"muitos criadouros\".",
+        "right": "FALSO! O verbo \"haver\" no sentido de existir é impessoal (não tem sujeito) e transmite sua impessoalidade ao verbo auxiliar: o correto é \"DEVE HAVER muitos criadouros\" (ou \"Devem existir muitos criadouros\")."
+      },
+      {
+        "wrong": "Em \"Trata-se de medidas urgentes de saúde pública\", o verbo deveria estar no plural (\"Tratam-se\") para concordar com \"medidas urgentes\".",
+        "right": "FALSO! Como \"tratar-se\" rege a preposição \"de\" (VTI), o \"se\" é Índice de Indeterminação do Sujeito e o verbo fica obrigatoriamente na 3ª pessoa do SINGULAR (\"Trata-se de medidas urgentes\")!"
       }
     ]
   },

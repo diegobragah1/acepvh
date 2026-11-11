@@ -33,88 +33,87 @@
     ],
     "branches": [
       {
-        "title": "1. O que É vs. O que NÃO É Proposição Lógica",
+        "title": "1. O que É vs. O que NÃO É Proposição Lógica e Tabela-Verdade (2ⁿ)",
         "icon": "🧠",
         "color": "teal",
         "nodes": [
           {
-            "label": "Definição de Proposição",
-            "detail": "Sentença declarativa com verbo, sentido completo e que pode ser julgada como Verdadeira (V) ou Falsa (F), mas nunca ambos (Terceiro Excluído e Não-Contradição).",
-            "badge": "Declarativa c/ Verbo"
+            "label": "Definição de Proposição e os 3 Princípios Lógicos",
+            "detail": "Sentença declarativa com verbo e sentido completo que admite um único valor lógico (V ou F). Regida pelos princípios da Identidade, Não-Contradição e Terceiro Excluído. Uma tabela-verdade com n proposições simples possui 2ⁿ linhas.",
+            "badge": "2ⁿ Linhas"
           },
           {
-            "label": "5 Casos que NÃO são Proposições",
-            "detail": "1. Interrogativas ('Que horas são?'); 2. Exclamativas ('Que calor!'); 3. Imperativas ('Feche a caixa d'água!'); 4. Sentenças abertas ('x + 3 = 10', 'Ele é ACE'); 5. Paradoxos.",
-            "badge": "P-E-I-S-P"
+            "label": "Os 5 Casos que NÃO são Proposições (P-E-I-S-P)",
+            "detail": "1. Frases interrogativas (\"Quantos focos há?\"); 2. Exclamativas (\"Que perigo!\"); 3. Imperativas/ordens (\"Tampe a caixa d’água!\"); 4. Sentenças abertas com variável livre (\"x + 2 = 7\", \"Ele é agente\"); 5. Paradoxos autorreferentes.",
+            "badge": "Não são Proposições"
           }
         ]
       },
       {
-        "title": "2. Tabela de Ouro dos 5 Conectivos Lógicos",
+        "title": "2. Tabela de Ouro dos 5 Conectivos Lógicos (∧, ∨, ⊻, →, ↔)",
         "icon": "⚡",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Conjunção (E: ^) vs. Disjunção Inclusiva (OU: v)",
-            "detail": "Conjunção (E): exigente -> só é V quando AMBAS são V! Disjunção (OU): flexível -> só é F quando AMBAS são F!",
-            "badge": "E vs. OU"
+            "label": "Conjunção (E: ∧) vs. Disjunção Inclusiva (OU: ∨)",
+            "detail": "Conjunção (P ∧ Q): só é VERDADEIRA quando ambas são V (V ∧ V = V). Disjunção inclusiva (P ∨ Q): só é FALSA quando ambas são F (F ∨ F = F).",
+            "badge": "E (Tudo V) | OU (Basta 1 V)"
           },
           {
-            "label": "Condicional (Se... então: ->)",
-            "detail": "Só é FALSA quando a 1ª é V e a 2ª é F (Vera Fischer: V -> F = F). Se começar com F ou terminar com V, é automaticamente VERDADEIRA!",
-            "badge": "Vera Fischer!"
+            "label": "Condicional (Se P, então Q: → — Regra Vera Fischer)",
+            "detail": "Só é FALSA quando o antecedente é V e o consequente é F (V → F = F). Se o antecedente for F ou o consequente for V, a condicional é sempre VERDADEIRA!",
+            "badge": "V → F = F"
           },
           {
-            "label": "Disjunção Exclusiva (Ou... ou: v_) vs. Bicondicional (<->)",
-            "detail": "Ou... ou: V quando têm valores DIFERENTES. Se e somente se (<->): V quando têm valores IGUAIS!",
-            "badge": "Opostas!"
+            "label": "Disjunção Exclusiva (Ou... ou: ⊻) vs. Bicondicional (Se e somente se: ↔)",
+            "detail": "Disjunção exclusiva (P ⊻ Q): V quando têm valores DIFERENTES. Bicondicional (P ↔ Q): V quando têm valores IGUAIS.",
+            "badge": "⊻ ≠ ↔"
           }
         ]
       },
       {
-        "title": "3. Tautologia, Contradição e Contingência",
-        "icon": "📊",
-        "color": "emerald",
-        "nodes": [
-          {
-            "label": "Como Identificar Cada Uma",
-            "detail": "Tautologia: coluna final 100% V (ex: p v ~p). Contradição: coluna final 100% F (ex: p ^ ~p). Contingência: mistura de V e F na coluna final.",
-            "badge": "Classificação"
-          }
-        ]
-      },
-      {
-        "title": "4. Condição Suficiente vs. Necessária",
-        "icon": "⚖️",
+        "title": "3. Negações (De Morgan e MANÉ) e Equivalências (Contrapositiva e NEYMAR)",
+        "icon": "🔄",
         "color": "amber",
         "nodes": [
           {
-            "label": "Na condicional p → q",
-            "detail": "p é Condição SUFICIENTE para q",
-            "badge": "Síntese IBGP"
+            "label": "Leis de De Morgan (Negação do E e do OU) e Negação da Condicional (MANÉ)",
+            "detail": "~(P ∧ Q) ⇔ ~P ∨ ~Q (nega tudo e troca E por OU). ~(P ∨ Q) ⇔ ~P ∧ ~Q (nega tudo e troca OU por E). Negação de \"Se P, então Q\": ~(P → Q) ⇔ P ∧ ~Q (MAntém a 1ª E NEga a 2ª — jamais use \"Se... então\" na negação!).",
+            "badge": "MANÉ: P ∧ ~Q"
           },
           {
-            "label": "Na condicional p → q",
-            "detail": "q é Condição NECESSÁRIA para p (Mnemônico: SUN)",
-            "badge": "Síntese IBGP"
+            "label": "As 2 Equivalências da Condicional (P → Q)",
+            "detail": "1. Contrapositiva (Inverte e Nega as duas): P → Q ⇔ ~Q → ~P. 2. Regra do NEYMAR (Nega a 1ª OU Mantém a 2ª): P → Q ⇔ ~P ∨ Q.",
+            "badge": "~Q → ~P | ~P ∨ Q"
+          }
+        ]
+      },
+      {
+        "title": "4. Tautologia, Condição Suficiente/Necessária e Quantificadores",
+        "icon": "⚖️",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Tautologia (100% V), Contradição (100% F) e Condição SUN (p → q)",
+            "detail": "Em p → q: o antecedente p é Condição SUFICIENTE para q, e o consequente q é Condição NECESSÁRIA para p (Mnemônico: SUN -> SUficiente vem antes de Necessária!). Em p ↔ q: necessária e suficiente.",
+            "badge": "p (Suficiente) → q (Necessária)"
           },
           {
-            "label": "Na bicondicional p ↔ q",
-            "detail": "p é Condição NECESSÁRIA E SUFICIENTE para q",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #4",
-            "detail": "Tabela-Verdade com n proposições simples possui exatamente 2ⁿ linhas",
-            "badge": "Síntese IBGP"
+            "label": "Negação dos Quantificadores (Todo, Nenhum e Algum)",
+            "detail": "Negação de \"TODO A é B\" = \"ALGUM A não é B\" (Pelo menos um / Existe um A que não é B — nunca negue Todo com Nenhum!). Negação de \"NENHUM A é B\" = \"ALGUM A é B\".",
+            "badge": "~(Todo) = Algum não é"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "A frase 'Tampe imediatamente o reservatório de água!' é uma proposição lógica simples verdadeira.",
-        "right": "FALSO! Frases imperativas (ordens/pedidos) NÃO são proposições lógicas, pois não podem ser classificadas em Verdadeiras ou Falsas."
+        "wrong": "A negação lógica da proposição \"Se chove, então o rio sobe\" é \"Se não chove, então o rio não sobe\".",
+        "right": "FALSO! A condicional NUNCA se nega com outra condicional! Pela regra do MANÉ (~(P → Q) ⇔ P ∧ ~Q), a negação correta é: \"Chove E o rio não sobe\"."
+      },
+      {
+        "wrong": "A negação de \"Todos os depósitos foram vistoriados\" é \"Nenhum depósito foi vistoriado\".",
+        "right": "FALSO! Para quebrar a afirmação universal \"Todos foram vistoriados\", basta que PELO MENOS UM (Algum) depósito não tenha sido vistoriado!"
       }
     ]
   },

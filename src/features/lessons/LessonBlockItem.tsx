@@ -2,49 +2,34 @@ import React, { useMemo } from 'react';
 import type { LessonBlock } from '../../types';
 import { renderMarkdownToHtml } from '../../utils/markdown';
 import { renderMathInHtml } from '../../utils/math';
-import { questionIdentity } from '../../utils/questionIdentity';
 import { processDidacticHtml } from '../../services/lessonService';
-import { QuestionCard } from '../questions/QuestionCard';
-import { FlashcardGrid } from '../flashcards/FlashcardGrid';
 
 interface LessonBlockItemProps {
   lessonId: string;
   block: LessonBlock;
   blockIndex: number;
-  isOpen: boolean;
-  onToggleOpen: () => void;
   currentMode: 'ALL' | 'A' | 'B' | 'C';
-  onChangeMode: (mode: 'ALL' | 'A' | 'B' | 'C') => void;
   clozeMode: boolean;
   revealedClozeIds: Set<string>;
   searchTerm: string;
-  lessonAnswers: Record<string, number>;
-  onSelectAnswer: (qKey: string, optIdx: number) => void;
-  flippedCards: Record<string, boolean>;
-  onToggleFlipCard: (cardKey: string) => void;
+  isCompleted?: boolean;
+  onToggleComplete?: () => void;
 }
 
 export const LessonBlockItem: React.FC<LessonBlockItemProps> = React.memo(({
   lessonId,
   block,
   blockIndex,
-  isOpen,
-  onToggleOpen,
   currentMode,
-  onChangeMode,
   clozeMode,
   revealedClozeIds,
   searchTerm,
-  lessonAnswers,
-  onSelectAnswer,
-  flippedCards,
-  onToggleFlipCard,
+  isCompleted = false,
+  onToggleComplete,
 }) => {
   const showA = currentMode === 'ALL' || currentMode === 'A';
   const showB = currentMode === 'ALL' || currentMode === 'B';
-  const showC = currentMode === 'ALL' || currentMode === 'C';
 
-  // Memoize expensive Markdown + KaTeX rendering per block so it only runs when block content changes
   const baseHtmlA = useMemo(
     () =>
       block.modoA_markdown
@@ -63,7 +48,7 @@ export const LessonBlockItem: React.FC<LessonBlockItemProps> = React.memo(({
 
   const htmlA = useMemo(
     () =>
-      isOpen && showA
+      showA
         ? processDidacticHtml(
             baseHtmlA,
             searchTerm,
@@ -72,12 +57,12 @@ export const LessonBlockItem: React.FC<LessonBlockItemProps> = React.memo(({
             `${lessonId}_b${blockIndex}_A`
           )
         : baseHtmlA,
-    [isOpen, showA, baseHtmlA, searchTerm, clozeMode, revealedClozeIds, lessonId, blockIndex]
+    [showA, baseHtmlA, searchTerm, clozeMode, revealedClozeIds, lessonId, blockIndex]
   );
 
   const htmlB = useMemo(
     () =>
-      isOpen && showB
+      showB
         ? processDidacticHtml(
             baseHtmlB,
             searchTerm,
@@ -86,124 +71,65 @@ export const LessonBlockItem: React.FC<LessonBlockItemProps> = React.memo(({
             `${lessonId}_b${blockIndex}_B`
           )
         : baseHtmlB,
-    [isOpen, showB, baseHtmlB, searchTerm, clozeMode, revealedClozeIds, lessonId, blockIndex]
+    [showB, baseHtmlB, searchTerm, clozeMode, revealedClozeIds, lessonId, blockIndex]
   );
 
-  const questions = block.questions || [];
-  const flashcards = block.flashcards || [];
+  if (!showA && !showB) {
+    return null;
+  }
 
   return (
-    <article
+    <section
       id={`lesson-block-${blockIndex}`}
-      className="scroll-mt-24 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden transition-all"
+      className="apostila-section scroll-mt-20"
     >
-      {/* Block Header */}
-      <div className="bg-slate-900 text-white px-4 py-3 flex flex-wrap items-center justify-between gap-2">
-        <button
-          type="button"
-          onClick={onToggleOpen}
-          className="flex items-center gap-2 text-left font-extrabold text-sm sm:text-base hover:text-teal-300 transition cursor-pointer"
-        >
-          <span className="w-6 h-6 rounded-lg bg-teal-600 text-white text-xs flex items-center justify-center font-black shrink-0">
-            {blockIndex + 1}
-          </span>
-          <span>{block.title}</span>
-          <span className="text-xs text-slate-400 ml-1">{isOpen ? '▼' : '▶'}</span>
-        </button>
-
-        {/* Local Block Mode Switcher */}
-        <div className="flex items-center gap-1 no-print">
-          {(['ALL', 'A', 'B', 'C'] as const).map((m) => (
-            <button
-              key={m}
-              type="button"
-              onClick={() => onChangeMode(m)}
-              className={`px-2 py-1 rounded text-[11px] font-bold transition cursor-pointer ${
-                currentMode === m
-                  ? 'bg-teal-500 text-slate-950'
-                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
-              }`}
-            >
-              {m === 'ALL' ? 'Todos' : `Modo ${m}`}
-            </button>
-          ))}
-        </div>
+      {/* Continuous Section Heading + Topic Completion Toggle */}
+      <div className="apostila-section-title flex flex-wrap items-center justify-between gap-2">
+        <h2 className="text-inherit font-extrabold m-0">
+          {blockIndex + 1}. {block.title}
+        </h2>
+        {onToggleComplete && (
+          <button
+            type="button"
+            onClick={onToggleComplete}
+            aria-pressed={isCompleted}
+            className={`px-2.5 py-1 rounded-lg text-[11px] font-extrabold border transition flex items-center gap-1 shrink-0 cursor-pointer no-print ${
+              isCompleted
+                ? 'bg-emerald-600 text-white border-emerald-600 shadow-2xs'
+                : 'bg-white hover:bg-teal-50 text-slate-700 hover:text-teal-800 border-slate-300'
+            }`}
+          >
+            <span>{isCompleted ? '✅ Tópico Concluído' : '⬜ Concluir Tópico'}</span>
+          </button>
+        )}
       </div>
 
-      {/* Block Body */}
-      {isOpen && (
-        <div className="p-4 sm:p-6 space-y-6">
-          {/* MODO A: Texto Base Didático */}
-          {showA && htmlA && (
-            <section className="space-y-2">
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-teal-50 border border-teal-200 text-teal-900 text-xs font-extrabold">
-                📖 Modo A — Estudo Teórico Aprofundado
-              </div>
-              <div
-                className="prose-content text-slate-800 text-xs sm:text-sm leading-relaxed space-y-2"
-                dangerouslySetInnerHTML={{ __html: htmlA }}
-              />
-            </section>
-          )}
+      {/* Texto Integral Contínuo (Modo A) */}
+      {showA && htmlA && (
+        <div
+          className="prose-content text-slate-800 leading-[1.7]"
+          dangerouslySetInnerHTML={{ __html: htmlA }}
+        />
+      )}
 
-          {/* MODO B: Resumo Rápido, Tabelas e Pegadinhas */}
-          {showB && htmlB && (
-            <section className="space-y-2 pt-3 border-t border-slate-200/80">
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-900 text-xs font-extrabold">
-                ⚡ Modo B — Síntese, Quadros Comparativos & Pegadinhas IBGP
-              </div>
-              <div
-                className="prose-content text-slate-800 text-xs sm:text-sm leading-relaxed space-y-2"
-                dangerouslySetInnerHTML={{ __html: htmlB }}
-              />
-            </section>
-          )}
-
-          {/* MODO C: Fixação Imediata (Questões + Flashcards do Bloco) */}
-          {showC && (
-            <section className="space-y-5 pt-3 border-t border-slate-200/80">
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-200 text-amber-900 text-xs font-extrabold">
-                ✍️ Modo C — Fixação Prática ({questions.length} Questões e {flashcards.length} Flashcards)
-              </div>
-
-              {/* Block Questions */}
-              {questions.length > 0 && (
-                <div className="space-y-3">
-                  {questions.map((q, qIdx) => {
-                    const qKey = questionIdentity(`${lessonId}_b${blockIndex}_q${qIdx}`, q);
-                    return (
-                      <QuestionCard
-                        key={qKey}
-                        question={q}
-                        index={qIdx}
-                        selectedOption={lessonAnswers[qKey]}
-                        onSelectOption={(optIdx) => onSelectAnswer(qKey, optIdx)}
-                        compact
-                      />
-                    );
-                  })}
-                </div>
-              )}
-
-              {/* Block Flashcards */}
-              {flashcards.length > 0 && (
-                <div className="space-y-2.5">
-                  <h4 className="text-xs font-extrabold uppercase tracking-wider text-slate-600">
-                    🃏 Flashcards de Memorização Ativa (Clique no cartão para virar)
-                  </h4>
-                  <FlashcardGrid
-                    flashcards={flashcards}
-                    flippedCards={flippedCards}
-                    onToggleFlip={onToggleFlipCard}
-                    keyPrefix={`${lessonId}_b${blockIndex}_fc`}
-                    columnsClass="grid-cols-1 sm:grid-cols-2"
-                  />
-                </div>
-              )}
-            </section>
-          )}
+      {/* Pontos Importantes — Para Memorizar & Atenção na Prova (Modo B) */}
+      {showB && htmlB && (
+        <div className="mt-3 rounded-xl bg-amber-50/60 border border-amber-200/90 p-3 sm:p-3.5 space-y-1.5">
+          <div className="flex flex-wrap items-center justify-between gap-1.5 border-b border-amber-200/70 pb-1">
+            <span className="text-xs font-extrabold uppercase tracking-wider text-[#123b59]">
+              📌 Pontos Importantes — Para Memorizar &amp; Atenção na Prova
+            </span>
+            <span className="text-[11px] font-medium text-amber-900">
+              Síntese Direta, Quadros Comparativos e Pegadinhas
+            </span>
+          </div>
+          <div
+            className="prose-content text-slate-800 leading-[1.7]"
+            dangerouslySetInnerHTML={{ __html: htmlB }}
+          />
         </div>
       )}
-    </article>
+    </section>
   );
 });
+

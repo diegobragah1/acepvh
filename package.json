@@ -13,6 +13,7 @@
     "audit:curriculum": "node --import tsx scripts/audit_curriculum.ts --write",
     "audit:rlm": "node --import tsx scripts/review_rlm_answers.ts",
     "content:export": "node --import tsx scripts/export_deepening.ts",
+    "lint": "tsc --noEmit",
     "check": "npm test && npm run audit:content && tsc --noEmit"
   },
   "dependencies": {

@@ -26,19 +26,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "Fevereiro de 1922",
-        "label": "Semana de Arte Moderna no Teatro Municipal de São Paulo (Marco do Modernismo Brasileiro)"
+        "label": "Semana de Arte Moderna no Teatro Municipal de São Paulo (Marco do Modernismo Brasileiro)",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "1967–1968 (Tropicália)",
-        "label": "Movimento Tropicalista (Caetano Veloso, Gilberto Gil, Gal Costa, Hélio Oiticica)"
+        "label": "Movimento Tropicalista (Caetano Veloso, Gilberto Gil, Gal Costa, Hélio Oiticica)",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "Três Caixas d’Água (1910–1912)",
-        "label": "Monumento histórico e cultural de Porto Velho (\"Três Marias\") erguido na época da EFMM"
+        "label": "Monumento histórico e cultural de Porto Velho (\"Três Marias\") erguido na época da EFMM",
+        "ref": "Ref. Aula 30"
       },
       {
         "value": "Flor do Maracujá e Divino",
-        "label": "Maiores manifestações folclóricas e culturais de Porto Velho e do Vale do Guaporé"
+        "label": "Maiores manifestações folclóricas e culturais de Porto Velho e do Vale do Guaporé",
+        "ref": "Ref. Aula 30"
       }
     ],
     "branches": [
@@ -104,6 +108,17 @@
             "badge": "Movimentos Sociais"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Movimentos Artísticos e Vanguardas Mundiais, Arte e Cultura no Brasil (Barroco, Semana de Arte Moderna de 1922, Concretismo, Tropicália), Patrimônio de Porto Velho/RO e Movimentos Sociais",
+    "goldenTraps": [
+      {
+        "wrong": "O Forte Príncipe da Beira, tombado pelo IPHAN em Rondônia, localiza-se no centro urbano de Porto Velho às margens do Rio Jamari.",
+        "right": "FALSO! O Real Forte Príncipe da Beira (construído a partir de 1776 no ciclo pombalino) localiza-se no município de COSTA MARQUES/RO, na margem direita do Rio Guaporé (fronteira com a Bolívia)!"
+      },
+      {
+        "wrong": "As Três Caixas d’Água de Porto Velho (As Três Marias) foram construídas na década de 1980 após a criação do Estado de Rondônia.",
+        "right": "FALSO! Foram erguidas entre 1910 e 1912 pela Chicago Bridge & Iron Works durante a construção da Estrada de Ferro Madeira-Mamoré (EFMM), sendo o símbolo histórico e cultural máximo de Porto Velho."
       }
     ]
   },

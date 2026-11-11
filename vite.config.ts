@@ -33,7 +33,7 @@ export default defineConfig(({ command }) => ({
   base: command === 'build' ? './' : '/',
   optimizeDeps: {
     entries: ['src/main.tsx'],
-    include: ['react', 'react-dom', 'react-dom/client', 'lucide-react'],
+    include: ['react', 'react-dom', 'react-dom/client', 'lucide-react', 'katex'],
   },
   server: {
     port: 3000,
@@ -41,11 +41,13 @@ export default defineConfig(({ command }) => ({
     hmr: process.env.DISABLE_HMR !== 'true',
     watch: {
       ignored: [
+        '**/node_modules/**',
         '**/dist/**',
         '**/assets/**',
         '**/data/**',
-        '**/public/data/**',
+        '**/public/**',
         '**/content/**',
+        '**/docs/**',
         '**/scripts/**',
         '**/sources/**',
         '**/.playwright-cli/**',

@@ -29,19 +29,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "3 Princípios Doutrinários",
-        "label": "Universalidade, Integralidade e Equidade (Base ética do SUS)"
+        "label": "Universalidade, Integralidade e Equidade (Base ética do SUS)",
+        "ref": "Ref. Aula 2"
       },
       {
         "value": "Art. 6º Lei 8.080/90",
-        "label": "Atribuições do SUS: Vigilância Epidemiológica, Sanitária, Saúde do Trabalhador e Assistência Terapêutica Integral"
+        "label": "Atribuições do SUS: Vigilância Epidemiológica, Sanitária, Saúde do Trabalhador e Assistência Terapêutica Integral",
+        "ref": "Ref. Aula 2"
       },
       {
         "value": "Arts. 15, 16, 17 e 18",
-        "label": "Competências Comuns (15), União (16), Estados (17) e Municípios (18)"
+        "label": "Competências Comuns (15), União (16), Estados (17) e Municípios (18)",
+        "ref": "Ref. Aula 2"
       },
       {
         "value": "5 Níveis de Prevenção",
-        "label": "Leavell & Clark: 1º Promoção da Saúde e 2º Proteção Específica = Prevenção Primária"
+        "label": "Leavell & Clark: 1º Promoção da Saúde e 2º Proteção Específica = Prevenção Primária",
+        "ref": "Ref. Aula 2"
       }
     ],
     "branches": [
@@ -144,6 +148,17 @@
             "badge": "Prevenção Primária"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Princípios Doutrinários (U-I-E), Diretrizes Organizativas (Art. 7º da Lei 8.080/90), Atribuições Comuns (Art. 15), Competências das 3 Esferas (Arts. 16 a 18) e Promoção e Proteção da Saúde",
+    "goldenTraps": [
+      {
+        "wrong": "A Equidade está expressa literalmente no rol dos 14 incisos do Art. 7º da Lei Federal nº 8.080/1990.",
+        "right": "CUIDADO! Na letra fria do Art. 7º, IV da Lei 8.080/90, a palavra escrita é \"IGUALDADE da assistência à saúde, sem preconceitos ou privilégios\". A Equidade é princípio doutrinário do SUS (tratar desigualmente os desiguais)."
+      },
+      {
+        "wrong": "Cabe exclusivamente à União executar diretamente todas as ações de vigilância epidemiológica e sanitária nos bairros de cada Município.",
+        "right": "FALSO! Pela diretriz da descentralização com direção única em cada esfera (Art. 18, IV da Lei 8.080/90), compete à direção MUNICIPAL do SUS executar os serviços de vigilância epidemiológica, vigilância sanitária e controle de zoonoses."
       }
     ]
   },

@@ -32,35 +32,39 @@
     "deadlinesAndNumbers": [
       {
         "value": "Arts. 1º a 4º (Título I)",
-        "label": "Fundamentos (SO-CI-DI-VA-PLU), Objetivos (CON-GA-ERRA-PRO) e Princípios das Relações Internacionais"
+        "label": "Fundamentos (SO-CI-DI-VA-PLU), Objetivos (CON-GA-ERRA-PRO) e Princípios das Relações Internacionais",
+        "ref": "Ref. Aula 13"
       },
       {
         "value": "Arts. 5º a 13 (Título II)",
-        "label": "Direitos Individuais e Coletivos (Art. 5º), Direitos Sociais (Arts. 6º–11) e Nacionalidade/Símbolos (Arts. 12–13)"
+        "label": "Direitos Individuais e Coletivos (Art. 5º), Direitos Sociais (Arts. 6º–11) e Nacionalidade/Símbolos (Arts. 12–13)",
+        "ref": "Ref. Aula 13"
       },
       {
         "value": "Arts. 29, 29-A, 30 e 31",
-        "label": "Municípios: Lei Orgânica (2 turnos, intervalo 10 dias, 2/3), Vereadores (9 a 55), Competências e Fiscalização (2/3 p/ afastar parecer TCE)"
+        "label": "Municípios: Lei Orgânica (2 turnos, intervalo 10 dias, 2/3), Vereadores (9 a 55), Competências e Fiscalização (2/3 p/ afastar parecer TCE)",
+        "ref": "Ref. Aula 13"
       },
       {
         "value": "Arts. 37, 38 e 39",
-        "label": "Princípios LIMPE, Concurso (até 2+2 anos), Acumulação remunerada (Art. 37, XVI \"c\": 2 de saúde / ACE), Mandato Eletivo (Art. 38) e Regime (Art. 39)"
+        "label": "Princípios LIMPE, Concurso (até 2+2 anos), Acumulação remunerada (Art. 37, XVI \"c\": 2 de saúde / ACE), Mandato Eletivo (Art. 38) e Regime (Art. 39)",
+        "ref": "Ref. Aula 13"
       }
     ],
     "branches": [
       {
-        "title": "1. Princípios Fundamentais (Arts. 1º–4º)",
+        "title": "1. Princípios Fundamentais da República (Arts. 1º–4º)",
         "icon": "🇧🇷",
         "color": "teal",
         "nodes": [
           {
             "label": "Art. 1º (SO-CI-DI-VA-PLU) e Soberania Popular",
-            "detail": "Todo o poder emana do povo (sufrágio universal, voto direto e secreto, plebiscito, referendo e iniciativa popular).",
+            "detail": "Fundamentos: Soberania, Cidadania, Dignidade da pessoa humana, Valores sociais do trabalho e da livre iniciativa e Pluralismo político. Todo o poder emana do povo (sufrágio universal, plebiscito, referendo e iniciativa popular).",
             "badge": "Art. 1º"
           },
           {
-            "label": "Art. 3º (Objetivos) vs. Art. 4º (Relações Internacionais)",
-            "detail": "Objetivos começam com verbo no infinitivo (CON-GA-ERRA-PRO). Internacional: autodeterminação, não-intervenção, solução pacífica, concessão de asilo político.",
+            "label": "Art. 3º (Objetivos — CON-GA-ERRA-PRO) vs. Art. 4º (Relações Internacionais)",
+            "detail": "Objetivos começam com verbo no infinitivo: Construir, Garantir, Erradicar, Promover. Internacional: autodeterminação, não-intervenção, solução pacífica, concessão de asilo político e integração latino-americana (parágrafo único).",
             "badge": "Arts. 3º e 4º"
           }
         ]
@@ -71,89 +75,66 @@
         "color": "indigo",
         "nodes": [
           {
-            "label": "Inviolabilidade Domiciliar (Inciso XI)",
-            "detail": "Sem consentimento do morador: a qualquer hora em flagrante delito, desastre ou para prestar socorro; ou, SOMENTE DURANTE O DIA, por determinação judicial!",
-            "badge": "Essencial p/ ACE"
+            "label": "Inviolabilidade Domiciliar (Inciso XI — Foco ACE)",
+            "detail": "A casa é asilo inviolável. Sem consentimento do morador, só se entra: a qualquer hora (dia ou noite) em flagrante delito, desastre ou para prestar socorro; ou, SOMENTE DURANTE O DIA, por determinação judicial!",
+            "badge": "Art. 5º, XI"
           },
           {
             "label": "Crimes RA-ÇÃO vs. 3TH (Incisos XLII a XLIV)",
-            "detail": "RA-ÇÃO (Racismo e Ação de grupos armados): inafiançáveis e IMPRESCRITÍVEIS. 3TH (Tortura, Tráfico, Terrorismo e Hediondos): inafiançáveis e sem graça/anistia (mas prescrevem!).",
+            "detail": "RA-ÇÃO (Racismo e Ação de grupos armados contra a ordem constitucional): inafiançáveis e IMPRESCRITÍVEIS. 3TH (Tortura, Tráfico, Terrorismo e Hediondos): inafiançáveis e insuscetíveis de graça ou anistia.",
             "badge": "RA-ÇÃO ≠ 3TH"
           },
           {
-            "label": "6 Remédios Constitucionais",
-            "detail": "HC (locomoção, gratuito), HD (dados pessoais, gratuito), MS Individual e Coletivo (direito líquido e certo), MI (falta de norma) e Ação Popular (qualquer cidadão/eleitor).",
-            "badge": "Remédios"
+            "label": "Remédios Constitucionais (HC, HD, MS, MI e Ação Popular)",
+            "detail": "HC (liberdade de locomoção, gratuito), HD (dados pessoais e retificação, gratuito), MS Individual e Coletivo (direito líquido e certo não amparado por HC/HD), MI (falta de norma regulamentadora) e Ação Popular (qualquer cidadão/eleitor contra ato lesivo).",
+            "badge": "5 Remédios"
           }
         ]
       },
       {
-        "title": "3. Direitos Sociais e Sindicais (Arts. 6º–11)",
+        "title": "3. Direitos Sociais (Arts. 6º–11), Nacionalidade e Símbolos (Arts. 12–13)",
         "icon": "👷",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Direitos Sociais (Art. 6º) e Trabalhistas (Art. 7º)",
-            "detail": "Inclui alimentação (EC 64/10), moradia (EC 26/00) e transporte (EC 90/15). Hora extra mín. +50%; licença-gestante 120 dias na CF (180 dias na LC 385 de PVH!).",
-            "badge": "Arts. 6º e 7º"
+            "label": "Direitos Sociais (Art. 6º), Trabalhistas (Art. 7º) e Sindicais (Art. 8º)",
+            "detail": "Art. 6º inclui moradia (EC 26/00), alimentação (EC 64/10) e transporte (EC 90/15), além da renda básica familiar (parágrafo único, EC 114/21). Art. 8º: unicidade sindical (mínimo 1 município) e estabilidade do dirigente sindical até 1 ano após o mandato.",
+            "badge": "Arts. 6º a 11"
           },
           {
-            "label": "Unicidade e Estabilidade Sindical (Art. 8º)",
-            "detail": "1 sindicato por categoria na mesma base territorial (mín. 1 município). Estabilidade: do registro da candidatura até 1 ano após o fim do mandato (inclusive suplente).",
-            "badge": "Art. 8º"
+            "label": "Cargos Privativos de Brasileiro NATO (MP3.COM — Art. 12, § 3º) e Símbolos (Art. 13)",
+            "detail": "Natos: Presidente e Vice da República, Presidente da Câmara, Presidente do Senado, Ministros do STF, Carreira Diplomática, Oficial das Forças Armadas e Ministro de Estado da Defesa. Símbolos da República: Bandeira, Hino, Armas e Selo.",
+            "badge": "Arts. 12 e 13"
           }
         ]
       },
       {
-        "title": "4. Nacionalidade e Direitos Políticos (Arts. 12–17)",
-        "icon": "🗳️",
+        "title": "4. Municípios (Arts. 29, 29-A, 30 e 31) e Administração Pública (Arts. 37–39)",
+        "icon": "🏛️",
         "color": "amber",
         "nodes": [
           {
-            "label": "Cargos Privativos de Brasileiro NATO (MP3.COM)",
-            "detail": "Ministro do STF; Presidentes da República/Vice, da Câmara e do Senado; Carreira Diplomática; Oficial das Forças Armadas; Ministro da Defesa.",
-            "badge": "Art. 12, § 3º"
+            "label": "Municípios na CF/88 (Arts. 29 a 31)",
+            "detail": "Lei Orgânica votada em 2 turnos (interstício mín. 10 dias, aprovada por 2/3). Competência local e suplementar (Art. 30). Fiscalização pela Câmara com auxílio do TCE (parecer prévio sobre contas do Prefeito só cai por 2/3 dos Vereadores — Art. 31, § 2º).",
+            "badge": "Arts. 29 a 31"
           },
           {
-            "label": "Idades Mínimas de Elegibilidade (35-30-21-18)",
-            "detail": "35 anos: Presidente, Vice e Senador; 30 anos: Governador e Vice; 21 anos: Prefeito, Deputados e Juiz de Paz; 18 anos: Vereador.",
-            "badge": "Art. 14, § 3º"
+            "label": "Princípios LIMPE, Concurso, Acumulação de Saúde e Mandato (Arts. 37 a 39)",
+            "detail": "Concurso válido por até 2 anos, prorrogável uma vez por igual período. Acumulação remunerada lícita (havendo compatibilidade de horários): 2 de professor; 1 de professor + 1 técnico/científico; ou 2 de profissionais de saúde (inclui ACE pela Lei 14.536/2023!).",
+            "badge": "Arts. 37 a 39"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Título I — Princípios Fundamentais (Arts. 1º–4º), Título II — Direitos e Garantias Fundamentais (Arts. 5º–13), Organização dos Municípios (Arts. 29, 29-A, 30 e 31) e Administração Pública (Arts. 37, 38 e 39)",
+    "goldenTraps": [
+      {
+        "wrong": "O Agente de Combate às Endemias pode entrar à força na residência do morador durante o dia sem ordem judicial apenas invocando o interesse sanitário.",
+        "right": "FALSO! Pelo Art. 5º, XI da CF/88, sem consentimento do morador só se entra em caso de flagrante delito, desastre ou para prestar socorro, ou, durante o dia, por determinação judicial (ou autorização legal/judicial específica em imóveis abandonados nos termos da Lei 13.301/2016)."
       },
       {
-        "title": "1. Municípios na CF/88 (Arts. 29–31)",
-        "icon": "🏙️",
-        "color": "teal",
-        "nodes": [
-          {
-            "label": "Regras do Art. 29",
-            "detail": "LOM em 2 turnos (interstício mín. 10 dias, 2/3 da Câmara). 2º turno em municípios com > 200 mil eleitores. Prefeito julgado pelo Tribunal de Justiça (TJ).",
-            "badge": "Art. 29"
-          },
-          {
-            "label": "Controle Externo (Art. 31)",
-            "detail": "Exercido pela Câmara Municipal com auxílio do Tribunal de Contas (parecer prévio sobre contas do Prefeito só cai por 2/3 dos Vereadores).",
-            "badge": "Art. 31, § 2º"
-          }
-        ]
-      },
-      {
-        "title": "2. Administração Pública e Servidores (Arts. 37–41)",
-        "icon": "🏛️",
-        "color": "indigo",
-        "nodes": [
-          {
-            "label": "LIMPE, Concurso e Acumulação (Art. 37)",
-            "detail": "Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência. Acumulação lícita (havendo compatibilidade de horários): 2 de professor; 1 de professor + 1 técnico/científico; ou 2 de profissionais de saúde (inclui ACE!).",
-            "badge": "Art. 37, XVI"
-          },
-          {
-            "label": "Responsabilidade Objetiva (§ 6º) e Estabilidade (Art. 41)",
-            "detail": "Estado responde objetivamente; agente responde regressivamente por dolo ou culpa. Estabilidade: 3 anos de efetivo exercício em cargo efetivo + avaliação especial.",
-            "badge": "3 Anos = Estável"
-          }
-        ]
+        "wrong": "Funções de confiança e cargos em comissão são de livre nomeação para qualquer pessoa estranha aos quadros do serviço público.",
+        "right": "FALSO! Pelo Art. 37, V da CF/88, as FUNÇÕES DE CONFIANÇA são exercidas EXCLUSIVAMENTE por servidores ocupantes de cargo efetivo, enquanto os cargos em comissão são preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei."
       }
     ]
   },

@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Sujeito e Predicado",
-            "detail": "Simples, composto, oculto, indeterminado e oração sem sujeito"
+            "detail": "Simples, composto, oculto, indeterminado e oração sem sujeito",
+            "badge": "Foco #1"
           },
           {
             "label": "OD, OI e CN vs. AA",
-            "detail": "Complemento Nominal (paciente) vs. Adjunto Adnominal (agente)"
+            "detail": "Complemento Nominal (paciente) vs. Adjunto Adnominal (agente)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Adjunto Adverbial, Aposto e Vocativo",
-            "detail": "Circunstâncias, explicação e chamamento"
+            "detail": "Circunstâncias, explicação e chamamento",
+            "badge": "Foco #1"
           },
           {
             "label": "Funções do SE e do QUE",
-            "detail": "PA vs. IIS; Pronome relativo vs. Conjunção integrante"
+            "detail": "PA vs. IIS; Pronome relativo vs. Conjunção integrante",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,7 +50,8 @@
         "nodes": [
           {
             "label": "Assindéticas e 5 Sindéticas",
-            "detail": "Aditiva, Adversativa, Alternativa, Conclusiva e Explicativa"
+            "detail": "Aditiva, Adversativa, Alternativa, Conclusiva e Explicativa",
+            "badge": "Foco #1"
           }
         ]
       },
@@ -57,13 +62,48 @@
         "nodes": [
           {
             "label": "Substantivas (6) e Adjetivas (2)",
-            "detail": "Introduzidas por conjunção integrante; Restritiva vs. Explicativa"
+            "detail": "Introduzidas por conjunção integrante; Restritiva vs. Explicativa",
+            "badge": "Foco #1"
           },
           {
             "label": "9 Orações Adverbiais",
-            "detail": "Causal, Concessiva, Condicional, Conformativa, Consecutiva, Comparativa, Final, Proporcional, Temporal"
+            "detail": "Causal, Concessiva, Condicional, Conformativa, Consecutiva, Comparativa, Final, Proporcional, Temporal",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Adjunto Adnominal (Agente/Posse, concreto ou abstrato) ≠ Complemento Nominal (Paciente/Alvo, sempre com preposição e nunca com substantivo concreto!) • Subordinadas Substantivas (= ISSO) • Adjetivas (= QUE relativo: Sem vírgula Restritiva / Com vírgula Explicativa)",
+    "deadlinesAndNumbers": [
+      {
+        "value": "AA vs. CN (Subst. Abstrato)",
+        "label": "Com substantivo abstrato + \"de\": se pratica a ação = Adjunto Adnominal (\"resposta do aluno\"); se sofre a ação = Complemento Nominal (\"leitura do edital\")",
+        "ref": "Termos da Oração"
+      },
+      {
+        "value": "6 Subord. Substantivas",
+        "label": "Trocam por ISSO: Subjetiva, Objetiva Direta, Objetiva Indireta, Completiva Nominal, Predicativa e Apositiva (após dois-pontos)",
+        "ref": "Conjunção Integrante"
+      },
+      {
+        "value": "Restritiva vs. Explicativa",
+        "label": "Adjetiva Restritiva (sem vírgulas) limita a um subgrupo; Adjetiva Explicativa (entre vírgulas) generaliza para todo o conjunto",
+        "ref": "Mudança de Sentido"
+      },
+      {
+        "value": "9 Subord. Adverbiais",
+        "label": "6 C + F-P-T: Causal, Consecutiva, Condicional, Concessiva, Comparativa, Conformativa + Final, Proporcional e Temporal",
+        "ref": "Período Composto"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "As frases \"Os moradores que limparam os quintais evitaram a dengue\" e \"Os moradores, que limparam os quintais, evitaram a dengue\" possuem exatamente o mesmo sentido.",
+        "right": "FALSO! Sem vírgulas (Adjetiva Restritiva) significa que APENAS os moradores que limparam evitaram a dengue; com vírgulas (Adjetiva Explicativa) significa que TODOS os moradores limparam e todos evitaram!"
+      },
+      {
+        "wrong": "Na expressão \"a vistoria dos imóveis pelo agente\", ambos os termos preposicionados exercem a função de adjunto adnominal.",
+        "right": "FALSO! Como \"imóveis\" sofre a ação de ser vistoriado (paciente), \"dos imóveis\" é COMPLEMENTO NOMINAL; já \"pelo agente\" pratica a ação."
       }
     ]
   },

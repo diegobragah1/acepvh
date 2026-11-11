@@ -56,70 +56,65 @@
         "color": "teal",
         "nodes": [
           {
-            "label": "Estrutura da Carreira",
-            "detail": "Ingresso sempre na Classe e Referência iniciais mediante concurso público de provas ou provas e títulos.",
-            "badge": "Classe/Ref. Inicial"
+            "label": "Estrutura da Carreira e Ingresso",
+            "detail": "Ingresso sempre na Classe e Referência iniciais mediante concurso público de provas ou de provas e títulos. Desenvolvimento funcional por Progressão Horizontal (tempo/avaliação) e Vertical/Titulação.",
+            "badge": "LC 390/2010"
           },
           {
-            "label": "Progressão Horizontal vs. Vertical",
-            "detail": "Horizontal: avanço de Referência numérica na mesma Classe (avaliação de desempenho + interstício). Vertical: mudança de Classe por nova qualificação/titulação.",
-            "badge": "Desenvolvimento"
+            "label": "Grupos Ocupacionais da Saúde Municipal",
+            "detail": "Organiza os cargos de nível fundamental, médio/técnico e superior da Rede Pública Municipal de Saúde de Porto Velho (SEMUSA), definindo jornadas, tabelas de vencimento e adicionais.",
+            "badge": "Rede SEMUSA"
           }
         ]
       },
       {
-        "title": "2. LC nº 391/2010 (Quadro Específico de ACS e ACE)",
+        "title": "2. LC nº 391/2010 (Quadro Específico de ACS e ACE em Porto Velho)",
         "icon": "🦟",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Vínculo Estatutário Efetivo",
-            "detail": "Vinculação direta à Secretaria Municipal de Saúde (SEMUSA), submetidos subsidiariamente ao Estatuto dos Servidores (LC 385/2010).",
-            "badge": "Regime Estatutário"
+            "label": "Regime Estatutário Efetivo e Jornada de 40 Horas",
+            "detail": "Regulamenta os cargos efetivos de Agente Comunitário de Saúde (ACS) e Agente de Combate às Endemias (ACE) no âmbito da SEMUSA, submetidos ao RJU (LC 385/2010) e à jornada integral de 40h semanais.",
+            "badge": "LC 391/2010"
           },
           {
-            "label": "Atribuições Municipais do ACE",
-            "detail": "Vistoria de domicílios e pontos estratégicos, pesquisa larvária, aplicação de inseticidas/larvicidas, bloqueio de transmissão e educação sanitária.",
+            "label": "Atribuições Municipais do ACE na SEMUSA",
+            "detail": "Vistoria de domicílios, depósitos, terrenos baldios e pontos estratégicos; pesquisa larvária; aplicação de larvicidas e inseticidas; bloqueio de transmissão; atualização geográfica e educação em saúde.",
             "badge": "Campo SEMUSA"
           }
         ]
       },
       {
-        "title": "3. LCs nº 447/2012, 449/2012 e 1.018/2025 (Atualizações)",
+        "title": "3. LCs nº 447/2012, 449/2012 e 1.018/2025 (Atualizações da Carreira)",
         "icon": "📈",
         "color": "amber",
         "nodes": [
           {
-            "label": "Modernização de Tabelas e Gratificações",
-            "detail": "Ajustes de vencimentos, incentivo de campo, gratificação de localidade/interiorização (distritos urbanos, rurais e ribeirinhos) e adicional de insalubridade.",
+            "label": "Modernização de Tabelas, Piso e Gratificações",
+            "detail": "Reestruturação das tabelas vencimentais, alinhamento ao piso constitucional nacional dos Agentes (EC 120/2022 = 2 salários mínimos), incentivo de campo e adicional de insalubridade.",
             "badge": "LC 1.018/2025"
+          },
+          {
+            "label": "Gratificação de Localidade / Interiorização",
+            "detail": "Valorização do exercício profissional nos distritos rurais e ribeirinhos de Porto Velho (Eixo BR-364 e Baixo/Médio Madeira).",
+            "badge": "Distritos PVH"
           }
         ]
       },
       {
-        "title": "4. Progressão, Gratificações e Enquadramento",
-        "icon": "📈",
+        "title": "4. Desenvolvimento Funcional, Progressão e Vantagens",
+        "icon": "🏆",
         "color": "violet",
         "nodes": [
           {
-            "label": "Ponto-Chave #1",
-            "detail": "Desenvolvimento na carreira por Progressão Funcional (avaliação e tempo)",
-            "badge": "Síntese IBGP"
+            "label": "Progressão Funcional por Mérito e Qualificação",
+            "detail": "Evolução nas referências e classes condicionada à aprovação no estágio probatório, avaliação periódica de desempenho favorável e cumprimento do interstício legal.",
+            "badge": "Progressão"
           },
           {
-            "label": "Ponto-Chave #2",
-            "detail": "Gratificação de incentivo por titulação / qualificação em saúde",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #3",
-            "detail": "Piso Nacional ACE (EC 120/2022 = 2 salários mínimos) + Insalubridade",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #4",
-            "detail": "Jornada de 40h semanais dedicadas às ações de campo e vigilância",
-            "badge": "Síntese IBGP"
+            "label": "Incentivo por Titulação e Capacitação Continuada",
+            "detail": "Adicional/incentivo concedido pela conclusão de cursos de aperfeiçoamento, formação técnica em vigilância em saúde, graduação e pós-graduação correlatos à área de atuação.",
+            "badge": "Qualificação"
           }
         ]
       }

@@ -26,89 +26,99 @@
     "deadlinesAndNumbers": [
       {
         "value": "34.091 km² (Porto Velho)",
-        "label": "Maior capital do Brasil em área territorial (divide-se em Sede Urbana + Distritos do Alto e Baixo Madeira)"
+        "label": "Maior capital do Brasil em área territorial (divide-se em Sede Urbana + Distritos do Alto e Baixo Madeira)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "02/10/1914 (Lei nº 757)",
-        "label": "Data de criação do Município de Porto Velho (instalado em 24/01/1915, tendo Fernando Guapindaia como 1º intendente)"
+        "label": "Data de criação do Município de Porto Velho (instalado em 24/01/1915, tendo Fernando Guapindaia como 1º intendente)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "13/09/1943 e 22/12/1981",
-        "label": "Criação do Território Federal do Guaporé (Dec.-Lei 5.812/43) e elevação a Estado de Rondônia (LC 41/81)"
+        "label": "Criação do Território Federal do Guaporé (Dec.-Lei 5.812/43) e elevação a Estado de Rondônia (LC 41/81)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "460.434 hab. (Censo 2022)",
-        "label": "População de Porto Velho no Censo IBGE 2022 (estimativa 2024/2025 acima de 514 mil habitantes)"
+        "label": "População de Porto Velho no Censo IBGE 2022 (estimativa 2024/2025 acima de 514 mil habitantes)",
+        "ref": "Ref. Aula 29"
       }
     ],
     "branches": [
       {
-        "title": "1. Território, Limites e Demografia de Porto Velho (IBGE)",
+        "title": "1. Território, Limites e Demografia Oficial de Porto Velho (IBGE 2022)",
         "icon": "🗺️",
         "color": "teal",
         "nodes": [
           {
             "label": "Superlativos Geográficos de Porto Velho",
-            "detail": "Maior capital brasileira em área (~34.091 km², maior que estados como Alagoas e Sergipe!) e única capital do Brasil que faz fronteira internacional direta (com a Bolívia, no distrito de Abunã/Fortaleza do Abunã).",
-            "badge": "Fronteira c/ Bolívia"
+            "detail": "Maior capital brasileira em extensão territorial (~34.091 km²), única capital brasileira que faz fronteira internacional (com a Bolívia/Pando, a oeste) e divisa interestadual com Amazonas (norte) e Acre (oeste/noroeste).",
+            "badge": "34.091 km² | Fronteira Bolívia"
           },
           {
-            "label": "Limites Municipais",
-            "detail": "Norte: Humaitá e Canutama (AM); Leste: Machadinho d'Oeste, Cujubim, Itapuã do Oeste e Candeias do Jamari; Sul: Buritis e Nova Mamoré; Oeste: Acrelândia (AC), Lábrea (AM) e Bolívia.",
-            "badge": "Divisas com AM e AC"
+            "label": "Demografia Oficial (Censo IBGE 2022 vs. Estimativas)",
+            "detail": "Censo 2022: 460.434 habitantes em Porto Velho (estimativa 2024/2025 ~514 mil) e 1.581.196 habitantes no Estado de Rondônia (52 municípios).",
+            "badge": "460.434 hab. (Censo 2022)"
           }
         ]
       },
       {
-        "title": "2. Os Distritos de Porto Velho (Eixo BR-364 / Alto Madeira vs. Baixo Madeira)",
+        "title": "2. Os Distritos de Porto Velho (Eixo BR-364 vs. Baixo e Médio Madeira)",
         "icon": "🚤",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Distritos do Eixo BR-364 / Alto Madeira / Ponta do Abunã",
-            "detail": "Jaci-Paraná, Mutum-Paraná, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema e Nova Califórnia (na divisa com o Acre).",
-            "badge": "Eixo Rodoviário"
+            "label": "Eixo Rodoviário BR-364 / Alto Madeira e União Bandeirantes",
+            "detail": "Jaci-Paraná, Mutum-Paraná, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema, Nova Califórnia (na ponta oeste junto ao Acre) e União Bandeirantes.",
+            "badge": "Eixo BR-364"
           },
           {
-            "label": "Distritos Ribeirinhos do Baixo Madeira",
-            "detail": "São Carlos, Nazaré, Calama e Demarcação (acesso predominantemente fluvial pelo Rio Madeira — áreas estratégicas de atuação do ACE!).",
-            "badge": "Eixo Fluvial"
+            "label": "Eixo Fluvial (Baixo e Médio Rio Madeira)",
+            "detail": "São Carlos, Nazaré, Calama e Demarcação (acessíveis por via fluvial no Baixo Madeira, com forte atuação das equipes de saúde ribeirinhas e de controle de malária da SEMUSA).",
+            "badge": "Baixo Madeira (Fluvial)"
           }
         ]
       },
       {
-        "title": "2. Estrada de Ferro Madeira-Mamoré (EFMM) e Missão Oswaldo Cruz",
+        "title": "3. Estrada de Ferro Madeira-Mamoré (EFMM) e Missão Oswaldo Cruz (1910)",
         "icon": "🚂",
-        "color": "teal",
+        "color": "amber",
         "nodes": [
           {
-            "label": "Tratado de Petrópolis (1903) e Percival Farquhar",
-            "detail": "Brasil anexou o Acre e comprometeu-se a construir a EFMM (366 km de Porto Velho a Guajará-Mirim) para superar as 18 cachoeiras do Madeira-Mamoré. Porto Velho nasceu como porto e oficina da ferrovia (1907)!",
-            "badge": "366 km (PVH–Guajará)"
-          },
-          {
-            "label": "Oswaldo Cruz em Porto Velho (1910) — Conexão Direta c/ ACE!",
-            "detail": "Contratado para combater a altíssima mortalidade por malária no Hospital da Candelária: instituiu distribuição compulsória de quinino e telas antimosquito!",
-            "badge": "Saúde Pública na EFMM"
+            "label": "Tratado de Petrópolis (1903) e Construção da EFMM (1907–1912)",
+            "detail": "366 km ligando Porto Velho a Guajará-Mirim para contornar o trecho encachoeirado dos rios Madeira e Mamoré. Em 1910, Oswaldo Cruz e Belisário Penna estiveram em Porto Velho implantando a profilaxia contra a malária com quinino.",
+            "badge": "366 km | Oswaldo Cruz 1910"
           }
         ]
       },
       {
-        "title": "3. Linha do Tempo Política (1914 -> 1943 -> 1956 -> 1981) e Patrimônio",
+        "title": "4. Linha do Tempo Política (1914 → 1943 → 1956 → 1981) e Geografia Física",
         "icon": "🏛️",
-        "color": "indigo",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Datas e Personagens Críticos",
-            "detail": "1914: Município criado pelo Amazonas (1º superintendente: Major Fernando Guapindaia em 1915). 1943: Território Federal do Guaporé (Getúlio Vargas; 1º governador: Aluízio Ferreira). 1956: Muda nome para Rondônia (homenagem a Marechal Rondon). 22/12/1981: LC nº 41 cria o Estado de Rondônia (instalado em 04/01/1982, governador Jorge Teixeira!).",
-            "badge": "Datas de Ouro"
+            "label": "Quatro Datas Críticas de Prova (1914, 1943, 1956 e 1981)",
+            "detail": "02/10/1914: Criação do Município de Porto Velho (ainda no AM, instalado em 24/01/1915). 13/09/1943: Criação do Território Federal do Guaporé (Decreto-Lei 5.812, 1º governador Aluízio Ferreira). 17/02/1956: Mudança do nome para Território Federal de Rondônia. 22/12/1981: Elevação a Estado de Rondônia pela LC nº 41/1981 (instalado em 04/01/1982, governador Jorge Teixeira).",
+            "badge": "1914 | 1943 | 1956 | 1981"
           },
           {
-            "label": "Patrimônio Cultural de Porto Velho",
-            "detail": "As Três Caixas d'Água ('Três Marias', 1910/1912), Complexo da EFMM, Catedral Sagrado Coração de Jesus, Prédio do Relógio e Arraial Flor do Maracujá.",
-            "badge": "Símbolos Culturais"
+            "label": "Relevo (Pico Três Irmãos), Clima (Am) e Hidrografia (Rio Madeira)",
+            "detail": "Ponto culminante de RO: Pico Três Irmãos (Serra dos Pacaás Novos, ~1.126 m). Clima Equatorial Quente e Úmido (Am) com estação seca de inverno (friagem). Bacia do Rio Madeira e sub-bacias (Jamari, Machado/Ji-Paraná, Guaporé e Mamoré).",
+            "badge": "Pico Três Irmãos | Clima Am"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Formação Histórica (Tratado de Petrópolis 1903, EFMM 1907–1912, Município de PVH 1914, Território do Guaporé 1943, Rondônia 1956 e Estado de RO LC 41/1981), Geografia Física, Demografia IBGE 2022 e Distritos de Porto Velho",
+    "goldenTraps": [
+      {
+        "wrong": "O Município de Porto Velho foi criado em 1943 juntamente com o Território Federal do Guaporé.",
+        "right": "FALSO! O Município de Porto Velho foi criado quase 30 anos antes, em 2 de outubro de 1914 (Lei nº 757 do Estado do Amazonas), sendo instalado em 24 de janeiro de 1915!"
+      },
+      {
+        "wrong": "Os distritos de Calama, Nazaré e São Carlos ficam ao longo da rodovia BR-364 na divisa com o Estado do Acre.",
+        "right": "FALSO! Calama, Nazaré, São Carlos e Demarcação são distritos RIBEIRINHOS do Baixo Madeira (nordeste do município, rumo à divisa com Humaitá/AM); quem fica na ponta oeste na BR-364 junto ao Acre é Nova Califórnia e Extrema!"
       }
     ]
   },

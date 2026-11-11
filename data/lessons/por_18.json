@@ -16,7 +16,8 @@
         "nodes": [
           {
             "label": "Geográfica / Regional",
-            "detail": "Sotaques e vocabulário regional (carapanã, macaxeira)"
+            "detail": "Sotaques e vocabulário regional (carapanã, macaxeira)",
+            "badge": "Foco #1"
           }
         ]
       },
@@ -27,7 +28,8 @@
         "nodes": [
           {
             "label": "Grupos Sociais e Profissões",
-            "detail": "Jargão técnico de saúde, gírias juvenis e escolaridade"
+            "detail": "Jargão técnico de saúde, gírias juvenis e escolaridade",
+            "badge": "Foco #1"
           }
         ]
       },
@@ -38,7 +40,8 @@
         "nodes": [
           {
             "label": "Situacional / Contextual",
-            "detail": "Registro formal (ofício) vs. informal/coloquial (conversa)"
+            "detail": "Registro formal (ofício) vs. informal/coloquial (conversa)",
+            "badge": "Foco #1"
           }
         ]
       },
@@ -49,23 +52,60 @@
         "nodes": [
           {
             "label": "Histórica / Temporal",
-            "detail": "Evolução ao longo dos séculos (Vossa Mercê → Você)"
+            "detail": "Evolução ao longo dos séculos (Vossa Mercê → Você)",
+            "badge": "Foco #1"
           }
         ]
       },
       {
         "title": "5. Modalidade e avaliação",
+        "icon": "📌",
         "color": "amber",
         "nodes": [
           {
             "label": "Oral e escrito",
-            "detail": "Não são sinônimos de informal e formal."
+            "detail": "Não são sinônimos de informal e formal.",
+            "badge": "Foco #1"
           },
           {
             "label": "Adequação e respeito",
-            "detail": "Justificar o ajuste do texto sem desqualificar seu autor."
+            "detail": "Justificar o ajuste do texto sem desqualificar seu autor.",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "4 Dimensões da Variação: Diatópica = LUGAR/Região • Diastrática = GRUPO SOCIAL/Jargão • Diafásica = SITUAÇÃO/Grau de Formalidade (Monitoramento) • Diacrônica = TEMPO/História",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Diatópica (Geográfica)",
+        "label": "Diferenças regionais de vocabulário e sotaque no espaço (ex.: \"carapanã\" em Porto Velho vs. \"pernilongo/muriçoca\" em outras regiões)",
+        "ref": "Eixo do Lugar"
+      },
+      {
+        "value": "Diastrática (Social)",
+        "label": "Variedades associadas a grupos sociais, faixas etárias, escolaridade ou jargões técnicos profissionais",
+        "ref": "Eixo Social"
+      },
+      {
+        "value": "Diafásica (Situacional)",
+        "label": "Adequação do mesmo falante ao contexto comunicativo (registro formal/monitorado num ofício vs. informal em casa)",
+        "ref": "Eixo do Estilo/Registro"
+      },
+      {
+        "value": "Diacrônica (Histórica)",
+        "label": "Mudança da língua ao longo do tempo histórico (ex.: \"Vossa Mercê → vosmecê → você\")",
+        "ref": "Eixo do Tempo"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Quando um Agente de Combate às Endemias adapta sua linguagem técnica para explicar de modo simples o ciclo do mosquito a um morador, ele comete um desvio condenável da norma-padrão.",
+        "right": "FALSO! Trata-se de ADEQUAÇÃO LINGUÍSTICA (variação diafásica consciente), fundamental para a eficácia comunicativa na educação em saúde."
+      },
+      {
+        "wrong": "O uso da palavra regional \"carapanã\" em Porto Velho para designar o mosquito é exemplo de variação diacrônica (histórica).",
+        "right": "FALSO! A diferença de vocabulário conforme a região geográfica do país classifica-se como variação DIATÓPICA (ou geográfica/regional)."
       }
     ]
   },

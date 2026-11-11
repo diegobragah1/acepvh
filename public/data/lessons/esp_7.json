@@ -25,94 +25,109 @@
   "questionsCount": 15,
   "flashcardsCount": 16,
   "mindMap": {
-    "centralTitle": "7. Atribuições do Agente de Combate às Endemias (ACE): Atividades Típicas, Assistidas, Compartilhadas e Operações de Campo",
+    "centralTitle": "7. Atribuições do Agente de Combate a Endemias (Legais e Operacionais de Campo)",
     "mnemonic": "Art. 4º § 1º (5 Atividades Típicas) • Art. 4º § 2º (5 Atividades Assistidas por Nível Superior) • Art. 4º-A (6 Atividades Compartilhadas ACE+ACS) • Campo: LIRAa (Depósitos A1–E, IIP e IB), Cubagem, Dosagem, RG e EPIs (NR-6)",
     "deadlinesAndNumbers": [
       {
         "value": "Art. 4º, §§ 1º e 2º",
-        "label": "Atribuições específicas típicas (§ 1º) e atribuições assistidas por nível superior (§ 2º) na Lei 11.350/06"
+        "label": "Atribuições específicas típicas (§ 1º) e atribuições assistidas por nível superior (§ 2º) na Lei 11.350/06",
+        "ref": "Ref. Aula 32"
       },
       {
         "value": "IIP < 1% | 1–3,9% | ≥ 4%",
-        "label": "Classificação do Índice de Infestação Predial no LIRAa: Satisfatório (<1%), Alerta (1% a 3,9%) e Risco (≥4%)"
+        "label": "Classificação do Índice de Infestação Predial no LIRAa: Satisfatório (<1%), Alerta (1% a 3,9%) e Risco (≥4%)",
+        "ref": "Ref. Aula 32"
       },
       {
         "value": "20 a 25 imóveis/dia",
-        "label": "Meta operacional média de visitas domiciliares do ACE em ciclo bimestral (6 ciclos/ano)"
+        "label": "Meta operacional média de visitas domiciliares do ACE em ciclo bimestral (6 ciclos/ano)",
+        "ref": "Ref. Aula 32"
       },
       {
         "value": "1 m³ = 1.000 Litros",
-        "label": "Regra-base de cubagem matemática de caixas d’água e cisternas para dosagem de larvicidas"
+        "label": "Regra-base de cubagem matemática de caixas d’água e cisternas para dosagem de larvicidas",
+        "ref": "Ref. Aula 32"
       }
     ],
     "branches": [
       {
-        "title": "1. Atribuições Legais do ACE (Art. 4º, §§ 1º, 2º e Art. 4º-A da Lei 11.350/2006)",
+        "title": "1. Atribuições Legais do ACE (Art. 4º, §§ 1º e 2º e Art. 4º-A da Lei 11.350/06)",
         "icon": "📋",
         "color": "teal",
         "nodes": [
           {
-            "label": "Atividades Típicas (Art. 4º, § 1º I a V) vs. Assistidas (§ 2º I a V)",
-            "detail": "Típicas: vistoria de imóveis, orientação, eliminação de focos, notificação e mobilização. Assistidas (sob supervisão superior): coleta de material biológico, aplicação de substâncias químicas, guarda de insumos e zoonoses.",
-            "badge": "Lei 13.595/2018"
+            "label": "Atividades Típicas (Art. 4º, § 1º) vs. Assistidas (§ 2º)",
+            "detail": "Típicas (autônomas): vistoria de imóveis, pesquisa larvária, educação sanitária, censo de animais e identificação de focos. Assistidas por nível superior (§ 2º): aplicação de substâncias químicas, necropsia, coleta de sangue animal e eutanásia.",
+            "badge": "Típicas vs. Assistidas"
           },
           {
-            "label": "Atividades Compartilhadas ACE + ACS (Art. 4º-A) e Anexo II SEMUSA",
-            "detail": "Planejamento integrado, atualização de mapas/croquis, busca ativa de sintomáticos e acompanhamento de condicionalidades. Inclui todas as 9 atribuições municipais do Anexo II (LC 391/2010).",
-            "badge": "Integração e Anexo II"
+            "label": "Atribuições no Anexo II do Edital SEMUSA Porto Velho",
+            "detail": "Vistoria de residências, depósitos, terrenos baldios e pontos estratégicos (PE); inspeção de caixas d’água e calhas; aplicação de larvicidas e inseticidas; atualização do Reconhecimento Geográfico (RG) e educação comunitária.",
+            "badge": "Anexo II SEMUSA"
           }
         ]
       },
       {
-        "title": "1. Cubagem de Reservatórios (Paralelepípedo e Cilindro)",
-        "icon": "📏",
-        "color": "teal",
-        "nodes": [
-          {
-            "label": "Caixa Retangular / Tanque / Cisterna",
-            "detail": "V (m³) = Comprimento x Largura x Altura da água. Multiplique por 1.000 para obter os Litros!",
-            "badge": "C x L x A x 1.000"
-          },
-          {
-            "label": "Tambor / Poço / Tonel Cilíndrico",
-            "detail": "V (m³) = pi (3,14) x Raio² x Altura (Lembre-se: Raio é a METADE do Diâmetro!). Ou direto pelo Diâmetro: V = 0,785 x D² x h.",
-            "badge": "r = D / 2"
-          }
-        ]
-      },
-      {
-        "title": "2. Dosagem de Larvicidas e Rendimento Operacional",
-        "icon": "🧪",
+        "title": "2. Pesquisa Larvária, LIRAa/LIA e Índices Entomológicos (IIP e IB)",
+        "icon": "🦟",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Regra de Ouro do Tratamento Focal",
-            "detail": "Só se aplica larvicida (biológico como Bti ou regulador de crescimento como Piriproxifeno/Espinosa) em depósitos que NÃO possam ser eliminados, vedados ou manejados mecanicamente!",
-            "badge": "Manejo Mecânico 1º"
+            "label": "Os 7 Grupos de Depósitos no LIRAa (A1, A2, B, C, D1, D2 e E)",
+            "detail": "A1: caixa d’água elevada ligada à rede; A2: depósito ao nível do solo (tambor, tonel, cisterna); B: móveis (vasos, bebedouros); C: fixos (calhas, lajes, piscinas); D1: pneus; D2: lixo/sucata; E: naturais (bromélias, ocos de árvores).",
+            "badge": "A1 a E (LIRAa)"
           },
           {
-            "label": "Imóvel Fechado, Recusa e Recuperação",
-            "detail": "Pendência = Fechados + Recusas. O ACE deve programar revisita em horários alternativos (final da tarde/sábado) para recuperar imóveis pendentes.",
-            "badge": "Meta: Pendência < 10%"
+            "label": "Índice de Infestação Predial (IIP) vs. Índice de Breteau (IB)",
+            "detail": "IIP = (Imóveis Positivos ÷ Imóveis Pesquisados) × 100. Classificação MS: < 1% Satisfatório; de 1% a 3,9% Alerta; ≥ 4,0% Risco de Surto! IB = (Recipientes Positivos ÷ Imóveis Pesquisados) × 100.",
+            "badge": "<1% | 1–3,9% | ≥4%"
           }
         ]
       },
       {
-        "title": "3. Biossegurança, EPIs e Tríplice Lavagem",
-        "icon": "🥽",
+        "title": "3. Cubagem de Reservatórios e Dosagem Operacional de Campo",
+        "icon": "📐",
         "color": "amber",
         "nodes": [
           {
-            "label": "Regras de Aplicação em Campo",
-            "detail": "Aplicar sempre A FAVOR DO VENTO; jamais comer, beber ou fumar durante o manuseio; nunca assoprar bico entupido com a boca nem usar arame metálico.",
-            "badge": "Segurança Química"
+            "label": "Fórmulas de Cubagem e Ponte Volume–Capacidade",
+            "detail": "Paralelepípedo: V = C × L × H. Cilindro: V = π × r² × H. Conversão de ouro: 1 m³ = 1.000 Litros | 1 dm³ = 1 Litro | 1 cm³ = 1 mL.",
+            "badge": "1 m³ = 1.000 L"
           },
           {
-            "label": "Tríplice Lavagem e Descarte",
-            "detail": "Lavar 3 vezes a embalagem vazia com água limpa, verter a água no tanque do pulverizador e PERFURAR o fundo do frasco para inutilizá-lo.",
-            "badge": "Zero Reutilização"
+            "label": "Ciclos de Visita: LI (Bimestral) vs. PE (Quinzenal)",
+            "detail": "Imóveis comuns (ciclo bimestral = a cada 2 meses, meta mínima 80% de cobertura). Pontos Estratégicos — PE (cemitérios, borracharias, ferros-velhos): pesquisa e tratamento QUINZENAL (a cada 15 dias)!",
+            "badge": "PE = 15 em 15 dias"
           }
         ]
+      },
+      {
+        "title": "4. Biossegurança (NR-6), Tríplice Lavagem e Reconhecimento Geográfico",
+        "icon": "🥽",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "EPIs (NR-6) e Tríplice Lavagem de Embalagens (Lei 14.785/2023)",
+            "detail": "Empregador fornece EPI gratuitamente com CA válido; ACE usa e conserva. Na preparação da calda, realiza-se a tríplice lavagem (água limpa até 1/4 da embalagem, agitar 30s por 3 vezes e verter na bomba pulverizadora) e inutilização do frasco.",
+            "badge": "Tríplice Lavagem"
+          },
+          {
+            "label": "Reconhecimento Geográfico (RG) e Ordem de Percurso no Quarteirão",
+            "detail": "Croqui do quarteirão numerado no sentido HORÁRIO (pela direita de quem entra na face norte), registrando logradouros, tipo de imóvel (R, C, TB, PE, O) e pendências (Fechado vs. Recusa).",
+            "badge": "Sentido Horário"
+          }
+        ]
+      }
+    ],
+    "centralSubtitle": "Atribuições Típicas (Art. 4º, § 1º), Assistidas (§ 2º), Compartilhadas (Art. 4º-A), LIRAa (Depósitos A1 a E, IIP e IB), Cubagem, Dosagem, Biossegurança e Reconhecimento Geográfico",
+    "goldenTraps": [
+      {
+        "wrong": "No LIRAa, um tambor de armazenamento de água de chuva ao nível do solo é classificado no grupo A1.",
+        "right": "FALSO! O grupo A1 é exclusivo para caixa d’água ELEVADA ligada à rede pública. Depósitos de armazenamento de água ao nível do solo (tambores, tonéis, cisternas) pertencem ao grupo A2!"
+      },
+      {
+        "wrong": "Na tríplice lavagem de embalagens vazias de inseticidas, a água da lavagem deve ser descartada na rede de esgoto ou no solo.",
+        "right": "FALSO! A água da tríplice lavagem deve ser despejada diretamente no tanque do equipamento pulverizador para compor a calda de aplicação, evitando qualquer contaminação ambiental."
       }
     ]
   },

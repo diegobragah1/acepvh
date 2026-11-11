@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Palavras Negativas e Advérbios",
-            "detail": "Não, nunca, jamais, aqui, sempre (sem vírgula!)"
+            "detail": "Não, nunca, jamais, aqui, sempre (sem vírgula!)",
+            "badge": "Foco #1"
           },
           {
             "label": "Relativos, Indefinidos e Subordinativas",
-            "detail": "Que, quem, onde, tudo, alguém, quando, embora, se"
+            "detail": "Que, quem, onde, tudo, alguém, quando, embora, se",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Futuro do Presente/Pretérito",
-            "detail": "Futuro do presente/pretérito: realizar-se-á. Com sujeito anteposto, admite-se também próclise: a equipe se organizará."
+            "detail": "Futuro do presente/pretérito: realizar-se-á. Com sujeito anteposto, admite-se também próclise: a equipe se organizará.",
+            "badge": "Foco #1"
           },
           {
             "label": "Prioridade da Próclise",
-            "detail": "Se houver atrativo antes do futuro, usa-se Próclise!"
+            "detail": "Se houver atrativo antes do futuro, usa-se Próclise!",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Início de Frase e Imperativo",
-            "detail": "Pausa/vírgula delimita o alcance de palavras anteriores; avaliar a estrutura da oração seguinte e se há sujeito ou fator de próclise próprio."
+            "detail": "Pausa/vírgula delimita o alcance de palavras anteriores; avaliar a estrutura da oração seguinte e se há sujeito ou fator de próclise próprio.",
+            "badge": "Foco #1"
           },
           {
             "label": "Adaptações Fonéticas",
-            "detail": "R/S/Z → lo/la (fazê-lo); Som nasal M/ÃO → no/na (fizeram-no)"
+            "detail": "R/S/Z → lo/la (fazê-lo); Som nasal M/ÃO → no/na (fizeram-no)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Nunca Iniciar Período",
-            "detail": "No início absoluto do período formal, use Entregue-me; isso não descreve todas as variedades da fala brasileira."
+            "detail": "No início absoluto do período formal, use Entregue-me; isso não descreve todas as variedades da fala brasileira.",
+            "badge": "Foco #1"
           },
           {
             "label": "Proibido Ênclise no Futuro e Particípio",
-            "detail": "Não se liga o pronome após a forma completa do futuro do presente/pretérito do indicativo nem após particípio. Examine a locução inteira."
+            "detail": "Não se liga o pronome após a forma completa do futuro do presente/pretérito do indicativo nem após particípio. Examine a locução inteira.",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Fatores de Próclise = N-R-P-I-S-D (Negativas, Relativos, Pronomes Indefinidos, Interrogativos, Subordinativas, Advérbios sem vírgula) • 3 Proibições = NUNCA iniciar frase com oblíquo átono; NUNCA ênclise no Futuro nem no Particípio!",
+    "deadlinesAndNumbers": [
+      {
+        "value": "6 Atrativos de Próclise",
+        "label": "Palavras negativas, advérbios (sem vírgula), pronomes relativos, indefinidos, interrogativos e conjunções subordinativas",
+        "ref": "Próclise Obrigatória"
+      },
+      {
+        "value": "Vírgula Isola o Advérbio",
+        "label": "Com vírgula após o advérbio inicial (\"Aqui, trabalha-se muito\"), cessa a atração e usa-se ÊNCLISE!",
+        "ref": "Pausa Fonética"
+      },
+      {
+        "value": "Mesóclise (Futuros)",
+        "label": "Usada com Futuro do Presente (\"Dar-se-á\") ou Futuro do Pretérito (\"Far-se-ia\") desde que NÃO haja palavra atrativa antes",
+        "ref": "Mesóclise"
+      },
+      {
+        "value": "3 Proibições Absolutas",
+        "label": "1. Iniciar período com pronome átono; 2. Usar ênclise no futuro (\"*fará-se\"); 3. Usar ênclise no particípio (\"*tinha falado-me\")",
+        "ref": "Vedações Normativas"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Na frase \"Não realizar-se-á a borrifação em caso de chuva\", a mesóclise é obrigatória por causa do verbo no futuro.",
+        "right": "FALSO! A Próclise VENCE a Mesóclise! Como há a palavra negativa \"Não\" antes do verbo, a próclise é obrigatória: \"Não SE realizará a borrifação\"."
+      },
+      {
+        "wrong": "Em \"Ontem, se identificaram novos focos no bairro\", a próclise é obrigatória por causa do advérbio \"Ontem\".",
+        "right": "FALSO! Como o advérbio \"Ontem\" está isolado por VÍRGULA, ele perde a força atrativa e não se pode iniciar a oração após a pausa com pronome átono: o correto é \"Ontem, identificaram-se novos focos\"."
       }
     ]
   },

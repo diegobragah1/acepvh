@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Elipse",
-            "detail": "Omissão de termo recuperável pelo contexto; a zeugma é um caso particular"
+            "detail": "Omissão de termo recuperável pelo contexto; a zeugma é um caso particular",
+            "badge": "Foco #1"
           },
           {
             "label": "Zeugma",
-            "detail": "Omissão de termo JÁ expresso antes (com vírgula)"
+            "detail": "Omissão de termo JÁ expresso antes (com vírgula)",
+            "badge": "Foco #2"
           },
           {
             "label": "Assíndeto",
-            "detail": "Omissão de conjunções coordenativas"
+            "detail": "Omissão de conjunções coordenativas",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,15 +38,18 @@
         "nodes": [
           {
             "label": "Polissíndeto",
-            "detail": "Repetição enfática de conjunção (e... e... e...)"
+            "detail": "Repetição enfática de conjunção (e... e... e...)",
+            "badge": "Foco #1"
           },
           {
             "label": "Anáfora",
-            "detail": "Repetição de palavra no início de frases/versos"
+            "detail": "Repetição de palavra no início de frases/versos",
+            "badge": "Foco #2"
           },
           {
             "label": "Pleonasmo",
-            "detail": "Redundância estilística ou objeto pleonástico"
+            "detail": "Redundância estilística ou objeto pleonástico",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -54,11 +60,13 @@
         "nodes": [
           {
             "label": "Hipérbato",
-            "detail": "Inversão da ordem direta Sujeito-Verbo-Complemento"
+            "detail": "Inversão da ordem direta Sujeito-Verbo-Complemento",
+            "badge": "Foco #1"
           },
           {
             "label": "Anacoluto",
-            "detail": "Termo inicial solto sem função sintática na oração"
+            "detail": "Termo inicial solto sem função sintática na oração",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -69,13 +77,48 @@
         "nodes": [
           {
             "label": "De Gênero",
-            "detail": "Vossa Excelência ficou preocupado"
+            "detail": "Vossa Excelência ficou preocupado",
+            "badge": "Foco #1"
           },
           {
             "label": "De Número e Pessoa",
-            "detail": "A multidão chegou cedo. Estavam todos animados / Os agentes estamos prontos"
+            "detail": "A multidão chegou cedo. Estavam todos animados / Os agentes estamos prontos",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Elipse = Omissão geral • Zeugma = Omissão de termo JÁ CITADO antes • Polissíndeto = Conectivo repetido • Assíndeto = Sem conectivo • Hipérbato = Inversão da ordem direta • Silepse = Concordância com a IDEIA (Gênero, Número ou Pessoa)",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Zeugma ⊂ Elipse",
+        "label": "A Zeugma é o caso especial de elipse em que o termo omitido já apareceu expresso anteriormente no enunciado",
+        "ref": "Figuras por Omissão"
+      },
+      {
+        "value": "3 Tipos de Silepse",
+        "label": "Gênero (\"Vossa Excelência está preocupado\"), Número (\"O povo corria; gritavam\") e Pessoa (\"Os brasileiros somos solidários\")",
+        "ref": "Concordância Ideológica"
+      },
+      {
+        "value": "Hipérbato (Anástrofe)",
+        "label": "Inversão da ordem direta Sujeito-Verbo-Complemento (ex.: \"Ouviram do Ipiranga as margens plácidas\")",
+        "ref": "Figuras de Inversão"
+      },
+      {
+        "value": "Anacoluto",
+        "label": "Quebra sintática da frase que deixa um termo inicial solto, sem função sintática na oração seguinte",
+        "ref": "Ruptura Sintática"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em \"Todos os agentes somos responsáveis pela saúde da comunidade\", há um erro gramatical de concordância verbal.",
+        "right": "FALSO! Ocorre SILEPSE DE PESSOA (concordância ideológica legítima): o sujeito está na 3ª pessoa do plural (\"Todos os agentes\"), mas o verbo vai para a 1ª do plural (\"somos\") porque o falante se inclui no grupo!"
+      },
+      {
+        "wrong": "Na frase \"Eu inspecionei o quintal; meu colega, a caixa d’água\", a vírgula após \"colega\" marca um anacoluto.",
+        "right": "FALSO! A vírgula marca uma ZEUGMA (tipo especial de elipse), substituindo a forma verbal \"inspecionou\" já expressa na primeira oração."
       }
     ]
   },

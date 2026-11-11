@@ -27,19 +27,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "15% da RCL",
-        "label": "Mínimo da União em Saúde (EC 86/2015 — Art. 198, § 2º, I)"
+        "label": "Mínimo da União em Saúde (EC 86/2015 — Art. 198, § 2º, I)",
+        "ref": "Ref. Aula 1"
       },
       {
         "value": "12% Estados / 15% Municípios",
-        "label": "Mínimo constitucional em ASPS (EC 29/2000 e LC 141/2012)"
+        "label": "Mínimo constitucional em ASPS (EC 29/2000 e LC 141/2012)",
+        "ref": "Ref. Aula 1"
       },
       {
         "value": "2 Salários Mínimos",
-        "label": "Piso Constitucional Nacional dos ACS e ACE (EC 120/2022 — Art. 198, § 9º)"
+        "label": "Piso Constitucional Nacional dos ACS e ACE (EC 120/2022 — Art. 198, § 9º)",
+        "ref": "Ref. Aula 1"
       },
       {
         "value": "Arts. 196 a 200",
-        "label": "Seção II (Da Saúde) do Capítulo da Seguridade Social na CF/88"
+        "label": "Seção II (Da Saúde) do Capítulo da Seguridade Social na CF/88",
+        "ref": "Ref. Aula 1"
       }
     ],
     "branches": [
@@ -147,6 +151,17 @@
             "badge": "Anexo V PRC nº 2"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Seguridade Social (Arts. 194–195), Saúde na CF/88 (Arts. 196–200), Regime Constitucional dos ACS/ACE (EC 51, 63, 120/2022 e EC 140/2026) e Financiamento (EC 29 e 86)",
+    "goldenTraps": [
+      {
+        "wrong": "As ações e serviços públicos de saúde podem destinar auxílios ou subvenções a instituições privadas com fins lucrativos quando houver falta de leitos.",
+        "right": "FALSO! O Art. 199, § 2º da CF/88 veda expressamente a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos."
+      },
+      {
+        "wrong": "O piso salarial nacional dos ACS e ACE de 2 salários mínimos entra no limite de despesa com pessoal da Lei de Responsabilidade Fiscal do Município.",
+        "right": "FALSO! Pelo Art. 198, § 11 da CF/88 (EC 120/2022), os recursos federais do piso de 2 SM não são objeto de inclusão no cálculo para fins do limite de despesa com pessoal."
       }
     ]
   },

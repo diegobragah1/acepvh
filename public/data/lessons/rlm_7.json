@@ -6,110 +6,109 @@
   "title": "7. Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações",
   "editalRef": "Item 7 de Raciocínio Lógico — Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações.",
   "mindMap": {
-    "centralTitle": "Sequências Lógicas, PA e PG, Análise Combinatória e Probabilidade",
-    "centralSubtitle": "Ciclos com Resto da Divisão, Soma de PA, Arranjo vs. Combinação, Anagramas e Probabilidade",
-    "mnemonic": "A Ordem Importa? SIM (Senhas/Cargos Distintos) = ARRANJO (Multiplica direto) | NÃO (Comissões/Equipes) = COMBINAÇÃO (Divide pelo fatorial das vagas!)",
+    "centralTitle": "7. Análise Combinatória: Princípio Fundamental da Contagem (PFC), Arranjos, Permutações e Combinações",
+    "centralSubtitle": "PFC Multiplicativo (\"E\") e Aditivo (\"OU\"), Permutação Simples (n!), com Repetição (Anagramas) e Circular ((n-1)!), Arranjo Simples (Ordem Importa) vs. Combinação Simples (Ordem NÃO Importa)",
+    "mnemonic": "A ORDEM IMPORTA? SIM (Senhas, Pódio, Cargos distintos) = ARRANJO A(n,p) = n!/(n-p)! • NÃO (Comissões, Equipes, Duplas, Salada de frutas) = COMBINAÇÃO C(n,p) = n!/[p!(n-p)!] (divide por p! para tirar a ordem!)",
     "deadlinesAndNumbers": [
       {
-        "value": "an = a1 + (n-1).r",
-        "label": "Fórmula do Termo Geral da Progressão Aritmética (PA)",
-        "ref": "PA"
+        "value": "Pₙ = n! | 0! = 1",
+        "label": "Permutação Simples usa todos os n elementos disponíveis (ex.: 5 agentes em fila = 5! = 120 modos)",
+        "ref": "Permutação Simples"
       },
       {
-        "value": "Sn = (a1 + an).n / 2",
-        "label": "Fórmula da Soma dos n primeiros termos de uma PA",
-        "ref": "Soma de Gauss"
+        "value": "PCₙ = (n - 1)!",
+        "label": "Permutação Circular (em roda/mesa redonda sem referência fixa): fixa-se 1 elemento e permutam-se os demais",
+        "ref": "Permutação Circular"
       },
       {
-        "value": "5! = 120 | 6! = 720",
-        "label": "Fatoriais mais usados em Anagramas e Permutações (0! = 1; 4! = 24)",
-        "ref": "Fatorial"
+        "value": "A(n,p) = n! / (n - p)!",
+        "label": "Arranjo Simples: escolhe p elementos entre n quando a ORDEM altera a natureza do agrupamento (ex.: 1º, 2º e 3º lugares)",
+        "ref": "Ordem Importa!"
       },
       {
-        "value": "P(A U B) = P(A)+P(B)-P(A∩B)",
-        "label": "Probabilidade da União ('OU') e Eventos Independentes ('E' = multiplica)",
-        "ref": "Probabilidade"
+        "value": "C(n,p) = n! / [p!(n - p)!]",
+        "label": "Combinação Simples: escolhe um subconjunto de p elementos entre n quando a ORDEM NÃO importa ({A,B} = {B,A})",
+        "ref": "Ordem NÃO Importa!"
       }
     ],
     "branches": [
       {
-        "title": "1. Sequências Cíclicas, PA e PG",
-        "icon": "🔁",
+        "title": "1. Princípio Fundamental da Contagem (PFC Multiplicativo e Aditivo)",
+        "icon": "🔢",
         "color": "teal",
         "nodes": [
           {
-            "label": "Sequências Cíclicas (Ex: 2026º elemento ou Dia da Semana)",
-            "detail": "Divida a posição pedida pelo tamanho do bloco que se repete e olhe o RESTO da divisão! (Se o resto for 0, é o último elemento do bloco!).",
-            "badge": "Olhe o RESTO!"
+            "label": "Princípio Multiplicativo (\"E\" — Etapas Sucessivas e Independentes)",
+            "detail": "Se uma decisão ocorre em etapas sucessivas (escolher 1 camisa dentre 4 E 1 calça dentre 3 E 1 bota dentre 2), multiplicam-se as possibilidades: 4 × 3 × 2 = 24 modos. Em problemas com restrição (ex.: número par ou elementos que não podem começar com zero), comece sempre preenchendo pela casa da RESTRIÇÃO!",
+            "badge": "Comece pela Restrição!"
           },
           {
-            "label": "PA (Soma constante r) vs. PG (Multiplica constante q)",
-            "detail": "PA: an = a1 + (n-1).r. PG: an = a1 . q^(n-1) (crescimento populacional bacteriano/viral: dobra a cada ciclo!).",
-            "badge": "PA vs. PG"
+            "label": "Princípio Aditivo (\"OU\" — Casos Mutuamente Exclusivos)",
+            "detail": "Quando o problema se divide em casos alternativos disjuntos (\"Caso 1 OU Caso 2\"), calcula-se cada caso separadamente e SOMAM-SE os resultados.",
+            "badge": "E = Multiplica | OU = Soma"
           }
         ]
       },
       {
-        "title": "2. Análise Combinatória: PFC, Permutação, Arranjo e Combinação",
-        "icon": "🎲",
+        "title": "2. Permutações: Simples (n!), com Repetição (Anagramas) e Circular ((n-1)!)",
+        "icon": "🔄",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Arranjo (Ordem Importa) vs. Combinação (Ordem NÃO Importa)",
-            "detail": "Presidente e Secretário entre 5 pessoas = Arranjo (5 x 4 = 20). Dupla de plantão entre 5 pessoas = Combinação ((5 x 4) / 2! = 10).",
-            "badge": "Ordem Importa?"
+            "label": "Permutação Simples (Pₙ = n!) e Bloco Unido (\"Sempre Juntos\")",
+            "detail": "Troca apenas a posição de TODOS os n elementos. Se dois elementos devem ficar SEMPRE JUNTOS (ex.: Ana e Bruno juntos numa fila de 5 pessoas), amarre-os como 1 único bloco (4! = 24) e multiplique pela permutação interna do bloco (2! = 2) → 24 × 2 = 48!",
+            "badge": "Juntos = Amarre em 1 Bloco!"
           },
           {
-            "label": "Anagramas (Permutação com e sem Repetição)",
-            "detail": "Sem repetição (VETOR = 5 letras): 5! = 120. Com repetição (ZIKA = 4! = 24; ARARA = 5! / (3! . 2!) = 10).",
-            "badge": "Anagramas"
+            "label": "Permutação com Repetição (Anagramas) e Permutação Circular",
+            "detail": "Anagramas com letras repetidas: Pₙ^(a,b) = n! ÷ (a! · b!). Exemplo: ARARA (5 letras, 3 A e 2 R) = 5! ÷ (3! · 2!) = 120 ÷ 12 = 10 anagramas. Em roda/mesa circular: PCₙ = (n - 1)!.",
+            "badge": "n! / (a!·b!) | (n-1)!"
           }
         ]
       },
       {
-        "title": "3. Probabilidade: Favoráveis / Total, União e Sem Reposição",
-        "icon": "🎯",
-        "color": "emerald",
-        "nodes": [
-          {
-            "label": "Regras do 'E' (Multiplica) e do 'OU' (Soma e Tira a Interseção)",
-            "detail": "Em retiradas sucessivas SEM reposição, lembre-se de diminuir 1 do total (denominador) na 2ª retirada! Para 'pelo menos um', use 1 - P(nenhum).",
-            "badge": "Sem Reposição"
-          }
-        ]
-      },
-      {
-        "title": "4. Probabilidade Condicional e Complementar",
-        "icon": "🎲",
+        "title": "3. Arranjo Simples: Quando a Ordem Importa (Aₙ,ₚ)",
+        "icon": "🥇",
         "color": "amber",
         "nodes": [
           {
-            "label": "Ponto-Chave #1",
-            "detail": "P(A ∪ B) [Regra do OU] = P(A) + P(B) - P(A ∩ B)",
-            "badge": "Síntese IBGP"
+            "label": "Como Reconhecer um Problema de Arranjo",
+            "detail": "Escolhemos p elementos dentre n (p < n) e inverter a ordem gera um resultado DIFERENTE: formação de senhas/placas, pódio (ouro, prata e bronze) ou cargos com funções distintas (1 Coordenador e 1 Relator).",
+            "badge": "Cargos Distintos = Arranjo"
           },
           {
-            "label": "Ponto-Chave #2",
-            "detail": "P(A ∩ B) [Regra do E independente] = P(A) × P(B)",
-            "badge": "Síntese IBGP"
+            "label": "Cálculo Rápido pelo Método dos Tracinhos (Sem Fórmula)",
+            "detail": "Para escolher 1 Coordenador e 1 Secretário entre 10 agentes: 10 opções para Coordenador × 9 opções restantes para Secretário = 90 maneiras.",
+            "badge": "A(10,2) = 10 × 9 = 90"
+          }
+        ]
+      },
+      {
+        "title": "4. Combinação Simples: Quando a Ordem NÃO Importa (Cₙ,ₚ)",
+        "icon": "🤝",
+        "color": "emerald",
+        "nodes": [
+          {
+            "label": "Como Reconhecer um Problema de Combinação",
+            "detail": "Escolhemos p elementos dentre n com funções IGUAIS (formar uma equipe, comissão, dupla de campo, escolher questões de uma prova ou pontos para formar triângulos): escolher {João, Maria} é idêntico a escolher {Maria, João}!",
+            "badge": "Equipes/Duplas = Combinação"
           },
           {
-            "label": "Ponto-Chave #3",
-            "detail": "P(Pelo menos 1) = 1 - P(Nenhum)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #4",
-            "detail": "Probabilidade Condicional P(A|B) (\"Sabendo que B\") = n(A ∩ B) / n(B)",
-            "badge": "Síntese IBGP"
+            "label": "Combinação com \"Pelo Menos Um\" (Método Total − Proibido)",
+            "detail": "Para formar uma equipe de 3 agentes (dentre 5 homens e 4 mulheres) com PELO MENOS 1 mulher: calcule o Total sem restrição C(9,3) = 84 e subtraia o caso proibido (nenhuma mulher = só homens) C(5,3) = 10 → 84 - 10 = 74 equipes!",
+            "badge": "Total − Nenhum"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "O número de maneiras de escolher uma comissão de 3 agentes entre 6 disponíveis é 6 x 5 x 4 = 120.",
-        "right": "FALSO! Em uma comissão sem distinção de cargos, a ordem NÃO importa (Combinação), logo é obrigatório dividir por 3! (6): 120 / 6 = 20 comissões!"
+        "wrong": "Para escolher uma dupla de agentes de campo dentre 8 servidores disponíveis, o número de duplas possíveis é 8 × 7 = 56.",
+        "right": "FALSO! Em uma dupla de campo não há hierarquia (a ordem NÃO importa: {A, B} é a mesma dupla que {B, A}). Deve-se dividir por 2!: C(8,2) = (8 × 7) ÷ 2 = 28 duplas!"
+      },
+      {
+        "wrong": "O número de anagramas da palavra SAÚDE que começam por vogal é igual a 5! = 120.",
+        "right": "FALSO! SAÚDE tem 5 letras distintas, sendo 3 vogais (A, Ú, E). Fixando 1 das 3 vogais na 1ª posição (3 opções) e permutando as 4 letras restantes (4! = 24), temos 3 × 24 = 72 anagramas!"
       }
     ]
   },

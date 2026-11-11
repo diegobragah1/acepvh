@@ -84,6 +84,29 @@ export function buildVFChallenges(lesson: Lesson): VFChallenge[] {
 }
 
 /**
+ * Compacts excessive paragraph breaks, empty paragraphs, redundant boilerplate headers,
+ * and broken PDF line wraps so the continuous lesson text flows smoothly on mobile and desktop.
+ */
+function compactParagraphFlow(html: string): string {
+  return html
+    // Remove soft hyphens that break words awkwardly
+    .replace(/\u00ad/g, '')
+    // Remove empty paragraphs
+    .replace(/<p>\s*(?:&nbsp;|\u00a0|<br\s*\/?>)*\s*<\/p>/gi, '')
+    // Collapse multiple consecutive <br> into a single <br>
+    .replace(/(?:<br\s*\/?>\s*){2,}/gi, '<br />')
+    // Remove redundant generic section preambles ("1. Objetivo Claro da Aula...", "2. Conteúdo Teórico e Técnico Aprofundado...")
+    .replace(
+      /<h5[^>]*>\s*(?:1\.\s*Objetivo Claro da Aula[^<]*|2\.\s*(?:Explicação Detalhada|Conteúdo Teórico e Técnico Aprofundado)[^<]*)<\/h5>/gi,
+      ''
+    )
+    // Join mid-sentence paragraph breaks created by PDF line wraps (where a <p> does not end in terminal punctuation and next <p> starts with lowercase)
+    .replace(/([^.!?:;”"')\]>])\s*<\/p>\s*<p>\s*([a-záàâãéêíóôõúç])/g, '$1 $2')
+    // Compact consecutive short alíneas (<p>a) ...</p><p>b) ...</p>) into a tighter single paragraph with <br>
+    .replace(/<\/p>\s*<p>(\s*(?:<b>)?[a-z]\)\s)/gi, '<br />$1');
+}
+
+/**
  * Applies active-recall Cloze masks and search highlights to rendered lesson HTML,
  * preserving MathML/KaTeX spans untouched via protectMath.
  */
@@ -95,7 +118,7 @@ export function processDidacticHtml(
   blockPrefix: string
 ): string {
   if (!rawHtml) return '';
-  const math = protectMath(rawHtml);
+  const math = protectMath(compactParagraphFlow(rawHtml));
   const parts = math.text.split(/(<[^>]+>)/g);
   let clozeCounter = 0;
 

@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Proparoxítonas",
-            "detail": "TODAS são acentuadas (médico, público, lâmpada)"
+            "detail": "TODAS são acentuadas (médico, público, lâmpada)",
+            "badge": "Foco #1"
           },
           {
             "label": "Oxítonas e Monossílabos",
-            "detail": "Terminadas em A, E, O, EM, ENS (monossílabos: A, E, O)"
+            "detail": "Terminadas em A, E, O, EM, ENS (monossílabos: A, E, O)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Terminações R, X, N, L, I, US...",
-            "detail": "Caráter, tórax, hífen, fácil, júri, vírus, álbum, órfã, bíceps"
+            "detail": "Caráter, tórax, hífen, fácil, júri, vírus, álbum, órfã, bíceps",
+            "badge": "Foco #1"
           },
           {
             "label": "Ditongo Crescente Final",
-            "detail": "História, vigilância, série, água, espécie, sanitário"
+            "detail": "História, vigilância, série, água, espécie, sanitário",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "I e U Tônicos em Hiato",
-            "detail": "Sa-ú-de, sa-í-da, pa-ís, ba-ú, e-go-ís-ta"
+            "detail": "Sa-ú-de, sa-í-da, pa-ís, ba-ú, e-go-ís-ta",
+            "badge": "Foco #1"
           },
           {
             "label": "Exceções",
-            "detail": "Seguido de NH (rainha) ou após ditongo em paroxítona (feiura)"
+            "detail": "Seguido de NH (rainha) ou após ditongo em paroxítona (feiura)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Ditongos Abertos ÉI, ÓI",
-            "detail": "Caíram nas paroxítonas (ideia, heroico, jiboia); ficam nas oxítonas"
+            "detail": "Caíram nas paroxítonas (ideia, heroico, jiboia); ficam nas oxítonas",
+            "badge": "Foco #1"
           },
           {
             "label": "Acentos Diferenciais",
-            "detail": "Pôde/pode, Pôr/por, Tem/Têm, Vem/Vêm"
+            "detail": "Pôde/pode, Pôr/por, Tem/Têm, Vem/Vêm",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Proparoxítonas = TODAS acentuadas • Oxítonas = A, E, O, EM, ENS • Paroxítonas = NÃO terminadas em A, E, O, EM, ENS (incluindo ditongo crescente!) • Hiato = I e U tônicos sozinhos (ou com S) na sílaba, salvo após ditongo em paroxítona ou antes de NH",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Oxítonas vs. Paroxítonas",
+        "label": "Regras opostas: Oxítonas levam acento em A, E, O, EM, ENS; Paroxítonas levam acento em L, N, R, X, I, U, Ã, ÃO, PS, UM e Ditongos",
+        "ref": "Regras Gerais"
+      },
+      {
+        "value": "Regra Especial do Hiato",
+        "label": "I e U tônicos em hiato com vogal anterior levam acento (sa-ú-de, pa-ís, ba-ú, ca-í-ram — diferente de rainha e cair)",
+        "ref": "Atenção: Não confundir c/ ditongo!"
+      },
+      {
+        "value": "Ditongos Abertos ÉI e ÓI",
+        "label": "Perderam o acento nas PAROXÍTONAS (ideia, jiboia, heroico, assembleia), mas mantêm nas OXÍTONAS e monossílabos (herói, papéis, céu)",
+        "ref": "Novo Acordo Ortográfico"
+      },
+      {
+        "value": "Têm / Vêm e Derivados",
+        "label": "Ele tem / Eles têm; Ele vem / Eles vêm; Ele mantém / Eles mantêm; Ele intervém / Eles intervêm (singular agudo, plural circunflexo)",
+        "ref": "Acento Diferencial"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "As palavras \"saúde\", \"país\" e \"heroico\" são acentuadas pela mesma regra dos ditongos abertos.",
+        "right": "FALSO! \"Sa-ú-de\" e \"pa-ís\" são acentuadas pela REGRA DO HIATO (vogais U e I tônicas isoladas em hiato), enquanto \"heroico\" perdeu o acento no Novo Acordo por ser paroxítona com ditongo aberto \"oi\"!"
+      },
+      {
+        "wrong": "As palavras \"história\", \"água\" e \"médico\" são acentuadas pela mesma regra gramatical.",
+        "right": "FALSO! \"Médico\" é proparoxítona real, enquanto \"história\" e \"água\" são PAROXÍTONAS terminadas em ditongo crescente (ou proparoxítonas aparentes/eventuais)."
       }
     ]
   },

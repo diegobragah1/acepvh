@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Sinônimos",
-            "detail": "Sentidos equivalentes no contexto"
+            "detail": "Sentidos equivalentes no contexto",
+            "badge": "Foco #1"
           },
           {
             "label": "Antônimos",
-            "detail": "Sentidos opostos (urbano ↔ rural)"
+            "detail": "Sentidos opostos (urbano ↔ rural)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Parônimos (Parecidos)",
-            "detail": "Denotação: sentido base/referencial no enunciado. Conotação: transposição figurada dependente do contexto (dicionários também registram acepções figuradas)."
+            "detail": "Denotação: sentido base/referencial no enunciado. Conotação: transposição figurada dependente do contexto (dicionários também registram acepções figuradas).",
+            "badge": "Foco #1"
           },
           {
             "label": "Homônimos",
-            "detail": "Seção/Sessão/Cessão, Conserto/Concerto"
+            "detail": "Seção/Sessão/Cessão, Conserto/Concerto",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Polissemia",
-            "detail": "Mesma palavra com múltiplos sentidos (cabeça, rede)"
+            "detail": "Mesma palavra com múltiplos sentidos (cabeça, rede)",
+            "badge": "Foco #1"
           },
           {
             "label": "Denotação vs. Conotação",
-            "detail": "Sentido literal/dicionário vs. sentido figurado"
+            "detail": "Sentido literal/dicionário vs. sentido figurado",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Hiperônimo (Geral)",
-            "detail": "Doença / Inseto / Município"
+            "detail": "Doença / Inseto / Município",
+            "badge": "Foco #1"
           },
           {
             "label": "Hipônimo (Específico)",
-            "detail": "Malária / Aedes aegypti / Porto Velho"
+            "detail": "Malária / Aedes aegypti / Porto Velho",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Ratificar = Confirmar | Retificar = Corrigir • Iminente = Prestes a ocorrer | Eminente = Ilustre • Infringir = Violar lei | Infligir = Aplicar pena • Polissemia = 1 palavra com vários sentidos",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Polissemia vs. Homonímia",
+        "label": "Polissemia = mesma origem e vários sentidos em contexto; Homonímia = origens distintas que coincidem na grafia ou no som",
+        "ref": "Semântica Lexical"
+      },
+      {
+        "value": "Hiperônimo → Hipônimo",
+        "label": "Hiperônimo (geral: \"arbovirose\") retoma Hipônimo (específico: \"dengue\") garantindo coesão sem repetição",
+        "ref": "Hierarquia Semântica"
+      },
+      {
+        "value": "Denotação vs. Conotação",
+        "label": "Denotativo = sentido literal/dicionário; Conotativo = sentido figurado/metafórico construído no contexto",
+        "ref": "Plano de Sentido"
+      },
+      {
+        "value": "Seção / Sessão / Cessão",
+        "label": "Seção = setor/divisão; Sessão = tempo de reunião/cinema; Cessão = ato de ceder/doar",
+        "ref": "Homônimos Homófonos"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em \"O fiscal infligiu as normas sanitárias e por isso lhe foi infringida uma multa\", os parônimos foram empregados corretamente.",
+        "right": "FALSO! Os verbos foram invertidos: quem viola a norma INFRINGE a lei; quem aplica a penalidade INFLIGE a multa!"
+      },
+      {
+        "wrong": "O termo \"doença\" é um hipônimo em relação a \"malária\" e \"leishmaniose\".",
+        "right": "FALSO! \"Doença\" é o termo mais amplo/genérico (HIPERÔNIMO), enquanto \"malária\" e \"leishmaniose\" são os termos específicos (HIPÔNIMOS)."
       }
     ]
   },

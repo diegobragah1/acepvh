@@ -83,7 +83,9 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
   const [selectedBranchIdx, setSelectedBranchIdx] = useState<number | 'all'>('all');
   const [memoryTestMode, setMemoryTestMode] = useState(false);
   const [revealedNodes, setRevealedNodes] = useState<Record<string, boolean>>({});
-  const [isExpanded, setIsExpanded] = useState(true);
+  const [isExpanded, setIsExpanded] = useState(() =>
+    typeof window !== 'undefined' ? window.innerWidth >= 768 : true
+  );
 
   useEffect(() => {
     setSelectedBranchIdx('all');
@@ -106,52 +108,52 @@ export const LessonMindMapView: React.FC<LessonMindMapViewProps> = ({
   return (
     <div
       id="lesson-mindmap-section"
-      className="rounded-2xl border-2 border-teal-600/30 bg-gradient-to-br from-slate-50 via-white to-teal-50/30 p-4 sm:p-5 shadow-sm space-y-5 scroll-mt-24"
+      className="rounded-xl border border-teal-600/30 bg-gradient-to-br from-slate-50 via-white to-teal-50/30 p-3 sm:p-4 shadow-xs space-y-3.5 scroll-mt-20"
     >
       {/* Top Bar: Title + Interactive Controls */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-3">
-        <div className="flex items-center gap-2.5">
-          <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-teal-700 text-white text-lg shadow-sm">
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
+        <div className="flex items-center gap-2 min-w-0">
+          <span className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-teal-700 text-white text-base shadow-xs shrink-0">
             🧠
           </span>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="text-[11px] font-extrabold uppercase tracking-wider text-teal-800 bg-teal-100 px-2 py-0.5 rounded-md border border-teal-200">
-                Mapa Mental &amp; Resumo Gráfico &bull; Aula #{String(lessonNum).padStart(2, '0')}
-              </span>
-              <span className="text-[11px] font-semibold text-slate-500 hidden sm:inline">
-                Síntese Visual de Prazos, Conceitos-Chave e Armadilhas IBGP
+          <div className="min-w-0">
+            <div className="flex items-center gap-1.5 text-[11px] text-teal-800 font-bold">
+              <span>Mapa Mental &amp; Ramos Visuais &middot; Aula #{String(lessonNum).padStart(2, '0')}</span>
+              <span className="text-slate-500 hidden sm:inline">
+                &middot; {allBranches.length} Ramos &middot; {deadlinesList.length} Prazos/Números
               </span>
             </div>
-            <h3 className="text-sm sm:text-base font-extrabold text-slate-900 mt-0.5">
+            <h3 className="text-xs sm:text-sm font-extrabold text-slate-900 truncate">
               {mindMap.centralTitle}
             </h3>
           </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-1.5 no-print">
-          <button
-            type="button"
-            onClick={() => {
-              setMemoryTestMode(prev => !prev);
-              setRevealedNodes({});
-            }}
-            className={`px-3 py-1.5 rounded-xl text-xs font-extrabold border transition ${
-              memoryTestMode
-                ? 'bg-amber-400 text-slate-950 border-amber-500 shadow-sm'
-                : 'bg-white hover:bg-amber-50 text-slate-800 border-slate-300'
-            }`}
-            title="Oculta as explicações de cada nó do Mapa Mental para você testar sua recordação visual clicando nos cartões!"
-          >
-            {memoryTestMode ? '🎯 Teste de Memória Visual: ATIVO' : '🎯 Testar Memória no Mapa'}
-          </button>
+          {isExpanded && (
+            <button
+              type="button"
+              onClick={() => {
+                setMemoryTestMode(prev => !prev);
+                setRevealedNodes({});
+              }}
+              className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition cursor-pointer ${
+                memoryTestMode
+                  ? 'bg-amber-400 text-slate-950 border-amber-500 shadow-xs'
+                  : 'bg-white hover:bg-amber-50 text-slate-800 border-slate-300'
+              }`}
+              title="Oculta as explicações de cada nó do Mapa Mental para você testar sua recordação visual clicando nos cartões!"
+            >
+              {memoryTestMode ? '🎯 Memória Visual: ATIVO' : '🎯 Testar Memória'}
+            </button>
+          )}
 
           <button
             type="button"
             onClick={() => setIsExpanded(prev => !prev)}
-            className="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300"
+            className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-teal-700 hover:bg-teal-800 text-white cursor-pointer"
           >
-            {isExpanded ? '➖ Recolher Mapa' : '➕ Expandir Mapa'}
+            {isExpanded ? '➖ Recolher Mapa' : `➕ Abrir Mapa (${allBranches.length} Ramos)`}
           </button>
         </div>
       </div>

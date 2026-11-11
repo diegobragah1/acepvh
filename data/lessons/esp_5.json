@@ -23,94 +23,114 @@
   "questionsCount": 10,
   "flashcardsCount": 11,
   "mindMap": {
-    "centralTitle": "5. Política Nacional de Atenção Básica (PNAB — Portaria GM/MS nº 2.436/2017) e Integração na RAS",
-    "mnemonic": "3 Princípios da PNAB: Universalidade, Equidade e Integralidade • 9 Diretrizes: Regionalização, Territorialização, População Adscrita, Cuidado Centrado na Pessoa, Resolutividade, Longitudinalidade, Coordenação, Ordenação da Rede e Participação",
+    "centralTitle": "5. Política Nacional de Atenção Básica (PNAB — Portaria Federal nº 2.436/2017)",
+    "mnemonic": "3 Princípios = Universalidade, Equidade e Integralidade • População por eSF = 2.000 a 3.500 pessoas • Máximo por ACS = 750 pessoas • Carga Horária ACE/ACS na PNAB = 40h semanais • 4 Equipes por UBS (recomendado)",
     "deadlinesAndNumbers": [
       {
         "value": "2.000 a 3.500 pessoas",
-        "label": "População adscrita recomendada por equipe de Saúde da Família (eSF) ou Atenção Básica (eAB)"
+        "label": "População adscrita recomendada por equipe de Saúde da Família (eSF) e de Atenção Básica (eAB)",
+        "ref": "Anexo PNAB item 3.3"
       },
       {
-        "value": "Até 750 pessoas",
-        "label": "Limite máximo de pessoas acompanhadas por Agente Comunitário de Saúde (ACS) na microárea"
+        "value": "Máximo 750 pessoas",
+        "label": "Número máximo de pessoas acompanhadas por 1 Agente Comunitário de Saúde (ACS) na microárea",
+        "ref": "Anexo PNAB item 3.4"
       },
       {
         "value": "40 horas semanais",
-        "label": "Carga horária obrigatória para todos os profissionais da eSF, ACS e ACE na PNAB"
+        "label": "Carga horária obrigatória para todos os profissionais da eSF (médico, enfermeiro, técnico, ACS e ACE vinculado)",
+        "ref": "Anexo PNAB item 3.4"
       },
       {
-        "value": "Até 4 equipes / UBS",
-        "label": "Recomendação máxima de equipes por Unidade Básica de Saúde para garantir vínculo"
+        "value": "60 dias (SCNES)",
+        "label": "Prazo máximo após publicação de portaria de credenciamento para cadastrar e iniciar o funcionamento da equipe",
+        "ref": "Portaria 2.436/2017"
       }
     ],
     "branches": [
       {
-        "title": "1. Região de Saúde e Portas de Entrada (Arts. 2º–14)",
-        "icon": "🗺️",
+        "title": "1. Princípios (3) e Diretrizes (9) da Atenção Básica na PNAB",
+        "icon": "🧭",
         "color": "teal",
         "nodes": [
           {
-            "label": "Região de Saúde (Arts. 2º e 5º)",
-            "detail": "Espaço geográfico contínuo de Municípios limítrofes. Exige no mínimo 5 ações: Atenção Primária, Urgência/Emergência, Psicossocial, Ambulatorial/Hospitalar e Vigilância em Saúde.",
-            "badge": "Municípios Limítrofes"
+            "label": "Os 3 Princípios da PNAB 2017",
+            "detail": "1. Universalidade (acesso universal e contínuo sem diferenciação); 2. Equidade (oferta segundo as necessidades, reduzindo desigualdades); 3. Integralidade (cuidado integral: promoção, prevenção, cura, reabilitação e redução de danos).",
+            "badge": "3 Princípios (U-E-I)"
           },
           {
-            "label": "4 Portas de Entrada (Art. 9º)",
-            "detail": "Atenção Primária, Urgência/Emergência, Atenção Psicossocial e Especiais de Acesso Aberto. (Hospitalar/Ambulatorial Especializada NÃO é porta de entrada!).",
-            "badge": "Art. 9º"
+            "label": "As 9 Diretrizes da PNAB 2017",
+            "detail": "Regionalização e Hierarquização; Territorialização; População Adscrita; Cuidado Centrado na Pessoa; Resolutividade; Longitudinalidade do Cuidado; Coordenação do Cuidado; Ordenação da Rede; e Participação da Comunidade.",
+            "badge": "9 Diretrizes"
+          },
+          {
+            "label": "Proibição de Restrição de Acesso",
+            "detail": "É proibida qualquer exclusão baseada em idade, gênero, raça/cor, etnia, crença, condição socioeconômica ou orientação sexual.",
+            "badge": "Acesso Universal"
           }
         ]
       },
       {
-        "title": "2. RENASES, RENAME, CIT/CIB/CIR e COAP (Arts. 21–41)",
-        "icon": "📋",
+        "title": "2. Tipologia das Equipes na PNAB (eSF, eAB, eSFR, UBSF e eSB)",
+        "icon": "👩‍⚕️",
         "color": "indigo",
         "nodes": [
           {
-            "label": "RENASES e RENAME (a cada 2 anos)",
-            "detail": "RENASES = todas as ações e serviços do SUS; RENAME = medicamentos essenciais padronizados. Acesso exige prescrição no SUS + conformidade c/ RENAME/PCDT.",
-            "badge": "Arts. 21 a 29"
+            "label": "Equipe de Saúde da Família (eSF — Estratégia Prioritária)",
+            "detail": "Composição mínima obrigatória: Médico, Enfermeiro, Auxiliar/Técnico de Enfermagem e Agente Comunitário de Saúde (ACS). Podem compor a equipe: ACE e profissionais de Saúde Bucal.",
+            "badge": "Composição Mínima eSF"
           },
           {
-            "label": "COAP e Comissões (CIR)",
-            "detail": "CIR = Comissão Intergestores Regional. COAP = Contrato Organizativo da Ação Pública da Saúde firmado entre entes federativos na Região de Saúde.",
-            "badge": "Arts. 30 a 41"
+            "label": "Equipe de Atenção Básica (eAB) e Saúde Ribeirinha/Fluvial",
+            "detail": "eAB: médico, enfermeiro e auxiliar/técnico (carga horária mínima de 10h por profissional, somando 40h por categoria, máx. 3 profissionais por categoria). Em Porto Velho destacam-se as eSFR (Saúde da Família Ribeirinha) e UBSF (Unidades Básicas de Saúde Fluviais).",
+            "badge": "eAB / eSFR / UBSF"
           }
         ]
       },
       {
-        "title": "3. PNAB 2017 e Integração ACE + ACS",
-        "icon": "🏠",
+        "title": "3. Território, População Adscrita e Parâmetros Operacionais",
+        "icon": "🗺️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "População Adscrita (2.000 a 3.500) e Limite de 750 por ACS",
+            "detail": "Cada eSF/eAB atende de 2.000 a 3.500 pessoas (podendo ser menor em áreas ribeirinhas/rurais dispersas como o Baixo Madeira). Cada ACS acompanha no máximo 750 pessoas, cobrindo 100% da população cadastrada da microárea.",
+            "badge": "2.000–3.500 | 750/ACS"
+          },
+          {
+            "label": "Número de Equipes por UBS e Horário de Funcionamento",
+            "detail": "Recomenda-se no máximo 4 equipes por UBS para garantir vínculo. Funcionamento mínimo de 40 horas/semana, 5 dias por semana, nos 12 meses do ano.",
+            "badge": "40h / 5 dias / 12 meses"
+          }
+        ]
+      },
+      {
+        "title": "4. Integração ACE + ACS e as 10 Atribuições Comuns na PNAB",
+        "icon": "🤝",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Território Único e Base Comum",
-            "detail": "Integração obrigatória entre Atenção Básica e Vigilância em Saúde: território único, planejamento conjunto e compartilhamento de informações entre ACE e ACS.",
-            "badge": "PNAB 2017"
+            "label": "Território Único e Planejamento Conjunto (Item 4.2.6)",
+            "detail": "A PNAB determina a unificação da base geográfica entre ACS e ACE, com planejamento integrado das visitas domiciliares, troca diária de informações sobre focos e casos febris e educação em saúde conjunta.",
+            "badge": "Base Geográfica Única"
           },
           {
-            "label": "eSF vs. eAP",
-            "detail": "Saúde da Família (eSF) é a estratégia prioritária (médico, enfermeiro, auxiliar/técnico e ACS, podendo incluir ACE e Saúde Bucal).",
-            "badge": "Ordenadora da RAS"
+            "label": "Atribuições Específicas do ACE na PNAB",
+            "detail": "Identificar focos e criadouros, realizar eliminação mecânica, aplicar larvicidas/inseticidas quando indicado, registrar ações nos sistemas de informação e bloquear a transmissão de doenças.",
+            "badge": "ACE na Atenção Básica"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "3 Princípios (U-E-I), 9 Diretrizes, Equipes (eSF, eAB, eSFR, UBSF, eMulti), População Adscrita (2.000 a 3.500), Limite por ACS (750) e as 10 Atribuições Comuns ACE + ACS",
+    "goldenTraps": [
+      {
+        "wrong": "Na Equipe de Saúde da Família (eSF), a presença do Agente de Combate às Endemias (ACE) e do Cirurgião-Dentista é obrigatória para o credenciamento mínimo.",
+        "right": "FALSO! A composição mínima obrigatória da eSF é Médico, Enfermeiro, Auxiliar/Técnico de Enfermagem e ACS. O ACE e os profissionais de Saúde Bucal PODEM compor a equipe (são agregados/integrados), mas não são condição mínima de existência da eSF."
       },
       {
-        "title": "4. HumanizaSUS (Política Nacional de Humanização — PNH)",
-        "icon": "❤️",
-        "color": "rose",
-        "nodes": [
-          {
-            "label": "3 Princípios da PNH",
-            "detail": "1. Transversalidade; 2. Indissociabilidade entre atenção e gestão; 3. Protagonismo, corresponsabilidade e autonomia dos sujeitos e coletivos.",
-            "badge": "3 Princípios"
-          },
-          {
-            "label": "Diretrizes e Dispositivos",
-            "detail": "Acolhimento com classificação de risco, Clínica Ampliada e Compartilhada, Projeto Terapêutico Singular (PTS), Cogestão e Ambiência.",
-            "badge": "Dispositivos PNH"
-          }
-        ]
+        "wrong": "Cada Agente Comunitário de Saúde (ACS) pode acompanhar até 3.500 pessoas em sua microárea segundo a PNAB 2017.",
+        "right": "FALSO! 2.000 a 3.500 pessoas é a população de toda a EQUIPE (eSF). O limite máximo por ACS é de 750 pessoas!"
       }
     ]
   },

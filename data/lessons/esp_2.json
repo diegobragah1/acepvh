@@ -24,94 +24,119 @@
   "questionsCount": 19,
   "flashcardsCount": 21,
   "mindMap": {
-    "centralTitle": "2. Legislações Federais de Saúde Pública: Lei 8.080/1990 + Portaria 2.436/2017 + Lei 8.142/1990",
-    "mnemonic": "Lei 8.080/90 (Estrutura, Subsistemas, RENAME/CONITEC e Financiamento) • Lei 8.142/90 (Conselhos Paritários 50% Usuários, Conferências 4/4 anos e Fundo a Fundo) • Portaria 2.436/17 (Marco Legal da PNAB)",
+    "centralTitle": "2. Legislações Federais de Saúde Pública: Lei nº 8.080/1990, Portaria nº 2.436/2017 (PNAB) e Lei nº 8.142/1990",
+    "mnemonic": "Lei 8.080 = Organização, Princípios, Direção Única e Subsistemas (SasiSUS/AD/Parto/IAPI) • Lei 8.142 = Conselhos (50% Usuários, Deliberativo) + Conferências (4 em 4 anos) + Fundo a Fundo • Portaria 2.436 = PNAB (Porta Preferencial)",
     "deadlinesAndNumbers": [
       {
         "value": "4 em 4 anos",
-        "label": "Periodicidade das Conferências de Saúde (Art. 1º, § 1º da Lei 8.142/1990)"
+        "label": "Periodicidade ordinária das Conferências de Saúde (convocadas pelo Executivo ou extraordinariamente por esta ou pelo Conselho)",
+        "ref": "Art. 1º, § 1º Lei 8.142/90"
       },
       {
-        "value": "50% Usuários",
-        "label": "Paridade nos Conselhos de Saúde (50% usuários + 25% trabalhadores + 25% gestores/prestadores)"
+        "value": "50% de Usuários",
+        "label": "Representação paritária dos usuários nos Conselhos e Conferências de Saúde em relação ao conjunto dos demais segmentos",
+        "ref": "Art. 1º, § 4º Lei 8.142/90"
+      },
+      {
+        "value": "180 dias (CONITEC)",
+        "label": "Prazo(s) de avaliação de incorporação tecnológica no SUS (prorrogável por +90 dias) pela CONITEC",
+        "ref": "Art. 19-R Lei 8.080/90"
       },
       {
         "value": "6 Requisitos (Art. 4º)",
-        "label": "Fundo, Conselho, Plano, Relatório de Gestão, Contrapartida e Comissão de Carreira (PCCS)"
-      },
-      {
-        "value": "180 dias",
-        "label": "Prazo da CONITEC (prorrogável por +90 dias) para incorporação de tecnologia no SUS (Art. 19-R)"
+        "label": "Fundo de Saúde, Conselho, Plano, Relatórios, Contrapartida no orçamento e Comissão de PCCS para repasse regular",
+        "ref": "Art. 4º Lei 8.142/90"
       }
     ],
     "branches": [
       {
-        "title": "1. Assistência Terapêutica e CONITEC (Arts. 19-M a 19-U)",
-        "icon": "💊",
+        "title": "1. Lei nº 8.080/1990: Campo de Atuação e Subsistemas",
+        "icon": "🏥",
         "color": "teal",
         "nodes": [
           {
-            "label": "Dispensação e PCDT",
-            "detail": "Segue os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) e relações federal, estadual e municipal de medicamentos.",
-            "badge": "Art. 19-M"
+            "label": "Campo de Atuação do SUS (Art. 6º)",
+            "detail": "Execução de vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e assistência terapêutica integral (inclusive farmacêutica).",
+            "badge": "Art. 6º Lei 8.080"
           },
           {
-            "label": "CONITEC e Prazo de 180 dias",
-            "detail": "Assessoria ao Ministério da Saúde na incorporação de tecnologias. Prazo de 180 dias (prorrogável por +90 dias corridos).",
-            "badge": "Arts. 19-Q e 19-R"
+            "label": "Os 4 Subsistemas Especiais da Lei 8.080/90",
+            "detail": "1. Saúde Indígena — SasiSUS (Arts. 19-A a 19-H, financiado pela União); 2. Atendimento e Internação Domiciliar (Art. 19-I); 3. Acompanhante no Parto (Art. 19-J); 4. CONITEC e Assistência Terapêutica (Arts. 19-M a 19-U).",
+            "badge": "Arts. 19-A a 19-U"
+          },
+          {
+            "label": "Participação Complementar e Financiamento (Arts. 24–38)",
+            "detail": "Quando as disponibilidades do SUS forem insuficientes, recorre-se à iniciativa privada mediante contrato ou convênio, com preferência para entidades filantrópicas e sem fins lucrativos.",
+            "badge": "Arts. 24 a 26"
           }
         ]
       },
       {
-        "title": "2. Participação Privada e RH (Arts. 20–30)",
-        "icon": "🤝",
+        "title": "2. Lei nº 8.142/1990: Conselhos e Conferências de Saúde",
+        "icon": "🗣️",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Quando o SUS recorre ao Setor Privado?",
-            "detail": "Quando as suas disponibilidades forem insuficientes para garantir a cobertura assistencial à população de uma determinada área.",
-            "badge": "Art. 24"
+            "label": "Conferência de Saúde (Art. 1º, § 1º — Consultiva)",
+            "detail": "Reúne-se a cada 4 anos com representação dos vários segmentos sociais para avaliar a situação de saúde e propor diretrizes para a política de saúde.",
+            "badge": "A cada 4 anos"
           },
           {
-            "label": "Vedação de Chefia (Art. 26, § 4º)",
-            "detail": "Aos proprietários, administradores e dirigentes de entidades contratadas é VEDADO exercer cargo de chefia ou função de confiança no SUS.",
-            "badge": "Pegadinha IBGP!"
+            "label": "Conselho de Saúde (Art. 1º, § 2º — Permanente e Deliberativo)",
+            "detail": "Órgão colegiado composto por governo, prestadores de serviço, profissionais de saúde e usuários (paritário: 50% usuários); atua na formulação de estratégias e no controle da execução, inclusive econômica e financeira.",
+            "badge": "Deliberativo (50%)"
+          },
+          {
+            "label": "Homologação das Decisões e CONASS/CONASEMS",
+            "detail": "As decisões do Conselho são homologadas pelo chefe do poder legalmente constituído em cada esfera. CONASS e CONASEMS têm representação no Conselho Nacional de Saúde (§ 3º).",
+            "badge": "Art. 1º, §§ 2º e 3º"
           }
         ]
       },
       {
-        "title": "3. Planejamento, Orçamento e Financiamento (Arts. 31–38)",
-        "icon": "📈",
+        "title": "3. Lei nº 8.142/1990: Transferências Intergovernamentais",
+        "icon": "💰",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Planejamento Ascendente (Art. 36)",
-            "detail": "Do nível local (municipal) até o federal, compatibilizando necessidades com disponibilidade financeira nos Planos de Saúde.",
-            "badge": "Art. 36"
+            "label": "Repasse Regular e Automático (Fundo a Fundo)",
+            "detail": "Os recursos do FNS são alocados como cobertura das ações e serviços de saúde a serem implementados pelos Municípios, Estados e DF (mínimo de 70% aos Municípios no Art. 3º, § 2º).",
+            "badge": "Fundo a Fundo"
           },
           {
-            "label": "Critérios de Rateio (Art. 35)",
-            "detail": "Perfil demográfico, perfil epidemiológico, características quantitativas/qualitativas da rede, desempenho técnico e ressarcimento.",
-            "badge": "Art. 35"
+            "label": "Os 6 Requisitos do Art. 4º para Municípios, Estados e DF",
+            "detail": "I — Fundo de Saúde; II — Conselho de Saúde; III — Plano de Saúde; IV — Relatórios de Gestão; V — Contrapartida de recursos no orçamento; VI — Comissão de elaboração do Plano de Carreira, Cargos e Salários (PCCS).",
+            "badge": "6 Requisitos (Art. 4º)"
           }
         ]
       },
       {
-        "title": "4. Lei nº 8.142/1990 — Controle Social e Repasses",
-        "icon": "🗣️",
+        "title": "4. Portaria nº 2.436/2017: Diretrizes Gerais da PNAB no SUS",
+        "icon": "🧭",
         "color": "amber",
         "nodes": [
           {
-            "label": "Conferência vs. Conselho (Art. 1º)",
-            "detail": "Conferência = a cada 4 anos (propositiva). Conselho = permanente e deliberativo, controla inclusive aspectos econômicos e financeiros.",
-            "badge": "50% Usuários"
+            "label": "Atenção Básica como Ordenadora da RAS",
+            "detail": "Principal porta de entrada e centro de comunicação da Rede de Atenção à Saúde (RAS), coordenando o cuidado e ordenando os fluxos e contrafluxos.",
+            "badge": "Portaria 2.436/17"
           },
           {
-            "label": "6 Requisitos do Art. 4º",
-            "detail": "I - Fundo de Saúde; II - Conselho de Saúde; III - Plano de Saúde; IV - Relatórios de Gestão; V - Contrapartida no orçamento; VI - Comissão do PCCS.",
-            "badge": "Fundo a Fundo"
+            "label": "Integração Vigilância em Saúde + Atenção Básica",
+            "detail": "Determina a territorialização conjunta e a atuação integrada entre Agentes de Combate às Endemias (ACE) e Agentes Comunitários de Saúde (ACS) sob base territorial única.",
+            "badge": "ACE + ACS na PNAB"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Estrutura e Subsistemas da Lei Orgânica da Saúde (Lei 8.080/90), Controle Social e Transferências Intergovernamentais (Lei 8.142/90) e Atenção Básica (Portaria 2.436/17)",
+    "goldenTraps": [
+      {
+        "wrong": "A Conferência de Saúde é um órgão permanente e deliberativo que fiscaliza mensalmente o Fundo Municipal de Saúde.",
+        "right": "FALSO! Quem tem caráter permanente e deliberativo é o CONSELHO de Saúde (Art. 1º, § 2º da Lei 8.142/90). A Conferência reúne-se a cada 4 anos para avaliar a situação e propor diretrizes."
+      },
+      {
+        "wrong": "O Subsistema de Atenção à Saúde Indígena (SasiSUS) é financiado exclusivamente pelos Municípios que possuem terras indígenas.",
+        "right": "FALSO! Pelo Art. 19-E da Lei 8.080/90, caberá à UNIÃO, com seus recursos próprios, financiar o Subsistema de Atenção à Saúde Indígena (Estados e Municípios atuam de forma complementar)."
       }
     ]
   },

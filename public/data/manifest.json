@@ -220,8 +220,8 @@
       "totalBlocosBase": 50,
       "totalBlocosComAprofundamento": 60,
       "totalQuestoesBase": 135,
-      "totalQuestoesComAprofundamento": 155,
-      "totalFlashcards": 169,
+      "totalQuestoesComAprofundamento": 175,
+      "totalFlashcards": 180,
       "aulasIds": [
         "esp_1",
         "esp_2",
@@ -245,8 +245,8 @@
       "totalBlocosBase": 38,
       "totalBlocosComAprofundamento": 45,
       "totalQuestoesBase": 94,
-      "totalQuestoesComAprofundamento": 108,
-      "totalFlashcards": 133,
+      "totalQuestoesComAprofundamento": 122,
+      "totalFlashcards": 140,
       "aulasIds": [
         "leg_1",
         "leg_2",
@@ -267,8 +267,8 @@
       "totalBlocosBase": 44,
       "totalBlocosComAprofundamento": 62,
       "totalQuestoesBase": 136,
-      "totalQuestoesComAprofundamento": 172,
-      "totalFlashcards": 141,
+      "totalQuestoesComAprofundamento": 208,
+      "totalFlashcards": 172,
       "aulasIds": [
         "por_1",
         "por_2",
@@ -300,8 +300,8 @@
       "totalBlocosBase": 36,
       "totalBlocosComAprofundamento": 44,
       "totalQuestoesBase": 116,
-      "totalQuestoesComAprofundamento": 132,
-      "totalFlashcards": 141,
+      "totalQuestoesComAprofundamento": 148,
+      "totalFlashcards": 149,
       "aulasIds": [
         "rlm_1",
         "rlm_2",
@@ -323,8 +323,8 @@
       "totalBlocosBase": 19,
       "totalBlocosComAprofundamento": 25,
       "totalQuestoesBase": 53,
-      "totalQuestoesComAprofundamento": 65,
-      "totalFlashcards": 76,
+      "totalQuestoesComAprofundamento": 79,
+      "totalFlashcards": 82,
       "aulasIds": [
         "atu_1",
         "atu_2",
@@ -347,10 +347,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 10,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "137831e189951eadf6e2aa66c18b10f84e5dee99c561b4ebf6c3d5d170023c50"
+      "contentHash": "ac3f603cf7acd4a91618341299180718bf8d0ec568739d94bebfdcc9e71d3e9b"
     },
     {
       "id": "esp_2",
@@ -363,10 +363,10 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 19,
-      "enrichedQuestionsCount": 21,
-      "flashcardsCount": 23,
+      "enrichedQuestionsCount": 23,
+      "flashcardsCount": 24,
       "hasMindMap": true,
-      "contentHash": "aa8633130f095057f268556cb1fc96460534905b34836577a41d54a7973b43bf"
+      "contentHash": "ebf3f005666f1d30b3066995dbc885ca4951a93ca497a0f6469446dcfbb93848"
     },
     {
       "id": "esp_3",
@@ -379,10 +379,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 11,
-      "enrichedQuestionsCount": 13,
-      "flashcardsCount": 14,
+      "enrichedQuestionsCount": 15,
+      "flashcardsCount": 16,
       "hasMindMap": true,
-      "contentHash": "0e9314f39296c6a57cbbe5df876741e5acf7424d59bd49ef6e8917e06086f523"
+      "contentHash": "f59dd55b5859fb8b5b8402dea2277fbaca6829968e8ebc45ff32681e3de56270"
     },
     {
       "id": "esp_4",
@@ -395,10 +395,10 @@
       "blocksCount": 5,
       "enrichedBlocksCount": 6,
       "questionsCount": 16,
-      "enrichedQuestionsCount": 18,
-      "flashcardsCount": 19,
+      "enrichedQuestionsCount": 20,
+      "flashcardsCount": 20,
       "hasMindMap": true,
-      "contentHash": "a2a0494fae2743101f8c26e4187d6bfe3bb5965cf9fcaba588919cdb5797a5d7"
+      "contentHash": "f72a79d71a8c1e9561e8648bd47a05a0094161379991645dc1e0bdd0885ba0fe"
     },
     {
       "id": "esp_5",
@@ -411,10 +411,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 13,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 14,
       "hasMindMap": true,
-      "contentHash": "f4a1f46a3139b900e48ac4b1a8ebae854ee479e197d6ef039a2b4e2433188f2e"
+      "contentHash": "a702431a33829f2683ebe46299164f4bd6d956e709d291dfe9ac8c481f8cdcfe"
     },
     {
       "id": "esp_6",
@@ -427,10 +427,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 10,
       "hasMindMap": true,
-      "contentHash": "f756c2b73dd17abe48bf92954e5d303998858fc64955eea8073fd7063247bb2d"
+      "contentHash": "ad466580b65b4af19050418da1741446f56624a99e0569cbf8b22f47de8f782f"
     },
     {
       "id": "esp_7",
@@ -443,10 +443,10 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 15,
-      "enrichedQuestionsCount": 17,
-      "flashcardsCount": 18,
+      "enrichedQuestionsCount": 19,
+      "flashcardsCount": 19,
       "hasMindMap": true,
-      "contentHash": "dcc2b1598ce2f12c56b697b6ce634f67c3c4f23c40d47194a7577d46a92b7ef3"
+      "contentHash": "fb6c5afb478f713e087ab6be3b883959062f1268757ea54da09b9d9d7d8923d9"
     },
     {
       "id": "esp_8",
@@ -459,10 +459,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 14,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 15,
       "hasMindMap": true,
-      "contentHash": "6e769599961d65f2fdf6a38948eaf4e1a34d5b3eda39d1be7683bec80ee3c573"
+      "contentHash": "f751d263f877fb8e57602b968ededcbd54db70b189bb1e5e4b79eb4027d60e10"
     },
     {
       "id": "esp_9",
@@ -475,10 +475,10 @@
       "blocksCount": 12,
       "enrichedBlocksCount": 13,
       "questionsCount": 29,
-      "enrichedQuestionsCount": 31,
-      "flashcardsCount": 37,
+      "enrichedQuestionsCount": 33,
+      "flashcardsCount": 38,
       "hasMindMap": true,
-      "contentHash": "6b6e8487c41c6e6541bd73df191a694b32b9c380659975a3b787b0da9b4bcc42"
+      "contentHash": "d1e10be10186c553ccce80e13ffac3fd7ef0522e3393b4d988b7bc66aa93d1b5"
     },
     {
       "id": "esp_10",
@@ -491,10 +491,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 12,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 13,
       "hasMindMap": true,
-      "contentHash": "8332914d42b3da19b53dcc1525154d9551327350f0d56276e16c5c5ffd2a8a46"
+      "contentHash": "ec440f6cb862942c41e7ab7b3c246e4612ed42fba759962b1889ac9dc47def3b"
     },
     {
       "id": "leg_1",
@@ -507,10 +507,10 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 15,
-      "enrichedQuestionsCount": 17,
-      "flashcardsCount": 22,
+      "enrichedQuestionsCount": 19,
+      "flashcardsCount": 23,
       "hasMindMap": true,
-      "contentHash": "250f2d4eda0ade0000bc6ef71bae5883d73af70b8e80d7a1613bc7c46d3f58cd"
+      "contentHash": "90139faacdde648c377b6a301f4abf3a09c0c1e2d0dee2c03c909f4a5676bb30"
     },
     {
       "id": "leg_2",
@@ -523,8 +523,8 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 15,
-      "enrichedQuestionsCount": 17,
-      "flashcardsCount": 22,
+      "enrichedQuestionsCount": 19,
+      "flashcardsCount": 23,
       "hasMindMap": true,
       "contentHash": "98f4e39c4f6fc70deaff37dd89cc56adc00d4dc7ad2d837d52d11345ba274f7a"
     },
@@ -539,10 +539,10 @@
       "blocksCount": 5,
       "enrichedBlocksCount": 6,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 14,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 15,
       "hasMindMap": true,
-      "contentHash": "e32e4a49f50c6f6e70e563cd351353cc57f8d5ea47422b19278308f0ba35505a"
+      "contentHash": "aff32264589e2d5020afdf0a1caaeb523886227faaa5ef7454d8e15681b48a46"
     },
     {
       "id": "leg_4",
@@ -555,10 +555,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 12,
-      "enrichedQuestionsCount": 14,
-      "flashcardsCount": 15,
+      "enrichedQuestionsCount": 16,
+      "flashcardsCount": 16,
       "hasMindMap": true,
-      "contentHash": "318094deb64a2637bc06afc431abb69f9c0006c4a15c479f181b1611b3574424"
+      "contentHash": "f0aef6a69bf71b448351c2a7ee702b2ab1b2c32bb46905d522a76f38884dccbb"
     },
     {
       "id": "leg_5",
@@ -571,10 +571,10 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 14,
-      "enrichedQuestionsCount": 16,
-      "flashcardsCount": 20,
+      "enrichedQuestionsCount": 18,
+      "flashcardsCount": 21,
       "hasMindMap": true,
-      "contentHash": "aed5b1598a984c3b1dc82ae17058fa8978ebf5ac084492364aa0f6d02a568542"
+      "contentHash": "0397beb20898c43a627a30116e28bc35c209366d6e92a8287554b1fd9546af7d"
     },
     {
       "id": "leg_6",
@@ -587,8 +587,8 @@
       "blocksCount": 7,
       "enrichedBlocksCount": 8,
       "questionsCount": 18,
-      "enrichedQuestionsCount": 20,
-      "flashcardsCount": 26,
+      "enrichedQuestionsCount": 22,
+      "flashcardsCount": 27,
       "hasMindMap": true,
       "contentHash": "0266520e8dcdc663b21b1eda308bbbefd21712499d07173129d74534cc692aa4"
     },
@@ -603,8 +603,8 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 14,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 15,
       "hasMindMap": true,
       "contentHash": "3fa2b025f5d39da0ff58790abb93210bbd34f5dfcac295c36d3979f836f65d31"
     },
@@ -618,10 +618,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 15,
-      "enrichedQuestionsCount": 17,
-      "flashcardsCount": 11,
+      "enrichedQuestionsCount": 19,
+      "flashcardsCount": 12,
       "hasMindMap": true,
-      "contentHash": "bbb796d4b033d9cc93a0d2c58dd00cba72f65152ef86455798240c29b8dbb381"
+      "contentHash": "e1e248896366b9c9b2a7a030f7319e5001a8711e63815271a09700da08b3e67a"
     },
     {
       "id": "por_2",
@@ -633,10 +633,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 4,
-      "enrichedQuestionsCount": 6,
-      "flashcardsCount": 6,
+      "enrichedQuestionsCount": 8,
+      "flashcardsCount": 8,
       "hasMindMap": true,
-      "contentHash": "44ab67eb533c4564eb5901abe342551c9d89168406cdaf7e4a34287b7bb7e7e4"
+      "contentHash": "450147ca62a738940babeb156388e06ac5c2d0bd8d67eed2df1ec5ce58257346"
     },
     {
       "id": "por_3",
@@ -648,10 +648,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "5e434e0b267b07c33e5c8109ba6c10262f1a825f8055726dd9456e1b1ef1c86b"
+      "contentHash": "f13417d69d80e1612b8b827485bd18fbb6e9d2abb432ebc1b74220c1bf42c3c0"
     },
     {
       "id": "por_4",
@@ -663,10 +663,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 6,
-      "enrichedQuestionsCount": 8,
-      "flashcardsCount": 7,
+      "enrichedQuestionsCount": 10,
+      "flashcardsCount": 9,
       "hasMindMap": true,
-      "contentHash": "8390ff02b45f36f5287fb2f5c28432464affc53d46bf3c210012c8abde25a483"
+      "contentHash": "c77cd00bdeb12ff1e53ede72d6f5349942c2eac9d34563b207d2b7eafd5fcd01"
     },
     {
       "id": "por_5",
@@ -678,10 +678,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 6,
-      "enrichedQuestionsCount": 8,
-      "flashcardsCount": 6,
+      "enrichedQuestionsCount": 10,
+      "flashcardsCount": 8,
       "hasMindMap": true,
-      "contentHash": "d67b476c8e179513e330bf0534731776603db3faf2c03b9f8e097aabb2f811ab"
+      "contentHash": "21130bad4980d53cbd91f4096e4b27322ae57b20576bb78da2aaf25783c7901b"
     },
     {
       "id": "por_6",
@@ -693,10 +693,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "f4c606eb9cece08124ebbcbb47e42074560ff8370f22688f0d9a15f13f62de6e"
+      "contentHash": "541af01fd8cc62c0ec01098bc16fac6ee5b7f3ae2c9960725e786382c8f1a85c"
     },
     {
       "id": "por_7",
@@ -708,10 +708,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 10,
       "hasMindMap": true,
-      "contentHash": "6446b9df7a6c2a6e645c37085a7e1e03a32f1329b026b5940009a287dec124bc"
+      "contentHash": "916d7358d2e5d3f9d2572945d0716709e29c126ffc368d715846925c2c2080c4"
     },
     {
       "id": "por_8",
@@ -723,10 +723,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 10,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "285ca15518f1af7d0e803fbc0962168cbc86341fe725cf51ef711199a800e1e2"
+      "contentHash": "db121ce1b266d7a39c427c5acd92a67e559aa75e0319809b5c1d7be4f4564529"
     },
     {
       "id": "por_9",
@@ -738,10 +738,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 7,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 8,
       "hasMindMap": true,
-      "contentHash": "d1c13fea61234e1835814193d8957171cb7b7228cbeed9259b335722791ca3d9"
+      "contentHash": "909d196d42d761d931e45c78bc4fc80f6c69fe614f68c7a726f8a09dddfdee17"
     },
     {
       "id": "por_10",
@@ -753,10 +753,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 8,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 10,
       "hasMindMap": true,
-      "contentHash": "61ec04e68583451d6958e3ffeea25c69152d899dcb252558f3b6667ba6bee890"
+      "contentHash": "384c097c6ffad4a09cb00ade5452d0758cb46c2361b9a895374c0947802f725f"
     },
     {
       "id": "por_11",
@@ -768,10 +768,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 8,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 10,
       "hasMindMap": true,
-      "contentHash": "4bc3cb4d6e79bdb2d53f8cc13e6256e77626f42c1e7daf05bb8f86be21742b93"
+      "contentHash": "5ec3475f728533a5d4c1919a5ebe1a46bc528ae1db201cd283a64246f891ff04"
     },
     {
       "id": "por_12",
@@ -783,10 +783,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 6,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 8,
       "hasMindMap": true,
-      "contentHash": "8df96d8120acbff1172377d95329b73e879bf8db235ddbfa4a46b292d45d0591"
+      "contentHash": "9899619f1f68f7143b8cc176338e954db5e0ab099fa0177dbd238a19915c4c77"
     },
     {
       "id": "por_13",
@@ -798,10 +798,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "300e30ded07c1c4a10ea8526c691bdabdb4d26c414e70e2b9569ae0dd0ab0bee"
+      "contentHash": "56e6a9d31bff4d6b16b7ef985d6098deea83ed0a7f6a44138342ecbd55f100b9"
     },
     {
       "id": "por_14",
@@ -813,10 +813,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 10,
       "hasMindMap": true,
-      "contentHash": "e76e3097f323f68b7a188ccb14c1b431bfaf839a268bb5bad955b9c2a8872f66"
+      "contentHash": "31e0a6898da32549b3ef3a02d2681920be36d7c9f9102bea67983163a3ac0966"
     },
     {
       "id": "por_15",
@@ -828,10 +828,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 4,
-      "enrichedQuestionsCount": 6,
-      "flashcardsCount": 5,
+      "enrichedQuestionsCount": 8,
+      "flashcardsCount": 7,
       "hasMindMap": true,
-      "contentHash": "b35ffa6846b1cb588caf167c471c1baad5945108a2a34b973a149455b03b00ee"
+      "contentHash": "cb2fb833b3c102353c194d8777a5ff3192d96867d2902229e4101190f84533ee"
     },
     {
       "id": "por_16",
@@ -843,10 +843,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 6,
-      "enrichedQuestionsCount": 8,
-      "flashcardsCount": 6,
+      "enrichedQuestionsCount": 10,
+      "flashcardsCount": 8,
       "hasMindMap": true,
-      "contentHash": "5fc7523f404cfcc8bbc056dd7c48d442517dfb915a818ce670485b6834fc7e05"
+      "contentHash": "2b787d683265bfad24ed52813c07db46559363ca3dd489706148a37cc33fd72f"
     },
     {
       "id": "por_17",
@@ -858,10 +858,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 7,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 9,
       "hasMindMap": true,
-      "contentHash": "d3e29087efad1817741efb3bbe9db2c86043520dba4e5a84f8b856617a5225c7"
+      "contentHash": "80b3a098ba664d5da46758448a66f882d6a9d6fe2a16c3795ec642786881ee25"
     },
     {
       "id": "por_18",
@@ -873,10 +873,10 @@
       "blocksCount": 2,
       "enrichedBlocksCount": 3,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 9,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 11,
       "hasMindMap": true,
-      "contentHash": "70c242cd9df878abd595cc4f86744ce8c86dd80481a9bb36fdd59a7b30bc1e37"
+      "contentHash": "aacd304806bd5c61fdff4460c107b0e0c29cf910e7cc07cdbe86d43baef5dc87"
     },
     {
       "id": "rlm_1",
@@ -888,10 +888,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 16,
-      "enrichedQuestionsCount": 18,
-      "flashcardsCount": 18,
+      "enrichedQuestionsCount": 20,
+      "flashcardsCount": 19,
       "hasMindMap": true,
-      "contentHash": "476bd8bffe1db779d2faa3b4e69748f4615d715d95e5d3b5055c023595c84985"
+      "contentHash": "e818ed908311fb1a29b059237f0b49df9a1c633dd25a2e3680556e90868216fa"
     },
     {
       "id": "rlm_2",
@@ -903,8 +903,8 @@
       "blocksCount": 5,
       "enrichedBlocksCount": 6,
       "questionsCount": 13,
-      "enrichedQuestionsCount": 15,
-      "flashcardsCount": 16,
+      "enrichedQuestionsCount": 17,
+      "flashcardsCount": 17,
       "hasMindMap": true,
       "contentHash": "c67bafd8b0436288430c249405b45fb79df23240d22f802f235e595d3782612e"
     },
@@ -918,10 +918,10 @@
       "blocksCount": 5,
       "enrichedBlocksCount": 6,
       "questionsCount": 14,
-      "enrichedQuestionsCount": 16,
-      "flashcardsCount": 19,
+      "enrichedQuestionsCount": 18,
+      "flashcardsCount": 20,
       "hasMindMap": true,
-      "contentHash": "b21d8fd343649dd833bb710be8c6c2837e2ec2ba7be6bd90dfb6be0cf887e21a"
+      "contentHash": "4a9cff42807df601c667539b0f0c48b31ee99e11b46c585f0f555aa963657100"
     },
     {
       "id": "rlm_4",
@@ -933,10 +933,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 10,
-      "enrichedQuestionsCount": 12,
-      "flashcardsCount": 15,
+      "enrichedQuestionsCount": 14,
+      "flashcardsCount": 16,
       "hasMindMap": true,
-      "contentHash": "3c501741a27fb74e6b3036b3531d99453e6cd36d8a057f5262b0b4ee11a5d9d9"
+      "contentHash": "97c22baba5141d612f1bb69bc09dd661ead1edf84aeaf62126066113237e8833"
     },
     {
       "id": "rlm_5",
@@ -948,10 +948,10 @@
       "blocksCount": 6,
       "enrichedBlocksCount": 7,
       "questionsCount": 15,
-      "enrichedQuestionsCount": 17,
-      "flashcardsCount": 20,
+      "enrichedQuestionsCount": 19,
+      "flashcardsCount": 21,
       "hasMindMap": true,
-      "contentHash": "f00f0eba2a8e2f26028be20d49502ce7873147493b5991c7fa68297a94ae8055"
+      "contentHash": "4ce9a85474156bb8fbd658a0a4a5a975da24cb4f72c3cfa96cc18daaa36cbc0f"
     },
     {
       "id": "rlm_6",
@@ -963,10 +963,10 @@
       "blocksCount": 5,
       "enrichedBlocksCount": 6,
       "questionsCount": 12,
-      "enrichedQuestionsCount": 14,
-      "flashcardsCount": 18,
+      "enrichedQuestionsCount": 16,
+      "flashcardsCount": 19,
       "hasMindMap": true,
-      "contentHash": "b0b1136d5bddb3b3a9bc77c9c4a62c07881c7987e84cab36879e29c68c3cf7e0"
+      "contentHash": "558553563d06fc1b58d8d5dcf35d29da4ee105fee1e6d58f49aae5f599e8ca65"
     },
     {
       "id": "rlm_7",
@@ -978,10 +978,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 12,
-      "enrichedQuestionsCount": 14,
-      "flashcardsCount": 16,
+      "enrichedQuestionsCount": 16,
+      "flashcardsCount": 17,
       "hasMindMap": true,
-      "contentHash": "73a9e06bfbde933e309c7903b88f07c7e50477ef479898fe1541313ec7bb0137"
+      "contentHash": "00518c314fb0b7eb213eb054d2ed3ee1c59422026bb304655d2e689af4f2f5d9"
     },
     {
       "id": "rlm_8",
@@ -993,10 +993,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 24,
-      "enrichedQuestionsCount": 26,
-      "flashcardsCount": 19,
+      "enrichedQuestionsCount": 28,
+      "flashcardsCount": 20,
       "hasMindMap": true,
-      "contentHash": "c5ace8cd518e270e10303f5cc11eae2ee9f4e1550b2bc884fa2172a6233165d4"
+      "contentHash": "671c55b781212f7c33d91b66c140f95f1b58bec40a8f15a7dde42883d9c386e6"
     },
     {
       "id": "atu_1",
@@ -1009,10 +1009,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 11,
+      "enrichedQuestionsCount": 13,
+      "flashcardsCount": 12,
       "hasMindMap": true,
-      "contentHash": "0ced84711c2d6749c1fb15921eab7bdd3aeee7c3e3f1f7b75322648495d2c427"
+      "contentHash": "9425b902cd93c44ace2be2c750227c3f7d8cc89fd509730badd5890f90146db8"
     },
     {
       "id": "atu_2",
@@ -1025,10 +1025,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 12,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 13,
       "hasMindMap": true,
-      "contentHash": "c7f7baf5a5f7f41379465c28e9768bdb6714cd51230d3d52323e346ebd5547d8"
+      "contentHash": "4d03a3fcd6b6ee6c5f8ba1462e045d7840764ab116bebd0c0b8c0c6a0f967efe"
     },
     {
       "id": "atu_3",
@@ -1041,10 +1041,10 @@
       "blocksCount": 4,
       "enrichedBlocksCount": 5,
       "questionsCount": 7,
-      "enrichedQuestionsCount": 9,
-      "flashcardsCount": 13,
+      "enrichedQuestionsCount": 11,
+      "flashcardsCount": 14,
       "hasMindMap": true,
-      "contentHash": "b7bd79a2be30c4ae0c8cdc738096020cd130cafda7edfc3a7cd85bd66e52b1f9"
+      "contentHash": "79b07e002da761a44f969ed4a9db43af74bbde04088d49b6d8b635ebfb5eb4c1"
     },
     {
       "id": "atu_4",
@@ -1057,10 +1057,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 11,
-      "enrichedQuestionsCount": 13,
-      "flashcardsCount": 15,
+      "enrichedQuestionsCount": 15,
+      "flashcardsCount": 16,
       "hasMindMap": true,
-      "contentHash": "53e0f7e5943079a5654a4b7f69160f7ea35079689e98d89c7894dca4d95e9f8b"
+      "contentHash": "626fcee56c45e173ef2b776b1fa2b61b8da9e7e986347de9d62670a3d33dacd9"
     },
     {
       "id": "atu_5",
@@ -1073,10 +1073,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 8,
-      "enrichedQuestionsCount": 10,
-      "flashcardsCount": 12,
+      "enrichedQuestionsCount": 12,
+      "flashcardsCount": 13,
       "hasMindMap": true,
-      "contentHash": "727c9c639a5e5d32b569b87b92c6f82a1b32f6b394da470e8829a21cf68392b8"
+      "contentHash": "2723a1be073fa4857dd07cc4308da92d420cbafc8ba62b3d24e076531368133e"
     },
     {
       "id": "atu_6",
@@ -1089,10 +1089,10 @@
       "blocksCount": 3,
       "enrichedBlocksCount": 4,
       "questionsCount": 12,
-      "enrichedQuestionsCount": 14,
-      "flashcardsCount": 13,
+      "enrichedQuestionsCount": 16,
+      "flashcardsCount": 14,
       "hasMindMap": true,
-      "contentHash": "22edfe28dc279605f1c064f68616d9745284c4086f5c7bd8a32973550e524594"
+      "contentHash": "e4544d02676c50f5b1062fdfda85f3e9b64e19d3ab71a2caa70d981ea9435227"
     }
   ],
   "totals": {
@@ -1100,8 +1100,8 @@
     "blocksBase": 187,
     "blocksWithDeepening": 236,
     "questionsBase": 534,
-    "questionsWithDeepening": 632,
-    "flashcards": 660,
+    "questionsWithDeepening": 732,
+    "flashcards": 723,
     "sources": 126,
     "endemics": 14
   }

@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Validade Dedutiva",
-            "detail": "Premissas V garantem Conclusão V (Modus Ponens / Tollens)"
+            "detail": "Premissas V garantem Conclusão V (Modus Ponens / Tollens)",
+            "badge": "Foco #1"
           },
           {
             "label": "Diagramas Categóricos",
-            "detail": "Todo A é B (inclusão), Nenhum (disjuntos), Algum (interseção)"
+            "detail": "Todo A é B (inclusão), Nenhum (disjuntos), Algum (interseção)",
+            "badge": "Foco #2"
           },
           {
             "label": "Sofismas Clássicos",
-            "detail": "Afirmação do consequente e negação do antecedente"
+            "detail": "Afirmação do consequente e negação do antecedente",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,15 +38,18 @@
         "nodes": [
           {
             "label": "Pertinência vs. Inclusão",
-            "detail": "∈ (elemento-conjunto) vs. ⊂ (conjunto-conjunto); ∅ ⊂ A"
+            "detail": "∈ (elemento-conjunto) vs. ⊂ (conjunto-conjunto); ∅ ⊂ A",
+            "badge": "Foco #1"
           },
           {
             "label": "Conjunto das Partes P(A)",
-            "detail": "2ⁿ subconjuntos no total (2ⁿ - 1 não-vazios)"
+            "detail": "2ⁿ subconjuntos no total (2ⁿ - 1 não-vazios)",
+            "badge": "Foco #2"
           },
           {
             "label": "Operações e Venn",
-            "detail": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B); Diferença A - B; Complementar"
+            "detail": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B); Diferença A - B; Complementar",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -54,15 +60,18 @@
         "nodes": [
           {
             "label": "Números e Letras",
-            "detail": "PA, PG, diferenças de 2ª ordem, Fibonacci e posições no alfabeto"
+            "detail": "PA, PG, diferenças de 2ª ordem, Fibonacci e posições no alfabeto",
+            "badge": "Foco #1"
           },
           {
             "label": "Palavras e Ciclos",
-            "detail": "Dividir N pelo período T e usar o RESTO (resto 0 = último)"
+            "detail": "Dividir N pelo período T e usar o RESTO (resto 0 = último)",
+            "badge": "Foco #2"
           },
           {
             "label": "Figuras",
-            "detail": "Rotação de ângulos, simetria e contagem de lados/vértices"
+            "detail": "Rotação de ângulos, simetria e contagem de lados/vértices",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -73,17 +82,53 @@
         "nodes": [
           {
             "label": "Associação Lógica",
-            "detail": "Tabela de cruzamento: cada \"Sim\" bloqueia linha e coluna"
+            "detail": "Tabela de cruzamento: cada \"Sim\" bloqueia linha e coluna",
+            "badge": "Foco #1"
           },
           {
             "label": "Verdades e Mentiras",
-            "detail": "Localizar 2 falas contraditórias (1 V e 1 F obrigatoriamente)"
+            "detail": "Localizar 2 falas contraditórias (1 V e 1 F obrigatoriamente)",
+            "badge": "Foco #2"
           },
           {
             "label": "Teste de Hipótese",
-            "detail": "Validar com a quantidade de verdades informada no enunciado"
+            "detail": "Validar com a quantidade de verdades informada no enunciado",
+            "badge": "Foco #3"
           }
         ]
+      }
+    ],
+    "mnemonic": "Modus Ponens (Afirma o 1º → Afirma o 2º) | Modus Tollens (Nega o 2º → Nega o 1º) • Pertinência (∈: elemento-conjunto) ≠ Inclusão (⊂: conjunto-conjunto) • Conjunto das Partes = 2ⁿ subconjuntos • n(A ∪ B) = n(A) + n(B) - n(A ∩ B)",
+    "deadlinesAndNumbers": [
+      {
+        "value": "n(P(A)) = 2ⁿ",
+        "label": "Número total de subconjuntos (Conjunto das Partes) de um conjunto finito com n elementos (inclui ∅ e o próprio A)",
+        "ref": "Conjunto das Partes"
+      },
+      {
+        "value": "n(A ∪ B) = n(A)+n(B)-n(A∩B)",
+        "label": "Princípio da Inclusão-Exclusão para 2 conjuntos (no diagrama de Venn, comece sempre preenchendo pela INTERSEÇÃO!)",
+        "ref": "Operações c/ Conjuntos"
+      },
+      {
+        "value": "Modus Ponens vs. Tollens",
+        "label": "Ponens: P→Q e P ⊢ Q; Tollens: P→Q e ~Q ⊢ ~P (Cuidado: afirmar Q ou negar P é falácia/argumento inválido!)",
+        "ref": "Validade de Argumentos"
+      },
+      {
+        "value": "Resto de N ÷ k (Ciclos)",
+        "label": "Em sequências cíclicas de período k, o resto da divisão de N por k indica a posição exata dentro do bloco (resto 0 = último)",
+        "ref": "Sequências Lógicas"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Se 30 agentes atuam contra a Dengue, 25 atuam contra a Malária e 10 atuam em ambas, o total de agentes dessas equipes é 30 + 25 + 10 = 65.",
+        "right": "FALSO! Os 10 agentes da interseção já estão contados dentro dos 30 e dentro dos 25. Pela fórmula n(D ∪ M) = 30 + 25 - 10 = 45 agentes!"
+      },
+      {
+        "wrong": "Das premissas \"Todo ACE é servidor público\" e \"Algum servidor público é biólogo\", conclui-se necessariamente que \"Algum ACE é biólogo\".",
+        "right": "FALSO! No diagrama de Venn, o conjunto dos biólogos pode interceptar a região dos servidores públicos totalmente fora do círculo menor dos ACEs, tornando o argumento INVÁLIDO."
       }
     ]
   },

@@ -24,114 +24,109 @@
   "questionsCount": 11,
   "flashcardsCount": 12,
   "mindMap": {
-    "centralTitle": "3. Leis Federais da Carreira de ACE: Lei nº 11.350/2006 + Lei nº 13.708/2018 + Lei nº 13.595/2018",
-    "mnemonic": "Lei 11.350: marco legal; 13.595 e 13.708: alterações de 2018; 14.799/2024: denominação Ruth Brilhante. Jornada: art. 9º-A, § 2º vigente; incisos 30/10 revogados.",
+    "centralTitle": "3. Leis Federais da Carreira de ACE: Lei nº 11.350/2006, Lei nº 13.708/2018 e Lei nº 13.595/2018",
+    "mnemonic": "Lei 11.350/06 = Marco Legal ACS/ACE (Veda terceirização temporária salvo surto!) • Lei 13.595/18 (Ruth Brilhante) = Jornada 40h + Atribuições §§ 1º e 2º • Lei 13.708/18 = Piso, Curso Técnico e Revogação do § 2º do Art. 9º-A",
     "deadlinesAndNumbers": [
       {
-        "value": "40 horas",
-        "label": "Jornada para garantia do piso; incisos 30/10 revogados"
+        "value": "40 horas semanais",
+        "label": "Jornada integral de trabalho de ACS e ACE (tempo integral para ações de campo, planejamento, reuniões e formação)",
+        "ref": "Art. 9º-A, § 2º Lei 11.350"
       },
       {
-        "value": "A cada 2 anos",
-        "label": "Aperfeiçoamento: art. 5º, § 2º, sem mínimo de 200h nesse dispositivo"
-      },
-      {
-        "value": "95% do Piso",
-        "label": "Assistência financeira complementar da União aos Municípios (Art. 9º-C)"
+        "value": "40 horas (Curso Introd.)",
+        "label": "Carga horária mínima do curso introdutório de formação inicial e continuada para ingresso como ACE/ACS",
+        "ref": "Art. 7º, I Lei 11.350/06"
       },
       {
         "value": "2 Salários Mínimos",
-        "label": "Piso Nacional vigente por força da EC nº 120/2022 (R$ 3.242,00 no Anexo I SEMUSA PVH)"
+        "label": "Piso salarial profissional nacional dos ACS e ACE garantido pela União (EC 120/2022)",
+        "ref": "Art. 198, § 9º CF/88"
+      },
+      {
+        "value": "Ensino Médio Completo",
+        "label": "Escolaridade exigida para o cargo de ACE (salvo quem já exercia a atividade em 05/01/2018 — § 2º)",
+        "ref": "Art. 3º, III Lei 11.350"
       }
     ],
     "branches": [
       {
-        "title": "1. História e Evolução da Profissão de ACE (1903–2023)",
+        "title": "1. Lei nº 11.350/2006: Vínculo, Ingresso e Requisitos",
         "icon": "📜",
-        "color": "amber",
-        "nodes": [
-          {
-            "label": "Brigadas de Oswaldo Cruz -> DNERu (1956) -> SUCAM (1970)",
-            "detail": "Origens no modelo sanitarista-campanhista vertical (febre amarela, malária na EFMM e endemias rurais com os antigos Guardas de Endemias da SUCAM).",
-            "badge": "Raízes Históricas"
-          },
-          {
-            "label": "FUNASA (1991) e Descentralização (Portaria 1.399/1999)",
-            "detail": "Fusão da SUCAM com a Fundação SESP criando a FUNASA, seguida da municipalização das ações de vigilância e controle de endemias para as Secretarias Municipais (SEMUSA).",
-            "badge": "Municipalização"
-          },
-          {
-            "label": "EC 51/2006, Lei 11.350/2006, EC 120/2022 e Lei 14.536/2023",
-            "detail": "Criação formal do cargo de ACE via Processo Seletivo Público, piso de 2 salários mínimos (EC 120/22) e reconhecimento como profissional de saúde regulamentado (Lei 14.536/23).",
-            "badge": "Carreira Constitucional"
-          }
-        ]
-      },
-      {
-        "title": "2. Atribuições do Agente de Combate a Endemias (Arts. 3º a 4º-A)",
-        "icon": "🦟",
         "color": "teal",
         "nodes": [
           {
-            "label": "Atribuições Típicas do ACE (Art. 4º, § 1º — Lei 13.595/2018)",
-            "detail": "Vigilância, prevenção e controle de doenças: pesquisa entomológica/malacológica, cadastramento de imóveis, controle mecânico/químico/biológico e educação comunitária.",
-            "badge": "11 Atividades Típicas"
+            "label": "Exercício Exclusivo no SUS e Vedação à Terceirização (Arts. 2º e 16)",
+            "detail": "O exercício das atividades de ACS e ACE dá-se exclusivamente no âmbito do SUS, mediante vínculo direto com órgão ou entidade da administração direta, autárquica ou fundacional. É VEDADA a contratação temporária ou terceirizada, salvo na hipótese de combate a surtos epidêmicos!",
+            "badge": "Art. 16 (Salvo Surto)"
           },
           {
-            "label": "Atividades Assistidas por Nível Superior (Art. 4º, § 2º)",
-            "detail": "Vacinação animal, coleta/transporte de amostras biológicas de animais, investigação diagnóstica laboratorial e auxílio ao Médico Veterinário em necropsia de animais.",
-            "badge": "Supervisão Superior"
-          },
-          {
-            "label": "Atribuições Compartilhadas ACE + ACS (Art. 4º-A e PNAB)",
-            "detail": "Atuação integrada em Território Único: diagnóstico demográfico/ambiental, visitas domiciliares conjuntas, georreferenciamento e busca ativa de casos suspeitos.",
-            "badge": "Território Único"
+            "label": "Requisitos para o Cargo de ACE (Art. 3º)",
+            "detail": "I — Haver concluído, com aproveitamento, curso introdutório de formação inicial e continuada (mínimo 40h); II — Haver concluído o ensino médio. (Nota: residir na área da comunidade desde a publicação do edital é requisito exclusivo do ACS, não do ACE!).",
+            "badge": "ACE ≠ Residir na Área"
           }
         ]
       },
       {
-        "title": "Jornada de 40h — redação vigente",
-        "icon": "⚖️",
+        "title": "2. Lei nº 13.595/2018 (Lei Ruth Brilhante): Atribuições do ACE",
+        "icon": "🦟",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Escalonamento do Piso (2019–2021) e EC 120/2022 (2 SM)",
-            "detail": "A Lei 13.708/2018 escalonou o piso nacional (R$ 1.250 em 2019; R$ 1.400 em 2020; R$ 1.550 em 2021) com reajuste em 1º de janeiro. A EC 120/2022 elevou para 2 salários mínimos.",
-            "badge": "Art. 9º-A, §§ 1º e 5º"
+            "label": "Atividades Típicas (Art. 4º, § 1º) vs. Assistidas (§ 2º)",
+            "detail": "Típicas (§ 1º): vistoria de domicílios/depósitos/terrenos, orientação comunitária, identificação de focos, coleta de vetores e censo de animais. Assistidas por nível superior (§ 2º): administração de substâncias para controle de vetores, necropsia de animais, coleta de sangue de cães/gatos e eutanásia de animais.",
+            "badge": "Art. 4º, §§ 1º e 2º"
           },
           {
-            "label": "Jornada de 40h — redação vigente",
-            "detail": "A jornada de 40 horas abrange ações e serviços de promoção da saúde, vigilância e combate a endemias e assegura planejamento, avaliação, detalhamento, registro de dados e reuniões. Os incisos que fixavam 30h externas e 10h internas foram revogados pela Lei 13.708/2018; essa divisão não é imposição do texto federal vigente.",
-            "badge": "40h; 30/10 revogado"
-          },
-          {
-            "label": "Custeio de Locomoção (Art. 9º-H) e Curso Técnico (Art. 5º, § 2º-A)",
-            "detail": "Compete ao ente federado fornecer ou custear a locomoção de campo (Art. 9º-H). Cursos técnicos de ACE podem ser presenciais ou semipresenciais segundo diretrizes do CNE.",
-            "badge": "Lei 13.708/2018"
+            "label": "Atribuições Compartilhadas ACS + ACE (Art. 4º-A)",
+            "detail": "Educação popular e mobilização social, identificação de situações de risco ambiental/sanitário, orientação sobre sintomas e encaminhamento à unidade de saúde.",
+            "badge": "Art. 4º-A"
           }
         ]
       },
       {
-        "title": "4. Requisitos de Ingresso, Acumulação e Vedação de Terceirização",
+        "title": "3. Jornada de 40h, Condições de Trabalho e Indenização de Transporte",
+        "icon": "⏱️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Jornada de 40h Semanais (Redação Vigente)",
+            "detail": "A jornada de 40h é integralmente dedicada às ações de campo, reuniões, planejamento e formação continuada. Os incisos que dividiam a jornada em \"30h externas + 10h internas\" foram REVOGADOS pela Lei 13.708/2018!",
+            "badge": "30h+10h Revogado!"
+          },
+          {
+            "label": "Indenização de Transporte (Art. 9º-H) e Nome Ruth Brilhante",
+            "detail": "Se o ente público não fornecer locomoção para o deslocamento em serviço, deve conceder indenização de transporte. A Lei 14.799/2024 denominou oficialmente a Lei 13.595/2018 como \"Lei Ruth Brilhante\".",
+            "badge": "Art. 9º-H + Lei 14.799/24"
+          }
+        ]
+      },
+      {
+        "title": "4. Lei nº 13.708/2018, Lei nº 14.536/2023 e EC nº 140/2026",
         "icon": "🛡️",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Requisitos do ACE (Art. 7º) vs. ACS (Art. 6º)",
-            "detail": "ACE exige Ensino Médio + Curso Introdutório de formação inicial (mínimo 40h), NÃO exigindo morar na microárea (requisito exclusivo do ACS no Art. 6º, I e Art. 10, parágrafo único).",
-            "badge": "Art. 7º Lei 11.350"
+            "label": "Aperfeiçoamento Bienal (Art. 5º, § 2º) e Cursos Técnicos (Art. 9º-G)",
+            "detail": "A Lei 13.708/2018 retirou o mínimo fixo de 200h do § 2º do art. 5º (mantendo cursos bienais de aperfeiçoamento) e previu cursos técnicos em Vigilância em Saúde / ACE financiados de forma tripartite.",
+            "badge": "Lei 13.708/2018"
           },
           {
-            "label": "Acumulação de 2 Cargos de Saúde (Lei 14.536/2023 — Art. 2º-A)",
-            "detail": "ACE e ACS são profissionais de saúde regulamentados para fins do Art. 37, XVI, \"c\" da CF/88, podendo acumular 2 cargos públicos de saúde se houver compatibilidade de horários.",
-            "badge": "Lei 14.536/2023"
-          },
-          {
-            "label": "Vedação de Contratação Temporária ou Terceirizada (Art. 16)",
-            "detail": "É proibida a contratação temporária ou terceirizada de ACS e ACE, SALVO na hipótese de combate a surtos epidêmicos, na forma da lei aplicável.",
-            "badge": "Art. 16 Lei 11.350"
+            "label": "Profissionais de Saúde (Lei 14.536/2023) e Carreira Essencial (EC 140/2026)",
+            "detail": "ACS e ACE são reconhecidos como profissionais de saúde (permitindo acumular 2 cargos de saúde — Art. 37, XVI, \"c\" da CF), e a EC 140/2026 inseriu o inciso IV no Art. 198 e o § 4º-B sobre o quadro próprio de carreira.",
+            "badge": "Lei 14.536 + EC 140"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Requisitos de Ingresso, Atribuições (Típicas, Assistidas e Compartilhadas), Jornada de 40h (Lei Ruth Brilhante), Piso Salarial e Formação Técnica",
+    "goldenTraps": [
+      {
+        "wrong": "Pela Lei 11.350/2006, o Agente de Combate às Endemias (ACE) é obrigado a residir na microárea em que atuar desde a data da publicação do edital do concurso.",
+        "right": "FALSO! O requisito de residir na área da comunidade em que atuar (Art. 6º, I) aplica-se exclusivamente ao Agente Comunitário de Saúde (ACS), e NÃO ao ACE (Art. 3º)."
+      },
+      {
+        "wrong": "A jornada de 40 horas do ACE continua dividida obrigatoriamente em 30 horas de visitas de campo e 10 horas de trabalho interno.",
+        "right": "FALSO! Os incisos que previam a divisão rígida de 30h + 10h foram revogados pela Lei nº 13.708/2018. Hoje toda a jornada de 40h compreende o conjunto integrado de atividades externas e internas."
       }
     ]
   },

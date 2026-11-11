@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Narrativo",
-            "detail": "Enredo, personagens, tempo/espaço e fatos no passado"
+            "detail": "Enredo, personagens, tempo/espaço e fatos no passado",
+            "badge": "Foco #1"
           },
           {
             "label": "Descritivo",
-            "detail": "Retrato estático, adjetivos e verbos de ligação"
+            "detail": "Retrato estático, adjetivos e verbos de ligação",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Expositivo",
-            "detail": "Informa e explica dados com neutralidade"
+            "detail": "Informa e explica dados com neutralidade",
+            "badge": "Foco #1"
           },
           {
             "label": "Argumentativo",
-            "detail": "Defende tese com argumentos para persuadir"
+            "detail": "Defende tese com argumentos para persuadir",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Verbos no Imperativo",
-            "detail": "Orientações, ordens, manuais, receitas e editais"
+            "detail": "Orientações, ordens, manuais, receitas e editais",
+            "badge": "Foco #1"
           },
           {
             "label": "Campanhas de Saúde",
-            "detail": "Cartazes educativos do ACE/SEMUSA"
+            "detail": "Cartazes educativos do ACE/SEMUSA",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Jornalísticos",
-            "detail": "Notícia (expositiva) vs. Editorial/Artigo (opinativo)"
+            "detail": "Notícia (expositiva) vs. Editorial/Artigo (opinativo)",
+            "badge": "Foco #1"
           },
           {
             "label": "Literários e Oficiais",
-            "detail": "Crônica, Conto, Tirinha, Ofício e Portaria"
+            "detail": "Crônica, Conto, Tirinha, Ofício e Portaria",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "5 Tipos Textuais (Fixos: Narração, Descrição, Exposição, Argumentação, Injunção) ≠ Infinitos Gêneros Textuais (Sociais: notícia, editorial, crônica, bula, manual, ofício)",
+    "deadlinesAndNumbers": [
+      {
+        "value": "5 Tipos Textuais",
+        "label": "Narrativo (fatos no tempo), Descritivo (retrato estático), Dissertativo-Expositivo (saber), Argumentativo (tese) e Injuntivo (instruir)",
+        "ref": "Tipologia Textual"
+      },
+      {
+        "value": "Verbos no Imperativo",
+        "label": "Marca gramatical dominante da tipologia INJUNTIVA ou instrucional (manuais do ACE, receitas, editais, campanhas)",
+        "ref": "Injunção"
+      },
+      {
+        "value": "Notícia vs. Editorial",
+        "label": "Notícia = predominantemente narrativa/expositiva e impessoal; Editorial = dissertativo-argumentativo com tese do veículo sem assinatura individual",
+        "ref": "Gêneros Jornalísticos"
+      },
+      {
+        "value": "Crônica",
+        "label": "Gênero híbrido (entre jornalismo e literatura) que parte de um fato cotidiano efêmero com olhar subjetivo, lírico ou crítico-humorístico",
+        "ref": "Gênero Favorito IBGP"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Notícia, reportagem, crônica, bula de remédio e artigo de opinião são exemplos de Tipos Textuais.",
+        "right": "FALSO! Esses são GÊNEROS TEXTUAIS (formas sociais concretas). Os Tipos Textuais (ou sequências tipológicas) são apenas 5 estruturas linguísticas internas: narração, descrição, exposição, argumentação e injunção."
+      },
+      {
+        "wrong": "Todo texto dissertativo tem como objetivo convencer o leitor a mudar de opinião sobre um tema polêmico.",
+        "right": "FALSO! O texto dissertativo-EXPOSITIVO apenas informa e explica um saber consensual sem defender tese polêmica; quem busca persuadir/convencer é o dissertativo-ARGUMENTATIVO."
       }
     ]
   },

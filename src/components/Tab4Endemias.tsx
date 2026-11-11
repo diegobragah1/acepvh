@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import {
   LIRAA_DEPOSIT_GROUPS,
@@ -10,11 +10,19 @@ import {
 type SubSection = 'FICHAS' | 'LIRAA' | 'ROEDORES' | 'QUIMICO' | 'GLOSSARIO';
 
 export const Tab4Endemias: React.FC = () => {
-  const { appData } = useApp();
+  const { appData, globalSearchTarget } = useApp();
   const [subSection, setSubSection] = useState<SubSection>('FICHAS');
   const [searchDisease, setSearchDisease] = useState('');
   const [selectedDisease, setSelectedDisease] = useState<string>('ALL');
   const [glossarySearch, setGlossarySearch] = useState('');
+
+  useEffect(() => {
+    if (globalSearchTarget && globalSearchTarget.type === 'ficha') {
+      setSubSection('FICHAS');
+      setSelectedDisease(globalSearchTarget.diseaseName || 'ALL');
+      setSearchDisease('');
+    }
+  }, [globalSearchTarget]);
 
   const endemics = appData?.endemics || [];
 

@@ -24,19 +24,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "Art. 2º, § 1º (Biopsicossocial)",
-        "label": "Avaliação da deficiência por equipe multiprofissional e interdisciplinar (impedimentos + fatores socioambientais)"
+        "label": "Avaliação da deficiência por equipe multiprofissional e interdisciplinar (impedimentos + fatores socioambientais)",
+        "ref": "Ref. Aula 14"
       },
       {
         "value": "Arts. 18 a 26 (Saúde no SUS)",
-        "label": "Atenção integral à saúde da PcD no SUS, diagnóstico precoce, órteses/próteses, atendimento domiciliar e acompanhante"
+        "label": "Atenção integral à saúde da PcD no SUS, diagnóstico precoce, órteses/próteses, atendimento domiciliar e acompanhante",
+        "ref": "Ref. Aula 14"
       },
       {
         "value": "10% (Frotas) / 2% (Vagas)",
-        "label": "Reserva de 10% dos veículos de táxi acessíveis e 2% das vagas em estacionamentos públicos (mínimo 1 vaga)"
+        "label": "Reserva de 10% dos veículos de táxi acessíveis e 2% das vagas em estacionamentos públicos (mínimo 1 vaga)",
+        "ref": "Ref. Aula 14"
       },
       {
         "value": "2 Pessoas Idôneas",
-        "label": "Tomada de Decisão Apoiada: a PcD elege pelo menos 2 pessoas idôneas de sua confiança perante o juiz (Art. 1.783-A CC)"
+        "label": "Tomada de Decisão Apoiada: a PcD elege pelo menos 2 pessoas idôneas de sua confiança perante o juiz (Art. 1.783-A CC)",
+        "ref": "Ref. Aula 14"
       }
     ],
     "branches": [
@@ -107,6 +111,17 @@
             "badge": "Crimes Arts. 88–91"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Conceito de PcD e Avaliação Biopsicossocial (Art. 2º), Igualdade e Atendimento Prioritário (Arts. 4º–9º), Direito à Saúde no SUS (Arts. 18–26), Acessibilidade e 6 Barreiras (Art. 3º), Capacidade Civil Plena, Curatela, Tomada de Decisão Apoiada e Crimes (Arts. 88–91)",
+    "goldenTraps": [
+      {
+        "wrong": "Pelo Estatuto da Pessoa com Deficiência (Lei 13.146/2015), toda pessoa com deficiência mental ou intelectual é considerada absolutamente incapaz para os atos da vida civil, exigindo interdição total.",
+        "right": "FALSO! A Lei 13.146/2015 assegura a CAPACIDADE CIVIL PLENA da pessoa com deficiência (Arts. 6º e 84), inclusive para casar, exercer direitos sexuais/reprodutivos e trabalhar. A curatela é medida extraordinária e restrita apenas aos atos de natureza patrimonial e negocial (Art. 85)!"
+      },
+      {
+        "wrong": "O acompanhante ou atendente pessoal da pessoa com deficiência tem exatamente os mesmos direitos de atendimento prioritário, mesmo quando estiver desacompanhado do titular.",
+        "right": "FALSO! Pelo Art. 9º, § 1º da LBI, os direitos de atendimento prioritário estendem-se ao acompanhante ou atendente pessoal (exceto quanto à restituição do Imposto de Renda e tramitação processual — § 2º), vinculados ao atendimento da pessoa com deficiência."
       }
     ]
   },

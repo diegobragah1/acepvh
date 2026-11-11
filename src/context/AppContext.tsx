@@ -2,11 +2,30 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { AppData, TopicStatus } from '../types';
 import { getStatusMeta } from '../utils/status';
 import { normalizeAppData } from '../utils/normalizeData';
-import { LESSON_ANSWERS_KEY, parseProgress, validAnswers, validStatuses, validCompleted } from '../utils/progress';
+import {
+  LESSON_ANSWERS_KEY,
+  COMPLETED_SUBTOPICS_KEY,
+  getSubtopicId,
+  parseProgress,
+  validAnswers,
+  validStatuses,
+  validCompleted,
+} from '../utils/progress';
+import type { GlobalSearchResultItem } from '../utils/globalSearch';
 
 const STORAGE_KEY_COMPLETED = "ace_semusa_2026_completed_lessons_v3";
 const STORAGE_KEY_TOPIC_STATUS = "ace_semusa_2026_topic_status_v1";
 const STORAGE_KEY_ANSWERS = "ace_semusa_2026_sim_answers_v3";
+
+export interface GlobalSearchNavigationTarget {
+  type: 'aula' | 'ficha' | 'questao';
+  query: string;
+  lessonId?: string;
+  blockIdx?: number;
+  diseaseName?: string;
+  questionId?: string;
+  timestamp: number;
+}
 
 interface AppContextType {
   appData: AppData | null;
@@ -19,6 +38,9 @@ interface AppContextType {
   topicStatus: Record<string, TopicStatus>;
   updateTopicStatus: (topicId: string, newStatus: TopicStatus) => void;
   completedLessons: string[];
+  completedSubtopics: string[];
+  isSubtopicCompleted: (lessonId: string, blockIdx: number) => boolean;
+  toggleSubtopicComplete: (lessonId: string, blockIdx: number) => void;
   simAnswers: Record<string, number>;
   setSimAnswer: (qid: string, oidx: number) => void;
   resetSimAnswers: () => void;
@@ -35,6 +57,8 @@ interface AppContextType {
   getTopicStatus: (topicId: string) => TopicStatus;
   toggleCompleteCurrentLesson: () => void;
   reloadData: () => void;
+  globalSearchTarget: GlobalSearchNavigationTarget | null;
+  navigateToSearchResult: (item: GlobalSearchResultItem) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -54,7 +78,7 @@ function loadStorage<T>(key: string, fallback: T): T {
       return fallback;
     }
     if (key === STORAGE_KEY_TOPIC_STATUS && !validStatuses(parsed)) return fallback;
-    if (key === STORAGE_KEY_COMPLETED && !validCompleted(parsed)) return fallback;
+    if ((key === STORAGE_KEY_COMPLETED || key === COMPLETED_SUBTOPICS_KEY) && !validCompleted(parsed)) return fallback;
     if ((key === STORAGE_KEY_ANSWERS || key === LESSON_ANSWERS_KEY) && !validAnswers(parsed)) return fallback;
     return parsed as T;
   } catch (err) {
@@ -103,9 +127,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [currentTab, setCurrentTabState] = useState<string>('tab-apostila');
   const [currentLessonId, setCurrentLessonId] = useState<string>('esp_1');
   const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'MAPA' | 'A' | 'B' | 'C'>('ALL');
+  const [globalSearchTarget, setGlobalSearchTarget] = useState<GlobalSearchNavigationTarget | null>(null);
 
   const [completedLessons, setCompletedLessons] = useState<string[]>(() =>
     loadStorage<string[]>(STORAGE_KEY_COMPLETED, [])
+  );
+  const [completedSubtopics, setCompletedSubtopics] = useState<string[]>(() =>
+    loadStorage<string[]>(COMPLETED_SUBTOPICS_KEY, [])
   );
   const [topicStatus, setTopicStatus] = useState<Record<string, TopicStatus>>(() =>
     loadStorage<Record<string, TopicStatus>>(STORAGE_KEY_TOPIC_STATUS, {})
@@ -130,6 +158,34 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const setCurrentTab = (tab: string) => {
     setCurrentTabState(tab);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const navigateToSearchResult = (item: GlobalSearchResultItem) => {
+    const target: GlobalSearchNavigationTarget = {
+      type: item.type,
+      query: item.matchedTerm,
+      lessonId: item.lessonId,
+      blockIdx: item.blockIdx,
+      diseaseName: item.diseaseName,
+      questionId: item.questionId,
+      timestamp: Date.now(),
+    };
+    setGlobalSearchTarget(target);
+
+    if (item.type === 'aula' && item.lessonId) {
+      setCurrentLessonId(item.lessonId);
+      if (currentStudyMode === 'MAPA' || currentStudyMode === 'C') {
+        setCurrentStudyMode('ALL');
+      }
+      setCurrentTabState('tab-apostila');
+      showToast(`Abrindo ${item.title} (${item.subtitle})`);
+    } else if (item.type === 'ficha') {
+      setCurrentTabState('tab-endemias');
+      showToast(`Abrindo ${item.title}`);
+    } else if (item.type === 'questao') {
+      setCurrentTabState('tab-simulado');
+      showToast(`Filtrando questão na aba Revisão (${item.badge})`);
+    }
   };
 
   const loadData = async () => {
@@ -205,6 +261,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return 'not_started';
   };
 
+  const isSubtopicCompleted = (lessonId: string, blockIdx: number): boolean => {
+    const st = getTopicStatus(lessonId);
+    if (st === 'completed' || st === 'mastered') {
+      return true;
+    }
+    return completedSubtopics.includes(getSubtopicId(lessonId, blockIdx));
+  };
+
   const updateTopicStatus = (topicId: string, newStatus: TopicStatus) => {
     if (!topicId || !newStatus) return;
 
@@ -225,8 +289,104 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       return updated;
     });
 
+    const targetLesson = appData?.lessons?.find(l => l.id === topicId);
+    const blockCount = targetLesson?.blocks?.length || 0;
+    if (blockCount > 0) {
+      const lessonSubtopicIds = Array.from({ length: blockCount }, (_, idx) =>
+        getSubtopicId(topicId, idx)
+      );
+      if (newStatus === 'completed' || newStatus === 'mastered') {
+        setCompletedSubtopics(prev => {
+          const next = Array.from(new Set([...prev, ...lessonSubtopicIds]));
+          saveStorage(COMPLETED_SUBTOPICS_KEY, next);
+          return next;
+        });
+      } else if (newStatus === 'not_started') {
+        const prefix = `${topicId}_b`;
+        setCompletedSubtopics(prev => {
+          const next = prev.filter(id => !id.startsWith(prefix));
+          saveStorage(COMPLETED_SUBTOPICS_KEY, next);
+          return next;
+        });
+      }
+    }
+
     const meta = getStatusMeta(newStatus);
     showToast(`${meta.icon} Status atualizado: ${meta.label}!`);
+  };
+
+  const toggleSubtopicComplete = (lessonId: string, blockIdx: number) => {
+    if (!lessonId || blockIdx < 0) return;
+    const subId = getSubtopicId(lessonId, blockIdx);
+    const targetLesson = appData?.lessons?.find(l => l.id === lessonId);
+    const blockCount = targetLesson?.blocks?.length || 0;
+    const currentLessonStatus = getTopicStatus(lessonId);
+    const isLessonDone = currentLessonStatus === 'completed' || currentLessonStatus === 'mastered';
+    const currentlyCompleted = isLessonDone || completedSubtopics.includes(subId);
+
+    if (currentlyCompleted) {
+      // Unmarking a subtopic
+      setCompletedSubtopics(prev => {
+        const base = new Set(prev);
+        if (isLessonDone && blockCount > 0) {
+          for (let i = 0; i < blockCount; i++) {
+            base.add(getSubtopicId(lessonId, i));
+          }
+        }
+        base.delete(subId);
+        const next = Array.from(base);
+        saveStorage(COMPLETED_SUBTOPICS_KEY, next);
+        return next;
+      });
+
+      if (isLessonDone) {
+        setTopicStatus(prev => {
+          const updated = { ...prev, [lessonId]: 'studying' as TopicStatus };
+          saveStorage(STORAGE_KEY_TOPIC_STATUS, updated);
+          return updated;
+        });
+        setCompletedLessons(prev => {
+          const updated = prev.filter(id => id !== lessonId);
+          saveStorage(STORAGE_KEY_COMPLETED, updated);
+          return updated;
+        });
+      }
+      showToast(`⬜ Tópico ${blockIdx + 1} desmarcado.`);
+    } else {
+      // Marking a subtopic as completed
+      const nextSet = new Set(completedSubtopics);
+      nextSet.add(subId);
+      const nextArray = Array.from(nextSet);
+      setCompletedSubtopics(nextArray);
+      saveStorage(COMPLETED_SUBTOPICS_KEY, nextArray);
+
+      const allBlocksDone =
+        blockCount > 0 &&
+        Array.from({ length: blockCount }, (_, i) => nextSet.has(getSubtopicId(lessonId, i))).every(Boolean);
+
+      if (allBlocksDone && !isLessonDone) {
+        setTopicStatus(prev => {
+          const updated = { ...prev, [lessonId]: 'completed' as TopicStatus };
+          saveStorage(STORAGE_KEY_TOPIC_STATUS, updated);
+          return updated;
+        });
+        setCompletedLessons(prev => {
+          const updated = prev.includes(lessonId) ? prev : [...prev, lessonId];
+          saveStorage(STORAGE_KEY_COMPLETED, updated);
+          return updated;
+        });
+        showToast(`🎉 Todos os ${blockCount} tópicos concluídos! Aula marcada como Estudada!`);
+      } else {
+        if (currentLessonStatus === 'not_started') {
+          setTopicStatus(prev => {
+            const updated = { ...prev, [lessonId]: 'studying' as TopicStatus };
+            saveStorage(STORAGE_KEY_TOPIC_STATUS, updated);
+            return updated;
+          });
+        }
+        showToast(`✅ Tópico ${blockIdx + 1} marcado como concluído!`);
+      }
+    }
   };
 
   const toggleCompleteCurrentLesson = () => {
@@ -258,6 +418,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       exportedAt: new Date().toISOString(),
       topicStatus,
       completedLessons,
+      completedSubtopics,
       simAnswers,
       lessonAnswers
     };
@@ -286,6 +447,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setCompletedLessons(parsed.completedLessons);
         saveStorage(STORAGE_KEY_COMPLETED, parsed.completedLessons);
       }
+      if (Array.isArray(parsed.completedSubtopics)) {
+        setCompletedSubtopics(parsed.completedSubtopics);
+        saveStorage(COMPLETED_SUBTOPICS_KEY, parsed.completedSubtopics);
+      }
       if (parsed.simAnswers && typeof parsed.simAnswers === 'object') {
         setSimAnswers(parsed.simAnswers);
         saveStorage(STORAGE_KEY_ANSWERS, parsed.simAnswers);
@@ -313,6 +478,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         topicStatus,
         updateTopicStatus,
         completedLessons,
+        completedSubtopics,
+        isSubtopicCompleted,
+        toggleSubtopicComplete,
         simAnswers,
         setSimAnswer,
         resetSimAnswers,
@@ -328,7 +496,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         importProgress,
         getTopicStatus,
         toggleCompleteCurrentLesson,
-        reloadData: loadData
+        reloadData: loadData,
+        globalSearchTarget,
+        navigateToSearchResult,
       }}
     >
       {children}

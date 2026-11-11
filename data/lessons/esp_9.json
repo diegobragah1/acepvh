@@ -28,19 +28,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "10 Dias (Raiva)",
-        "label": "Período de observação clínica de cão ou gato agressor na profilaxia da Raiva Humana"
+        "label": "Período de observação clínica de cão ou gato agressor na profilaxia da Raiva Humana",
+        "ref": "Ref. Aula 7"
       },
       {
         "value": "Gota Espessa (Malária)",
-        "label": "Exame padrão-ouro oficial do Ministério da Saúde para diagnóstico e controle de cura da Malária"
+        "label": "Exame padrão-ouro oficial do Ministério da Saúde para diagnóstico e controle de cura da Malária",
+        "ref": "Ref. Aula 7"
       },
       {
         "value": "4h a 6h (Febre Maculosa)",
-        "label": "Tempo mínimo de fixação do carrapato-estrela (Amblyomma sculptum) para ativar e transmitir a Rickettsia rickettsii"
+        "label": "Tempo mínimo de fixação do carrapato-estrela (Amblyomma sculptum) para ativar e transmitir a Rickettsia rickettsii",
+        "ref": "Ref. Aula 7"
       },
       {
         "value": "Caramujo Biomphalaria",
-        "label": "Hospedeiro intermediário da Esquistossomose Mansônica (libera cercárias que penetram ativamente na pele)"
+        "label": "Hospedeiro intermediário da Esquistossomose Mansônica (libera cercárias que penetram ativamente na pele)",
+        "ref": "Ref. Aula 7"
       }
     ],
     "branches": [
@@ -106,6 +110,17 @@
             "badge": "SG vs. SRAG"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Arboviroses (Dengue, Zika, Chikungunya, Febre Amarela), Protozooses (Malária, Chagas, LTA, LV), Zoonoses (Raiva, Leptospirose, Febre Maculosa), Esquistossomose e Viroses Respiratórias (Influenza e COVID-19)",
+    "goldenTraps": [
+      {
+        "wrong": "Na Malária humana, o mosquito Anopheles darlingi é o hospedeiro intermediário, e o ser humano é o hospedeiro definitivo.",
+        "right": "FALSO! Na Malária é o INVERSO: o mosquito Anopheles é o HOSPEDEIRO DEFINITIVO (onde ocorre a reprodução sexuada/esporogonia), e o ser humano é o HOSPEDEIRO INTERMEDIÁRIO (esquizogonia assexuada)!"
+      },
+      {
+        "wrong": "No controle da Leishmaniose Visceral (Calazar), o Ministério da Saúde recomenda a vacinação em massa de humanos e o tratamento de cães soropositivos com medicamentos de uso humano.",
+        "right": "FALSO! É proibido tratar cães com medicamentos de uso humano (para evitar resistência parasitária), e não há vacina humana no PNI contra LV. As medidas incluem encoleiramento com deltametrina 4%, manejo ambiental, controle químico e eutanásia humanitária quando indicada."
       }
     ]
   },

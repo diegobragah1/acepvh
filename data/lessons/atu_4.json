@@ -26,19 +26,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "4 Símbolos Nacionais (Art. 13)",
-        "label": "Bandeira Nacional, Hino Nacional, Armas Nacionais (Brasão) e Selo Nacional (Lei nº 5.700/1971)"
+        "label": "Bandeira Nacional, Hino Nacional, Armas Nacionais (Brasão) e Selo Nacional (Lei nº 5.700/1971)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "Estrela Muliphen (Gama Cão Maior)",
-        "label": "Estrela que representa oficialmente o Estado de Rondônia na Bandeira Nacional"
+        "label": "Estrela que representa oficialmente o Estado de Rondônia na Bandeira Nacional",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "31/12/1981 (Dec.-Lei nº 7)",
-        "label": "Adoção da Bandeira do Estado de Rondônia (autoria de Sílvio Rolim de Carvalho)"
+        "label": "Adoção da Bandeira do Estado de Rondônia (autoria de Sílvio Rolim de Carvalho)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "5% do Eleitorado Municipal",
-        "label": "Quórum mínimo para apresentação de projeto de lei de Iniciativa Popular no Município (Art. 29, XIII CF/88)"
+        "label": "Quórum mínimo para apresentação de projeto de lei de Iniciativa Popular no Município (Art. 29, XIII CF/88)",
+        "ref": "Ref. Aula 29"
       }
     ],
     "branches": [
@@ -49,51 +53,72 @@
         "nodes": [
           {
             "label": "Cidadania Plena (T. H. Marshall e Art. 1º, II da CF/88)",
-            "detail": "Articula Direitos Civis (liberdade individual), Direitos Políticos (votar e ser votado) e Direitos Sociais (saúde, educação, trabalho, moradia), além de deveres cívicos e socioambientais.",
-            "badge": "Constituição Cidadã"
+            "detail": "Articula três dimensões: Direitos Civis (liberdade individual, igualdade perante a lei), Direitos Políticos (votar, ser votado, plebiscito, referendo, iniciativa popular e ação popular) e Direitos Sociais (saúde, educação, trabalho, previdência).",
+            "badge": "Civis + Políticos + Sociais"
           },
           {
-            "label": "Plebiscito (Prévia) vs. Referendo (Posterior) vs. Iniciativa Popular",
-            "detail": "Plebiscito = consulta antes da lei; Referendo = consulta após a lei para confirmá-la ou rejeitá-la; Iniciativa Popular = 5% do eleitorado no âmbito municipal.",
-            "badge": "Art. 14 CF/88"
+            "label": "Plebiscito vs. Referendo e Controle Social no SUS",
+            "detail": "Plebiscito = consulta popular ANTES do ato legislativo/administrativo; Referendo = consulta popular DEPOIS do ato para ratificá-lo ou rejeitá-lo. Na saúde, a cidadania ativa manifesta-se nos Conselhos e Conferências de Saúde (Lei 8.142/1990).",
+            "badge": "Plebiscito (Antes) / Referendo (Depois)"
           }
         ]
       },
       {
-        "title": "2. Símbolos Nacionais da República Federativa do Brasil (Art. 13, § 1º CF/88)",
+        "title": "2. Os 4 Símbolos Nacionais (Art. 13, § 1º da CF/88 e Lei nº 5.700/1971)",
         "icon": "🇧🇷",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Bandeira, Hino, Armas e Selo Nacionais (Lei nº 5.700/1971)",
-            "detail": "Bandeira (Raimundo Teixeira Mendes / Décio Villares, 27 estrelas: Spica = Pará acima da faixa; Muliphen = Rondônia); Hino (música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada).",
-            "badge": "BA-HI-AR-SE"
-          }
-        ]
-      },
-      {
-        "title": "3. Símbolos Estaduais de Rondônia (Bandeira, Brasão e Hino \"Céus de Rondônia\")",
-        "icon": "⭐",
-        "color": "amber",
-        "nodes": [
+            "label": "Quais são os 4 Símbolos da República Federativa do Brasil (BHAS)",
+            "detail": "1. Bandeira Nacional; 2. Hino Nacional (poema de Joaquim Osório Duque Estrada e música de Francisco Manuel da Silva); 3. Armas Nacionais (Brasão da República, com a data 15 de novembro de 1889); 4. Selo Nacional.",
+            "badge": "4 Símbolos Nacionais (BHAS)"
+          },
           {
-            "label": "Bandeira de Rondônia (Sílvio Carvalho) e Hino \"Céus de Rondônia\"",
-            "detail": "Bandeira com azul (céu), verde (floresta), amarelo (riquezas e rodovia BR-364) e estrela branca central. Hino com letra de Joaquim Araújo Lima e música de José de Mello e Silva.",
-            "badge": "Símbolos de RO"
+            "label": "As 27 Estrelas da Bandeira Nacional",
+            "detail": "Representam os 26 Estados e o Distrito Federal. A única estrela acima da faixa branca \"Ordem e Progresso\" é Spica (Espiga da Virgem), que representa o Estado do Pará! Rondônia é representada por Gamma Muscae (na constelação da Mosca).",
+            "badge": "Spica = Pará | 27 Estrelas"
           }
         ]
       },
       {
-        "title": "4. Símbolos Municipais de Porto Velho (Art. 4º da LOM-PVH)",
-        "icon": "🏛️",
+        "title": "3. Símbolos Oficiais do Estado de Rondônia (Art. 6º da CE/RO)",
+        "icon": "⭐",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Bandeira, Brasão (Três Caixas d’Água e EFMM) e Hino de Porto Velho",
-            "detail": "Bandeira azul e amarela com a Caixa d’Água histórica ao centro; Brasão com as Três Caixas d’Água (\"Três Marias\"), locomotiva da EFMM, seringueira e Rio Madeira; Hino de Abnael Machado de Lima, José Ribeiro Filho e Waldemar Bastos.",
-            "badge": "Símbolos de PVH"
+            "label": "Bandeira, Hino (\"Céus de Rondônia\") e Armas/Brasão de Rondônia",
+            "detail": "São 3 os símbolos estaduais (não há Selo Estadual!). Bandeira criada por Sílvio Carvalho Feitosa (verde, amarelo, azul e a estrela branca Muliphein ao centro). Hino \"Céus de Rondônia\": letra de Joaquim Araújo Lima e música de José de Mello e Silva.",
+            "badge": "Hino: Céus de Rondônia"
           }
         ]
+      },
+      {
+        "title": "4. Símbolos Municipais de Porto Velho (Art. 3º da LOM-PVH e Lei 249/1983)",
+        "icon": "🏛️",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Os 3 Símbolos Oficiais do Município de Porto Velho (Art. 3º da LOM)",
+            "detail": "São 3 os símbolos municipais: a Bandeira, o Hino e o Brasão, regulamentados pela Lei Municipal nº 249, de 11 de outubro de 1983.",
+            "badge": "Art. 3º LOM-PVH (3 Símbolos)"
+          },
+          {
+            "label": "Elementos do Brasão e da Bandeira de Porto Velho",
+            "detail": "Trazem em destaque a silhueta das Três Caixas d’Água (As Três Marias), o sol nascente sobre as águas do Rio Madeira e as cores azul, amarelo-ouro e branco.",
+            "badge": "Três Caixas d’Água no Brasão"
+          }
+        ]
+      }
+    ],
+    "centralSubtitle": "Noções de Cidadania (Direitos Civis, Políticos e Sociais e Soberania Popular), Símbolos Nacionais (Art. 13, § 1º da CF/88 e Lei 5.700/1971), Símbolos do Estado de Rondônia e Símbolos do Município de Porto Velho (Art. 3º da LOM-PVH)",
+    "goldenTraps": [
+      {
+        "wrong": "Tanto a República Federativa do Brasil quanto o Estado de Rondônia e o Município de Porto Velho possuem 4 símbolos oficiais (Bandeira, Hino, Armas e Selo).",
+        "right": "FALSO! Apenas a União (Brasil) possui 4 símbolos oficiais (incluindo o Selo Nacional — Art. 13, § 1º da CF/88). O Estado de Rondônia e o Município de Porto Velho (Art. 3º da LOM) possuem apenas 3 símbolos: Bandeira, Hino e Brasão/Armas!"
+      },
+      {
+        "wrong": "A única estrela situada acima da faixa branca \"Ordem e Progresso\" na Bandeira Nacional representa o Distrito Federal (Brasília).",
+        "right": "FALSO! A estrela acima da faixa branca (Spica) representa o Estado do PARÁ (maior território no norte à época de 1889). O Distrito Federal é representado por Sigma Octantis (a Estrela Polar do Sul)."
       }
     ]
   },

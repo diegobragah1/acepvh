@@ -12,8 +12,8 @@ interface DidacticToolbarProps {
   onToggleClozeMode: () => void;
   revealedClozeCount: number;
   onResetRevealedCloze: () => void;
-  onExpandAll: () => void;
-  onCollapseAll: () => void;
+  onExpandAll?: () => void;
+  onCollapseAll?: () => void;
   showVFTrainer: boolean;
   onToggleVFTrainer: () => void;
   vfCount: number;
@@ -31,8 +31,6 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
   onToggleClozeMode,
   revealedClozeCount,
   onResetRevealedCloze,
-  onExpandAll,
-  onCollapseAll,
   showVFTrainer,
   onToggleVFTrainer,
   vfCount,
@@ -42,14 +40,14 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
       {/* Global Study Mode Selector */}
       <div className="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-slate-200">
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-xs font-extrabold text-slate-600 mr-1">Modo de Exibição:</span>
+          <span className="text-xs font-extrabold text-slate-600 mr-1">Visualização da Aula:</span>
           {(
             [
-              { id: 'ALL', label: '📚 Completo (Mapa + A + B + C)' },
-              ...(hasMindMap ? [{ id: 'MAPA', label: '🧠 Mapa Mental Visual' }] : []),
-              { id: 'A', label: '📖 Modo A (Texto Base)' },
-              { id: 'B', label: '⚡ Modo B (Resumo & Tabelas)' },
-              { id: 'C', label: '✍️ Modo C (Questões & Flashcards)' },
+              { id: 'ALL', label: '📚 Apostila Integral + Pontos Importantes' },
+              ...(hasMindMap ? [{ id: 'MAPA', label: '🧠 Mapa Mental & Ramos Visuais' }] : []),
+              { id: 'A', label: '📖 Só Texto Integral' },
+              { id: 'B', label: '📌 Só Pontos Importantes (Resumo)' },
+              { id: 'C', label: '✍️ Caderno de Questões & Flashcards' },
             ] as const
           ).map((m) => (
             <button
@@ -72,17 +70,22 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
         <div className="flex items-center gap-1.5">
           <button
             type="button"
-            onClick={onExpandAll}
-            className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold cursor-pointer"
+            onClick={() => {
+              const el = document.getElementById('lesson-fixacao-section');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }}
+            className="px-2.5 py-1.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold cursor-pointer"
           >
-            Expandir Blocos
+            ✍️ Ir p/ Questões da Aula
           </button>
           <button
             type="button"
-            onClick={onCollapseAll}
-            className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold cursor-pointer"
+            onClick={() => window.print()}
+            className="px-2.5 py-1.5 rounded-lg bg-[#123b59] hover:bg-slate-800 text-white text-xs font-bold cursor-pointer"
           >
-            Recolher Blocos
+            🖨️ Imprimir / Salvar PDF
           </button>
         </div>
       </div>
@@ -95,7 +98,7 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
               Laboratório de Estudo Ativo
             </span>
             <span className="text-xs text-slate-200 font-semibold">
-              Ferramentas interativas para memorização de leis, prazos e conceitos
+              Ferramentas interativas para memorização de leis, prazos e conceitos no texto integral
             </span>
           </div>
           <div className="flex flex-wrap items-center gap-1.5">
@@ -139,7 +142,7 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
               type="text"
               value={lessonSearchTerm}
               onChange={(e) => onChangeSearch(e.target.value)}
-              placeholder="🔍 Localizar e grifar palavra/artigo dentro desta aula..."
+              placeholder="🔍 Localizar e grifar palavra, artigo ou conceito no texto integral..."
               className="w-full px-3 py-1.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-slate-300 text-xs focus:outline-none focus:bg-white/15 focus:border-amber-300"
             />
             {lessonSearchTerm && (
@@ -154,13 +157,13 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
           </div>
 
           <div className="flex flex-wrap items-center gap-1">
-            <span className="text-[10px] font-bold text-slate-300 mr-1">Filtrar Blocos:</span>
+            <span className="text-[10px] font-bold text-slate-300 mr-1">Filtrar Conteúdo:</span>
             {(
               [
-                { id: 'ALL', label: 'Todos' },
-                { id: 'THEORY', label: 'Teoria (A+B)' },
-                { id: 'QUIZ', label: 'Com Questões' },
-                { id: 'FLASHCARDS', label: 'Com Flashcards' },
+                { id: 'ALL', label: 'Tudo' },
+                { id: 'THEORY', label: 'Texto Integral + Destaques' },
+                { id: 'QUIZ', label: 'Questões' },
+                { id: 'FLASHCARDS', label: 'Flashcards' },
               ] as const
             ).map((f) => (
               <button

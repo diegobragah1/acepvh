@@ -22,109 +22,104 @@
   "questionsCount": 10,
   "flashcardsCount": 12,
   "mindMap": {
-    "centralTitle": "8. Vigilância em Saúde: Os 4 Pilares (Epidemiológica, Sanitária, Ambiental e Trabalhador), PNVS (Res. 588/2018), Indicadores e SIS",
+    "centralTitle": "8. Vigilância em Saúde: Os 4 Pilares (VE, VISA, VSA e VISAT), PNVS, Notificação Compulsória e Indicadores",
     "mnemonic": "4 Vigilâncias: VE (Pessoas/Agravos) + VISA (Bens/Produtos/Serviços) + VSA (Água/Ar/Solo/Vetores/Desastres) + VISAT (Trabalho) • Notificação Imediata = até 24h • Notificação Semanal = até 7 dias",
     "deadlinesAndNumbers": [
       {
         "value": "Até 24 horas",
-        "label": "Prazo da Notificação Compulsória Imediata (ex.: Febre Amarela, Raiva, Malária extra-amazônica, Chagas Aguda)"
+        "label": "Prazo da Notificação Compulsória Imediata (ex.: Febre Amarela, Raiva, Malária extra-amazônica, Chagas Aguda)",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "Até 7 dias (Semanal)",
-        "label": "Prazo da Notificação Compulsória Semanal (ex.: Dengue/Zika/Chikungunya sem óbito, LTA, LV, Esquistossomose)"
+        "label": "Prazo da Notificação Compulsória Semanal (ex.: Dengue/Zika/Chikungunya sem óbito, LTA, LV, Esquistossomose)",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "SIVEP-Malária vs. SINAN",
-        "label": "Na Amazônia Legal (Rondônia), a Malária é notificada no SIVEP-Malária; fora da Amazônia, no SINAN (imediata 24h)"
+        "label": "Na Amazônia Legal (Rondônia), a Malária é notificada no SIVEP-Malária; fora da Amazônia, no SINAN (imediata 24h)",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "Resolução CNS nº 588/2018",
-        "label": "Instituiu a Política Nacional de Vigilância em Saúde (PNVS), de caráter universal, transversal e público"
+        "label": "Instituiu a Política Nacional de Vigilância em Saúde (PNVS), de caráter universal, transversal e público",
+        "ref": "Ref. Aula 6"
       }
     ],
     "branches": [
       {
-        "title": "1. Conceitos Epidemiológicos Fundamentais",
+        "title": "1. Os 4 Pilares da Vigilância em Saúde e Conceitos Epidemiológicos",
         "icon": "📊",
         "color": "teal",
         "nodes": [
           {
-            "label": "Endemia vs. Epidemia vs. Surto",
-            "detail": "Endemia = ocorrência habitual dentro do esperado (canal endêmico). Epidemia = excesso de casos acima do limite esperado. Surto = epidemia restrita a local fechado (quartel, escola, creche).",
-            "badge": "Curva Endêmica"
+            "label": "VE, VISA, VSA e VISAT (Art. 6º da Lei 8.080/90 e Res. CNS 588/18)",
+            "detail": "Epidemiológica (doenças/agravos e determinantes); Sanitária (bens, produtos e serviços — poder de polícia); Ambiental (fatores não biológicos: Vigiágua, Vigisolo, Vigiar, Vigidesastres); Saúde do Trabalhador (processos e ambientes de trabalho).",
+            "badge": "4 Vigilâncias"
           },
           {
-            "label": "Incidência vs. Prevalência",
-            "detail": "Incidência = apenas casos NOVOS no período (mede risco de adoecer). Prevalência = casos existentes (novos + antigos). Emigração/Cura/Óbito diminuem a prevalência!",
-            "badge": "Panela de Água"
-          },
-          {
-            "label": "Mortalidade vs. Letalidade",
-            "detail": "Mortalidade divide os óbitos pela POPULAÇÃO total exposta; Letalidade divide os óbitos pelos DOENTES daquela doença (mede a gravidade da doença!).",
-            "badge": "Gravidade = Letalidade"
+            "label": "Endemia vs. Epidemia vs. Surto vs. Pandemia",
+            "detail": "Endemia: ocorrência habitual dentro do limite esperado (ex.: Malária na Amazônia). Epidemia: casos acima do limiar epidêmico esperado. Surto: epidemia restrita a local fechado/instituição (quartel, escola, navio). Pandemia: escala global.",
+            "badge": "Conceitos-Chave"
           }
         ]
       },
       {
-        "title": "2. Notificação Compulsória no Brasil",
+        "title": "2. Notificação Compulsória no Brasil (Imediata 24h vs. Semanal)",
         "icon": "🚨",
         "color": "rose",
         "nodes": [
           {
-            "label": "Suspeita já Notifica!",
-            "detail": "A notificação compulsória deve ser feita diante da simples SUSPEITA (não espera confirmação laboratorial!) e é obrigatória para médicos/profissionais de saúde e responsáveis por estabelecimentos.",
-            "badge": "Suspeita!"
+            "label": "Notificação Imediata (Até 24 Horas) vs. Semanal (Até 7 Dias)",
+            "detail": "Imediata (24h pelo meio mais rápido): Botulismo, Cólera, Febre Amarela, Febre Maculosa, Hantavirose, Raiva Humana, Chagas Aguda, Malária extra-amazônica e ÓBITO por Dengue/Zika/Chikungunya, além de Zika em gestante.",
+            "badge": "24h vs. 7 dias"
           },
           {
-            "label": "Notificação Negativa",
-            "detail": "Comunicação semanal informando que NÃO houve nenhum caso de doença de notificação compulsória na semana epidemiológica (prova que o sistema está ativo e vigilante!).",
-            "badge": "Vigilância Ativa"
+            "label": "Pegadinha Regional da Malária (Amazônia Legal vs. Extra-Amazônica)",
+            "detail": "Na Região Amazônica (incluindo Porto Velho/RO!), a Malária é endêmica: notificação SEMANAL no SIVEP-Malária. Fora da Amazônia Legal, 1 caso suspeito de Malária é de notificação IMEDIATA (24h) no SINAN!",
+            "badge": "Malária RO = Semanal"
           }
         ]
       },
       {
-        "title": "3. Sistemas de Informação em Saúde (SIS)",
+        "title": "3. Sistemas de Informação em Saúde (SINAN, SIM, SINASC, SIVEP e SI-PNI)",
         "icon": "💻",
         "color": "indigo",
         "nodes": [
           {
-            "label": "SINAN vs. SIVEP-Malária",
-            "detail": "SINAN = doenças e agravos de notificação compulsória. Na Região Amazônica (como Porto Velho/RO!), a malária é registrada no SIVEP-Malária (e fora da Amazônia, no SINAN!).",
-            "badge": "Porto Velho = SIVEP!"
-          },
-          {
-            "label": "SIM, SINASC, SI-PNI e e-SUS APS",
-            "detail": "SIM (mortalidade - DO), SINASC (nascidos vivos - DN), SI-PNI (vacinação) e e-SUS APS / e-SUS Território (registro diário de visitas de ACS e ACE).",
-            "badge": "Sistemas Oficiais"
+            "label": "Documento-Base de Cada Sistema Oficial do SUS",
+            "detail": "SINAN = Ficha Individual de Notificação (FIN — alimentado diante da simples SUSPEITA!). SIM = Declaração de Óbito (DO). SINASC = Declaração de Nascido Vivo (DNV). SIVEP-Malária = exclusivo para Malária na Amazônia Legal.",
+            "badge": "FIN / DO / DNV"
           }
         ]
       },
       {
-        "title": "4. Indicadores de Saúde (Cálculos)",
-        "icon": "📊",
+        "title": "4. Indicadores de Saúde: Incidência, Prevalência, Letalidade e Mortalidade",
+        "icon": "🧮",
         "color": "amber",
         "nodes": [
           {
-            "label": "Ponto-Chave #1",
-            "detail": "Incidência = Casos NOVOS / População exposta (mede risco de adoecer)",
-            "badge": "Síntese IBGP"
+            "label": "Incidência (Casos Novos) vs. Prevalência (Novos + Antigos)",
+            "detail": "Incidência mede o RISCO de adoecer (casos novos ÷ população exposta). Prevalência = estoque de casos existentes (aumenta com maior duração da doença/tratamento que prolonga a vida sem curar; diminui com cura rápida ou óbito).",
+            "badge": "P ≈ I × Duração"
           },
           {
-            "label": "Ponto-Chave #2",
-            "detail": "Prevalência = Casos NOVOS + ANTIGOS / População total (estoque de doentes)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #3",
-            "detail": "Letalidade (%) = Óbitos pela doença X / Total de DOENTES por X × 100 (gravidade)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #4",
-            "detail": "Mortalidade Infantil = Óbitos < 1 ano / Nascidos Vivos (SINASC) × 1.000",
-            "badge": "Síntese IBGP"
+            "label": "Mortalidade Específica vs. Letalidade (Gravidade) vs. Infantil",
+            "detail": "Letalidade = (Óbitos pela doença ÷ Doentes daquela doença) × 100 — mede a GRAVIDADE da doença (ex.: Raiva ≈ 100%). Mortalidade Infantil = óbitos < 1 ano por 1.000 nascidos vivos (Neonatal Precoce 0–6d, Tardia 7–27d, Pós-Neonatal 28–364d).",
+            "badge": "Letalidade = Gravidade"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Vigilância Epidemiológica, Sanitária, Ambiental (Vigiágua/Vigisolo/Vigiar) e Saúde do Trabalhador, Resolução CNS nº 588/2018 (PNVS), SINAN/SIM/SINASC/SIVEP e Indicadores",
+    "goldenTraps": [
+      {
+        "wrong": "O SINAN só deve ser alimentado após a confirmação laboratorial definitiva da doença de notificação compulsória.",
+        "right": "FALSO! A notificação compulsória no SINAN é realizada diante da simples SUSPEITA clínica/epidemiológica do agravo, para disparar oportunamente o bloqueio de transmissão."
+      },
+      {
+        "wrong": "Em Porto Velho/RO, qualquer caso de Dengue clássica sem sinais de alarme exige notificação imediata em até 24 horas.",
+        "right": "FALSO! Casos comuns de Dengue, Chikungunya e Zika têm notificação SEMANAL. A notificação é imediata (24h) nos casos de ÓBITO por arbovirose ou Zika em gestante."
       }
     ]
   },

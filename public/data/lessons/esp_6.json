@@ -28,19 +28,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "1956 (DNERu) / 1970 (SUCAM)",
-        "label": "Unificação dos serviços de endemias rurais (1956) e criação da SUCAM com os Guardas de Endemias (1970)"
+        "label": "Unificação dos serviços de endemias rurais (1956) e criação da SUCAM com os Guardas de Endemias (1970)",
+        "ref": "Ref. Aula 5"
       },
       {
         "value": "1991 (FUNASA) / 1999 (Port. 1.399)",
-        "label": "Fusão SUCAM+FSESP na FUNASA (1991) e descentralização para Estados e Municípios (1999)"
+        "label": "Fusão SUCAM+FSESP na FUNASA (1991) e descentralização para Estados e Municípios (1999)",
+        "ref": "Ref. Aula 5"
       },
       {
         "value": "EC 51/2006 e Lei 11.350/2006",
-        "label": "Constitucionalização da carreira, Processo Seletivo Público e criação oficial da nomenclatura ACE"
+        "label": "Constitucionalização da carreira, Processo Seletivo Público e criação oficial da nomenclatura ACE",
+        "ref": "Ref. Aula 5"
       },
       {
         "value": "EC 120/2022 e Lei 14.536/2023",
-        "label": "Piso de 2 Salários Mínimos, insalubridade, aposentadoria especial e reconhecimento como Profissional de Saúde"
+        "label": "Piso de 2 Salários Mínimos, insalubridade, aposentadoria especial e reconhecimento como Profissional de Saúde",
+        "ref": "Ref. Aula 5"
       }
     ],
     "branches": [
@@ -111,6 +115,17 @@
             "badge": "Conquistas 2022–2023"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Das Brigadas de Oswaldo Cruz (1903), EFMM em Porto Velho (1910), SESP (1942), DNERu (1956) e SUCAM (1970) à FUNASA (1991), Descentralização (1999), EC 51/2006, EC 120/2022 e EC 140/2026",
+    "goldenTraps": [
+      {
+        "wrong": "A SUCAM foi criada em 1991 a partir da fusão da FUNASA com o INAMPS para descentralizar o controle de endemias aos municípios.",
+        "right": "FALSO! Foi exatamente o inverso: a SUCAM foi criada em 1970 (fusão do DNERu + CEM + Campanha da Varíola). Em 1991, a SUCAM fundiu-se com a FSESP para originar a FUNASA!"
+      },
+      {
+        "wrong": "A Emenda Constitucional nº 51/2006 fixou o piso salarial de 2 salários mínimos para os Agentes de Combate às Endemias.",
+        "right": "FALSO! A EC 51/2006 criou o Processo Seletivo Público e vedou a terceirização temporária (salvo surto). Quem fixou o piso de 2 salários mínimos no Art. 198, § 9º da CF foi a EC nº 120/2022!"
       }
     ]
   },

@@ -6,105 +6,109 @@
   "title": "8. Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras",
   "editalRef": "Item 8 de Língua Portuguesa — Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
   "mindMap": {
-    "centralTitle": "Morfologia: Classes de Palavras, Formação de Palavras, Verbos e Colocação Pronominal",
-    "centralSubtitle": "As 10 Classes, Parassíntese, Funções do 'SE' e do 'QUE', e Próclise / Mesóclise / Ênclise",
-    "mnemonic": "Palavras Atrativas de PRÓCLISE = NR-PIS-C (Negativas, Relativos, Pronomes Indefinidos/Interrogativos, Subordinativas e Certos Advérbios) | Jamais inicie frase com pronome oblíquo!",
+    "centralTitle": "8. Classes de Palavras (Identificação, Flexão e Emprego) e Formação de Palavras",
+    "centralSubtitle": "As 6 Classes Variáveis (Substantivo, Artigo, Adjetivo, Pronome, Numeral e Verbo), as 4 Invariáveis (Advérbio, Preposição, Conjunção e Interjeição), Derivação e Composição",
+    "mnemonic": "6 Variáveis (S-A-A-P-N-V) vs. 4 Invariáveis (A-P-C-I) • Parassíntese = Prefixo + Sufixo SIMULTÂNEOS (tire o prefixo: se a palavra não existir sozinha, é Parassintética!) • Derivação Imprópria = Mudança de classe sem mudar a forma",
     "deadlinesAndNumbers": [
       {
-        "value": "10 Classes",
-        "label": "6 Variáveis (Subst., Art., Adj., Num., Pron., Verbo) e 4 Invariáveis (Adv., Prep., Conj., Interj.)",
-        "ref": "Morfologia"
+        "value": "6 Variáveis / 4 Invariáveis",
+        "label": "Variáveis: Substantivo, Artigo, Adjetivo, Pronome, Numeral, Verbo. Invariáveis: Advérbio, Preposição, Conjunção, Interjeição",
+        "ref": "10 Classes Gramaticais"
       },
       {
-        "value": "PA vs. IIS",
-        "label": "As duas grandes funções sintáticas da partícula 'SE' cobradas em prova",
-        "ref": "Voz Passiva vs. Indet."
+        "value": "Teste da Parassíntese",
+        "label": "Em \"amanhecer\" ou \"entardecer\", não existe \"*manhecer\" nem \"*tardecer\" -> Derivação Parassintética (diferente de \"infelizmente\")",
+        "ref": "Formação de Palavras"
       },
       {
-        "value": "3 Colocações",
-        "label": "Próclise (antes do verbo), Mesóclise (no meio: futuro) e Ênclise (depois do verbo)",
-        "ref": "Topologia Pronominal"
+        "value": "Derivação Regressiva",
+        "label": "Formação de substantivo abstrato deverbal de ação pela redução do verbo (combater → o combate; atacar → o ataque)",
+        "ref": "Substantivo Deverbal"
+      },
+      {
+        "value": "Justaposição vs. Aglutinação",
+        "label": "Justaposição = sem perda fonética (guarda-chuva, passatempo); Aglutinação = com perda fonética (planalto, aguardente, fidalgo)",
+        "ref": "Composição"
       }
     ],
     "branches": [
       {
-        "title": "1. Formação de Palavras e Classes Gramaticais",
-        "icon": "🧩",
+        "title": "1. Classes Variáveis Nominais: Substantivo, Artigo, Adjetivo e Numeral",
+        "icon": "🔤",
         "color": "teal",
         "nodes": [
           {
-            "label": "Parassíntese vs. Prefixal e Sufixal",
-            "detail": "Tire o prefixo: se a palavra restante NÃO existir (ex: entardecer -> não existe 'tardecer'), é Parassintética. Se existir (infelizmente -> felizmente), é Prefixal e Sufixal.",
-            "badge": "Teste do Prefixo"
+            "label": "Substantivo e Plural dos Compostos",
+            "detail": "Regra de ouro dos compostos com hífen: Substantivo + Substantivo ou Adjetivo variam AMBOS (couves-flores, guardas-noturnos); Verbo ou Palavra Invariável + Substantivo varia SÓ O SEGUNDO (guarda-chuvas, abaixo-assinados); ligados por preposição varia SÓ O PRIMEIRO (pés-de-moleque).",
+            "badge": "Plural dos Compostos"
           },
           {
-            "label": "Substantivo, Adjetivo, Advérbio e Pronomes Oblíquos",
-            "detail": "Advérbio é invariável (modifica verbo, adjetivo ou outro advérbio). Pronomes 'O, A, OS, AS' funcionam como Objeto Direto (VTD); 'LHE, LHES' funcionam como Objeto Indireto (VTI)!",
-            "badge": "O/A = OD | LHE = OI"
+            "label": "Adjetivo vs. Locução Adjetiva e Mudança de Posição",
+            "detail": "A inversão Adjetivo + Substantivo pode mudar a classe e o sentido: \"homem grande\" (alto) vs. \"grande homem\" (ilustre); \"funcionário simples\" (humilde) vs. \"simples funcionário\" (mero).",
+            "badge": "Posição do Adjetivo"
           }
         ]
       },
       {
-        "title": "2. Funções do 'SE' (PA vs. IIS) e do 'QUE'",
-        "icon": "🔍",
+        "title": "2. Pronomes (Pessoais, Demonstrativos, Relativos e Indefinidos)",
+        "icon": "🗣️",
         "color": "indigo",
         "nodes": [
           {
-            "label": "SE = Partícula Apassivadora (PA)",
-            "detail": "VTD (sem preposição) + aceita voz passiva analítica + verbo CONCORDA no plural com o sujeito paciente ('Vistoriaram-se os imóveis' = 'Os imóveis foram vistoriados').",
-            "badge": "Plural!"
+            "label": "Pronomes Retos (Eu, Tu) vs. Oblíquos (Mim, Ti, O/A vs. Lhe)",
+            "detail": "Após preposição essencial usa-se MIM/TI, salvo se for sujeito de verbo no infinitivo (\"Para EU fazer a vistoria\" vs. \"Trouxe o mapa para MIM\"). O/A/OS/AS funcionam como Objeto Direto; LHE/LHES como Objeto Indireto (ou adjunto adnominal de posse).",
+            "badge": "Eu vs. Mim | O vs. Lhe"
           },
           {
-            "label": "SE = Índice de Indeterminação do Sujeito (IIS)",
-            "detail": "VTI (com preposição), VI ou VL + verbo fica OBRIGATORIAMENTE na 3ª pessoa do SINGULAR ('Precisa-se de agentes', 'Vive-se bem').",
-            "badge": "Singular!"
+            "label": "Pronomes Relativos (Que, Quem, O qual, Cujo, Onde)",
+            "detail": "Retomam antecedente e introduzem oração subordinada adjetiva. \"CUJO\" concorda com o consequente e jamais admite artigo depois dele (\"o bairro cujas ruas\").",
+            "badge": "Pronomes Relativos"
           }
         ]
       },
       {
-        "title": "3. Colocação Pronominal (Próclise, Mesóclise e Ênclise)",
-        "icon": "🧲",
+        "title": "3. As 4 Classes Invariáveis (Advérbio, Preposição, Conjunção e Interjeição)",
+        "icon": "🧭",
         "color": "amber",
         "nodes": [
           {
-            "label": "Proibições Absolutas e Palavras Atrativas (Próclise)",
-            "detail": "1. JAMAIS iniciar frase com pronome átono ('Me diga' -> 'Diga-me') ou usar após vírgula! 2. JAMAIS usar ênclise no Futuro (usa-se Mesóclise se não houver atrativo: 'Dar-lhe-ei') ou após Particípio! 3. Palavras atrativas puxam Próclise: NÃO, NUNCA, QUE, QUEM, TUDO, QUANDO, EM + Gerúndio.",
-            "badge": "Ímãs da Próclise"
+            "label": "Advérbio (Invariável!) vs. Adjetivo (Variável)",
+            "detail": "O advérbio modifica Verbo, Adjetivo ou outro Advérbio e NÃO varia (\"Eles falaram ALTO / As agentes estão MEIO cansadas\"). Quando modifica substantivo, é adjetivo/pronome indefinido e varia (\"Fizeram BASTANTES visitas\").",
+            "badge": "Advérbio Não Varia!"
+          },
+          {
+            "label": "Preposição Relational vs. Nocional e Derivação Imprópria",
+            "detail": "Derivação imprópria (conversão) muda a classe sem alterar a forma: \"O NÃO foi imediato\" (advérbio substantivado com artigo \"o\"); \"Caminharam RÁPIDO\" (adjetivo adverbializado).",
+            "badge": "Derivação Imprópria"
           }
         ]
       },
       {
-        "title": "4. Formação de Palavras (Derivação e Composição)",
+        "title": "4. Processos de Formação de Palavras (Derivação e Composição)",
         "icon": "🧩",
-        "color": "amber",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Derivação Parassintética",
-            "detail": "prefixo + sufixo SIMULTÂNEOS (ex.: anoitecer, empobrecer)",
-            "badge": "Síntese IBGP"
+            "label": "Parassintética vs. Prefixal e Sufixal",
+            "detail": "Em \"DESLEALDADE\", existem \"desleal\" e \"lealdade\" → Derivação Prefixal e Sufixal. Em \"ANOITECER\" ou \"EMUDECER\", não existem \"*noitecer\" nem \"*mudecer\" → Derivação Parassintética (simultânea)!",
+            "badge": "Teste do Esqueleto"
           },
           {
-            "label": "Derivação Prefixal e Sufixal",
-            "detail": "não simultânea (ex.: infelizmente, deslealdade)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Derivação Regressiva (deverbal)",
-            "detail": "verbo vira substantivo abstrato (combater → o combate)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Derivação Imprópria (conversão)",
-            "detail": "muda de classe sem mudar a forma (o jantar, um não)",
-            "badge": "Síntese IBGP"
+            "label": "Composição: Justaposição vs. Aglutinação",
+            "detail": "Justaposição une radicais sem perda de fonemas (girassol, pontapé, segunda-feira). Aglutinação une radicais COM perda fonética (planalto = plano + alto; embora = em + boa + hora; vinagre = vinho + acre).",
+            "badge": "Justaposição vs. Aglutinação"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "A frase 'Aluga-se salas comerciais no centro' está correta segundo a norma-padrão.",
-        "right": "FALSO! 'Alugar' é VTD ('salas comerciais são alugadas'), logo o 'se' é Partícula Apassivadora e o verbo deve concordar no plural: 'Alugam-se salas comerciais'!"
+        "wrong": "A palavra \"infelizmente\" é formada por derivação parassintética porque possui prefixo (in-) e sufixo (-mente).",
+        "right": "FALSO! Como existem na língua as palavras \"infeliz\" e \"felizmente\", os afixos não foram obrigados a entrar simultaneamente: trata-se de Derivação Prefixal e Sufixal!"
+      },
+      {
+        "wrong": "Em \"Encontraram bastantes focos no terreno\", a palavra \"bastantes\" está incorreta porque advérbio não tem plural.",
+        "right": "FALSO! A frase está CORRETA: antes do substantivo \"focos\", \"bastantes\" é pronome indefinido/adjetivo (= muitos) e concorda normalmente no plural!"
       }
     ]
   },

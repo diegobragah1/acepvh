@@ -6,105 +6,119 @@
   "title": "11. Regência verbal e nominal",
   "editalRef": "Item 11 de Língua Portuguesa — Regência verbal e nominal.",
   "mindMap": {
-    "centralTitle": "Sintaxe II: Regência Verbal e Nominal, Crase e Pontuação",
-    "centralSubtitle": "Os 10 Verbos de Regência, Proibições/Casos Facultativos da Crase e Regras da Vírgula",
-    "mnemonic": "Implicar (= acarretar) = VTD (SEM 'em'!) | Obedecer = VTI (COM 'a'!) | Preferir X a Y (sem 'do que'!) | Crase Facultativa = ATÉ SUA MARIA | Vírgula NUNCA separa Sujeito-Verbo-Objeto!",
+    "centralTitle": "11. Regência Verbal e Nominal (Verbos de Prova e Pronomes Relativos)",
+    "centralSubtitle": "Regência dos Verbos Campeões (Assistir, Aspirar, Visar, Implicar, Preferir, Obedecer, Esquecer/Lembrar, Chegar/Morar, Pagar/Perdoar, Simpatizar), Regência Nominal e Relativos (Onde, Aonde, Cujo)",
+    "mnemonic": "IMPLICAR (acarretar) = VTD sem \"em\"! • PREFERIR X a Y (sem \"do que\" e sem \"mais\")! • OBEDECER / DESOBEDECER = VTI com \"a\"! • ESQUECER / LEMBRAR: Sem pronome = sem \"de\" | Com pronome (me/se) = com \"de\"!",
     "deadlinesAndNumbers": [
       {
-        "value": "5 Proibições Crase",
-        "label": "Masculino, Verbo, Palavras repetidas, 'a' singular + plural, Pronomes indefinidos",
-        "ref": "Crase Proibida"
+        "value": "Assistir / Aspirar / Visar",
+        "label": "Mudam de sentido conforme a regência: Assistir (ver = VTI \"a\"), Aspirar (desejar = VTI \"a\", sem \"lhe\") e Visar (objetivar = VTI \"a\")",
+        "ref": "Mudança de Sentido"
       },
       {
-        "value": "3 Facultativos",
-        "label": "Depois de 'ATÉ', antes de Pronome Possessivo Feminino Singular e Nome Próprio Feminino",
-        "ref": "ATÉ SUA MARIA"
+        "value": "Implicar (Acarretar) = VTD",
+        "label": "No sentido de gerar consequência é Transitivo Direto SEM preposição \"em\" (\"O descaso implica risco de epidemia\")",
+        "ref": "Campeão de Prova"
       },
       {
-        "value": "SVC sem Vírgula",
-        "label": "Na ordem direta (Sujeito + Verbo + Complemento), é PROIBIDO separar com vírgula!",
-        "ref": "Pontuação"
+        "value": "Preferir X a Y",
+        "label": "Rege apenas a preposição \"A\"; rejeita \"mais\", \"antes\" e \"do que\" (\"Prefiro prevenir A remediar\")",
+        "ref": "VTDI"
+      },
+      {
+        "value": "Onde (Em) vs. Aonde (A)",
+        "label": "ONDE = verbos estáticos que pedem \"em\" (morar, ficar); AONDE = verbos de movimento que pedem \"a\" (ir, chegar, levar)",
+        "ref": "Regência + Relativos"
       }
     ],
     "branches": [
       {
-        "title": "1. Regência dos Verbos Campeões da IBGP",
+        "title": "1. Verbos que Mudam de Sentido Conforme a Regência",
         "icon": "🎯",
         "color": "teal",
         "nodes": [
           {
-            "label": "Implicar, Assistir, Aspirar e Visar",
-            "detail": "Implicar (acarretar) = VTD sem 'em' ('implica demissão'). Assistir (ver) = VTI com 'a' ('assistir ao jogo'). Aspirar (desejar) = VTI com 'a' ('aspirar ao cargo'). Visar (objetivar) = VTI com 'a' ('visar à saúde').",
-            "badge": "Sentido muda Regência"
+            "label": "ASSISTIR: Ver (VTI com \"a\") vs. Ajudar/Socorrer (VTD ou VTI) vs. Caber (VTI)",
+            "detail": "No sentido de presenciar/ver é VTI e NÃO aceita \"lhe\" (usa-se \"a ele/a ela\"): \"Assistimos AO treinamento e assistimos A ELE\". No sentido de prestar assistência médica, é VTD (ou VTI): \"O médico assistiu O paciente\".",
+            "badge": "Assistir AO filme (a ele)"
           },
           {
-            "label": "Obedecer, Preferir, Chegar/Ir e Esquecer/Lembrar",
-            "detail": "Obedecer/Desobedecer = VTI com 'a' ('obedecer às normas'). Preferir = 'Prefiro X a Y'. Chegar/Ir = exigem 'a' ('chegou ao bairro'). Esquecer/Lembrar = sem pronome não tem 'de'; com pronome ('esquecer-se') exige 'de'!",
-            "badge": "Cuidado!"
+            "label": "ASPIRAR: Inalar (VTD) vs. Desejar/Almejar (VTI com \"a\", sem \"lhe\")",
+            "detail": "Inalar/cheirar = VTD (\"Aspirou O pó\"). Almejar/pretender = VTI com \"a\" e rejeita \"lhe\" (\"Aspirava AO cargo de ACE / Aspirava A ELE\").",
+            "badge": "Aspirar AO cargo (a ele)"
+          },
+          {
+            "label": "VISAR: Mirar/Rubricar (VTD) vs. Ter em vista/Objetivar (VTI com \"a\")",
+            "detail": "Mirar o alvo ou dar visto em documento = VTD (\"Visou O formulário\"). Ter como objetivo = VTI com \"a\" (\"A campanha visa AO controle vetorial\").",
+            "badge": "Visar AO objetivo"
           }
         ]
       },
       {
-        "title": "2. O Mapa Definitivo da Crase (`a` + `a` = `à`)",
+        "title": "2. Os 5 Verbos de Regência Fixa Mais Cobrados pela IBGP",
         "icon": "⚡",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Quando NUNCA usar Crase",
-            "detail": "Antes de palavra masculina ('a pé, a prazo'), antes de verbo ('a partir de, começou a falar'), entre palavras repetidas ('cara a cara, gota a gota') e 'a' no singular + palavra no plural ('referiu-se a medidas').",
-            "badge": "100% Proibida"
+            "label": "IMPLICAR (Acarretar) e SIMPATIZAR / ANTIPATIZAR",
+            "detail": "IMPLICAR (= acarretar/produzir consequência) é VTD direto, SEM preposição \"em\" (\"A falha implica demissão\"). SIMPATIZAR e ANTIPATIZAR são VTI (com \"com\"), mas NÃO são pronominais (nunca diga \"*simpatizei-me\")!",
+            "badge": "Implica algo (sem \"em\"!)"
           },
           {
-            "label": "Quando é SEMPRE Obrigatória vs. Facultativa",
-            "detail": "Obrigatória: locuções femininas ('às vezes, à noite, à medida que, às pressas') e horas exatas ('às 14h'). Facultativa (ATÉ SUA MARIA): após 'até', antes de 'minha/tua/sua' singular e antes de nome próprio feminino.",
-            "badge": "Obrigatória vs. Facult."
+            "label": "PREFERIR e OBEDECER / DESOBEDECER",
+            "detail": "PREFERIR exige \"preferir X A Y\" (proibido usar \"mais\", \"muito mais\" ou \"do que\"). OBEDECER e DESOBEDECER são sempre VTI (pedem preposição \"A\": \"Obedeça ÀS normas\", embora admitam voz passiva!).",
+            "badge": "Preferir X a Y | Obedecer a"
+          },
+          {
+            "label": "ESQUECER / LEMBRAR e PAGAR / PERDOAR",
+            "detail": "Esquecer/Lembrar: sem pronome = VTD (\"Esqueci o crachá\"); com pronome = VTI com \"de\" (\"Esqueci-me DO crachá\"). Pagar/Perdoar: coisa = OD (\"Paguei a taxa\"); pessoa = OI com \"a\" (\"Paguei AO servidor\").",
+            "badge": "Esqueci X vs. Esqueci-me DE X"
           }
         ]
       },
       {
-        "title": "3. Pontuação: Vírgula, Dois-Pontos e Travessão",
-        "icon": "✒️",
+        "title": "3. Verbos de Movimento/Estáticos (Chegar, Ir, Morar, Residir) e Informar",
+        "icon": "🧭",
         "color": "amber",
         "nodes": [
           {
-            "label": "Quando a Vírgula é PROIBIDA vs. OBRIGATÓRIA",
-            "detail": "PROIBIDA entre Sujeito e Verbo e entre Verbo e Complemento! OBRIGATÓRIA para isolar Vocativo, Aposto Explicativo, Adjunto Adverbial deslocado de longa extensão e Orações Subordinadas Adjetivas Explicativas.",
-            "badge": "Regra da Vírgula"
+            "label": "CHEGAR e IR (Preposição \"A\") vs. MORAR, RESIDIR e SITUAR (Preposição \"EM\")",
+            "detail": "Chegar e Ir exigem a preposição \"A\" (e não \"em\"): \"Chegamos À unidade de saúde\". Morar, residir e situar exigem a preposição \"EM\" (e não \"a\"): \"Reside NA Rua Sete de Setembro\".",
+            "badge": "Chegar A / Morar EM"
+          },
+          {
+            "label": "INFORMAR, AVISAR, CERTIFICAR e NOTIFICAR (VTDI)",
+            "detail": "Pedem um Objeto Direto e um Objeto Indireto: informa-se ALGO (OD) A ALGUÉM (OI) ou informa-se ALGUÉM (OD) DE/SOBRE ALGO (OI) — nunca dois objetos iguais!",
+            "badge": "Algo A alguém / Alguém DE algo"
           }
         ]
       },
       {
-        "title": "4. Pontuação: Vírgula, Travessão e Dois-Pontos",
-        "icon": "✒️",
-        "color": "amber",
+        "title": "4. Regência Nominal e Regência com Pronomes Relativos",
+        "icon": "🔗",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Ponto-Chave #1",
-            "detail": "PROIBIDO vírgula entre Sujeito e Verbo e entre Verbo e Complementos!",
-            "badge": "Síntese IBGP"
+            "label": "Substantivos e Adjetivos de Prova",
+            "detail": "Acessível A, alheio A, ansioso POR/PARA, apto A/PARA, aversão A/POR, capacidade DE/PARA, compatível COM, imune A/DE, nocivo A, obediente A, passível DE, residente EM.",
+            "badge": "Regência Nominal"
           },
           {
-            "label": "Vírgula obrigatória",
-            "detail": "isolar Vocativo, Aposto Explicativo e Adjunto Adverbial longo deslocado",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #3",
-            "detail": "Duplo travessão = Par de vírgulas = Parênteses (isola aposto/explicação intercalada)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Vírgula antes de \"E\"",
-            "detail": "ocorre quando os sujeitos das duas orações são DIFERENTES",
-            "badge": "Síntese IBGP"
+            "label": "Preposição Antes do Relativo (A que, De que, Com que, Cujo, Onde vs. Aonde)",
+            "detail": "A preposição exigida pelo verbo após o relativo desloca-se para ANTES do relativo: \"O equipamento DE QUE preciso\" (precisar de); \"A meta A QUE visamos\" (visar a); \"O distrito AONDE fomos\" (ir a) vs. \"O distrito ONDE atuamos\" (atuar em).",
+            "badge": "De que / A que / Aonde"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "A frase 'O não cumprimento das metas implicará na abertura de processo administrativo' está correta na norma culta.",
-        "right": "FALSO! O verbo 'implicar', no sentido de acarretar/produzir como consequência, é Transitivo Direto (VTD), rejeitando a preposição 'em'. O correto é: 'implicará A abertura'!"
+        "wrong": "A frase \"O atraso na notificação implica em grave prejuízo para o bloqueio epidemiológico\" está correta segundo a norma-padrão.",
+        "right": "FALSO! No sentido de acarretar/gerar consequência, o verbo IMPLICAR é Transitivo Direto e rejeita a preposição \"em\": o correto é \"implica grave prejuízo\"."
+      },
+      {
+        "wrong": "Em \"O bairro onde a equipe se dirigiu ontem fica na Zona Leste\", o pronome \"onde\" foi empregado corretamente.",
+        "right": "FALSO! Quem se dirige, dirige-se A algum lugar (movimento com preposição \"a\"). Portanto, exige-se \"AONDE a equipe se dirigiu\" (ou \"ao qual a equipe se dirigiu\")!"
       }
     ]
   },

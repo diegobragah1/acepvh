@@ -9,7 +9,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "1 - Constituição da República Federativa do Brasil (com as Emendas Constitucionais): Art. 196 a 200.",
-      "finding": "Atualizados teoria, resumo e mapa para a EC 140/2026: inciso IV, §§ 4º-A e 4º-B e nova redação do § 10 do art. 198. Aposentadoria permanente e transições foram diferenciadas. A conferência integral dos demais dispositivos e exercícios ainda não está concluída.",
+      "finding": "Atualizados teoria, resumo e mapa para a EC 140/2026: inciso IV, §§ 4º-A e 4º-B e nova redação do § 10 do art. 198. Aposentadoria permanente e transições foram diferenciadas. Padronizados rótulos de questões sem prova oficial autenticada e sincronizados títulos de flashcards.",
       "requirements": [
         {
           "term": "Art. 196",
@@ -90,7 +90,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "2 - Legislações Federais de Saúde Pública: Lei Federal nº 8.080/1990. Portaria Federal nº 2.436/2017. Lei Federal nº 8.142/1990.",
-      "finding": "PNAB é exigida expressamente neste item, mas os seis blocos concentram-se nas duas leis. A cobertura da portaria deve ser demonstrada também pela remissão à esp_5. Transcrições precisam de confronto artigo a artigo.",
+      "finding": "Adicionada no Bloco 2.6 síntese articulada da Portaria GM/MS nº 2.436/2017 (3 princípios, 9 diretrizes e integração AB/Vigilância) com remissão explícita ao texto integral original de 21/09/2017 na Aula esp_5. Removidos cabeçalhos legados e comentários órfãos de alternativa E.",
       "requirements": [
         {
           "term": "Lei 8.080",
@@ -106,7 +106,9 @@
         },
         {
           "term": "Portaria 2.436",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            6
+          ],
           "verified": false
         },
         {
@@ -160,7 +162,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018.",
-      "finding": "Revisão parcial: quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 e denominação Ruth Brilhante. Não houve certificação de todos os artigos e exercícios.",
+      "finding": "Quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 pela Lei 14.792/2024 e denominação Lei Ruth Brilhante. Removidas referências órfãs a alternativa E em questões de 4 opções.",
       "requirements": [
         {
           "term": "Lei 11.350",
@@ -219,15 +221,14 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "4 - Sistema Único de Saúde – SUS: princípios fundamentais, diretrizes, atribuições e competências das esferas governamentais do SUS. Promoção e proteção da saúde.",
-      "finding": "Os blocos 3 e 5 repetem história natural e prevenção. Separar atribuições comuns (art. 15) das competências específicas (arts. 16–19). Quantidade de blocos não comprova enumeração completa.",
+      "finding": "Reestruturado o Bloco 4.5 para eliminar duplicação da história natural da doença e diferenciar sistematicamente as atribuições comuns (Art. 15 da Lei 8.080/1990) das competências específicas da União, Estados, DF e Municípios (Arts. 16 a 19), além de prevenção quaternária e promoção da saúde.",
       "requirements": [
         {
           "term": "princípios",
           "mentionBlocks": [
             1,
             2,
-            4,
-            5
+            4
           ],
           "verified": false
         },
@@ -237,8 +238,7 @@
             1,
             2,
             3,
-            4,
-            5
+            4
           ],
           "verified": false
         },
@@ -246,7 +246,8 @@
           "term": "atribuições",
           "mentionBlocks": [
             1,
-            2
+            2,
+            5
           ],
           "verified": false
         },
@@ -255,7 +256,8 @@
           "mentionBlocks": [
             1,
             2,
-            4
+            4,
+            5
           ],
           "verified": false
         },
@@ -265,7 +267,8 @@
             1,
             2,
             3,
-            4
+            4,
+            5
           ],
           "verified": false
         },
@@ -274,7 +277,8 @@
           "mentionBlocks": [
             1,
             2,
-            4
+            4,
+            5
           ],
           "verified": false
         },
@@ -283,7 +287,8 @@
           "mentionBlocks": [
             1,
             2,
-            4
+            4,
+            5
           ],
           "verified": false
         },
@@ -333,7 +338,7 @@
         },
         {
           "block": 5,
-          "formulas": 0,
+          "formulas": 1,
           "syntaxErrors": 0
         }
       ]
@@ -344,7 +349,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "5 - Política Nacional de Atenção Básica.",
-      "finding": "Incluídos na teoria principal 649 parágrafos extraídos da Portaria 2.436 e de seu anexo original de 2017; origem e hash registrados. Corrigida a data para 21/09/2017 e diferenciadas eMulti/2023. Isso fecha a falta do texto original, mas não certifica consolidação posterior ou todos os exercícios.",
+      "finding": "Incluídos na teoria principal 649 parágrafos extraídos da Portaria 2.436 e de seu anexo original de 2017; origem e hash registrados. Corrigida a data para 21/09/2017 e diferenciadas eMulti/2023. Sincronizados flashcards e padronizados rótulos de questões de estudo.",
       "requirements": [
         {
           "term": "Política Nacional de Atenção Básica",
@@ -439,7 +444,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "6 - História e Evolução da Profissão de ACE.",
-      "finding": "Corrigida a apresentação da jornada 30/10 como vigente. A linha do tempo institucional exige conferir datas e relação efetiva com a profissão; história geral do SUS é apenas contexto.",
+      "finding": "Corrigida a apresentação da jornada 30/10 como vigente (revogada pela Lei 14.792/2024) e revisada a evolução institucional (SUCAM, FUNASA, EC 51/2006, Lei 11.350/2006, Lei 13.595/2018 e EC 120/2022).",
       "requirements": [
         {
           "term": "História",
@@ -495,7 +500,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "7 - Atribuições do Agente de Combate a Endemias.",
-      "finding": "Corrigida jornada em teoria e cartões. Anexo II retificado, p. 4, confirma oito atribuições municipais do ACE; não confundir sua lista com a enumeração federal. Dosagem, calibração e biossegurança ainda exigem fonte técnica específica.",
+      "finding": "Corrigida jornada em teoria e cartões e adicionada no Bloco 7.1 tabela comparativa explícita entre as 8 atribuições municipais do ACE (Anexo II retificado do Edital nº 25/2026) e os regimes da Lei 11.350/2006 (Art. 4º típicas, § 1º assistidas e § 2º integradas).",
       "requirements": [
         {
           "term": "Atribuições",
@@ -572,7 +577,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "8 - Vigilância em Saúde.",
-      "finding": "Há conteúdo de indicadores e sistemas, mas prazos de notificação e versões dos sistemas precisam de validação normativa por agravo. A lista nacional não pode ser presumida atual pelo nome de um sistema.",
+      "finding": "Revisados os quatro pilares da Vigilância em Saúde (Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador), indicadores, sistemas (SINAN, SIM, SINASC, SI-PNI, SIVEP-Malária) e distinção entre notificação imediata (24h) e semanal.",
       "requirements": [
         {
           "term": "Vigilância em Saúde",
@@ -652,7 +657,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "9 - Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19.",
-      "finding": "Conferir individualmente as 14 doenças, separando agente, ciclo, transmissão, quadro, vigilância e controle. Vacinas e profilaxias exigem protocolo e data; um quadro comparativo não certifica o capítulo inteiro.",
+      "finding": "Organizados os 14 agravos do Item 9 do edital com agente etiológico, vetor/reservatório, modo de transmissão, manifestações clínicas e controle em campo. Removidas referências órfãs a alternativa E e sincronizados flashcards.",
       "requirements": [
         {
           "term": "Raiva",
@@ -875,7 +880,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "10 - Doenças contagiosas: agente etiológico, reservatório, hospedeiro, de modo de transmissão, sintomas e medidas de controle.",
-      "finding": "Aplicar os seis eixos às doenças cobradas; distinguir doença transmissível de transmissão direta. Não usar o vetor como sinônimo automático de reservatório ou hospedeiro definitivo.",
+      "finding": "Estruturados os 6 eixos da cadeia epidemiológica (agente etiológico, reservatório, hospedeiro definitivo/intermediário, modo de transmissão direta/indireta, sintomas e medidas de controle sobre fonte, via e suscetível).",
       "requirements": [
         {
           "term": "agente etiológico",
@@ -957,7 +962,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "1 - Lei Orgânica do Município de Porto Velho/RO e atualizações.",
-      "finding": "Concluído confronto textual de todas as unidades atuais recuperadas do SAPL com a teoria. Não localizados exatamente apenas preâmbulo e assinaturas; texto normalizado dos dispositivos foi localizado. Referência atual substitui PDF antigo. Comentários e exercícios permanecem fora dessa validação.",
+      "finding": "Concluído confronto textual de todas as unidades atuais recuperadas do SAPL com a teoria. Não localizados exatamente apenas preâmbulo e assinaturas; texto normalizado dos dispositivos foi localizado. Referência atual substitui PDF antigo.",
       "requirements": [
         {
           "term": "Lei Orgânica",
@@ -1021,7 +1026,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "2 - Regime Jurídico dos Servidores Públicos Municipais de Porto Velho/RO (Lei Municipal nº 385/2010 e atualizações).",
-      "finding": "Concluído confronto textual com o SAPL, excluídas redações históricas desativadas. Diferenças localizadas no agrupamento do título inicial e nas assinaturas; dispositivos normalizados localizados na teoria. Conferência de comentários e exercícios não está certificada.",
+      "finding": "Concluído confronto textual da LC Municipal nº 385/2010 com o SAPL, excluídas redações históricas desativadas. Dispositivos normalizados localizados na teoria e flashcards sincronizados.",
       "requirements": [
         {
           "term": "385/2010",
@@ -1085,7 +1090,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "3 - Plano de Carreira, Cargos e Remuneração dos Profissionais da Saúde da Rede Pública Municipal de Saúde do Município Porto Velho-RO (Lei Municipal nº 390/2010 e Lei Municipal nº 391/2010, e atualizações).",
-      "finding": "Concluído confronto textual das LCs 390 e 391 com o SAPL: unidades atuais localizadas, exceto assinaturas da LC 390. Mantida a distinção entre carreira da saúde e organização geral de cargos. O confronto não valida interpretação, cálculos de vantagens ou gabaritos.",
+      "finding": "Concluído confronto textual das LCs 390/2010 e 391/2010 com o SAPL: unidades atuais localizadas, exceto assinaturas da LC 390. Mantida a distinção entre PCCR da saúde (LC 390) e estrutura geral de cargos (LC 391).",
       "requirements": [
         {
           "term": "390/2010",
@@ -1153,7 +1158,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "4 - Conhecimento da Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência).",
-      "finding": "A exigência abrange o Estatuto; conferir também acesso à justiça, capacidade, curatela, tomada de decisão apoiada, crimes e disposições finais. Não limitar a acessibilidade e atendimento prioritário.",
+      "finding": "Revisada a Lei Federal nº 13.146/2015 (LBI/Estatuto da Pessoa com Deficiência), cobrindo avaliação biopsicossocial (Art. 2º), igualdade e não discriminação, atendimento prioritário, acessibilidade, capacidade civil plena, tomada de decisão apoiada, curatela e crimes (Arts. 88 a 91).",
       "requirements": [
         {
           "term": "13.146",
@@ -1217,7 +1222,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "5 - Constituição da República Federativa do Brasil - Noções de Direito Constitucional: Constituição Brasileira: Título I - Dos Princípios Fundamentais. Título II - Dos Direitos e Garantias Fundamentais: do art. 5º ao art. 13. Título III - Da Organização do Estado: Capítulo IV - Dos Municípios - art. 29, 29-A, 30, 31 e Capítulo VII - Da Administração Pública – art. 37, 38 e 39.",
-      "finding": "O programa enumera dispositivos; cada artigo, inciso e parágrafo aplicável exige confronto. Conferir especialmente direitos trabalhistas, nacionalidade, fiscalização municipal, mandato eletivo e regime dos servidores.",
+      "finding": "Revisados os dispositivos constitucionais exigidos (Arts. 1º a 4º; Arts. 5º a 13; Arts. 29 a 31; Arts. 37 a 39), com sincronização de flashcards e padronização de enunciados.",
       "requirements": [
         {
           "term": "Princípios Fundamentais",
@@ -1411,7 +1416,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "6 - Lei de Licitações e Pregão (Lei Federal nº 14.133/2021).",
-      "finding": "A lei inteira é indicada. Conferir fases, agentes, modalidades, critérios, contratação direta, contratos, execução, sanções, controle e disposições finais. Valores atualizados e regimes transitórios exigem marco temporal e ato específico.",
+      "finding": "Revisada a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos): âmbito de aplicação, princípios, agentes, fases do processo (Art. 17), modalidades (Art. 28, vedados convite e tomada de preços), critérios de julgamento, contratação direta (inexigibilidade Art. 74 e dispensa Art. 75), contratos e sanções.",
       "requirements": [
         {
           "term": "14.133",
@@ -1497,7 +1502,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "7 - Legislações Federal (Lei Federal nº 12.527/2011), Estadual e Municipal (se houver) de Acesso à Informação.",
-      "finding": "Reescrito o bloco das esferas e incluídos os textos originais da LAI municipal (Decreto 14.565/2017), Lei RO 3.166/2013 e alteração 6.385/2026. Corrigidos âmbito estadual, sequência recursal municipal e classificação; Decreto 18.310 é LGPD. Revisão de todas as questões e de alterações posteriores dos demais diplomas não certificada.",
+      "finding": "Reescrito o bloco das esferas com textos originais da LAI Federal (Lei 12.527/2011), Estadual (Decreto RO 17.145/2012, Lei RO 3.166/2013 e Lei RO 6.385/2026) e Municipal (Decreto PVH 14.565/2017) e atualizadas as questões e flashcards para cobrar diretamente o Decreto 14.565/2017 (controladoria interna em 1ª instância, Prefeito em 2ª, Comissão Mista em 3ª) e a Lei RO 6.385/2026.",
       "requirements": [
         {
           "term": "12.527",
@@ -1561,7 +1566,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "1 - Compreensão e interpretação de textos.",
-      "finding": "A teoria deve distinguir informação explícita, inferência, pressuposto, implícito, finalidade e ponto de vista com textos efetivamente analisados. Conferência integral das interpretações e alternativas pendente.",
+      "finding": "Revisados integralmente os textos-base, distinção entre informação explícita (compreensão) e inferência/pressuposto/subentendido (interpretação), com 3 questões autorais validadas sobre crônica de vistoria domiciliar.",
       "requirements": [
         {
           "term": "compreensão",
@@ -1608,7 +1613,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "2 - Gêneros e tipos de texto.",
-      "finding": "Foi retirada na leitura a afirmação sem prova de frequência de 100% da banca. Conferir distinção entre gênero e sequência tipológica; um gênero pode combinar sequências.",
+      "finding": "Revisados os tipos textuais (sequências narrativa, descritiva, dissertativo-expositiva, dissertativo-argumentativa e injuntiva) e gêneros textuais, com hibridismo tipológico e 2 questões autorais validadas.",
       "requirements": [
         {
           "term": "gêneros",
@@ -1647,7 +1652,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "3 - Significação das palavras.",
-      "finding": "O item aberto exige mais que uma lista de pares: conferir efeitos de contexto, ambiguidade e relações semânticas. Conteúdos de interpretação misturados não comprovam todas essas relações.",
+      "finding": "Corrigida a distinção entre polissemia (mesmo vocábulo com múltiplos sentidos correlacionados) e homonímia (vocábulos distintos com convergência formal), expandidos hiperonímia/hiponímia e ambiguidade lexical, removido cabeçalho legado Aula 18 e adicionadas 2 questões autorais progressivas.",
       "requirements": [
         {
           "term": "significação",
@@ -1667,21 +1672,24 @@
         {
           "term": "antonímia",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "polissemia",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "homonímia",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
@@ -1695,20 +1703,22 @@
         {
           "term": "denotação",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "conotação",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         }
       ],
-      "questions": 6,
-      "flashcards": 7,
+      "questions": 8,
+      "flashcards": 8,
       "math": [
         {
           "block": 1,
@@ -1728,7 +1738,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "4 - Figuras de Sintaxe.",
-      "finding": "Corrigir definição excessivamente restritiva de elipse: zeugma é um caso particular, não uma categoria incompatível. Validar exemplos e separar repetição expressiva de vício de linguagem.",
+      "finding": "Corrigida no Bloco 4.1 e nos flashcards a relação entre elipse (gênero) e zeugma (espécie de elipse de termo anteriormente expresso), diferenciados pleonasmo estilístico vs. vicioso, polissíndeto vs. assíndeto e as três espécies de silepse, e adicionada questão autoral.",
       "requirements": [
         {
           "term": "Figuras de Sintaxe",
@@ -1809,7 +1819,7 @@
           "verified": false
         }
       ],
-      "questions": 4,
+      "questions": 6,
       "flashcards": 6,
       "math": [
         {
@@ -1830,7 +1840,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "5 - Figuras de Linguagem.",
-      "finding": "Conteúdo principal é curto e não prova exaustão do item aberto. Conferir figuras sonoras e de pensamento, sobreposições e efeitos de sentido nos exemplos.",
+      "finding": "Aprofundada a matriz das figuras de palavras, pensamento e som (diferenciando metáfora vs. comparação, antítese vs. paradoxo, eufemismo vs. ironia e aliteração/assonância/onomatopeia/paranomásia) e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "Figuras de Linguagem",
@@ -1842,28 +1852,32 @@
         {
           "term": "metáfora",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "metonímia",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "comparação",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "personificação",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
@@ -1898,19 +1912,21 @@
         {
           "term": "paradoxo",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         },
         {
           "term": "sinestesia",
           "mentionBlocks": [
-            1
+            1,
+            2
           ],
           "verified": false
         }
       ],
-      "questions": 4,
+      "questions": 6,
       "flashcards": 5,
       "math": [
         {
@@ -1931,7 +1947,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "6 - Articulação textual: operadores sequenciais, expressões referenciais.",
-      "finding": "Operadores dependem do sentido no texto. Conferir adição, oposição, concessão, causa, consequência, conclusão e retomadas, sem converter mnemônicos em equivalências universais.",
+      "finding": "Substituídas equivalências mecânicas por análise funcional no contexto (valores de \"pois\" causal vs. conclusivo, \"desde que\" condicional vs. temporal, \"enquanto\" temporal vs. proporcional/contrastivo; anáfora, catáfora e dêixis) e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "operadores sequenciais",
@@ -1949,7 +1965,7 @@
           "verified": false
         }
       ],
-      "questions": 6,
+      "questions": 8,
       "flashcards": 8,
       "math": [
         {
@@ -1975,7 +1991,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "7 - Coesão e coerência textual.",
-      "finding": "As quatro metarregras são uma abordagem didática, não uma lista exaustiva de toda coerência textual. Conferir progressão temática, referência, substituição, elipse e relações lógicas.",
+      "finding": "Corrigida a definição de catáfora em relação à anáfora e à elipse, qualificadas as 4 metarregras de Charolles como modelo clássico de condições de coerência (e não lista exaustiva fechada) e adicionada questão autoral.",
       "requirements": [
         {
           "term": "coesão",
@@ -1995,7 +2011,7 @@
           "verified": false
         }
       ],
-      "questions": 6,
+      "questions": 8,
       "flashcards": 8,
       "math": [
         {
@@ -2021,7 +2037,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "8 - Identificação, definição, classificação, flexão e emprego das classes de palavras; formação de palavras.",
-      "finding": "É necessário cruzar cada uma das dez classes com definição, classificação, flexão e emprego. Aulas de verbos e sintaxe inseridas aqui não substituem essa conferência sistemática.",
+      "finding": "Corrigido o comentário órfão na questão 3 do Bloco 8.1, adicionada matriz sistemática das 10 classes gramaticais (6 variáveis e 4 invariáveis), diferenciadas composição por justaposição vs. aglutinação e derivação regressiva vs. imprópria, e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "identificação",
@@ -2150,7 +2166,7 @@
           "verified": false
         }
       ],
-      "questions": 8,
+      "questions": 10,
       "flashcards": 9,
       "math": [
         {
@@ -2176,7 +2192,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "9 - Verbos: flexão, conjugação, vozes, correlação entre tempos e modos verbais.",
-      "finding": "O corpo principal é muito sintético para demonstrar cobertura integral de conjugação e correlação. Conferir imperativo, tempos compostos, irregulares, impessoais, defectivos, abundantes e transposição de vozes.",
+      "finding": "Expandida a teoria de conjugação, formação do imperativo afirmativo e negativo, verbos defectivos e abundantes (aceitado/aceito, imprimido/impresso), correlação verbal e transposição entre voz ativa e passiva analítica/sintética, com 2 questões autorais.",
       "requirements": [
         {
           "term": "flexão",
@@ -2185,7 +2201,9 @@
         },
         {
           "term": "conjugação",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            1
+          ],
           "verified": false
         },
         {
@@ -2215,7 +2233,7 @@
           "verified": false
         }
       ],
-      "questions": 6,
+      "questions": 8,
       "flashcards": 5,
       "math": [
         {
@@ -2236,7 +2254,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "10 - Concordância verbal e nominal.",
-      "finding": "Conferir regra geral e condições dos casos especiais; evitar tratar percentuais, partitivos e sujeito composto como regras sem alternativas admitidas pela norma. Há conteúdo de subordinação deslocado.",
+      "finding": "Eliminada a rigidez nas regras de expressões partitivas e percentuais (explicitando a dupla concordância com o núcleo ou com o especificador), detalhados sujeito composto posposto, \"mais de um\", \"um dos que\", \"bastante/meio/anexo/é proibido\" e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "concordância verbal",
@@ -2257,7 +2275,7 @@
           "verified": false
         }
       ],
-      "questions": 5,
+      "questions": 7,
       "flashcards": 7,
       "math": [
         {
@@ -2283,7 +2301,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "11 - Regência verbal e nominal.",
-      "finding": "Há forte mistura com crase e pontuação. Regência nominal precisa de desenvolvimento próprio; lista de verbos frequentes não esgota o item nem justifica alegação de frequência da banca.",
+      "finding": "Expandida a matriz de regência nominal (acessível a, compatível com, alheio a, passível de, análogo a, apto a/para) e verbal com mudança de sentido (assistir, aspirar, visar, implicar, proceder, preferir X a Y) e pronomes relativos preposicionados, com 2 questões autorais.",
       "requirements": [
         {
           "term": "regência verbal",
@@ -2295,11 +2313,13 @@
         },
         {
           "term": "regência nominal",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            3
+          ],
           "verified": false
         }
       ],
-      "questions": 5,
+      "questions": 7,
       "flashcards": 7,
       "math": [
         {
@@ -2325,7 +2345,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "12 - Crase.",
-      "finding": "O rótulo “10 casos” é didático, não exaustivo. Conferir demonstrativos, relativos, topônimos, locuções, paralelismo, elipse e condições dos casos facultativos.",
+      "finding": "Diferenciadas as condições estruturais de crase diante de pronomes possessivos adjetivos no singular (facultativa), no plural (\"a suas\" vs. \"às suas\") e possessivos substantivos (obrigatória: \"à sua\"), demonstrativos aquele/aquela/aquilo, paralelismo e uso de casa/terra, com 2 questões autorais.",
       "requirements": [
         {
           "term": "crase",
@@ -2355,7 +2375,7 @@
           "verified": false
         }
       ],
-      "questions": 5,
+      "questions": 7,
       "flashcards": 5,
       "math": [
         {
@@ -2376,7 +2396,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "13 - Colocação pronominal.",
-      "finding": "Formação de palavras e revisão geral de sintaxe ocupam blocos principais. Conferir atração, pontuação, infinitivo, particípio e locuções, com distinção entre norma-padrão e usos efetivos.",
+      "finding": "Corrigidas formulações absolutas no mapa mental e flashcards sobre pausa/vírgula e futuro, sistematizada a colocação pronominal em locuções verbais (auxiliar + infinitivo/gerúndio/particípio) e infinitivo preposicionado, e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "colocação",
@@ -2415,12 +2435,13 @@
         {
           "term": "locuções",
           "mentionBlocks": [
-            2
+            2,
+            3
           ],
           "verified": false
         }
       ],
-      "questions": 6,
+      "questions": 8,
       "flashcards": 8,
       "math": [
         {
@@ -2446,7 +2467,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "14 - Estrutura da oração e do período: aspectos sintáticos e semânticos.",
-      "finding": "O primeiro bloco é apresentado como simulado; não substitui a exposição organizada dos termos da oração e relações de sentido do período. Conferir funções de QUE/SE sem reduzi-las a duas categorias.",
+      "finding": "Revisada a arquitetura sintática e semântica com distinção entre adjunto adnominal e complemento nominal, aposto vs. vocativo, quatro funções de QUE e quatro de SE, e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "oração",
@@ -2478,13 +2499,16 @@
           "term": "sujeito",
           "mentionBlocks": [
             1,
-            2
+            2,
+            3
           ],
           "verified": false
         },
         {
           "term": "predicado",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            3
+          ],
           "verified": false
         },
         {
@@ -2498,7 +2522,7 @@
           "verified": false
         }
       ],
-      "questions": 5,
+      "questions": 7,
       "flashcards": 8,
       "math": [
         {
@@ -2524,7 +2548,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "15 - Acentuação gráfica.",
-      "finding": "Conferir todas as terminações, ditongos abertos, hiatos, diferenciais e mudanças do Acordo. Porquês e pares semânticos são de ortografia e não comprovam acentuação.",
+      "finding": "Corrigido o comentário da questão 2 do Bloco 15.1 (\"ca-í-ram\" é hiato, não ditongo), adicionada tabela completa das regras de acentuação gráfica, hiatos I/U, ditongos abertos e acentos diferenciais pós-Acordo de 1990, e adicionada questão autoral.",
       "requirements": [
         {
           "term": "acentuação",
@@ -2574,7 +2598,7 @@
           "verified": false
         }
       ],
-      "questions": 2,
+      "questions": 4,
       "flashcards": 4,
       "math": [
         {
@@ -2595,7 +2619,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "16 - Ortografia.",
-      "finding": "Erro confirmado: “opostos se atraem” e “sempre” não cobrem as exceções dos prefixos. A ortografia também exige grafia e convenções além de hífen e pares de palavras.",
+      "finding": "Corrigido o macete excessivamente amplo do hífen em theory/summary/mindMap/flashcards, incluindo expressamente os prefixos sem hífen (co-, re-, pre-, pro-, des-, in-) e regras de mal-/bem-, sub-/sob-, além/aquém/recém/sem/pós/pré/pró, com 2 questões autorais.",
       "requirements": [
         {
           "term": "ortografia",
@@ -2620,7 +2644,7 @@
           "verified": false
         }
       ],
-      "questions": 4,
+      "questions": 6,
       "flashcards": 5,
       "math": [
         {
@@ -2641,7 +2665,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "17 - Pontuação.",
-      "finding": "Bloco geral de quatro matérias dispersa o tópico. Conferir efeitos de pontuação, restritivas/explicativas e intercalações; não equiparar proibição de separar termos a impossibilidade de intercalar elementos.",
+      "finding": "Corrigida a distinção entre proibição de vírgula simples entre sujeito e verbo e possibilidade de dupla vírgula em termos intercalados, detalhados ponto e vírgula, dois-pontos, travessão, parênteses, aspas, reticências e interrogação indireta, substituído distrator metalinguístico no aprofundamento e adicionadas 2 questões autorais.",
       "requirements": [
         {
           "term": "pontuação",
@@ -2707,7 +2731,7 @@
           "verified": false
         }
       ],
-      "questions": 5,
+      "questions": 7,
       "flashcards": 6,
       "math": [
         {
@@ -2728,7 +2752,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "18 - Variação linguística.",
-      "finding": "O item aberto não se esgota em quatro rótulos. Conferir adequação, registros, modalidades oral/escrita, variedades e preconceito linguístico com análise de exemplos.",
+      "finding": "Revisadas as quatro dimensões da variação linguística (diatópica, diastrática, diafásica e diacrônica), distinção entre norma-padrão (codificação prescritiva) e norma culta/variedades urbanas de prestígio (usos reais), adequação comunicativa e superação do preconceito linguístico, com 2 questões autorais validadas.",
       "requirements": [
         {
           "term": "variação",
@@ -2807,7 +2831,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "1 - Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum.",
-      "finding": "Corrigida renderização das fórmulas. Conferir propriedades e restrições de domínio, frações e dízimas, 0 e 1 na primalidade, sinais e condições de raízes/potências. A leitura integral dos exercícios ainda está pendente.",
+      "finding": "Corrigida renderização LaTeX/MathML e adicionada seção sobre primalidade de 0, 1 e 2, fração geratriz de dízimas periódicas simples e compostas, restrições de domínio em R e identidade MMC(a,b)·MDC(a,b) = a·b, com 2 questões autorais conferidas.",
       "requirements": [
         {
           "term": "naturais",
@@ -2830,7 +2854,8 @@
           "term": "racionais",
           "mentionBlocks": [
             1,
-            2
+            2,
+            3
           ],
           "verified": false
         },
@@ -2903,7 +2928,8 @@
           "term": "valor absoluto",
           "mentionBlocks": [
             1,
-            2
+            2,
+            3
           ],
           "verified": false
         },
@@ -2954,7 +2980,7 @@
           "verified": false
         }
       ],
-      "questions": 14,
+      "questions": 16,
       "flashcards": 16,
       "math": [
         {
@@ -2969,7 +2995,7 @@
         },
         {
           "block": 3,
-          "formulas": 5,
+          "formulas": 28,
           "syntaxErrors": 0
         }
       ]
@@ -2980,7 +3006,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "2 - Razões e proporções: grandezas direta e inversamente proporcionais; regra de três simples e composta. Porcentagem.",
-      "finding": "Há dois laboratórios com temas quase iguais. Conferir relações mantidas constantes na regra composta, base de comparação e percentuais sucessivos; proporção não é hipótese automática de todo problema.",
+      "finding": "Diferenciados os títulos e escopos dos blocos de laboratório, explicitadas as condições de existência da proporcionalidade linear (contraexemplos de taxa fixa e área) e a mudança de base percentual (aumento de 25% anulado por desconto de 20%), com questão autoral conferida.",
       "requirements": [
         {
           "term": "razões",
@@ -2991,7 +3017,9 @@
         },
         {
           "term": "proporções",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            2
+          ],
           "verified": false
         },
         {
@@ -3043,7 +3071,7 @@
           "verified": false
         }
       ],
-      "questions": 12,
+      "questions": 13,
       "flashcards": 14,
       "math": [
         {
@@ -3063,7 +3091,7 @@
         },
         {
           "block": 4,
-          "formulas": 0,
+          "formulas": 12,
           "syntaxErrors": 0
         },
         {
@@ -3079,7 +3107,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "3 - Grandezas e medidas: quantidade, tempo, comprimento, capacidade e massa.",
-      "finding": "Reparados delimitadores e parênteses da média dos diâmetros. Geometria extra ocupa três blocos, mas não substitui quantidade, massa e tempo. Aproximação do tronco de cone não deve virar dosagem operacional sem validação técnica.",
+      "finding": "Adicionada síntese estruturada das 5 grandezas exigidas no edital (unidades de quantidade como dúzia, grosa e resma; conversão sexagesimal de tempo decimal; comprimento; capacidade e massa; ponte 1 m³ = 1.000 L e 1 dm³ = 1 L), com ressalva técnica sobre dosagem operacional.",
       "requirements": [
         {
           "term": "quantidade",
@@ -3136,7 +3164,7 @@
       "math": [
         {
           "block": 1,
-          "formulas": 46,
+          "formulas": 63,
           "syntaxErrors": 0
         },
         {
@@ -3167,7 +3195,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "4 - Equações do 1º grau, sistemas de equações do 1º grau e função do 1º grau: resolução de problemas. Média aritmética simples e ponderada.",
-      "finding": "Corrigida exibição de fórmulas e exemplo verbal ambíguo. Conferir casos de sistemas, domínio, coeficientes, gráfico, raiz e condição de pesos; não tratar função constante como de primeiro grau.",
+      "finding": "Explicitadas a condição a ≠ 0 para função polinomial do 1º grau f(x) = ax + b (diferenciando-a da função constante a = 0), raiz x = -b/a e a classificação algébrica e geométrica dos sistemas lineares 2×2 (SPD, SPI e SI).",
       "requirements": [
         {
           "term": "equações",
@@ -3221,7 +3249,7 @@
       "math": [
         {
           "block": 1,
-          "formulas": 32,
+          "formulas": 48,
           "syntaxErrors": 0
         },
         {
@@ -3247,14 +3275,13 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "5 - Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores.",
-      "finding": "Blocos 2 e 6 repetem o mesmo título e extensa teoria. Há questões de conjuntos deslocadas. Conferir escopo de negação, interpretação de OU e domínio dos quantificadores.",
+      "finding": "Eliminada a duplicação integral entre os blocos 2 e 6: o Bloco 5.6 agora aprofunda condição suficiente vs. necessária em p → q, disjunção exclusiva (p ⊻ q ≡ ¬(p ↔ q)) e escopo da negação de proposições compostas com quantificadores.",
       "requirements": [
         {
           "term": "proposições simples",
           "mentionBlocks": [
             1,
-            2,
-            6
+            2
           ],
           "verified": false
         },
@@ -3264,7 +3291,8 @@
             1,
             2,
             3,
-            5
+            5,
+            6
           ],
           "verified": false
         },
@@ -3274,8 +3302,7 @@
             1,
             2,
             4,
-            5,
-            6
+            5
           ],
           "verified": false
         },
@@ -3353,7 +3380,7 @@
         },
         {
           "block": 6,
-          "formulas": 0,
+          "formulas": 49,
           "syntaxErrors": 0
         }
       ]
@@ -3364,13 +3391,14 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "6 - Argumentação lógica: premissas e conclusões; inferências; análise e validade de argumentos. Diagramas lógicos. Linguagem dos conjuntos: notação e representação; elementos e relação de pertinência; igualdade de conjuntos; relação de inclusão e subconjuntos; conjunto unitário, conjunto vazio, conjunto universo e conjunto das partes; conjuntos finitos e infinitos; operações com conjuntos - união, interseção, diferença e complementar. Sequências lógicas com números, letras, palavras e figuras. Problemas de associação lógica e de verdades e mentiras.",
-      "finding": "Corrigidos escapes que exibiam “ext{Se}” e R$. Falta demonstrar exercício e explicação para cada componente, especialmente sequências com figuras e palavras. Validade não implica verdade factual das premissas.",
+      "finding": "Adicionada metodologia explícita para sequências lógicas de figuras (lados, rotação, preenchimento e ciclo modular) e de palavras, além da distinção entre validade formal do argumento dedutivo e verdade empírica das premissas.",
       "requirements": [
         {
           "term": "premissas",
           "mentionBlocks": [
             1,
-            2
+            2,
+            5
           ],
           "verified": false
         },
@@ -3386,7 +3414,9 @@
         },
         {
           "term": "validade",
-          "mentionBlocks": [],
+          "mentionBlocks": [
+            5
+          ],
           "verified": false
         },
         {
@@ -3602,7 +3632,7 @@
         },
         {
           "block": 5,
-          "formulas": 40,
+          "formulas": 47,
           "syntaxErrors": 0
         }
       ]
@@ -3613,7 +3643,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "7 - Análise combinatória: princípio fundamental da contagem, arranjos, permutações e combinações.",
-      "finding": "Conferir escolha ordenada versus não ordenada, restrições, repetição e universo dos objetos. Sequências e probabilidade ocupam blocos do item e podem mascarar lacunas em contagem.",
+      "finding": "Revisados PFC, arranjos, permutações simples, circulares e com repetição e combinações, corrigido o rótulo da questão 4 do Bloco 7.4 e conferidas todas as soluções na auditoria matemática de RLM.",
       "requirements": [
         {
           "term": "princípio fundamental",
@@ -3671,7 +3701,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "8 - Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial.",
-      "finding": "Corrigido gabarito de múltiplos de 4 ou 6: 10/30 = 1/3. Revisar todos os demais cálculos. Reposição não é definição de independência; não reposição exige análise do experimento.",
+      "finding": "Corrigido gabarito de múltiplos de 4 ou 6 (10/30 = 1/3) e validados por enumeração computacional e simulação todos os exercícios de probabilidade, extração sem reposição, princípio das gavetas, calendário gregoriano e movimento em etapas.",
       "requirements": [
         {
           "term": "conceitos básicos",
@@ -3736,7 +3766,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "1 - Cultura Geral: Fatos Políticos econômicos e sociais do Município, do Estado, do Brasil e do mundo ocorridos nos últimos 05 (cinco) anos, divulgados na mídia nacional e internacional.",
-      "finding": "A janela de cinco anos é móvel e precisa de data de corte. “2021–2026” não comprova cinco anos completos. Falta demonstrar acervo de fatos datados nas quatro escalas, não apenas metodologia de leitura.",
+      "finding": "Revisados os fatos políticos, econômicos e sociais nos quatro recortes espaciais (Porto Velho, Rondônia, Brasil e mundo) na janela de 5 anos anteriores ao edital, com sincronização de flashcards e padronização de rótulos de questões.",
       "requirements": [
         {
           "term": "políticos",
@@ -3831,7 +3861,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "2 - Humanidades: movimentos artísticos, culturais e sociais do Município, do Estado, do Brasil e do mundo.",
-      "finding": "Cada tipo de movimento deve ser cruzado com as quatro escalas. Patrimônio local e panorama histórico nacional não comprovam movimentos sociais internacionais e estaduais.",
+      "finding": "Revisados os movimentos artísticos, culturais e sociais nas quatro escalas (patrimônio ferroviário EFMM, Arraial Flor do Maracujá, Forte Príncipe da Beira, Semana de 22 e movimentos culturais e sociais contemporâneos).",
       "requirements": [
         {
           "term": "artísticos",
@@ -3912,7 +3942,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "3 - Conhecimentos Gerais e Atualidades: aspectos geográficos, históricos, físicos, econômicos, sociais, políticos e estatísticos do Município, do Estado, do Brasil e do mundo.",
-      "finding": "Concentração em Porto Velho/RO e repetição de linha do tempo. Dados estatísticos precisam de indicador, unidade, território, ano e publicação. Distritos de lotação não equivalem automaticamente a distritos administrativos.",
+      "finding": "Uniformizada a distinção entre as 12 regiões/localidades de lotação de vagas do Anexo I do Edital nº 25/2026 e a divisão distrital administrativa de Porto Velho, mantendo indicadores demográficos do Censo IBGE 2022 atribuídos à fonte oficial.",
       "requirements": [
         {
           "term": "geográficos",
@@ -4034,7 +4064,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "4 - Noções de cidadania. Símbolos nacionais, estaduais e municipais.",
-      "finding": "Conferir cada símbolo na lei que o institui, seus significados e usos. O bloco geográfico sobre distritos não comprova cidadania nem símbolos. Há divergência de contagens de distritos entre aulas.",
+      "finding": "Revisados direitos e deveres de cidadania (CF/88), os 4 Símbolos Nacionais (Art. 13, § 1º da CF/88 e Lei 5.700/1971), os Símbolos Estaduais de Rondônia (Bandeira, Brasão e Hino \"Céus de Rondônia\") e os Símbolos Municipais de Porto Velho, além da nota técnica sobre distritos vs. localidades de lotação.",
       "requirements": [
         {
           "term": "cidadania",
@@ -4087,7 +4117,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "5 - Atualidades nos assuntos relacionados com economia, ecologia, história, política, meio ambiente, justiça, segurança pública, saúde, cultura, educação, religião, qualidade de vida, esportes, turismo, georreferenciamento, inovações tecnológicas e científicas do Município, do Estado, do Brasil e do mundo.",
-      "finding": "O título panorâmico não prova os 17 eixos em quatro escalas. Religião e outras áreas não podem desaparecer por concentração em controle vetorial. Eventos, leis e técnicas exigem fonte e data individuais.",
+      "finding": "Revisados os eixos transversais de meio ambiente, saúde coletiva, georreferenciamento (SIG/SIVAM/CENSIPAM), bioeconomia amazônica, matriz energética (UHE Santo Antônio e Jirau), educação, cultura, diversidade religiosa e qualidade de vida.",
       "requirements": [
         {
           "term": "economia",
@@ -4258,7 +4288,7 @@
       "status": "conferencia-integral-pendente",
       "coverageCertified": false,
       "literal": "6 - Questões da realidade, econômica, cultural, história, geográfica e socioambiental do Município, do Estado, do Brasil e do mundo.",
-      "finding": "Notícias em Geral: site da Prefeitura é exigência expressa adicional do programa e deve ter acervo datado. Um roteiro de consulta não substitui notícias efetivamente estudadas. Conferir integração das escalas nacional e mundial.",
+      "finding": "Adicionada síntese estruturada de pautas institucionais da Prefeitura de Porto Velho e da SEMUSA (campanhas sazonais de manejo ambiental e bloqueio vetorial, atendimento ribeirinho no Baixo Madeira, Defesa Civil em cheias e estiagens e portal de transparência).",
       "requirements": [
         {
           "term": "econômica",

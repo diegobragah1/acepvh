@@ -6,115 +6,109 @@
   "title": "16. Ortografia",
   "editalRef": "Item 16 de Língua Portuguesa — Ortografia.",
   "mindMap": {
-    "centralTitle": "Ortografia Oficial, Acentuação Gráfica, Hífen, Semântica e Figuras de Linguagem",
-    "centralSubtitle": "Regras de Acentuação, Novo Acordo Ortográfico, Os 4 Porquês, Sinonímia/Paronímia e Figuras",
-    "mnemonic": "Oxítonas acentuadas = A, E, O, EM, ENS | Paroxítonas NÃO acentuadas = A, E, O, EM, ENS | Proparoxítonas = TODAS! | Hífen: conferir a regra do prefixo antes de aplicar a regra geral das vogais.",
+    "centralTitle": "16. Ortografia Oficial: Emprego das Letras, Hífen, Os 4 Porquês e Dificuldades Ortográficas",
+    "centralSubtitle": "Relações Som-Grafema (S/Z, X/CH, G/J, SS/Ç/SC), Tabela Completa do Hífen (Novo Acordo Ortográfico, co- e re-), Os 4 Porquês e Expressões Homônimas/Parônimas (Mal/Mau, Onde/Aonde, Há/A, Senão/Se não)",
+    "mnemonic": "Hífen = Vogais IGUAIS separam com hífen (micro-ondas, anti-inflamatório), EXCETO os prefixos CO- e RE- (coorganizar, reeleição)! Vogais DIFERENTES juntam (autoescola, infraestrutura)! • R ou S após vogal = Dobra a consoante (antirrábico, ultrassom)!",
     "deadlinesAndNumbers": [
       {
-        "value": "100% Acentuadas",
-        "label": "Todas as palavras Proparoxítonas recebem acento gráfico sem exceção",
-        "ref": "Regra Geral"
+        "value": "Vogais Iguais vs. Diferentes",
+        "label": "Com hífen: micro-ondas, contra-ataque (exceção: co- e re- juntam sempre: cooperar, reescrever). Sem hífen: autoescola, semiaberto",
+        "ref": "Regra do Hífen"
       },
       {
-        "value": "ÉI, ÓI, ÉU",
-        "label": "Ditongos abertos que PERDERAM o acento nas PAROXÍTONAS (ideia, jiboia, heroico)",
-        "ref": "Novo Acordo"
+        "value": "Vogal + R ou S = Dobram",
+        "label": "Prefixo terminado em vogal + palavra iniciada por R ou S: juntam e dobram (antirrábico, antissocial, minissaia, biorritmo)",
+        "ref": "Regra do Hífen"
       },
       {
-        "value": "ÉI / ÓI",
-        "label": "Sem acento nas paroxítonas (ideia, heroico)",
-        "ref": "Ortografia"
+        "value": "Os 4 Porquês",
+        "label": "Por que (início/pergunta ou = pelo qual); Por quê (antes de ponto); Porque (resposta/causa = pois); Porquê (substantivo = o motivo)",
+        "ref": "Emprego dos Porquês"
       },
       {
-        "value": "Têm / Vêm",
-        "label": "Acento diferencial de plural na 3ª pessoa (Ele tem -> Eles têm; Ele vem -> Eles vêm)",
-        "ref": "Acento Diferencial"
+        "value": "Mal (Bem) vs. Mau (Bom)",
+        "label": "MAL opõe-se a BEM (advérbio/substantivo/conjunção); MAU opõe-se a BOM (adjetivo variável: maus hábitos, má conduta)",
+        "ref": "Pares Ortográficos"
       }
     ],
     "branches": [
       {
-        "title": "1. Acentuação Gráfica e Novo Acordo Ortográfico",
-        "icon": "✍️",
+        "title": "1. Emprego das Letras: Relações Som-Grafema (S/Z, X/CH, G/J, SS/Ç)",
+        "icon": "🔤",
         "color": "teal",
         "nodes": [
           {
-            "label": "Oxítonas vs. Paroxítonas vs. Hiatos (I e U)",
-            "detail": "Oxítonas: terminadas em A, E, O, EM, ENS (cajá, café, cipó, armazém). Paroxítonas: conferir a lista de terminações acentuadas: r, x, n, l, i(s), us, um/uns, ã(s), ão(s), ps e ditongo; a simples inversão da regra das oxítonas não basta, como mostra \"cantam\" (fácil, tórax, ímã, órgãos). Hiatos I e U: acentuados quando sozinhos na sílaba (sa-ú-de, ba-ú, sa-í-da; mas NÃO antes de NH: rainha, nem após ditongo em paroxítona: feiura).",
-            "badge": "Regras de Ouro"
+            "label": "Emprego do S vs. Z (Sufixos -ês/-esa, -isar vs. -izar, -ez/-eza)",
+            "detail": "Usa-se S: após ditongos (coisa, causa, lousa), nos sufixos de origem/título (-ês, -esa: rondoniense, princesa) e em verbos cujo radical já tem S (pesquisa → pesquisar; análise → analisar). Usa-se Z: nos substantivos abstratos derivados de adjetivos (-ez, -eza: limpidez, pobreza, rigidez) e em verbos cujo radical não tem S (atual → atualizar; higienizar).",
+            "badge": "Analisar (S) vs. Atualizar (Z)"
           },
           {
-            "label": "Acentos Diferenciais Mantidos",
-            "detail": "PÔDE (passado) vs. PODE (presente); PÔR (verbo) vs. POR (preposição); TÊM/VÊM (plural) e derivados (mantêm, intervêm).",
-            "badge": "Diferenciais"
+            "label": "Emprego do X vs. CH e G vs. J",
+            "detail": "Usa-se X: após ditongo (caixa, peixe, frouxo — exceto recauchutar/caucho), após a sílaba inicial EN- (enxada, enxaqueca, enxame — exceto encher/encharcar, derivados de cheio) e após ME- inicial (mexer, mexicano — exceto mecha). Usa-se J em palavras de origem tupi/africana (jiboia, pajé, jenipapo) e nos verbos terminados em -jar (viajem = verbo vs. a viagem = substantivo).",
+            "badge": "Enxame (X) vs. Encharcar (CH)"
           }
         ]
       },
       {
-        "title": "2. Hífen, Os 4 Porquês e Pares Parônimos",
+        "title": "2. O Emprego do Hífen no Novo Acordo Ortográfico",
         "icon": "🔗",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Regra Visual do Hífen",
-            "detail": "Na regra geral: micro-ondas e anti-inflamatório; autoescola e infraestrutura; antisséptico e ultrassom. Ressalvas: coorganizar, reeleição e prefixos tônicos pós-, pré-, pró- (pré-escolar).",
-            "badge": "Iguais vs. Opostos"
+            "label": "Vogais Iguais (Com Hífen) vs. Vogais Diferentes (Junto)",
+            "detail": "Prefixo termina com a MESMA vogal com que começa o 2º elemento → COM HÍFEN (anti-inflamatório, micro-ondas, contra-ataque). Exceção oficial: prefixos CO- e RE- aglutinam-se mesmo diante de O e E (coocupante, coorganizar, reeleição, reestruturação)! Vogais diferentes → JUNTO (autoescola, infraestrutura, semiaberto).",
+            "badge": "Exceção: Coorganizar / Reeleição"
           },
           {
-            "label": "Parônimos e Homônimos Campeões",
-            "detail": "Ratificar (confirmar) vs. Retificar (corrigir); Eminente (ilustre) vs. Iminente (prestes a ocorrer); Flagrante (evidente) vs. Fragrante (perfumado); Mal (≠ bem) vs. Mau (≠ bom).",
-            "badge": "Semântica"
+            "label": "Prefixos Sempre com Hífen e Palavras Iniciadas por H, R ou S",
+            "detail": "Diante de H → sempre COM hífen (anti-higiênico, super-homem). Prefixo em vogal + R ou S → junta e DOBRA (antirrábico, antissocial, ultrassom). Sempre com hífen: EX-, VICE-, ALÉM-, AQUÉM-, RECÉM-, SEM-, PRÉ-, PRÓ-, PÓS- (tônicos) e SUB-/SOB- antes de B ou R (sub-região, sub-bloco).",
+            "badge": "Antirrábico / Sub-região"
           }
         ]
       },
       {
-        "title": "3. Figuras de Linguagem Mais Cobradas na IBGP",
-        "icon": "🎭",
+        "title": "3. Os 4 Porquês (Por que, Por quê, Porque e Porquê)",
+        "icon": "❓",
         "color": "amber",
         "nodes": [
           {
-            "label": "Metáfora vs. Comparação vs. Metonímia",
-            "detail": "Metáfora = comparação implícita SEM conectivo ('A prevenção é um escudo'). Comparação = COM conectivo ('como, tal qual'). Metonímia = substituição lógica: autor pela obra, parte pelo todo, marca pelo produto.",
-            "badge": "Semelhança vs. Troca"
+            "label": "POR QUE (Separado sem acento) vs. POR QUÊ (Separado com acento)",
+            "detail": "POR QUE: (1) início/meio de perguntas diretas ou indiretas (= por qual razão: \"Por que o foco voltou?\"); (2) pronome relativo (= pelo qual / pela qual: \"Os caminhos por que passei\"). POR QUÊ: exclusivamente no FIM da frase ou isolado antes de pausa/ponto (\"O foco voltou, mas não sei por quê.\").",
+            "badge": "Pergunta/Relativo vs. Fim de Frase"
           },
           {
-            "label": "Antítese, Paradoxo, Eufemismo, Hipérbole e Prosopopeia",
-            "detail": "Antítese = palavras opostas; Paradoxo = ideias contraditórias que se fundem; Eufemismo = suavização ('partiu desta para melhor'); Hipérbole = exagero ('morrer de rir'); Prosopopeia = personificação.",
-            "badge": "Figuras de Pensamento"
+            "label": "PORQUE (Junto sem acento) vs. PORQUÊ (Junto com acento)",
+            "detail": "PORQUE: conjunção causal ou explicativa em respostas (= pois, já que, visto que: \"Não fui porque choveu\"). PORQUÊ: substantivo masculino antecedido de artigo/pronome (= o motivo, a razão: \"Não entendi o porquê da recusa\").",
+            "badge": "Explicação vs. Substantivo (O porquê)"
           }
         ]
       },
       {
-        "title": "4. Parônimos e Homônimos de Prova",
-        "icon": "🔤",
-        "color": "amber",
+        "title": "4. Dificuldades Ortográficas Campeãs (Há/A, Mal/Mau, Senão/Se não, Afim/A fim)",
+        "icon": "🎯",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Ponto-Chave #1",
-            "detail": "Ratificar (confirmar) vs. Retificar (corrigir/consertar)",
-            "badge": "Síntese IBGP"
+            "label": "HÁ (Passado / Existir) vs. A (Futuro / Distância)",
+            "detail": "HÁ (verbo haver) indica tempo decorrido/passado (\"Há dois meses fizemos o LIRAa\") ou existência (\"Há focos aqui\"). A (preposição) indica tempo futuro (\"Daqui a duas semanas\") ou distância (\"Fica a 100 metros\").",
+            "badge": "Há (Passado) vs. A (Futuro)"
           },
           {
-            "label": "Iminente vs. Eminente",
-            "detail": "Iminente = prestes a acontecer; Eminente = ilustre, elevado, notável.",
-            "badge": "PARÔNIMOS"
-          },
-          {
-            "label": "Eminente (prestes a ocorrer",
-            "detail": "iminente! / elevado: eminente)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Ponto-Chave #4",
-            "detail": "Descrição (descrever) vs. Discrição (ser discreto/reservado)",
-            "badge": "Síntese IBGP"
+            "label": "SENÃO (Caso contrário / Mas sim) vs. SE NÃO (Caso não)",
+            "detail": "SENÃO (junto) = caso contrário, exceto, defeito (\"Tampe a caixa, senão o mosquito prolifera\"). SE NÃO (separado) = conjunção condicional \"caso não\" (\"Se não chover amanhã, faremos o bloqueio\"). A FIM DE = para (finalidade) vs. AFIM = semelhante/parente.",
+            "badge": "Senão vs. Se não"
           }
         ]
       }
     ],
     "goldenTraps": [
       {
-        "wrong": "As palavras 'idéia', 'jibóia', 'heróico' e 'vôo' continuam acentuadas pela regra dos ditongos abertos e hiatos.",
-        "right": "FALSO! Pelo Novo Acordo Ortográfico, perderam o acento os ditongos abertos ÉI e ÓI nas PAROXÍTONAS (ideia, jiboia, heroico) e os hiatos OO e EE (voo, leem, veem). Mas nas OXÍTONAS o acento continua: herói, chapéu, anéis!"
+        "wrong": "Pela regra das vogais iguais do Novo Acordo Ortográfico, as palavras \"co-organizar\" e \"re-eleição\" devem ser grafadas obrigatoriamente com hífen.",
+        "right": "FALSO! Os prefixos CO- e RE- são exceções expressas no Acordo Ortográfico: eles se unem sem hífen mesmo quando o segundo elemento começa por \"o\" ou \"e\" (coorganizar, cooperar, reeleição, reescrever)!"
+      },
+      {
+        "wrong": "Em \"Daqui há quinze dias começará o novo ciclo de visitas\", o verbo haver foi empregado corretamente.",
+        "right": "FALSO! Para indicar tempo FUTURO (especialmente após \"daqui\"), usa-se a preposição \"A\" (\"Daqui A quinze dias\"), e jamais o verbo \"há\" (que indica tempo passado decorrido)!"
       }
     ]
   },

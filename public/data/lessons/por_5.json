@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Metáfora vs. Comparação",
-            "detail": "Metáfora: aproximação implícita de domínios por semelhança. Comparação (símile): aproximação explícita por conectivo comparativo (atenção: nem todo \"como\" é comparativo; pode ser causal ou conformativo)."
+            "detail": "Metáfora: aproximação implícita de domínios por semelhança. Comparação (símile): aproximação explícita por conectivo comparativo (atenção: nem todo \"como\" é comparativo; pode ser causal ou conformativo).",
+            "badge": "Foco #1"
           },
           {
             "label": "Metonímia e Catacrese",
-            "detail": "Parte pelo todo / Continente pelo conteúdo; Asa da xícara"
+            "detail": "Parte pelo todo / Continente pelo conteúdo; Asa da xícara",
+            "badge": "Foco #2"
           },
           {
             "label": "Sinestesia",
-            "detail": "Mistura de diferentes sentidos físicos"
+            "detail": "Mistura de diferentes sentidos físicos",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,11 +38,13 @@
         "nodes": [
           {
             "label": "Antítese vs. Paradoxo",
-            "detail": "Palavras opostas vs. Contradição lógica fundida"
+            "detail": "Palavras opostas vs. Contradição lógica fundida",
+            "badge": "Foco #1"
           },
           {
             "label": "Ironia e Eufemismo",
-            "detail": "Dizer o oposto sarcástico vs. Suavizar ideia dura"
+            "detail": "Dizer o oposto sarcástico vs. Suavizar ideia dura",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -50,11 +55,13 @@
         "nodes": [
           {
             "label": "Hipérbole",
-            "detail": "Exagero intencional expressivo"
+            "detail": "Exagero intencional expressivo",
+            "badge": "Foco #1"
           },
           {
             "label": "Prosopopeia e Gradação",
-            "detail": "Humanização de inanimados; Sequência crescente/decrescente"
+            "detail": "Humanização de inanimados; Sequência crescente/decrescente",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -65,13 +72,48 @@
         "nodes": [
           {
             "label": "Aliteração",
-            "detail": "Repetição de sons consonantais"
+            "detail": "Repetição de sons consonantais",
+            "badge": "Foco #1"
           },
           {
             "label": "Assonância e Onomatopeia",
-            "detail": "Repetição de vogais; Imitação de ruídos"
+            "detail": "Repetição de vogais; Imitação de ruídos",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Metáfora (sem \"como\") ≠ Comparação (com \"como\") • Metonímia = Parte pelo Todo / Continente pelo Conteúdo / Autor pela Obra • Antítese (palavras opostas) ≠ Paradoxo (ideia autocontraditória) • Sinestesia = Mistura de sentidos físicos",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Metáfora vs. Comparação",
+        "label": "Ambas aproximam termos por semelhança, mas a Comparação traz conectivo comparativo explícito (\"como\", \"tal qual\") e a Metáfora é direta",
+        "ref": "Tropos"
+      },
+      {
+        "value": "Catacrese",
+        "label": "Metáfora desgastada pelo uso cotidiano por falta de nome específico (\"dente de alho\", \"braço da cadeira\", \"embarcar no avião\")",
+        "ref": "Tropos"
+      },
+      {
+        "value": "Antítese vs. Paradoxo",
+        "label": "Antítese aproxima termos opostos sem quebrar a lógica (\"vida e morte\"); Paradoxo funde opostos numa mesma ideia contraditória (\"ferida que dói e não se sente\")",
+        "ref": "Figuras de Pensamento"
+      },
+      {
+        "value": "Aliteração vs. Assonância",
+        "label": "Aliteração = repetição de sons CONSONANTAIS; Assonância = repetição de sons VOCÁLICOS",
+        "ref": "Figuras de Som"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em \"O morador bebeu dois copos de água filtrada\", ocorre uma metáfora porque o copo foi comparado à água.",
+        "right": "FALSO! Ocorre METONÍMIA (continente pelo conteúdo): ninguém bebe o vidro do copo, e sim a água contida nele (relação objetiva de contiguidade, não de semelhança)."
+      },
+      {
+        "wrong": "Eufemismo e Hipérbole têm a mesma função expressiva de exagerar dramaticamente uma informação.",
+        "right": "FALSO! A HIPÉRBOLE exagera intencionalmente (\"chorei rios de lágrimas\"), enquanto o EUFEMISMO suaviza uma expressão dura ou desagradável (\"ele partiu desta para melhor\" = morreu)."
       }
     ]
   },

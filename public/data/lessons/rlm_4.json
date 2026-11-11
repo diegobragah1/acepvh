@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Forma Geral",
-            "detail": "ax + b = 0 ⇒ x = -b/a"
+            "detail": "ax + b = 0 ⇒ x = -b/a",
+            "badge": "Foco #1"
           },
           {
             "label": "Frações Sucessivas",
-            "detail": "Multiplique pelo MMC dos denominadores"
+            "detail": "Multiplique pelo MMC dos denominadores",
+            "badge": "Foco #2"
           },
           {
             "label": "Linguagem Algébrica",
-            "detail": "Consecutivos (x, x+1), dobro (2x), terça parte (x/3)"
+            "detail": "Consecutivos (x, x+1), dobro (2x), terça parte (x/3)",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,15 +38,18 @@
         "nodes": [
           {
             "label": "Método da Adição",
-            "detail": "Soma as equações cancelando uma incógnita"
+            "detail": "Soma as equações cancelando uma incógnita",
+            "badge": "Foco #1"
           },
           {
             "label": "Substituição",
-            "detail": "Isola x na 1ª e substitui na 2ª"
+            "detail": "Isola x na 1ª e substitui na 2ª",
+            "badge": "Foco #2"
           },
           {
             "label": "Problemas Clássicos",
-            "detail": "Motos (2 rodas) vs. Carros (4 rodas); Acertos vs. Erros"
+            "detail": "Motos (2 rodas) vs. Carros (4 rodas); Acertos vs. Erros",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -54,15 +60,18 @@
         "nodes": [
           {
             "label": "Coeficiente Linear (b)",
-            "detail": "Valor inicial quando x = 0 (corta eixo y)"
+            "detail": "Valor inicial quando x = 0 (corta eixo y)",
+            "badge": "Foco #1"
           },
           {
             "label": "Coeficiente Angular (a)",
-            "detail": "Taxa de variação (a > 0 crescente; a < 0 decrescente)"
+            "detail": "Taxa de variação (a > 0 crescente; a < 0 decrescente)",
+            "badge": "Foco #2"
           },
           {
             "label": "Raiz da Função",
-            "detail": "f(x) = 0 ⇒ x = -b/a (corta eixo x)"
+            "detail": "f(x) = 0 ⇒ x = -b/a (corta eixo x)",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -73,17 +82,53 @@
         "nodes": [
           {
             "label": "Média Simples",
-            "detail": "Soma = Média × n"
+            "detail": "Soma = Média × n",
+            "badge": "Foco #1"
           },
           {
             "label": "Média Ponderada",
-            "detail": "Σ(xᵢ · pᵢ) ÷ Σ(pᵢ)"
+            "detail": "Σ(xᵢ · pᵢ) ÷ Σ(pᵢ)",
+            "badge": "Foco #2"
           },
           {
             "label": "Pegadinha IBGP",
-            "detail": "Dividir sempre pela SOMA DOS PESOS!"
+            "detail": "Dividir sempre pela SOMA DOS PESOS!",
+            "badge": "Foco #3"
           }
         ]
+      }
+    ],
+    "mnemonic": "Função do 1º Grau: f(x) = ax + b (a = taxa de variação/inclinação; b = valor inicial quando x = 0; raiz = -b/a) • Média Ponderada = Soma(Valor × Peso) ÷ Soma dos Pesos • Soma Total = Média × Quantidade",
+    "deadlinesAndNumbers": [
+      {
+        "value": "f(x) = ax + b",
+        "label": "a > 0 crescente; a < 0 decrescente; b = intercepto no eixo y; raiz x = -b/a (onde f(x) = 0)",
+        "ref": "Função Afim"
+      },
+      {
+        "value": "Soma = Média × n",
+        "label": "Atalho de ouro da Média Aritmética Simples: descubra sempre a SOMA total antes e depois de incluir/retirar um elemento",
+        "ref": "Média Simples"
+      },
+      {
+        "value": "MP = Σ(xᵢ · pᵢ) / Σpᵢ",
+        "label": "Na Média Aritmética Ponderada, divide-se pela SOMA DOS PESOS (ou frequências), e nunca pela quantidade de linhas da tabela",
+        "ref": "Média Ponderada"
+      },
+      {
+        "value": "Adição vs. Substituição",
+        "label": "Sistemas lineares 2×2: some as equações após multiplicar uma delas para cancelar uma incógnita imediatamente",
+        "ref": "Sistemas do 1º Grau"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Em uma tabela com 3 equipes (Equipe A de 10 agentes com média 20 visitas; Equipe B de 30 agentes com média 40 visitas), a média geral de visitas por agente é (20 + 40) ÷ 2 = 30.",
+        "right": "FALSO! Como as equipes têm tamanhos (pesos) diferentes, deve-se calcular a MÉDIA PONDERADA: (10×20 + 30×40) ÷ (10 + 30) = 1.400 ÷ 40 = 35 visitas por agente!"
+      },
+      {
+        "wrong": "Se um agente gasta 1/3 do estoque pela manhã e 1/2 do restante à tarde, ele gastou ao todo 1/3 + 1/2 = 5/6 do estoque.",
+        "right": "FALSO! \"1/2 do RESTANTE\" incide sobre o que sobrou da manhã (2/3): metade de 2/3 é 1/3. Logo, ele gastou 1/3 + 1/3 = 2/3, restando 1/3 do estoque!"
       }
     ]
   },

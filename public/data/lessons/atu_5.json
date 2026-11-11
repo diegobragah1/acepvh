@@ -29,19 +29,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "SIRGAS 2000",
-        "label": "Sistema Geodésico de Referência oficial do Brasil (adotado pelo IBGE para cartografia e georreferenciamento)"
+        "label": "Sistema Geodésico de Referência oficial do Brasil (adotado pelo IBGE para cartografia e georreferenciamento)",
+        "ref": "Ref. Aula 31"
       },
       {
         "value": "PRODES vs. DETER (INPE)",
-        "label": "PRODES mede a taxa anual consolidada de desmatamento; DETER emite alertas rápidos quase diários para fiscalização"
+        "label": "PRODES mede a taxa anual consolidada de desmatamento; DETER emite alertas rápidos quase diários para fiscalização",
+        "ref": "Ref. Aula 31"
       },
       {
         "value": "Wolbachia e Qdenga",
-        "label": "Inovações biotecnológicas do Ministério da Saúde no controle e prevenção da Dengue e arboviroses"
+        "label": "Inovações biotecnológicas do Ministério da Saúde no controle e prevenção da Dengue e arboviroses",
+        "ref": "Ref. Aula 31"
       },
       {
         "value": "COP30 (Belém/PA) e SBCE",
-        "label": "Conferência climática da ONU na Amazônia e criação do mercado regulado de carbono (Lei nº 15.042/2024)"
+        "label": "Conferência climática da ONU na Amazônia e criação do mercado regulado de carbono (Lei nº 15.042/2024)",
+        "ref": "Ref. Aula 31"
       }
     ],
     "branches": [
@@ -51,77 +55,78 @@
         "color": "teal",
         "nodes": [
           {
-            "label": "Latitude, Longitude e Datum Oficial",
-            "detail": "Latitude: distância ao Equador (0° a 90° N/S — Porto Velho fica a ~8°45' Sul). Longitude: distância a Greenwich (0° a 180° L/O — fuso UTC-4). Sistema Geodésico Oficial do Brasil: SIRGAS 2000!",
-            "badge": "SIRGAS 2000"
+            "label": "Latitude, Longitude e Datum Oficial do Brasil (SIRGAS 2000)",
+            "detail": "Latitude: distância angular ao Equador (0° a 90° N/S — Porto Velho fica a ~8°45’ S). Longitude: distância a Greenwich (0° a 180° L/O — fuso UTC-4). O Sistema Geodésico de Referência oficial adotado pelo IBGE no Brasil é o SIRGAS 2000!",
+            "badge": "SIRGAS 2000 (IBGE)"
           },
           {
-            "label": "GNSS (GPS, GLONASS, Galileo, BeiDou)",
-            "detail": "3 segmentos do GPS: Espacial (satélites), Controle (estações em solo) e Usuário (aparelho/tablet do ACE em campo).",
-            "badge": "3 Segmentos GPS"
+            "label": "GNSS (GPS, GLONASS, Galileo e BeiDou) e os 3 Segmentos",
+            "detail": "Todo sistema GNSS opera com 3 segmentos: Espacial (constelação de satélites), de Controle (estações terrestres de monitoramento) e do Usuário (receptor/tablet do ACE em campo).",
+            "badge": "3 Segmentos GNSS"
           }
         ]
       },
       {
-        "title": "2. SIG (Sistema de Informações Geográficas): Vetorial vs. Matricial",
+        "title": "2. SIG (Sistema de Informações Geográficas): Vetorial vs. Matricial (Raster)",
         "icon": "🗺️",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Dados Vetoriais (Geometria Discreta)",
-            "detail": "Representam feições por PONTO (um foco de Aedes, um caso notificado, um PIT), LINHA (uma rua, um igarapé) e POLÍGONO (um quarteirão, um bairro, um distrito).",
+            "label": "Dados Vetoriais (Geometria Discreta: Ponto, Linha e Polígono)",
+            "detail": "Representam feições por coordenadas exatas: PONTO (um foco positivo de Aedes, um caso notificado, uma ovitrampa), LINHA (uma rua, a BR-364, um igarapé) e POLÍGONO (um quarteirão, um bairro, um distrito).",
             "badge": "Ponto / Linha / Polígono"
           },
           {
             "label": "Dados Matriciais / Raster (Grade Contínua de Pixels)",
-            "detail": "Imagens de satélite, ortofotos de drones, modelos digitais de elevação e mapas contínuos de temperatura/vegetação (NDVI).",
-            "badge": "Grade de Pixels"
+            "detail": "Representam o espaço como uma matriz de células (pixels): imagens de satélite (CBERS, Landsat, Sentinel), ortofotos de drones e modelos digitais de elevação/temperatura.",
+            "badge": "Grade de Pixels (Raster)"
           }
         ]
       },
       {
-        "title": "3. Sensoriamento Remoto e Aplicações no Trabalho do ACE + Atualidades",
+        "title": "3. Sensoriamento Remoto (PRODES vs. DETER) e Análise Espacial no ACE",
         "icon": "🚁",
         "color": "emerald",
         "nodes": [
           {
-            "label": "Drones, Buffer (Raio de Bloqueio) e Mapa de Kernel",
-            "detail": "Drones identificam caixas d'água destampadas e piscinas abandonadas. No SIG, o BUFFER traça o raio de bloqueio (ex: 150m ao redor do caso positivo) e o Mapa de Kernel mostra as manchas de calor (hotspots).",
-            "badge": "Buffer + Kernel"
+            "label": "Buffer (Raio de Bloqueio) e Mapa de Kernel (Mancha de Calor)",
+            "detail": "No SIG da vigilância epidemiológica, o BUFFER traça automaticamente o raio de bloqueio ao redor de um caso positivo (ex.: 150 m), enquanto o Mapa de Kernel identifica os hotspots (concentração de focos/casos).",
+            "badge": "Buffer + Mapa de Kernel"
           },
           {
-            "label": "Atualidades 2025/2026 (Amazônia, Clima e Saúde)",
-            "detail": "Eventos extremos no Rio Madeira (estiagens severas 2023/2024 seguidas de cheias), COP30 na Amazônia (Belém), expansão da vacina da dengue (QDenga) no SUS, Wolbachia e uso de armadilhas ovitrampas georreferenciadas.",
-            "badge": "Atualidades RO/Brasil"
+            "label": "Monitoramento da Amazônia pelo INPE: PRODES vs. DETER",
+            "detail": "PRODES: calcula a taxa ANUAL consolidada de desmatamento por corte raso (alta resolução espacial). DETER: sistema de alerta RÁPIDO (quase diário) para acionar a fiscalização imediata do IBAMA em campo.",
+            "badge": "PRODES (Anual) vs. DETER (Diário)"
           }
         ]
       },
       {
-        "title": "4. Atualidades Brasil/Mundo (2024–2026)",
-        "icon": "🌍",
+        "title": "4. Inovações Científicas na Vigilância em Saúde e Atualidades 2024–2026",
+        "icon": "🧬",
         "color": "amber",
         "nodes": [
           {
-            "label": "Reforma Tributária (EC 132/2023 e LC 214/2025)",
-            "detail": "IVA Dual = CBS (Federal) + IBS (Estados/Municípios) + IS",
-            "badge": "Síntese IBGP"
+            "label": "Método Wolbachia, Vacina Qdenga (TAK-003), EDLs e BRI-Aedes",
+            "detail": "Wolbachia: bactéria intracelular natural (presente em ~60% dos insetos, NÃO é modificação genética/transgênica!) introduzida no Aedes aegypti para impedir a replicação dos vírus da Dengue, Zika e Chikungunya. EDLs: Estações Disseminadoras de Larvicida (piriproxifeno).",
+            "badge": "Wolbachia ≠ Transgênico!"
           },
           {
-            "label": "Ponto-Chave #2",
-            "detail": "COP30 da ONU em Belém/PA (Amazônia) e expansão do bloco BRICS+",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Censo IBGE 2022",
-            "detail": "Transição demográfica, queda da fecundidade (<2,1) e envelhecimento populacional",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Saúde Pública MS",
-            "detail": "Incorporação da vacina Qdenga no PNI, Método Wolbachia e EDLs",
-            "badge": "Síntese IBGP"
+            "label": "SISS-Geo (Fiocruz), COP30 na Amazônia e Mercado de Carbono",
+            "detail": "SISS-Geo: aplicativo de georreferenciamento de epizootias (primatas mortos na vigilância de Febre Amarela). Na agenda ambiental: COP30 em Belém/PA e instituição do Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE).",
+            "badge": "SISS-Geo + COP30"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Georreferenciamento (GPS/GNSS, SIRGAS 2000, SIG Vetorial vs. Matricial, Buffer e Kernel), Monitoramento Ambiental (PRODES vs. DETER), Inovações em Saúde (Wolbachia, Qdenga, BRI-Aedes, SISS-Geo) e Temas Transversais",
+    "goldenTraps": [
+      {
+        "wrong": "O Método Wolbachia consiste na liberação de mosquitos Aedes aegypti geneticamente modificados (transgênicos) em laboratório para esterilizar as fêmeas.",
+        "right": "FALSO! O Wolbachia NÃO utiliza modificação genética (não é mosquito transgênico): utiliza uma bactéria intracelular natural que bloqueia a transmissão de Dengue, Zika e Chikungunya e se mantém autossustentável na população local!"
+      },
+      {
+        "wrong": "No monitoramento por satélite do INPE, o DETER calcula a taxa anual oficial consolidada do desmatamento, enquanto o PRODES emite alertas diários rápidos.",
+        "right": "FALSO! É o inverso: o PRODES mede a taxa ANUAL oficial consolidada de corte raso, enquanto o DETER emite alertas RÁPIDOS (quase diários) para orientar a fiscalização imediata!"
       }
     ]
   },

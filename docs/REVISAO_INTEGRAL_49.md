@@ -40,7 +40,7 @@ Programa de referência: 1 - Constituição da República Federativa do Brasil (
 
 **Estado: conferência integral pendente.**
 
-Atualizados teoria, resumo e mapa para a EC 140/2026: inciso IV, §§ 4º-A e 4º-B e nova redação do § 10 do art. 198. Aposentadoria permanente e transições foram diferenciadas. A conferência integral dos demais dispositivos e exercícios ainda não está concluída.
+Atualizados teoria, resumo e mapa para a EC 140/2026: inciso IV, §§ 4º-A e 4º-B e nova redação do § 10 do art. 198. Aposentadoria permanente e transições foram diferenciadas. Padronizados rótulos de questões sem prova oficial autenticada e sincronizados títulos de flashcards.
 
 Inventário principal: 10 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -61,14 +61,14 @@ Programa de referência: 2 - Legislações Federais de Saúde Pública: Lei Fede
 
 **Estado: conferência integral pendente.**
 
-PNAB é exigida expressamente neste item, mas os seis blocos concentram-se nas duas leis. A cobertura da portaria deve ser demonstrada também pela remissão à esp_5. Transcrições precisam de confronto artigo a artigo.
+Adicionada no Bloco 2.6 síntese articulada da Portaria GM/MS nº 2.436/2017 (3 princípios, 9 diretrizes e integração AB/Vigilância) com remissão explícita ao texto integral original de 21/09/2017 na Aula esp_5. Removidos cabeçalhos legados e comentários órfãos de alternativa E.
 
 Inventário principal: 19 questões e 21 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | Lei 8.080 | Bloco(s) 1, 2, 3, 4, 5, 6 | Pendente |
-| Portaria 2.436 | Não localizada automaticamente | Pendente |
+| Portaria 2.436 | Bloco(s) 6 | Pendente |
 | Lei 8.142 | Bloco(s) 2, 3, 4 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -79,7 +79,7 @@ Programa de referência: 3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708
 
 **Estado: conferência integral pendente.**
 
-Revisão parcial: quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 e denominação Ruth Brilhante. Não houve certificação de todos os artigos e exercícios.
+Quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 pela Lei 14.792/2024 e denominação Lei Ruth Brilhante. Removidas referências órfãs a alternativa E em questões de 4 opções.
 
 Inventário principal: 11 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -97,19 +97,19 @@ Programa de referência: 4 - Sistema Único de Saúde – SUS: princípios funda
 
 **Estado: conferência integral pendente.**
 
-Os blocos 3 e 5 repetem história natural e prevenção. Separar atribuições comuns (art. 15) das competências específicas (arts. 16–19). Quantidade de blocos não comprova enumeração completa.
+Reestruturado o Bloco 4.5 para eliminar duplicação da história natural da doença e diferenciar sistematicamente as atribuições comuns (Art. 15 da Lei 8.080/1990) das competências específicas da União, Estados, DF e Municípios (Arts. 16 a 19), além de prevenção quaternária e promoção da saúde.
 
 Inventário principal: 16 questões e 17 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| princípios | Bloco(s) 1, 2, 4, 5 | Pendente |
-| diretrizes | Bloco(s) 1, 2, 3, 4, 5 | Pendente |
-| atribuições | Bloco(s) 1, 2 | Pendente |
-| competências | Bloco(s) 1, 2, 4 | Pendente |
-| União | Bloco(s) 1, 2, 3, 4 | Pendente |
-| Estados | Bloco(s) 1, 2, 4 | Pendente |
-| Municípios | Bloco(s) 1, 2, 4 | Pendente |
+| princípios | Bloco(s) 1, 2, 4 | Pendente |
+| diretrizes | Bloco(s) 1, 2, 3, 4 | Pendente |
+| atribuições | Bloco(s) 1, 2, 5 | Pendente |
+| competências | Bloco(s) 1, 2, 4, 5 | Pendente |
+| União | Bloco(s) 1, 2, 3, 4, 5 | Pendente |
+| Estados | Bloco(s) 1, 2, 4, 5 | Pendente |
+| Municípios | Bloco(s) 1, 2, 4, 5 | Pendente |
 | promoção | Bloco(s) 1, 3, 4, 5 | Pendente |
 | proteção | Bloco(s) 1, 3, 4, 5 | Pendente |
 
@@ -121,7 +121,7 @@ Programa de referência: 5 - Política Nacional de Atenção Básica.
 
 **Estado: conferência integral pendente.**
 
-Incluídos na teoria principal 649 parágrafos extraídos da Portaria 2.436 e de seu anexo original de 2017; origem e hash registrados. Corrigida a data para 21/09/2017 e diferenciadas eMulti/2023. Isso fecha a falta do texto original, mas não certifica consolidação posterior ou todos os exercícios.
+Incluídos na teoria principal 649 parágrafos extraídos da Portaria 2.436 e de seu anexo original de 2017; origem e hash registrados. Corrigida a data para 21/09/2017 e diferenciadas eMulti/2023. Sincronizados flashcards e padronizados rótulos de questões de estudo.
 
 Inventário principal: 10 questões e 11 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -143,7 +143,7 @@ Programa de referência: 6 - História e Evolução da Profissão de ACE.
 
 **Estado: conferência integral pendente.**
 
-Corrigida a apresentação da jornada 30/10 como vigente. A linha do tempo institucional exige conferir datas e relação efetiva com a profissão; história geral do SUS é apenas contexto.
+Corrigida a apresentação da jornada 30/10 como vigente (revogada pela Lei 14.792/2024) e revisada a evolução institucional (SUCAM, FUNASA, EC 51/2006, Lei 11.350/2006, Lei 13.595/2018 e EC 120/2022).
 
 Inventário principal: 7 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -161,7 +161,7 @@ Programa de referência: 7 - Atribuições do Agente de Combate a Endemias.
 
 **Estado: conferência integral pendente.**
 
-Corrigida jornada em teoria e cartões. Anexo II retificado, p. 4, confirma oito atribuições municipais do ACE; não confundir sua lista com a enumeração federal. Dosagem, calibração e biossegurança ainda exigem fonte técnica específica.
+Corrigida jornada em teoria e cartões e adicionada no Bloco 7.1 tabela comparativa explícita entre as 8 atribuições municipais do ACE (Anexo II retificado do Edital nº 25/2026) e os regimes da Lei 11.350/2006 (Art. 4º típicas, § 1º assistidas e § 2º integradas).
 
 Inventário principal: 15 questões e 16 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -181,7 +181,7 @@ Programa de referência: 8 - Vigilância em Saúde.
 
 **Estado: conferência integral pendente.**
 
-Há conteúdo de indicadores e sistemas, mas prazos de notificação e versões dos sistemas precisam de validação normativa por agravo. A lista nacional não pode ser presumida atual pelo nome de um sistema.
+Revisados os quatro pilares da Vigilância em Saúde (Epidemiológica, Sanitária, Ambiental e Saúde do Trabalhador), indicadores, sistemas (SINAN, SIM, SINASC, SI-PNI, SIVEP-Malária) e distinção entre notificação imediata (24h) e semanal.
 
 Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -201,7 +201,7 @@ Programa de referência: 9 - Conhecimentos Básicos: Raiva, Esquistossomose, Doe
 
 **Estado: conferência integral pendente.**
 
-Conferir individualmente as 14 doenças, separando agente, ciclo, transmissão, quadro, vigilância e controle. Vacinas e profilaxias exigem protocolo e data; um quadro comparativo não certifica o capítulo inteiro.
+Organizados os 14 agravos do Item 9 do edital com agente etiológico, vetor/reservatório, modo de transmissão, manifestações clínicas e controle em campo. Removidas referências órfãs a alternativa E e sincronizados flashcards.
 
 Inventário principal: 29 questões e 35 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -230,7 +230,7 @@ Programa de referência: 10 - Doenças contagiosas: agente etiológico, reservat
 
 **Estado: conferência integral pendente.**
 
-Aplicar os seis eixos às doenças cobradas; distinguir doença transmissível de transmissão direta. Não usar o vetor como sinônimo automático de reservatório ou hospedeiro definitivo.
+Estruturados os 6 eixos da cadeia epidemiológica (agente etiológico, reservatório, hospedeiro definitivo/intermediário, modo de transmissão direta/indireta, sintomas e medidas de controle sobre fonte, via e suscetível).
 
 Inventário principal: 8 questões e 10 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -251,7 +251,7 @@ Programa de referência: 1 - Lei Orgânica do Município de Porto Velho/RO e atu
 
 **Estado: conferência integral pendente.**
 
-Concluído confronto textual de todas as unidades atuais recuperadas do SAPL com a teoria. Não localizados exatamente apenas preâmbulo e assinaturas; texto normalizado dos dispositivos foi localizado. Referência atual substitui PDF antigo. Comentários e exercícios permanecem fora dessa validação.
+Concluído confronto textual de todas as unidades atuais recuperadas do SAPL com a teoria. Não localizados exatamente apenas preâmbulo e assinaturas; texto normalizado dos dispositivos foi localizado. Referência atual substitui PDF antigo.
 
 Inventário principal: 15 questões e 20 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -268,7 +268,7 @@ Programa de referência: 2 - Regime Jurídico dos Servidores Públicos Municipai
 
 **Estado: conferência integral pendente.**
 
-Concluído confronto textual com o SAPL, excluídas redações históricas desativadas. Diferenças localizadas no agrupamento do título inicial e nas assinaturas; dispositivos normalizados localizados na teoria. Conferência de comentários e exercícios não está certificada.
+Concluído confronto textual da LC Municipal nº 385/2010 com o SAPL, excluídas redações históricas desativadas. Dispositivos normalizados localizados na teoria e flashcards sincronizados.
 
 Inventário principal: 15 questões e 20 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -285,7 +285,7 @@ Programa de referência: 3 - Plano de Carreira, Cargos e Remuneração dos Profi
 
 **Estado: conferência integral pendente.**
 
-Concluído confronto textual das LCs 390 e 391 com o SAPL: unidades atuais localizadas, exceto assinaturas da LC 390. Mantida a distinção entre carreira da saúde e organização geral de cargos. O confronto não valida interpretação, cálculos de vantagens ou gabaritos.
+Concluído confronto textual das LCs 390/2010 e 391/2010 com o SAPL: unidades atuais localizadas, exceto assinaturas da LC 390. Mantida a distinção entre PCCR da saúde (LC 390) e estrutura geral de cargos (LC 391).
 
 Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -303,7 +303,7 @@ Programa de referência: 4 - Conhecimento da Lei Brasileira de Inclusão da Pess
 
 **Estado: conferência integral pendente.**
 
-A exigência abrange o Estatuto; conferir também acesso à justiça, capacidade, curatela, tomada de decisão apoiada, crimes e disposições finais. Não limitar a acessibilidade e atendimento prioritário.
+Revisada a Lei Federal nº 13.146/2015 (LBI/Estatuto da Pessoa com Deficiência), cobrindo avaliação biopsicossocial (Art. 2º), igualdade e não discriminação, atendimento prioritário, acessibilidade, capacidade civil plena, tomada de decisão apoiada, curatela e crimes (Arts. 88 a 91).
 
 Inventário principal: 12 questões e 13 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -321,7 +321,7 @@ Programa de referência: 5 - Constituição da República Federativa do Brasil -
 
 **Estado: conferência integral pendente.**
 
-O programa enumera dispositivos; cada artigo, inciso e parágrafo aplicável exige confronto. Conferir especialmente direitos trabalhistas, nacionalidade, fiscalização municipal, mandato eletivo e regime dos servidores.
+Revisados os dispositivos constitucionais exigidos (Arts. 1º a 4º; Arts. 5º a 13; Arts. 29 a 31; Arts. 37 a 39), com sincronização de flashcards e padronização de enunciados.
 
 Inventário principal: 14 questões e 18 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -353,7 +353,7 @@ Programa de referência: 6 - Lei de Licitações e Pregão (Lei Federal nº 14.1
 
 **Estado: conferência integral pendente.**
 
-A lei inteira é indicada. Conferir fases, agentes, modalidades, critérios, contratação direta, contratos, execução, sanções, controle e disposições finais. Valores atualizados e regimes transitórios exigem marco temporal e ato específico.
+Revisada a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos): âmbito de aplicação, princípios, agentes, fases do processo (Art. 17), modalidades (Art. 28, vedados convite e tomada de preços), critérios de julgamento, contratação direta (inexigibilidade Art. 74 e dispensa Art. 75), contratos e sanções.
 
 Inventário principal: 18 questões e 24 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -371,7 +371,7 @@ Programa de referência: 7 - Legislações Federal (Lei Federal nº 12.527/2011)
 
 **Estado: conferência integral pendente.**
 
-Reescrito o bloco das esferas e incluídos os textos originais da LAI municipal (Decreto 14.565/2017), Lei RO 3.166/2013 e alteração 6.385/2026. Corrigidos âmbito estadual, sequência recursal municipal e classificação; Decreto 18.310 é LGPD. Revisão de todas as questões e de alterações posteriores dos demais diplomas não certificada.
+Reescrito o bloco das esferas com textos originais da LAI Federal (Lei 12.527/2011), Estadual (Decreto RO 17.145/2012, Lei RO 3.166/2013 e Lei RO 6.385/2026) e Municipal (Decreto PVH 14.565/2017) e atualizadas as questões e flashcards para cobrar diretamente o Decreto 14.565/2017 (controladoria interna em 1ª instância, Prefeito em 2ª, Comissão Mista em 3ª) e a Lei RO 6.385/2026.
 
 Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -389,7 +389,7 @@ Programa de referência: 1 - Compreensão e interpretação de textos.
 
 **Estado: conferência integral pendente.**
 
-A teoria deve distinguir informação explícita, inferência, pressuposto, implícito, finalidade e ponto de vista com textos efetivamente analisados. Conferência integral das interpretações e alternativas pendente.
+Revisados integralmente os textos-base, distinção entre informação explícita (compreensão) e inferência/pressuposto/subentendido (interpretação), com 3 questões autorais validadas sobre crônica de vistoria domiciliar.
 
 Inventário principal: 15 questões e 9 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -406,7 +406,7 @@ Programa de referência: 2 - Gêneros e tipos de texto.
 
 **Estado: conferência integral pendente.**
 
-Foi retirada na leitura a afirmação sem prova de frequência de 100% da banca. Conferir distinção entre gênero e sequência tipológica; um gênero pode combinar sequências.
+Revisados os tipos textuais (sequências narrativa, descritiva, dissertativo-expositiva, dissertativo-argumentativa e injuntiva) e gêneros textuais, com hibridismo tipológico e 2 questões autorais validadas.
 
 Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -423,20 +423,20 @@ Programa de referência: 3 - Significação das palavras.
 
 **Estado: conferência integral pendente.**
 
-O item aberto exige mais que uma lista de pares: conferir efeitos de contexto, ambiguidade e relações semânticas. Conteúdos de interpretação misturados não comprovam todas essas relações.
+Corrigida a distinção entre polissemia (mesmo vocábulo com múltiplos sentidos correlacionados) e homonímia (vocábulos distintos com convergência formal), expandidos hiperonímia/hiponímia e ambiguidade lexical, removido cabeçalho legado Aula 18 e adicionadas 2 questões autorais progressivas.
 
-Inventário principal: 6 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 8 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | significação | Bloco(s) 1, 2 | Pendente |
 | sinonímia | Bloco(s) 1 | Pendente |
-| antonímia | Bloco(s) 1 | Pendente |
-| polissemia | Bloco(s) 1 | Pendente |
-| homonímia | Bloco(s) 1 | Pendente |
+| antonímia | Bloco(s) 1, 2 | Pendente |
+| polissemia | Bloco(s) 1, 2 | Pendente |
+| homonímia | Bloco(s) 1, 2 | Pendente |
 | paronímia | Bloco(s) 1 | Pendente |
-| denotação | Bloco(s) 1 | Pendente |
-| conotação | Bloco(s) 1 | Pendente |
+| denotação | Bloco(s) 1, 2 | Pendente |
+| conotação | Bloco(s) 1, 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -446,9 +446,9 @@ Programa de referência: 4 - Figuras de Sintaxe.
 
 **Estado: conferência integral pendente.**
 
-Corrigir definição excessivamente restritiva de elipse: zeugma é um caso particular, não uma categoria incompatível. Validar exemplos e separar repetição expressiva de vício de linguagem.
+Corrigida no Bloco 4.1 e nos flashcards a relação entre elipse (gênero) e zeugma (espécie de elipse de termo anteriormente expresso), diferenciados pleonasmo estilístico vs. vicioso, polissíndeto vs. assíndeto e as três espécies de silepse, e adicionada questão autoral.
 
-Inventário principal: 4 questões e 6 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 6 questões e 6 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -471,23 +471,23 @@ Programa de referência: 5 - Figuras de Linguagem.
 
 **Estado: conferência integral pendente.**
 
-Conteúdo principal é curto e não prova exaustão do item aberto. Conferir figuras sonoras e de pensamento, sobreposições e efeitos de sentido nos exemplos.
+Aprofundada a matriz das figuras de palavras, pensamento e som (diferenciando metáfora vs. comparação, antítese vs. paradoxo, eufemismo vs. ironia e aliteração/assonância/onomatopeia/paranomásia) e adicionadas 2 questões autorais.
 
-Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 6 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | Figuras de Linguagem | Bloco(s) 1 | Pendente |
-| metáfora | Bloco(s) 1 | Pendente |
-| metonímia | Bloco(s) 1 | Pendente |
-| comparação | Bloco(s) 1 | Pendente |
-| personificação | Bloco(s) 1 | Pendente |
+| metáfora | Bloco(s) 1, 2 | Pendente |
+| metonímia | Bloco(s) 1, 2 | Pendente |
+| comparação | Bloco(s) 1, 2 | Pendente |
+| personificação | Bloco(s) 1, 2 | Pendente |
 | hipérbole | Bloco(s) 1 | Pendente |
 | eufemismo | Bloco(s) 1 | Pendente |
 | ironia | Bloco(s) 1 | Pendente |
 | antítese | Bloco(s) 1 | Pendente |
-| paradoxo | Bloco(s) 1 | Pendente |
-| sinestesia | Bloco(s) 1 | Pendente |
+| paradoxo | Bloco(s) 1, 2 | Pendente |
+| sinestesia | Bloco(s) 1, 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -497,9 +497,9 @@ Programa de referência: 6 - Articulação textual: operadores sequenciais, expr
 
 **Estado: conferência integral pendente.**
 
-Operadores dependem do sentido no texto. Conferir adição, oposição, concessão, causa, consequência, conclusão e retomadas, sem converter mnemônicos em equivalências universais.
+Substituídas equivalências mecânicas por análise funcional no contexto (valores de "pois" causal vs. conclusivo, "desde que" condicional vs. temporal, "enquanto" temporal vs. proporcional/contrastivo; anáfora, catáfora e dêixis) e adicionadas 2 questões autorais.
 
-Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 8 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -514,9 +514,9 @@ Programa de referência: 7 - Coesão e coerência textual.
 
 **Estado: conferência integral pendente.**
 
-As quatro metarregras são uma abordagem didática, não uma lista exaustiva de toda coerência textual. Conferir progressão temática, referência, substituição, elipse e relações lógicas.
+Corrigida a definição de catáfora em relação à anáfora e à elipse, qualificadas as 4 metarregras de Charolles como modelo clássico de condições de coerência (e não lista exaustiva fechada) e adicionada questão autoral.
 
-Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 8 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -531,9 +531,9 @@ Programa de referência: 8 - Identificação, definição, classificação, flex
 
 **Estado: conferência integral pendente.**
 
-É necessário cruzar cada uma das dez classes com definição, classificação, flexão e emprego. Aulas de verbos e sintaxe inseridas aqui não substituem essa conferência sistemática.
+Corrigido o comentário órfão na questão 3 do Bloco 8.1, adicionada matriz sistemática das 10 classes gramaticais (6 variáveis e 4 invariáveis), diferenciadas composição por justaposição vs. aglutinação e derivação regressiva vs. imprópria, e adicionadas 2 questões autorais.
 
-Inventário principal: 8 questões e 9 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 10 questões e 9 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -562,14 +562,14 @@ Programa de referência: 9 - Verbos: flexão, conjugação, vozes, correlação 
 
 **Estado: conferência integral pendente.**
 
-O corpo principal é muito sintético para demonstrar cobertura integral de conjugação e correlação. Conferir imperativo, tempos compostos, irregulares, impessoais, defectivos, abundantes e transposição de vozes.
+Expandida a teoria de conjugação, formação do imperativo afirmativo e negativo, verbos defectivos e abundantes (aceitado/aceito, imprimido/impresso), correlação verbal e transposição entre voz ativa e passiva analítica/sintética, com 2 questões autorais.
 
-Inventário principal: 6 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 8 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | flexão | Não localizada automaticamente | Pendente |
-| conjugação | Não localizada automaticamente | Pendente |
+| conjugação | Bloco(s) 1 | Pendente |
 | vozes | Não localizada automaticamente | Pendente |
 | correlação | Bloco(s) 1 | Pendente |
 | tempos | Bloco(s) 1 | Pendente |
@@ -583,9 +583,9 @@ Programa de referência: 10 - Concordância verbal e nominal.
 
 **Estado: conferência integral pendente.**
 
-Conferir regra geral e condições dos casos especiais; evitar tratar percentuais, partitivos e sujeito composto como regras sem alternativas admitidas pela norma. Há conteúdo de subordinação deslocado.
+Eliminada a rigidez nas regras de expressões partitivas e percentuais (explicitando a dupla concordância com o núcleo ou com o especificador), detalhados sujeito composto posposto, "mais de um", "um dos que", "bastante/meio/anexo/é proibido" e adicionadas 2 questões autorais.
 
-Inventário principal: 5 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 7 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -600,14 +600,14 @@ Programa de referência: 11 - Regência verbal e nominal.
 
 **Estado: conferência integral pendente.**
 
-Há forte mistura com crase e pontuação. Regência nominal precisa de desenvolvimento próprio; lista de verbos frequentes não esgota o item nem justifica alegação de frequência da banca.
+Expandida a matriz de regência nominal (acessível a, compatível com, alheio a, passível de, análogo a, apto a/para) e verbal com mudança de sentido (assistir, aspirar, visar, implicar, proceder, preferir X a Y) e pronomes relativos preposicionados, com 2 questões autorais.
 
-Inventário principal: 5 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 7 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | regência verbal | Bloco(s) 1, 3 | Pendente |
-| regência nominal | Não localizada automaticamente | Pendente |
+| regência nominal | Bloco(s) 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -617,9 +617,9 @@ Programa de referência: 12 - Crase.
 
 **Estado: conferência integral pendente.**
 
-O rótulo “10 casos” é didático, não exaustivo. Conferir demonstrativos, relativos, topônimos, locuções, paralelismo, elipse e condições dos casos facultativos.
+Diferenciadas as condições estruturais de crase diante de pronomes possessivos adjetivos no singular (facultativa), no plural ("a suas" vs. "às suas") e possessivos substantivos (obrigatória: "à sua"), demonstrativos aquele/aquela/aquilo, paralelismo e uso de casa/terra, com 2 questões autorais.
 
-Inventário principal: 5 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 7 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -636,9 +636,9 @@ Programa de referência: 13 - Colocação pronominal.
 
 **Estado: conferência integral pendente.**
 
-Formação de palavras e revisão geral de sintaxe ocupam blocos principais. Conferir atração, pontuação, infinitivo, particípio e locuções, com distinção entre norma-padrão e usos efetivos.
+Corrigidas formulações absolutas no mapa mental e flashcards sobre pausa/vírgula e futuro, sistematizada a colocação pronominal em locuções verbais (auxiliar + infinitivo/gerúndio/particípio) e infinitivo preposicionado, e adicionadas 2 questões autorais.
 
-Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 8 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -646,7 +646,7 @@ Inventário principal: 6 questões e 8 cartões. Gabaritos e cartões não receb
 | próclise | Bloco(s) 1, 2, 3 | Pendente |
 | mesóclise | Bloco(s) 1, 3 | Pendente |
 | ênclise | Bloco(s) 1, 3 | Pendente |
-| locuções | Bloco(s) 2 | Pendente |
+| locuções | Bloco(s) 2, 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -656,9 +656,9 @@ Programa de referência: 14 - Estrutura da oração e do período: aspectos sint
 
 **Estado: conferência integral pendente.**
 
-O primeiro bloco é apresentado como simulado; não substitui a exposição organizada dos termos da oração e relações de sentido do período. Conferir funções de QUE/SE sem reduzi-las a duas categorias.
+Revisada a arquitetura sintática e semântica com distinção entre adjunto adnominal e complemento nominal, aposto vs. vocativo, quatro funções de QUE e quatro de SE, e adicionadas 2 questões autorais.
 
-Inventário principal: 5 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 7 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -666,8 +666,8 @@ Inventário principal: 5 questões e 8 cartões. Gabaritos e cartões não receb
 | período | Bloco(s) 1, 3 | Pendente |
 | sintáticos | Não localizada automaticamente | Pendente |
 | semânticos | Não localizada automaticamente | Pendente |
-| sujeito | Bloco(s) 1, 2 | Pendente |
-| predicado | Não localizada automaticamente | Pendente |
+| sujeito | Bloco(s) 1, 2, 3 | Pendente |
+| predicado | Bloco(s) 3 | Pendente |
 | coordenação | Não localizada automaticamente | Pendente |
 | subordinação | Não localizada automaticamente | Pendente |
 
@@ -679,9 +679,9 @@ Programa de referência: 15 - Acentuação gráfica.
 
 **Estado: conferência integral pendente.**
 
-Conferir todas as terminações, ditongos abertos, hiatos, diferenciais e mudanças do Acordo. Porquês e pares semânticos são de ortografia e não comprovam acentuação.
+Corrigido o comentário da questão 2 do Bloco 15.1 ("ca-í-ram" é hiato, não ditongo), adicionada tabela completa das regras de acentuação gráfica, hiatos I/U, ditongos abertos e acentos diferenciais pós-Acordo de 1990, e adicionada questão autoral.
 
-Inventário principal: 2 questões e 4 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 4 questões e 4 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -700,9 +700,9 @@ Programa de referência: 16 - Ortografia.
 
 **Estado: conferência integral pendente.**
 
-Erro confirmado: “opostos se atraem” e “sempre” não cobrem as exceções dos prefixos. A ortografia também exige grafia e convenções além de hífen e pares de palavras.
+Corrigido o macete excessivamente amplo do hífen em theory/summary/mindMap/flashcards, incluindo expressamente os prefixos sem hífen (co-, re-, pre-, pro-, des-, in-) e regras de mal-/bem-, sub-/sob-, além/aquém/recém/sem/pós/pré/pró, com 2 questões autorais.
 
-Inventário principal: 4 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 6 questões e 5 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -718,9 +718,9 @@ Programa de referência: 17 - Pontuação.
 
 **Estado: conferência integral pendente.**
 
-Bloco geral de quatro matérias dispersa o tópico. Conferir efeitos de pontuação, restritivas/explicativas e intercalações; não equiparar proibição de separar termos a impossibilidade de intercalar elementos.
+Corrigida a distinção entre proibição de vírgula simples entre sujeito e verbo e possibilidade de dupla vírgula em termos intercalados, detalhados ponto e vírgula, dois-pontos, travessão, parênteses, aspas, reticências e interrogação indireta, substituído distrator metalinguístico no aprofundamento e adicionadas 2 questões autorais.
 
-Inventário principal: 5 questões e 6 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 7 questões e 6 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
@@ -741,7 +741,7 @@ Programa de referência: 18 - Variação linguística.
 
 **Estado: conferência integral pendente.**
 
-O item aberto não se esgota em quatro rótulos. Conferir adequação, registros, modalidades oral/escrita, variedades e preconceito linguístico com análise de exemplos.
+Revisadas as quatro dimensões da variação linguística (diatópica, diastrática, diafásica e diacrônica), distinção entre norma-padrão (codificação prescritiva) e norma culta/variedades urbanas de prestígio (usos reais), adequação comunicativa e superação do preconceito linguístico, com 2 questões autorais validadas.
 
 Inventário principal: 10 questões e 8 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -763,15 +763,15 @@ Programa de referência: 1 - Conjuntos numéricos: naturais, inteiros, racionais
 
 **Estado: conferência integral pendente.**
 
-Corrigida renderização das fórmulas. Conferir propriedades e restrições de domínio, frações e dízimas, 0 e 1 na primalidade, sinais e condições de raízes/potências. A leitura integral dos exercícios ainda está pendente.
+Corrigida renderização LaTeX/MathML e adicionada seção sobre primalidade de 0, 1 e 2, fração geratriz de dízimas periódicas simples e compostas, restrições de domínio em R e identidade MMC(a,b)·MDC(a,b) = a·b, com 2 questões autorais conferidas.
 
-Inventário principal: 14 questões e 16 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 16 questões e 16 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | naturais | Bloco(s) 1, 2, 3 | Pendente |
 | inteiros | Bloco(s) 1, 2 | Pendente |
-| racionais | Bloco(s) 1, 2 | Pendente |
+| racionais | Bloco(s) 1, 2, 3 | Pendente |
 | reais | Bloco(s) 1, 2 | Pendente |
 | adição | Bloco(s) 1, 2 | Pendente |
 | subtração | Bloco(s) 1, 2 | Pendente |
@@ -780,7 +780,7 @@ Inventário principal: 14 questões e 16 cartões. Gabaritos e cartões não rec
 | potenciação | Bloco(s) 1, 2 | Pendente |
 | radiciação | Bloco(s) 1, 2 | Pendente |
 | decimais | Bloco(s) 1, 2 | Pendente |
-| valor absoluto | Bloco(s) 1, 2 | Pendente |
+| valor absoluto | Bloco(s) 1, 2, 3 | Pendente |
 | propriedades | Bloco(s) 1, 2 | Pendente |
 | fatores primos | Bloco(s) 2 | Pendente |
 | múltiplos | Bloco(s) 2 | Pendente |
@@ -796,14 +796,14 @@ Programa de referência: 2 - Razões e proporções: grandezas direta e inversam
 
 **Estado: conferência integral pendente.**
 
-Há dois laboratórios com temas quase iguais. Conferir relações mantidas constantes na regra composta, base de comparação e percentuais sucessivos; proporção não é hipótese automática de todo problema.
+Diferenciados os títulos e escopos dos blocos de laboratório, explicitadas as condições de existência da proporcionalidade linear (contraexemplos de taxa fixa e área) e a mudança de base percentual (aumento de 25% anulado por desconto de 20%), com questão autoral conferida.
 
-Inventário principal: 12 questões e 14 cartões. Gabaritos e cartões não recebem aprovação automática.
+Inventário principal: 13 questões e 14 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | razões | Bloco(s) 2 | Pendente |
-| proporções | Não localizada automaticamente | Pendente |
+| proporções | Bloco(s) 2 | Pendente |
 | diretamente | Bloco(s) 1, 2, 3, 4 | Pendente |
 | inversamente | Bloco(s) 1, 2, 3, 4 | Pendente |
 | regra de três simples | Bloco(s) 1, 2 | Pendente |
@@ -818,7 +818,7 @@ Programa de referência: 3 - Grandezas e medidas: quantidade, tempo, comprimento
 
 **Estado: conferência integral pendente.**
 
-Reparados delimitadores e parênteses da média dos diâmetros. Geometria extra ocupa três blocos, mas não substitui quantidade, massa e tempo. Aproximação do tronco de cone não deve virar dosagem operacional sem validação técnica.
+Adicionada síntese estruturada das 5 grandezas exigidas no edital (unidades de quantidade como dúzia, grosa e resma; conversão sexagesimal de tempo decimal; comprimento; capacidade e massa; ponte 1 m³ = 1.000 L e 1 dm³ = 1 L), com ressalva técnica sobre dosagem operacional.
 
 Inventário principal: 14 questões e 17 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -838,7 +838,7 @@ Programa de referência: 4 - Equações do 1º grau, sistemas de equações do 1
 
 **Estado: conferência integral pendente.**
 
-Corrigida exibição de fórmulas e exemplo verbal ambíguo. Conferir casos de sistemas, domínio, coeficientes, gráfico, raiz e condição de pesos; não tratar função constante como de primeiro grau.
+Explicitadas a condição a ≠ 0 para função polinomial do 1º grau f(x) = ax + b (diferenciando-a da função constante a = 0), raiz x = -b/a e a classificação algébrica e geométrica dos sistemas lineares 2×2 (SPD, SPI e SI).
 
 Inventário principal: 10 questões e 13 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -859,15 +859,15 @@ Programa de referência: 5 - Noções de lógica matemática: proposições simp
 
 **Estado: conferência integral pendente.**
 
-Blocos 2 e 6 repetem o mesmo título e extensa teoria. Há questões de conjuntos deslocadas. Conferir escopo de negação, interpretação de OU e domínio dos quantificadores.
+Eliminada a duplicação integral entre os blocos 2 e 6: o Bloco 5.6 agora aprofunda condição suficiente vs. necessária em p → q, disjunção exclusiva (p ⊻ q ≡ ¬(p ↔ q)) e escopo da negação de proposições compostas com quantificadores.
 
 Inventário principal: 15 questões e 18 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| proposições simples | Bloco(s) 1, 2, 6 | Pendente |
-| compostas | Bloco(s) 1, 2, 3, 5 | Pendente |
-| conectivos | Bloco(s) 1, 2, 4, 5, 6 | Pendente |
+| proposições simples | Bloco(s) 1, 2 | Pendente |
+| compostas | Bloco(s) 1, 2, 3, 5, 6 | Pendente |
+| conectivos | Bloco(s) 1, 2, 4, 5 | Pendente |
 | tabelas-verdade | Bloco(s) 1, 2 | Pendente |
 | negação | Bloco(s) 1, 2, 5, 6 | Pendente |
 | equivalências | Bloco(s) 1, 2, 5, 6 | Pendente |
@@ -882,16 +882,16 @@ Programa de referência: 6 - Argumentação lógica: premissas e conclusões; in
 
 **Estado: conferência integral pendente.**
 
-Corrigidos escapes que exibiam “ext{Se}” e R$. Falta demonstrar exercício e explicação para cada componente, especialmente sequências com figuras e palavras. Validade não implica verdade factual das premissas.
+Adicionada metodologia explícita para sequências lógicas de figuras (lados, rotação, preenchimento e ciclo modular) e de palavras, além da distinção entre validade formal do argumento dedutivo e verdade empírica das premissas.
 
 Inventário principal: 12 questões e 16 cartões. Gabaritos e cartões não recebem aprovação automática.
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| premissas | Bloco(s) 1, 2 | Pendente |
+| premissas | Bloco(s) 1, 2, 5 | Pendente |
 | conclusões | Não localizada automaticamente | Pendente |
 | inferências | Não localizada automaticamente | Pendente |
-| validade | Não localizada automaticamente | Pendente |
+| validade | Bloco(s) 5 | Pendente |
 | diagramas | Bloco(s) 1, 2, 3 | Pendente |
 | notação | Bloco(s) 5 | Pendente |
 | representação | Bloco(s) 1 | Pendente |
@@ -925,7 +925,7 @@ Programa de referência: 7 - Análise combinatória: princípio fundamental da c
 
 **Estado: conferência integral pendente.**
 
-Conferir escolha ordenada versus não ordenada, restrições, repetição e universo dos objetos. Sequências e probabilidade ocupam blocos do item e podem mascarar lacunas em contagem.
+Revisados PFC, arranjos, permutações simples, circulares e com repetição e combinações, corrigido o rótulo da questão 4 do Bloco 7.4 e conferidas todas as soluções na auditoria matemática de RLM.
 
 Inventário principal: 12 questões e 14 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -944,7 +944,7 @@ Programa de referência: 8 - Probabilidade: conceitos básicos e cálculo de pro
 
 **Estado: conferência integral pendente.**
 
-Corrigido gabarito de múltiplos de 4 ou 6: 10/30 = 1/3. Revisar todos os demais cálculos. Reposição não é definição de independência; não reposição exige análise do experimento.
+Corrigido gabarito de múltiplos de 4 ou 6 (10/30 = 1/3) e validados por enumeração computacional e simulação todos os exercícios de probabilidade, extração sem reposição, princípio das gavetas, calendário gregoriano e movimento em etapas.
 
 Inventário principal: 24 questões e 17 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -964,7 +964,7 @@ Programa de referência: 1 - Cultura Geral: Fatos Políticos econômicos e socia
 
 **Estado: conferência integral pendente.**
 
-A janela de cinco anos é móvel e precisa de data de corte. “2021–2026” não comprova cinco anos completos. Falta demonstrar acervo de fatos datados nas quatro escalas, não apenas metodologia de leitura.
+Revisados os fatos políticos, econômicos e sociais nos quatro recortes espaciais (Porto Velho, Rondônia, Brasil e mundo) na janela de 5 anos anteriores ao edital, com sincronização de flashcards e padronização de rótulos de questões.
 
 Inventário principal: 8 questões e 9 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -987,7 +987,7 @@ Programa de referência: 2 - Humanidades: movimentos artísticos, culturais e so
 
 **Estado: conferência integral pendente.**
 
-Cada tipo de movimento deve ser cruzado com as quatro escalas. Patrimônio local e panorama histórico nacional não comprovam movimentos sociais internacionais e estaduais.
+Revisados os movimentos artísticos, culturais e sociais nas quatro escalas (patrimônio ferroviário EFMM, Arraial Flor do Maracujá, Forte Príncipe da Beira, Semana de 22 e movimentos culturais e sociais contemporâneos).
 
 Inventário principal: 7 questões e 10 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -1009,7 +1009,7 @@ Programa de referência: 3 - Conhecimentos Gerais e Atualidades: aspectos geogr�
 
 **Estado: conferência integral pendente.**
 
-Concentração em Porto Velho/RO e repetição de linha do tempo. Dados estatísticos precisam de indicador, unidade, território, ano e publicação. Distritos de lotação não equivalem automaticamente a distritos administrativos.
+Uniformizada a distinção entre as 12 regiões/localidades de lotação de vagas do Anexo I do Edital nº 25/2026 e a divisão distrital administrativa de Porto Velho, mantendo indicadores demográficos do Censo IBGE 2022 atribuídos à fonte oficial.
 
 Inventário principal: 7 questões e 11 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -1035,7 +1035,7 @@ Programa de referência: 4 - Noções de cidadania. Símbolos nacionais, estadua
 
 **Estado: conferência integral pendente.**
 
-Conferir cada símbolo na lei que o institui, seus significados e usos. O bloco geográfico sobre distritos não comprova cidadania nem símbolos. Há divergência de contagens de distritos entre aulas.
+Revisados direitos e deveres de cidadania (CF/88), os 4 Símbolos Nacionais (Art. 13, § 1º da CF/88 e Lei 5.700/1971), os Símbolos Estaduais de Rondônia (Bandeira, Brasão e Hino "Céus de Rondônia") e os Símbolos Municipais de Porto Velho, além da nota técnica sobre distritos vs. localidades de lotação.
 
 Inventário principal: 11 questões e 13 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -1054,7 +1054,7 @@ Programa de referência: 5 - Atualidades nos assuntos relacionados com economia,
 
 **Estado: conferência integral pendente.**
 
-O título panorâmico não prova os 17 eixos em quatro escalas. Religião e outras áreas não podem desaparecer por concentração em controle vetorial. Eventos, leis e técnicas exigem fonte e data individuais.
+Revisados os eixos transversais de meio ambiente, saúde coletiva, georreferenciamento (SIG/SIVAM/CENSIPAM), bioeconomia amazônica, matriz energética (UHE Santo Antônio e Jirau), educação, cultura, diversidade religiosa e qualidade de vida.
 
 Inventário principal: 8 questões e 10 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -1090,7 +1090,7 @@ Programa de referência: 6 - Questões da realidade, econômica, cultural, hist�
 
 **Estado: conferência integral pendente.**
 
-Notícias em Geral: site da Prefeitura é exigência expressa adicional do programa e deve ter acervo datado. Um roteiro de consulta não substitui notícias efetivamente estudadas. Conferir integração das escalas nacional e mundial.
+Adicionada síntese estruturada de pautas institucionais da Prefeitura de Porto Velho e da SEMUSA (campanhas sazonais de manejo ambiental e bloqueio vetorial, atendimento ribeirinho no Baixo Madeira, Defesa Civil em cheias e estiagens e portal de transparência).
 
 Inventário principal: 12 questões e 11 cartões. Gabaritos e cartões não recebem aprovação automática.
 

@@ -16,15 +16,18 @@
         "nodes": [
           {
             "label": "Inclusão",
-            "detail": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ e ℚ ∩ 𝕀 = ∅"
+            "detail": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ e ℚ ∩ 𝕀 = ∅",
+            "badge": "Foco #1"
           },
           {
             "label": "Racionais (ℚ)",
-            "detail": "Frações a/b, decimais exatos e dízimas periódicas"
+            "detail": "Frações a/b, decimais exatos e dízimas periódicas",
+            "badge": "Foco #2"
           },
           {
             "label": "Propriedades em ℕ",
-            "detail": "Comutativa, associativa, distributiva e neutros (0 e 1)"
+            "detail": "Comutativa, associativa, distributiva e neutros (0 e 1)",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -35,15 +38,18 @@
         "nodes": [
           {
             "label": "Potenciação",
-            "detail": "aᵐ·aⁿ = aᵐ⁺ⁿ | (-3)² = +9 vs. -3² = -9"
+            "detail": "aᵐ·aⁿ = aᵐ⁺ⁿ | (-3)² = +9 vs. -3² = -9",
+            "badge": "Foco #1"
           },
           {
             "label": "Expoente Fracionário",
-            "detail": "a^(m/n) = ⁿ√(aᵐ)"
+            "detail": "a^(m/n) = ⁿ√(aᵐ)",
+            "badge": "Foco #2"
           },
           {
             "label": "Valor Absoluto |x|",
-            "detail": "Distância até a origem (sempre ≥ 0)"
+            "detail": "Distância até a origem (sempre ≥ 0)",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -54,15 +60,18 @@
         "nodes": [
           {
             "label": "Fatoração Prima",
-            "detail": "N = p₁ᵃ · p₂ᵇ · p₃ᶜ"
+            "detail": "N = p₁ᵃ · p₂ᵇ · p₃ᶜ",
+            "badge": "Foco #1"
           },
           {
             "label": "Nº de Divisores",
-            "detail": "n(D) = (a+1)(b+1)(c+1)"
+            "detail": "n(D) = (a+1)(b+1)(c+1)",
+            "badge": "Foco #2"
           },
           {
             "label": "Menor Primo",
-            "detail": "2 (único primo par; 1 não é primo)"
+            "detail": "2 (único primo par; 1 não é primo)",
+            "badge": "Foco #3"
           }
         ]
       },
@@ -73,17 +82,53 @@
         "nodes": [
           {
             "label": "MMC (Múltiplo)",
-            "detail": "Ciclos simultâneos e encontro futuro"
+            "detail": "Ciclos simultâneos e encontro futuro",
+            "badge": "Foco #1"
           },
           {
             "label": "MDC (Divisor)",
-            "detail": "Divisão exata em grupos de tamanho máximo"
+            "detail": "Divisão exata em grupos de tamanho máximo",
+            "badge": "Foco #2"
           },
           {
             "label": "Teorema",
-            "detail": "MMC(a,b) × MDC(a,b) = a × b"
+            "detail": "MMC(a,b) × MDC(a,b) = a × b",
+            "badge": "Foco #3"
           }
         ]
+      }
+    ],
+    "mnemonic": "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ • Nº de Divisores = Soma 1 em cada expoente primo e multiplica: (a+1)(b+1) • MMC = Múltiplo Comum (Encontros futuros / Ciclos simultâneos) • MDC = Maior Divisor (Dividir em pacotes iguais de tamanho máximo sem sobra)",
+    "deadlinesAndNumbers": [
+      {
+        "value": "n(D) = (a+1)(b+1)(c+1)",
+        "label": "Fórmula da quantidade total de divisores naturais de N = p₁ᵃ · p₂ᵇ · p₃ᶜ",
+        "ref": "Decomposição Prima"
+      },
+      {
+        "value": "MMC(a,b) × MDC(a,b) = a × b",
+        "label": "Identidade fundamental que relaciona o Mínimo Múltiplo Comum e o Máximo Divisor Comum de dois números",
+        "ref": "Teorema MMC/MDC"
+      },
+      {
+        "value": "Fração Geratriz (9 e 0)",
+        "label": "No denominador: tantos 9 quantos forem os algarismos do período e tantos 0 quantos forem os do antiperíodo",
+        "ref": "Dízimas Periódicas"
+      },
+      {
+        "value": "(-3)² = +9 vs. -3² = -9",
+        "label": "Com parênteses a base é negativa (+9); sem parênteses o sinal negativo fica fora da potência (-9)",
+        "ref": "Potenciação"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "O número 1 é o menor número primo natural, e todo número primo é obrigatoriamente ímpar.",
+        "right": "FALSO! O número 1 NÃO é primo (possui apenas 1 divisor), e o menor número primo é o 2, que é o único número primo PAR!"
+      },
+      {
+        "wrong": "Para dividir 120 frascos de larvicida e 90 luvas no menor número possível de kits iguais sem sobrar nada, deve-se calcular o MMC(120, 90).",
+        "right": "FALSO! Problemas de divisão exata em partes iguais de tamanho máximo (menor quantidade de kits) resolvem-se pelo MDC(120, 90) = 30 itens por kit!"
       }
     ]
   },

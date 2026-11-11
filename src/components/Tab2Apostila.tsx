@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useApp } from '../context/AppContext';
-import { getStatusMeta, getCatBadgeClass } from '../utils/status';
+import { questionIdentity } from '../utils/questionIdentity';
 import { LessonMindMapView } from './LessonMindMapView';
 import { buildVFChallenges, matchesLessonBlockFilter } from '../services/lessonService';
 import { StatusSelector } from '../features/progress/StatusSelector';
@@ -9,6 +9,8 @@ import { DidacticToolbar } from '../features/lessons/DidacticToolbar';
 import { PautaLocator } from '../features/lessons/PautaLocator';
 import { VFTrainerSection } from '../features/lessons/VFTrainerSection';
 import { LessonBlockItem } from '../features/lessons/LessonBlockItem';
+import { QuestionCard } from '../features/questions/QuestionCard';
+import { FlashcardGrid } from '../features/flashcards/FlashcardGrid';
 
 export const Tab2Apostila: React.FC = () => {
   const {
@@ -17,19 +19,20 @@ export const Tab2Apostila: React.FC = () => {
     setCurrentLessonId,
     getTopicStatus,
     updateTopicStatus,
+    isSubtopicCompleted,
+    toggleSubtopicComplete,
     currentStudyMode,
     setCurrentStudyMode,
     setCurrentTab,
     lessonAnswers,
     setLessonAnswers,
     showToast,
+    globalSearchTarget,
   } = useApp();
 
   const [searchTerm, setSearchTerm] = useState('');
   const [catFilter, setCatFilter] = useState<string>('ALL');
   const [statusFilter, setStatusFilter] = useState<string>('ALL');
-  const [openBlocks, setOpenBlocks] = useState<Record<number, boolean>>({ 0: true, 1: true });
-  const [blockModes, setBlockModes] = useState<Record<number, 'ALL' | 'A' | 'B' | 'C'>>({});
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
   const [lessonSearchTerm, setLessonSearchTerm] = useState('');
   const [blockTypeFilter, setBlockTypeFilter] = useState<'ALL' | 'THEORY' | 'QUIZ' | 'FLASHCARDS'>('ALL');
@@ -72,34 +75,35 @@ export const Tab2Apostila: React.FC = () => {
 
   useEffect(() => {
     if (!activeLesson) return;
-    const allOpen: Record<number, boolean> = {};
-    (activeLesson.blocks || []).forEach((_, idx) => {
-      allOpen[idx] = true;
-    });
-    setOpenBlocks(allOpen);
+    if (
+      globalSearchTarget &&
+      globalSearchTarget.type === 'aula' &&
+      globalSearchTarget.lessonId === activeLesson.id &&
+      Date.now() - globalSearchTarget.timestamp < 5000
+    ) {
+      setLessonSearchTerm(globalSearchTarget.query);
+      setBlockTypeFilter('ALL');
+      setRevealedClozeIds(new Set());
+      const targetBlockIdx = globalSearchTarget.blockIdx ?? 0;
+      setTimeout(() => {
+        const el = document.getElementById(`lesson-block-${targetBlockIdx}`);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+      return;
+    }
     setLessonSearchTerm('');
     setBlockTypeFilter('ALL');
     setRevealedClozeIds(new Set());
-  }, [activeLesson?.id]);
+  }, [activeLesson?.id, globalSearchTarget]);
 
   const handleSelectLesson = useCallback(
     (id: string) => {
       setCurrentLessonId(id);
-      const allOpen: Record<number, boolean> = {};
-      const targetLesson = lessons.find((l) => l.id === id);
-      if (targetLesson) {
-        (targetLesson.blocks || []).forEach((_, idx) => {
-          allOpen[idx] = true;
-        });
-      } else {
-        allOpen[0] = true;
-        allOpen[1] = true;
-      }
-      setOpenBlocks(allOpen);
-      setBlockModes({});
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    [lessons, setCurrentLessonId]
+    [setCurrentLessonId]
   );
 
   const jumpToLessonAndBlock = useCallback(
@@ -108,7 +112,9 @@ export const Tab2Apostila: React.FC = () => {
       setStatusFilter('ALL');
       setSearchTerm('');
       setCurrentLessonId(lessonId);
-      setOpenBlocks((prev) => ({ ...prev, [blockIdx]: true }));
+      if (currentStudyMode === 'MAPA' || currentStudyMode === 'C') {
+        setCurrentStudyMode('ALL');
+      }
       setTimeout(() => {
         const el = document.getElementById(`lesson-block-${blockIdx}`);
         if (el) {
@@ -118,7 +124,7 @@ export const Tab2Apostila: React.FC = () => {
         }
       }, 80);
     },
-    [setCurrentLessonId]
+    [setCurrentLessonId, currentStudyMode, setCurrentStudyMode]
   );
 
   const handleContentContainerClick = useCallback(
@@ -195,9 +201,34 @@ export const Tab2Apostila: React.FC = () => {
       .filter(({ block }) => matchesLessonBlockFilter(block, blockTypeFilter, lessonSearchTerm));
   }, [activeLesson, blockTypeFilter, lessonSearchTerm]);
 
+  const consolidatedQuestions = useMemo(() => {
+    const items: Array<{ q: NonNullable<typeof visibleBlocks[number]['block']['questions']>[number]; bIdx: number; qIdx: number; blockTitle: string }> = [];
+    for (const { block, index: bIdx } of visibleBlocks) {
+      (block.questions || []).forEach((q, qIdx) => {
+        items.push({ q, bIdx, qIdx, blockTitle: block.title });
+      });
+    }
+    return items;
+  }, [visibleBlocks]);
+
+  const consolidatedFlashcards = useMemo(() => {
+    const groups: Array<{ flashcards: NonNullable<typeof visibleBlocks[number]['block']['flashcards']>; bIdx: number; blockTitle: string }> = [];
+    for (const { block, index: bIdx } of visibleBlocks) {
+      if (block.flashcards && block.flashcards.length > 0) {
+        groups.push({ flashcards: block.flashcards, bIdx, blockTitle: block.title });
+      }
+    }
+    return groups;
+  }, [visibleBlocks]);
+
+  const totalFlashcardCount = useMemo(
+    () => consolidatedFlashcards.reduce((acc, g) => acc + g.flashcards.length, 0),
+    [consolidatedFlashcards]
+  );
+
   if (!activeLesson) {
     return (
-      <div className="p-8 text-center text-slate-600 bg-white rounded-2xl border border-slate-200">
+      <div className="p-6 text-center text-slate-600 bg-white rounded-xl border border-slate-200">
         Carregando aulas da apostila...
       </div>
     );
@@ -213,15 +244,28 @@ export const Tab2Apostila: React.FC = () => {
     ? activeLesson.sources
     : activeLesson.sources?.value || [];
 
+  const showContinuousTheory =
+    currentStudyMode !== 'MAPA' &&
+    currentStudyMode !== 'C' &&
+    blockTypeFilter !== 'QUIZ' &&
+    blockTypeFilter !== 'FLASHCARDS';
+
+  const showConsolidatedPractice =
+    currentStudyMode !== 'MAPA' &&
+    (currentStudyMode === 'ALL' ||
+      currentStudyMode === 'C' ||
+      blockTypeFilter === 'QUIZ' ||
+      blockTypeFilter === 'FLASHCARDS');
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-2.5 sm:space-y-3.5">
       {/* Top Pauta Oficial Locator */}
       <PautaLocator
         activeLessonId={activeLesson.id}
         onJumpToLessonBlock={jumpToLessonAndBlock}
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-5 items-start">
         {/* Sidebar */}
         <LessonSidebar
           lessons={lessons}
@@ -239,45 +283,39 @@ export const Tab2Apostila: React.FC = () => {
 
         {/* Main Content Viewer */}
         <div
-          className="lg:col-span-9 space-y-5"
+          className="lg:col-span-9 space-y-3 sm:space-y-4 min-w-0"
           onClick={handleContentContainerClick}
         >
-          {/* Lesson Header Banner */}
-          <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-4">
-            <div className="flex flex-wrap items-start justify-between gap-3">
-              <div className="space-y-1.5">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span
-                    className={`px-2.5 py-0.5 rounded-full text-xs font-extrabold uppercase ${getCatBadgeClass(
-                      activeLesson.cat
-                    )}`}
-                  >
-                    Aula {String(activeLesson.num).padStart(2, '0')} &bull; {activeLesson.catName}
+          {/* Compact Lesson Header Banner */}
+          <div className="bg-white rounded-xl border border-slate-200 p-3.5 sm:p-4 shadow-xs space-y-3">
+            <div className="flex flex-wrap items-start justify-between gap-2.5">
+              <div className="space-y-1 min-w-0 flex-1">
+                <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-600 font-semibold">
+                  <span className="font-extrabold text-teal-800">
+                    Aula {String(activeLesson.num).padStart(2, '0')} &middot; {activeLesson.catName}
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-300">
-                    {activeLesson.weight}
-                  </span>
-                  <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
-                    🛡️ {activeLesson.auditBadge}
-                  </span>
+                  <span aria-hidden="true">&middot;</span>
+                  <span>{activeLesson.weight}</span>
+                  {sourcesArray.length > 0 && (
+                    <>
+                      <span aria-hidden="true">&middot;</span>
+                      <span className="text-slate-500">
+                        Fontes: {sourcesArray.map((n) => `#${n}`).join(', ')}
+                      </span>
+                    </>
+                  )}
                 </div>
-                <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 leading-tight">
+                <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 leading-snug">
                   {activeLesson.title}
                 </h2>
-                <p className="text-xs sm:text-sm text-slate-600">
-                  <strong>Tópico do Edital (Anexo IV):</strong> {activeLesson.editalRef}
+                <p className="text-xs text-slate-600 leading-normal">
+                  <strong>Edital (Anexo IV):</strong> {activeLesson.editalRef}
                 </p>
-                {sourcesArray.length > 0 && (
-                  <p className="text-xs text-slate-500">
-                    <strong>Fontes Documentais:</strong>{' '}
-                    {sourcesArray.map((n) => `#${n}`).join(', ')}
-                  </p>
-                )}
               </div>
 
-              <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-200 no-print">
-                <span className="block text-[10px] font-extrabold uppercase tracking-wider text-slate-500 mb-1.5">
-                  Status desta Aula:
+              <div className="bg-slate-50 px-2.5 py-2 rounded-lg border border-slate-200 no-print w-full sm:w-auto max-w-full">
+                <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">
+                  Status da Aula:
                 </span>
                 <StatusSelector
                   currentStatus={currentStatus}
@@ -300,14 +338,6 @@ export const Tab2Apostila: React.FC = () => {
               onToggleClozeMode={() => setClozeMode((prev) => !prev)}
               revealedClozeCount={revealedClozeIds.size}
               onResetRevealedCloze={() => setRevealedClozeIds(new Set())}
-              onExpandAll={() => {
-                const all: Record<number, boolean> = {};
-                (activeLesson.blocks || []).forEach((_, idx) => {
-                  all[idx] = true;
-                });
-                setOpenBlocks(all);
-              }}
-              onCollapseAll={() => setOpenBlocks({})}
               showVFTrainer={showVFTrainer}
               onToggleVFTrainer={() => setShowVFTrainer((v) => !v)}
               vfCount={vfChallenges.length}
@@ -332,13 +362,13 @@ export const Tab2Apostila: React.FC = () => {
               />
             )}
 
-          {/* Lesson Content Blocks */}
+          {/* Continuous Integral Text Apostila Sheet */}
           {currentStudyMode !== 'MAPA' && (
-            <div className="space-y-4">
+            <>
               {visibleBlocks.length === 0 ? (
-                <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
+                <div className="bg-white rounded-xl border border-slate-200 p-6 text-center">
                   <p className="text-slate-600 font-bold text-sm mb-2">
-                    Nenhum bloco corresponde ao filtro atual.
+                    Nenhum conteúdo corresponde ao filtro atual.
                   </p>
                   <button
                     type="button"
@@ -352,51 +382,167 @@ export const Tab2Apostila: React.FC = () => {
                   </button>
                 </div>
               ) : (
-                visibleBlocks.map(({ block, index: bIdx }) => {
-                  const localMode =
-                    blockModes[bIdx] ||
-                    (currentStudyMode === 'ALL' ? 'ALL' : (currentStudyMode as 'A' | 'B' | 'C'));
+                <>
+                  {showContinuousTheory && (
+                    <article className="apostila-sheet">
+                      {/* Compact Continuous Apostila Intro Banner */}
+                      <div className="apostila-intro-banner">
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <span className="font-bold text-[#123b59] text-xs sm:text-sm">
+                            📄 Texto Integral Contínuo &amp; Destaques de Prova ({visibleBlocks.length} seções)
+                          </span>
+                          <span className="text-xs font-bold text-teal-800">
+                            ✅{' '}
+                            {
+                              (activeLesson.blocks || []).filter((_, idx) =>
+                                isSubtopicCompleted(activeLesson.id, idx)
+                              ).length
+                            }
+                            /{activeLesson.blocks?.length || 0} tópicos concluídos nesta aula
+                          </span>
+                        </div>
 
-                  return (
-                    <LessonBlockItem
-                      key={`${activeLesson.id}_block_${bIdx}`}
-                      lessonId={activeLesson.id}
-                      block={block}
-                      blockIndex={bIdx}
-                      isOpen={Boolean(openBlocks[bIdx])}
-                      onToggleOpen={() =>
-                        setOpenBlocks((prev) => ({ ...prev, [bIdx]: !prev[bIdx] }))
-                      }
-                      currentMode={localMode}
-                      onChangeMode={(mode) => {
-                        setOpenBlocks((prev) => ({ ...prev, [bIdx]: true }));
-                        setBlockModes((prev) => ({ ...prev, [bIdx]: mode }));
-                      }}
-                      clozeMode={clozeMode}
-                      revealedClozeIds={revealedClozeIds}
-                      searchTerm={lessonSearchTerm}
-                      lessonAnswers={lessonAnswers}
-                      onSelectAnswer={handleSelectAnswer}
-                      flippedCards={flippedCards}
-                      onToggleFlipCard={handleToggleFlipCard}
-                    />
-                  );
-                })
+                        {/* Quick Section Index inside the continuous sheet */}
+                        {visibleBlocks.length > 1 && (
+                          <div className="mt-2 pt-1.5 border-t border-blue-200/70 flex flex-wrap items-center gap-1 no-print">
+                            <span className="text-[11px] font-bold text-[#123b59] mr-1">
+                              Seções:
+                            </span>
+                            {visibleBlocks.map(({ block, index: bIdx }) => {
+                              const done = isSubtopicCompleted(activeLesson.id, bIdx);
+                              return (
+                                <button
+                                  key={bIdx}
+                                  type="button"
+                                  onClick={() => {
+                                    const el = document.getElementById(`lesson-block-${bIdx}`);
+                                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                  }}
+                                  className={`px-2 py-0.5 rounded border text-[11px] font-semibold transition cursor-pointer ${
+                                    done
+                                      ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border-emerald-300'
+                                      : 'bg-white hover:bg-blue-100 text-[#123b59] border-blue-200'
+                                  }`}
+                                >
+                                  {done ? '✓ ' : ''}
+                                  {bIdx + 1}. {block.title.replace(/^\d+\.\s*/, '').slice(0, 38)}
+                                  {block.title.length > 40 ? '…' : ''}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Continuous Sections Flow */}
+                      <div>
+                        {visibleBlocks.map(({ block, index: bIdx }) => (
+                          <LessonBlockItem
+                            key={`${activeLesson.id}_block_${bIdx}`}
+                            lessonId={activeLesson.id}
+                            block={block}
+                            blockIndex={bIdx}
+                            currentMode={
+                              currentStudyMode === 'ALL'
+                                ? 'ALL'
+                                : (currentStudyMode as 'A' | 'B' | 'C')
+                            }
+                            clozeMode={clozeMode}
+                            revealedClozeIds={revealedClozeIds}
+                            searchTerm={lessonSearchTerm}
+                            isCompleted={isSubtopicCompleted(activeLesson.id, bIdx)}
+                            onToggleComplete={() => toggleSubtopicComplete(activeLesson.id, bIdx)}
+                          />
+                        ))}
+                      </div>
+                    </article>
+                  )}
+
+                  {/* Consolidated Practice Section (Questions & Flashcards at the end of the continuous text) */}
+                  {showConsolidatedPractice &&
+                    (consolidatedQuestions.length > 0 || totalFlashcardCount > 0) && (
+                      <section
+                        id="lesson-fixacao-section"
+                        className="scroll-mt-20 bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4"
+                      >
+                        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
+                          <div>
+                            <span className="text-xs font-extrabold uppercase tracking-wider text-amber-900">
+                              ✍️ Caderno de Fixação Prática da Aula
+                            </span>
+                            <h3 className="text-base sm:text-lg font-extrabold text-slate-900 mt-0.5">
+                              Questões Comentadas ({consolidatedQuestions.length}) &amp; Flashcards ({totalFlashcardCount})
+                            </h3>
+                          </div>
+                          <span className="text-xs text-slate-500">
+                            Fixação ativa após a leitura contínua
+                          </span>
+                        </div>
+
+                        {/* Consolidated Questions */}
+                        {blockTypeFilter !== 'FLASHCARDS' && consolidatedQuestions.length > 0 && (
+                          <div className="space-y-2.5">
+                            {consolidatedQuestions.map(({ q, bIdx, qIdx }, globalIdx) => {
+                              const qKey = questionIdentity(
+                                `${activeLesson.id}_b${bIdx}_q${qIdx}`,
+                                q
+                              );
+                              return (
+                                <QuestionCard
+                                  key={qKey}
+                                  question={q}
+                                  index={globalIdx}
+                                  selectedOption={lessonAnswers[qKey]}
+                                  onSelectOption={(optIdx) => handleSelectAnswer(qKey, optIdx)}
+                                  compact
+                                />
+                              );
+                            })}
+                          </div>
+                        )}
+
+                        {/* Consolidated Flashcards */}
+                        {blockTypeFilter !== 'QUIZ' && totalFlashcardCount > 0 && (
+                          <div className="space-y-3 pt-2 border-t border-slate-200">
+                            <h4 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-700">
+                              🃏 Flashcards de Memorização Ativa ({totalFlashcardCount} cartões — toque para virar)
+                            </h4>
+                            <div className="space-y-3">
+                              {consolidatedFlashcards.map(({ flashcards, bIdx, blockTitle }) => (
+                                <div key={`fc_group_${bIdx}`} className="space-y-1.5">
+                                  <div className="text-xs font-bold text-slate-500">
+                                    Eixo {bIdx + 1}: {blockTitle}
+                                  </div>
+                                  <FlashcardGrid
+                                    flashcards={flashcards}
+                                    flippedCards={flippedCards}
+                                    onToggleFlip={handleToggleFlipCard}
+                                    keyPrefix={`${activeLesson.id}_b${bIdx}_fc`}
+                                    columnsClass="grid-cols-1 sm:grid-cols-2"
+                                  />
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </section>
+                    )}
+                </>
               )}
-            </div>
+            </>
           )}
 
           {/* Bottom Lesson Navigation */}
-          <div className="bg-white rounded-2xl border border-slate-200 p-4 flex flex-wrap items-center justify-between gap-3 shadow-sm no-print">
+          <div className="bg-white rounded-xl border border-slate-200 p-3.5 flex flex-wrap items-center justify-between gap-2.5 shadow-xs no-print">
             <div>
               {prevLesson && (
                 <button
                   type="button"
                   onClick={() => handleSelectLesson(prevLesson.id)}
-                  className="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition cursor-pointer"
+                  className="px-3.5 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold transition cursor-pointer"
                 >
                   ⬅ Aula {String(prevLesson.num).padStart(2, '0')}:{' '}
-                  {prevLesson.title.slice(0, 32)}...
+                  {prevLesson.title.slice(0, 28)}...
                 </button>
               )}
             </div>
@@ -409,7 +555,7 @@ export const Tab2Apostila: React.FC = () => {
                   currentStatus === 'completed' ? 'mastered' : 'completed'
                 )
               }
-              className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold shadow-sm transition cursor-pointer"
+              className="px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold shadow-xs transition cursor-pointer"
             >
               {currentStatus === 'completed'
                 ? '🏆 Marcar Aula como Dominada'
@@ -421,7 +567,7 @@ export const Tab2Apostila: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => handleSelectLesson(nextLesson.id)}
-                  className="px-4 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold transition cursor-pointer"
+                  className="px-3.5 py-2 rounded-lg bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold transition cursor-pointer"
                 >
                   Próxima: Aula {String(nextLesson.num).padStart(2, '0')} ➔
                 </button>

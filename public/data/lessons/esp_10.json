@@ -29,19 +29,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "7 Vírus + 4 Protoz. + 2 Bact. + 1 Helm.",
-        "label": "Divisão exata dos agentes etiológicos das 14 doenças do Edital de ACE"
+        "label": "Divisão exata dos agentes etiológicos das 14 doenças do Edital de ACE",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "5 Propriedades do Agente",
-        "label": "Infectividade, Patogenicidade, Virulência, Poder Invasivo e Imunogenicidade"
+        "label": "Infectividade, Patogenicidade, Virulência, Poder Invasivo e Imunogenicidade",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "Isolamento vs. Quarentena",
-        "label": "Isolamento aplica-se ao DOENTE (1º elo); Quarentena aplica-se ao COMUNICANTE SADIO exposto"
+        "label": "Isolamento aplica-se ao DOENTE (1º elo); Quarentena aplica-se ao COMUNICANTE SADIO exposto",
+        "ref": "Ref. Aula 6"
       },
       {
         "value": "Definitivo vs. Intermediário",
-        "label": "Malária: Definitivo = Anopheles e Intermediário = Homem; Esquistossomose: Definitivo = Homem e Intermediário = Caramujo"
+        "label": "Malária: Definitivo = Anopheles e Intermediário = Homem; Esquistossomose: Definitivo = Homem e Intermediário = Caramujo",
+        "ref": "Ref. Aula 6"
       }
     ],
     "branches": [
@@ -107,6 +111,17 @@
             "badge": "Medidas de Controle"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Propriedades do Agente Etiológico, Regra 7-4-2-1 das 14 Doenças, Reservatórios, Portadores e Hospedeiros (Definitivo vs. Intermediário), Transmissão, Sintomas e Isolamento vs. Quarentena",
+    "goldenTraps": [
+      {
+        "wrong": "Quarentena é a separação de pessoas já comprovadamente doentes, enquanto Isolamento é a restrição aplicada a contatos sadios expostos.",
+        "right": "FALSO! ISOLAMENTO aplica-se a pessoas ou animais JÁ DOENTES/INFECTADOS durante o período de transmissibilidade; QUARENTENA aplica-se a comunicantes SADIOS expostos, pelo prazo máximo de incubação da doença!"
+      },
+      {
+        "wrong": "O vírus da Raiva possui baixa letalidade (inferior a 5%), mas altíssima infectividade pelo ar.",
+        "right": "FALSO! O vírus da Raiva (Lyssavirus) possui LETALIDADE próxima de 100% (uma vez instalados os sintomas clínicos, quase todos os doentes evoluem para óbito) e transmite-se pela saliva em mordeduras/arranhaduras."
       }
     ]
   },

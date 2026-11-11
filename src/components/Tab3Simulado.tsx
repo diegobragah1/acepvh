@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { getCatBadgeClass } from '../utils/status';
 import { renderMathInHtml } from '../utils/math';
@@ -32,7 +32,7 @@ interface FlatFlashcard {
 const QUESTIONS_PER_PAGE = 15;
 
 export const Tab3Simulado: React.FC = () => {
-  const { appData, simAnswers, setSimAnswer, resetSimAnswers } = useApp();
+  const { appData, simAnswers, setSimAnswer, resetSimAnswers, globalSearchTarget } = useApp();
 
   const [subMode, setSubMode] = useState<'QUESTOES' | 'PROVA_OFICIAL' | 'FLASHCARDS'>('QUESTOES');
   const [catFilter, setCatFilter] = useState<string>('ALL');
@@ -43,6 +43,16 @@ export const Tab3Simulado: React.FC = () => {
   const [examSeed, setExamSeed] = useState<number>(1);
   const [examAnswers, setExamAnswers] = useState<Record<string, number>>({});
   const [examSubmitted, setExamSubmitted] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (globalSearchTarget && globalSearchTarget.type === 'questao') {
+      setSubMode('QUESTOES');
+      setCatFilter('ALL');
+      setLessonFilter(globalSearchTarget.lessonId || 'ALL');
+      setSearchTerm(globalSearchTarget.query || '');
+      setPage(1);
+    }
+  }, [globalSearchTarget]);
 
   const lessons = appData?.lessons || [];
 

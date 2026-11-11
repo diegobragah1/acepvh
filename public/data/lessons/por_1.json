@@ -11,59 +11,104 @@
     "branches": [
       {
         "title": "1. Localizar e sintetizar",
+        "icon": "📌",
         "color": "teal",
         "nodes": [
           {
             "label": "Informação e alcance",
-            "detail": "Referente, tempo, quantidade e ressalvas."
+            "detail": "Referente, tempo, quantidade e ressalvas.",
+            "badge": "Foco #1"
           },
           {
             "label": "Ideia principal",
-            "detail": "Síntese global não se reduz a um exemplo."
+            "detail": "Síntese global não se reduz a um exemplo.",
+            "badge": "Foco #2"
           }
         ]
       },
       {
         "title": "2. Relacionar e inferir",
+        "icon": "📌",
         "color": "indigo",
         "nodes": [
           {
             "label": "Inferência",
-            "detail": "Pistas + justificativa; não informado não significa falso."
+            "detail": "Pistas + justificativa; não informado não significa falso.",
+            "badge": "Foco #1"
           },
           {
             "label": "Pressuposto e subentendido",
-            "detail": "Persistência/retomada e contexto; não inventar duração ou certeza."
+            "detail": "Persistência/retomada e contexto; não inventar duração ou certeza.",
+            "badge": "Foco #2"
           }
         ]
       },
       {
         "title": "3. Argumentos e vozes",
+        "icon": "📌",
         "color": "amber",
         "nodes": [
           {
             "label": "Tese e apoio",
-            "detail": "Distinguir tese, argumento, ressalva e opinião citada."
+            "detail": "Distinguir tese, argumento, ressalva e opinião citada.",
+            "badge": "Foco #1"
           },
           {
             "label": "Comparação",
-            "detail": "Convergência, divergência e diferença de enfoque."
+            "detail": "Convergência, divergência e diferença de enfoque.",
+            "badge": "Foco #2"
           }
         ]
       },
       {
         "title": "4. Sentido e revisão",
+        "icon": "📌",
         "color": "emerald",
         "nodes": [
           {
             "label": "Reescrita",
-            "detail": "Conferir gramática e preservação de sentido separadamente."
+            "detail": "Conferir gramática e preservação de sentido separadamente.",
+            "badge": "Foco #1"
           },
           {
             "label": "Integração",
-            "detail": "Aviso/tabela, contexto e efeitos expressivos."
+            "detail": "Aviso/tabela, contexto e efeitos expressivos.",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Compreensão = O que está ESCRITO no texto (\"Segundo o texto...\") • Interpretação = O que se DEDUZ além do texto (\"Depreende-se/Infere-se...\") • 4 Vilões IBGP = Extrapolação, Redução, Contradição e Inversão",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Compreensão ≠ Interpretação",
+        "label": "Compreensão: coleta literal na superfície do texto; Interpretação: inferência lógica autorizada pelas pistas textuais",
+        "ref": "Comando da Questão"
+      },
+      {
+        "value": "Pressuposto vs. Subentendido",
+        "label": "Pressuposto: marcado por gatilho linguístico (\"parou de\", \"ainda\", \"tornou a\"); Subentendido: insinuação pragmática do leitor",
+        "ref": "Implícitos"
+      },
+      {
+        "value": "6 Funções da Linguagem",
+        "label": "Referencial (informar), Emotiva (eu), Conativa (você/imperativo), Fática (canal), Metalinguística (código) e Poética (forma)",
+        "ref": "Jakobson"
+      },
+      {
+        "value": "4 Distratores Clássicos",
+        "label": "Extrapolação (viajar além), Redução (generalizar parte), Contradição (dizer o oposto) e Inversão de causa/consequência",
+        "ref": "Banca IBGP"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Na frase \"O município voltou a registrar queda nos casos de malária\", é apenas uma suposição subjetiva do leitor achar que antes já havia ocorrido queda.",
+        "right": "FALSO! A locução verbal \"voltou a\" funciona como gatilho linguístico de PRESSUPOSTO, tornando indiscutível e linguisticamente comprovado que houve queda anteriormente."
+      },
+      {
+        "wrong": "Se uma alternativa traz uma afirmação verdadeira no mundo real sobre saúde pública, ela deve ser marcada mesmo que o texto da prova não trate desse ponto.",
+        "right": "FALSO! Isso é a armadilha da EXTRAPOLAÇÃO. Em interpretação de texto, só é verdadeiro aquilo que o texto-base sustenta direta ou inferencialmente."
       }
     ]
   },

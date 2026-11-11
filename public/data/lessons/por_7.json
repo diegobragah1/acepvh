@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Anáfora (Retomada)",
-            "detail": "Retoma termo anterior (pronomes, esse/isso)"
+            "detail": "Retoma termo anterior (pronomes, esse/isso)",
+            "badge": "Foco #1"
           },
           {
             "label": "Catáfora (Antecipação)",
-            "detail": "Anuncia termo posterior (este/isto)"
+            "detail": "Anuncia termo posterior (este/isto)",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Substituição Lexical",
-            "detail": "Sinônimos, hiperônimos, hipônimos e epítetos"
+            "detail": "Sinônimos, hiperônimos, hipônimos e epítetos",
+            "badge": "Foco #1"
           },
           {
             "label": "Coesão por Elipse",
-            "detail": "Omissão estratégica que evita repetição viciosa"
+            "detail": "Omissão estratégica que evita repetição viciosa",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Conectivos Coordenativos",
-            "detail": "Aditivos, adversativos, alternativos, conclusivos, explicativos"
+            "detail": "Aditivos, adversativos, alternativos, conclusivos, explicativos",
+            "badge": "Foco #1"
           },
           {
             "label": "Conectivos Subordinativos",
-            "detail": "Causais, concessivos, condicionais, finais, temporais, proporcionais"
+            "detail": "Causais, concessivos, condicionais, finais, temporais, proporcionais",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "4 Metarregras (Charolles)",
-            "detail": "Repetição, Progressão, Não-Contradição e Relação"
+            "detail": "Repetição, Progressão, Não-Contradição e Relação",
+            "badge": "Foco #1"
           },
           {
             "label": "Ambiguidade",
-            "detail": "Evitar duplo sentido no uso de \"seu/sua\" e \"que\""
+            "detail": "Evitar duplo sentido no uso de \"seu/sua\" e \"que\"",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "Coesão = Costura visível na superfície (conectivos e pronomes) • Coerência = Lógica profunda de sentido • 4 Metarregras de Charolles = Repetição, Progressão, Não-Contradição e Relação",
+    "deadlinesAndNumbers": [
+      {
+        "value": "4 Metarregras (Charolles)",
+        "label": "1. Repetição (continuidade temática); 2. Progressão (informação nova); 3. Não-Contradição (lógica interna); 4. Relação (conexão de fatos)",
+        "ref": "Coerência Textual"
+      },
+      {
+        "value": "Anáfora vs. Catáfora",
+        "label": "Anáfora retoma termo anterior (←); Catáfora antecipa termo posterior (→)",
+        "ref": "Coesão Referencial"
+      },
+      {
+        "value": "A-A-A-C-E (Coordenativas)",
+        "label": "Aditivas (e, nem), Adversativas (mas, porém), Alternativas (ou... ou), Conclusivas (logo, portanto) e Explicativas (pois, porque)",
+        "ref": "Coesão Sequencial"
+      },
+      {
+        "value": "Pois (Antes vs. Depois)",
+        "label": "Antes do verbo = Explicativo/Causal (= porque); Posposto ao verbo entre vírgulas = Conclusivo (= portanto)",
+        "ref": "Pegadinha Clássica"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "A conjunção \"posto que\" possui valor explicativo/causal equivalente a \"porque\" na norma-padrão.",
+        "right": "FALSO! Na gramática normativa e nas provas da IBGP, \"POSTO QUE\" é locução conjuntiva CONCESSIVA (= embora, ainda que), exigindo verbo no subjuntivo!"
+      },
+      {
+        "wrong": "Em \"O agente visitou o morador com seu equipamento de proteção\", o pronome \"seu\" garante coesão referencial perfeita sem qualquer ambiguidade.",
+        "right": "FALSO! O possessivo de 3ª pessoa (\"seu\") gera AMBIGUIDADE referencial (não se sabe se o equipamento é do agente ou do morador), devendo ser desfeito na reescrita."
       }
     ]
   },

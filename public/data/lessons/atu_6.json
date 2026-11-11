@@ -27,19 +27,23 @@
     "deadlinesAndNumbers": [
       {
         "value": "52 Municípios em RO",
-        "label": "Maiores em população: 1º Porto Velho, 2º Ji-Paraná, 3º Ariquemes, 4º Vilhena e 5º Cacoal"
+        "label": "Maiores em população: 1º Porto Velho, 2º Ji-Paraná, 3º Ariquemes, 4º Vilhena e 5º Cacoal",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "UHEs Santo Antônio e Jirau",
-        "label": "Complexo Hidrelétrico do Rio Madeira em Porto Velho (sistema a fio d’água com turbinas tipo Bulbo)"
+        "label": "Complexo Hidrelétrico do Rio Madeira em Porto Velho (sistema a fio d’água com turbinas tipo Bulbo)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "ZSEE-RO (LC nº 233/2000)",
-        "label": "Zoneamento Socioeconômico-Ecológico de Rondônia (Zona 1 produtiva, Zona 2 manejo, Zona 3 proteção)"
+        "label": "Zoneamento Socioeconômico-Ecológico de Rondônia (Zona 1 produtiva, Zona 2 manejo, Zona 3 proteção)",
+        "ref": "Ref. Aula 29"
       },
       {
         "value": "1903 → 1912 → 1914 → 1943 → 1981",
-        "label": "Tratado de Petrópolis (1903), EFMM (1912), PVH (1914), Território do Guaporé (1943) e Estado de RO (1981)"
+        "label": "Tratado de Petrópolis (1903), EFMM (1912), PVH (1914), Território do Guaporé (1943) e Estado de RO (1981)",
+        "ref": "Ref. Aula 29"
       }
     ],
     "branches": [
@@ -95,6 +99,17 @@
             "badge": "Saúde e Ambiente"
           }
         ]
+      }
+    ],
+    "centralSubtitle": "Hidrelétricas do Rio Madeira (Santo Antônio e Jirau a Fio d’Água), Impactos nos Vetores (Anopheles e Mansonia), Marco Legal do Saneamento (Lei 14.026/2020), Economia e Realidade Socioambiental de Porto Velho e Rondônia",
+    "goldenTraps": [
+      {
+        "wrong": "As usinas hidrelétricas de Santo Antônio e Jirau no Rio Madeira possuem reservatórios de acumulação gigantescos com barragens de queda alta semelhantes a Itaipu.",
+        "right": "FALSO! Santo Antônio e Jirau foram projetadas como usinas a FIO D’ÁGUA equipadas com turbinas tipo BULBO (baixa queda e grande vazão), reduzindo a área alagada permanente em comparação às represas tradicionais."
+      },
+      {
+        "wrong": "O Marco Legal do Saneamento Básico (Lei nº 14.026/2020) estabelece a meta de universalização de 50% de água potável e 50% de coleta de esgoto até 2050.",
+        "right": "FALSO! A meta legal de universalização até 31 de dezembro de 2033 é de 99% da população com água potável e 90% da população com coleta e tratamento de esgotos!"
       }
     ]
   },

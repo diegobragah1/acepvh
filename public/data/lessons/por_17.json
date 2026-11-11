@@ -16,11 +16,13 @@
         "nodes": [
           {
             "label": "Sujeito e Verbo",
-            "detail": "NUNCA separar o Sujeito do Verbo com uma vírgula"
+            "detail": "NUNCA separar o Sujeito do Verbo com uma vírgula",
+            "badge": "Foco #1"
           },
           {
             "label": "Verbo e Complementos",
-            "detail": "NUNCA separar o Verbo do Objeto Direto ou Indireto"
+            "detail": "NUNCA separar o Verbo do Objeto Direto ou Indireto",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -31,11 +33,13 @@
         "nodes": [
           {
             "label": "Vocativo e Aposto Explicativo",
-            "detail": "Isolados obrigatoriamente por vírgula(s)"
+            "detail": "Isolados obrigatoriamente por vírgula(s)",
+            "badge": "Foco #1"
           },
           {
             "label": "Adjunto Adverbial Deslocado",
-            "detail": "Adjunto adverbial deslocado: quando longo ou para evitar ambiguidade, destaca-se por vírgula; se curto e sem risco de ambiguidade, a vírgula é facultativa."
+            "detail": "Adjunto adverbial deslocado: quando longo ou para evitar ambiguidade, destaca-se por vírgula; se curto e sem risco de ambiguidade, a vírgula é facultativa.",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -46,11 +50,13 @@
         "nodes": [
           {
             "label": "Adverbiais Antepostas",
-            "detail": "Vírgula obrigatória quando vêm antes da principal"
+            "detail": "Vírgula obrigatória quando vêm antes da principal",
+            "badge": "Foco #1"
           },
           {
             "label": "Orações Explicativas vs. Adversativas",
-            "detail": "Adjetivas explicativas isolam-se por vírgulas (ou travessões/parênteses); conjunções adversativas (mas, porém, contudo) são antecedidas de vírgula (e, quando deslocadas no interior da oração, vêm entre vírgulas)."
+            "detail": "Adjetivas explicativas isolam-se por vírgulas (ou travessões/parênteses); conjunções adversativas (mas, porém, contudo) são antecedidas de vírgula (e, quando deslocadas no interior da oração, vêm entre vírgulas).",
+            "badge": "Foco #2"
           }
         ]
       },
@@ -61,13 +67,48 @@
         "nodes": [
           {
             "label": "Duplo Travessão e Parênteses",
-            "detail": "Substituem o par de vírgulas em apostos e intercalações"
+            "detail": "Substituem o par de vírgulas em apostos e intercalações",
+            "badge": "Foco #1"
           },
           {
             "label": "Dois-Pontos e Ponto e Vírgula",
-            "detail": "Enumeração/citação (:); itens de lei ou coordenadas com vírgula interna (;)"
+            "detail": "Enumeração/citação (:); itens de lei ou coordenadas com vírgula interna (;)",
+            "badge": "Foco #2"
           }
         ]
+      }
+    ],
+    "mnemonic": "PROIBIDO separar por vírgula: Sujeito + Verbo + Complementos (Ordem SVC)! • Vírgula OBRIGATÓRIA: Vocativo, Aposto Explicativo, Adjunto Adverbial Longo Deslocado e Orações Subordinadas Antepostas! • Duplo Travessão = Par de Vírgulas = Parênteses",
+    "deadlinesAndNumbers": [
+      {
+        "value": "Proibição Absoluta (SVC)",
+        "label": "Jamais colocar uma única vírgula entre o Sujeito e o Verbo ou entre o Verbo e seus Complementos (mesmo que o sujeito seja longo!)",
+        "ref": "Ordem Direta"
+      },
+      {
+        "value": "Vocativo vs. Aposto",
+        "label": "Vocativo (chamamento) é SEMPRE isolado por vírgula; Aposto Explicativo é isolado por vírgulas, travessões ou dois-pontos",
+        "ref": "Termos Isolados"
+      },
+      {
+        "value": "Vírgula antes do \"E\"",
+        "label": "Permitida quando as orações coordenadas ligadas pelo \"E\" possuem SUJEITOS DIFERENTES ou quando o \"E\" tem valor adversativo (= mas)",
+        "ref": "Período Composto"
+      },
+      {
+        "value": "Ponto e Vírgula (;)",
+        "label": "Separa itens de enumerações legais ou orações coordenadas que já possuem vírgula interna (pausa intermediária)",
+        "ref": "Outros Sinais"
+      }
+    ],
+    "goldenTraps": [
+      {
+        "wrong": "Quando o sujeito de uma oração é muito extenso, recomenda-se colocar uma vírgula logo antes do verbo para facilitar a respiração.",
+        "right": "FALSO! A pontuação em Língua Portuguesa segue critério SINTÁTICO, e não respiratório: é terminantemente proibido separar o sujeito do verbo por uma única vírgula, independentemente do tamanho do sujeito!"
+      },
+      {
+        "wrong": "A substituição das vírgulas que isolam uma oração subordinada adjetiva explicativa por ponto final mantém a correção gramatical.",
+        "right": "FALSO! Substituir vírgulas por travessões duplos ou parênteses mantém a correção, mas colocar ponto final fragmentaria o período deixando a subordinada truncada."
       }
     ]
   },

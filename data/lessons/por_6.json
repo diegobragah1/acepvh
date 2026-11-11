@@ -6,9 +6,9 @@
   "title": "6. Articulação textual: operadores sequenciais, expressões referenciais",
   "editalRef": "Item 6 de Língua Portuguesa — Articulação textual: operadores sequenciais, expressões referenciais.",
   "mindMap": {
-    "centralTitle": "Coesão, Coerência, Conjunções (Coordenação e Subordinação) e Operadores Argumentativos",
-    "centralSubtitle": "Operadores argumentativos, referenciação (anáfora/catáfora) e as 9 classes adverbiais (NGB)",
-    "mnemonic": "5 Coordenativas = A-A-A-C-E (Aditiva, Adversativa, Alternativa, Conclusiva, Explicativa) | Concessiva vs. Causa = Embora/Conquanto/Mesmo que (Concessão) vs. Já que/Visto que/Como (Causa)",
+    "centralTitle": "6. Articulação Textual: Operadores Sequenciais e Expressões Referenciais",
+    "centralSubtitle": "Expressões Referenciais (Anáfora, Catáfora, Dêixis e Demonstrativos ESTE, ESSE, AQUELE) e Operadores Sequenciais / Argumentativos Escalares",
+    "mnemonic": "ESSE/ISSO = Retoma o que JÁ FOI DITO (Anafórico ←) • ESTE/ISTO = Anuncia o que VAI SER DITO (Catafórico →) ou retoma o ÚLTIMO termo entre dois • AQUELE = Retoma o PRIMEIRO termo mencionado",
     "deadlinesAndNumbers": [
       {
         "value": "Anáfora (<-)",
@@ -33,80 +33,80 @@
     ],
     "branches": [
       {
-        "title": "1. Coesão Referencial: Anáfora, Catáfora e ESTE vs. ESSE",
-        "icon": "🔄",
+        "title": "1. Expressões Referenciais: Anáfora, Catáfora e Demonstrativos",
+        "icon": "🎯",
         "color": "teal",
         "nodes": [
           {
-            "label": "ESTE / ESTA / ISTO vs. ESSE / ESSA / ISSO",
-            "detail": "No texto: ESSE/ISSO retoma o que JÁ FOI DITO (anáfora = passado); ESTE/ISTO apresenta o que AINDA VAI SER DITO (catáfora = futuro). Entre dois termos citados: ESTE = o último (mais próximo); AQUELE = o primeiro (mais distante)!",
-            "badge": "Regra de Ouro IBGP"
+            "label": "ESSE / ESSA / ISSO (Coesão Anafórica ←)",
+            "detail": "Aponta para trás no texto, retomando um termo, ideia ou período já enunciado anteriormente (\"O ACE identificou larvas no tonel; ESSE fato exigiu bloqueio imediato\").",
+            "badge": "ESSE = Passado Textual"
           },
           {
-            "label": "Pronomes Relativos (CUJO, ONDE, QUE)",
-            "detail": "CUJO expressa POSSE (entre dois substantivos, nunca tem artigo depois: 'cujo foco', jamais 'cujo o foco'!). ONDE = exclusivamente lugar físico!",
-            "badge": "Cujo sem artigo!"
+            "label": "ESTE / ESTA / ISTO (Coesão Catafórica →)",
+            "detail": "Aponta para a frente no texto, anunciando algo que será dito a seguir (\"A meta da campanha é ESTA: zerar os criadouros domésticos\").",
+            "badge": "ESTE = Futuro Textual"
+          },
+          {
+            "label": "Retomada Distribuída de Dois Termos: ESTE vs. AQUELE",
+            "detail": "Quando dois termos foram citados antes (\"Dengue e Malária são endêmicas: ESTA é causada por protozoário; AQUELA, por vírus\"), ESTE retoma o mais próximo (Malária) e AQUELE retoma o mais distante (Dengue)!",
+            "badge": "Este (Último) / Aquele (1º)"
           }
         ]
       },
       {
-        "title": "2. Conjunções Coordenativas (A-A-A-C-E)",
-        "icon": "⚖️",
+        "title": "2. Operadores Argumentativos Escalares (Adição, Limite e Ressalva)",
+        "icon": "📈",
         "color": "indigo",
         "nodes": [
           {
-            "label": "Adversativas vs. Conclusivas",
-            "detail": "Adversativas (oposição/contraste): mas, porém, contudo, todavia, entretanto, no entanto, não obstante. Conclusivas (consequência lógica): logo, portanto, por conseguinte, por isso, pois (DESLOCADO após o verbo, entre vírgulas!).",
-            "badge": "Pois deslocado = Logo!"
+            "label": "Inclusão no Topo da Escala (Até, Mesmo, Inclusive, Nem)",
+            "detail": "Introduzem o argumento mais forte de uma escala (\"Até os imóveis fechados foram inspecionados\" / \"Nem o temporal impediu a visita\").",
+            "badge": "Força Argumentativa"
           },
           {
-            "label": "Aditivas, Alternativas e Explicativas",
-            "detail": "Aditivas: e, nem, não só... mas também. Alternativas: ou... ou, ora... ora, quer... quer. Explicativas: porque, que, porquanto, pois (ANTES do verbo).",
-            "badge": "Coordenação"
+            "label": "Retificação e Reformulação (Aliás, Melhor dizendo, Isto é, Ou seja)",
+            "detail": "Explicam, corrigem ou ajustam a precisão do que acabou de ser dito na sequência textual.",
+            "badge": "Esclarecimento"
+          },
+          {
+            "label": "Orientação Oposta: \"Pouco\" vs. \"Um pouco\"",
+            "detail": "\"Trabalhou POUCO\" orienta para a negação/insuficiência (mas conseguiu terminar); \"Trabalhou UM POUCO\" orienta positivamente (e por isso avançou na meta).",
+            "badge": "Escala Positiva vs. Negativa"
           }
         ]
       },
       {
-        "title": "3. Conjunções Subordinativas Adverbiais Mais Cobradas",
+        "title": "3. Operadores Sequenciais de Oposição, Concessão, Causa e Conclusão",
+        "icon": "🔗",
+        "color": "amber",
+        "nodes": [
+          {
+            "label": "Adversativos (Mas, Porém, Contudo, Todavia, Entretanto, No entanto)",
+            "detail": "Introduzem argumento que prevalece sobre o anterior. Atenção a \"PORQUANTO\" (= porque, causal/explicativo) vs. \"CONQUANTO\" (= embora, concessivo)!",
+            "badge": "Conquanto ≠ Porquanto"
+          },
+          {
+            "label": "Concessivos (Embora, Ainda que, Mesmo que, Posto que, Apesar de)",
+            "detail": "Admite um fato contrário na subordinada, mas a ideia da oração principal prevalece.",
+            "badge": "Posto que = Embora!"
+          }
+        ]
+      },
+      {
+        "title": "4. Substituição Lexical, Pronomes Relativos e Advérbios Referenciais",
         "icon": "🧭",
-        "color": "amber",
+        "color": "emerald",
         "nodes": [
           {
-            "label": "Concessivas (Oposição que NÃO impede a ação!)",
-            "detail": "Embora, conquanto, ainda que, mesmo que, se bem que, posto que, apesar de que, por mais que.",
-            "badge": "Campeã da IBGP!"
+            "label": "O QUAL / CUJO / ONDE como Articuladores Referenciais",
+            "detail": "CUJO indica posse entre dois substantivos (sem artigo depois); ONDE retoma exclusivamente lugar físico fixo; O QUAL evita ambiguidade quando há dois antecedentes de gêneros diferentes.",
+            "badge": "Relativos no Texto"
           },
           {
-            "label": "Causais vs. Consecutivas vs. Condicionais vs. Proporcionais",
-            "detail": "Causais: já que, visto que, uma vez que, como (no início!). Consecutivas: tão/tanto/tamanho... QUE. Condicionais: se, caso, desde que, contanto que, a menos que. Proporcionais: à medida que, à proporção que. Conformativas: conforme, segundo, consoante, como.",
-            "badge": "Sentidos"
-          }
-        ]
-      },
-      {
-        "title": "4. Implícitos: Pressuposto vs. Subentendido",
-        "icon": "🔎",
-        "color": "amber",
-        "nodes": [
-          {
-            "label": "Pressuposto",
-            "detail": "marcado por gatilho linguístico obrigatório no texto",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Gatilhos de pressuposto",
-            "detail": "verbos (parar de, voltar a, continuar) e advérbios (já, ainda)",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Subentendido",
-            "detail": "inferência contextual deduzida pelo leitor sem marca formal",
-            "badge": "Síntese IBGP"
-          },
-          {
-            "label": "Paralelismo semântico",
-            "detail": "\"Não só... mas também\" (adição) vs. \"Quer... quer\" (alternância)",
-            "badge": "Síntese IBGP"
+            "label": "Nominalização e Epítetos Referenciais",
+            "detail": "Retomar um verbo por um substantivo abstrato (\"Os moradores descartaram pneus → Esse DESCARTE...\") ou retomar \"Porto Velho\" por \"a capital rondoniense\".",
+            "badge": "Progressão Referencial"
           }
         ]
       }
