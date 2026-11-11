@@ -278,17 +278,31 @@ body {
   padding-top: 2px;
 }
 
-.lom-article h3 {
-  margin: 0 0 3px;
-  color: #123b59;
-  font-size: 0.98rem;
-  font-weight: 800;
-  line-height: 1.4;
+.lom-article h3,
+.lom-art-tag .lom-art-title {
+  display: none;
 }
 
 .lom-art-tag {
-  color: #123b59;
-  font-weight: 800;
+  color: #0f766e;
+  background-color: #f0fdfa;
+  border: 1px solid #ccfbf1;
+  font-weight: 700;
+  font-size: 0.88em;
+  letter-spacing: 0.01em;
+  padding: 0.06rem 0.42rem;
+  border-radius: 0.32rem;
+  margin-right: 0.38rem;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 1.45;
+}
+
+.lom-art-tag.block {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.25rem;
+  margin-right: 0;
 }
 
 .lom-legal {
@@ -301,8 +315,14 @@ body {
 }
 
 .lom-legal p {
-  margin: 2px 0;
+  margin: 3px 0;
   line-height: 1.7;
+}
+
+.lom-legal p > b {
+  color: #475569;
+  font-weight: 700;
+  margin-right: 0.2rem;
 }
 
 .lom-review {

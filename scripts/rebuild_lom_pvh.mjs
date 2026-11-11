@@ -345,28 +345,37 @@ const SPECIFIC_NOTES = {
   }
 };
 
+function cleanLegalLineText(str) {
+  return String(str)
+    .replace(/\u00ad/g, '')
+    .replace(/\.\s*Competência do Município\s+DA\s+Competência Privativa\s*$/i, '')
+    .replace(/\.\s*DOS SERVIÇOS E OBRAS PÚBLICAS MUNICIPAIS\s*$/i, '')
+    .replace(/\.\s*(?:Subseção\s+[IVX]+(?:\s+Disposição Geral)?|Disposições\s+(?:Gerais|Preliminares)|Disposição\s+Geral)\s*$/i, '')
+    .replace(/\s*Declaração de Inconstitucionalidade conforme processo ADIN[\s\S]*$/i, '')
+    .replace(/[.;]?\s*(?:Inclusão|Alteração)\s+feita\s+pelo\s+Art(?:igo)?\.?\s*(?:único|\d+[º°]?\.?)\s*-\s*Emenda\s+à\s+Lei\s+Orgânica\s+nº\s*[\d\-A-Z]+,\s*de\s*[^.]+$/i, '')
+    .trim();
+}
+
 function generateSmartNotes(artObj) {
   const artNum = String(artObj.artigo);
   if (SPECIFIC_NOTES[artNum]) {
     return SPECIFIC_NOTES[artNum];
   }
 
-  const fullText = artObj.texto.map(t => `${t.parte === 'caput' ? '' : t.parte + ' '}${t.texto}`).join(' ').replace(/\s+/g, ' ').trim();
-  const caput = (artObj.texto[0]?.texto || '').replace(/\s+/g, ' ').trim();
+  const fullText = artObj.texto.map(t => `${t.parte === 'caput' ? '' : t.parte + ' '}${cleanLegalLineText(t.texto)}`).join(' ').replace(/\s+/g, ' ').trim();
+  const caput = cleanLegalLineText(artObj.texto[0]?.texto || '').replace(/\s+/g, ' ').trim();
   const subParts = artObj.texto.slice(1);
 
-  // Extract clean synthesis for "Para memorizar"
   let resumo = caput
     .replace(/\.\s*(Alteração|Inclusão|Redação|Revogado).*$/i, '')
     .trim();
   if (resumo.endsWith(':')) {
-    const firstItems = subParts.slice(0, 3).map(p => p.texto.replace(/\s+/g, ' ').replace(/;$/, '').trim()).join('; ');
+    const firstItems = subParts.slice(0, 3).map(p => cleanLegalLineText(p.texto).replace(/\s+/g, ' ').replace(/;$/, '').trim()).join('; ');
     resumo = `${resumo} ${firstItems}${subParts.length > 3 ? ` (e demais ${subParts.length - 3} dispositivos).` : '.'}`;
   } else if (!resumo.endsWith('.')) {
     resumo += '.';
   }
 
-  // Extract concrete exam triggers (numbers, deadlines, quorums, competence, prohibitions) for "Atenção na prova"
   const triggers = [];
   const numMatches = fullText.match(/\b(\d+\s*(?:%|por cento|dias?|meses|anos?|horas?|turnos?|terços?| quintos?)|um terço|dois terços|maioria absoluta|maioria simples|quinta parte|cinqüenta|cinquenta|sessenta|noventa|trinta|quinze|dez|vinte|cento e oitenta)\b/gi);
   if (numMatches && numMatches.length > 0) {
@@ -399,15 +408,18 @@ function generateSmartNotes(artObj) {
   };
 }
 
-// Enrich all 249 articles
+// Clean and enrich all 249 articles
 for (const art of lomData.artigos) {
+  for (const t of art.texto) {
+    t.texto = cleanLegalLineText(t.texto);
+  }
   const enriched = generateSmartNotes(art);
   art.resumo = enriched.resumo;
   art.foco_prova = enriched.foco_prova;
 }
 
 fs.writeFileSync(lomJsonPath, JSON.stringify(lomData, null, 2), 'utf8');
-console.log('Updated LOM JSON with enriched resumo and foco_prova for all', lomData.artigos.length, 'articles.');
+console.log('Updated LOM JSON with cleaned text and enriched notes for all', lomData.artigos.length, 'articles.');
 
 function escapeHtml(str) {
   return String(str)
@@ -417,22 +429,33 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
+function formatArtNumber(artNum) {
+  const raw = String(artNum).trim();
+  return raw.replace(/^([1-9])(-[A-Z])?$/, '$1º$2');
+}
+
 function renderArticleHtml(art) {
-  const artLabel = `Art. ${escapeHtml(art.artigo)}`;
+  const artNum = String(art.artigo).trim();
+  const artLabel = `Art. ${escapeHtml(formatArtNumber(artNum))}`;
+  const hasCuratedNotes = Boolean(SPECIFIC_NOTES[artNum]);
+
   const lines = art.texto.map((t, idx) => {
+    const cleaned = cleanLegalLineText(t.texto);
     if (t.parte === 'caput' || idx === 0) {
-      return `<p><strong class="lom-art-tag">${artLabel} —</strong> ${escapeHtml(t.texto)}</p>`;
+      return `<p><strong class="lom-art-tag">${artLabel}</strong> ${escapeHtml(cleaned)}</p>`;
     }
     const cleanParte = String(t.parte).replace(/\s*[–—-]\s*$/, '').trim();
-    return `<p><b>${escapeHtml(cleanParte)} —</b> ${escapeHtml(t.texto)}</p>`;
+    return `<p><b>${escapeHtml(cleanParte)} —</b> ${escapeHtml(cleaned)}</p>`;
   }).join('\n');
+
+  const curatedNotesHtml = hasCuratedNotes
+    ? `\n  <p class="lom-review"><strong>Para memorizar:</strong> ${escapeHtml(art.resumo)}</p>\n  <p class="lom-focus"><strong>Atenção na prova:</strong> ${escapeHtml(art.foco_prova)}</p>`
+    : '';
 
   return `<article class="lom-article">
   <div class="lom-legal">
     ${lines}
-  </div>
-  <p class="lom-review"><strong>Para memorizar:</strong> ${escapeHtml(art.resumo)}</p>
-  <p class="lom-focus"><strong>Atenção na prova:</strong> ${escapeHtml(art.foco_prova)}</p>
+  </div>${curatedNotesHtml}
 </article>`;
 }
 
@@ -468,7 +491,7 @@ const standaloneSections = [
   { title: 'Títulos III, IV e V + ADCT — Tributação, Orçamento, Ordem Econômica (Saneamento), Ordem Social (Saúde e Meio Ambiente) e Disposições Gerais/Transitórias (Arts. 110 a 239 e DT-1 a DT-8)', arts: part3Articles },
 ];
 
-const standaloneHtml = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lei Orgânica PVH — Apostila ACE</title><style>body{font-family:system-ui,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 22px;color:#243044;line-height:1.55}h1,h2{color:#183755}.intro{background:#f1f5f9;padding:16px;border-radius:9px}.block{border-top:2px solid #cbd5e1;margin-top:30px;padding-top:14px}.lom-article{margin:15px 0 20px}.lom-article h3{margin-bottom:5px;font-size:1rem;color:#0f172a}.lom-legal{font-size:.82rem;color:#475569;padding-left:12px;border-left:2px solid #dbe3eb}.lom-review{font-size:.95rem;margin:8px 0 0}.lom-review strong{color:#123b59}.lom-focus{font-size:.82rem;color:#52677b;margin:4px 0 0}.toolbar{display:flex;gap:10px;margin:15px 0}.toolbar input{flex:1;padding:9px}button{padding:8px 12px;cursor:pointer}@media print{.toolbar{display:none}.lom-article{break-inside:avoid}body{margin:0;max-width:none}}</style></head><body><h1>Lei Orgânica de Porto Velho</h1><p class="intro">Texto integral consolidado da Lei Orgânica de Porto Velho em fonte menor, seguido imediatamente de resumo para memorização (<strong>Para memorizar</strong>) e pontos de atenção de prova (<strong>Atenção na prova</strong>).</p><div class="toolbar"><input id="search" placeholder="Buscar artigo ou tema"><button onclick="window.print()">Imprimir / salvar PDF</button></div>${standaloneSections.map(s => `<section class="block"><h2>${s.title}</h2>\n${s.arts.map(renderArticleHtml).join('\n')}</section>`).join('\n')}</body></html>`;
+const standaloneHtml = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lei Orgânica PVH — Apostila ACE</title><style>body{font-family:system-ui,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 22px;color:#243044;line-height:1.55}h1,h2{color:#183755}.intro{background:#f1f5f9;padding:16px;border-radius:9px}.block{border-top:2px solid #cbd5e1;margin-top:30px;padding-top:14px}.lom-article{margin:15px 0 20px}.lom-article h3{display:none}.lom-legal{font-size:.82rem;color:#475569;padding-left:12px;border-left:2px solid #dbe3eb}.lom-review{font-size:.95rem;margin:8px 0 0}.lom-review strong{color:#123b59}.lom-focus{font-size:.82rem;color:#52677b;margin:4px 0 0}.toolbar{display:flex;gap:10px;margin:15px 0}.toolbar input{flex:1;padding:9px}button{padding:8px 12px;cursor:pointer}@media print{.toolbar{display:none}.lom-article{break-inside:avoid}body{margin:0;max-width:none}}</style></head><body><h1>Lei Orgânica de Porto Velho</h1><p class="intro">Texto integral consolidado da Lei Orgânica de Porto Velho em fonte menor, com notas de memorização (<strong>Para memorizar</strong>) e pontos de atenção de prova (<strong>Atenção na prova</strong>) nos dispositivos de maior incidência.</p><div class="toolbar"><input id="search" placeholder="Buscar artigo ou tema"><button onclick="window.print()">Imprimir / salvar PDF</button></div>${standaloneSections.map(s => `<section class="block"><h2>${s.title}</h2>\n${s.arts.map(renderArticleHtml).join('\n')}</section>`).join('\n')}</body></html>`;
 
 fs.writeFileSync(lomHtmlPath, standaloneHtml, 'utf8');
 console.log('Updated standalone HTML apostila file.');
@@ -496,9 +519,11 @@ function fixLomArticleRefs(text) {
     .replace(/Sessão Legislativa Anual \(Art\.\s*55\)/gi, 'Sessão Legislativa Anual (Art. 56)')
     .replace(/15 de fevereiro a 30 de junho e de 1º de agosto a 15 de dezembro/gi, '1º de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro (Art. 56)')
     .replace(/Competência da Câmara COM Sanção \(Art\.\s*48\)\s*vs\.\s*EXCLUSIVA da Câmara \(Art\.\s*49\)/gi, 'Competência da Câmara COM Sanção (Art. 47) vs. PRIVATIVA da Câmara SEM Sanção (Art. 48)')
+    .replace(/ELOM\s*—\s*Art\.\s*59/gi, 'ELOM — Art. 62')
     .replace(/Art\.\s*69\s*LOM-PVH/gi, 'Art. 72 LOM-PVH')
     .replace(/Art\.\s*69,\s*§\s*4º\s*LOM-PVH/gi, 'Art. 72, § 4º LOM-PVH')
     .replace(/Saúde e Saneamento \(Arts\.\s*187\s*a\s*199\)/gi, 'Saneamento (Arts. 150 a 153), Saúde (Arts. 171 a 180) e Fundo Municipal de Saúde (Art. 235)')
+    .replace(/Arts\.\s*195\s*a\s*207/gi, 'Arts. 150 a 153, 171 a 180 e 235')
     .replace(/Arts\.\s*187\s*–\s*199/gi, 'Arts. 171–180 e 235');
 }
 
@@ -520,12 +545,12 @@ for (const b of leg1.blocks) {
   }
 }
 
-// Replace Blocks 3, 4, 5 of leg_1 with the clean continuous Apostila Integral HTML + enriched "Para memorizar" & "Atenção na prova"
+// Replace Blocks 3, 4, 5 of leg_1 with the clean continuous Apostila Integral HTML + conditional curated notes
 leg1.blocks[3].title = 'Texto Integral Comentado da LOM-PVH (Parte 1 — Arts. 1º a 44): Organização do Município, Competências, Administração Pública, Bens, Obras, Servidores e Distritos';
 delete leg1.blocks[3].modoA_markdown;
 delete leg1.blocks[3].modoB_markdown;
 leg1.blocks[3].modoA = `<div class="lom-section-intro">
-  <p><strong>Título I — Da Organização do Município (Arts. 1º a 44):</strong> Abaixo está o <strong>texto integral</strong> de cada artigo em destaque lateral, seguido imediatamente de <strong>Para memorizar</strong> (síntese direta da regra) e <strong>Atenção na prova</strong> (prazos, quóruns, exceções e pegadinhas de banca).</p>
+  <p><strong>Título I — Da Organização do Município (Arts. 1º a 44):</strong> Texto integral artigo por artigo, com destaques de revisão (<strong>Para memorizar</strong> e <strong>Atenção na prova</strong>) nos dispositivos de maior incidência em prova.</p>
 </div>
 <div class="lom-articles-flow">
 ${part1Articles.map(renderArticleHtml).join('\n')}
@@ -533,13 +558,13 @@ ${part1Articles.map(renderArticleHtml).join('\n')}
 leg1.blocks[3].modoB = `<div class="lom-summary-box">
   <p><strong>📌 Síntese Rápida dos Artigos 1º a 44 da LOM-PVH:</strong></p>
   <ul>
-    <li><strong>Art. 3º (Símbolos Municipais):</strong> Bandeira, Hino e Brasão (regulados pela Lei Municipal nº 249/1983).</li>
-    <li><strong>Art. 5º, VII (Patrimônio Natural Exclusivo):</strong> O <strong>boto</strong> que viva e habite nas águas do Rio Madeira e seus afluentes nos limites do Município.</li>
-    <li><strong>Art. 7º, §§ 5º a 7º e Art. 7º-A (Transporte e Limpeza Pública):</strong> Transporte coletivo por no mínimo <strong>3 empresas</strong> (vedado consórcio/monopólio) e <strong>1 veículo para cada 2.000 habitantes</strong>. Coleta de lixo pode ser concedida com autorização da Câmara, mas <strong>limpeza pública e varrição (Art. 7º-A, parágrafo único) são indelegáveis</strong> e exercidas por servidores municipais.</li>
-    <li><strong>Art. 11, parágrafo único (PcD em Concursos):</strong> Reserva mínima de <strong>10%</strong> dos cargos, empregos ou funções públicas na LOM.</li>
-    <li><strong>Art. 24 (Nome de Logradouros):</strong> Somente pessoas falecidas há no mínimo <strong>90 dias</strong>.</li>
-    <li><strong>Art. 30 e Art. 31 (Servidores):</strong> O texto originário de 1990 menciona estabilidade após 2 anos (na CF/88 Art. 41 e na LC 385/2010 são <strong>3 anos</strong>). O servidor responsável por PcD que exija cuidados imprescindíveis tem redução de até <strong>50% da carga horária</strong> (Art. 31).</li>
-    <li><strong>Arts. 42 a 44 (Criação de Distritos):</strong> Por Lei Municipal; exige <strong>1/5 (quinta parte)</strong> dos requisitos de Município + <strong>50 moradias, escola pública, posto de saúde e posto policial</strong> na povoação-sede (Vila), vedada criação nos <strong>6 meses</strong> anteriores às eleições.</li>
+    <li><strong class="lom-art-tag">Art. 3º —</strong> Bandeira, Hino e Brasão (regulados pela Lei Municipal nº 249/1983).</li>
+    <li><strong class="lom-art-tag">Art. 5º, VII —</strong> O <strong>boto</strong> que viva e habite nas águas do Rio Madeira e seus afluentes nos limites do Município constitui patrimônio natural municipal.</li>
+    <li><strong class="lom-art-tag">Art. 7º, §§ 5º a 7º e Art. 7º-A —</strong> Transporte coletivo por no mínimo <strong>3 empresas</strong> (vedado consórcio/monopólio) e <strong>1 veículo para cada 2.000 habitantes</strong>. Coleta de lixo pode ser concedida com autorização da Câmara, mas <strong>limpeza pública e varrição (Art. 7º-A, parágrafo único) são indelegáveis</strong> e exercidas por servidores municipais.</li>
+    <li><strong class="lom-art-tag">Art. 11, parágrafo único —</strong> Reserva mínima de <strong>10%</strong> dos cargos, empregos ou funções públicas para pessoas com deficiência na LOM.</li>
+    <li><strong class="lom-art-tag">Art. 24 —</strong> Logradouros, obras e serviços públicos só podem receber nomes de pessoas falecidas há no mínimo <strong>90 dias</strong>.</li>
+    <li><strong class="lom-art-tag">Arts. 30 e 31 —</strong> O texto originário de 1990 menciona estabilidade após 2 anos (na CF/88 Art. 41 e na LC 385/2010 são <strong>3 anos</strong>). O servidor responsável por pessoa com deficiência que exija cuidados imprescindíveis tem redução de até <strong>50% da carga horária</strong> (Art. 31).</li>
+    <li><strong class="lom-art-tag">Arts. 42 a 44 —</strong> Criação de Distritos por Lei Municipal; exige <strong>1/5 (quinta parte)</strong> dos requisitos de Município + <strong>50 moradias, escola pública, posto de saúde e posto policial</strong> na povoação-sede (Vila), vedada criação nos <strong>6 meses</strong> anteriores às eleições.</li>
   </ul>
 </div>`;
 
@@ -547,7 +572,7 @@ leg1.blocks[4].title = 'Texto Integral Comentado da LOM-PVH (Parte 2 — Arts. 4
 delete leg1.blocks[4].modoA_markdown;
 delete leg1.blocks[4].modoB_markdown;
 leg1.blocks[4].modoA = `<div class="lom-section-intro">
-  <p><strong>Título II — Do Governo Municipal (Arts. 45 a 109):</strong> Texto integral artigo por artigo sobre a Câmara Municipal, Vereadores, Emendas à LOM, Leis Complementares e Ordinárias, Veto, Controle Externo (TCE-RO) e Poder Executivo, com notas <strong>Para memorizar</strong> e <strong>Atenção na prova</strong>.</p>
+  <p><strong>Título II — Do Governo Municipal (Arts. 45 a 109):</strong> Texto integral artigo por artigo sobre a Câmara Municipal, Vereadores, Emendas à LOM, Leis Complementares e Ordinárias, Veto, Controle Externo (TCE-RO) e Poder Executivo.</p>
 </div>
 <div class="lom-articles-flow">
 ${part2Articles.map(renderArticleHtml).join('\n')}
@@ -555,13 +580,13 @@ ${part2Articles.map(renderArticleHtml).join('\n')}
 leg1.blocks[4].modoB = `<div class="lom-summary-box">
   <p><strong>📌 Síntese Rápida dos Artigos 45 a 109 da LOM-PVH:</strong></p>
   <ul>
-    <li><strong>Art. 45 e Art. 56 (Câmara e Sessão Legislativa):</strong> Mandato de 4 anos (23 Vereadores no § 3º). Sessão legislativa ordinária de <strong>1º/fev a 17/jul</strong> e de <strong>1º/ago a 22/dez</strong>. Mesa Diretora com mandato de <strong>2 anos</strong>, vedada recondução para o mesmo cargo na mesma legislatura.</li>
-    <li><strong>Art. 47 vs. Art. 48:</strong> Art. 47 = matérias da Câmara <strong>com sanção do Prefeito</strong> (inclui emendas impositivas de <strong>1,60% da RCL</strong>, sendo metade para a Saúde). Art. 48 = competência <strong>privativa da Câmara sem sanção</strong>.</li>
-    <li><strong>Arts. 62 a 64 (Emenda à LOM):</strong> Proposta por <strong>1/3 da Câmara</strong>, <strong>Prefeito</strong>, <strong>50 entidades associativas (+2 anos)</strong> ou <strong>5% do eleitorado</strong>; votada em <strong>2 turnos</strong> (interstício de <strong>10 dias</strong>) e aprovada por <strong>2/3</strong>, promulgada pela <strong>Mesa da Câmara</strong>.</li>
-    <li><strong>Art. 66 e Art. 72 (Urgência e Veto):</strong> Urgência do Prefeito = <strong>45 dias</strong>. Prazo para sancionar ou vetar = <strong>15 dias úteis</strong> (48h para comunicar motivos); Câmara aprecia o veto em <strong>30 dias</strong>, derrubando-o apenas por <strong>maioria absoluta</strong>.</li>
-    <li><strong>Art. 73 e Art. 75 (Contas e TCE-RO):</strong> Contas ficam por <strong>60 dias</strong> à disposição dos contribuintes; parecer prévio do TCE-RO só deixa de prevalecer por decisão de <strong>2/3 dos membros da Câmara</strong>.</li>
-    <li><strong>Arts. 80, 83 e 85 (Prefeito e Vice):</strong> Posse (prazo de <strong>10 dias</strong> para assumir, salvo força maior). Dupla vacância: eleição direta em <strong>60 dias</strong> (ou indireta pela Câmara em <strong>15 dias</strong> se no último ano). Ausência do Município ou Estado por <strong>mais de 15 dias consecutivos</strong> exige autorização prévia da Câmara.</li>
-    <li><strong>Arts. 101, 103 e 104 (Conselhos e Guarda Municipal):</strong> Conselhos Municipais têm <strong>número ímpar</strong> de membros. Guarda Municipal não pode fazer segurança pessoal de autoridades (Art. 103, § 4º) nem agir repressivamente em greve do setor público (Art. 104).</li>
+    <li><strong class="lom-art-tag">Arts. 45 e 56 —</strong> Mandato de 4 anos (23 Vereadores no § 3º). Sessão legislativa ordinária de <strong>1º/fev a 17/jul</strong> e de <strong>1º/ago a 22/dez</strong>. Mesa Diretora com mandato de <strong>2 anos</strong>, vedada recondução para o mesmo cargo na mesma legislatura.</li>
+    <li><strong class="lom-art-tag">Arts. 47 e 48 —</strong> Art. 47 = matérias da Câmara <strong>com sanção do Prefeito</strong> (inclui emendas impositivas de <strong>1,60% da RCL</strong>, sendo metade para a Saúde). Art. 48 = competência <strong>privativa da Câmara sem sanção</strong>.</li>
+    <li><strong class="lom-art-tag">Arts. 62 a 64 —</strong> Proposta de Emenda à LOM por <strong>1/3 da Câmara</strong>, <strong>Prefeito</strong>, <strong>50 entidades associativas (+2 anos)</strong> ou <strong>5% do eleitorado</strong>; votada em <strong>2 turnos</strong> (interstício de <strong>10 dias</strong>) e aprovada por <strong>2/3</strong>, promulgada pela <strong>Mesa da Câmara</strong>.</li>
+    <li><strong class="lom-art-tag">Arts. 66 e 72 —</strong> Urgência do Prefeito = <strong>45 dias</strong>. Prazo para sancionar ou vetar = <strong>15 dias úteis</strong> (48h para comunicar motivos); Câmara aprecia o veto em <strong>30 dias</strong>, derrubando-o apenas por <strong>maioria absoluta</strong>.</li>
+    <li><strong class="lom-art-tag">Arts. 73 e 75 —</strong> Contas ficam por <strong>60 dias</strong> à disposição dos contribuintes; parecer prévio do TCE-RO só deixa de prevalecer por decisão de <strong>2/3 dos membros da Câmara</strong>.</li>
+    <li><strong class="lom-art-tag">Arts. 80, 83 e 85 —</strong> Posse (prazo de <strong>10 dias</strong> para assumir, salvo força maior). Dupla vacância: eleição direta em <strong>60 dias</strong> (ou indireta pela Câmara em <strong>15 dias</strong> se no último ano). Ausência do Município ou Estado por <strong>mais de 15 dias consecutivos</strong> exige autorização prévia da Câmara.</li>
+    <li><strong class="lom-art-tag">Arts. 101, 103 e 104 —</strong> Conselhos Municipais têm <strong>número ímpar</strong> de membros. Guarda Municipal não pode fazer segurança pessoal de autoridades (Art. 103, § 4º) nem agir repressivamente em greve do setor público (Art. 104).</li>
   </ul>
 </div>`;
 
@@ -577,14 +602,21 @@ ${part3Articles.map(renderArticleHtml).join('\n')}
 leg1.blocks[5].modoB = `<div class="lom-summary-box">
   <p><strong>📌 Síntese Rápida dos Artigos 110 a 239 + ADCT da LOM-PVH:</strong></p>
   <ul>
-    <li><strong>Arts. 110 a 138 (Tributos e Orçamento):</strong> Impostos municipais (IPTU, ITBI e ISSQN), Taxas e Contribuição de Melhoria. Orçamento anual (LOA) e plurianual (PPA) de iniciativa do Executivo; se a LOA for rejeitada pela Câmara, prevalece o orçamento do ano anterior aplicando-se atualização monetária (Art. 130).</li>
-    <li><strong>Arts. 150 a 153 (Saneamento Básico):</strong> Programa anual em convênio com Estado e União; <strong>vedada a criação de aterros sanitários à margem de rios, lagos, lagunas, manguezais e mananciais</strong> (Art. 151); divulgação de <strong>relatório semestral</strong> de monitoramento da água distribuída (Art. 152).</li>
-    <li><strong>Arts. 171 a 180 e Art. 235 (Saúde no Município):</strong> Saúde como direito de todos e dever do Município; prioridade para atividades preventivas e gratuidade (Art. 172); participação complementar da rede privada com prioridade às sem fins lucrativos e <strong>vedação de recursos públicos para auxílios/subvenções a privadas com fins lucrativos</strong> (Art. 173, § 3º); obrigatoriedade de <strong>Banco de Leite Materno Municipal</strong> administrado pela SEMUSA (Art. 175, § 3º); criação do <strong>Fundo Municipal de Saúde</strong> (Art. 235).</li>
-    <li><strong>Arts. 206 e 209 (Gratuidade em Estádios/Ginásios):</strong> Acesso gratuito para pessoas com deficiência física (Art. 206) e menores de 14 anos (Art. 209).</li>
-    <li><strong>Arts. 212 a 217 (Meio Ambiente):</strong> Exigência de recuperação de área degradada por extração mineral (Art. 212, I); adoção do princípio do <strong>poluidor-pagador</strong> e proteção da orla do Rio Candeias (Art. 215); conceito legal de poluição ambiental (Art. 217).</li>
-    <li><strong>Art. 237 e Art. 237-A (Administradores Distritais):</strong> Texto da ELOM 66/2013 previu eleição direta (2 anos, >21 anos, até 90 dias após posse do Prefeito), dispositivo declarado inconstitucional pelo TJ-RO por vício de iniciativa (cargo comissionado do Executivo).</li>
+    <li><strong class="lom-art-tag">Arts. 110 a 138 —</strong> Impostos municipais (IPTU, ITBI e ISSQN), Taxas e Contribuição de Melhoria. Orçamento anual (LOA) e plurianual (PPA) de iniciativa do Executivo; se a LOA for rejeitada pela Câmara, prevalece o orçamento do ano anterior aplicando-se atualização monetária (Art. 130).</li>
+    <li><strong class="lom-art-tag">Arts. 150 a 153 —</strong> Programa anual de saneamento básico em convênio com Estado e União; <strong>vedada a criação de aterros sanitários à margem de rios, lagos, lagunas, manguezais e mananciais</strong> (Art. 151); divulgação de <strong>relatório semestral</strong> de monitoramento da água distribuída (Art. 152).</li>
+    <li><strong class="lom-art-tag">Arts. 171 a 180 e 235 —</strong> Saúde como direito de todos e dever do Município; prioridade para atividades preventivas e gratuidade (Art. 172); participação complementar da rede privada com prioridade às sem fins lucrativos e <strong>vedação de recursos públicos para auxílios/subvenções a privadas com fins lucrativos</strong> (Art. 173, § 3º); obrigatoriedade de <strong>Banco de Leite Materno Municipal</strong> administrado pela SEMUSA (Art. 175, § 3º); criação do <strong>Fundo Municipal de Saúde</strong> (Art. 235).</li>
+    <li><strong class="lom-art-tag">Arts. 206 e 209 —</strong> Acesso gratuito aos estádios, ginásios e locais de eventos esportivos para pessoas com deficiência física (Art. 206) e menores de 14 anos (Art. 209).</li>
+    <li><strong class="lom-art-tag">Arts. 212 a 217 —</strong> Exigência de recuperação de área degradada por extração mineral (Art. 212, I); adoção do princípio do <strong>poluidor-pagador</strong> e proteção da orla do Rio Candeias (Art. 215); conceito legal de poluição ambiental (Art. 217).</li>
+    <li><strong class="lom-art-tag">Arts. 237 e 237-A —</strong> Texto da ELOM 66/2013 previu eleição direta para Administradores Distritais (2 anos, >21 anos, até 90 dias após posse do Prefeito), dispositivo declarado inconstitucional pelo TJ-RO por vício de iniciativa (cargo comissionado do Executivo).</li>
   </ul>
 </div>`;
 
 fs.writeFileSync(appDataPath, JSON.stringify(rawAppData, null, 2), 'utf8');
-console.log('Successfully updated leg_1 in data/app_data.json!');
+fs.writeFileSync(path.resolve('public/data/app_data.json'), JSON.stringify(rawAppData, null, 2), 'utf8');
+const jsPayload = 'window.APP_DATA = ' + JSON.stringify(rawAppData) + ';\n';
+fs.writeFileSync(path.resolve('data/app_data.js'), jsPayload, 'utf8');
+fs.writeFileSync(path.resolve('public/data/app_data.js'), jsPayload, 'utf8');
+fs.writeFileSync(path.resolve('data/lessons/leg_1.json'), JSON.stringify(leg1, null, 2), 'utf8');
+fs.writeFileSync(path.resolve('public/data/lessons/leg_1.json'), JSON.stringify(leg1, null, 2), 'utf8');
+console.log('Successfully updated leg_1 across all data and public mirror files!');
+

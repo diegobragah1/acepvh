@@ -100,6 +100,51 @@ function compactParagraphFlow(html: string): string {
       /<h5[^>]*>\s*(?:1\.\s*Objetivo Claro da Aula[^<]*|2\.\s*(?:Explicação Detalhada|Conteúdo Teórico e Técnico Aprofundado)[^<]*)<\/h5>/gi,
       ''
     )
+    // Remove duplicated block title / edital topic / edital reference / integrated PDF sources / generic objectives preamble
+    .replace(
+      /<p[^>]*>\s*<strong>(?:\d+\.\s+[^<]*—\s*Bloco\s+\d+\.\d+[^<]*|Aula\s+\d+\s*—\s*Bloco\s+\d+\.\d+:?|Tópico do Edital:)<\/strong>[\s\S]*?<\/p>/gi,
+      ''
+    )
+    .replace(
+      /<p[^>]*>\s*<strong>(?:Referência no Edital IBGP|Correspondência no Edital[^<]*):<\/strong>[\s\S]*?<\/p>/gi,
+      ''
+    )
+    .replace(
+      /<p[^>]*>\s*<strong>Fontes(?: e PDFs Base)? Integrad[oa]s:<\/strong>[\s\S]*?<\/p>/gi,
+      ''
+    )
+    .replace(
+      /<p[^>]*>\s*Objetivos (?:Claros|Específicos) de Aprendizagem[^<]*<\/p>\s*(?:<ul[^>]*>[\s\S]*?<\/ul>)?/gi,
+      ''
+    )
+    // Remove internal audit / file-reference prefixes while preserving the educational sentence
+    .replace(
+      /<strong>(?:BLOCO NOVO PÓS-AUDITORIA[^<]*|CORREÇÃO CRÍTICA DE AUDITORIA):<\/strong>\s*/gi,
+      ''
+    )
+    .replace(/Com base nos \d+ PDFs da sua subpasta\s*<code[^>]*>[^<]*<\/code>\s*\([^)]*\)\s*e nos/gi, 'Nos')
+    .replace(/Com base no seu documento de estudos no Google Drive\s*\([^)]*\)\s*e (?:na|nos)/gi, 'Com base na')
+    .replace(/Com base na apostila\s*<code[^>]*>[^<]*<\/code>(?:\s*e\s*<code[^>]*>[^<]*<\/code>)?\s*da sua pasta de Língua Portuguesa,\s*/gi, '')
+    .replace(/Como alerta o PDF #\d+\s*\([^)]*\),\s*/gi, 'Atenção para provas: ')
+    .replace(/Conforme (?:ensina|detalhado n)o PDF #\d+\s*\([^)]*\),\s*/gi, '')
+    .replace(/o PDF #\d+\s*\([^)]*\)\s*alerta que\s*/gi, '')
+    .replace(/Caso Real Analisado no PDF #\d+\s*\([^)]*\):/gi, 'Jurisprudência Consolidada (STF):')
+    .replace(/O PDF #\d+\s*\([^)]*\)\s*traz como exemplo/gi, 'Cita-se como exemplo')
+    .replace(/,\s*o PDF #\d+\s*\([^)]*\)\s*destaca/gi, ', destaca-se')
+    .replace(/\s*diferenciados no PDF #\d+\s*\([^)]*\)/gi, '')
+    .replace(/\s*\((?:[^()]*?\bPDF #\d+[^()]*)\)/gi, '')
+    .replace(/\s*—\s*PDF #\d+[^<):]*/gi, '')
+    // Remove or hide title tags inside LOM articles, keeping only the clean article numbering in .lom-art-tag
+    .replace(/<article class="lom-article">\s*<h3[^>]*>[\s\S]*?<\/h3>/gi, '<article class="lom-article">')
+    .replace(
+      /<strong class="lom-art-tag">\s*((?:Arts?\.\s*(?:DT-)?\d+[º°]?(?:-[A-Z])?(?:\s*(?:,|e|a|vs\.)\s*(?:Arts?\.\s*)?(?:§§?\s*\d+[º°]?|parágrafo único|incisos?\s*[IVX]+|\d+[º°]?(?:-[A-Z])?))*))\s*(?:\([^)]*\))?\s*(?:[—–:-]\s*[^<]*?)?(?:[—–:-])?\s*<\/strong>/gi,
+      (_match, artRef: string) => {
+        const formattedRef = artRef
+          .trim()
+          .replace(/\b(Art\.\s*[1-9])(?![0-9º°])/g, '$1º');
+        return `<strong class="lom-art-tag">${formattedRef}</strong>`;
+      }
+    )
     // Join mid-sentence paragraph breaks created by PDF line wraps (where a <p> does not end in terminal punctuation and next <p> starts with lowercase)
     .replace(/([^.!?:;”"')\]>])\s*<\/p>\s*<p>\s*([a-záàâãéêíóôõúç])/g, '$1 $2')
     // Compact consecutive short alíneas (<p>a) ...</p><p>b) ...</p>) into a tighter single paragraph with <br>

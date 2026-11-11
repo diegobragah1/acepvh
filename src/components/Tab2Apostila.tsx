@@ -398,28 +398,28 @@ export const Tab2Apostila: React.FC = () => {
                           </div>
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 leading-relaxed">
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">1. Fundamentos, Símbolos e Distritos (Arts. 1º a 6º)</strong>
-                              Símbolos oficiais: Bandeira, Hino e Brasão (Art. 5º). Criação, organização e supressão de Distritos por Lei Municipal (Art. 6º), refletindo os 15 distritos das vagas de ACE (Códs. 341 a 356).
+                              <strong className="lom-art-tag block">Arts. 1º a 6º e 42 a 44</strong>
+                              Símbolos oficiais: Bandeira, Hino e Brasão (Art. 3º). Patrimônio natural exclusivo: boto do Rio Madeira (Art. 5º, VII). Criação, organização e supressão de Distritos por Lei Municipal (Art. 2º e Arts. 42 a 44 — 1/5 dos requisitos e 50 moradias na Vila).
                             </div>
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">2. Competências Municipais (Arts. 7º, 8º e 9º — Altíssima Incidência!)</strong>
-                              <strong>Art. 7º (Privativa):</strong> legislar sobre interesse local, tributos municipais (IPTU, ITBI, ISS), transporte coletivo e limpeza urbana. <strong>Art. 8º (Comum c/ União e RO):</strong> cuidar da saúde, assistência pública, meio ambiente e saneamento. <strong>Art. 9º (Suplementar):</strong> suplementar legislação federal e estadual.
+                              <strong className="lom-art-tag block">Arts. 7º, 7º-A e 8º</strong>
+                              <strong>Art. 7º (Privativa):</strong> legislar sobre interesse local, tributos municipais (IPTU, ITBI, ISS) e transporte coletivo (mínimo 3 empresas). <strong>Art. 7º-A:</strong> limpeza pública/varrição indelegável. <strong>Art. 8º (Comum c/ União e RO):</strong> saúde, assistência pública, meio ambiente e saneamento.
                             </div>
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">3. Administração e Servidores Municipais (Arts. 14 a 40)</strong>
-                              Princípios administrativos, bens municipais (uso comum, especial e dominicais) e regras constitucionais dos servidores (concurso público, vedação de acumulação remunerada salvo exceções constitucionais como 2 cargos de saúde regulamentados).
+                              <strong className="lom-art-tag block">Arts. 9º a 41</strong>
+                              Princípios administrativos (Art. 9º), reserva mínima de 10% para PcD na LOM (Art. 11, parágrafo único), vedação de nome de pessoas vivas ou falecidas há menos de 90 dias em logradouros (Art. 24) e redução de até 50% da jornada para servidor responsável por PcD (Art. 31).
                             </div>
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">4. Processo Legislativo e Fiscalização TCE-RO (Arts. 64 a 83)</strong>
-                              <strong>Emenda à LOM (Art. 64):</strong> proposta por 1/3 dos Vereadores, Prefeito ou 5% do eleitorado; votada em 2 turnos (interstício mínimo de 10 dias) e aprovada por <strong>2/3</strong>. <strong>Contas do Prefeito (Art. 79):</strong> parecer prévio do TCE-RO só deixa de prevalecer por voto de <strong>2/3</strong> da Câmara.
+                              <strong className="lom-art-tag block">Arts. 62 a 75</strong>
+                              <strong>Emenda à LOM (Art. 62):</strong> proposta por 1/3 dos Vereadores, Prefeito, 50 entidades ou 5% do eleitorado; votada em 2 turnos (interstício mínimo de 10 dias), aprovada por <strong>2/3</strong> e promulgada pela Mesa da Câmara. <strong>Contas do Prefeito (Art. 75):</strong> parecer prévio do TCE-RO só deixa de prevalecer por voto de <strong>2/3</strong> da Câmara.
                             </div>
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">5. Poder Executivo — Prefeito e Vice (Arts. 84 a 109)</strong>
-                              Ausência do Município ou afastamento por mais de <strong>15 dias</strong> exige licença prévia da Câmara sob pena de perda do cargo (Art. 86). Veto total ou parcial em <strong>15 dias úteis</strong> (Art. 70).
+                              <strong className="lom-art-tag block">Arts. 72, 80, 83 e 85</strong>
+                              Posse em até <strong>10 dias</strong> (Art. 80). Ausência do Município ou Estado por mais de <strong>15 dias consecutivos</strong> exige licença prévia da Câmara sob pena de perda do cargo (Art. 85). Veto total ou parcial em <strong>15 dias úteis</strong> e apreciação em 30 dias por maioria absoluta (Art. 72).
                             </div>
                             <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="text-teal-900 block">6. Saneamento e Saúde Pública no SUS Municipal (Arts. 166 a 189)</strong>
-                              Direito à saúde, ações de vigilância epidemiológica, sanitária, controle de zoonoses e vetores (Art. 184), participação popular via Conselho e Conferência Municipal de Saúde e vedação de subvenção pública a instituições privadas com fins lucrativos.
+                              <strong className="lom-art-tag block">Arts. 150 a 153, 171 a 180 e 235</strong>
+                              Saneamento básico e vedação de aterros à margem de rios e mananciais (Art. 151); direito à saúde, ações de vigilância epidemiológica, sanitária e controle de zoonoses, vedação de subvenção pública a instituições privadas lucrativas (Art. 173, § 3º) e Fundo Municipal de Saúde (Art. 235).
                             </div>
                           </div>
                         </div>
