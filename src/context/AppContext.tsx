@@ -46,8 +46,8 @@ interface AppContextType {
   resetSimAnswers: () => void;
   lessonAnswers: Record<string, number>;
   setLessonAnswers: React.Dispatch<React.SetStateAction<Record<string, number>>>;
-  currentStudyMode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C';
-  setCurrentStudyMode: (mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C') => void;
+  currentStudyMode: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C';
+  setCurrentStudyMode: (mode: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C') => void;
   toastMessage: string | null;
   showToast: (msg: string) => void;
   isSitesModalOpen: boolean;
@@ -126,7 +126,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [currentTab, setCurrentTabState] = useState<string>('tab-apostila');
   const [currentLessonId, setCurrentLessonId] = useState<string>('esp_1');
-  const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'MAPA' | 'A' | 'B' | 'C'>('ALL');
+  const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C'>('ALL');
   const [globalSearchTarget, setGlobalSearchTarget] = useState<GlobalSearchNavigationTarget | null>(null);
 
   const [completedLessons, setCompletedLessons] = useState<string[]>(() =>
@@ -174,7 +174,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
     if (item.type === 'aula' && item.lessonId) {
       setCurrentLessonId(item.lessonId);
-      if (currentStudyMode === 'MAPA' || currentStudyMode === 'C') {
+      if (currentStudyMode === 'MAPA' || currentStudyMode === 'VISUAL' || currentStudyMode === 'C') {
         setCurrentStudyMode('ALL');
       }
       setCurrentTabState('tab-apostila');

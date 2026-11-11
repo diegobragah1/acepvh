@@ -1,8 +1,8 @@
 import React from 'react';
 
 interface DidacticToolbarProps {
-  currentStudyMode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C';
-  onChangeStudyMode: (mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C') => void;
+  currentStudyMode: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C';
+  onChangeStudyMode: (mode: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C') => void;
   hasMindMap: boolean;
   lessonSearchTerm: string;
   onChangeSearch: (value: string) => void;
@@ -37,28 +37,35 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
 }) => {
   return (
     <div className="space-y-3 no-print">
-      {/* Global Study Mode Selector */}
+      {/* Per-Lesson Tab Bar */}
       <div className="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-slate-200">
-        <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-xs font-extrabold text-slate-600 mr-1">Visualização da Aula:</span>
+        <div className="flex flex-wrap items-center gap-1.5" role="tablist" aria-label="Abas da Aula">
+          <span className="text-xs font-extrabold text-slate-600 mr-1">Abas da Aula:</span>
           {(
             [
-              { id: 'ALL', label: '📚 Apostila Integral + Pontos Importantes' },
-              ...(hasMindMap ? [{ id: 'MAPA', label: '🧠 Mapa Mental & Ramos Visuais' }] : []),
-              { id: 'A', label: '📖 Só Texto Integral' },
-              { id: 'B', label: '📌 Só Pontos Importantes (Resumo)' },
-              { id: 'C', label: '✍️ Caderno de Questões & Flashcards' },
+              { id: 'ALL', label: '📖 Aula Completa' },
+              { id: 'VISUAL', label: '🎨 Apostila Interativa (Memorização)' },
+              ...(hasMindMap ? [{ id: 'MAPA', label: '🧠 Mapa Mental' }] : []),
+              { id: 'A', label: '📄 Só Texto Integral' },
+              { id: 'B', label: '📌 Só Resumo' },
+              { id: 'C', label: '✍️ Questões & Flashcards' },
             ] as const
           ).map((m) => (
             <button
               key={m.id}
               type="button"
-              onClick={() => onChangeStudyMode(m.id as 'ALL' | 'MAPA' | 'A' | 'B' | 'C')}
+              role="tab"
+              aria-selected={currentStudyMode === m.id}
+              onClick={() => onChangeStudyMode(m.id as 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C')}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold transition cursor-pointer ${
                 currentStudyMode === m.id
-                  ? m.id === 'MAPA'
+                  ? m.id === 'VISUAL'
+                    ? 'bg-amber-500 text-slate-950 shadow-sm ring-2 ring-amber-300 font-extrabold'
+                    : m.id === 'MAPA'
                     ? 'bg-indigo-700 text-white shadow-sm'
                     : 'bg-teal-700 text-white shadow-sm'
+                  : m.id === 'VISUAL'
+                  ? 'bg-amber-50 text-amber-950 border border-amber-300 hover:bg-amber-100'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
               }`}
             >
@@ -68,18 +75,22 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
         </div>
 
         <div className="flex items-center gap-1.5">
-          <button
-            type="button"
-            onClick={() => {
-              const el = document.getElementById('lesson-fixacao-section');
-              if (el) {
-                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
-            }}
-            className="px-2.5 py-1.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold cursor-pointer"
-          >
-            ✍️ Ir p/ Questões da Aula
-          </button>
+          {currentStudyMode !== 'VISUAL' && currentStudyMode !== 'MAPA' && (
+            <button
+              type="button"
+              onClick={() => {
+                const el = document.getElementById('lesson-fixacao-section');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                  onChangeStudyMode('C');
+                }
+              }}
+              className="px-2.5 py-1.5 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold cursor-pointer"
+            >
+              ✍️ Ir p/ Questões da Aula
+            </button>
+          )}
           <button
             type="button"
             onClick={() => window.print()}

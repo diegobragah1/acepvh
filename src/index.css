@@ -285,17 +285,18 @@ body {
 
 .lom-art-tag {
   color: #0f766e;
-  background-color: #f0fdfa;
-  border: 1px solid #ccfbf1;
-  font-weight: 700;
-  font-size: 0.88em;
-  letter-spacing: 0.01em;
-  padding: 0.06rem 0.42rem;
-  border-radius: 0.32rem;
-  margin-right: 0.38rem;
+  background-color: transparent;
+  border: 1px solid #5eead4;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.015em;
+  padding: 0.1rem 0.55rem;
+  border-radius: 0.375rem;
+  margin-right: 0.42rem;
   white-space: nowrap;
   display: inline-block;
-  line-height: 1.45;
+  line-height: 1.4;
+  vertical-align: baseline;
 }
 
 .lom-art-tag.block {

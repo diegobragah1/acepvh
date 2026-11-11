@@ -9,6 +9,7 @@ import { DidacticToolbar } from '../features/lessons/DidacticToolbar';
 import { PautaLocator } from '../features/lessons/PautaLocator';
 import { VFTrainerSection } from '../features/lessons/VFTrainerSection';
 import { LessonBlockItem } from '../features/lessons/LessonBlockItem';
+import { VisualMemorizationBoard } from '../features/lessons/VisualMemorizationBoard';
 import { QuestionCard } from '../features/questions/QuestionCard';
 import { FlashcardGrid } from '../features/flashcards/FlashcardGrid';
 
@@ -112,7 +113,7 @@ export const Tab2Apostila: React.FC = () => {
       setStatusFilter('ALL');
       setSearchTerm('');
       setCurrentLessonId(lessonId);
-      if (currentStudyMode === 'MAPA' || currentStudyMode === 'C') {
+      if (currentStudyMode === 'MAPA' || currentStudyMode === 'VISUAL' || currentStudyMode === 'C') {
         setCurrentStudyMode('ALL');
       }
       setTimeout(() => {
@@ -246,12 +247,14 @@ export const Tab2Apostila: React.FC = () => {
 
   const showContinuousTheory =
     currentStudyMode !== 'MAPA' &&
+    currentStudyMode !== 'VISUAL' &&
     currentStudyMode !== 'C' &&
     blockTypeFilter !== 'QUIZ' &&
     blockTypeFilter !== 'FLASHCARDS';
 
   const showConsolidatedPractice =
     currentStudyMode !== 'MAPA' &&
+    currentStudyMode !== 'VISUAL' &&
     (currentStudyMode === 'ALL' ||
       currentStudyMode === 'C' ||
       blockTypeFilter === 'QUIZ' ||
@@ -352,18 +355,26 @@ export const Tab2Apostila: React.FC = () => {
             onClose={() => setShowVFTrainer(false)}
           />
 
-          {/* Interactive Mind Map Section */}
-          {activeLesson.mindMap &&
-            (currentStudyMode === 'ALL' || currentStudyMode === 'MAPA') && (
-              <LessonMindMapView
-                mindMap={activeLesson.mindMap}
-                lessonNum={activeLesson.num}
-                lessonId={activeLesson.id}
-              />
-            )}
+          {/* Dedicated Per-Lesson Tab: Mapa Mental */}
+          {activeLesson.mindMap && currentStudyMode === 'MAPA' && (
+            <LessonMindMapView
+              mindMap={activeLesson.mindMap}
+              lessonNum={activeLesson.num}
+              lessonId={activeLesson.id}
+            />
+          )}
+
+          {/* Dedicated Per-Lesson Tab: Apostila Interativa de Memorização Visual */}
+          {currentStudyMode === 'VISUAL' && (
+            <VisualMemorizationBoard
+              key={activeLesson.id}
+              lesson={activeLesson}
+              onJumpToLessonBlock={(blockIdx) => jumpToLessonAndBlock(activeLesson.id, blockIdx)}
+            />
+          )}
 
           {/* Continuous Integral Text Apostila Sheet */}
-          {currentStudyMode !== 'MAPA' && (
+          {currentStudyMode !== 'MAPA' && currentStudyMode !== 'VISUAL' && (
             <>
               {visibleBlocks.length === 0 ? (
                 <div className="bg-white rounded-xl border border-slate-200 p-6 text-center">
