@@ -458,11 +458,11 @@ export const Header: React.FC = () => {
               className="bg-teal-50/70 border border-teal-200 rounded-lg px-2.5 py-1.5 text-[11px] sm:text-xs text-slate-700 leading-snug space-y-0.5"
             >
               <p className="font-extrabold text-teal-900">
-                Edital nº 25/2026 + Retif. nº 01 (IBGP)
+                Edital nº 25/2026 + Retificação nº 01 (Edital nº 28/2026 — Banca IBGP)
               </p>
               <p>
-                Prova: <strong>14/06/2026 (Tarde)</strong> &bull; Salário:{' '}
-                <strong>R$ 2.373,00 + Insalubridade + Gratificações</strong> &bull; 36 Vagas (27 AC + 2 PcD + 5 PN + 2 Indígenas)
+                Prova: <strong>13/12/2026 (Tarde — 14h45 às 17h45)</strong> &bull; Vencimento:{' '}
+                <strong>R$ 3.242,00 (40h) + Insalubridade + Benefícios</strong> &bull; 140 Vagas (40 Imediatas + 100 CR) &bull; Códigos 340 a 356
               </p>
             </div>
           )}

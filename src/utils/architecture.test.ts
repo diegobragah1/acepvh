@@ -107,9 +107,11 @@ describe('Structural Refactoring & Modular Data Integrity', () => {
     assert.ok(headerSrc.includes('ACE — SEMUSA Porto Velho'), 'Mobile short title must be present');
     assert.ok(headerSrc.includes('ⓘ Edital'), 'Collapsible Edital button must be present');
     assert.ok(
-      headerSrc.includes('Edital nº 25/2026 + Retif. nº 01 (IBGP)') &&
-        headerSrc.includes('36 Vagas (27 AC + 2 PcD + 5 PN + 2 Indígenas)'),
-      'Full Edital details must be preserved inside the expandable section'
+      headerSrc.includes('Edital nº 25/2026') &&
+        headerSrc.includes('140 Vagas (40 Imediatas + 100 CR)') &&
+        headerSrc.includes('R$ 3.242,00') &&
+        headerSrc.includes('13/12/2026'),
+      'Full retified Edital details must be preserved inside the expandable section'
     );
     for (const label of ['Painel', 'Conteúdo', 'Aulas', 'Revisão', 'Endemias', 'Cronograma', 'Fontes']) {
       assert.ok(headerSrc.includes(`shortLabel: '${label}'`), `Missing short menu label ${label}`);

@@ -385,6 +385,46 @@ export const Tab2Apostila: React.FC = () => {
                 <>
                   {showContinuousTheory && (
                     <article className="apostila-sheet">
+                      {/* Resumo Prioritário da Lei Orgânica de Porto Velho (sem substituir o texto integral dos 249 artigos) */}
+                      {activeLesson.id === 'leg_1' && (
+                        <div className="mb-4 p-4 rounded-xl bg-amber-50/80 border-2 border-amber-300 text-xs text-slate-800 space-y-2.5">
+                          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-200 pb-1.5">
+                            <span className="font-black text-amber-950 uppercase tracking-wide text-xs sm:text-sm">
+                              🎯 Resumo Prioritário de Prova (Banca IBGP) — Artigos de Maior Cobrança na LOM Porto Velho
+                            </span>
+                            <span className="px-2 py-0.5 rounded bg-amber-200 text-amber-950 font-extrabold text-[10px]">
+                              Guia de Revisão Rápida + Texto Integral Abaixo (249 Artigos)
+                            </span>
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 leading-relaxed">
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">1. Fundamentos, Símbolos e Distritos (Arts. 1º a 6º)</strong>
+                              Símbolos oficiais: Bandeira, Hino e Brasão (Art. 5º). Criação, organização e supressão de Distritos por Lei Municipal (Art. 6º), refletindo os 15 distritos das vagas de ACE (Códs. 341 a 356).
+                            </div>
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">2. Competências Municipais (Arts. 7º, 8º e 9º — Altíssima Incidência!)</strong>
+                              <strong>Art. 7º (Privativa):</strong> legislar sobre interesse local, tributos municipais (IPTU, ITBI, ISS), transporte coletivo e limpeza urbana. <strong>Art. 8º (Comum c/ União e RO):</strong> cuidar da saúde, assistência pública, meio ambiente e saneamento. <strong>Art. 9º (Suplementar):</strong> suplementar legislação federal e estadual.
+                            </div>
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">3. Administração e Servidores Municipais (Arts. 14 a 40)</strong>
+                              Princípios administrativos, bens municipais (uso comum, especial e dominicais) e regras constitucionais dos servidores (concurso público, vedação de acumulação remunerada salvo exceções constitucionais como 2 cargos de saúde regulamentados).
+                            </div>
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">4. Processo Legislativo e Fiscalização TCE-RO (Arts. 64 a 83)</strong>
+                              <strong>Emenda à LOM (Art. 64):</strong> proposta por 1/3 dos Vereadores, Prefeito ou 5% do eleitorado; votada em 2 turnos (interstício mínimo de 10 dias) e aprovada por <strong>2/3</strong>. <strong>Contas do Prefeito (Art. 79):</strong> parecer prévio do TCE-RO só deixa de prevalecer por voto de <strong>2/3</strong> da Câmara.
+                            </div>
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">5. Poder Executivo — Prefeito e Vice (Arts. 84 a 109)</strong>
+                              Ausência do Município ou afastamento por mais de <strong>15 dias</strong> exige licença prévia da Câmara sob pena de perda do cargo (Art. 86). Veto total ou parcial em <strong>15 dias úteis</strong> (Art. 70).
+                            </div>
+                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
+                              <strong className="text-teal-900 block">6. Saneamento e Saúde Pública no SUS Municipal (Arts. 166 a 189)</strong>
+                              Direito à saúde, ações de vigilância epidemiológica, sanitária, controle de zoonoses e vetores (Art. 184), participação popular via Conselho e Conferência Municipal de Saúde e vedação de subvenção pública a instituições privadas com fins lucrativos.
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
                       {/* Compact Continuous Apostila Intro Banner */}
                       <div className="apostila-intro-banner">
                         <div className="flex flex-wrap items-center justify-between gap-2">

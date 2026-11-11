@@ -13,9 +13,9 @@ Aplicação React + TypeScript + Vite + Tailwind CSS para preparação intensiva
 
 | Indicador | Quantidade / Detalhe | Descrição e Cobertura |
 | :--- | :---: | :--- |
-| **Vagas Totais** | **36 Vagas** | 27 Ampla Concorrência + 2 PcD + 5 Pretos e Pardos + 2 Indígenas (Edital nº 25/2026 + Retif. nº 01) |
-| **Remuneração & Benefícios** | **R$ 2.373,00 + Benefícios** | Jornada de 40h semanais com Adicional de Insalubridade e Gratificações da carreira |
-| **Data da Prova** | **14/06/2026 (Tarde)** | Prova objetiva de múltipla escolha com 4 alternativas (A, B, C, D) elaborada pela banca IBGP |
+| **Vagas Totais** | **140 Vagas** | 40 Imediatas + 100 Cadastro de Reserva (Cód. 340 Urbano: 96 vagas; Códs. 341 a 356 Distritos: 44 vagas — Anexo I Retificado) |
+| **Remuneração & Benefícios** | **R$ 3.242,00 + Benefícios** | Vencimento básico oficial para 40h semanais + adicional de insalubridade e gratificações da carreira |
+| **Data e Turno da Prova** | **13/12/2026 (Tarde — 14h45 às 17h45)** | Prova objetiva de múltipla escolha (A, B, C, D) elaborada pela banca IBGP (Portões fecham às 14h30) |
 | **Aulas Estruturadas** | **49 Aulas Oficiais** | 100% do Conteúdo Programático (Anexo IV) em leitura contínua com texto integral e destaques |
 | **Seções e Tópicos** | **236 Seções Didáticas** | Estruturadas com texto fluido, quadros comparativos, pontos de memorização e alertas de pegadinhas |
 | **Banco de Questões** | **732 Questões Comentadas** | Questões objetivas com resolução comentada alternativa por alternativa e justificativas de prova |

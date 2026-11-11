@@ -184,7 +184,7 @@ export const Tab1Painel: React.FC = () => {
           </div>
         </div>
         <div className="bg-amber-50 border-l-4 border-amber-500 p-3 rounded text-xs sm:text-sm text-amber-950 mb-4 space-y-1">
-          <p><strong>Observações Oficiais Verificadas no Anexo I Retificado (27/03/2026):</strong></p>
+          <p><strong>Observações Oficiais Verificadas no Anexo I Retificado (Retificação publicada em 09/10/2026):</strong></p>
           <p>
             1. O código <strong>343</strong> não existe na tabela oficial do Anexo I Retificado (a numeração salta de <code>342 — Calama</code> para <code>344 — Cujubim Grande</code>, totalizando <strong>16 códigos de ACE</strong>: 1 Urbano [96 vagas] + 15 Localidades Rurais [44 vagas] = <strong>140 vagas totais</strong>: 40 imediatas + 100 CR).
           </p>
