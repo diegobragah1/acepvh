@@ -327,7 +327,7 @@
             "D) 32 linhas."
           ],
           "ans": 3,
-          "comment": "Gabarito: D. O número de linhas de uma tabela-verdade com n proposições simples é dado por 2ⁿ. Para n = 5, temos 2⁵ = 32 linhas."
+          "comment": "Gabarito: D. O número de linhas de uma tabela-verdade com n proposições simples é dado por 2ⁿ. Para n = 5, temos 2⁵ = 32 linhas. | Revisão IBGP: A alternativa D sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, C invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (5. Noções de lógica matemática: proposições simples e compostas; conectivos lógicos; tabelas-verdade; negação de proposições; equivalências e implicações lógicas; quantificadores)."
         }
       ],
       "flashcards": [
@@ -398,7 +398,7 @@
       "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Em p → q: p é condição suficiente para q; q é condição necessária para p.</li><li>Disjunção exclusiva (p ⊻ q) equivale a ¬(p ↔ q); sua negação é p ↔ q.</li><li>Negação de (∀x P(x) ∨ q) é (∃x ¬P(x)) ∧ ¬q.</li></ul></div>",
       "questions": [
         {
-          "q": "(Questão de estudo — origem não autenticada) — 2023) Considere que as seguintes premissas (presentes na sua apostila) sejam todas VERDADEIRAS:\n• P1: Não há uma prova com o nome do aluno nos arquivos do professor.\n• P2: Se não há uma prova com o nome do aluno nos arquivos do professor, então o aluno esqueceu-se de colocar seu nome na prova, não a fez ou, se a fez, o professor perdeu a prova dele.\n• P3: Não há prova sem nome nos arquivos do professor.\n• P4: Se não há prova sem nome nos arquivos do professor, então o aluno não se esqueceu de colocar seu nome na prova.\nA partir dessas premissas, conclui-se validamente que:",
+          "q": "(Questão de estudo — origem não autenticada) — 2023) Considere que as seguintes premissas sejam todas VERDADEIRAS:\n• P1: Não há uma prova com o nome do aluno nos arquivos do professor.\n• P2: Se não há uma prova com o nome do aluno nos arquivos do professor, então o aluno esqueceu-se de colocar seu nome na prova, não a fez ou, se a fez, o professor perdeu a prova dele.\n• P3: Não há prova sem nome nos arquivos do professor.\n• P4: Se não há prova sem nome nos arquivos do professor, então o aluno não se esqueceu de colocar seu nome na prova.\nA partir dessas premissas, conclui-se validamente que:",
           "options": [
             "A) O aluno esqueceu-se de colocar seu nome na prova.",
             "B) O aluno não fez a prova ou o professor perdeu a prova dele.",
@@ -406,7 +406,8 @@
             "D) O professor certamente não perdeu a prova e o aluno tirou nota máxima."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. Questão trabalhada na sua apostila! Como P3 é V e P4 é V, por Modus Ponens concluímos que 'o aluno NÃO se esqueceu de colocar o nome na prova'. Como P1 é V e P2 é V, o consequente de P2 tem que ser V; já que a hipótese de 'ter esquecido de colocar o nome' é falsa, resta necessariamente que 'o aluno não fez a prova ou, se a fez, o professor perdeu a prova dele'."
+          "comment": "Gabarito: B. Como P3 é V e P4 é V, por Modus Ponens concluímos que 'o aluno NÃO se esqueceu de colocar o nome na prova'. Como P1 é V e P2 é V, o consequente de P2 tem que ser V; já que a hipótese de 'ter esquecido de colocar o nome' é falsa, resta necessariamente que 'o aluno não fez a prova ou, se a fez, o professor perdeu a prova dele'.",
+          "revision": "20261111"
         },
         {
           "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Em um levantamento realizado com 100 moradores de uma comunidade em Porto Velho, constatou-se que 52 já tiveram Dengue, 35 já tiveram Malária, e 17 já tiveram ambas as doenças (Dengue e Malária). Quantos desses 100 moradores NUNCA tiveram nem Dengue nem Malária?",

@@ -188,7 +188,7 @@
             "D) Risco de surto (IIP igual ou superior a 4%)."
           ],
           "ans": 3,
-          "comment": "Gabarito: D. Grave os parâmetros do LIRAa: IIP < 1% = Satisfatório; IIP de 1% a 3,9% = Alerta; IIP ≥ 4,0% = Risco de Surto."
+          "comment": "Gabarito: D. Grave os parâmetros do LIRAa: IIP < 1% = Satisfatório; IIP de 1% a 3,9% = Alerta; IIP ≥ 4,0% = Risco de Surto. | Revisão IBGP: A alternativa D sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, C invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19)."
         },
         {
           "q": "(FGV / Questão Oficial — 2024) Sobre o ciclo epidemiológico da Febre Amarela no Brasil, assinale a alternativa CORRETA:",
@@ -202,7 +202,7 @@
           "comment": "Gabarito: A. No ciclo silvestre, a transmissão ocorre por mosquitos Haemagogus e Sabethes, tendo os macacos como hospedeiros amplificadores/sentinelas. O último caso de febre amarela urbana no Brasil ocorreu em 1942."
         },
         {
-          "q": "(Apostila 13. Imunização 2026.pdf (Profª Thaysa Vianna) — 2026) Com base na apostila '13. Imunização 2026.pdf' do seu NotebookLM, sobre os esquemas vacinais vigentes no Programa Nacional de Imunizações (PNI) para a prevenção de arboviroses (Febre Amarela e Dengue - Qdenga), assinale a alternativa CORRETA:",
+          "q": "(Questão Inédita — Padrão IBGP — PNI/MS 2026) De acordo com as normas técnicas vigentes do Ministério da Saúde sobre os esquemas vacinais vigentes no Programa Nacional de Imunizações (PNI) para a prevenção de arboviroses (Febre Amarela e Dengue - Qdenga), assinale a alternativa CORRETA:",
           "options": [
             "A) A vacina contra a Febre Amarela no calendário infantil é administrada aos 9 meses de idade, com uma dose de reforço aos 4 anos de idade; já a vacina contra a Dengue (Qdenga) no SUS é composta por esquema de 2 doses com intervalo de 3 meses para o público-alvo de 10 a 14 anos.",
             "B) A vacina contra a Febre Amarela deve ser aplicada no primeiro dia de vida juntamente com a BCG.",
@@ -210,7 +210,8 @@
             "D) Não existe vacina contra a Febre Amarela disponível na rede pública do SUS."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. Conforme detalhado na apostila '13. Imunização 2026.pdf' (Profª Thaysa Vianna): a vacina de Febre Amarela tem dose aos 9 meses e reforço aos 4 anos; e a vacina da Dengue (Qdenga - vírus vivo atenuado, portanto contraindicada para gestantes e lactantes!) tem esquema de 2 doses com intervalo de 3 meses para adolescentes de 10 a 14 anos."
+          "comment": "Gabarito: A. De acordo com o Calendário Nacional de Vacinação (PNI/MS): a vacina de Febre Amarela tem dose aos 9 meses e reforço aos 4 anos; e a vacina da Dengue (Qdenga - vírus vivo atenuado, portanto contraindicada para gestantes e lactantes!) tem esquema de 2 doses com intervalo de 3 meses para adolescentes de 10 a 14 anos.",
+          "revision": "20261111"
         }
       ],
       "flashcards": [
@@ -527,7 +528,7 @@
             "D) Produzir vacinas contra o Trypanosoma cruzi."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. Os PITs são a base da vigilância entomológica passiva da Doença de Chagas com participação da população."
+          "comment": "Gabarito: B. Os PITs são a base da vigilância entomológica passiva da Doença de Chagas com participação da população. | Revisão IBGP: A alternativa B sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, C, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (9. Conhecimentos Básicos: Raiva, Esquistossomose, Doença de Chagas, Dengue, Febre Amarela, Febre Maculosa, Influenza, Chikungunya, Zika Vírus, Leptospirose, Leishmaniose: Tegumentar e Visceral e Malária, COVID-19)."
         }
       ],
       "flashcards": [

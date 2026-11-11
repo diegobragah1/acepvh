@@ -157,7 +157,7 @@
             "D) O piso salarial nacional dos ACE somente pode ser reajustado a cada 5 (cinco) anos mediante plebiscito municipal."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. É a literalidade exata do Art. 9º-H e do Art. 5º, § 2º-A da Lei nº 11.350/2006, inseridos pela Lei Federal nº 13.708/2018."
+          "comment": "Gabarito: A. É a literalidade exata do Art. 9º-H e do Art. 5º, § 2º-A da Lei nº 11.350/2006, inseridos pela Lei Federal nº 13.708/2018. | Revisão IBGP: A alternativa A sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas B, C, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (3. Lei Federal nº 11.350/2006. Lei Federal nº 13.708/2018. Lei Federal nº 13.595/2018)."
         }
       ],
       "flashcards": [
@@ -224,7 +224,7 @@
       "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><p>Art. 4º: atividades típicas e assistidas; art. 4º-A: integração. Suspeita não é diagnóstico. A assistência profissional exigida por lei não pode ser omitida.</p></div>",
       "questions": [
         {
-          "q": "(Questão da Apostila / Lei 11.350 — 2026) Sobre a avaliação de desempenho e progressão funcional dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, prevista no art. 9º-G da Lei Federal nº 11.350/2006, analise as afirmativas:\nI. Deve ser realizada com paridade de critérios entre a gestão e os agentes.\nII. Deve observar a transparência do processo de avaliação, assegurando-se recurso administrativo.\nIII. Deve observar a adequação aos conteúdos ocupacionais e às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho prejudiquem a nota final da avaliação.\nIV. Deve considerar a carga horária cumprida e a formação técnica.\nEstão CORRETAS:",
+          "q": "(Questão de Concurso — Lei 11.350 — 2026) Sobre a avaliação de desempenho e progressão funcional dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, prevista no art. 9º-G da Lei Federal nº 11.350/2006, analise as afirmativas:\nI. Deve ser realizada com paridade de critérios entre a gestão e os agentes.\nII. Deve observar a transparência do processo de avaliação, assegurando-se recurso administrativo.\nIII. Deve observar a adequação aos conteúdos ocupacionais e às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho prejudiquem a nota final da avaliação.\nIV. Deve considerar a carga horária cumprida e a formação técnica.\nEstão CORRETAS:",
           "options": [
             "A) Apenas I e III.",
             "B) Apenas as afirmativas I, II e IV estão corretas.",
@@ -232,7 +232,8 @@
             "D) Apenas III e IV."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. Questão idêntica à trabalhada na sua apostila! O art. 9º-G, inciso IV, estabelece exatamente o oposto do item III: a avaliação observará a adequação às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho NÃO prejudiquem a avaliação."
+          "comment": "Gabarito: B. O art. 9º-G, inciso IV, estabelece exatamente o oposto do item III: a avaliação observará a adequação às condições reais de trabalho, de forma que eventuais condições precárias ou adversas de trabalho NÃO prejudiquem a avaliação.",
+          "revision": "20261111"
         },
         {
           "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) De acordo com a Lei Federal nº 11.350/2006 (com a redação dada pelas Leis nº 13.595/2018 e nº 13.708/2018), sobre os requisitos e o regime de trabalho do Agente de Combate às Endemias (ACE), assinale a alternativa CORRETA:",

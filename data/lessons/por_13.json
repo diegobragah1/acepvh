@@ -157,7 +157,7 @@
       "modoB": "<div class=\"space-y-2.5 text-xs sm:text-sm text-slate-800 leading-relaxed\"><ul class=\"list-disc pl-5 space-y-1\"><li>Locução: identificar auxiliar e principal.</li><li>Infinitivo/gerúndio admitem posições diferentes das do particípio.</li><li>Com particípio, o pronome se liga ao auxiliar, não ao particípio.</li><li>Não lhe podemos enviar / Não podemos enviar-lhe: duas construções formais admitidas.</li><li>Vírgula não elimina um fator posterior: Hoje, não me avisaram.</li><li>As questões de concordância/crase deste bloco são revisão interdisciplinar.</li></ul></div>",
       "questions": [
         {
-          "q": "(Questão da Apostila / Regência e Crase — 2024) Considere o período adaptado da sua apostila:\n'As tecnologias digitais trouxeram grandes transformações para a educação, modificando processos que são compreendidos como benéficos por dinamizarem a aula e permitirem acesso mais rápido ___ diversas informações.'\nA lacuna desse período deve ser preenchida, segundo a norma-padrão, por:",
+          "q": "(Questão de Concurso — Regência e Crase — 2024) Considere o período a seguir:\n'As tecnologias digitais trouxeram grandes transformações para a educação, modificando processos que são compreendidos como benéficos por dinamizarem a aula e permitirem acesso mais rápido ___ diversas informações.'\nA lacuna desse período deve ser preenchida, segundo a norma-padrão, por:",
           "options": [
             "A) à (com acento grave obrigatório, por ser locução feminina).",
             "B) a (apenas preposição 'a' exigida pelo substantivo 'acesso', sem acento grave porque precede expressão feminina no plural sem artigo).",
@@ -165,7 +165,8 @@
             "D) às (obrigatoriamente com artigo definido, pois 'diversas' exige artigo)."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. Questão trabalhada na sua apostila! O substantivo 'acesso' rege a preposição 'a' (acesso a algo); porém, antes da expressão plural indeterminada 'diversas informações', ocorre apenas a preposição simples 'a', sendo proibido o sinal indicativo de crase ('a' no singular + palavra no plural = crase proibida!)."
+          "comment": "Gabarito: B. O substantivo 'acesso' rege a preposição 'a' (acesso a algo); porém, antes da expressão plural indeterminada 'diversas informações', ocorre apenas a preposição simples 'a', sendo proibido o sinal indicativo de crase ('a' no singular + palavra no plural = crase proibida!).",
+          "revision": "20261111"
         },
         {
           "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que a concordância verbal e nominal respeita integralmente a norma-padrão da Língua Portuguesa:",

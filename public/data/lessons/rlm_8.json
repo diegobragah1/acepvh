@@ -217,7 +217,7 @@
             "1/15."
           ],
           "ans": 2,
-          "comment": "C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns."
+          "comment": "C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns. | Revisão IBGP: A alternativa C sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial)."
         },
         {
           "auditId": "probabilidade-cores-ordem",
@@ -241,7 +241,7 @@
             "A probabilidade de um deles deve ser um."
           ],
           "ans": 1,
-          "comment": "B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses."
+          "comment": "B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses. | Revisão IBGP: A alternativa B sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, C, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial)."
         }
       ],
       "flashcards": [

@@ -221,7 +221,7 @@ export const ACE_GLOSSARY_ITEMS: AceGlossaryItem[] = [
   {
     term: 'Notificação Compulsória Imediata vs. Semanal',
     cat: 'Vigilância Epidemiológica',
-    def: 'Imediata: deve ser comunicada em até 24 horas (ex: Raiva humana, Febre Amarela, Botulismo, Óbito por Dengue, Doença de Chagas Aguda). Semanal: em até 7 dias (ex: Dengue clássica, Leishmanioses, Esquistossomose).',
+    def: 'Imediata (em até 24h): Raiva humana, Acidente por animal potencialmente transmissor da raiva, Febre Amarela, Febre Maculosa, Doença de Chagas Aguda, Óbito por Dengue/Chikungunya/Zika e Malária na Região Extra-Amazônica. Semanal (em até 7 dias): Casos de Dengue, Chikungunya e Zika, Malária na Região Amazônica (RO), Leishmanioses, Esquistossomose, Doença de Chagas Crônica e Leptospirose.',
   },
   {
     term: 'Lâmina de Verificação de Cura (LVC)',

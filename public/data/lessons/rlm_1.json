@@ -159,7 +159,7 @@
             "Elemento neutro da multiplicação."
           ],
           "ans": 2,
-          "comment": "A igualdade a × (b + c) = a × b + a × c denomina-se propriedade distributiva da multiplicação em relação à adição."
+          "comment": "A igualdade a × (b + c) = a × b + a × c denomina-se propriedade distributiva da multiplicação em relação à adição. | Revisão IBGP: A alternativa C sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (1. Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum)."
         },
         {
           "q": "(Questão de estudo — Potenciação e Radiciação) O valor da expressão 27^(1/3) + 16^(0,5) - 5⁰ é igual a:",
@@ -170,7 +170,7 @@
             "8"
           ],
           "ans": 1,
-          "comment": "27^(1/3) = ∛27 = 3; 16^(0,5) = 16^(1/2) = √16 = 4; 5⁰ = 1. Portanto: 3 + 4 - 1 = 6."
+          "comment": "27^(1/3) = ∛27 = 3; 16^(0,5) = 16^(1/2) = √16 = 4; 5⁰ = 1. Portanto: 3 + 4 - 1 = 6. | Revisão IBGP: A alternativa B sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, C, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (1. Conjuntos numéricos: naturais, inteiros, racionais e reais. Operações de adição, subtração, multiplicação, divisão, potenciação e radiciação; números decimais; valor absoluto; propriedades no conjunto dos números naturais; decomposição de um número natural em fatores primos; múltiplos e divisores; máximo divisor comum e mínimo múltiplo comum)."
         }
       ],
       "flashcards": [

@@ -503,7 +503,7 @@ export const Tab2Apostila: React.FC = () => {
                     (consolidatedQuestions.length > 0 || totalFlashcardCount > 0) && (
                       <section
                         id="lesson-fixacao-section"
-                        className="scroll-mt-20 bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4"
+                        className="scroll-mt-20 bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 min-w-0 max-w-full overflow-hidden"
                       >
                         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
                           <div>
@@ -521,7 +521,7 @@ export const Tab2Apostila: React.FC = () => {
 
                         {/* Consolidated Questions */}
                         {blockTypeFilter !== 'FLASHCARDS' && consolidatedQuestions.length > 0 && (
-                          <div className="space-y-2.5">
+                          <div className="space-y-2.5 min-w-0">
                             {consolidatedQuestions.map(({ q, bIdx, qIdx }, globalIdx) => {
                               const qKey = questionIdentity(
                                 `${activeLesson.id}_b${bIdx}_q${qIdx}`,
@@ -543,14 +543,14 @@ export const Tab2Apostila: React.FC = () => {
 
                         {/* Consolidated Flashcards */}
                         {blockTypeFilter !== 'QUIZ' && totalFlashcardCount > 0 && (
-                          <div className="space-y-3 pt-2 border-t border-slate-200">
+                          <div className="space-y-3 pt-2 border-t border-slate-200 min-w-0 max-w-full">
                             <h4 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-700">
                               🃏 Flashcards de Memorização Ativa ({totalFlashcardCount} cartões — toque para virar)
                             </h4>
-                            <div className="space-y-3">
+                            <div className="space-y-3 min-w-0 max-w-full">
                               {consolidatedFlashcards.map(({ flashcards, bIdx, blockTitle }) => (
-                                <div key={`fc_group_${bIdx}`} className="space-y-1.5">
-                                  <div className="text-xs font-bold text-slate-500">
+                                <div key={`fc_group_${bIdx}`} className="space-y-1.5 min-w-0 max-w-full">
+                                  <div className="text-xs font-bold text-slate-500 break-words">
                                     Eixo {bIdx + 1}: {blockTitle}
                                   </div>
                                   <FlashcardGrid
