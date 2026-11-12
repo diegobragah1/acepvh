@@ -44,7 +44,7 @@ Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos varia
 - C) Diferenças sociais nunca importam.
 - D) Nenhuma política pública pode considerar vulnerabilidade.
 
-**Gabarito: B.** O mesmo fenômeno interage com condições sociais e territoriais distintas. A análise deve considerar exposição, vulnerabilidade e capacidade de resposta.
+**Gabarito: B.** Gabarito: B. O impacto socioambiental depende da interação entre o evento climático e condições territoriais como saneamento, acesso fluvial/rodoviário e infraestrutura local. Erro da A: comunidades isoladas ribeirinhas sofrem mais restrições logísticas que centros dotados de múltiplas rotas; erro da C: condições socioeconômicas influenciam exposição e capacidade de proteção; erro da D: a gestão pública e o SUS planejam justamente considerando vulnerabilidades territoriais.
 
 ### Questão 2
 
@@ -55,7 +55,7 @@ Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos varia
 - C) Que todos têm a mesma renda.
 - D) Que não existe desigualdade interna.
 
-**Gabarito: B.** PIB per capita divide uma medida de produção pelo total populacional. Não representa a renda de cada pessoa e não elimina diferenças internas.
+**Gabarito: B.** Gabarito: B. O PIB per capita é obtido dividindo o Produto Interno Bruto pela população total, tratando-se de uma média agregada que oculta concentrações de renda e disparidades entre bairros e distritos. Erro da A: salário individual é renda pessoal/do trabalho, não PIB dividido por habitantes; erro da C e D: médias elevadas podem coexistir com forte desigualdade socioeconômica.
 
 ### Questão 3
 
@@ -66,7 +66,7 @@ Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos varia
 - C) Nasce na Serra do Mar em São Paulo e deságua na margem esquerda do Rio Negro.
 - D) É um braço artificial aberto em 1990 a partir do Rio Tocantins.
 
-**Gabarito: A.** O Rio Madeira forma-se pelo encontro dos rios Beni e Mamoré (na altura de Nova Mamoré/Vila Bela) e corre no sentido sudoeste-nordeste até desaguar na margem direita do Rio Amazonas, abaixo de Manaus (próximo a Itacoatiara/AM).
+**Gabarito: A.** Gabarito: A. O Rio Madeira nasce da junção dos rios Beni e Mamoré na fronteira Brasil-Bolívia e deságua na margem direita do Rio Amazonas. Erro da B: Tietê e Paraná pertencem à Bacia do Paraná/Prata; erro da C: o Rio Madeira tem águas brancas/barrentas andinas e deságua no Amazonas, não nasce em São Paulo nem deságua no Rio Negro; erro da D: é um dos maiores rios naturais da bacia amazônica, não um canal artificial.
 
 ### Questão 4
 
@@ -77,7 +77,7 @@ Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos varia
 - C) A ausência de coleta de resíduos sólidos reduz a quantidade de criadouros do Grupo D2.
 - D) As queimadas da estação seca melhoram a função pulmonar de crianças e idosos.
 
-**Gabarito: A.** A sazonalidade climática amazônica e os gargalos de saneamento interagem diretamente com o perfil epidemiológico local: falhas no abastecimento levam ao armazenamento doméstico em tonéis (A2), chuvas e alagamentos ampliam criadouros e exposição à Leptospira, e a fumaça na seca agrava quadros respiratórios.
+**Gabarito: A.** Gabarito: A. Em clima equatorial (Am), chuvas intensas com drenagem deficiente ampliam alagamentos (leptospirose) e intermitências no abastecimento levam ao armazenamento doméstico em tonéis/reservatórios ao nível do solo (Grupo A2 do LIRAa). Erro da B: o clima de Porto Velho é equatorial quente e úmido, propício ao Aedes o ano inteiro; erro da C: falta de coleta aumenta lixo sólido a céu aberto (Grupo D2); erro da D: fumaça de queimadas eleva material particulado PM2,5 e agrava doenças respiratórias.
 
 ## Flashcards
 

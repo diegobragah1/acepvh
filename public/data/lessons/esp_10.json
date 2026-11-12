@@ -1,10 +1,9 @@
 {
   "id": "esp_10",
-  "num": 6,
+  "num": 10,
   "slug": "06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep",
   "subjectFolder": "conhecimentos-especificos",
-  "mdPath": "./content/conhecimentos-especificos/06-vigilancia-em-saude-indicadores-sistemas-informacao-sinan-sivep.md",
-  "mdLegacyPath": "./content/esp_6.md",
+  "mdPath": "./content/aulas-49/esp_10.md",
   "cat": "esp",
   "catName": "Conhecimentos Específicos ACE",
   "weight": "15 Questões • Peso 2 (30 pts)",
@@ -30,22 +29,22 @@
       {
         "value": "7 Vírus + 4 Protoz. + 2 Bact. + 1 Helm.",
         "label": "Divisão exata dos agentes etiológicos das 14 doenças do Edital de ACE",
-        "ref": "Ref. Aula 6"
+        "ref": "Ref. Aula 10 (esp_10)"
       },
       {
         "value": "5 Propriedades do Agente",
         "label": "Infectividade, Patogenicidade, Virulência, Poder Invasivo e Imunogenicidade",
-        "ref": "Ref. Aula 6"
+        "ref": "Ref. Aula 10 (esp_10)"
       },
       {
         "value": "Isolamento vs. Quarentena",
         "label": "Isolamento aplica-se ao DOENTE (1º elo); Quarentena aplica-se ao COMUNICANTE SADIO exposto",
-        "ref": "Ref. Aula 6"
+        "ref": "Ref. Aula 10 (esp_10)"
       },
       {
         "value": "Definitivo vs. Intermediário",
         "label": "Malária: Definitivo = Anopheles e Intermediário = Homem; Esquistossomose: Definitivo = Homem e Intermediário = Caramujo",
-        "ref": "Ref. Aula 6"
+        "ref": "Ref. Aula 10 (esp_10)"
       }
     ],
     "branches": [
@@ -140,7 +139,9 @@
             "D) A Febre Maculosa é causada por um vírus transmitido pela urina da capivara, e a Leptospirose é causada por um protozoário transmitido pela picada do carrapato-estrela."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. Na Malária, a reprodução sexuada ocorre no mosquito Anopheles (hospedeiro definitivo) e a assexuada no homem (hospedeiro intermediário). Na Esquistossomose, os vermes adultos reproduzem-se sexuadamente no sistema porta humano (hospedeiro definitivo) e as larvas multiplicam-se assexuadamente no caramujo Biomphalaria (hospedeiro intermediário)."
+          "comment": "Gabarito: B. Na Malária, a reprodução sexuada ocorre no mosquito Anopheles (hospedeiro definitivo) e a assexuada no homem (hospedeiro intermediário). Na Esquistossomose, os vermes adultos reproduzem-se sexuadamente no sistema porta humano (hospedeiro definitivo) e as larvas multiplicam-se assexuadamente no caramujo Biomphalaria (hospedeiro intermediário).",
+          "difficulty": "Intermediário",
+          "questionType": "Caso Prático ACE"
         },
         {
           "q": "(Inédita — Padrão IBGP 2026) Relacione corretamente a propriedade biológica do agente etiológico e a medida de controle na cadeia epidemiológica de transmissão:",
@@ -151,7 +152,9 @@
             "D) Na Doença de Chagas, o reservatório exclusivo é o caramujo Biomphalaria glabrata."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. Virulência mede a gravidade/fatalidade da doença produzida pelo agente; isolamento segrega o doente no período de transmissibilidade e quarentena restringe o comunicante sadio pelo período máximo de incubação."
+          "comment": "Gabarito: A. Virulência mede a gravidade/fatalidade da doença produzida pelo agente; isolamento segrega o doente no período de transmissibilidade e quarentena restringe o comunicante sadio pelo período máximo de incubação.",
+          "difficulty": "Fácil",
+          "questionType": "Caso Prático ACE"
         }
       ],
       "flashcards": [
@@ -189,7 +192,9 @@
             "D) Toda infecção provoca obrigatoriamente sintomas clínicos graves e hospitalização imediata."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. Definição clássica do Guia de Vigilância em Saúde: infecção ocorre em hospedeiro vivo por bioagente interno; contaminação ocorre em objetos/veículos inanimados (água, alimentos, fômites); infestação aplica-se a ectoparasitas na superfície corporal ou artrópodes/roedores no ambiente."
+          "comment": "Gabarito: A. Definição clássica do Guia de Vigilância em Saúde: infecção ocorre em hospedeiro vivo por bioagente interno; contaminação ocorre em objetos/veículos inanimados (água, alimentos, fômites); infestação aplica-se a ectoparasitas na superfície corporal ou artrópodes/roedores no ambiente.",
+          "difficulty": "Intermediário",
+          "questionType": "Caso Prático ACE"
         },
         {
           "q": "(Questão de estudo — Perfil ACE) O indivíduo infectado que já elimina o agente etiológico para o meio externo ou para vetores durante o período que antecede o surgimento dos primeiros sinais e sintomas clínicos (como ocorre na Influenza, na COVID-19 e nos dias prévios aos sintomas da Raiva no cão) é classificado epidemiologicamente como:",
@@ -200,7 +205,9 @@
             "D) Fômite convalescente."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. O portador em incubação (ou precoce) é aquele que transmite o bioagente ainda durante o período de incubação, antes da manifestação clínica da doença."
+          "comment": "Gabarito: B. Portador em incubação (ou precoce) elimina o agente infeccioso antes do início dos sintomas clínicos. Erro da A: vetor mecânico é artrópode que transporta sem multiplicação biológica; erro da C: hospedeiro intermediário abriga fase assexuada parasitária; erro da D: fômite é objeto inanimado contaminado.",
+          "difficulty": "Difícil",
+          "questionType": "Caso Prático ACE"
         },
         {
           "q": "(Questão de estudo — Perfil ACE) Em determinadas doenças transmitidas por artrópodes (como no carrapato-estrela Amblyomma sculptum na Febre Maculosa e no mosquito Aedes aegypti nas arboviroses), a fêmea infectada consegue transmitir o agente etiológico diretamente para seus ovos, de modo que as larvas já eclodem infectadas. Esse mecanismo denomina-se:",
@@ -211,7 +218,9 @@
             "D) Isolamento respiratório de contato."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. A transmissão transovariana (da fêmea do vetor para seus ovos/prole) mantém o agente etiológico circulando na natureza mesmo durante períodos secos ou sem vertebrados virêmicos."
+          "comment": "Gabarito: B. Transmissão transovariana (vertical no vetor) passa o patógeno da fêmea artrópode infectada diretamente aos ovos e larvas. Erro da A: fômites são objetos inanimados; erro da C: quimioprofilaxia é prevenção medicamentosa; erro da D: isolamento refere-se a pacientes contagiosos.",
+          "difficulty": "Difícil",
+          "questionType": "Caso Prático ACE"
         }
       ],
       "flashcards": [
@@ -255,7 +264,9 @@
             "D) Raiva e Esquistossomose."
           ],
           "ans": 2,
-          "comment": "Gabarito: C. Entre as 14 doenças do edital, as duas únicas causadas por bactérias são a Leptospirose (Leptospira interrogans) e a Febre Maculosa (Rickettsia rickettsii). Dengue, Febre Amarela e Raiva são virais; Malária e Chagas são protozooses; Esquistossomose é helmintíase."
+          "comment": "Gabarito: C. Entre as 14 doenças do edital, as duas únicas causadas por bactérias são a Leptospirose (Leptospira interrogans) e a Febre Maculosa (Rickettsia rickettsii). Dengue, Febre Amarela e Raiva são virais; Malária e Chagas são protozooses; Esquistossomose é helmintíase.",
+          "difficulty": "Intermediário",
+          "questionType": "Caso Prático ACE"
         },
         {
           "q": "(Questão de estudo — Perfil ACE) Assinale a alternativa que relaciona CORRETAMENTE a doença contagiosa/transmissível, a classe biológica de seu agente etiológico e seu principal modo de transmissão:",
@@ -266,7 +277,9 @@
             "D) Esquistossomose — Protozoário — Picada do mosquito Lutzomyia longipalpis."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. A Doença de Chagas tem como agente etiológico o protozoário flagelado Trypanosoma cruzi, transmitido vetorialmente pelas fezes do barbeiro (triatomíneo) ou por via oral (alimentos contaminados). A LV não passa por mordida do cão, mas pela picada do flebotomíneo Lutzomyia longipalpis."
+          "comment": "Gabarito: B. A Doença de Chagas tem como agente etiológico o protozoário flagelado Trypanosoma cruzi, transmitido vetorialmente pelas fezes do barbeiro (triatomíneo) ou por via oral (alimentos contaminados). A LV não passa por mordida do cão, mas pela picada do flebotomíneo Lutzomyia longipalpis.",
+          "difficulty": "Intermediário",
+          "questionType": "Caso Prático ACE"
         },
         {
           "q": "(Questão de estudo — Perfil ACE) Na cadeia epidemiológica das doenças transmissíveis, quando o serviço de saúde realiza a vacinação de bloqueio em pessoas sadias, a eliminação mecânica de criadouros de mosquitos e o isolamento domiciliar de pacientes com sintomas respiratórios agudos, essas medidas de controle atuam, respectivamente, sobre:",
@@ -277,7 +290,9 @@
             "D) Exclusivamente sobre os portadores convalescentes."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. A vacinação protege o hospedeiro suscetível (3º elo); o controle de vetores/criadouros interrompe a via de transmissão (2º elo); e o isolamento do paciente sintomático atua sobre a fonte de infecção (1º elo)."
+          "comment": "Gabarito: A. A vacinação protege o hospedeiro suscetível (3º elo); o controle de vetores/criadouros interrompe a via de transmissão (2º elo); e o isolamento do paciente sintomático atua sobre a fonte de infecção (1º elo).",
+          "difficulty": "Difícil",
+          "questionType": "Caso Prático ACE"
         }
       ],
       "flashcards": [

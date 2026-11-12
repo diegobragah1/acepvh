@@ -39,7 +39,7 @@ Um relatório pode conter relato de uma visita e descrição do imóvel. Isso de
 - C) Descrição e narração são gêneros idênticos.
 - D) O gênero depende apenas do tempo verbal.
 
-**Gabarito: B.** Relato e descrição podem coexistir no mesmo relatório. Gênero se relaciona à prática social; sequência, à organização linguística. As outras opções confundem esses planos.
+**Gabarito: B.** Gabarito: B. Gêneros concretos (como relatório técnico, notícia ou ata) comumente integram múltiplas sequências tipológicas (expositiva, narrativa, descritiva). Erro da A: relatório técnico de serviço público é gênero factual/não ficcional; erro da C: narração (sucessão temporal) e descrição (caracterização estática) são sequências distintas; erro da D: o gênero define-se por função social, suporte e interlocutores.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Em “Confira os recipientes e tampe os reservatórios”, predomina a finalidad
 - C) Orientar uma ação do destinatário.
 - D) Apresentar uma definição de palavra.
 
-**Gabarito: C.** Os imperativos dirigem condutas ao leitor, configurando sequência injuntiva. Não há relato passado, retrato de ambiente ou explicação metalinguística.
+**Gabarito: C.** Gabarito: C. Verbos no imperativo (“Confira”, “tampe”) caracterizam a sequência injuntiva (instrucional), voltada a orientar o comportamento do leitor. Erro da A: não há relato no pretérito; erro da B: não descreve cenário físico; erro da D: função metalinguística/conceitual ausente.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ No trecho “O depósito inspecionado media dois metros de largura, apresentava 
 - C) Injuntiva, pois ordena ao morador o conserto imediato.
 - D) Argumentativa, pois refuta uma tese científica sobre reservatórios.
 
-**Gabarito: B.** O fragmento apresenta propriedades simultâneas de dimensão, estado físico e posição espacial, caracterizando sequência descritiva.
+**Gabarito: B.** Gabarito: B. O trecho apresenta atributos simultâneos de dimensão, estado material e localização espacial com verbos descritivos no pretérito imperfeito, sem progressão temporal. Erro da A: não há sequência de ações encadeadas no tempo; erro da C: ausente qualquer verbo injuntivo/imperativo; erro da D: não apresenta defesa ou refutação de tese.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Qual característica distingue um artigo de opinião de uma notícia estritament
 - C) O artigo de opinião proíbe qualquer menção a dados reais ou locais.
 - D) A notícia informativa utiliza exclusivamente verbos no modo imperativo.
 
-**Gabarito: A.** O artigo de opinião organiza-se em torno da defesa explícita de uma tese pelo articulista, ao passo que a notícia prioriza o relato objetivo do fato jornalístico.
+**Gabarito: A.** Gabarito: A. O artigo de opinião assume tese explícita e defesa argumentativa assinada; a notícia prioriza o relato objetivo e impessoal de fatos (quem, o quê, quando, onde). Erro da B: notícia jornalística é em prosa; erro da C: artigos de opinião frequentemente citam dados reais como argumento de autoridade/prova; erro da D: notícia usa sobretudo modo indicativo.
 
 ## Flashcards
 

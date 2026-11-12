@@ -44,7 +44,7 @@ Em “É importante que a equipe retorne”, “que a equipe retorne” funciona
 - C) Vocativo.
 - D) Objeto indireto de importante.
 
-**Gabarito: A.** O conteúdo pode ser retomado por isso: isso é importante. A oração exerce função de sujeito, sem antecedente nominal que caracterize.
+**Gabarito: A.** Gabarito: A. Substituindo por “ISSO”: “É importante ISSO” (= Isso é importante), logo a oração exerce função de sujeito da oração principal (subordinada substantiva subjetiva). Erro da B: não modifica substantivo antecedente nem tem pronome relativo; erro da C: não é chamamento; erro da D: “importante” é adjetivo predicativo, que não seleciona objeto indireto.
 
 ### Questão 2
 
@@ -55,7 +55,7 @@ A retirada das vírgulas de uma oração adjetiva explicativa pode:
 - C) Eliminar obrigatoriamente todos os verbos.
 - D) Converter qualquer frase em pergunta.
 
-**Gabarito: B.** A relativa sem isolamento pode selecionar um subconjunto; por isso, a alteração afeta o alcance da afirmação. Pontuação também participa do sentido.
+**Gabarito: B.** Gabarito: B. Com vírgulas, a oração adjetiva explicativa se refere à totalidade do antecedente; sem vírgulas, torna-se restritiva, especificando apenas parte do conjunto. Erro da A: altera diretamente a extensão referencial do enunciado; erro da C: mantém os verbos originais; erro da D: pontuação restritiva não transforma frase declarativa em interrogativa.
 
 ### Questão 3
 
@@ -66,7 +66,7 @@ Compare as expressões destacadas em: I) “A vistoria **do quarteirão** revelo
 - C) Sujeito simples e predicativo do sujeito.
 - D) Aposto explicativo e vocativo.
 
-**Gabarito: A.** Ambos se ligam ao substantivo abstrato “vistoria”: em I, o quarteirão é vistoriado (sentido passivo/paciente = complemento nominal); em II, o agente realiza a vistoria (sentido ativo/agente = adjunto adnominal).
+**Gabarito: A.** Gabarito: A. Ligado ao substantivo abstrato “vistoria”, o termo paciente (“do quarteirão”, que foi vistoriado) é complemento nominal; o termo agente (“do agente”, que realizou a vistoria) é adjunto adnominal. Erro da B: objetos completam verbos, não substantivos; erro da C: o sujeito de cada oração é “A vistoria...”; erro da D: não explicam nem invocam termos.
 
 ### Questão 4
 
@@ -77,7 +77,7 @@ No período “Os supervisores tinham certeza **de que o bloqueio vetorial reduz
 - C) Oração subordinada adjetiva restritiva.
 - D) Oração coordenada sindética explicativa.
 
-**Gabarito: A.** A oração preposicionada completa o sentido do substantivo abstrato “certeza” (tinham certeza disso), exercendo função de complemento nominal (subordinada substantiva completiva nominal).
+**Gabarito: A.** Gabarito: A. A oração preposicionada (“de ISSO”) completa o sentido do substantivo abstrato “certeza”, portanto é subordinada substantiva completiva nominal. Erro da B: objetiva indireta completaria um verbo (ex.: “precisar de”), não o substantivo “certeza”; erro da C: “que” é conjunção integrante, não pronome relativo; erro da D: há relação de subordinação, não coordenação.
 
 ## Flashcards
 

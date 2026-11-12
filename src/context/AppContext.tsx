@@ -1,16 +1,34 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { AppData, TopicStatus } from '../types';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import {
+  AppData,
+  ExamAttemptRecord,
+  FlashcardSrsEntry,
+  LastStudyPointer,
+  SrsRating,
+  TopicStatus,
+} from '../types';
 import { getStatusMeta } from '../utils/status';
 import { normalizeAppData } from '../utils/normalizeData';
 import {
   LESSON_ANSWERS_KEY,
   COMPLETED_SUBTOPICS_KEY,
+  SRS_STORAGE_KEY,
+  FAVORITE_LESSONS_KEY,
+  FAVORITE_QUESTIONS_KEY,
+  LESSON_NOTES_KEY,
+  EXAM_HISTORY_KEY,
+  LAST_STUDY_KEY,
   getSubtopicId,
   parseProgress,
   validAnswers,
   validStatuses,
   validCompleted,
+  validFlashcardSrs,
+  validNotesRecord,
+  validExamHistory,
+  validLastStudy,
 } from '../utils/progress';
+import { scheduleFlashcardReview } from '../utils/srs';
 import type { GlobalSearchResultItem } from '../utils/globalSearch';
 
 const STORAGE_KEY_COMPLETED = "ace_semusa_2026_completed_lessons_v3";
@@ -24,6 +42,15 @@ export interface GlobalSearchNavigationTarget {
   blockIdx?: number;
   diseaseName?: string;
   questionId?: string;
+  timestamp: number;
+}
+
+export interface SimuladoQuickIntent {
+  subMode?: 'QUESTOES' | 'PROVA_OFICIAL' | 'SIMULADO_CUSTOM' | 'FLASHCARDS';
+  statusFilter?: 'ALL' | 'WRONG' | 'CORRECT' | 'UNANSWERED' | 'FAVORITES';
+  lessonId?: string;
+  cat?: string;
+  srsFilter?: 'ALL' | 'DUE' | 'HARD' | 'NEW' | 'KNOWN';
   timestamp: number;
 }
 
@@ -59,6 +86,28 @@ interface AppContextType {
   reloadData: () => void;
   globalSearchTarget: GlobalSearchNavigationTarget | null;
   navigateToSearchResult: (item: GlobalSearchResultItem) => void;
+  flashcardSrs: Record<string, FlashcardSrsEntry>;
+  rateFlashcard: (srsKey: string, rating: SrsRating) => void;
+  resetFlashcardSrs: () => void;
+  favoriteLessons: string[];
+  toggleFavoriteLesson: (lessonId: string) => void;
+  favoriteQuestions: string[];
+  toggleFavoriteQuestion: (qKey: string) => void;
+  lessonNotes: Record<string, string>;
+  setLessonNote: (lessonId: string, note: string) => void;
+  examHistory: ExamAttemptRecord[];
+  recordExamAttempt: (attempt: ExamAttemptRecord) => void;
+  clearExamHistory: () => void;
+  lastStudy: LastStudyPointer | null;
+  markLastStudy: (lessonId: string, blockIdx?: number) => void;
+  lessonJumpTarget: { lessonId: string; blockIdx: number; timestamp: number } | null;
+  openLessonBlock: (
+    lessonId: string,
+    blockIdx?: number,
+    mode?: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C'
+  ) => void;
+  simuladoQuickIntent: SimuladoQuickIntent | null;
+  openSimuladoWithIntent: (intent: Omit<SimuladoQuickIntent, 'timestamp'>) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -78,8 +127,20 @@ function loadStorage<T>(key: string, fallback: T): T {
       return fallback;
     }
     if (key === STORAGE_KEY_TOPIC_STATUS && !validStatuses(parsed)) return fallback;
-    if ((key === STORAGE_KEY_COMPLETED || key === COMPLETED_SUBTOPICS_KEY) && !validCompleted(parsed)) return fallback;
+    if (
+      (key === STORAGE_KEY_COMPLETED ||
+        key === COMPLETED_SUBTOPICS_KEY ||
+        key === FAVORITE_LESSONS_KEY ||
+        key === FAVORITE_QUESTIONS_KEY) &&
+      !validCompleted(parsed)
+    ) {
+      return fallback;
+    }
     if ((key === STORAGE_KEY_ANSWERS || key === LESSON_ANSWERS_KEY) && !validAnswers(parsed)) return fallback;
+    if (key === SRS_STORAGE_KEY && !validFlashcardSrs(parsed)) return fallback;
+    if (key === LESSON_NOTES_KEY && !validNotesRecord(parsed)) return fallback;
+    if (key === EXAM_HISTORY_KEY && !validExamHistory(parsed)) return fallback;
+    if (key === LAST_STUDY_KEY && !validLastStudy(parsed)) return fallback;
     return parsed as T;
   } catch (err) {
     return fallback;
@@ -124,10 +185,27 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
+  const [lastStudy, setLastStudy] = useState<LastStudyPointer | null>(() => {
+    try {
+      const raw = window.localStorage.getItem(LAST_STUDY_KEY);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      return validLastStudy(parsed) ? parsed : null;
+    } catch {
+      return null;
+    }
+  });
+
   const [currentTab, setCurrentTabState] = useState<string>('tab-apostila');
-  const [currentLessonId, setCurrentLessonId] = useState<string>('esp_1');
+  const [currentLessonId, setCurrentLessonIdState] = useState<string>(() => lastStudy?.lessonId || 'esp_1');
   const [currentStudyMode, setCurrentStudyMode] = useState<'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C'>('ALL');
   const [globalSearchTarget, setGlobalSearchTarget] = useState<GlobalSearchNavigationTarget | null>(null);
+  const [simuladoQuickIntent, setSimuladoQuickIntent] = useState<SimuladoQuickIntent | null>(null);
+  const [lessonJumpTarget, setLessonJumpTarget] = useState<{
+    lessonId: string;
+    blockIdx: number;
+    timestamp: number;
+  } | null>(null);
 
   const [completedLessons, setCompletedLessons] = useState<string[]>(() =>
     loadStorage<string[]>(STORAGE_KEY_COMPLETED, [])
@@ -144,6 +222,67 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [lessonAnswers, setLessonAnswers] = useState<Record<string, number>>(() => loadStorage(LESSON_ANSWERS_KEY, {}));
   useEffect(() => { saveStorage(LESSON_ANSWERS_KEY, lessonAnswers); }, [lessonAnswers]);
+
+  const [flashcardSrs, setFlashcardSrs] = useState<Record<string, FlashcardSrsEntry>>(() =>
+    loadStorage<Record<string, FlashcardSrsEntry>>(SRS_STORAGE_KEY, {})
+  );
+  const [favoriteLessons, setFavoriteLessons] = useState<string[]>(() =>
+    loadStorage<string[]>(FAVORITE_LESSONS_KEY, [])
+  );
+  const [favoriteQuestions, setFavoriteQuestions] = useState<string[]>(() =>
+    loadStorage<string[]>(FAVORITE_QUESTIONS_KEY, [])
+  );
+  const [lessonNotes, setLessonNotes] = useState<Record<string, string>>(() =>
+    loadStorage<Record<string, string>>(LESSON_NOTES_KEY, {})
+  );
+  const [examHistory, setExamHistory] = useState<ExamAttemptRecord[]>(() =>
+    loadStorage<ExamAttemptRecord[]>(EXAM_HISTORY_KEY, [])
+  );
+
+  const markLastStudy = useCallback((lessonId: string, blockIdx?: number) => {
+    if (!lessonId) return;
+    const pointer: LastStudyPointer = {
+      lessonId,
+      ...(blockIdx !== undefined && blockIdx >= 0 ? { blockIdx } : {}),
+      updatedAt: Date.now(),
+    };
+    setLastStudy(pointer);
+    saveStorage(LAST_STUDY_KEY, pointer);
+  }, []);
+
+  const setCurrentLessonId = useCallback(
+    (id: string) => {
+      setCurrentLessonIdState(id);
+      markLastStudy(id);
+    },
+    [markLastStudy]
+  );
+
+  const openLessonBlock = useCallback(
+    (
+      lessonId: string,
+      blockIdx?: number,
+      mode?: 'ALL' | 'VISUAL' | 'MAPA' | 'A' | 'B' | 'C'
+    ) => {
+      setCurrentLessonIdState(lessonId);
+      markLastStudy(lessonId, blockIdx);
+      if (mode) {
+        setCurrentStudyMode(mode);
+      } else if (
+        blockIdx !== undefined &&
+        (currentStudyMode === 'MAPA' || currentStudyMode === 'VISUAL' || currentStudyMode === 'C')
+      ) {
+        setCurrentStudyMode('ALL');
+      }
+      if (blockIdx !== undefined && blockIdx >= 0) {
+        setLessonJumpTarget({ lessonId, blockIdx, timestamp: Date.now() });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      setCurrentTabState('tab-apostila');
+    },
+    [markLastStudy, currentStudyMode]
+  );
 
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isSitesModalOpen, setSitesModalOpen] = useState<boolean>(false);
@@ -173,7 +312,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setGlobalSearchTarget(target);
 
     if (item.type === 'aula' && item.lessonId) {
-      setCurrentLessonId(item.lessonId);
+      setCurrentLessonIdState(item.lessonId);
+      markLastStudy(item.lessonId, item.blockIdx);
       if (currentStudyMode === 'MAPA' || currentStudyMode === 'VISUAL' || currentStudyMode === 'C') {
         setCurrentStudyMode('ALL');
       }
@@ -181,9 +321,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       showToast(`Abrindo ${item.title} (${item.subtitle})`);
     } else if (item.type === 'ficha') {
       setCurrentTabState('tab-endemias');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       showToast(`Abrindo ${item.title}`);
     } else if (item.type === 'questao') {
       setCurrentTabState('tab-simulado');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       showToast(`Filtrando questão na aba Revisão (${item.badge})`);
     }
   };
@@ -317,6 +459,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const toggleSubtopicComplete = (lessonId: string, blockIdx: number) => {
     if (!lessonId || blockIdx < 0) return;
+    markLastStudy(lessonId, blockIdx);
     const subId = getSubtopicId(lessonId, blockIdx);
     const targetLesson = appData?.lessons?.find(l => l.id === lessonId);
     const blockCount = targetLesson?.blocks?.length || 0;
@@ -412,6 +555,82 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     showToast("Respostas do simulado reiniciadas com sucesso!");
   };
 
+  const rateFlashcard = useCallback((srsKey: string, rating: SrsRating) => {
+    setFlashcardSrs((prev) => {
+      const nextEntry = scheduleFlashcardReview(prev[srsKey], rating);
+      const updated = { ...prev, [srsKey]: nextEntry };
+      saveStorage(SRS_STORAGE_KEY, updated);
+      return updated;
+    });
+    if (rating === 'hard') {
+      showToast('🔁 Cartão marcado como Difícil (voltará logo na revisão).');
+    } else if (rating === 'good') {
+      showToast('👍 Cartão revisado! Agendado para os próximos dias.');
+    } else {
+      showToast('🌟 Cartão marcado como Conhecido! Intervalo ampliado.');
+    }
+  }, []);
+
+  const resetFlashcardSrs = useCallback(() => {
+    setFlashcardSrs({});
+    saveStorage(SRS_STORAGE_KEY, {});
+    showToast('Progresso de revisão espaçada dos flashcards reiniciado.');
+  }, []);
+
+  const toggleFavoriteLesson = useCallback((lessonId: string) => {
+    setFavoriteLessons((prev) => {
+      const exists = prev.includes(lessonId);
+      const updated = exists ? prev.filter((id) => id !== lessonId) : [...prev, lessonId];
+      saveStorage(FAVORITE_LESSONS_KEY, updated);
+      showToast(exists ? '☆ Aula removida dos favoritos.' : '★ Aula salva nos favoritos!');
+      return updated;
+    });
+  }, []);
+
+  const toggleFavoriteQuestion = useCallback((qKey: string) => {
+    setFavoriteQuestions((prev) => {
+      const exists = prev.includes(qKey);
+      const updated = exists ? prev.filter((id) => id !== qKey) : [...prev, qKey];
+      saveStorage(FAVORITE_QUESTIONS_KEY, updated);
+      showToast(exists ? '☆ Questão removida dos favoritos.' : '★ Questão salva nos favoritos!');
+      return updated;
+    });
+  }, []);
+
+  const setLessonNote = useCallback((lessonId: string, note: string) => {
+    setLessonNotes((prev) => {
+      const updated = { ...prev };
+      if (!note.trim()) {
+        delete updated[lessonId];
+      } else {
+        updated[lessonId] = note;
+      }
+      saveStorage(LESSON_NOTES_KEY, updated);
+      return updated;
+    });
+  }, []);
+
+  const recordExamAttempt = useCallback((attempt: ExamAttemptRecord) => {
+    setExamHistory((prev) => {
+      const updated = [attempt, ...prev].slice(0, 30);
+      saveStorage(EXAM_HISTORY_KEY, updated);
+      return updated;
+    });
+    showToast(`📊 Resultado salvo no histórico: ${attempt.correct}/${attempt.totalQuestions} (${attempt.pct}%)`);
+  }, []);
+
+  const clearExamHistory = useCallback(() => {
+    setExamHistory([]);
+    saveStorage(EXAM_HISTORY_KEY, []);
+    showToast('Histórico de simulados limpo.');
+  }, []);
+
+  const openSimuladoWithIntent = useCallback((intent: Omit<SimuladoQuickIntent, 'timestamp'>) => {
+    setSimuladoQuickIntent({ ...intent, timestamp: Date.now() });
+    setCurrentTabState('tab-simulado');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   const exportProgress = () => {
     const payload = {
       platform: "ACE_SEMUSA_PVH_2026",
@@ -420,7 +639,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       completedLessons,
       completedSubtopics,
       simAnswers,
-      lessonAnswers
+      lessonAnswers,
+      flashcardSrs,
+      favoriteLessons,
+      favoriteQuestions,
+      lessonNotes,
+      examHistory,
+      lastStudy,
     };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
     const url = URL.createObjectURL(blob);
@@ -431,7 +656,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    showToast("Backup JSON do seu progresso exportado com sucesso!");
+    showToast("Backup JSON completo do seu progresso exportado com sucesso!");
   };
 
   const importProgress = async (file: File) => {
@@ -458,6 +683,31 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       if (parsed.lessonAnswers !== undefined) {
         setLessonAnswers(parsed.lessonAnswers);
         saveStorage(LESSON_ANSWERS_KEY, parsed.lessonAnswers);
+      }
+      if (parsed.flashcardSrs !== undefined) {
+        setFlashcardSrs(parsed.flashcardSrs);
+        saveStorage(SRS_STORAGE_KEY, parsed.flashcardSrs);
+      }
+      if (parsed.favoriteLessons !== undefined) {
+        setFavoriteLessons(parsed.favoriteLessons);
+        saveStorage(FAVORITE_LESSONS_KEY, parsed.favoriteLessons);
+      }
+      if (parsed.favoriteQuestions !== undefined) {
+        setFavoriteQuestions(parsed.favoriteQuestions);
+        saveStorage(FAVORITE_QUESTIONS_KEY, parsed.favoriteQuestions);
+      }
+      if (parsed.lessonNotes !== undefined) {
+        setLessonNotes(parsed.lessonNotes);
+        saveStorage(LESSON_NOTES_KEY, parsed.lessonNotes);
+      }
+      if (parsed.examHistory !== undefined) {
+        setExamHistory(parsed.examHistory);
+        saveStorage(EXAM_HISTORY_KEY, parsed.examHistory);
+      }
+      if (parsed.lastStudy !== undefined) {
+        setLastStudy(parsed.lastStudy);
+        saveStorage(LAST_STUDY_KEY, parsed.lastStudy);
+        setCurrentLessonIdState(parsed.lastStudy.lessonId);
       }
       showToast("Progresso importado neste navegador com sucesso!");
     } catch (err) {
@@ -499,6 +749,24 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         reloadData: loadData,
         globalSearchTarget,
         navigateToSearchResult,
+        flashcardSrs,
+        rateFlashcard,
+        resetFlashcardSrs,
+        favoriteLessons,
+        toggleFavoriteLesson,
+        favoriteQuestions,
+        toggleFavoriteQuestion,
+        lessonNotes,
+        setLessonNote,
+        examHistory,
+        recordExamAttempt,
+        clearExamHistory,
+        lastStudy,
+        markLastStudy,
+        lessonJumpTarget,
+        openLessonBlock,
+        simuladoQuickIntent,
+        openSimuladoWithIntent,
       }}
     >
       {children}

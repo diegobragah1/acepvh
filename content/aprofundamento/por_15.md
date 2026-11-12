@@ -39,7 +39,7 @@ Qual comparação explica a grafia atual de heroico e herói?
 - C) Herói perdeu o acento pelo Acordo.
 - D) Acentos não dependem de tonicidade.
 
-**Gabarito: B.** O tratamento dos ditongos abertos difere nesses grupos. Heroico perdeu o acento como paroxítona; herói o conserva como oxítona.
+**Gabarito: B.** Gabarito: B. O Novo Acordo Ortográfico aboliu o acento dos ditongos abertos éi/ói apenas nas paroxítonas (“he-roi-co”, “i-dei-a”, “ji-boi-a”), mantendo-o nas oxítonas (“he-rói”, “pa-péis”). Erro da A: nenhuma das duas tem sílaba tônica antepenúltima; erro da C: “herói” conservou o acento por ser oxítona; erro da D: posição da sílaba tônica é critério basilar da acentuação.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Qual par distingue presente de passado por acento diferencial?
 - C) Vem/vêm.
 - D) Por/pôr.
 
-**Gabarito: A.** Pode é presente; pôde é pretérito perfeito. Tem/têm e vem/vêm distinguem número; por/pôr distingue preposição e verbo.
+**Gabarito: A.** Gabarito: A. “Pode” (presente do indicativo) vs. “pôde” (pretérito perfeito do indicativo) é o diferencial de tempo verbal obrigatório mantido pelo Acordo. Erro da B e C: “tem/têm” e “vem/vêm” marcam diferença de número (singular vs. plural), não tempo; erro da D: “por/pôr” diferencia classe gramatical (preposição vs. verbo).
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ As palavras “saúde”, “baú” e “açaí” recebem acento gráfico pela
 - C) Serem todas oxítonas terminadas nas vogais a, e ou o.
 - D) Conterem ditongo aberto na penúltima sílaba.
 
-**Gabarito: A.** Em sa-ú-de (paroxítona), ba-ú e a-ça-í (oxítonas), o acento incide sobre o “i” ou “u” tônico em hiato com a vogal anterior, regra especial que independe de a palavra ter duas ou três sílabas.
+**Gabarito: A.** Gabarito: A. Na regra especial dos hiatos, “i” e “u” tônicos como segunda vogal de hiato (sa-ú-de, ba-ú, a-ça-í), sozinhos ou com -s, levam acento (salvo antes de -nh ou após ditongo em paroxítona). Erro da B: “saúde” é paroxítona com hiato, enquanto “baú” e “açaí” são oxítonas; erro da C: terminam em u/i, não em a/e/o; erro da D: formam hiato, não ditongo.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Assinale a alternativa em que todas as formas verbais e nominais estão grafadas
 - C) A assembléia comunitária discutiu a idéia de mutirão contra a jibóia.
 - D) O agente pôr-se-á em campo assim que ele pôde conferir o roteiro.
 
-**Gabarito: A.** Nos derivados oxítonos de ter e vir (deter, conter, manter, intervir), a 3ª pessoa do singular leva acento agudo (detém, contém, mantém) e a 3ª pessoa do plural leva circunflexo com um único “e” (detêm, contêm, mantêm). Assembleia, ideia e jiboia perderam o acento.
+**Gabarito: A.** Gabarito: A. Derivados de “ter” recebem acento agudo na 3ª p. sing. (“ele mantém”) e circunflexo com um único “e” na 3ª p. pl. (“eles detêm, contêm, mantêm”). Erro da B: duplica incorretamente a letra “e” (*detêem); erro da C: mantém acentos abolidos em ditongos abertos paroxítonos (“assembleia, ideia, jiboia”); erro da D: emprega incorretamente “pôde” (passado) na correlação futura.
 
 ## Flashcards
 

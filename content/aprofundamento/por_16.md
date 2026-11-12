@@ -39,7 +39,7 @@ Complete: “Não sabemos ___ a visita foi adiada.”
 - C) por que
 - D) porque
 
-**Gabarito: C.** A oração contém pergunta indireta equivalente a por qual razão. Não há substantivo determinado nem expressão tônica final.
+**Gabarito: C.** Gabarito: C. Trata-se de frase interrogativa indireta (“por qual razão/motivo a visita foi adiada”), exigindo “por que” separado e sem acento. Erro da A: “porquê” é substantivo precedido de artigo/determinante (“o porquê”); erro da B: “por quê” exige pausa final/ponto imediatamente após si; erro da D: “porque” é conjunção explicativa/causal.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Qual grafia mostra que o macete “vogais iguais sempre exigem hífen” tem lim
 - C) Anti-inflamatório.
 - D) Contra-ataque.
 
-**Gabarito: B.** Coobrigação se escreve sem hífen, apesar do encontro de o com o. É necessário considerar as regras específicas do prefixo co-.
+**Gabarito: B.** Gabarito: B. O prefixo “co-” une-se sem hífen ao segundo elemento mesmo quando inicia por “o” (“coobrigação”, “coordenar”, “cooperar”). Erro da A, C e D: seguem a regra geral de separação por hífen entre vogais idênticas (micro-ondas, anti-inflamatório, contra-ataque).
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Assinale a alternativa em que as formas “por que / por quê / porque / porquê
 - C) Porquê a vistoria atrasou? Atrasou por que choveu forte pela manhã.
 - D) Eles reclamaram sem explicar por que, já que desconheciam o porque da norma.
 
-**Gabarito: A.** Em “os caminhos por que passamos”, equivale a “pelos quais” (separado sem acento); em “o porquê da demora”, vem substantivado pelo artigo “o” (junto com acento); em “porque o aviso atrasou”, introduz causa/explicação (junto sem acento).
+**Gabarito: A.** Gabarito: A. “Por que” = pelos quais (relativo); “o porquê” = o motivo (substantivo); “porque” = pois/já que (conjunção causal). Erro da B: deveria ser “por que” (interrogativa indireta) e “o porquê” (substantivo); erro da C: em início de pergunta usa-se “Por que”, e na resposta explicativa “porque”; erro da D: antes de vírgula/pausa forte exige “por quê”, e após “o” exige “porquê”.
 
 ### Questão 4
 
@@ -72,7 +72,18 @@ Complete corretamente as lacunas: “___ chover agora, cumpriremos a meta; mante
 - C) Se não / se não / há
 - D) Senão / senão / a
 
-**Gabarito: A.** Na primeira lacuna, “Se não chover” equivale a “Caso não chova” (condicional + negação); na segunda, “senão” equivale a “do contrário”; na terceira, “há duas semanas” indica tempo decorrido.
+**Gabarito: A.** Gabarito: A. 1ª lacuna: “Se não chover” = caso não chova (condição negativa); 2ª lacuna: “senão” = do contrário / caso contrário; 3ª lacuna: “há duas semanas” = tempo decorrido no passado (verbo haver). Erro da B e D: trocam “Se não” condicional por “senão” e usam “a” futuro para passado; erro da C: repete “se não” onde o sentido é “do contrário” (“senão”).
+
+### Questão 5
+
+Assinale a alternativa em que TODAS as palavras destacadas estão grafadas corretamente segundo o Acordo Ortográfico vigente e o VOLP:
+
+- A) A sub-região recebeu veículo antirrábico, estoque de super-homem não faltou e a micro-organização funcionou em coedição.
+- B) O agente trabalhou na auto-escola e no posto infra-estruturado com equipe anti-social.
+- C) O supermercado vendeu microondas e material extra-escolar para pré escola.
+- D) A subsecretaria fez re-edição da cartilha pós operatória contra o mosquito.
+
+**Gabarito: A.** Gabarito: A. “Sub-região” (sub + r = hífen), “antirrábico” (vogal + r = dobra rr), “super-homem” (antes de h = hífen) e “coedição” (co- junta sem hífen). Erro da B: vogais diferentes juntam (“autoescola”, “infraestruturado”) e vogal + s dobra (“antissocial”); erro da C: vogais iguais separam (“micro-ondas”), vogais diferentes juntam (“extraescolar”) e prefixo tônico “pré-” exige hífen (“pré-escola”); erro da D: “re-” junta (“reedição”) e “pós-” exige hífen (“pós-operatória”).
 
 ## Flashcards
 

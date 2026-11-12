@@ -22,10 +22,10 @@ Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. C
 
 | Conceito de Probabilidade / Sequência | Fórmula / Regra Prática | Exemplo Rápido | Ponto de Atenção |
 | --- | --- | --- | --- |
-| **Probabilidade Clássica (Laplace)** | $P(A) = rac{	ext{Casos Favoráveis } n(A)}{	ext{Casos Possíveis } n(Omega)}$ | $0 le P(A) le 1$; evento complementar: $P(ar{A}) = 1 - P(A)$. | Só vale diretamente se os eventos elementares de $Omega$ forem **equiprováveis**. |
-| **Probabilidade da União ("OU")** | $P(A cup B) = P(A) + P(B) - P(A cap B)$ | Se $A$ e $B$ são mutuamente exclusivos ($A cap B = emptyset$), soma-se direto. | Nunca esqueça de subtrair a interseção $P(A cap B)$ quando puderem ocorrer juntos. |
-| **Probabilidade Condicional ("Sabendo que...")** | $P(A mid B) = rac{P(A cap B)}{P(B)} = rac{n(A cap B)}{n(B)}$ | Restrinja o denominador diretamente ao universo da condição dada ($B$). | Reduzir o denominador a $n(B)$ é mais rápido que aplicar fração sobre fração. |
-| **Extrações Sucessivas ("E" — Sem Reposição)** | $P(A cap B) = P(A) 	imes P(B mid A)$ | A cada retirada sem reposição, subtraia $1$ do total no denominador. | Com reposição, o denominador permanece constante. |
+| **Probabilidade Clássica (Laplace)** | $P(A) = \frac{\text{Casos Favoráveis } n(A)}{\text{Casos Possíveis } n(\Omega)}$ | $0 \le P(A) \le 1$; evento complementar: $P(\bar{A}) = 1 - P(A)$. | Só vale diretamente se os eventos elementares de $\Omega$ forem **equiprováveis**. |
+| **Probabilidade da União ("OU")** | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ | Se $A$ e $B$ são mutuamente exclusivos ($A \cap B = \emptyset$), soma-se direto. | Nunca esqueça de subtrair a interseção $P(A \cap B)$ quando puderem ocorrer juntos. |
+| **Probabilidade Condicional ("Sabendo que...")** | $P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{n(A \cap B)}{n(B)}$ | Restrinja o denominador diretamente ao universo da condição dada ($B$). | Reduzir o denominador a $n(B)$ é mais rápido que aplicar fração sobre fração. |
+| **Extrações Sucessivas ("E" — Sem Reposição)** | $P(A \cap B) = P(A) \times P(B \mid A)$ | A cada retirada sem reposição, subtraia $1$ do total no denominador. | Com reposição, o denominador permanece constante. |
 | **Ciclos de Calendário e Sequências** | Divida o deslocamento pelo tamanho do ciclo $T$ e olhe o **resto $r$**. | Dias da semana ($T=7$): se resto $= 0$, cai no mesmo dia da semana. | Diferencie *"daqui a $N$ dias"* ($+N$) de *"o $N$-ésimo termo da sequência"* (onde o 1º termo equivale a resto $1$). |
 
 ## Exercícios autorais comentados
@@ -39,7 +39,7 @@ Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. C
 - C) 2/5
 - D) 1/2
 
-**Gabarito: A.** 3/5×2/4=3/10. 9/25 seria o cálculo com reposição e independência sob as hipóteses adequadas.
+**Gabarito: A.** Gabarito: A. Sem reposição: 1ª retirada = 3/5; restando 2 azuis em 4 fichas, 2ª retirada = 2/4. Produto: (3/5) × (2/4) = 6/20 = 3/10. Erro da B: 9/25 = (3/5) × (3/5) é a probabilidade COM reposição; erro da C: 2/5 resulta de ignorar a segunda extração ou somar probabilidades incorretamente; erro da D: 1/2 é a chance apenas na 2ª retirada após sair uma azul.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. C
 - C) Quarta-feira.
 - D) Quinta-feira.
 
-**Gabarito: C.** 30=4×7+2. Após quatro semanas permanece segunda; mais dois dias chega-se à quarta. Não se inclui hoje como um dia já transcorrido.
+**Gabarito: C.** Gabarito: C. Dividindo 30 por 7 (dias da semana): 30 = 7 × 4 + 2 (4 semanas exatas e resto 2). Partindo de segunda-feira + 2 dias: terça (1), quarta-feira (2). Erro da A: equivaleria a múltiplo exato de 7 (28 ou 35 dias); erro da B: corresponde a resto 1 (29 dias) ou contar hoje como dia 1; erro da D: corresponde a resto 3 (31 dias).
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. C
 - C) 1/4 (ou 2/8).
 - D) 3/5 (ou 12/20).
 
-**Gabarito: A.** Como foi informado que a lâmina pertence ao Bairro A, o espaço amostral reduzido passa a ser as 12 lâminas do Bairro A, entre as quais há 4 positivas: P(Positiva | Bairro A) = 4/12 = 1/3.
+**Gabarito: A.** Gabarito: A. Sabendo que veio do Bairro A, o espaço amostral reduz-se às 12 lâminas desse bairro, dentre as quais 4 são positivas: P(Positiva | Bairro A) = 4/12 = 1/3. Erro da B: 6/20 = 3/10 é a probabilidade incondicional em todo o lote; erro da C: 2/8 = 1/4 refere-se ao Bairro B; erro da D: 12/20 = 3/5 é apenas a proporção de lâminas do Bairro A.
 
 ### Questão 4
 
@@ -72,7 +72,18 @@ Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. C
 - C) Equipe Eco.
 - D) Equipe Bravo.
 
-**Gabarito: A.** Dividindo a posição 143 pelo tamanho do ciclo (5): 143 = 5 × 28 + 3 (quociente 28 e resto 3). O resto 1 corresponde a Alfa, resto 2 a Bravo e resto 3 corresponde à 3ª posição do ciclo: Equipe Charlie.
+**Gabarito: A.** Gabarito: A. Ciclo de tamanho 5: 143 ÷ 5 = 28 ciclos completos e resto 3. Resto 1 = Alfa, resto 2 = Bravo, resto 3 = 3ª equipe (Charlie). Erro da B: seria resto 1 (141º dia); erro da C: seria resto 0 / divisível por 5 (140º ou 145º dia); erro da D: seria resto 2 (142º dia).
+
+### Questão 5
+
+[Autoral] Em uma caixa de coleta de campo há exatamente 4 frascos fechados rotulados para Dengue, 5 para Malária e 3 para Leishmaniose, indistinguíveis ao tato. Quantos frascos no MÍNIMO o agente precisa retirar às cegas para ter CERTEZA ABSOLUTA de obter pelo menos 2 frascos de Malária?
+
+- A) 9 frascos.
+- B) 2 frascos.
+- C) 7 frascos.
+- D) 11 frascos.
+
+**Gabarito: A.** Gabarito: A. Pelo Princípio da Casa dos Pombos (pior caso): o agente pode retirar todos os 4 de Dengue e todos os 3 de Leishmaniose antes de pegar qualquer um de Malária (4 + 3 = 7 frascos sem Malária). Os próximos 2 frascos retirados serão obrigatoriamente de Malária: 7 + 2 = 9 frascos. Erro da B: 2 é apenas o melhor caso possível, não garantia; erro da C: 7 só garante pegar zero ou um de cada no pior caso; erro da D: 11 garante pelo menos 2 de um tipo qualquer apenas se somar quase tudo sem critério específico.
 
 ## Flashcards
 

@@ -11,6 +11,9 @@ export interface AuditIssue {
 export function auditContent(data: AppData) {
   const issues: AuditIssue[] = [];
   const ids = new Set<string>();
+  const nums = new Set<number>();
+  const seenStems = new Map<string, string>();
+  const seenFlashcardFronts = new Map<string, string>();
   const sources = new Set((data.sources || []).map(s => s.num));
   let questions = 0, flashcards = 0, blocks = 0;
   const categories: Record<string, number> = {};
@@ -27,6 +30,12 @@ export function auditContent(data: AppData) {
   for (const lesson of data.lessons || []) {
     if (!lesson.id || ids.has(lesson.id)) add('error', 'lesson-id', 'Identificador de aula ausente ou duplicado.', lesson.id);
     ids.add(lesson.id);
+    if (typeof lesson.num === 'number') {
+      if (nums.has(lesson.num)) {
+        add('error', 'lesson-num-duplicate', `Numeração de aula duplicada (${lesson.num}).`, lesson.id);
+      }
+      nums.add(lesson.num);
+    }
     categories[lesson.cat] = (categories[lesson.cat] || 0) + 1;
     const refs = Array.isArray(lesson.sources) ? lesson.sources : lesson.sources?.value || [];
     if (!refs.length) add('warning', 'sources-missing', 'Vincular fontes e registrar página/seção da fundamentação.', lesson.id);
@@ -59,6 +68,15 @@ export function auditContent(data: AppData) {
         if (!hasFourOptions || !ansInRange || !hasComment || !hasStem || !hasNonEmptyOptions) {
           add('error', 'question-invalid', `${label}, questão ${qi + 1}: conferir enunciado, quatro alternativas, índice e comentário.`, lesson.id);
         }
+        if (hasStem) {
+          const normStem = q.q.trim().replace(/\s+/g, ' ').toLowerCase();
+          const prevOwner = seenStems.get(normStem);
+          if (prevOwner) {
+            add('error', 'question-duplicate', `${label}, questão ${qi + 1}: enunciado duplicado (já aparece em ${prevOwner}).`, lesson.id);
+          } else {
+            seenStems.set(normStem, `${lesson.id} (${label}, Q${qi + 1})`);
+          }
+        }
       }
       for (const [fi, fc] of (block.flashcards || []).entries()) {
         flashcards++;
@@ -66,6 +84,14 @@ export function auditContent(data: AppData) {
         const fcBack = (fc.back ?? fc.b ?? '').trim();
         if (!fcFront || !fcBack) {
           add('error', 'flashcard-invalid', `${label}, flashcard ${fi + 1}: frente ou verso vazio.`, lesson.id);
+        } else {
+          const normFront = fcFront.replace(/\s+/g, ' ').toLowerCase();
+          const prevFcOwner = seenFlashcardFronts.get(normFront);
+          if (prevFcOwner) {
+            add('error', 'flashcard-duplicate', `${label}, flashcard ${fi + 1}: frente duplicada (já aparece em ${prevFcOwner}).`, lesson.id);
+          } else {
+            seenFlashcardFronts.set(normFront, `${lesson.id} (${label}, FC${fi + 1})`);
+          }
         }
       }
     }

@@ -1,58 +1,120 @@
-import React, { useState, useMemo, useCallback, useEffect } from 'react';
+import React, { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { useApp } from '../context/AppContext';
-import { getCatBadgeClass } from '../utils/status';
-import { renderMathInHtml } from '../utils/math';
+import type { QuestionDifficulty } from '../types';
 import { questionIdentity } from '../utils/questionIdentity';
-import { FlashcardGrid } from '../features/flashcards/FlashcardGrid';
+import { getCanonicalFlashcardKey, getFlashcardSrsStatus, isFlashcardDue } from '../utils/srs';
+import {
+  QUESTIONS_PER_PAGE,
+  type FlatFlashcard,
+  type FlatQuestion,
+  type QuestionStatusFilter,
+  type SimuladoSubMode,
+  type SrsFilterMode,
+} from '../utils/simulado';
+import { QuestionBankPanel } from '../features/questions/QuestionBankPanel';
+import { OfficialExamPanel } from '../features/questions/OfficialExamPanel';
+import { CustomExamPanel } from '../features/questions/CustomExamPanel';
+import { FlashcardDeckPanel } from '../features/flashcards/FlashcardDeckPanel';
 
-interface FlatQuestion {
-  qid: string;
-  lessonId: string;
-  lessonNum: number;
-  lessonTitle: string;
-  cat: string;
-  catName: string;
-  blockTitle: string;
-  q: string;
-  options: string[];
-  ans: number;
-  comment: string;
+const SUBMODE_STORAGE_KEY = 'ace_semusa_2026_simulado_submode_v1';
+
+function loadInitialSubMode(): SimuladoSubMode {
+  if (typeof window === 'undefined') return 'QUESTOES';
+  try {
+    const saved = window.sessionStorage.getItem(SUBMODE_STORAGE_KEY);
+    if (
+      saved === 'QUESTOES' ||
+      saved === 'PROVA_OFICIAL' ||
+      saved === 'SIMULADO_CUSTOM' ||
+      saved === 'FLASHCARDS'
+    ) {
+      return saved;
+    }
+  } catch {
+    // Ignore storage access errors
+  }
+  return 'QUESTOES';
 }
-
-interface FlatFlashcard {
-  fcid: string;
-  lessonId: string;
-  lessonNum: number;
-  lessonTitle: string;
-  cat: string;
-  f: string;
-  b: string;
-}
-
-const QUESTIONS_PER_PAGE = 15;
 
 export const Tab3Simulado: React.FC = () => {
-  const { appData, simAnswers, setSimAnswer, resetSimAnswers, globalSearchTarget } = useApp();
+  const {
+    appData,
+    simAnswers,
+    setSimAnswer,
+    resetSimAnswers,
+    lessonAnswers,
+    favoriteQuestions,
+    toggleFavoriteQuestion,
+    flashcardSrs,
+    rateFlashcard,
+    resetFlashcardSrs,
+    recordExamAttempt,
+    globalSearchTarget,
+    simuladoQuickIntent,
+    showToast,
+  } = useApp();
 
-  const [subMode, setSubMode] = useState<'QUESTOES' | 'PROVA_OFICIAL' | 'FLASHCARDS'>('QUESTOES');
+  const [subMode, setSubModeState] = useState<SimuladoSubMode>(loadInitialSubMode);
   const [catFilter, setCatFilter] = useState<string>('ALL');
   const [lessonFilter, setLessonFilter] = useState<string>('ALL');
+  const [questionStatusFilter, setQuestionStatusFilter] = useState<QuestionStatusFilter>('ALL');
+  const [difficultyFilter, setDifficultyFilter] = useState<'ALL' | QuestionDifficulty>('ALL');
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [page, setPage] = useState<number>(1);
+  const [customIntent, setCustomIntent] = useState<{ lessonId: string; timestamp: number } | null>(null);
+
   const [flippedGlobal, setFlippedGlobal] = useState<Record<string, boolean>>({});
-  const [examSeed, setExamSeed] = useState<number>(1);
-  const [examAnswers, setExamAnswers] = useState<Record<string, number>>({});
-  const [examSubmitted, setExamSubmitted] = useState<boolean>(false);
+  const [srsFilter, setSrsFilter] = useState<SrsFilterMode>('ALL');
+  const [fcDisplayMode, setFcDisplayMode] = useState<'GRID' | 'STACK'>('GRID');
+
+  const lastIntentTsRef = useRef<number>(0);
+
+  const setSubMode = useCallback((next: SimuladoSubMode) => {
+    setSubModeState(next);
+    try {
+      window.sessionStorage.setItem(SUBMODE_STORAGE_KEY, next);
+    } catch {
+      // Ignore storage access errors
+    }
+  }, []);
 
   useEffect(() => {
     if (globalSearchTarget && globalSearchTarget.type === 'questao') {
       setSubMode('QUESTOES');
       setCatFilter('ALL');
       setLessonFilter(globalSearchTarget.lessonId || 'ALL');
+      setQuestionStatusFilter('ALL');
+      setDifficultyFilter('ALL');
       setSearchTerm(globalSearchTarget.query || '');
       setPage(1);
     }
-  }, [globalSearchTarget]);
+  }, [globalSearchTarget, setSubMode]);
+
+  useEffect(() => {
+    if (!simuladoQuickIntent) return;
+    if (simuladoQuickIntent.timestamp === lastIntentTsRef.current) return;
+    if (Date.now() - simuladoQuickIntent.timestamp > 8000) return;
+
+    lastIntentTsRef.current = simuladoQuickIntent.timestamp;
+    if (simuladoQuickIntent.subMode) {
+      setSubMode(simuladoQuickIntent.subMode);
+    }
+    setCatFilter(simuladoQuickIntent.cat || 'ALL');
+    setLessonFilter(simuladoQuickIntent.lessonId || 'ALL');
+    setQuestionStatusFilter(simuladoQuickIntent.statusFilter || 'ALL');
+    setDifficultyFilter('ALL');
+    setSearchTerm('');
+    if (simuladoQuickIntent.srsFilter) {
+      setSrsFilter(simuladoQuickIntent.srsFilter);
+    }
+    if (simuladoQuickIntent.subMode === 'SIMULADO_CUSTOM' && simuladoQuickIntent.lessonId) {
+      setCustomIntent({
+        lessonId: simuladoQuickIntent.lessonId,
+        timestamp: simuladoQuickIntent.timestamp,
+      });
+    }
+    setPage(1);
+  }, [simuladoQuickIntent, setSubMode]);
 
   const lessons = appData?.lessons || [];
 
@@ -65,6 +127,7 @@ export const Tab3Simulado: React.FC = () => {
         (b.questions || []).forEach((q, qIdx) => {
           qList.push({
             qid: questionIdentity(`${l.id}_${bIdx}_${qIdx}`, q),
+            lessonQid: questionIdentity(`${l.id}_b${bIdx}_q${qIdx}`, q),
             lessonId: l.id,
             lessonNum: l.num,
             lessonTitle: l.title,
@@ -75,12 +138,17 @@ export const Tab3Simulado: React.FC = () => {
             options: q.options || [],
             ans: q.ans,
             comment: q.comment || '',
+            difficulty: q.difficulty,
+            questionType: q.questionType,
+            sourceRef: q.sourceRef,
           });
         });
 
         (b.flashcards || []).forEach((fc, fcIdx) => {
+          const srsKey = getCanonicalFlashcardKey(l.id, bIdx, fcIdx);
           fcList.push({
-            fcid: `${l.id}_fc_${bIdx}_${fcIdx}`,
+            fcid: srsKey,
+            srsKey,
             lessonId: l.id,
             lessonNum: l.num,
             lessonTitle: fc.lessonTitle || `Aula ${String(l.num).padStart(2, '0')} — ${l.title}`,
@@ -95,53 +163,31 @@ export const Tab3Simulado: React.FC = () => {
     return { allQuestions: qList, allFlashcards: fcList };
   }, [lessons]);
 
-  const officialExamQuestions = useMemo(() => {
-    const pickByCat = (cat: string, count: number) => {
-      const pool = allQuestions.filter((q) => q.cat === cat);
-      const copy = [...pool];
-      for (let i = copy.length - 1; i > 0; i--) {
-        const j = Math.abs((i * 1103515245 + examSeed * 12345) % (i + 1));
-        [copy[i], copy[j]] = [copy[j], copy[i]];
-      }
-      return copy.slice(0, count);
-    };
-    return [
-      ...pickByCat('esp', 15),
-      ...pickByCat('por', 10),
-      ...pickByCat('rlm', 10),
-      ...pickByCat('leg', 10),
-      ...pickByCat('atu', 5),
-    ];
-  }, [allQuestions, examSeed]);
-
-  const examScore = useMemo(() => {
-    let answered = 0;
-    let correct = 0;
-    const byCat: Record<string, { total: number; hits: number }> = {
-      esp: { total: 15, hits: 0 },
-      por: { total: 10, hits: 0 },
-      rlm: { total: 10, hits: 0 },
-      leg: { total: 10, hits: 0 },
-      atu: { total: 5, hits: 0 },
-    };
-    officialExamQuestions.forEach((q) => {
-      const ans = examAnswers[q.qid];
-      if (ans !== undefined) {
-        answered += 1;
-        if (ans === q.ans) {
-          correct += 1;
-          if (byCat[q.cat]) byCat[q.cat].hits += 1;
-        }
-      }
-    });
-    const points = correct * 2;
-    return { answered, correct, points, approved: points >= 50, byCat };
-  }, [officialExamQuestions, examAnswers]);
+  const getEffectiveAnswer = useCallback(
+    (item: FlatQuestion): number | undefined => {
+      const s = simAnswers[item.qid];
+      return s !== undefined ? s : lessonAnswers[item.lessonQid];
+    },
+    [simAnswers, lessonAnswers]
+  );
 
   const filteredQuestions = useMemo(() => {
     return allQuestions.filter((item) => {
       if (catFilter !== 'ALL' && item.cat !== catFilter) return false;
       if (lessonFilter !== 'ALL' && item.lessonId !== lessonFilter) return false;
+      if (difficultyFilter !== 'ALL' && item.difficulty !== difficultyFilter) return false;
+
+      const userAns = getEffectiveAnswer(item);
+      if (questionStatusFilter === 'WRONG') {
+        if (userAns === undefined || userAns === item.ans) return false;
+      } else if (questionStatusFilter === 'CORRECT') {
+        if (userAns === undefined || userAns !== item.ans) return false;
+      } else if (questionStatusFilter === 'UNANSWERED') {
+        if (userAns !== undefined) return false;
+      } else if (questionStatusFilter === 'FAVORITES') {
+        if (!favoriteQuestions.includes(item.qid)) return false;
+      }
+
       if (searchTerm.trim()) {
         const s = searchTerm.toLowerCase();
         return (
@@ -152,9 +198,18 @@ export const Tab3Simulado: React.FC = () => {
       }
       return true;
     });
-  }, [allQuestions, catFilter, lessonFilter, searchTerm]);
+  }, [
+    allQuestions,
+    catFilter,
+    lessonFilter,
+    difficultyFilter,
+    questionStatusFilter,
+    searchTerm,
+    favoriteQuestions,
+    getEffectiveAnswer,
+  ]);
 
-  const filteredFlashcards = useMemo(() => {
+  const srsBaseCards = useMemo(() => {
     return allFlashcards.filter((item) => {
       if (catFilter !== 'ALL' && item.cat !== catFilter) return false;
       if (lessonFilter !== 'ALL' && item.lessonId !== lessonFilter) return false;
@@ -170,11 +225,41 @@ export const Tab3Simulado: React.FC = () => {
     });
   }, [allFlashcards, catFilter, lessonFilter, searchTerm]);
 
+  const srsCounts = useMemo(() => {
+    const now = Date.now();
+    let due = 0;
+    let hard = 0;
+    let fresh = 0;
+    let known = 0;
+    srsBaseCards.forEach((fc) => {
+      const entry = flashcardSrs[fc.srsKey];
+      const st = getFlashcardSrsStatus(entry);
+      if (isFlashcardDue(entry, now)) due += 1;
+      if (st === 'hard') hard += 1;
+      else if (st === 'new') fresh += 1;
+      else if (st === 'known') known += 1;
+    });
+    return { total: srsBaseCards.length, due, hard, fresh, known };
+  }, [srsBaseCards, flashcardSrs]);
+
+  const filteredFlashcards = useMemo(() => {
+    const now = Date.now();
+    return srsBaseCards.filter((fc) => {
+      const entry = flashcardSrs[fc.srsKey];
+      const st = getFlashcardSrsStatus(entry);
+      if (srsFilter === 'DUE') return isFlashcardDue(entry, now);
+      if (srsFilter === 'HARD') return st === 'hard';
+      if (srsFilter === 'NEW') return st === 'new';
+      if (srsFilter === 'KNOWN') return st === 'known';
+      return true;
+    });
+  }, [srsBaseCards, flashcardSrs, srsFilter]);
+
   const stats = useMemo(() => {
     let answered = 0;
     let correct = 0;
     filteredQuestions.forEach((q) => {
-      const userAns = simAnswers[q.qid];
+      const userAns = getEffectiveAnswer(q);
       if (userAns !== undefined) {
         answered += 1;
         if (userAns === q.ans) correct += 1;
@@ -182,7 +267,7 @@ export const Tab3Simulado: React.FC = () => {
     });
     const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
     return { answered, correct, wrong: answered - correct, pct };
-  }, [filteredQuestions, simAnswers]);
+  }, [filteredQuestions, getEffectiveAnswer]);
 
   const handleToggleFlip = useCallback((cardKey: string) => {
     setFlippedGlobal((prev) => ({ ...prev, [cardKey]: !prev[cardKey] }));
@@ -197,16 +282,16 @@ export const Tab3Simulado: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      {/* Top Controls & Scoreboard */}
-      <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-4">
+      {/* Top Controls & Submodes */}
+      <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h2 className="text-lg sm:text-xl font-extrabold text-slate-900">
-              ✍️ Centro de Treinamento — Questões Comentadas & Flashcards 3D
+              ✍️ Centro de Treinamento — Questões Comentadas, Simulados &amp; SRS
             </h2>
             <p className="text-xs sm:text-sm text-slate-600">
-              Banco unificado das 49 aulas ({allQuestions.length} questões de múltipla escolha A–D e{' '}
-              {allFlashcards.length} flashcards interativos).
+              Banco unificado das 49 aulas ({allQuestions.length} questões objetivas A–D e{' '}
+              {allFlashcards.length} flashcards com revisão espaçada).
             </p>
           </div>
 
@@ -214,89 +299,158 @@ export const Tab3Simulado: React.FC = () => {
             <button
               type="button"
               onClick={() => setSubMode('QUESTOES')}
-              className={`px-3.5 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
+              className={`px-3 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
                 subMode === 'QUESTOES'
                   ? 'bg-teal-700 text-white shadow-sm'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
               }`}
             >
-              📝 Banco Completo ({filteredQuestions.length})
+              📝 Banco ({filteredQuestions.length})
             </button>
             <button
               type="button"
               onClick={() => setSubMode('PROVA_OFICIAL')}
-              className={`px-3.5 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
+              className={`px-3 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
                 subMode === 'PROVA_OFICIAL'
                   ? 'bg-amber-500 text-slate-950 shadow-sm ring-2 ring-amber-300'
                   : 'bg-amber-50 text-amber-900 border border-amber-300 hover:bg-amber-100'
               }`}
             >
-              🏆 Simulado Oficial IBGP (50 Questões / 100 pts)
+              🏆 Simulado Oficial (50Q)
+            </button>
+            <button
+              type="button"
+              onClick={() => setSubMode('SIMULADO_CUSTOM')}
+              className={`px-3 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
+                subMode === 'SIMULADO_CUSTOM'
+                  ? 'bg-sky-700 text-white shadow-sm'
+                  : 'bg-sky-50 text-sky-900 border border-sky-200 hover:bg-sky-100'
+              }`}
+            >
+              🎛️ Personalizado
             </button>
             <button
               type="button"
               onClick={() => setSubMode('FLASHCARDS')}
-              className={`px-3.5 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
+              className={`px-3 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
                 subMode === 'FLASHCARDS'
                   ? 'bg-indigo-700 text-white shadow-sm'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
               }`}
             >
-              🃏 Deck de Flashcards ({filteredFlashcards.length})
+              🃏 Flashcards SRS ({srsCounts.due > 0 ? `${srsCounts.due} p/ hoje` : filteredFlashcards.length})
             </button>
           </div>
         </div>
 
-        {/* Filters */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 border-t border-slate-100">
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={(e) => {
-              setSearchTerm(e.target.value);
-              setPage(1);
-            }}
-            placeholder="Pesquisar por tema, artigo, doença ou palavra-chave..."
-            className="px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 focus:outline-none focus:border-teal-600"
-          />
+        {(subMode === 'QUESTOES' || subMode === 'FLASHCARDS') && (
+          <div className="space-y-3 pt-2 border-t border-slate-100">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 min-w-0">
+              <input
+                type="text"
+                aria-label="Pesquisar questões ou flashcards"
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setPage(1);
+                }}
+                placeholder="Pesquisar por tema, artigo, doença ou palavra-chave..."
+                className="w-full min-w-0 max-w-full px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 focus:outline-none focus:border-teal-600"
+              />
 
-          <select
-            value={catFilter}
-            onChange={(e) => {
-              setCatFilter(e.target.value);
-              setLessonFilter('ALL');
-              setPage(1);
-            }}
-            className="px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-semibold text-slate-800"
-          >
-            <option value="ALL">Todas as Disciplinas (5 Matérias)</option>
-            <option value="esp">Conhecimentos Específicos ACE (Peso 2)</option>
-            <option value="leg">Legislação Municipal, SUS e CF/88 (Peso 2)</option>
-            <option value="por">Língua Portuguesa (Peso 2)</option>
-            <option value="rlm">Raciocínio Lógico-Matemático (Peso 2)</option>
-            <option value="atu">Conhecimentos Gerais e Hist/Geo RO (Peso 2)</option>
-          </select>
+              <select
+                aria-label="Filtrar por disciplina"
+                value={catFilter}
+                onChange={(e) => {
+                  setCatFilter(e.target.value);
+                  setLessonFilter('ALL');
+                  setPage(1);
+                }}
+                className="w-full min-w-0 max-w-full px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-semibold text-slate-800"
+              >
+                <option value="ALL">Todas as Disciplinas (5 Matérias)</option>
+                <option value="esp">Conhecimentos Específicos ACE (Peso 2)</option>
+                <option value="leg">Legislação Municipal, SUS e CF/88 (Peso 2)</option>
+                <option value="por">Língua Portuguesa (Peso 2)</option>
+                <option value="rlm">Raciocínio Lógico-Matemático (Peso 2)</option>
+                <option value="atu">Conhecimentos Gerais e Hist/Geo RO (Peso 2)</option>
+              </select>
 
-          <select
-            value={lessonFilter}
-            onChange={(e) => {
-              setLessonFilter(e.target.value);
-              setPage(1);
-            }}
-            className="px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-semibold text-slate-800"
-          >
-            <option value="ALL">Todas as 49 Aulas</option>
-            {lessons
-              .filter((l) => catFilter === 'ALL' || l.cat === catFilter)
-              .map((l) => (
-                <option key={l.id} value={l.id}>
-                  Aula {String(l.num).padStart(2, '0')} — {l.title}
-                </option>
-              ))}
-          </select>
-        </div>
+              <select
+                aria-label="Filtrar por aula"
+                value={lessonFilter}
+                onChange={(e) => {
+                  setLessonFilter(e.target.value);
+                  setPage(1);
+                }}
+                className="w-full min-w-0 max-w-full px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-semibold text-slate-800"
+              >
+                <option value="ALL">Todas as 49 Aulas</option>
+                {lessons
+                  .filter((l) => catFilter === 'ALL' || l.cat === catFilter)
+                  .map((l) => (
+                    <option key={l.id} value={l.id}>
+                      Aula {String(l.num).padStart(2, '0')} — {l.title}
+                    </option>
+                  ))}
+              </select>
+            </div>
 
-        {/* Score Bar */}
+            {subMode === 'QUESTOES' && (
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center gap-1.5">
+                  {(
+                    [
+                      { id: 'ALL', label: 'Todas' },
+                      { id: 'WRONG', label: '❌ Caderno de Erros' },
+                      { id: 'UNANSWERED', label: '⬜ Não respondidas' },
+                      { id: 'CORRECT', label: '✅ Acertadas' },
+                      { id: 'FAVORITES', label: `★ Favoritas (${favoriteQuestions.length})` },
+                    ] as const
+                  ).map((opt) => (
+                    <button
+                      key={opt.id}
+                      type="button"
+                      onClick={() => {
+                        setQuestionStatusFilter(opt.id);
+                        setPage(1);
+                      }}
+                      className={`px-2.5 py-1 rounded-lg text-[11px] font-bold border transition cursor-pointer ${
+                        questionStatusFilter === opt.id
+                          ? 'bg-slate-900 text-white border-slate-900'
+                          : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <span className="text-[11px] font-bold text-slate-500">Nível:</span>
+                  {(['ALL', 'Fácil', 'Intermediário', 'Difícil'] as const).map((lvl) => (
+                    <button
+                      key={lvl}
+                      type="button"
+                      onClick={() => {
+                        setDifficultyFilter(lvl);
+                        setPage(1);
+                      }}
+                      className={`px-2 py-1 rounded-lg text-[11px] font-bold border transition cursor-pointer ${
+                        difficultyFilter === lvl
+                          ? 'bg-teal-700 text-white border-teal-700'
+                          : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
+                      }`}
+                    >
+                      {lvl === 'ALL' ? 'Todos' : lvl}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {subMode === 'QUESTOES' && (
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 text-white p-3.5 rounded-xl">
             <div className="flex flex-wrap items-center gap-4 text-xs">
@@ -318,313 +472,69 @@ export const Tab3Simulado: React.FC = () => {
               onClick={resetSimAnswers}
               className="px-3 py-1 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition cursor-pointer"
             >
-              🔄 Zerar Simulado
+              🔄 Zerar Banco Tab Simulado
             </button>
           </div>
         )}
       </div>
 
-      {/* Questions List */}
       {subMode === 'QUESTOES' && (
-        <div className="space-y-4">
-          {paginatedQuestions.map((item, idx) => {
-            const globalNum = (safePage - 1) * QUESTIONS_PER_PAGE + idx + 1;
-            const userSelected = simAnswers[item.qid];
-            const isAnswered = userSelected !== undefined;
-
-            return (
-              <div
-                key={item.qid}
-                className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-3"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 rounded-lg bg-slate-900 text-white text-xs font-extrabold">
-                      #{globalNum}
-                    </span>
-                    <span
-                      className={`px-2 py-0.5 rounded text-[11px] font-bold uppercase ${getCatBadgeClass(
-                        item.cat
-                      )}`}
-                    >
-                      Aula {String(item.lessonNum).padStart(2, '0')} &bull; {item.catName}
-                    </span>
-                  </div>
-                  <span className="text-xs text-slate-500 font-medium truncate max-w-md">
-                    {item.blockTitle}
-                  </span>
-                </div>
-
-                <p
-                  className="text-xs sm:text-sm font-extrabold text-slate-900 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: renderMathInHtml(item.q) }}
-                />
-
-                <div className="space-y-1.5">
-                  {item.options.map((opt, oIdx) => {
-                    const isCorrect = oIdx === item.ans;
-                    const isSelected = userSelected === oIdx;
-
-                    let btnStyle =
-                      'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-200';
-                    if (isAnswered) {
-                      if (isCorrect) {
-                        btnStyle =
-                          'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-1 ring-emerald-500';
-                      } else if (isSelected && !isCorrect) {
-                        btnStyle = 'bg-rose-50 border-rose-400 text-rose-900 line-through';
-                      } else {
-                        btnStyle = 'bg-slate-50 border-slate-200 text-slate-400 opacity-75';
-                      }
-                    }
-
-                    return (
-                      <button
-                        key={oIdx}
-                        type="button"
-                        onClick={() => setSimAnswer(item.qid, oIdx)}
-                        className={`w-full text-left px-3.5 py-2.5 rounded-xl border text-xs sm:text-sm transition flex items-start gap-2 cursor-pointer ${btnStyle}`}
-                      >
-                        <span className="font-bold">
-                          {isAnswered && isCorrect
-                            ? '✅ '
-                            : isAnswered && isSelected && !isCorrect
-                            ? '❌ '
-                            : ''}
-                        </span>
-                        <span dangerouslySetInnerHTML={{ __html: renderMathInHtml(opt) }} />
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {isAnswered && (
-                  <div
-                    className={`p-3.5 rounded-xl text-xs border leading-relaxed ${
-                      userSelected === item.ans
-                        ? 'bg-emerald-50 border-emerald-200 text-emerald-950'
-                        : 'bg-amber-50 border-amber-200 text-amber-950'
-                    }`}
-                  >
-                    <p className="font-extrabold mb-1">
-                      {userSelected === item.ans
-                        ? '🎯 Resposta Correta!'
-                        : '⚠️ Gabarito Comentado:'}
-                    </p>
-                    <div dangerouslySetInnerHTML={{ __html: renderMathInHtml(item.comment) }} />
-                  </div>
-                )}
-              </div>
-            );
-          })}
-
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="flex items-center justify-between bg-white rounded-2xl border border-slate-200 p-4">
-              <button
-                type="button"
-                disabled={safePage <= 1}
-                onClick={() => {
-                  setPage((p) => Math.max(1, p - 1));
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 disabled:opacity-40 text-xs font-bold cursor-pointer"
-              >
-                ⬅ Página Anterior
-              </button>
-              <span className="text-xs font-extrabold text-slate-700">
-                Página {safePage} de {totalPages}
-              </span>
-              <button
-                type="button"
-                disabled={safePage >= totalPages}
-                onClick={() => {
-                  setPage((p) => Math.min(totalPages, p + 1));
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className="px-4 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 disabled:opacity-40 text-white text-xs font-bold cursor-pointer"
-              >
-                Próxima Página ➔
-              </button>
-            </div>
-          )}
-        </div>
+        <QuestionBankPanel
+          paginatedQuestions={paginatedQuestions}
+          safePage={safePage}
+          totalPages={totalPages}
+          onChangePage={setPage}
+          onClearFilters={() => {
+            setCatFilter('ALL');
+            setLessonFilter('ALL');
+            setQuestionStatusFilter('ALL');
+            setDifficultyFilter('ALL');
+            setSearchTerm('');
+            setPage(1);
+          }}
+          getEffectiveAnswer={getEffectiveAnswer}
+          simAnswers={simAnswers}
+          lessonAnswers={lessonAnswers}
+          onSelectAnswer={setSimAnswer}
+          favoriteQuestions={favoriteQuestions}
+          onToggleFavorite={toggleFavoriteQuestion}
+        />
       )}
 
-      {/* PROVA OFICIAL 50 QUESTOES MODE */}
       {subMode === 'PROVA_OFICIAL' && (
-        <div className="space-y-4">
-          <div className="bg-gradient-to-r from-slate-900 via-teal-950 to-slate-900 text-white rounded-2xl p-5 shadow-md space-y-4">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <div>
-                <span className="px-2.5 py-0.5 rounded-full bg-amber-400 text-slate-950 text-[10px] font-black uppercase">
-                  Simulação Fiel — Anexo III Retificado (Edital nº 28/2026)
-                </span>
-                <h3 className="text-lg font-extrabold mt-1">
-                  🏆 Prova Simulada Oficial ACE — 50 Questões (Peso 2,0 = 100,0 Pontos)
-                </h3>
-                <p className="text-xs text-slate-300">
-                  15 Específicos (30 pts) + 10 Português (20 pts) + 10 Raciocínio Lógico (20 pts) + 10 Legislação (20 pts) + 5 Gerais (10 pts). Mínimo para aprovação: <strong>50,0 pontos</strong>.
-                </p>
-              </div>
-              <div className="flex flex-wrap items-center gap-2">
-                <button
-                  type="button"
-                  onClick={() => setExamSubmitted(true)}
-                  className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-slate-950 text-xs font-black shadow-sm transition cursor-pointer"
-                >
-                  ✅ Finalizar e Calcular Nota ({examScore.answered}/50)
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setExamSeed((s) => s + 1);
-                    setExamAnswers({});
-                    setExamSubmitted(false);
-                  }}
-                  className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold border border-white/15 transition cursor-pointer"
-                >
-                  🎲 Sortear Nova Prova
-                </button>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-6 gap-2 pt-2 border-t border-white/10 text-xs">
-              <div
-                className={`p-2.5 rounded-xl border ${
-                  examScore.approved
-                    ? 'bg-emerald-500/20 border-emerald-400 text-emerald-200'
-                    : 'bg-white/5 border-white/15'
-                }`}
-              >
-                <span className="block text-[10px] uppercase text-slate-300">Nota Atual</span>
-                <strong className="text-base font-black">{examScore.points},0 / 100 pts</strong>
-                <span className="block text-[10px] mt-0.5">
-                  {examScore.approved ? '✅ APROVADO (≥50 pts)' : 'Meta: 50,0 pts'}
-                </span>
-              </div>
-              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="block text-[10px] text-teal-300 font-bold">Específicos (15)</span>
-                <strong>{examScore.byCat.esp.hits}/15</strong> ({examScore.byCat.esp.hits * 2} pts)
-              </div>
-              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="block text-[10px] text-blue-300 font-bold">Português (10)</span>
-                <strong>{examScore.byCat.por.hits}/10</strong> ({examScore.byCat.por.hits * 2} pts)
-              </div>
-              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="block text-[10px] text-indigo-300 font-bold">R. Lógico (10)</span>
-                <strong>{examScore.byCat.rlm.hits}/10</strong> ({examScore.byCat.rlm.hits * 2} pts)
-              </div>
-              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="block text-[10px] text-amber-300 font-bold">Legislação (10)</span>
-                <strong>{examScore.byCat.leg.hits}/10</strong> ({examScore.byCat.leg.hits * 2} pts)
-              </div>
-              <div className="p-2.5 rounded-xl bg-white/5 border border-white/10">
-                <span className="block text-[10px] text-emerald-300 font-bold">Gerais RO (5)</span>
-                <strong>{examScore.byCat.atu.hits}/5</strong> ({examScore.byCat.atu.hits * 2} pts)
-              </div>
-            </div>
-          </div>
-
-          {officialExamQuestions.map((item, idx) => {
-            const userSelected = examAnswers[item.qid];
-            const isAnswered = userSelected !== undefined;
-
-            return (
-              <div
-                key={`exam_${item.qid}`}
-                className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm space-y-3"
-              >
-                <div className="flex flex-wrap items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 rounded-lg bg-amber-500 text-slate-950 text-xs font-black">
-                      Questão {String(idx + 1).padStart(2, '0')}/50 &bull; Vale 2,0 pts
-                    </span>
-                    <span
-                      className={`px-2 py-0.5 rounded text-[11px] font-bold uppercase ${getCatBadgeClass(
-                        item.cat
-                      )}`}
-                    >
-                      {item.catName} (Aula {String(item.lessonNum).padStart(2, '0')})
-                    </span>
-                  </div>
-                </div>
-
-                <p
-                  className="text-xs sm:text-sm font-extrabold text-slate-900 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: renderMathInHtml(item.q) }}
-                />
-
-                <div className="space-y-1.5">
-                  {item.options.map((opt, oIdx) => {
-                    const isCorrect = oIdx === item.ans;
-                    const isSelected = userSelected === oIdx;
-                    const revealFeedback = isAnswered || examSubmitted;
-
-                    let btnStyle =
-                      'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-200';
-                    if (revealFeedback) {
-                      if (isCorrect) {
-                        btnStyle =
-                          'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-1 ring-emerald-500';
-                      } else if (isSelected && !isCorrect) {
-                        btnStyle = 'bg-rose-50 border-rose-400 text-rose-900 line-through';
-                      } else {
-                        btnStyle = 'bg-slate-50 border-slate-200 text-slate-400 opacity-75';
-                      }
-                    }
-
-                    return (
-                      <button
-                        key={oIdx}
-                        type="button"
-                        onClick={() =>
-                          setExamAnswers((prev) => ({ ...prev, [item.qid]: oIdx }))
-                        }
-                        className={`w-full text-left px-3.5 py-2.5 rounded-xl border text-xs sm:text-sm transition flex items-start gap-2 cursor-pointer ${btnStyle}`}
-                      >
-                        <span className="font-bold">
-                          {revealFeedback && isCorrect
-                            ? '✅ '
-                            : revealFeedback && isSelected && !isCorrect
-                            ? '❌ '
-                            : ''}
-                        </span>
-                        <span dangerouslySetInnerHTML={{ __html: renderMathInHtml(opt) }} />
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {(isAnswered || examSubmitted) && (
-                  <div
-                    className={`p-3.5 rounded-xl text-xs border leading-relaxed ${
-                      userSelected === item.ans
-                        ? 'bg-emerald-50 border-emerald-200 text-emerald-950'
-                        : 'bg-amber-50 border-amber-200 text-amber-950'
-                    }`}
-                  >
-                    <p className="font-extrabold mb-1">
-                      {userSelected === item.ans
-                        ? '🎯 +2,0 Pontos Garantidos!'
-                        : '⚠️ Comentário da Questão:'}
-                    </p>
-                    <div dangerouslySetInnerHTML={{ __html: renderMathInHtml(item.comment) }} />
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
+        <OfficialExamPanel
+          allQuestions={allQuestions}
+          favoriteQuestions={favoriteQuestions}
+          onToggleFavorite={toggleFavoriteQuestion}
+          onRecordAttempt={recordExamAttempt}
+        />
       )}
 
-      {/* Flashcards Grid */}
+      {subMode === 'SIMULADO_CUSTOM' && (
+        <CustomExamPanel
+          lessons={lessons}
+          allQuestions={allQuestions}
+          favoriteQuestions={favoriteQuestions}
+          onToggleFavorite={toggleFavoriteQuestion}
+          onRecordAttempt={recordExamAttempt}
+          showToast={showToast}
+          customIntent={customIntent}
+        />
+      )}
+
       {subMode === 'FLASHCARDS' && (
-        <FlashcardGrid
-          flashcards={filteredFlashcards}
+        <FlashcardDeckPanel
+          srsCounts={srsCounts}
+          srsFilter={srsFilter}
+          onChangeSrsFilter={setSrsFilter}
+          displayMode={fcDisplayMode}
+          onChangeDisplayMode={setFcDisplayMode}
+          filteredFlashcards={filteredFlashcards}
+          flashcardSrs={flashcardSrs}
+          onRateCard={rateFlashcard}
+          onResetSrs={resetFlashcardSrs}
           flippedCards={flippedGlobal}
           onToggleFlip={handleToggleFlip}
-          keyPrefix="global_fc"
         />
       )}
     </div>

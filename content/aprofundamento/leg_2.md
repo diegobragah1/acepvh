@@ -39,7 +39,7 @@ Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a 
 - C) Ela está dispensada de requisitos legais.
 - D) Já recebeu todas as vantagens do cargo.
 
-**Gabarito: B.** Nomeação não comprova automaticamente posse, exercício ou pagamento de parcelas. Cada etapa tem pressupostos próprios.
+**Gabarito: B.** Gabarito: B. A nomeação é o ato de provimento originário; a investidura só se concretiza com a posse, seguida do efetivo exercício. Erro da A: posse e exercício são etapas posteriores e não ocorrem automaticamente com a nomeação; erro da C: aptidão médica, documentação e demais requisitos são verificados na posse; erro da D: remuneração pressupõe investidura e exercício.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a 
 - C) Apuração e eventual sanção exigem fundamento e procedimento legal.
 - D) O superior pode criar qualquer penalidade sem previsão.
 
-**Gabarito: C.** Responsabilidade exige enquadramento e devido procedimento. Exoneração não é necessariamente punitiva; denúncia precisa ser apurada; penalidades não são criadas livremente.
+**Gabarito: C.** Gabarito: C. Pelo devido processo legal e princípio da legalidade (art. 5º, LV e art. 37 da CF/88), nenhuma penalidade disciplinar se aplica sem previsão estatutária e procedimento apuratório. Erro da A: exoneração não tem natureza punitiva (diferente da demissão); erro da B: denúncia apenas instaura apuração; erro da D: somente a lei estabelece sanções disciplinares.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a 
 - C) Aproveitamento.
 - D) Exoneração a pedido.
 
-**Gabarito: A.** A reintegração é a reinvestidura do servidor estável quando invalidada sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens. Readaptação refere-se a limitação física/mental; aproveitamento é o retorno de quem estava em disponibilidade.
+**Gabarito: A.** Gabarito: A. Reintegração é a forma de provimento derivada aplicada quando a demissão de servidor estável é invalidada administrativa ou judicialmente, garantindo ressarcimento integral. Erro da B: readaptação decorre de limitação física ou mental superveniente; erro da C: aproveitamento é o retorno de servidor em disponibilidade; erro da D: exoneração a pedido é forma de vacância voluntária.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Nomeação, posse e exercício são etapas diferentes. Investidura ocorre com a 
 - C) O primeiro será aposentado compulsoriamente e o segundo promovido.
 - D) Não há qualquer consequência prevista no estatuto.
 
-**Gabarito: A.** Antes da posse ainda não houve investidura, razão pela qual o ato de provimento (nomeação) é tornado sem efeito; após a posse o candidato já foi investido no cargo, de modo que a ausência de entrada em exercício enseja sua exoneração de ofício.
+**Gabarito: A.** Gabarito: A. Antes da posse não há investidura, logo o ato de nomeação é tornado sem efeito; após a posse o servidor já é titular do cargo, então a falta de entrada em exercício gera exoneração de ofício. Erro da B: o regime estatutário não prevê pena criminal nem prisão perpétua (vedada pela CF); erro da C: não há aposentadoria compulsória nem promoção sem exercício; erro da D: os prazos de posse e exercício são peremptórios na LC nº 385/2010.
 
 ## Flashcards
 

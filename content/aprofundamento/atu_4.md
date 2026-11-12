@@ -45,7 +45,7 @@ Cidadania vai além de votar. Plebiscito antecede; referendo sucede. Iniciativa 
 - C) Nomeação.
 - D) Fiscalização sanitária.
 
-**Gabarito: B.** Plebiscito é prévio; referendo submete decisão/ato já produzido à apreciação. Momento e efeito distinguem os institutos.
+**Gabarito: B.** Gabarito: B. Pelo art. 14, I, da CF/88 e Lei nº 9.709/1998, o plebiscito é convocado com anterioridade ao ato legislativo ou administrativo. Erro da A: referendo é posterior ao ato para confirmá-lo ou rejeitá-lo; erro da C: nomeação é ato administrativo de provimento de cargo; erro da D: fiscalização sanitária é poder de polícia/vigilância em saúde.
 
 ### Questão 2
 
@@ -56,7 +56,7 @@ Cidadania vai além de votar. Plebiscito antecede; referendo sucede. Iniciativa 
 - C) Prefeito, governador e presidente.
 - D) Somente o brasão de Porto Velho.
 
-**Gabarito: B.** O art. 13, §1º, enumera bandeira, hino, armas e selo. Símbolos locais têm escala própria e não substituem essa enumeração.
+**Gabarito: B.** Gabarito: B. O art. 13, § 1º, da CF/88 enumera exatamente os 4 símbolos da República Federativa do Brasil: bandeira, hino, armas e selo nacionais. Erro da A: moeda não integra o rol do § 1º; erro da C: são chefes do Poder Executivo, não símbolos; erro da D: o brasão municipal é símbolo próprio de Porto Velho (art. 3º da LOM).
 
 ### Questão 3
 
@@ -67,7 +67,7 @@ Cidadania vai além de votar. Plebiscito antecede; referendo sucede. Iniciativa 
 - C) Unicamente o Hino Nacional Brasileiro, pois municípios são proibidos de possuir brasão ou bandeira.
 - D) O Forte de Copacabana e a Ponte Rio-Niterói.
 
-**Gabarito: A.** O art. 3º da LOM de Porto Velho estabelece como símbolos do Município a Bandeira, o Brasão e o Hino, além de outros estabelecidos em lei; o brasão e a bandeira municipais trazem no escudo a silhueta das Três Caixas d’Água.
+**Gabarito: A.** Gabarito: A. O art. 3º da LOM de Porto Velho define Bandeira, Brasão e Hino como símbolos municipais, e o brasão destaca as históricas Três Caixas d’Água da era ferroviária. Erro da B: municípios não cunham moeda nem adotam o Cristo Redentor (RJ); erro da C: o art. 13, § 2º, da CF/88 autoriza símbolos próprios nos municípios; erro da D: são marcos do Rio de Janeiro.
 
 ### Questão 4
 
@@ -78,7 +78,7 @@ Cidadania vai além de votar. Plebiscito antecede; referendo sucede. Iniciativa 
 - C) O Estado de Rondônia não possui hino oficial nem brasão de armas.
 - D) A Bandeira de Rondônia foi desenhada em 1500 por Pero Vaz de Caminha.
 
-**Gabarito: A.** A Bandeira do Estado de Rondônia, criada por Sílvio Carvalho Feitosa e instituída em 1981, apresenta o céu azul na metade superior, faixas verde e amarela na metade inferior e a estrela branca Muliphein ao centro.
+**Gabarito: A.** Gabarito: A. A Bandeira Estadual de Rondônia (projeto de Sílvio Carvalho Feitosa) combina verde, amarelo, azul e a estrela branca central Muliphein. Erro da B: não usa preto nem vermelho; erro da C: o art. 6º da Constituição Estadual prevê Bandeira, Hino ("Céus de Rondônia"), Armas e Selo; erro da D: foi criada no contexto da transformação em Estado em 1981.
 
 ## Flashcards
 

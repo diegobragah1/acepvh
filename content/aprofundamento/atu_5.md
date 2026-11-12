@@ -46,7 +46,7 @@ GPS integra GNSS; SIG analisa dados e atributos. Contagens precisam de denominad
 - C) Todo alerta equivale à taxa mensal oficial.
 - D) Nuvens nunca interferem na detecção.
 
-**Gabarito: B.** Os produtos têm objetivos e métodos diferentes. O INPE alerta para não tratar os registros de alerta como taxa mensal de desmatamento.
+**Gabarito: B.** Gabarito: B. Ambos pertencem ao monitoramento do INPE na Amazônia Legal, mas têm papéis distintos: o DETER emite alertas rápidos para apoiar a fiscalização; o PRODES consolida a taxa oficial anual de desmatamento por corte raso. Erro da A: têm escalas e objetivos distintos; erro da C: o próprio INPE alerta para não confundir detecção de alertas com taxa oficial mensal; erro da D: sensores ópticos sofrem interferência de cobertura de nuvens.
 
 ### Questão 2
 
@@ -57,7 +57,7 @@ GPS integra GNSS; SIG analisa dados e atributos. Contagens precisam de denominad
 - C) 5% e 20%.
 - D) 100% e 400%.
 
-**Gabarito: A.** 20/100=20%; 20/400=5%. A igualdade dos numeradores não implica igualdade de proporções; ainda se deve avaliar o que e como foi inspecionado.
+**Gabarito: A.** Gabarito: A. No 1º bairro: 20 ÷ 100 = 0,20 = 20%. No 2º bairro: 20 ÷ 400 = 0,05 = 5%. Números absolutos iguais exigem análise com o denominador de imóveis inspecionados. Erro da B: iguala proporções mesmo com denominadores quatro vezes maiores; erro da C: inverte a ordem dos bairros; erro da D: repete as quantidades absolutas de inspeções como porcentagens.
 
 ### Questão 3
 
@@ -68,7 +68,7 @@ GPS integra GNSS; SIG analisa dados e atributos. Contagens precisam de denominad
 - C) Linha, matriz e tabela.
 - D) Círculo, texto e áudio.
 
-**Gabarito: A.** No modelo vetorial de um SIG, elementos sem área na escala de análise (uma ovitrampa ou foco puntual) são representados por pontos; feições lineares (ruas, rios, igarapés) por linhas; e áreas fechadas (quarteirões, bairros, estratos) por polígonos.
+**Gabarito: A.** Gabarito: A. No modelo vetorial de um SIG, coordenadas pontuais (ovitrampa, foco, PE) são pontos; feições lineares (ruas, igarapés, rotas) são linhas; áreas fechadas (quarteirões, estratos do LIRAa, bairros) são polígonos. Erro da B: pixel pertence ao modelo matricial (raster) e inverte as feições; erro da C: matriz refere-se ao modelo raster e tabela armazena atributos; erro da D: áudio e texto não são primitivas geométricas vetoriais padrão.
 
 ### Questão 4
 
@@ -79,7 +79,18 @@ GPS integra GNSS; SIG analisa dados e atributos. Contagens precisam de denominad
 - C) Substituir toda a água encanada da cidade por óleo mineral.
 - D) Eliminar todas as espécies de abelhas e borboletas polinizadoras dos parques urbanos.
 
-**Gabarito: A.** A Wolbachia é uma bactéria presente naturalmente em cerca de 60% dos insetos (mas não originalmente no Aedes aegypti); quando introduzida no Aedes em laboratório e liberada em campo, impede que os vírus de Dengue, Zika e Chikungunya se desenvolvam adequadamente no mosquito, sendo método seguro, autossustentável e não transgênico.
+**Gabarito: A.** Gabarito: A. A bactéria intracelular Wolbachia dificulta a replicação dos arbovírus no Aedes aegypti e é transmitida verticalmente às novas gerações, sem modificação genética (não transgênico). Erro da B: antibióticos não combatem vírus nem são pulverizados sobre rios; erro da C: água encanada não se substitui por óleo; erro da D: o método é espécie-específico para o Aedes e não ameaça polinizadores.
+
+### Questão 5
+
+[Autoral] Ao registrar pontos georreferenciados de depósitos positivos com aparelho GNSS em Porto Velho para compor a base cartográfica oficial do município no padrão do IBGE, o sistema de referência geodésico (datum) oficial adotado no Brasil e um dos cuidados técnicos de campo do SIG são, respectivamente:
+
+- A) SIRGAS2000; verificar a cobertura de cobertura de sinais/precisão posicional e associar atributos corretos do imóvel.
+- B) WGS72 de Marte; desligar a antena de satélite antes da coleta para evitar interferência solar.
+- C) Córrego Alegre de 1920; multiplicar todas as latitudes por 100 para virarem hectares.
+- D) Sistema Hexadecimal de Cores; dispensar legenda e escala nos mapas da vigilância.
+
+**Gabarito: A.** Gabarito: A. O SIRGAS2000 é o Sistema de Referência Geocêntrico para as Américas adotado oficialmente pelo IBGE no Brasil, e um SIG exige precisão da coordenada ligada aos atributos corretos (código do quarteirão/imóvel). Erro da B: desligar a antena impede a leitura GNSS e não existe datum de Marte no IBGE; erro da C: multiplicar coordenadas geográficas distorce completamente a localização; erro da D: escala, legenda e sistema de referência são essenciais à cartografia sanitária.
 
 ## Flashcards
 

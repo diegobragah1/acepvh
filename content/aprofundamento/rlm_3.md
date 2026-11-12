@@ -21,10 +21,10 @@ Comprimento, área e volume usam fatores com potências diferentes. Uniformize u
 
 | Grandeza / Conversão no Campo do ACE | Equivalência Exata | Passo a Passo Prático | Erro Clássico de Prova |
 | --- | --- | --- | --- |
-| **Pontes Volume $leftrightarrow$ Capacidade** | **$1	ext{ m}^3 = 1.000	ext{ L}$**; **$1	ext{ dm}^3 = 1	ext{ L}$**; **$1	ext{ cm}^3 = 1	ext{ mL}$**. | Converta as dimensões da caixa-d'água para **metros**, multiplique ($C 	imes L 	imes A$) e multiplique por **1.000** para obter litros. | Multiplicar metros por centímetros sem converter antes para a mesma unidade. |
-| **Volume de Reservatório Cilíndrico (Tonel)** | $V = pi cdot r^2 cdot h$ (onde $r = 	ext{diâmetro} div 2$). | Se diâmetro $= 1	ext{ m}$, então $r = 0,5	ext{ m}$ (e $r^2 = 0,25	ext{ m}^2$). | Usar o diâmetro inteiro no lugar do raio $r$, quadruplicando erroneamente o volume. |
-| **Massa (t $	o$ kg $	o$ g $	o$ mg)** | $1	ext{ t} = 1.000	ext{ kg}$; $1	ext{ kg} = 1.000	ext{ g}$; $1	ext{ g} = 1.000	ext{ mg}$. | Cada degrau principal multiplica ou divide por $1.000$. | Esquecer que $2	ext{ g} = 2.000	ext{ mg}$ ao calcular concentração por litro. |
-| **Tempo Decimal $leftrightarrow$ Sexagesimal** | $0,1	ext{ h} = 6	ext{ min}$; $0,25	ext{ h} = 15	ext{ min}$; $0,5	ext{ h} = 30	ext{ min}$; $0,75	ext{ h} = 45	ext{ min}$. | Multiplique a parte decimal da hora por **60** para achar os minutos. | Ler $2,4	ext{ horas}$ como *"2 horas e 40 minutos"* (o correto é $2	ext{ h } + 0,4 	imes 60 = mathbf{2	ext{ h } 24	ext{ min}}$). |
+| **Pontes Volume $\leftrightarrow$ Capacidade** | **$1\text{ m}^3 = 1.000\text{ L}$**; **$1\text{ dm}^3 = 1\text{ L}$**; **$1\text{ cm}^3 = 1\text{ mL}$**. | Converta as dimensões da caixa-d'água para **metros**, multiplique ($C \times L \times A$) e multiplique por **1.000** para obter litros. | Multiplicar metros por centímetros sem converter antes para a mesma unidade. |
+| **Volume de Reservatório Cilíndrico (Tonel)** | $V = \pi \cdot r^2 \cdot h$ (onde $r = \text{diâmetro} \div 2$). | Se diâmetro $= 1\text{ m}$, então $r = 0,5\text{ m}$ (e $r^2 = 0,25\text{ m}^2$). | Usar o diâmetro inteiro no lugar do raio $r$, quadruplicando erroneamente o volume. |
+| **Massa (t $\to$ kg $\to$ g $\to$ mg)** | $1\text{ t} = 1.000\text{ kg}$; $1\text{ kg} = 1.000\text{ g}$; $1\text{ g} = 1.000\text{ mg}$. | Cada degrau principal multiplica ou divide por $1.000$. | Esquecer que $2\text{ g} = 2.000\text{ mg}$ ao calcular concentração por litro. |
+| **Tempo Decimal $\leftrightarrow$ Sexagesimal** | $0,1\text{ h} = 6\text{ min}$; $0,25\text{ h} = 15\text{ min}$; $0,5\text{ h} = 30\text{ min}$; $0,75\text{ h} = 45\text{ min}$. | Multiplique a parte decimal da hora por **60** para achar os minutos. | Ler $2,4\text{ horas}$ como *"2 horas e 40 minutos"* (o correto é $2\text{ h } + 0,4 \times 60 = \mathbf{2\text{ h } 24\text{ min}}$). |
 
 ## Exercícios autorais comentados
 
@@ -37,7 +37,7 @@ Comprimento, área e volume usam fatores com potências diferentes. Uniformize u
 - C) 4.800 L
 - D) 480.000 L
 
-**Gabarito: B.** 1,2×0,8×0,5=0,48 m³=480 L. As demais respostas resultam de erros de conversão ou de fator decimal.
+**Gabarito: B.** Gabarito: B. Convertendo tudo para metros: 1,2 m × 0,8 m × 0,5 m = 0,48 m³. Como 1 m³ = 1.000 L, 0,48 × 1.000 = 480 litros. Erro da A: erro de uma casa decimal (× 100 em vez de × 1.000); erro da C: multiplica por 10.000 erroneamente; erro da D: informa em mililitros ou cm³ (480.000 cm³) em vez de litros.
 
 ### Questão 2
 
@@ -48,7 +48,7 @@ Comprimento, área e volume usam fatores com potências diferentes. Uniformize u
 - C) 600 m
 - D) 6.000 m
 
-**Gabarito: B.** 3×2.000=6.000 cm. Dividindo por 100, são 60 m. É preciso manter a mesma unidade antes da conversão final.
+**Gabarito: B.** Gabarito: B. Distância real = 3 cm × 2.000 = 6.000 cm. Como 1 m = 100 cm, divide-se por 100: 6.000 ÷ 100 = 60 metros. Erro da A: divide por 1.000 por engano; erro da C: divide apenas por 10; erro da D: mantém em centímetros trocando apenas a unidade para metros.
 
 ### Questão 3
 
@@ -59,18 +59,18 @@ Comprimento, área e volume usam fatores com potências diferentes. Uniformize u
 - C) 3 horas e 04 minutos.
 - D) 340 minutos.
 
-**Gabarito: A.** A parte inteira corresponde a 3 horas; a parte decimal (0,4 hora) deve ser multiplicada por 60 minutos: 0,4 × 60 = 24 minutos. Logo, 3,4 h = 3 horas e 24 minutos.
+**Gabarito: A.** Gabarito: A. A parte inteira é 3 horas; a fração decimal 0,4 h equivale a 0,4 × 60 = 24 minutos. Logo, 3 h e 24 min. Erro da B: confunde 0,4 h com 40 minutos (sistema decimal em vez de sexagesimal); erro da C: lê o dígito 4 diretamente como 04 min; erro da D: 3,4 × 60 = 204 minutos, não 340 minutos.
 
 ### Questão 4
 
-[Autoral] Um reservatório cilíndrico vertical possui diâmetro interno de 2 metros e altura útil de 1,5 metro ($pi = 3,14$). Qual é a capacidade total desse reservatório em litros?
+[Autoral] Um reservatório cilíndrico vertical possui diâmetro interno de 2 metros e altura útil de 1,5 metro ($\pi = 3,14$). Qual é a capacidade total desse reservatório em litros?
 
 - A) 4.710 litros.
 - B) 9.420 litros.
 - C) 18.840 litros.
 - D) 471 litros.
 
-**Gabarito: A.** Como o diâmetro é 2 m, o raio é r = 1 m. O volume do cilindro é V = π × r² × h = 3,14 × 1² × 1,5 = 4,71 m³. Multiplicando por 1.000 L/m³, obtêm-se 4.710 litros.
+**Gabarito: A.** Gabarito: A. Com diâmetro D = 2 m, o raio é r = D/2 = 1 m. Volume: V = π × r² × h = 3,14 × 1² × 1,5 = 4,71 m³ = 4.710 litros. Erro da B: multiplica usando r = 2 m ou dobra o resultado (V = 9,42 seria se h = 3 m); erro da C: usa r = 2 m na fórmula π·r²·h (3,14 × 4 × 1,5 = 18,84 m³); erro da D: erro de uma casa decimal ao converter m³ para litros.
 
 ## Flashcards
 

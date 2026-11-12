@@ -39,7 +39,7 @@ Pregão é modalidade; menor preço é critério. Bens comuns dependem de defini
 - C) Contratação direta é sempre uma modalidade competitiva.
 - D) Maior desconto dispensa especificação do objeto.
 
-**Gabarito: B.** A lei distingue modalidade e critério de julgamento. A contratação direta não é modalidade, e critérios não dispensam definição e atendimento do objeto.
+**Gabarito: B.** Gabarito: B. Na Lei nº 14.133/2021, o pregão é modalidade de licitação (art. 28, I) para bens e serviços comuns, enquanto menor preço é critério de julgamento (art. 33, I). Erro da A: inverte os dois conceitos; erro da C: contratação direta (dispensa/inexigibilidade) não é modalidade competitiva de licitação; erro da D: qualquer licitação exige definição precisa do objeto no edital.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Pregão é modalidade; menor preço é critério. Bens comuns dependem de defini
 - C) O gestor pode escolher livremente sem processo.
 - D) Todo objeto de alto valor deve ser contratado diretamente.
 
-**Gabarito: A.** Inviabilidade de competição fundamenta a inexigibilidade. O processo de contratação direta exige instrução e justificativas; valor elevado não é fundamento genérico.
+**Gabarito: A.** Gabarito: A. O art. 74 define inexigibilidade quando há inviabilidade de competição (ex.: fornecedor exclusivo, notória especialização, imóvel específico). Erro da B e C: o art. 72 exige instrução formal do processo de contratação direta com justificativa de preço e razão da escolha; erro da D: valor elevado não dispensa licitação — exige modalidade adequada como concorrência ou pregão.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Pregão é modalidade; menor preço é critério. Bens comuns dependem de defini
 - C) Menor preço, maior desconto, técnica e preço e dispensa.
 - D) Inexigibilidade, credenciamento, carona e pré-qualificação.
 
-**Gabarito: A.** O art. 28 da Lei 14.133/2021 estabelece exatamente cinco modalidades de licitação: I - pregão; II - concorrência; III - concurso; IV - leilão; V - diálogo competitivo, extinguindo tomada de preços, convite e RDC.
+**Gabarito: A.** Gabarito: A. O art. 28 relaciona taxativamente essas 5 modalidades, suprimindo convite, tomada de preços e RDC. Erro da B: convite e tomada de preços foram extintos (e rifa nunca foi modalidade); erro da C: menor preço, maior desconto e técnica e preço são critérios de julgamento (art. 33); erro da D: inexigibilidade é contratação direta e credenciamento/pré-qualificação são procedimentos auxiliares (art. 78).
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Pregão é modalidade; menor preço é critério. Bens comuns dependem de defini
 - C) A Lei 14.133/2021 extinguiu a fase de habilitação em todas as licitações.
 - D) O julgamento ocorre somente após a assinatura e o encerramento integral do contrato.
 
-**Gabarito: A.** Pelo caput do art. 17 da Lei 14.133/2021, a sequência padrão é: I - preparatória; II - divulgação do edital; III - apresentação de propostas e lances; IV - julgamento; V - habilitação; VI - recursal; VII - homologação. A inversão (habilitação antes) exige motivação e previsão no edital (§ 1º).
+**Gabarito: A.** Gabarito: A. Reproduz o art. 17, caput e § 1º: primeiro vêm preparação, divulgação, propostas, julgamento e só depois habilitação (salvo inversão motivada em edital). Erro da B: não existe prazo de cinco anos prévios ao edital; erro da C: a habilitação continua fase essencial (art. 62); erro da D: o julgamento define o vencedor antes da homologação e contratação.
 
 ## Flashcards
 
@@ -84,9 +84,9 @@ Não. Dispensa e inexigibilidade exigem processo formal de contratação direta 
 
 Não. Bem comum é aquele cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital, por meio de especificações usuais de mercado, independentemente do valor.
 
-**Quais são as 5 modalidades de licitação da Lei 14.133/2021 e quais foram extintas?**
+**Qual a ordem padrão entre julgamento e habilitação na Lei 14.133/2021 (art. 17)?**
 
-As 5 vigentes são: Pregão, Concorrência, Concurso, Leilão e Diálogo Competitivo. Foram extintas: Tomada de Preços, Convite e RDC.
+Como regra geral, o julgamento das propostas ocorre ANTES da fase de habilitação; a inversão (habilitação primeiro) é exceção, mediante ato motivado e previsão expressa em edital.
 
 ## Referências de consulta
 

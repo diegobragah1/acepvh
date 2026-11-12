@@ -129,7 +129,9 @@
             "D) Realizarão-se no próximo domingo as provas objetivas do concurso."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. O advérbio negativo 'Nunca' atrai obrigatoriamente o pronome para antes do verbo (próclise: 'Nunca me esquecerei'), 'onde' indica lugar fixo ('no bairro') e 'cujas casas' indica posse sem artigo posposto. C) Não se inicia frase com pronome oblíquo e 'cujo' não aceita artigo; D) Verbo no futuro jamais aceita ênclise (o correto seria 'Realizar-se-ão')."
+          "comment": "Gabarito: B. O advérbio negativo 'Nunca' atrai obrigatoriamente o pronome para antes do verbo (próclise: 'Nunca me esquecerei'), 'onde' indica lugar fixo ('no bairro') e 'cujas casas' indica posse sem artigo posposto. C) Não se inicia frase com pronome oblíquo e 'cujo' não aceita artigo; D) Verbo no futuro jamais aceita ênclise (o correto seria 'Realizar-se-ão').",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         }
       ],
       "flashcards": [
@@ -166,7 +168,9 @@
           ],
           "ans": 1,
           "comment": "Gabarito: B. O substantivo 'acesso' rege a preposição 'a' (acesso a algo); porém, antes da expressão plural indeterminada 'diversas informações', ocorre apenas a preposição simples 'a', sendo proibido o sinal indicativo de crase ('a' no singular + palavra no plural = crase proibida!).",
-          "revision": "20261111"
+          "revision": "20261111",
+          "difficulty": "Difícil",
+          "questionType": "Gramática em Contexto ACE"
         },
         {
           "q": "(Questão Autoral Inédita — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que a concordância verbal e nominal respeita integralmente a norma-padrão da Língua Portuguesa:",
@@ -177,7 +181,9 @@
             "D) A paciente estava meia cansada após a caminhada sob o sol."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. O verbo 'fazer' indicando tempo decorrido ('Faz três anos') e o verbo 'haver' no sentido de existir ('não havia tantos casos') são impessoais e ficam na 3ª pessoa do singular; além disso, 'anexas' concorda com 'as planilhas'. Erros: na C, como há artigo 'a', o correto é 'É proibida a entrada'; na D, o advérbio é invariável ('meio cansada'); na A, 'haver' e 'fazer' foram flexionados indevidamente no plural."
+          "comment": "Gabarito: B. O verbo 'fazer' indicando tempo decorrido ('Faz três anos') e o verbo 'haver' no sentido de existir ('não havia tantos casos') são impessoais e ficam na 3ª pessoa do singular; além disso, 'anexas' concorda com 'as planilhas'. Erros: na C, como há artigo 'a', o correto é 'É proibida a entrada'; na D, o advérbio é invariável ('meio cansada'); na A, 'haver' e 'fazer' foram flexionados indevidamente no plural.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "q": "(Questão Autoral Inédita — Concordância, Regência e Crase — Perfil Edital SEMUSA/IBGP) Assinale a alternativa que está INTEGRALMENTE de acordo com as normas de concordância verbal e nominal, regência e crase da língua portuguesa:",
@@ -188,7 +194,9 @@
             "D) Os agentes ficaram meios preocupados porque preferem mais atuar no campo do que ficar na sala."
           ],
           "ans": 2,
-          "comment": "Gabarito: C. 'Deve haver soluções' (haver no sentido de existir é impessoal e mantém a locução no singular); 'visa à proteção' (visar no sentido de almejar é VTI e pede preposição 'a' + artigo 'a' = crase); 'implica medidas' (implicar no sentido de acarretar é VTD direto sem 'em'). Erros da A: 'Houve bastantes reclamações', 'implicou novas vistorias' (sem 'em') e 'a partir' (sem crase antes de verbo). Erros da B: 'Faz dois meses' e 'é proibida a entrada' (com artigo 'a' concorda!). Erros da D: 'meio preocupados' (advérbio invariável) e 'preferem atuar no campo a ficar na sala' (sem 'mais' e sem 'do que')."
+          "comment": "Gabarito: C. 'Deve haver soluções' (haver no sentido de existir é impessoal e mantém a locução no singular); 'visa à proteção' (visar no sentido de almejar é VTI e pede preposição 'a' + artigo 'a' = crase); 'implica medidas' (implicar no sentido de acarretar é VTD direto sem 'em'). Erros da A: 'Houve bastantes reclamações', 'implicou novas vistorias' (sem 'em') e 'a partir' (sem crase antes de verbo). Erros da B: 'Faz dois meses' e 'é proibida a entrada' (com artigo 'a' concorda!). Erros da D: 'meio preocupados' (advérbio invariável) e 'preferem atuar no campo a ficar na sala' (sem 'mais' e sem 'do que').",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "q": "(Questão Autoral Inédita — Colocação Pronominal e Crase Facultativa — Perfil Edital SEMUSA/IBGP) Assinale a alternativa em que a colocação pronominal obedece à norma-padrão e em que o acento grave indicativo de crase é FACULTATIVO (podendo ser retirado sem prejuízo à correção gramatical):",
@@ -199,7 +207,9 @@
             "D) Realizarão-se novos exames quando o médico solicitar à equipe."
           ],
           "ans": 2,
-          "comment": "Gabarito: C. O advérbio negativo 'Jamais' exige próclise ('Jamais se descuidem'); e tanto após a preposição 'até' quanto antes do pronome possessivo feminino singular 'sua' ('até à sua supervisora' / 'até a sua supervisora') o uso da crase é FACULTATIVO! Erro da A: proibido iniciar frase com pronome átono ('Me'). Erro da B: 'Nunca' atrai próclise ('Nunca me esquecerei'). Erro da D: proibido ênclise no futuro ('Realizar-se-ão')."
+          "comment": "Gabarito: C. O advérbio negativo 'Jamais' exige próclise ('Jamais se descuidem'); e tanto após a preposição 'até' quanto antes do pronome possessivo feminino singular 'sua' ('até à sua supervisora' / 'até a sua supervisora') o uso da crase é FACULTATIVO! Erro da A: proibido iniciar frase com pronome átono ('Me'). Erro da B: 'Nunca' atrai próclise ('Nunca me esquecerei'). Erro da D: proibido ênclise no futuro ('Realizar-se-ão').",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática em Contexto ACE"
         }
       ],
       "flashcards": [
@@ -248,7 +258,9 @@
             "A equipe havia deslocado-se rapidamente para o distrito de Jaci-Paraná."
           ],
           "ans": 2,
-          "comment": "Em C, o advérbio negativo \"Nunca\" é palavra atrativa que exige próclise (\"Nunca se devem...\"). Em A, iniciou-se período com oblíquo; em B, \"Quando\" exige próclise (\"Quando se encerrar\") e futuro proíbe ênclise (\"divulgar-se-ão\"); em D, particípio proíbe ênclise (\"havia-se deslocado\")."
+          "comment": "Em C, o advérbio negativo \"Nunca\" é palavra atrativa que exige próclise (\"Nunca se devem...\"). Em A, iniciou-se período com oblíquo; em B, \"Quando\" exige próclise (\"Quando se encerrar\") e futuro proíbe ênclise (\"divulgar-se-ão\"); em D, particípio proíbe ênclise (\"havia-se deslocado\").",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "auditId": "por_13-autoral-1",
@@ -260,7 +272,9 @@
             "A coordenação tinha orientado-lhes sobre o preenchimento das fichas."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. Diante do advérbio \"já\", o pronome oblíquo \"os\" posiciona-se proclítico ao verbo auxiliar \"havia\" (\"já os havia conferido\"). Nas alternativas B, C e D houve ênclise ao particípio (\"extraviado-se\", \"avisado-nos\", \"orientado-lhes\"), construção rejeitada pela norma-padrão."
+          "comment": "Gabarito: A. Diante do advérbio \"já\", o pronome oblíquo \"os\" posiciona-se proclítico ao verbo auxiliar \"havia\" (\"já os havia conferido\"). Nas alternativas B, C e D houve ênclise ao particípio (\"extraviado-se\", \"avisado-nos\", \"orientado-lhes\"), construção rejeitada pela norma-padrão.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "auditId": "por_13-autoral-2",
@@ -272,7 +286,9 @@
             "Apenas II está correta, pois em I deveria ocorrer mesóclise (\"iniciar-se-iam\")."
           ],
           "ans": 0,
-          "comment": "Gabarito: A. Em I, após a pausa da oração reduzida anteposta (\"Passado o período chuvoso,\"), emprega-se regularmente a ênclise (\"iniciaram-se\"). Em II, com \"para + não + infinitivo\", os manuais normativos abonam tanto \"para não o comprometer\" quanto \"para não comprometê-lo\"."
+          "comment": "Gabarito: A. Em I, após a pausa da oração reduzida anteposta (\"Passado o período chuvoso,\"), emprega-se regularmente a ênclise (\"iniciaram-se\"). Em II, com \"para + não + infinitivo\", os manuais normativos abonam tanto \"para não o comprometer\" quanto \"para não comprometê-lo\".",
+          "difficulty": "Intermediário",
+          "questionType": "Interpretação"
         }
       ],
       "flashcards": [
@@ -302,5 +318,7 @@
     97,
     110,
     112
-  ]
+  ],
+  "num": 30,
+  "mdPath": "./content/aulas-49/por_13.md"
 }

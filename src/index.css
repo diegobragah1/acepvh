@@ -201,6 +201,16 @@ body {
   }
   body {
     background-color: #ffffff;
+    font-size: 11pt;
+  }
+  .apostila-sheet {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  .prose-content table {
+    display: table;
+    overflow: visible;
   }
 }
 

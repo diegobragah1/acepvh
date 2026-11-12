@@ -39,7 +39,7 @@ Saúde abrange reduzir riscos e prestar cuidado. Rede articula pontos de atenç�
 - C) O SUS se limita ao atendimento hospitalar.
 - D) A referência elimina qualquer necessidade de comunicação entre serviços.
 
-**Gabarito: B.** A rede organiza pontos com funções diferentes e exige articulação. Integralidade não equivale a concentrar todo procedimento em uma unidade nem a abandonar o usuário após o encaminhamento.
+**Gabarito: B.** Gabarito: B. A Rede de Atenção à Saúde (art. 198, CF/88) articula níveis de complexidade com fluxos de referência e contrarreferência para assegurar continuidade do cuidado. Erro da A: integralidade exige articulação em rede, não que cada UBS execute alta complexidade; erro da C: o SUS abrange atenção básica, vigilância em saúde, saneamento e urgências; erro da D: referência exige comunicação contínua entre serviços.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Saúde abrange reduzir riscos e prestar cuidado. Rede articula pontos de atenç�
 - C) Não, pois também trata de redução de riscos e promoção e proteção.
 - D) Não, porque proíbe toda assistência privada.
 
-**Gabarito: C.** O artigo abrange políticas de redução de riscos e acesso a promoção, proteção e recuperação. A existência de assistência privada é tratada em outro plano pelo art. 199.
+**Gabarito: C.** Gabarito: C. O art. 196 da CF/88 vincula o direito à saúde a políticas sociais e econômicas que reduzam risco de doença e garantam acesso universal a ações de promoção, proteção e recuperação. Erro da A: prevenção e redução de riscos são pilares expressos do art. 196 e priorizados no art. 198, II; erro da B: políticas sociais e econômicas são expressamente citadas; erro da D: o art. 199 declara a assistência à saúde livre à iniciativa privada.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Saúde abrange reduzir riscos e prestar cuidado. Rede articula pontos de atenç�
 - C) Preferencialmente lucrativa, recebendo subvenções e auxílios diretos do fundo de saúde para ampliar o lucro societário.
 - D) Exclusiva para procedimentos estéticos não previstos na rede pública.
 
-**Gabarito: A.** O art. 199, § 1º, estabelece a participação complementar mediante contrato de direito público ou convênio, com preferência expressa para entidades filantrópicas e sem fins lucrativos, sendo vedada a destinação de auxílios/subvenções a entidades com fins lucrativos (§ 2º).
+**Gabarito: A.** Gabarito: A. Reproduz literalmente o art. 199, § 1º, da CF/88: participação complementar por contrato de direito público ou convênio, preferindo entidades filantrópicas e sem fins lucrativos. Erro da B: a participação privada é complementar e subordinada às diretrizes do SUS; erro da C: o art. 199, § 2º, proíbe auxílios e subvenções públicas às instituições privadas com fins lucrativos; erro da D: segue o rol assistencial necessário ao SUS, não estética.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Saúde abrange reduzir riscos e prestar cuidado. Rede articula pontos de atenç�
 - C) Monopolizar a fabricação de todos os medicamentos comercializados em farmácias privadas do país.
 - D) Definir as alíquotas do imposto de renda de profissionais liberais da saúde.
 
-**Gabarito: A.** Os incisos II e IV do art. 200 atribuem expressamente ao SUS a execução das ações de vigilância sanitária, epidemiológica e de saúde do trabalhador, bem como a participação na política e execução de saneamento básico.
+**Gabarito: A.** Gabarito: A. Corresponde aos incisos II e IV do art. 200 da CF/88 (vigilâncias sanitária, epidemiológica, saúde do trabalhador e participação no saneamento básico). Erro da B: função jurisdicional pertence ao Poder Judiciário; erro da C: o art. 200, I, trata do controle, fiscalização e participação na produção de medicamentos/insumos, não monopólio comercial; erro da D: matéria tributária não integra as competências do SUS.
 
 ## Flashcards
 

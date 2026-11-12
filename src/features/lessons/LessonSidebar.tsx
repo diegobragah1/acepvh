@@ -24,6 +24,9 @@ interface LessonSidebarProps {
   statusFilter: string;
   onChangeStatusFilter: (status: string) => void;
   getTopicStatus: (id: string) => TopicStatus;
+  favoriteLessons?: string[];
+  onlyFavorites?: boolean;
+  onToggleOnlyFavorites?: () => void;
 }
 
 export const LessonSidebar: React.FC<LessonSidebarProps> = ({
@@ -38,6 +41,9 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
   statusFilter,
   onChangeStatusFilter,
   getTopicStatus,
+  favoriteLessons = [],
+  onlyFavorites = false,
+  onToggleOnlyFavorites,
 }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const activeLesson = lessons.find((l) => l.id === activeLessonId);
@@ -60,7 +66,9 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="lg:hidden px-2.5 py-1 rounded-lg bg-teal-700 text-white text-[11px] font-bold shrink-0 cursor-pointer"
+            aria-expanded={mobileOpen}
+            aria-label={mobileOpen ? 'Fechar lista de aulas' : 'Trocar aula (abrir lista)'}
+            className="lg:hidden px-2.5 py-1 rounded-lg bg-teal-700 text-white text-[11px] font-bold shrink-0 cursor-pointer focus:outline-none focus:ring-2 focus:ring-teal-500"
           >
             {mobileOpen ? 'Fechar Lista ▲' : 'Trocar Aula ▼'}
           </button>
@@ -69,11 +77,13 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
         {/* Collapsible body on mobile, always visible on desktop (lg:block) */}
         <div className={`${mobileOpen ? 'block' : 'hidden'} lg:block space-y-2.5`}>
           <input
-            type="text"
+            id="lesson-sidebar-search-input"
+            type="search"
             value={searchTerm}
             onChange={(e) => onChangeSearch(e.target.value)}
             placeholder="Buscar aula, lei, endemia..."
-            className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-300 focus:outline-none focus:border-teal-600 bg-slate-50"
+            aria-label="Buscar aula, lei ou endemia"
+            className="w-full px-2.5 py-1.5 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500 bg-slate-50"
           />
 
           {/* Category Filter */}
@@ -124,6 +134,19 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
                 </button>
               );
             })}
+            {onToggleOnlyFavorites && (
+              <button
+                type="button"
+                onClick={onToggleOnlyFavorites}
+                className={`px-2 py-0.5 rounded-md text-[10px] font-bold transition cursor-pointer ${
+                  onlyFavorites
+                    ? 'bg-amber-500 text-white'
+                    : 'bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100'
+                }`}
+              >
+                ★ Favoritas ({favoriteLessons.length})
+              </button>
+            )}
           </div>
 
           {/* Lesson List */}
@@ -133,6 +156,7 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
           >
             {filteredLessons.map((lesson) => {
               const isSelected = lesson.id === activeLessonId;
+              const isFav = favoriteLessons.includes(lesson.id);
               const st = getTopicStatus(lesson.id);
               const meta = getStatusMeta(st);
 
@@ -152,6 +176,7 @@ export const LessonSidebar: React.FC<LessonSidebarProps> = ({
                 >
                   <div className="flex items-center justify-between gap-1 text-[10px]">
                     <span className={isSelected ? 'text-teal-200 font-bold' : 'text-slate-500 font-bold'}>
+                      {isFav ? <span className="text-amber-400 mr-1">★</span> : null}
                       Aula {String(lesson.num).padStart(2, '0')} &middot; {lesson.cat.toUpperCase()}
                     </span>
                     <span className={isSelected ? 'text-amber-300 font-semibold' : 'text-slate-500 font-semibold'}>

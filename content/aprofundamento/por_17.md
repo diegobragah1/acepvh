@@ -39,7 +39,7 @@ Em “Moradores, mantenham os recipientes protegidos”, a vírgula isola:
 - C) Um objeto direto.
 - D) Um complemento nominal.
 
-**Gabarito: B.** Moradores é o destinatário chamado diretamente, portanto vocativo. O sujeito da forma de imperativo está associado ao interlocutor, mas o termo de chamamento tem função própria.
+**Gabarito: B.** Gabarito: B. “Moradores” dirige-se diretamente aos interlocutores como chamamento (vocativo), exigindo isolamento por vírgula. Erro da A: nunca se separa sujeito de verbo por vírgula única, além de o sujeito de “mantenham” estar desinencial (“vocês”); erro da C: o objeto direto é “os recipientes protegidos”; erro da D: não completa nome com preposição.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Qual frase contém uma intercalação corretamente delimitada?
 - C) A equipe segundo, a supervisora retornou cedo.
 - D) A equipe segundo a supervisora, retornou cedo.
 
-**Gabarito: B.** As duas vírgulas isolam a expressão intercalada "segundo a supervisora". Na primeira, a vírgula separa indevidamente sujeito e verbo; na terceira e na quarta, falta o par de vírgulas nas extremidades da intercalação.
+**Gabarito: B.** Gabarito: B. O termo intercalado (“segundo a supervisora”) entre sujeito e verbo está corretamente delimitado por duas vírgulas. Erro da A: vírgula solitária separando sujeito (“A equipe”) e verbo (“retornou”); erro da C e D: deixam de isolar integralmente a expressão intercalada nas duas extremidades.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ No período “Os agentes de endemias visitaram os imóveis do setor norte, e a 
 - C) É obrigatório separar o verbo “visitaram” de seu objeto direto.
 - D) Trata-se de um vocativo colocado no meio do período.
 
-**Gabarito: A.** Quando orações coordenadas unidas pela conjunção “e” apresentam sujeitos distintos, a norma-padrão recomenda o emprego da vírgula antes do conectivo para evitar leitura ambígua.
+**Gabarito: A.** Gabarito: A. Quando a conjunção aditiva “e” conecta orações coordenadas com sujeitos distintos, a vírgula antes do “e” evita confusão de regência/sujeito e recomenda-se pela clareza sintática. Erro da B: “e” coordena orações, não é pronome relativo; erro da C: é proibido separar verbo de objeto direto; erro da D: não há chamamento.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Compare: I) “Os reservatórios, que estavam destampados, receberam tela de pro
 - C) A frase II apresenta erro de pontuação por omitir vírgula entre sujeito e verbo.
 - D) Em I, o trecho entre vírgulas funciona como objeto direto de receberam.
 
-**Gabarito: A.** A oração adjetiva explicativa (isolada por vírgulas em I) qualifica a totalidade do antecedente; a restritiva (sem vírgulas em II) delimita apenas a parte dos reservatórios que se encontrava destampada.
+**Gabarito: A.** Gabarito: A. Em I, a oração adjetiva explicativa (entre vírgulas) generaliza o atributo a todos os reservatórios do contexto; em II, a restritiva (sem vírgulas) restringe apenas aos destampados. Erro da B: o alcance muda significativamente; erro da C: oração adjetiva restritiva corretamente não leva vírgulas; erro da D: funciona como adjunto/explicação de “Os reservatórios”, sujeito do período.
 
 ## Flashcards
 

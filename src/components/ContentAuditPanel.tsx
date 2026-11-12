@@ -23,7 +23,7 @@ export function ContentAuditPanel() {
     <div className="space-y-2">
       <h3 className="font-bold">Suas aulas marcadas para revisar ({review.length})</h3>
       {review.length ? <div className="flex flex-wrap gap-2">{review.map(l => <button key={l.id} onClick={() => open(l.id)} className="text-xs px-3 py-2 rounded-lg bg-teal-50 text-teal-900 border border-teal-200">{l.id} — {l.title}</button>)}</div> : <p className="text-sm text-slate-500">Marque uma aula como “Revisar” na apostila para incluí-la nesta fila.</p>}
-      <p className="text-sm text-slate-600">Roteiro: tente explicar o conceito sem consultar; resolva as questões; confira o comentário e a fonte; registre a causa do erro; use o filtro “Erradas” no simulado para retomar os pontos difíceis.</p>
+      <p className="text-sm text-slate-600">Roteiro: tente explicar o conceito sem consultar; resolva as questões; confira o comentário e a fonte; registre a causa do erro; use o filtro “❌ Caderno de Erros” na aba Revisão/Simulado para retomar os pontos difíceis.</p>
     </div>
     <label className="flex gap-2 items-center text-sm"><input type="checkbox" checked={onlyPending} onChange={e => setOnlyPending(e.target.checked)} />Mostrar apenas aulas com pendências</label>
     <div className="overflow-auto max-h-96"><table className="w-full text-sm text-left"><thead><tr><th className="p-2">Aula</th><th className="p-2">Complementar / conferir</th></tr></thead><tbody>{rows.map(l => {

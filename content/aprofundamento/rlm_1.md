@@ -17,7 +17,7 @@ Duas rotinas repetem-se a cada 12 e 18 dias e ocorreram juntas hoje. O próximo 
 O vocabulário ajuda, mas não basta: “maior” no enunciado não significa sempre MDC. Identifique se a incógnita **divide as quantidades** ou **é múltiplo dos períodos**. Para frações, lembre que o denominador determina partes do todo; somar 1/2 e 1/3 exige denominador comum, resultando em 5/6, e não em 2/5.
 
 ## Quantidade de divisores naturais e relação fundamental entre MMC e MDC
-Fatorado um número natural $N = p_1^{a} cdot p_2^{b} cdot p_3^{c}$ em fatores primos, a quantidade total de divisores naturais positivos de $N$ é obtida somando $1$ a cada expoente e multiplicando os resultados: $D(N) = (a+1)(b+1)(c+1)$. Por exemplo, $72 = 2^3 cdot 3^2$ possui $(3+1)(2+1) = 12$ divisores positivos. Além disso, para quaisquer dois inteiros positivos $a$ e $b$, vale sempre a identidade $	ext{MMC}(a,b) 	imes 	ext{MDC}(a,b) = a 	imes b$.
+Fatorado um número natural $N = p_1^{a} \cdot p_2^{b} \cdot p_3^{c}$ em fatores primos, a quantidade total de divisores naturais positivos de $N$ é obtida somando $1$ a cada expoente e multiplicando os resultados: $D(N) = (a+1)(b+1)(c+1)$. Por exemplo, $72 = 2^3 \cdot 3^2$ possui $(3+1)(2+1) = 12$ divisores positivos. Além disso, para quaisquer dois inteiros positivos $a$ e $b$, vale sempre a identidade $\text{MMC}(a,b) \times \text{MDC}(a,b) = a \times b$.
 
 ## Resumo de revisão
 
@@ -25,10 +25,10 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 
 | Ferramenta Aritmética | Fórmulas e Regras Práticas | Gatilho no Enunciado da Prova | Pegadinha Clássica |
 | --- | --- | --- | --- |
-| **MDC (Máximo Divisor Comum)** | Produto dos fatores primos **comuns** com os **menores** expoentes. | Dividir em partes iguais de **maior tamanho possível**, sem sobra (kits, equipes, lotes). | Confundir o **tamanho de cada kit** ($	ext{MDC}$) com o **total de kits** ($	ext{Soma} div 	ext{MDC}$). |
-| **MMC (Mínimo Múltiplo Comum)** | Produto de todos os fatores primos (comuns e não comuns) com os **maiores** expoentes. | Eventos periódicos que coincidem hoje e pergunta-se **quando voltarão a coincidir**. | Se a questão pede o dia do mês ou da semana, some o $	ext{MMC}$ à data inicial. |
-| **Relação Fundamental e Divisores** | $	ext{MMC}(a,b) cdot 	ext{MDC}(a,b) = a cdot b$; nº de divisores de $p^a q^b = (a+1)(b+1)$. | Dados $	ext{MMC}$, $	ext{MDC}$ e um dos números, achar o outro imediatamente. | Esquecer que o número **1 não é primo** nem composto, e que **2 é o único primo par**. |
-| **Fração Geratriz e Potências** | $0,aaaadots = rac{a}{9}$; $0,ababdots = rac{ab}{99}$. $(-3)^2 = +9$ × $-3^2 = -9$. | Somar dízimas periódicas ou calcular expressões com módulo e potência. | Achar que dízima periódica é número irracional (toda dízima periódica pertence a $mathbb{Q}$). |
+| **MDC (Máximo Divisor Comum)** | Produto dos fatores primos **comuns** com os **menores** expoentes. | Dividir em partes iguais de **maior tamanho possível**, sem sobra (kits, equipes, lotes). | Confundir o **tamanho de cada kit** ($\text{MDC}$) com o **total de kits** ($\text{Soma} \div \text{MDC}$). |
+| **MMC (Mínimo Múltiplo Comum)** | Produto de todos os fatores primos (comuns e não comuns) com os **maiores** expoentes. | Eventos periódicos que coincidem hoje e pergunta-se **quando voltarão a coincidir**. | Se a questão pede o dia do mês ou da semana, some o $\text{MMC}$ à data inicial. |
+| **Relação Fundamental e Divisores** | $\text{MMC}(a,b) \cdot \text{MDC}(a,b) = a \cdot b$; nº de divisores de $p^a q^b = (a+1)(b+1)$. | Dados $\text{MMC}$, $\text{MDC}$ e um dos números, achar o outro imediatamente. | Esquecer que o número **1 não é primo** nem composto, e que **2 é o único primo par**. |
+| **Fração Geratriz e Potências** | $0,aaaa\dots = \frac{a}{9}$; $0,abab\dots = \frac{ab}{99}$. $(-3)^2 = +9$ × $-3^2 = -9$. | Somar dízimas periódicas ou calcular expressões com módulo e potência. | Achar que dízima periódica é número irracional (toda dízima periódica pertence a $\mathbb{Q}$). |
 
 ## Exercícios autorais comentados
 
@@ -41,7 +41,7 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 - C) 84
 - D) 252
 
-**Gabarito: B.** MDC(84,126)=42. São 2 fichas azuis e 3 verdes por kit. 21 divide ambos, mas não é o máximo; 84 não divide 126; 252 é um múltiplo, não quantidade possível de kits.
+**Gabarito: B.** Gabarito: B. Fatorando: 84 = 2² × 3 × 7 e 126 = 2 × 3² × 7. O MDC(84,126) = 2 × 3 × 7 = 42 kits (cada um com 2 fichas azuis e 3 verdes). Erro da A: 21 é divisor comum, mas não é o máximo; erro da C: 84 não divide exatamente 126; erro da D: 252 é o MMC(84,126), um múltiplo comum, não o número de kits.
 
 ### Questão 2
 
@@ -52,7 +52,7 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 - C) 30 dias
 - D) 36 dias
 
-**Gabarito: D.** MMC(12,18)=36. Seis é o MDC; 18 não é múltiplo de 12; somar períodos não encontra necessariamente um reencontro.
+**Gabarito: D.** Gabarito: D. Os múltiplos positivos de 18 são 18, 36, 54...; o menor múltiplo comum com 12 é MMC(12,18) = 36 dias. Erro da A: 6 é o MDC(12,18); erro da B: 18 não é divisível por 12; erro da C: somar os períodos (12 + 18 = 30) não encontra múltiplo de nenhum dos dois.
 
 ### Questão 3
 
@@ -63,7 +63,7 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 - C) 300 pacotes ao todo.
 - D) 12 pacotes ao todo.
 
-**Gabarito: A.** O maior divisor comum entre 120 e 180 é MDC(120, 180) = 60 unidades por pacote. Assim, formam-se 120/60 = 2 pacotes de tubos e 180/60 = 3 pacotes de etiquetas, totalizando 2 + 3 = 5 pacotes.
+**Gabarito: A.** Gabarito: A. MDC(120, 180) = 60 unidades por pacote (capacidade máxima). Dividindo: 120 ÷ 60 = 2 pacotes de tubos e 180 ÷ 60 = 3 pacotes de etiquetas, somando 2 + 3 = 5 pacotes. Erro da B: 60 é a quantidade de itens por pacote, não o total de pacotes; erro da C: 300 = 120 + 180 é a soma dos itens; erro da D: 12 resulta de dividir incorretamente ou somar divisores menores.
 
 ### Questão 4
 
@@ -74,7 +74,7 @@ MDC divide quantidades para repartir sem sobra; MMC encontra múltiplos comuns d
 - C) 10 divisores positivos.
 - D) 30 divisores positivos.
 
-**Gabarito: A.** Somando 1 a cada expoente da decomposição em fatores primos (3, 1 e 2) e multiplicando os resultados, temos: (3 + 1) × (1 + 1) × (2 + 1) = 4 × 2 × 3 = 24 divisores naturais positivos.
+**Gabarito: A.** Gabarito: A. Pela fórmula do número de divisores positivos, soma-se 1 a cada expoente primo e multiplicam-se os resultados: (3 + 1) × (1 + 1) × (2 + 1) = 4 × 2 × 3 = 24 divisores. Erro da B: resulta de multiplicar diretamente os expoentes (3 × 1 × 2 = 6) sem somar 1; erro da C: 10 equivale a 2 + 3 + 5 ou adição indevida; erro da D: erro multiplicativo sobre os fatores.
 
 ## Flashcards
 

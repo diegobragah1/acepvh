@@ -25,10 +25,10 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 
 | Tópico Algébrico | Fórmula / Estrutura | Aplicação Rápida | Cuidado na Prova |
 | --- | --- | --- | --- |
-| **Tradução Verbal para Equação** | *"A terça parte de $x$ excede 4 em 10"* $implies rac{x}{3} - 4 = 10$. | Cuidado com parênteses: *"o dobro de $(x+3)$"* é $2(x+3) = 2x+6$, e não $2x+3$. | Releia o comando para ver se pede $x$, o sucessor $x+1$ ou a soma. |
-| **Sistema Linear $2 	imes 2$** | $egin{cases} x + y = T \ a x + b y = S end{cases}$ | Método da adição/subtração elimina uma variável rapidamente. | Confira o par $(x,y)$ nas **duas** equações do enunciado. |
-| **Função do 1º Grau (Afim)** | $f(x) = a x + b$ ($a =$ taxa de variação; $b =$ valor inicial/fixo). | Raiz ou zero da função: $f(x)=0 implies x = -b/a$. Se $a>0$, é crescente; se $a<0$, decrescente. | Só é linear/proporcional se $b = 0$. |
-| **Média Simples × Média Ponderada** | $ar{x} = rac{sum x_i}{n}$ × $ar{x}_p = rac{p_1 x_1 + p_2 x_2 + dots}{p_1 + p_2 + dots}$ | Na média ponderada, divide-se pela **soma dos pesos** ($p_1+p_2+dots$), e não pela quantidade de parcelas. | No concurso ACE (Português peso 2, RLM peso 1, Gerais peso 1, Legislação peso 2, Específicos peso 3), a nota final usa média ponderada/pontos por peso. |
+| **Tradução Verbal para Equação** | *"A terça parte de $x$ excede 4 em 10"* $\implies \frac{x}{3} - 4 = 10$. | Cuidado com parênteses: *"o dobro de $(x+3)$"* é $2(x+3) = 2x+6$, e não $2x+3$. | Releia o comando para ver se pede $x$, o sucessor $x+1$ ou a soma. |
+| **Sistema Linear $2 \times 2$** | $\begin{cases} x + y = T \\ a x + b y = S \end{cases}$ | Método da adição/subtração elimina uma variável rapidamente. | Confira o par $(x,y)$ nas **duas** equações do enunciado. |
+| **Função do 1º Grau (Afim)** | $f(x) = a x + b$ ($a =$ taxa de variação; $b =$ valor inicial/fixo). | Raiz ou zero da função: $f(x)=0 \implies x = -b/a$. Se $a>0$, é crescente; se $a<0$, decrescente. | Só é linear/proporcional se $b = 0$. |
+| **Média Simples × Média Ponderada** | $\bar{x} = \frac{\sum x_i}{n}$ × $\bar{x}_p = \frac{p_1 x_1 + p_2 x_2 + \dots}{p_1 + p_2 + \dots}$ | Na média ponderada, divide-se pela **soma dos pesos** ($p_1+p_2+\dots$), e não pela quantidade de parcelas. | No Edital nº 25/2026 do ACE Porto Velho (Anexo III), todas as 5 disciplinas têm **peso 2,0** (100 pts); em provas ou simulações com pesos distintos (ex.: peso 3 e peso 1), multiplica-se cada nota pelo respectivo peso. |
 
 ## Exercícios autorais comentados
 
@@ -41,7 +41,7 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 - C) 12
 - D) 24
 
-**Gabarito: C.** Subtrair as equações elimina x: 2y=24 e y=12. Vinte e quatro é o valor de 2y, não de y; 8 corresponde a x.
+**Gabarito: C.** Gabarito: C. Subtraindo a 1ª equação da 2ª: (x + 3y) − (x + y) = 44 − 20 → 2y = 24 → y = 12 (e x = 20 − 12 = 8). Erro da A: 8 é o valor da incógnita x; erro da B: metade de 20 sem resolver o sistema; erro da D: 24 é o valor de 2y antes de dividir por 2.
 
 ### Questão 2
 
@@ -52,7 +52,7 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 - C) 8
 - D) 15
 
-**Gabarito: C.** A soma total é 10×6 + 20×9=240; dividir por 30 resulta em 8. Média simples entre 6 e 9 ignoraria os tamanhos dos grupos.
+**Gabarito: C.** Gabarito: C. Média ponderada: Soma total = (10 × 6) + (20 × 9) = 60 + 180 = 240. Dividindo pelo total de 30 pessoas: 240 ÷ 30 = 8. Erro da A: erro de ponderação; erro da B: 7,5 é a média aritmética simples entre 6 e 9, que ignora os tamanhos distintos (10 e 20); erro da D: soma as duas médias (6 + 9).
 
 ### Questão 3
 
@@ -63,7 +63,7 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 - C) 25 residências.
 - D) 40 residências.
 
-**Gabarito: A.** Sejam R as residências e C os comércios: R + C = 50 (logo C = 50 − R) e 2R + 5C = 136. Substituindo: 2R + 5(50 − R) = 136 → 2R + 250 − 5R = 136 → 3R = 114 → R = 38 residências (e C = 12 comércios).
+**Gabarito: A.** Gabarito: A. Sistema: R + C = 50 e 2R + 5C = 136. Substituindo C = 50 − R: 2R + 5(50 − R) = 136 → 250 − 3R = 136 → 3R = 114 → R = 38 residências. Erro da B: 12 é a quantidade de comércios (50 − 38); erro da C: divisão meio a meio sem usar o total de caixas; erro da D: arredondamento sem satisfazer 2(40) + 5(10) = 130 ≠ 136.
 
 ### Questão 4
 
@@ -74,7 +74,7 @@ Defina variáveis e unidades. Operações equivalentes preservam a igualdade. Co
 - C) 7,5.
 - D) 9,0.
 
-**Gabarito: A.** Multiplicando cada nota pelo respectivo peso e dividindo pela soma dos pesos (2 + 3 + 5 = 10): [(8,0 × 2) + (7,0 × 3) + (9,0 × 5)] / 10 = (16 + 21 + 45) / 10 = 82 / 10 = 8,2.
+**Gabarito: A.** Gabarito: A. Média ponderada = [(8,0 × 2) + (7,0 × 3) + (9,0 × 5)] ÷ (2 + 3 + 5) = (16 + 21 + 45) ÷ 10 = 82 ÷ 10 = 8,2. Erro da B: 8,0 é a média aritmética simples (8+7+9)/3 = 8,0, ignorando os pesos; erro da C: calcula apenas as duas primeiras provas; erro da D: repete apenas a nota de maior peso.
 
 ## Flashcards
 

@@ -45,7 +45,7 @@ Estude fatos datados com causas, instituições e impactos. Enchentes, secas e C
 - C) O nível de preços retornou ao do ano anterior.
 - D) A inflação deixou de medir variações.
 
-**Gabarito: B.** A taxa positiva menor representa desaceleração. Não implica queda generalizada nem recomposição de preços anteriores.
+**Gabarito: B.** Gabarito: B. Uma taxa de inflação positiva menor (de 6% para 4%) indica desinflação/desaceleração da alta de preços: os preços continuam subindo, porém em ritmo menor. Erro da A: queda generalizada de preços seria deflação (taxa negativa); erro da C: o nível geral continua 4% acima do ano anterior; erro da D: o índice (como o IPCA) segue medindo a variação da cesta.
 
 ### Questão 2
 
@@ -56,7 +56,7 @@ Estude fatos datados com causas, instituições e impactos. Enchentes, secas e C
 - C) Uma medida sem relação com vulnerabilidade.
 - D) Garantia de que não haverá chuva.
 
-**Gabarito: A.** Adaptação reduz danos e vulnerabilidade. Mitigação atua sobre causas do aquecimento; nenhuma das medidas garante ausência de eventos meteorológicos.
+**Gabarito: A.** Gabarito: A. Adaptação climática ajusta infraestrutura, drenagem e serviços de saúde para reduzir danos diante de eventos extremos. Erro da B: redução de gases de efeito estufa chama-se mitigação; erro da C: adaptar atua diretamente na redução da vulnerabilidade; erro da D: nenhuma obra impede eventos pluviométricos atmosféricos.
 
 ### Questão 3
 
@@ -67,7 +67,7 @@ Estude fatos datados com causas, instituições e impactos. Enchentes, secas e C
 - C) Extinção definitiva das usinas hidrelétricas de Santo Antônio e Jirau por terremoto.
 - D) Transposição das águas do Rio São Francisco para abastecer o Lago de Cuniã.
 
-**Gabarito: A.** Em 2023 e 2024, o Rio Madeira enfrentou estiagens severas históricas, atingindo cotas mínimas recordes em Porto Velho, com fortes impactos na navegação do Arco Norte, nas comunidades ribeirinhas do Baixo Madeira e na geração hidrelétrica.
+**Gabarito: A.** Gabarito: A. Em 2023 e 2024, o Rio Madeira atingiu níveis historicamente baixos em Porto Velho, afetando o transporte fluvial do Arco Norte, comunidades do Baixo Madeira e hidrelétricas a fio d’água. Erro da B: não ocorre congelamento fluvial em clima equatorial amazônico; erro da C: Santo Antônio e Jirau sofreram redução de vazão, não destruição sísmica; erro da D: o Lago de Cuniã integra a própria bacia do Madeira, sem ligação com o São Francisco.
 
 ### Questão 4
 
@@ -78,7 +78,7 @@ Estude fatos datados com causas, instituições e impactos. Enchentes, secas e C
 - C) O gasoduto Brasil-Bolívia e o canal fluvial do Rio Tietê.
 - D) A rodovia BR-101 litorânea e o porto oceânico de Guajará-Mirim.
 
-**Gabarito: A.** Em Porto Velho, as cargas que chegam pela rodovia BR-364 são embarcadas em comboios de barcaças nos terminais portuários do Rio Madeira (Hidrovia do Madeira), seguindo até os portos de Itacoatiara (AM) e Santarém/Barcarena (PA) para exportação.
+**Gabarito: A.** Gabarito: A. Porto Velho articula o transporte rodoviário pela BR-364 ao transporte hidroviário no Porto Organizado de Porto Velho/Madeira rumo ao Amazonas/Arco Norte. Erro da B: não existe ferrovia ao Pacífico operando nem porto marítimo em Ji-Paraná; erro da C: gasoduto Brasil-Bolívia e Rio Tietê ficam no Centro-Sul; erro da D: BR-101 é rodovia costeira e Guajará-Mirim é fronteira fluvial sem porto oceânico.
 
 ### Questão 5
 
@@ -89,7 +89,7 @@ Estude fatos datados com causas, instituições e impactos. Enchentes, secas e C
 - C) Substituir o calendário nacional de vacinação por créditos de carbono industriais.
 - D) Desativar o monitoramento hidrometeorológico dos rios amazônicos.
 
-**Gabarito: A.** Medidas de adaptação preparam os sistemas de saúde, saneamento e defesa civil para proteger a população diante dos impactos climáticos reais (como secas e enchentes extremas).
+**Gabarito: A.** Gabarito: A. Planos de contingência para continuidade da assistência, água potável e vigilância de vetores/doenças em cheias e estiagens preparam a comunidade e o SUS para impactos climáticos (adaptação). Erro da B: fechar UBS agrava a vulnerabilidade sanitária; erro da C: vacinação e mercado de carbono não são substituíveis entre si; erro da D: o monitoramento hidrometeorológico (ANA/Cemaden/SGB) é essencial à resposta preventiva.
 
 ## Flashcards
 

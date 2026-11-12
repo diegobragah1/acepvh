@@ -39,7 +39,7 @@ Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar
 - C) Ausência de prestação de contas.
 - D) Supremacia da Lei Orgânica sobre a Constituição Federal.
 
-**Gabarito: B.** A autonomia decorre da estrutura federativa e deve respeitar a Constituição. Não afasta controles nem estabelece soberania própria.
+**Gabarito: B.** Gabarito: B. A autonomia municipal assegurada pelos arts. 18 e 29 da CF/88 dá ao Município capacidade de auto-organização, autogoverno, autoadministração e autolegislação nos limites constitucionais. Erro da A: soberania é atributo exclusivo da República Federativa do Brasil no plano externo; erro da C: o controle interno, legislativo e pelo Tribunal de Contas (art. 31) é obrigatório; erro da D: a Lei Orgânica subordina-se às Constituições Federal e Estadual.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar
 - C) Eliminar o controle interno.
 - D) Dispensar a análise da competência de cada órgão.
 
-**Gabarito: B.** Fiscalizar e executar são funções distintas. A existência de um controle não elimina os demais mecanismos de responsabilidade.
+**Gabarito: B.** Gabarito: B. Cabe à Câmara Municipal (com auxílio do TCE-RO) exercer o controle externo sem usurpar a gestão administrativa privativa do Poder Executivo. Erro da A: executar serviços públicos é atribuição típica do Executivo; erro da C: o art. 31 e o art. 74 da CF/88 exigem controle interno integrado ao externo; erro da D: cada órgão responde nos limites de sua competência legal.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar
 - C) Decreto individual do Prefeito Municipal sem participação do Poder Legislativo.
 - D) Referendo obrigatório da Organização das Nações Unidas.
 
-**Gabarito: A.** Tanto o art. 29, caput, da CF/88 quanto a Lei Orgânica Municipal determinam votação em dois turnos, com intervalo mínimo de 10 dias, e quórum qualificado de 2/3 dos membros da Câmara Municipal.
+**Gabarito: A.** Gabarito: A. Reproduz o art. 29, caput, da CF/88 e o processo legislativo da LOM de Porto Velho: dois turnos, intervalo mínimo de 10 dias, quórum de 2/3 e promulgação pela própria Câmara. Erro da B: não há turno único, maioria simples nem sanção estadual; erro da C: decreto do Prefeito não cria nem emenda Lei Orgânica; erro da D: não existe referendo internacional no processo legislativo municipal.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Autonomia municipal tem limites constitucionais. Legislar, executar e fiscalizar
 - C) Não tem qualquer valor jurídico e é meramente decorativo.
 - D) Exige unanimidade dos eleitores do município em plebiscito.
 
-**Gabarito: A.** Conforme o art. 31, § 2º, da CF/88, reproduzido na Lei Orgânica Municipal, o parecer prévio do Tribunal de Contas sobre as contas que o Prefeito deve anualmente prestar só deixará de prevalecer por decisão de 2/3 dos membros da Câmara Municipal.
+**Gabarito: A.** Gabarito: A. Nos termos do art. 31, § 2º, da CF/88, o parecer prévio do Tribunal de Contas sobre as contas do Prefeito só deixa de prevalecer pelo voto de 2/3 dos vereadores. Erro da B: secretário municipal é subordinado ao Executivo e não julga contas; erro da C: o parecer é peça técnico-jurídica qualificada que exige maioria qualificada de 2/3 para rejeição; erro da D: o julgamento político é da Câmara, e não por plebiscito.
 
 ## Flashcards
 

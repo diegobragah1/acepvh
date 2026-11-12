@@ -48,9 +48,9 @@ Inventário principal: 10 questões e 8 cartões. Gabaritos e cartões não rece
 | --- | --- | --- |
 | Art. 196 | Bloco(s) 1, 2, 3 | Pendente |
 | Art. 197 | Bloco(s) 1, 3 | Pendente |
-| Art. 198 | Bloco(s) 1, 2, 3 | Pendente |
-| Art. 199 | Bloco(s) 1, 2, 3 | Pendente |
-| Art. 200 | Bloco(s) 1, 2, 3 | Pendente |
+| Art. 198 | Bloco(s) 1, 3 | Pendente |
+| Art. 199 | Bloco(s) 1, 3 | Pendente |
+| Art. 200 | Bloco(s) 1, 3 | Pendente |
 | Emendas Constitucionais | Bloco(s) 2, 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -69,7 +69,7 @@ Inventário principal: 19 questões e 21 cartões. Gabaritos e cartões não rec
 | --- | --- | --- |
 | Lei 8.080 | Bloco(s) 1, 2, 3, 4, 5, 6 | Pendente |
 | Portaria 2.436 | Bloco(s) 6 | Pendente |
-| Lei 8.142 | Bloco(s) 2, 3, 4 | Pendente |
+| Lei 8.142 | Bloco(s) 3, 4 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -79,7 +79,7 @@ Programa de referência: 3 - Lei Federal nº 11.350/2006. Lei Federal nº 13.708
 
 **Estado: conferência integral pendente.**
 
-Quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 pela Lei 14.792/2024 e denominação Lei Ruth Brilhante. Removidas referências órfãs a alternativa E em questões de 4 opções.
+Quatro blocos principais reescritos; corrigidos jornada, revogação dos incisos 30/10 pela Lei 13.708/2018 e denominação Lei Ruth Brilhante. Removidas referências órfãs a alternativa E em questões de 4 opções.
 
 Inventário principal: 11 questões e 12 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -103,7 +103,7 @@ Inventário principal: 16 questões e 17 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| princípios | Bloco(s) 1, 2, 4 | Pendente |
+| princípios | Bloco(s) 1, 4 | Pendente |
 | diretrizes | Bloco(s) 1, 2, 3, 4 | Pendente |
 | atribuições | Bloco(s) 1, 2, 5 | Pendente |
 | competências | Bloco(s) 1, 2, 4, 5 | Pendente |
@@ -127,10 +127,10 @@ Inventário principal: 10 questões e 11 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Política Nacional de Atenção Básica | Bloco(s) 1, 2, 3 | Pendente |
-| princípios | Bloco(s) 1, 2, 3 | Pendente |
+| Política Nacional de Atenção Básica | Bloco(s) 1, 2 | Pendente |
+| princípios | Bloco(s) 1, 2 | Pendente |
 | diretrizes | Bloco(s) 1, 2, 3, 4 | Pendente |
-| equipes | Bloco(s) 1, 2, 3 | Pendente |
+| equipes | Bloco(s) 1, 2 | Pendente |
 | atribuições | Bloco(s) 1, 2, 4 | Pendente |
 | processo de trabalho | Bloco(s) 2 | Pendente |
 | territorialização | Bloco(s) 1, 2 | Pendente |
@@ -143,7 +143,7 @@ Programa de referência: 6 - História e Evolução da Profissão de ACE.
 
 **Estado: conferência integral pendente.**
 
-Corrigida a apresentação da jornada 30/10 como vigente (revogada pela Lei 14.792/2024) e revisada a evolução institucional (SUCAM, FUNASA, EC 51/2006, Lei 11.350/2006, Lei 13.595/2018 e EC 120/2022).
+Corrigida a apresentação da jornada 30/10 como vigente (revogada pela Lei 13.708/2018) e revisada a evolução institucional (SUCAM, FUNASA, EC 51/2006, Lei 11.350/2006, Lei 13.595/2018, EC 120/2022 e EC 140/2026).
 
 Inventário principal: 7 questões e 7 cartões. Gabaritos e cartões não recebem aprovação automática.
 
@@ -171,7 +171,7 @@ Inventário principal: 15 questões e 16 cartões. Gabaritos e cartões não rec
 | Agente de Combate | Bloco(s) 1 | Pendente |
 | atividades típicas | Bloco(s) 1 | Pendente |
 | atividades assistidas | Bloco(s) 1 | Pendente |
-| atividades integradas | Não localizada automaticamente | Pendente |
+| atividades integradas | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -187,11 +187,11 @@ Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Vigilância em Saúde | Bloco(s) 1, 2, 3 | Pendente |
+| Vigilância em Saúde | Bloco(s) 1, 3 | Pendente |
 | epidemiológica | Bloco(s) 1, 2, 3, 4 | Pendente |
-| sanitária | Bloco(s) 1, 2, 3 | Pendente |
+| sanitária | Bloco(s) 1, 3 | Pendente |
 | ambiental | Bloco(s) 1, 2, 3 | Pendente |
-| trabalhador | Bloco(s) 1, 2, 3 | Pendente |
+| trabalhador | Bloco(s) 1, 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -207,20 +207,20 @@ Inventário principal: 29 questões e 35 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Raiva | Bloco(s) 1, 4, 8, 9, 10, 11, 12 | Pendente |
-| Esquistossomose | Bloco(s) 4, 6, 8, 9, 10, 11, 12 | Pendente |
+| Raiva | Bloco(s) 1, 4, 8, 11, 12 | Pendente |
+| Esquistossomose | Bloco(s) 6, 8, 11, 12 | Pendente |
 | Chagas | Bloco(s) 4, 5, 6, 7 | Pendente |
 | Dengue | Bloco(s) 1, 2, 3, 4, 8 | Pendente |
 | Febre Amarela | Bloco(s) 1, 2, 4, 8 | Pendente |
 | Febre Maculosa | Bloco(s) 8, 10, 11 | Pendente |
-| Influenza | Bloco(s) 1, 2, 4, 8, 9, 10, 11 | Pendente |
+| Influenza | Bloco(s) 1, 2, 4, 8, 9, 11 | Pendente |
 | Chikungunya | Bloco(s) 1, 2, 3 | Pendente |
 | Zika | Bloco(s) 1, 2, 3 | Pendente |
-| Leptospirose | Bloco(s) 8, 9, 10, 11, 12 | Pendente |
-| Tegumentar | Bloco(s) 4, 5, 6 | Pendente |
-| Visceral | Bloco(s) 4, 5, 6, 7 | Pendente |
-| Malária | Bloco(s) 4, 5, 6, 7 | Pendente |
-| COVID | Bloco(s) 1, 4, 8, 9, 10, 11 | Pendente |
+| Leptospirose | Bloco(s) 8, 9, 11, 12 | Pendente |
+| Tegumentar | Bloco(s) 5, 6 | Pendente |
+| Visceral | Bloco(s) 5, 6, 7 | Pendente |
+| Malária | Bloco(s) 4, 6, 7 | Pendente |
+| COVID | Bloco(s) 1, 4, 8, 9, 11 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -292,7 +292,7 @@ Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não rec
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | 390/2010 | Bloco(s) 1, 3, 4, 5 | Pendente |
-| 391/2010 | Bloco(s) 1, 2, 3, 4, 5 | Pendente |
+| 391/2010 | Bloco(s) 2, 3, 4, 5 | Pendente |
 | atualizações | Bloco(s) 2, 5 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -327,21 +327,21 @@ Inventário principal: 14 questões e 18 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Princípios Fundamentais | Bloco(s) 1, 2, 4, 5 | Pendente |
+| Princípios Fundamentais | Bloco(s) 1, 4, 5 | Pendente |
 | art. 5 | Bloco(s) 2, 4, 5, 6 | Pendente |
 | art. 6 | Bloco(s) 2, 4, 5 | Pendente |
 | art. 7 | Bloco(s) 5, 6 | Pendente |
 | art. 8 | Bloco(s) 4, 5 | Pendente |
-| art. 9 | Bloco(s) 3, 5, 6 | Pendente |
+| art. 9 | Bloco(s) 5, 6 | Pendente |
 | art. 10 | Bloco(s) 5 | Pendente |
 | art. 11 | Bloco(s) 5 | Pendente |
-| art. 12 | Bloco(s) 1, 2, 4, 5 | Pendente |
-| art. 13 | Bloco(s) 1, 2, 4, 5 | Pendente |
+| art. 12 | Bloco(s) 2, 4, 5 | Pendente |
+| art. 13 | Bloco(s) 2, 4, 5 | Pendente |
 | art. 29 | Bloco(s) 3, 4, 6 | Pendente |
-| 29-A | Bloco(s) 1, 3, 4, 6 | Pendente |
-| art. 30 | Bloco(s) 1, 4 | Pendente |
+| 29-A | Bloco(s) 3, 4, 6 | Pendente |
+| art. 30 | Bloco(s) 3 | Pendente |
 | art. 31 | Bloco(s) 3, 4 | Pendente |
-| art. 37 | Bloco(s) 1, 3, 4, 5, 6 | Pendente |
+| art. 37 | Bloco(s) 3, 4, 5, 6 | Pendente |
 | art. 38 | Bloco(s) 3, 6 | Pendente |
 | art. 39 | Bloco(s) 4, 6 | Pendente |
 
@@ -378,8 +378,8 @@ Inventário principal: 10 questões e 12 cartões. Gabaritos e cartões não rec
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | 12.527 | Bloco(s) 1, 2, 3, 4 | Pendente |
-| Estadual | Bloco(s) 1, 2, 3, 4 | Pendente |
-| Municipal | Bloco(s) 1, 2, 3, 4 | Pendente |
+| Estadual | Bloco(s) 2, 3, 4 | Pendente |
+| Municipal | Bloco(s) 2, 3, 4 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -477,15 +477,15 @@ Inventário principal: 6 questões e 5 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| Figuras de Linguagem | Bloco(s) 1 | Pendente |
+| Figuras de Linguagem | Bloco(s) 1, 2 | Pendente |
 | metáfora | Bloco(s) 1, 2 | Pendente |
 | metonímia | Bloco(s) 1, 2 | Pendente |
 | comparação | Bloco(s) 1, 2 | Pendente |
 | personificação | Bloco(s) 1, 2 | Pendente |
 | hipérbole | Bloco(s) 1 | Pendente |
-| eufemismo | Bloco(s) 1 | Pendente |
-| ironia | Bloco(s) 1 | Pendente |
-| antítese | Bloco(s) 1 | Pendente |
+| eufemismo | Bloco(s) 1, 2 | Pendente |
+| ironia | Bloco(s) 1, 2 | Pendente |
+| antítese | Bloco(s) 1, 2 | Pendente |
 | paradoxo | Bloco(s) 1, 2 | Pendente |
 | sinestesia | Bloco(s) 1, 2 | Pendente |
 
@@ -521,7 +521,7 @@ Inventário principal: 8 questões e 8 cartões. Gabaritos e cartões não receb
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | coesão | Bloco(s) 1, 2, 3 | Pendente |
-| coerência | Bloco(s) 1, 3 | Pendente |
+| coerência | Bloco(s) 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -538,9 +538,9 @@ Inventário principal: 10 questões e 9 cartões. Gabaritos e cartões não rece
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | identificação | Bloco(s) 1 | Pendente |
-| definição | Não localizada automaticamente | Pendente |
-| classificação | Não localizada automaticamente | Pendente |
-| flexão | Bloco(s) 1 | Pendente |
+| definição | Bloco(s) 3 | Pendente |
+| classificação | Bloco(s) 3 | Pendente |
+| flexão | Bloco(s) 1, 3 | Pendente |
 | emprego | Bloco(s) 1 | Pendente |
 | substantivo | Bloco(s) 1, 2, 3 | Pendente |
 | artigo | Bloco(s) 1, 3 | Pendente |
@@ -568,9 +568,9 @@ Inventário principal: 8 questões e 5 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| flexão | Não localizada automaticamente | Pendente |
+| flexão | Bloco(s) 2 | Pendente |
 | conjugação | Bloco(s) 1 | Pendente |
-| vozes | Não localizada automaticamente | Pendente |
+| vozes | Bloco(s) 2 | Pendente |
 | correlação | Bloco(s) 1 | Pendente |
 | tempos | Bloco(s) 1 | Pendente |
 | modos | Bloco(s) 1 | Pendente |
@@ -606,7 +606,7 @@ Inventário principal: 7 questões e 7 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| regência verbal | Bloco(s) 1, 3 | Pendente |
+| regência verbal | Bloco(s) 3 | Pendente |
 | regência nominal | Bloco(s) 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -625,7 +625,7 @@ Inventário principal: 7 questões e 5 cartões. Gabaritos e cartões não receb
 | --- | --- | --- |
 | crase | Bloco(s) 1, 2 | Pendente |
 | obrigatórios | Bloco(s) 1 | Pendente |
-| facultativos | Não localizada automaticamente | Pendente |
+| facultativos | Bloco(s) 1 | Pendente |
 | proibidos | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
@@ -664,12 +664,12 @@ Inventário principal: 7 questões e 8 cartões. Gabaritos e cartões não receb
 | --- | --- | --- |
 | oração | Bloco(s) 2, 3 | Pendente |
 | período | Bloco(s) 1, 3 | Pendente |
-| sintáticos | Não localizada automaticamente | Pendente |
-| semânticos | Não localizada automaticamente | Pendente |
+| sintáticos | Bloco(s) 3 | Pendente |
+| semânticos | Bloco(s) 3 | Pendente |
 | sujeito | Bloco(s) 1, 2, 3 | Pendente |
 | predicado | Bloco(s) 3 | Pendente |
-| coordenação | Não localizada automaticamente | Pendente |
-| subordinação | Não localizada automaticamente | Pendente |
+| coordenação | Bloco(s) 3 | Pendente |
+| subordinação | Bloco(s) 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -804,7 +804,7 @@ Inventário principal: 13 questões e 14 cartões. Gabaritos e cartões não rec
 | --- | --- | --- |
 | razões | Bloco(s) 2 | Pendente |
 | proporções | Bloco(s) 2 | Pendente |
-| diretamente | Bloco(s) 1, 2, 3, 4 | Pendente |
+| diretamente | Bloco(s) 1, 2, 3, 4, 5 | Pendente |
 | inversamente | Bloco(s) 1, 2, 3, 4 | Pendente |
 | regra de três simples | Bloco(s) 1, 2 | Pendente |
 | regra de três composta | Bloco(s) 1, 2, 3, 4 | Pendente |
@@ -846,8 +846,8 @@ Inventário principal: 10 questões e 13 cartões. Gabaritos e cartões não rec
 | --- | --- | --- |
 | equações | Bloco(s) 1, 2 | Pendente |
 | sistemas | Bloco(s) 1, 2 | Pendente |
-| função | Bloco(s) 1, 2 | Pendente |
-| resolução de problemas | Não localizada automaticamente | Pendente |
+| função | Bloco(s) 1 | Pendente |
+| resolução de problemas | Bloco(s) 1 | Pendente |
 | média aritmética simples | Bloco(s) 2, 3 | Pendente |
 | ponderada | Bloco(s) 2, 3, 4 | Pendente |
 
@@ -866,13 +866,13 @@ Inventário principal: 15 questões e 18 cartões. Gabaritos e cartões não rec
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | proposições simples | Bloco(s) 1, 2 | Pendente |
-| compostas | Bloco(s) 1, 2, 3, 5, 6 | Pendente |
-| conectivos | Bloco(s) 1, 2, 4, 5 | Pendente |
+| compostas | Bloco(s) 2, 3, 5, 6 | Pendente |
+| conectivos | Bloco(s) 1, 2, 4 | Pendente |
 | tabelas-verdade | Bloco(s) 1, 2 | Pendente |
-| negação | Bloco(s) 1, 2, 5, 6 | Pendente |
-| equivalências | Bloco(s) 1, 2, 5, 6 | Pendente |
-| implicações | Não localizada automaticamente | Pendente |
-| quantificadores | Bloco(s) 1, 2, 5, 6 | Pendente |
+| negação | Bloco(s) 2, 5, 6 | Pendente |
+| equivalências | Bloco(s) 2, 5, 6 | Pendente |
+| implicações | Bloco(s) 4 | Pendente |
+| quantificadores | Bloco(s) 2, 5, 6 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -889,8 +889,8 @@ Inventário principal: 12 questões e 16 cartões. Gabaritos e cartões não rec
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | premissas | Bloco(s) 1, 2, 5 | Pendente |
-| conclusões | Não localizada automaticamente | Pendente |
-| inferências | Não localizada automaticamente | Pendente |
+| conclusões | Bloco(s) 5 | Pendente |
+| inferências | Bloco(s) 5 | Pendente |
 | validade | Bloco(s) 5 | Pendente |
 | diagramas | Bloco(s) 1, 2, 3 | Pendente |
 | notação | Bloco(s) 5 | Pendente |
@@ -903,13 +903,13 @@ Inventário principal: 12 questões e 16 cartões. Gabaritos e cartões não rec
 | vazio | Bloco(s) 3, 4, 5 | Pendente |
 | universo | Bloco(s) 3, 4 | Pendente |
 | partes | Bloco(s) 3, 4, 5 | Pendente |
-| finitos | Não localizada automaticamente | Pendente |
-| infinitos | Não localizada automaticamente | Pendente |
+| finitos | Bloco(s) 5 | Pendente |
+| infinitos | Bloco(s) 5 | Pendente |
 | união | Bloco(s) 3, 4, 5 | Pendente |
 | interseção | Bloco(s) 1, 3, 4, 5 | Pendente |
 | diferença | Bloco(s) 5 | Pendente |
 | complementar | Bloco(s) 3, 5 | Pendente |
-| números | Bloco(s) 3, 4, 5 | Pendente |
+| números | Bloco(s) 4, 5 | Pendente |
 | letras | Bloco(s) 5 | Pendente |
 | palavras | Bloco(s) 5 | Pendente |
 | figuras | Bloco(s) 5 | Pendente |
@@ -931,10 +931,10 @@ Inventário principal: 12 questões e 14 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| princípio fundamental | Bloco(s) 1, 2, 4 | Pendente |
-| arranjos | Não localizada automaticamente | Pendente |
-| permutações | Não localizada automaticamente | Pendente |
-| combinações | Não localizada automaticamente | Pendente |
+| princípio fundamental | Bloco(s) 2, 4 | Pendente |
+| arranjos | Bloco(s) 4 | Pendente |
+| permutações | Bloco(s) 4 | Pendente |
+| combinações | Bloco(s) 4 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -950,9 +950,9 @@ Inventário principal: 24 questões e 17 cartões. Gabaritos e cartões não rec
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| conceitos básicos | Não localizada automaticamente | Pendente |
+| conceitos básicos | Bloco(s) 1 | Pendente |
 | probabilidades | Bloco(s) 1 | Pendente |
-| espaços amostrais finitos | Não localizada automaticamente | Pendente |
+| espaços amostrais finitos | Bloco(s) 1 | Pendente |
 | lógico | Bloco(s) 1 | Pendente |
 | sequencial | Bloco(s) 4 | Pendente |
 
@@ -970,14 +970,14 @@ Inventário principal: 8 questões e 9 cartões. Gabaritos e cartões não receb
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| políticos | Bloco(s) 1, 2, 3 | Pendente |
-| econômicos | Bloco(s) 1, 2, 3 | Pendente |
-| sociais | Bloco(s) 1, 2, 3 | Pendente |
+| políticos | Bloco(s) 1, 3 | Pendente |
+| econômicos | Bloco(s) 1, 3 | Pendente |
+| sociais | Bloco(s) 1, 3 | Pendente |
 | Município | Bloco(s) 1, 2, 3 | Pendente |
 | Estado | Bloco(s) 1 | Pendente |
 | Brasil | Bloco(s) 1, 2, 3 | Pendente |
 | mundo | Bloco(s) 1, 2, 3 | Pendente |
-| cinco anos | Não localizada automaticamente | Pendente |
+| cinco anos | Bloco(s) 1 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -997,7 +997,7 @@ Inventário principal: 7 questões e 10 cartões. Gabaritos e cartões não rece
 | culturais | Bloco(s) 1, 2, 3 | Pendente |
 | sociais | Bloco(s) 2 | Pendente |
 | Município | Bloco(s) 3 | Pendente |
-| Estado | Bloco(s) 1 | Pendente |
+| Estado | Bloco(s) 2 | Pendente |
 | Brasil | Bloco(s) 1, 2 | Pendente |
 | mundo | Bloco(s) 2 | Pendente |
 
@@ -1015,17 +1015,17 @@ Inventário principal: 7 questões e 11 cartões. Gabaritos e cartões não rece
 
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
-| geográficos | Bloco(s) 1, 2 | Pendente |
-| históricos | Bloco(s) 3 | Pendente |
+| geográficos | Bloco(s) 1 | Pendente |
+| históricos | Bloco(s) 3, 4 | Pendente |
 | físicos | Bloco(s) 1 | Pendente |
-| econômicos | Bloco(s) 1, 2, 3 | Pendente |
-| sociais | Bloco(s) 3 | Pendente |
-| políticos | Bloco(s) 1, 3 | Pendente |
-| estatísticos | Não localizada automaticamente | Pendente |
+| econômicos | Bloco(s) 2, 3 | Pendente |
+| sociais | Bloco(s) 2 | Pendente |
+| políticos | Bloco(s) 1 | Pendente |
+| estatísticos | Bloco(s) 2 | Pendente |
 | Município | Bloco(s) 1, 2, 3, 4 | Pendente |
 | Estado | Bloco(s) 1, 2, 3, 4 | Pendente |
 | Brasil | Bloco(s) 1, 2, 3, 4 | Pendente |
-| mundo | Bloco(s) 3 | Pendente |
+| mundo | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -1043,8 +1043,8 @@ Inventário principal: 11 questões e 13 cartões. Gabaritos e cartões não rec
 | --- | --- | --- |
 | cidadania | Bloco(s) 1 | Pendente |
 | símbolos nacionais | Bloco(s) 2 | Pendente |
-| símbolos estaduais | Não localizada automaticamente | Pendente |
-| símbolos municipais | Não localizada automaticamente | Pendente |
+| símbolos estaduais | Bloco(s) 2 | Pendente |
+| símbolos municipais | Bloco(s) 2 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -1061,26 +1061,26 @@ Inventário principal: 8 questões e 10 cartões. Gabaritos e cartões não rece
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | economia | Bloco(s) 3 | Pendente |
-| ecologia | Bloco(s) 1, 3 | Pendente |
-| história | Bloco(s) 1, 3 | Pendente |
-| política | Não localizada automaticamente | Pendente |
-| meio ambiente | Bloco(s) 1, 3 | Pendente |
+| ecologia | Bloco(s) 3 | Pendente |
+| história | Bloco(s) 3 | Pendente |
+| política | Bloco(s) 3 | Pendente |
+| meio ambiente | Bloco(s) 3 | Pendente |
 | justiça | Bloco(s) 3 | Pendente |
 | segurança pública | Bloco(s) 3 | Pendente |
 | saúde | Bloco(s) 1, 2, 3 | Pendente |
-| cultura | Não localizada automaticamente | Pendente |
+| cultura | Bloco(s) 3 | Pendente |
 | educação | Bloco(s) 3 | Pendente |
-| religião | Não localizada automaticamente | Pendente |
+| religião | Bloco(s) 3 | Pendente |
 | qualidade de vida | Bloco(s) 3 | Pendente |
 | esportes | Bloco(s) 3 | Pendente |
 | turismo | Bloco(s) 3 | Pendente |
 | georreferenciamento | Bloco(s) 1 | Pendente |
 | inovações tecnológicas | Bloco(s) 2 | Pendente |
-| científicas | Não localizada automaticamente | Pendente |
-| Município | Bloco(s) 2 | Pendente |
-| Estado | Não localizada automaticamente | Pendente |
+| científicas | Bloco(s) 3 | Pendente |
+| Município | Bloco(s) 2, 3 | Pendente |
+| Estado | Bloco(s) 3 | Pendente |
 | Brasil | Bloco(s) 1, 2, 3 | Pendente |
-| mundo | Não localizada automaticamente | Pendente |
+| mundo | Bloco(s) 3 | Pendente |
 
 Fechamento necessário: confrontar o texto completo e os recursos de revisão com as fontes e registrar correção, lacunas e localizadores por requisito.
 
@@ -1097,14 +1097,14 @@ Inventário principal: 12 questões e 11 cartões. Gabaritos e cartões não rec
 | Requisito / desdobramento para conferência | Menção na teoria principal | Validação documental |
 | --- | --- | --- |
 | econômica | Bloco(s) 2, 3 | Pendente |
-| cultural | Não localizada automaticamente | Pendente |
+| cultural | Bloco(s) 3 | Pendente |
 | histórica | Bloco(s) 1, 2, 3 | Pendente |
 | geográfica | Bloco(s) 1, 2, 3 | Pendente |
 | socioambiental | Bloco(s) 2, 3 | Pendente |
 | Município | Bloco(s) 1, 3 | Pendente |
 | Estado | Bloco(s) 1, 2, 3 | Pendente |
 | Brasil | Bloco(s) 1, 2, 3 | Pendente |
-| mundo | Bloco(s) 2 | Pendente |
+| mundo | Bloco(s) 2, 3 | Pendente |
 | Notícias | Bloco(s) 2 | Pendente |
 | Prefeitura | Bloco(s) 1, 2 | Pendente |
 

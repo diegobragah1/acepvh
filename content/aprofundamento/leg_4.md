@@ -39,7 +39,7 @@ Deficiência envolve interação entre impedimento e barreiras. Acessibilidade v
 - C) Somente deficiência física é protegida.
 - D) A pessoa perde automaticamente a capacidade civil.
 
-**Gabarito: B.** Acessibilidade inclui comunicação e informação, além de circulação física. Uma intervenção isolada não resolve todas as barreiras.
+**Gabarito: B.** Gabarito: B. A LBI (art. 3º, IV) distingue seis tipos de barreiras; eliminar barreira arquitetônica com rampa não elimina barreiras nas comunicações e na informação. Erro da A: acessibilidade é multidimensional; erro da C: o art. 2º protege impedimentos físicos, mentais, intelectuais e sensoriais; erro da D: o art. 6º garante que a deficiência não afeta a plena capacidade civil.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Deficiência envolve interação entre impedimento e barreiras. Acessibilidade v
 - C) Incapacidade presumida.
 - D) Tombamento cultural.
 
-**Gabarito: A.** Essa é a função da adaptação razoável na LBI. Não se confunde com excluir direitos nem presumir incapacidade.
+**Gabarito: A.** Gabarito: A. É a definição legal do art. 3º, VI, da Lei nº 13.146/2015 para adaptação razoável. Erro da B: visa justamente garantir exercício de direitos em igualdade de condições; erro da C: a LBI proíbe presumir incapacidade; erro da D: tombamento é instituto de proteção ao patrimônio cultural.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Deficiência envolve interação entre impedimento e barreiras. Acessibilidade v
 - C) Baseada unicamente na renda familiar mensal do requerente.
 - D) Realizada apenas por juízes federais sem apoio técnico.
 
-**Gabarito: A.** O art. 2º, § 1º, da LBI consagra o modelo biopsicossocial de avaliação da deficiência por equipe multiprofissional e interdisciplinar, superando o antigo modelo estritamente biomédico.
+**Gabarito: A.** Gabarito: A. Reproduz o art. 2º, § 1º, da LBI, consagrando o modelo biopsicossocial e multiprofissional. Erro da B: supera a visão estritamente biomédica/laboratorial e inclui equipe interdisciplinar; erro da C: renda não define a condição de deficiência; erro da D: cabe à equipe multiprofissional e interdisciplinar, não a juiz isolado.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Deficiência envolve interação entre impedimento e barreiras. Acessibilidade v
 - C) A curatela alcança e transfere ao curador os direitos ao próprio corpo, à sexualidade, ao matrimônio e ao voto.
 - D) A pessoa com deficiência é proibida pela LBI de adotar filhos ou exercer guarda.
 
-**Gabarito: A.** O art. 6º afirma a plena capacidade civil da pessoa com deficiência e veda a esterilização compulsória; o art. 85 determina que a curatela, quando excepcionalmente cabível, restringe-se aos atos patrimoniais e negociais, não alcançando corpo, sexualidade, matrimônio, educação, saúde, trabalho e voto.
+**Gabarito: A.** Gabarito: A. Combina fielmente o art. 6º (plena capacidade civil) e o art. 85 da LBI (curatela extraordinária restrita a atos patrimoniais e negociais). Erro da B: é vedada a esterilização compulsória e a incapacidade presumida; erro da C: direitos existenciais (corpo, casamento, sexualidade, voto) não são atingidos pela curatela (art. 85, § 1º); erro da D: o art. 6º, VI, garante expressamente exercer guarda, tutela, curatela e adoção.
 
 ## Flashcards
 

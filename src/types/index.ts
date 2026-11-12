@@ -37,12 +37,17 @@ export interface Source {
   revoked?: boolean;
 }
 
+export type QuestionDifficulty = 'Fácil' | 'Intermediário' | 'Difícil';
+
 export interface Question {
   revision?: string;
   q: string;
   options: string[];
   ans: number;
   comment: string;
+  difficulty?: QuestionDifficulty;
+  questionType?: string;
+  sourceRef?: string;
 }
 
 export interface Flashcard {
@@ -51,6 +56,38 @@ export interface Flashcard {
   b?: string;
   back?: string;
   lessonTitle?: string;
+}
+
+export type SrsRating = 'hard' | 'good' | 'known';
+export type FlashcardSrsStatus = 'new' | 'hard' | 'good' | 'known';
+
+export interface FlashcardSrsEntry {
+  status: 'hard' | 'good' | 'known';
+  reps: number;
+  intervalDays: number;
+  dueAt: number;
+  lastReviewedAt: number;
+}
+
+export interface ExamAttemptRecord {
+  id: string;
+  mode: 'PROVA_OFICIAL' | 'SIMULADO_CUSTOM';
+  title: string;
+  createdAt: number;
+  durationSec: number;
+  totalQuestions: number;
+  answered: number;
+  correct: number;
+  points: number;
+  maxPoints: number;
+  pct: number;
+  byCategory?: Record<string, { total: number; hits: number }>;
+}
+
+export interface LastStudyPointer {
+  lessonId: string;
+  blockIdx?: number;
+  updatedAt: number;
 }
 
 export interface LessonBlock {

@@ -39,7 +39,7 @@ A mesma agente escreve um relatório formal e conversa informalmente com uma viz
 - C) Obrigatoriamente geográfica.
 - D) Que prova incapacidade de usar a língua.
 
-**Gabarito: A.** A mudança de situação e interlocutor orienta a adaptação do registro. O exemplo não exige mudança de época ou região nem indica incapacidade.
+**Gabarito: A.** Gabarito: A. A adequação do grau de formalidade ao gênero e ao interlocutor configura variação diafásica (situacional ou de registro). Erro da B: variação histórica (diacrônica) compara épocas diferentes; erro da C: variação geográfica (diatópica) compara regiões distintas; erro da D: alternar registros demonstra competência comunicativa.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Qual atitude favorece comunicação pública acessível?
 - C) Explicar termos técnicos em linguagem clara, preservando seu sentido.
 - D) Trocar informação precisa por uma promessa sem fundamento.
 
-**Gabarito: C.** A clareza adapta a expressão e conserva a informação. Preconceito, jargão opaco e promessas indevidas dificultam a compreensão.
+**Gabarito: C.** Gabarito: C. Na educação em saúde, o ACE traduz conceitos técnicos (como LIRAa, larvicida ou período de incubação) para linguagem clara e respeitosa sem perder exatidão. Erro da A: configura preconceito linguístico; erro da B: jargão opaco bloqueia a compreensão comunitária; erro da D: distorce informação sanitária oficial.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Quando um manual técnico da vigilância utiliza termos específicos da profiss�
 - C) Incoerente por erro de concordância.
 - D) Exclusivamente fática de teste de microfone.
 
-**Gabarito: A.** O repertório técnico compartilhado por um grupo profissional constitui manifestação da variação diastrática (social/profissional), adequada ao contexto de comunicação especializada.
+**Gabarito: A.** Gabarito: A. Jargões profissionais integram a variação diastrática (social/ocupacional). Erro da B: trata-se de terminologia técnica contemporânea; erro da C: vocabulário especializado é gramaticalmente legítimo no manual; erro da D: a função fática testa o canal de contato, distinta de variação sociolinguística.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ No trecho de um glossário educativo: “Vetor biológico significa o organismo,
 - C) Emotiva, pois relata memórias íntimas em primeira pessoa do singular.
 - D) Apelativa exclusiva, pois contém apenas interjeições de chamamento.
 
-**Gabarito: A.** Sempre que o texto define um conceito, explica o sentido de uma palavra ou comenta a própria estrutura linguística, destaca-se a função metalinguística (o código voltado para o próprio código).
+**Gabarito: A.** Gabarito: A. Glossários e definições voltadas a esclarecer o significado de palavras ou conceitos exemplificam a função metalinguística (o código falando do código). Erro da B: função fática checa/mantém o canal; erro da C: emotiva expressa subjetividade do emissor; erro da D: apelativa/conativa dirige comandos ou apelos ao receptor.
 
 ## Flashcards
 

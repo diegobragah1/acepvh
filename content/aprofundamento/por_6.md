@@ -39,7 +39,7 @@ Em “Como a estrada estava interditada, a equipe retornou”, “como” expres
 - C) Causa.
 - D) Conclusão.
 
-**Gabarito: C.** A interdição explica o retorno; “já que” preserva essa relação causal. A leitura não é de comparação ou conformidade.
+**Gabarito: C.** Gabarito: C. Posicionado antes da oração principal, “Como” equivale a “Já que / Uma vez que”, introduzindo a causa do retorno da equipe. Erro da A: não compara duas entidades com base em grau; erro da B: não indica acordo/regra (“conforme”); erro da D: o retorno é a consequência, enquanto a interdição é a causa.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Em “A visita foi remarcada; isso alterou a rota”, “isso” retoma:
 - C) Um lugar que não aparece no texto.
 - D) A pessoa do leitor.
 
-**Gabarito: B.** O demonstrativo encapsula o conteúdo da primeira oração. Retomadas referenciais não precisam apontar apenas para um substantivo.
+**Gabarito: B.** Gabarito: B. Trata-se de anáfora encapsuladora: “isso” resume toda a proposição anterior (“A visita foi remarcada”). Erro da A: “rota” aparece depois do pronome; erro da C e D: não faz referência espacial exofórica nem ao interlocutor.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ No período “O mutirão de limpeza ocorreu conforme o cronograma, conquanto a 
 - C) Porquanto.
 - D) Conforme.
 
-**Gabarito: B.** “Conquanto” é conjunção subordinativa concessiva equivalente a “embora” ou “ainda que”. “Porquanto” é causal/explicativo (= porque).
+**Gabarito: B.** Gabarito: B. “Conquanto” é conjunção concessiva sinônima de “embora / ainda que”, exigindo também o modo subjuntivo (“tivesse atrasado”). Erro da A: “portanto” é conclusiva; erro da C: “porquanto” é causal/explicativa (= porque) e não cabe no contraste; erro da D: “conforme” expressa conformidade e não concessão.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Em “O agente examina dois fatores no imóvel: a vedação da caixa-d’água e
 - C) O agente e o imóvel.
 - D) O vetor e o telhado.
 
-**Gabarito: A.** Na retomada distributiva de dois termos antecedentes, “este/esta” refere-se ao último mencionado (mais próximo: escoamento das calhas) e “aquele/aquela” ao primeiro mencionado (mais distante: vedação da caixa-d’água).
+**Gabarito: A.** Gabarito: A. Na coesão distributiva, “este” retoma o elemento mais próximo na frase (último citado: “o escoamento das calhas”, masculino) e “aquela” o mais distante (primeiro citado: “a vedação da caixa-d’água”, feminino). Erro da B: inverte os referentes e desrespeita o gênero gramatical; erro da C e D: termos que não correspondem ao par anunciado após os dois-pontos.
 
 ## Flashcards
 

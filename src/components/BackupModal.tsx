@@ -32,7 +32,8 @@ export const BackupModal: React.FC = () => {
           <button
             type="button"
             onClick={() => setSitesModalOpen(false)}
-            className="text-slate-400 hover:text-slate-700 font-bold text-2xl px-2"
+            aria-label="Fechar modal"
+            className="text-slate-400 hover:text-slate-700 font-bold text-2xl px-2 rounded focus:outline-none focus:ring-2 focus:ring-teal-500"
           >
             &times;
           </button>
@@ -62,7 +63,7 @@ export const BackupModal: React.FC = () => {
               Sincronizar Progresso entre Computador e Celular (Backup JSON):
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Seu progresso (status das aulas e respostas das aulas e do simulado) fica gravado localmente no seu navegador via <code>localStorage</code>. Exporte o arquivo JSON para salvar uma cópia ou importá-lo em outro celular ou computador:
+              Seu progresso completo (status das aulas e subtópicos, respostas das aulas e do simulado, revisão espaçada SRS dos flashcards, aulas e questões favoritas, anotações pessoais, histórico de simulados e último ponto de estudo) fica gravado localmente no seu navegador via <code>localStorage</code>. Exporte o arquivo JSON para salvar uma cópia ou importá-lo em outro dispositivo:
             </p>
             <div className="flex flex-wrap gap-2 pt-1">
               <button

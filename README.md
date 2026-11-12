@@ -1,6 +1,6 @@
 # Plataforma Integrada de Estudos ACEPVH — Concurso SEMUSA Porto Velho/RO 2026 (Banca IBGP)
 
-Aplicação React + TypeScript + Vite + Tailwind CSS para preparação intensiva ao cargo de **Agente de Combate às Endemias (ACE — Códigos 340 a 356)** da **Secretaria Municipal de Saúde de Porto Velho/RO (SEMUSA)**, regido pelo **Edital Normativo nº 25/2026** consolidado com a **Retificação publicada em 09/10/2026 (Banca IBGP)**.
+Aplicação React + TypeScript + Vite + Tailwind CSS para preparação intensiva ao cargo de **Agente de Combate às Endemias (ACE — Códigos 340 a 356)** da **Secretaria Municipal de Saúde de Porto Velho/RO (SEMUSA)**, regido pelo **Edital Normativo nº 25/2026** consolidado até a **Retificação nº 01 — Edital nº 28/2026 (Banca IBGP)**.
 
 - 🌐 **Aplicação Publicada (GitHub Pages):** [https://diegobragah1.github.io/acepvh/](https://diegobragah1.github.io/acepvh/)
 - 💻 **Repositório GitHub:** [https://github.com/diegobragah1/acepvh](https://github.com/diegobragah1/acepvh)
@@ -18,7 +18,7 @@ Aplicação React + TypeScript + Vite + Tailwind CSS para preparação intensiva
 | **Data e Turno da Prova** | **13/12/2026 (Tarde — 14h45 às 17h45)** | Prova objetiva de múltipla escolha (A, B, C, D) elaborada pela banca IBGP (Portões fecham às 14h30) |
 | **Aulas Estruturadas** | **49 Aulas Oficiais** | 100% do Conteúdo Programático (Anexo IV) em leitura contínua com texto integral e destaques |
 | **Seções e Tópicos** | **236 Seções Didáticas** | Estruturadas com texto fluido, quadros comparativos, pontos de memorização e alertas de pegadinhas |
-| **Banco de Questões** | **737 Questões Comentadas** | Questões objetivas com resolução comentada alternativa por alternativa e justificativas de prova |
+| **Banco de Questões** | **746 Questões Comentadas** | Questões objetivas A–D (534 base + 212 aprofundamento), classificadas por nível (Fácil/Intermediário/Difícil) e tipo, com justificativa detalhada por alternativa |
 | **Flashcards Ativos** | **723 Flashcards** | Memorização ativa com efeito 3D em grade responsiva organizada por aula e eixo temático |
 | **Fichas Sinópticas** | **14 Endemias Oficiais** | Guias completos com vetores, reservatórios, ciclos, sintomas, LIRAa (A1 a E) e controle de vetores |
 | **Fontes & Matriz** | **126 Fontes Oficiais** | Legislações federais e municipais de Porto Velho, manuais do Ministério da Saúde e notas técnicas |
@@ -44,11 +44,18 @@ Conforme a matriz oficial do Anexo IV do Edital nº 25/2026:
 
 ## 3. Funcionalidades da Plataforma
 
-- 🔍 **Busca Global Instantânea (`Ctrl+K`):** Pesquisa rápida e em tempo real em todas as 49 aulas, 14 fichas de endemias e 737 questões, com navegação direta ao trecho pesquisado.
-- 📈 **Sistema de Acompanhamento de Progresso:**
-  - Barra de conclusão percentual visual no cabeçalho baseada em aulas e tópicos concluídos.
-  - Painel detalhado de progresso por disciplina com indicador da próxima aula pendente.
-  - Marcação individual de conclusão por seção/tópico e por aula inteira.
+- 🔍 **Busca Global Instantânea (`Ctrl+K`):** Pesquisa rápida e em tempo real em todas as 49 aulas, 14 fichas de endemias e 746 questões, com navegação direta ao trecho pesquisado.
+- 📈 **Painel do Candidato & Acompanhamento de Progresso:**
+  - Cartão **"Retomar de onde parei"** com retorno direto à última aula/bloco estudado.
+  - Barra percentual global e por disciplina (conclusão de aulas, eixos e taxa de acertos em questões).
+  - Detector automático de assuntos com menor desempenho (`< 65%` de acerto ou marcados para revisão), além de histórico cronometrado de simulados realizados.
+  - Marcação individual de conclusão por seção/tópico e por aula inteira, além de **★ Favoritos** (aulas e questões) e **📝 Anotações Pessoais por Aula**.
+- 🎯 **Localizador de Pauta Oficial (`PautaLocator`):** Navegação rápida por todas as 49 aulas das 5 disciplinas do Anexo IV diretamente para o bloco correspondente.
+- 🏆 **Simulado Oficial IBGP, Simulado Personalizado & Caderno de Erros:**
+  - Prova simulada oficial de 50 questões (Peso 2,0 = 100 pts) com **cronômetro regressivo de 3h00** e opção *Modo Prova Real* (gabarito só ao finalizar).
+  - Construtor de **Simulado Personalizado** por disciplina, aula/assunto, nível de dificuldade, quantidade (10–50) e tempo limite.
+  - Filtros de **❌ Caderno de Erros**, **⬜ Não respondidas**, **✅ Acertadas**, **★ Favoritas** e nível de dificuldade.
+- 🃏 **Flashcards com Revisão Espaçada (SRS):** Modos **Grade** e **Pilha (1 por vez)** com avaliação (*Difícil*, *Bom*, *Já sei*), agendamento automático de revisões pendentes para hoje e sincronização entre a apostila e o deck global.
 - 📖 **Apostila Contínua com Tipografia Fluida:** Leitura confortável em dispositivos móveis e desktop, sem divisões excessivas em sanfonas, com tipografia `Plus Jakarta Sans`, entrelinha ajustada (`1.7`) e destaque para *Para memorizar* e *Atenção na prova*.
 - 🧠 **Mapas Mentais Interativos:** Visualização dos ramos conceituais integrados para revisão visual de cada aula.
 - 🗂️ **Edital Verticalizado Categorizado:** Navegação oficial por disciplina e peso, com status de estudo (`Não iniciado`, `Em estudo`, `Estudado`, `Revisar`, `Dominado`).
@@ -63,9 +70,9 @@ Conforme a matriz oficial do Anexo IV do Edital nº 25/2026:
 ## 4. Tecnologias & Arquitetura
 
 - **React 18** com **TypeScript** e **Vite** para inicialização instantânea e máxima performance.
-- **Tailwind CSS** para design responsivo e acessível (otimizado para dispositivos móveis de 320px até telas ultrawide).
+- **Tailwind CSS v3.4.4** para design responsivo e acessível (otimizado para dispositivos móveis de 320px até telas ultrawide).
 - **KaTeX** com MathML nativo para fórmulas matemáticas acessíveis em Raciocínio Lógico.
-- **Node Test Runner & Playwright** para validação contínua de integridade do conteúdo e cobertura das 49 aulas.
+- **Node Test Runner (`scripts/run_tests.mjs`) & Headless Chrome DevTools Protocol (CDP — `scripts/e2e_smoke.mjs`)** para validação contínua com 61 testes unitários e testes de fumaça E2E (Desktop e Mobile 320px), com zero dependências externas como Playwright ou Puppeteer.
 
 ---
 
@@ -78,19 +85,24 @@ npm install
 # Iniciar servidor de desenvolvimento (porta 3000)
 npm run dev
 
-# Executar suite de testes unitários
+# Executar suite de testes unitários (61 testes com node:test e tsx)
 npm test
+
+# Executar teste de fumaça E2E via Headless Chrome CDP (Desktop & Mobile 320px)
+npm run test:e2e
 
 # Executar auditoria estrutural do conteúdo pedagógico
 npm run audit:content
 
-# Validação completa (testes + auditoria + lint de tipos)
+# Sincronizar dados das 49 aulas e gerar arquivos Markdown
+npm run sync:data
+
+# Validação completa (testes unitários + auditoria de conteúdo + lint de tipos)
 npm run check
 
-# Compilar para produção e verificar integridade da publicação
+# Compilar para produção, sincronizar 404.html e verificar integridade da publicação
 npm run build
 
 # Pré-visualizar build de produção
 npm run preview
 ```
-

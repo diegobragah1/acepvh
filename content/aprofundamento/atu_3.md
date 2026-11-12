@@ -46,7 +46,7 @@ Criação e instalação são distintas: município 1914/1915; Estado 1981/1982.
 - C) Responder obrigatoriamente 1981.
 - D) Ignorar o objeto do enunciado.
 
-**Gabarito: B.** Criação legal e instalação administrativa são marcos distintos. 1981 relaciona-se à criação do Estado, não à instalação do município.
+**Gabarito: B.** Gabarito: B. O Município de Porto Velho foi criado pela Lei Estadual do Amazonas nº 757, de 02/10/1914, e instalado em 24/01/1915. Erro da A: criação legal e instalação administrativa são atos e datas distintos; erro da C: 1981 refere-se à criação do Estado de Rondônia pela LC nº 41/1981; erro da D: responder exige identificar exatamente qual marco foi perguntado.
 
 ### Questão 2
 
@@ -57,7 +57,7 @@ Criação e instalação são distintas: município 1914/1915; Estado 1981/1982.
 - C) A população é pequena em relação à área total, sem descrever toda a distribuição interna.
 - D) Não há necessidade de transporte fluvial.
 
-**Gabarito: C.** A média resulta da razão população/área. Não informa, por si, concentração em bairros, dispersão rural ou modalidade de transporte.
+**Gabarito: C.** Gabarito: C. Densidade demográfica = população ÷ área total (460.434 hab ÷ 34.090,952 km² ≈ 13,51 hab/km² em Porto Velho): é uma média espacial que não revela concentração urbana vs. dispersão rural. Erro da A e B: a sede urbana concentra a grande maioria dos moradores em bairros densos; erro da D: localidades do Baixo Madeira dependem fortemente do modal fluvial.
 
 ### Questão 3
 
@@ -68,7 +68,7 @@ Criação e instalação são distintas: município 1914/1915; Estado 1981/1982.
 - C) Desmembramento do Estado do Acre em 1988 para formar o Território do Guaporé.
 - D) Criação do município de Porto Velho em 1981 pela Lei Complementar nº 41.
 
-**Gabarito: A.** O Território Federal do Guaporé foi criado em 13/09/1943 (Dec.-Lei 5.812), renomeado Território Federal de Rondônia em 17/02/1956 (Lei 2.731, em homenagem ao Marechal Rondon) e transformado em Estado pela LC nº 41, de 22/12/1981, com instalação em 04/01/1982.
+**Gabarito: A.** Gabarito: A. Reproduz os três marcos exatos: Território Federal do Guaporé (13/09/1943), Território Federal de Rondônia (17/02/1956) e Estado de Rondônia pela LC 41/1981 (criado em 22/12/1981 e instalado em 04/01/1982). Erro da B: Rondônia pertenceu ao Amazonas e Mato Grosso e passou por fase territorial; erro da C: o desmembramento ocorreu em 1943 sobre áreas do AM e MT, não do Acre em 1988; erro da D: Porto Velho foi criado em 1914 (Lei 757/AM), enquanto a LC 41/1981 criou o Estado.
 
 ### Questão 4
 
@@ -79,7 +79,18 @@ Criação e instalação são distintas: município 1914/1915; Estado 1981/1982.
 - C) Serem bairros verticalizados do centro financeiro da sede urbana de Porto Velho.
 - D) Pertencerem administrativamente ao município de Ji-Paraná.
 
-**Gabarito: A.** São Carlos, Nazaré, Calama e Demarcação formam o eixo fluvial do Baixo Madeira em Porto Velho, enquanto Jaci-Paraná, Abunã, Vista Alegre do Abunã, Extrema e Nova Califórnia compõem o eixo rodoviário da BR-364 rumo ao Acre.
+**Gabarito: A.** Gabarito: A. São Carlos, Nazaré, Calama e Demarcação formam o eixo fluvial do Baixo Rio Madeira, a jusante da capital, com acesso essencialmente hidroviário. Erro da B: Rondônia faz fronteira com a Bolívia (não com o Peru) e a BR-040 fica no Sudeste/Centro-Oeste; erro da C: são distritos ribeirinhos distantes da sede urbana; erro da D: pertencem ao município de Porto Velho.
+
+### Questão 5
+
+[Autoral] No planejamento das ações de vigilância em Porto Velho com base no Censo IBGE 2022 (460.434 habitantes e 34.090,952 km²), a diferença prática entre o eixo da BR-364/Ponta do Abunã e o eixo do Baixo Madeira para o trabalho do ACE decorre de que:
+
+- A) Localidades como Jaci-Paraná, Abunã, Extrema e Nova Califórnia têm acesso rodoviário contínuo pela BR-364, enquanto São Carlos, Nazaré, Calama e Demarcação exigem logística fluvial condicionada às cheias e vazantes do Rio Madeira.
+- B) Todas as localidades rurais de Porto Velho ficam a menos de 2 quilômetros da Praça das Três Caixas d’Água.
+- C) O Baixo Madeira possui ligação ferroviária de alta velocidade até Nova Califórnia.
+- D) Os dois eixos pertencem ao município de Ariquemes e dispensam ações da SEMUSA Porto Velho.
+
+**Gabarito: A.** Gabarito: A. A extensão gigantesca de Porto Velho impõe desafios logísticos distintos: acesso terrestre pela BR-364 rumo ao Abunã versus navegação fluvial no Baixo Madeira, altamente sensível a estiagens e cheias. Erro da B: há localidades a mais de 150–350 km da sede; erro da C: não há ferrovia ligando esses distritos; erro da D: ambos pertencem a Porto Velho e são atendidos pela SEMUSA (códigos 341–356 do Edital).
 
 ## Flashcards
 

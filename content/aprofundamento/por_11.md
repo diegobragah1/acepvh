@@ -42,7 +42,7 @@ Complete: “Estes são os materiais ___ a equipe necessita.”
 - C) cujo
 - D) onde
 
-**Gabarito: B.** Necessitar de materiais produz “materiais de que necessita”. Onde não retoma adequadamente materiais, e cujo exige outra relação sintática.
+**Gabarito: B.** Gabarito: B. Quem necessita, necessita DE algo (“necessita dos materiais”); por isso a preposição “de” migra para antes do pronome relativo (“de que”). Erro da A: omite a preposição exigida pelo verbo necessitar; erro da C: “cujo” indica posse e não caberia antes de “a equipe” sem vínculo possessivo; erro da D: “onde” retoma lugar físico, não materiais.
 
 ### Questão 2
 
@@ -53,7 +53,7 @@ Qual construção emprega cujo corretamente?
 - C) A escola cujas salas foram vistoriadas.
 - D) A escola cujo salas foram vistoriadas.
 
-**Gabarito: C.** Cujas concorda com salas, termo possuído, sem artigo interposto. As demais formas erram concordância ou inserem artigo.
+**Gabarito: C.** Gabarito: C. “Cujas” concorda em gênero e número com o termo consequente/possuído (“salas”, fem. pl.) e proíbe artigo definido após si. Erro da A: inclui artigo indevido (“as”); erro da B: falha na concordância de número e insere artigo; erro da D: deixa “cujo” no masculino singular diante de “salas”.
 
 ### Questão 3
 
@@ -64,7 +64,7 @@ Assinale a alternativa que respeita as regras de regência verbal da norma-padr�
 - C) O descarte irregular de pneus implica proliferação de vetores, razão por que obedecemos às normas sanitárias.
 - D) O agente informou ao morador de que o retorno ocorreria na sexta-feira.
 
-**Gabarito: C.** “Implicar” (acarretar) é transitivo direto (“implica proliferação”) e “obedecer” é transitivo indireto (“às normas”). Na A, “visa à erradicação”; na B, “Preferimos atuar... a remediar”; na D, “informou o morador de que” ou “informou ao morador que”.
+**Gabarito: C.** Gabarito: C. “Implicar” (no sentido de acarretar) é VTD sem preposição (“implica proliferação”), e “obedecer” é VTI exigindo preposição “a” (“às normas”). Erro da A: “visar” (objetivar) rege preposição “a” (“visa à erradicação”), não “em”; erro da B: “preferir” rejeita “do que” (correto: “Preferimos atuar... a remediar”); erro da D: incorre em dequeísmo/dupla preposição (“informou ao morador que” ou “o morador de que”).
 
 ### Questão 4
 
@@ -75,7 +75,7 @@ No período “O imóvel ___ proprietário a equipe conversou fica na rua ___ no
 - C) de que / donde
 - D) quem / na qual
 
-**Gabarito: A.** Quem conversa, conversa “com” alguém (com o proprietário do imóvel → “com cujo proprietário”); quem se dirige, dirige-se “a” algum lugar (“à qual” ou “aonde” nos dirigimos).
+**Gabarito: A.** Gabarito: A. “Conversar” rege “com” (a equipe conversou com o proprietário do imóvel → “com cujo proprietário”), e “dirigir-se” exige preposição “a” de destino (“aonde / à qual nos dirigimos”). Erro da B: falta preposição “com”, insere artigo proibido após “cujo” e usa “onde” estático; erro da C: “de que” não exprime posse e “donde” significa procedência; erro da D: “quem” e “na qual” não articulam posse nem movimento.
 
 ## Flashcards
 

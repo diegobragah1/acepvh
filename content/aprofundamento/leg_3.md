@@ -39,7 +39,7 @@ LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e n�
 - C) Escolher sempre o maior, sem ler a norma.
 - D) Aplicar a tabela a qualquer cargo.
 
-**Gabarito: B.** Tabelas sucessivas podem se substituir. Valor, cargo, jornada e vigência precisam ser relacionados; não se presume cumulatividade.
+**Gabarito: B.** Gabarito: B. Quando uma lei posterior atualiza ou substitui a tabela de vencimentos, aplica-se a tabela vigente para o cargo/referência na data de referência, sem acumular versões. Erro da A: tabelas sucedâneas não se somam; erro da C: o valor aplicável decorre da vigência, não de escolha arbitrária; erro da D: cada cargo tem seu próprio quadro e anexo.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e n�
 - C) Não; é preciso verificar beneficiários, requisitos e regra de concessão.
 - D) Não, porque nenhuma gratificação pode existir.
 
-**Gabarito: C.** A incidência da vantagem depende das condições legais. A alternativa correta não nega sua existência; exige identificar a hipótese aplicável.
+**Gabarito: C.** Gabarito: C. Vantagens condicionadas (como adicional de insalubridade ou gratificação por localidade) dependem do preenchimento dos requisitos previstos em lei. Erro da A: menção genérica à área da saúde não estende parcela específica a todos; erro da B: exige cumprimento da condição legal; erro da D: a legislação municipal prevê gratificações específicas quando atendidos os critérios.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e n�
 - C) Ambos significam exclusivamente multa disciplinar descontada em folha.
 - D) Remuneração é sempre inferior ao vencimento básico.
 
-**Gabarito: A.** No direito administrativo e nos estatutos municipais de Porto Velho, vencimento é a parcela básica correspondente ao padrão/referência na tabela do cargo, ao passo que remuneração soma ao vencimento as vantagens pecuniárias legais (adicionais, gratificações).
+**Gabarito: A.** Gabarito: A. Reproduz a distinção clássica adotada na LC nº 385/2010 e na LC nº 390/2010: vencimento é o padrão básico da tabela do cargo; remuneração soma vencimento + vantagens permanentes/transitórias. Erro da B: diárias e vale-transporte são verbas indenizatórias; erro da C: não se confundem com penalidade; erro da D: a remuneração soma vantagens ao vencimento, não podendo ser inferior a ele em composição regular.
 
 ### Questão 4
 
@@ -72,7 +72,18 @@ LC 390 trata do plano da saúde; LC 391 organiza cargos/empregos municipais e n�
 - C) A conclusão de qualquer curso livre extingue a exigência de jornada semanal de trabalho.
 - D) O desenvolvimento na carreira independe de previsão legal ou orçamentária.
 
-**Gabarito: A.** A movimentação na carreira (progressão funcional) é regrada por requisitos objetivos previstos na LC 390/2010, combinando tempo de efetivo exercício (interstício), avaliação de desempenho satisfatória e titulação/capacitação conforme a modalidade.
+**Gabarito: A.** Gabarito: A. A progressão na carreira da saúde sob a LC nº 390/2010 exige cumprimento de interstício, avaliação de desempenho e/ou qualificação prevista em lei. Erro da B: o ingresso ocorre no nível/padrão inicial; erro da C: capacitação não dispensa a jornada de 40h; erro da D: evolução funcional exige estrita previsão legal e disponibilidade orçamentária.
+
+### Questão 5
+
+[Autoral] De acordo com a sistemática de lotação prevista no Edital nº 25/2026 (e Anexo I), ao optar pelo código de vaga do ACE (340 na Sede Urbana ou 341 a 356 nas localidades rurais), o candidato concorre:
+
+- A) Exclusivamente à localidade escolhida no momento da inscrição, observada a lotação regionalizada entre área urbana e distritos/localidades rurais.
+- B) Simultaneamente a todos os 16 códigos de localidade com aproveitamento automático no Estado do Amazonas.
+- C) Sem distinção entre jornada de 40h e contrato temporário sem concurso.
+- D) Para exercer o cargo de médico especialista sem formação superior.
+
+**Gabarito: A.** Gabarito: A. O Edital nº 25/2026 da SEMUSA Porto Velho distribui as vagas de ACE por código específico de lotação (340 Sede Urbana e 341–356 localidades rurais/ribeirinhas). Erro da B: a inscrição vincula o candidato ao código escolhido e vale apenas para Porto Velho/RO; erro da C: o provimento é efetivo com jornada de 40h semanais; erro da D: o cargo é de ACE (ensino médio + curso inicial).
 
 ## Flashcards
 

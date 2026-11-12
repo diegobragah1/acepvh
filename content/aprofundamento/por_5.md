@@ -45,7 +45,7 @@ Em “li Machado de Assis durante a viagem”, o uso do autor pelas obras é:
 - C) Assíndeto.
 - D) Onomatopeia.
 
-**Gabarito: A.** A autoria relaciona o nome às obras: contiguidade, característica da metonímia. Não há exagero, omissão de conjunções ou reprodução de sons.
+**Gabarito: A.** Gabarito: A. Substituir a obra pelo nome do autor baseia-se em relação de contiguidade/autoria (metonímia). Erro da B: hipérbole envolve exagero expressivo; erro da C: assíndeto é supressão de conectivos coordenativos; erro da D: onomatopeia reproduz sons.
 
 ### Questão 2
 
@@ -56,7 +56,7 @@ Para identificar ironia em “Que serviço excelente!”, é necessário:
 - C) Tratar todo elogio como crítica.
 - D) Ignorar quem enuncia a fala.
 
-**Gabarito: B.** A frase pode ser elogio literal ou ironia. O contexto e a posição do enunciador permitem distinguir essas leituras.
+**Gabarito: B.** Gabarito: B. A ironia exige contraste entre o significado literal e o contexto discursivo/entonação do falante. Erro da A: isoladamente, “excelente” é elogio literal; erro da C: nem todo elogio tem sentido inverso; erro da D: a intenção do enunciador e o contexto definem a leitura irônica.
 
 ### Questão 3
 
@@ -67,7 +67,7 @@ No slogan “Aquele pneu esquecido no quintal é uma fábrica de mosquitos”, a
 - C) Sinestesia, pois combina olfato e audição na mesma palavra.
 - D) Pleonasmo vicioso sem valor expressivo.
 
-**Gabarito: A.** Há transferência figurada por semelhança funcional (produção contínua de vetores) sem conectivo comparativo explícito, configurando metáfora.
+**Gabarito: A.** Gabarito: A. Há transferência figurada por semelhança funcional (“é uma fábrica”, sem conectivo comparativo “como”), caracterizando metáfora. Erro da B: pelo contrário, intensifica o alerta em vez de atenuar; erro da C: não mistura sentidos físicos; erro da D: não repete palavras redundantes.
 
 ### Questão 4
 
@@ -78,7 +78,7 @@ Em “O posto de saúde atendeu toda a vila naquela manhã”, o emprego de “t
 - C) Onomatopeia (imitação de ruído urbano).
 - D) Catacrese (ausência de nome para o edifício).
 
-**Gabarito: A.** Substitui-se o termo “moradores” pelo espaço geográfico onde habitam (“a vila”), relação clássica de contiguidade metonímica.
+**Gabarito: A.** Gabarito: A. Emprega-se o espaço físico (“toda a vila”) para designar os moradores que ali vivem — modalidade clássica de metonímia. Erro da B: não há contradição lógica; erro da C: não há reprodução sonora; erro da D: existe denominação literal (“os moradores”), logo não é catacrese.
 
 ## Flashcards
 
@@ -90,9 +90,9 @@ Metáfora opera por aproximação de sentidos (semelhança); metonímia, por ví
 
 Antítese aproxima termos opostos sem contradizer a lógica; paradoxo funde ideias contraditórias numa mesma afirmação.
 
-**O que é catacrese?**
+**O que diferencia eufemismo de hipérbole nas figuras de linguagem?**
 
-É uma metáfora desgastada pelo uso cotidiano por falta de termo próprio (ex.: braço da poltrona, céu da boca).
+O eufemismo suaviza uma expressão desagradável ou penosa ("faltou com a verdade"); a hipérbole intensifica por exagero intencional ("avisamos mil vezes").
 
 ## Referências de consulta
 

@@ -37,7 +37,7 @@ Um texto usa “portanto”, mas sua conclusão contradiz a informação anterio
 - C) Uso de palavras longas.
 - D) Ausência necessária de verbos.
 
-**Gabarito: B.** O conector estabelece uma ligação superficial, mas não garante compatibilidade entre as proposições. O defeito é de construção do sentido.
+**Gabarito: B.** Gabarito: B. A simples presença do conector formal (“portanto”) cria aparência de coesão, mas não sustenta coerência quando premissa e conclusão se contradizem. Erro da A: adjetivos não são exigência de coerência lógica; erro da C: extensão vocabular não gera contradição; erro da D: a incompatibilidade é lógico-semântica, não ausência verbal.
 
 ### Questão 2
 
@@ -48,7 +48,7 @@ Qual revisão melhora a clareza de “Maria conversou com Ana e ela registrou a 
 - C) Maria conversou com Ana; em seguida, Ana registrou a visita.
 - D) Maria conversou e sua visita foi dela.
 
-**Gabarito: C.** A repetição de Ana identifica quem fez o registro. Economia de palavras não deve impedir o reconhecimento do referente.
+**Gabarito: C.** Gabarito: C. Explicitar o nome “Ana” desfaz a ambiguidade pronominal de “ela”. Erro da A: substitui por indefinido vago (“alguém”); erro da B: agrava a indeterminação referencial multiplicando pronomes ambíguos; erro da D: redação truncada e igualmente obscura.
 
 ### Questão 3
 
@@ -59,7 +59,7 @@ Em “A supervisora destacou este ponto prioritário: a atualização diária do
 - C) Exofórica exclusiva de tempo passado.
 - D) Incoerente, pois dois-pontos proíbem pronomes demonstrativos.
 
-**Gabarito: A.** O demonstrativo “este” antecipa o segmento apositivo que vem adiante (“a atualização diária dos croquis”), cumprindo papel catafórico.
+**Gabarito: A.** Gabarito: A. “Este” projeta a leitura para frente (catáfora), introduzindo o segmento apositivo após os dois-pontos. Erro da B: retomada regressiva seria anáfora (tipicamente “esse/isso”); erro da C: o referente está dentro do texto (endofórico), não fora dele; erro da D: dois-pontos combinam regularmente com demonstrativos catafóricos.
 
 ### Questão 4
 
@@ -70,7 +70,7 @@ Assinale o período que apresenta quebra de coerência lógica pelo emprego inad
 - C) Os índices de infestação subiram de forma acentuada no bairro; portanto, nenhuma ação de controle precisa ser mantida.
 - D) Como o laboratório confirmou a positividade das amostras, a vigilância intensificou o bloqueio no quarteirão.
 
-**Gabarito: C.** Subida acentuada de infestação contradiz a conclusão de dispensar ações de controle; o conectivo conclusivo “portanto” explicita a incoerência.
+**Gabarito: C.** Gabarito: C. Alta acentuada de infestação exige reforçar o controle; concluir que “nenhuma ação precisa ser mantida” quebra a coerência pragmática e lógica com “portanto”. Erro da A: retorno alternativo é consequência lógica de imóvel fechado; erro da B: “Embora” articula corretamente concessão possível; erro da D: “Como” introduz causa coerente com a intensificação do bloqueio.
 
 ## Flashcards
 

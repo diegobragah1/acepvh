@@ -13,7 +13,7 @@
     "enrichedQuestionsCount": 14,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "ac3f603cf7acd4a91618341299180718bf8d0ec568739d94bebfdcc9e71d3e9b"
+    "contentHash": "f39d37f8afe49849e8bc8d5b524ec336d2c61c9b1520bf86183506893fd8b43f"
   },
   {
     "id": "esp_2",
@@ -29,11 +29,11 @@
     "enrichedQuestionsCount": 23,
     "flashcardsCount": 24,
     "hasMindMap": true,
-    "contentHash": "ebf3f005666f1d30b3066995dbc885ca4951a93ca497a0f6469446dcfbb93848"
+    "contentHash": "47e7398c4752077739b2851d1de1e1d0d69b5669a369c2ba89078a2003b6eb4a"
   },
   {
     "id": "esp_3",
-    "num": 5,
+    "num": 3,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -42,14 +42,14 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 11,
-    "enrichedQuestionsCount": 15,
+    "enrichedQuestionsCount": 17,
     "flashcardsCount": 16,
     "hasMindMap": true,
-    "contentHash": "f59dd55b5859fb8b5b8402dea2277fbaca6829968e8ebc45ff32681e3de56270"
+    "contentHash": "88fe41a251dd4f7b151aecd248cbb96002126e6023da1eaa6bd8f4a7402afdff"
   },
   {
     "id": "esp_4",
-    "num": 2,
+    "num": 4,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -61,11 +61,11 @@
     "enrichedQuestionsCount": 20,
     "flashcardsCount": 20,
     "hasMindMap": true,
-    "contentHash": "f72a79d71a8c1e9561e8648bd47a05a0094161379991645dc1e0bdd0885ba0fe"
+    "contentHash": "571dfdf3a34d4e175b5e72270849960b53a6802d61e0eff2b7ad39793cc94b31"
   },
   {
     "id": "esp_5",
-    "num": 4,
+    "num": 5,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -77,11 +77,11 @@
     "enrichedQuestionsCount": 14,
     "flashcardsCount": 14,
     "hasMindMap": true,
-    "contentHash": "a702431a33829f2683ebe46299164f4bd6d956e709d291dfe9ac8c481f8cdcfe"
+    "contentHash": "dc3129a2faa63de3e390a62e863d0feba27ce54c218a08580b0d6dd0b155c809"
   },
   {
     "id": "esp_6",
-    "num": 5,
+    "num": 6,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -93,11 +93,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 10,
     "hasMindMap": true,
-    "contentHash": "ad466580b65b4af19050418da1741446f56624a99e0569cbf8b22f47de8f782f"
+    "contentHash": "860443d198b1680fff8193a1d31b2ddd3426932cfb82c2a1f5bdba345dcdf622"
   },
   {
     "id": "esp_7",
-    "num": 32,
+    "num": 7,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -106,14 +106,14 @@
     "blocksCount": 6,
     "enrichedBlocksCount": 7,
     "questionsCount": 15,
-    "enrichedQuestionsCount": 19,
+    "enrichedQuestionsCount": 20,
     "flashcardsCount": 19,
     "hasMindMap": true,
-    "contentHash": "fb6c5afb478f713e087ab6be3b883959062f1268757ea54da09b9d9d7d8923d9"
+    "contentHash": "8e2b1f16af2ef907241911839e76cca18db3924ec2684b2b931f51ec5122fb61"
   },
   {
     "id": "esp_8",
-    "num": 6,
+    "num": 8,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -122,14 +122,14 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 10,
-    "enrichedQuestionsCount": 14,
+    "enrichedQuestionsCount": 15,
     "flashcardsCount": 15,
     "hasMindMap": true,
-    "contentHash": "f751d263f877fb8e57602b968ededcbd54db70b189bb1e5e4b79eb4027d60e10"
+    "contentHash": "5175e24ba967c475f4cbb3f87e035a4ee7eb5fac9c63f050db4ba1100005a95a"
   },
   {
     "id": "esp_9",
-    "num": 7,
+    "num": 9,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -138,14 +138,14 @@
     "blocksCount": 12,
     "enrichedBlocksCount": 13,
     "questionsCount": 29,
-    "enrichedQuestionsCount": 33,
+    "enrichedQuestionsCount": 35,
     "flashcardsCount": 38,
     "hasMindMap": true,
-    "contentHash": "d1e10be10186c553ccce80e13ffac3fd7ef0522e3393b4d988b7bc66aa93d1b5"
+    "contentHash": "315c9f8a9998211eaa6077960070ead22da37ac05427417f96cd8a741adeb490"
   },
   {
     "id": "esp_10",
-    "num": 6,
+    "num": 10,
     "cat": "esp",
     "catName": "Conhecimentos Específicos ACE",
     "weight": "15 Questões • Peso 2 (30 pts)",
@@ -154,14 +154,14 @@
     "blocksCount": 3,
     "enrichedBlocksCount": 4,
     "questionsCount": 8,
-    "enrichedQuestionsCount": 12,
+    "enrichedQuestionsCount": 13,
     "flashcardsCount": 13,
     "hasMindMap": true,
-    "contentHash": "ec440f6cb862942c41e7ab7b3c246e4612ed42fba759962b1889ac9dc47def3b"
+    "contentHash": "447ff2dd4b941acb32a53c1562b43247593bc00de85914b0c09b658da9ebfac2"
   },
   {
     "id": "leg_1",
-    "num": 10,
+    "num": 11,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -173,11 +173,11 @@
     "enrichedQuestionsCount": 19,
     "flashcardsCount": 23,
     "hasMindMap": true,
-    "contentHash": "90139faacdde648c377b6a301f4abf3a09c0c1e2d0dee2c03c909f4a5676bb30"
+    "contentHash": "cfa77e6fab0b94bf4db20b1b9e09aa6da166f04489c9e55c6f1eef61d4eebbd7"
   },
   {
     "id": "leg_2",
-    "num": 11,
+    "num": 12,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -189,11 +189,11 @@
     "enrichedQuestionsCount": 19,
     "flashcardsCount": 23,
     "hasMindMap": true,
-    "contentHash": "98f4e39c4f6fc70deaff37dd89cc56adc00d4dc7ad2d837d52d11345ba274f7a"
+    "contentHash": "8e5de17c39939c79b4e1f06bf280a2cf36240859ddac348ff58a2b9dc69c5b7c"
   },
   {
     "id": "leg_3",
-    "num": 12,
+    "num": 13,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -202,10 +202,10 @@
     "blocksCount": 5,
     "enrichedBlocksCount": 6,
     "questionsCount": 10,
-    "enrichedQuestionsCount": 14,
+    "enrichedQuestionsCount": 15,
     "flashcardsCount": 15,
     "hasMindMap": true,
-    "contentHash": "aff32264589e2d5020afdf0a1caaeb523886227faaa5ef7454d8e15681b48a46"
+    "contentHash": "a4d63c4dcddda70bfea25fdc6e43a9193db8b3a4bb3d857c671ff28e9364ad45"
   },
   {
     "id": "leg_4",
@@ -221,11 +221,11 @@
     "enrichedQuestionsCount": 16,
     "flashcardsCount": 16,
     "hasMindMap": true,
-    "contentHash": "f0aef6a69bf71b448351c2a7ee702b2ab1b2c32bb46905d522a76f38884dccbb"
+    "contentHash": "b37c63d3be0ca17abeff3891aa9bc007c92d5040ca387cc35827479fded51270"
   },
   {
     "id": "leg_5",
-    "num": 13,
+    "num": 15,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -237,11 +237,11 @@
     "enrichedQuestionsCount": 18,
     "flashcardsCount": 21,
     "hasMindMap": true,
-    "contentHash": "0397beb20898c43a627a30116e28bc35c209366d6e92a8287554b1fd9546af7d"
+    "contentHash": "c4580af9b6cb139f5745bf206a41cd68d8c0812301af8291223deecbdb565c7b"
   },
   {
     "id": "leg_6",
-    "num": 15,
+    "num": 16,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -253,11 +253,11 @@
     "enrichedQuestionsCount": 22,
     "flashcardsCount": 27,
     "hasMindMap": true,
-    "contentHash": "0266520e8dcdc663b21b1eda308bbbefd21712499d07173129d74534cc692aa4"
+    "contentHash": "d0ff58d100068517cb07f4f192fd7c18f4d8d2f6dc96f09988078f96bb8f9c83"
   },
   {
     "id": "leg_7",
-    "num": 16,
+    "num": 17,
     "cat": "leg",
     "catName": "Legislação Municipal, Constitucional e Administrativa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -266,13 +266,14 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 10,
-    "enrichedQuestionsCount": 14,
+    "enrichedQuestionsCount": 15,
     "flashcardsCount": 15,
     "hasMindMap": true,
-    "contentHash": "3fa2b025f5d39da0ff58790abb93210bbd34f5dfcac295c36d3979f836f65d31"
+    "contentHash": "cadd59af4dfebe886f121ea74c1085e1f75c6c33472228e0b6206fc2d6c5f6f2"
   },
   {
     "id": "por_1",
+    "num": 18,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -284,10 +285,11 @@
     "enrichedQuestionsCount": 19,
     "flashcardsCount": 12,
     "hasMindMap": true,
-    "contentHash": "e1e248896366b9c9b2a7a030f7319e5001a8711e63815271a09700da08b3e67a"
+    "contentHash": "a1e1400940b7914695d81a84811f5743192de6560caf90bae02cb20978a23519"
   },
   {
     "id": "por_2",
+    "num": 19,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -299,10 +301,11 @@
     "enrichedQuestionsCount": 8,
     "flashcardsCount": 8,
     "hasMindMap": true,
-    "contentHash": "450147ca62a738940babeb156388e06ac5c2d0bd8d67eed2df1ec5ce58257346"
+    "contentHash": "3cd875181ff2567e53dfb3d8fd22f7d58a26b6903ec80d0a513d4ccdf5f7b47b"
   },
   {
     "id": "por_3",
+    "num": 20,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -314,10 +317,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "f13417d69d80e1612b8b827485bd18fbb6e9d2abb432ebc1b74220c1bf42c3c0"
+    "contentHash": "198c8fddfcb9b8331a9b3f414af9befacd0383ef0317f68825ac36783918231e"
   },
   {
     "id": "por_4",
+    "num": 21,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -329,10 +333,11 @@
     "enrichedQuestionsCount": 10,
     "flashcardsCount": 9,
     "hasMindMap": true,
-    "contentHash": "c77cd00bdeb12ff1e53ede72d6f5349942c2eac9d34563b207d2b7eafd5fcd01"
+    "contentHash": "8bae3ec9aab8bf8d8e9b163bd9bff2d58e9bc540234bffa2d72c3d180dcb2fce"
   },
   {
     "id": "por_5",
+    "num": 22,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -344,10 +349,11 @@
     "enrichedQuestionsCount": 10,
     "flashcardsCount": 8,
     "hasMindMap": true,
-    "contentHash": "21130bad4980d53cbd91f4096e4b27322ae57b20576bb78da2aaf25783c7901b"
+    "contentHash": "c5380efae0f7a3cdabb98babede3604301bf440f460cbe1e8e80996341b9f639"
   },
   {
     "id": "por_6",
+    "num": 23,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -359,10 +365,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "541af01fd8cc62c0ec01098bc16fac6ee5b7f3ae2c9960725e786382c8f1a85c"
+    "contentHash": "45e5f7df1fbad6be5061fc89620f4017a251adec51d6573806720b40cbe66ab2"
   },
   {
     "id": "por_7",
+    "num": 24,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -374,10 +381,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 10,
     "hasMindMap": true,
-    "contentHash": "916d7358d2e5d3f9d2572945d0716709e29c126ffc368d715846925c2c2080c4"
+    "contentHash": "513c8bca7dab3308ba87bb2059a22c41b4e009b4c5f4c74a0fe24981c94e32d8"
   },
   {
     "id": "por_8",
+    "num": 25,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -389,10 +397,11 @@
     "enrichedQuestionsCount": 14,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "db121ce1b266d7a39c427c5acd92a67e559aa75e0319809b5c1d7be4f4564529"
+    "contentHash": "d87d7a2e33a29adaadd2c0c2a55ad39cb88a07c14fddafc8b56a339dc63bd33e"
   },
   {
     "id": "por_9",
+    "num": 26,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -404,10 +413,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 8,
     "hasMindMap": true,
-    "contentHash": "909d196d42d761d931e45c78bc4fc80f6c69fe614f68c7a726f8a09dddfdee17"
+    "contentHash": "d6c913d0945bb16424eb024279e457963c1c4caef5a391b4f989e06056336d6b"
   },
   {
     "id": "por_10",
+    "num": 27,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -419,10 +429,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 10,
     "hasMindMap": true,
-    "contentHash": "384c097c6ffad4a09cb00ade5452d0758cb46c2361b9a895374c0947802f725f"
+    "contentHash": "8b2c9981ea9a2225961b4d484948ad0da5e1b43a7e1adca92d522932de8d1442"
   },
   {
     "id": "por_11",
+    "num": 28,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -434,10 +445,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 10,
     "hasMindMap": true,
-    "contentHash": "5ec3475f728533a5d4c1919a5ebe1a46bc528ae1db201cd283a64246f891ff04"
+    "contentHash": "3ade03120d07ca81e0997ce433181b85aab085217bac87e5bdd3df1bdd2e5e3c"
   },
   {
     "id": "por_12",
+    "num": 29,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -449,10 +461,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 8,
     "hasMindMap": true,
-    "contentHash": "9899619f1f68f7143b8cc176338e954db5e0ab099fa0177dbd238a19915c4c77"
+    "contentHash": "4d9a129e1d826c1d9a981649471551be9b2351c93e303680bf4d55c6d7dc97db"
   },
   {
     "id": "por_13",
+    "num": 30,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -464,10 +477,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "56e6a9d31bff4d6b16b7ef985d6098deea83ed0a7f6a44138342ecbd55f100b9"
+    "contentHash": "07486393c4426de5887ee69c2ac31a2435d62cdea528a7e72220af8e08067116"
   },
   {
     "id": "por_14",
+    "num": 31,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -479,10 +493,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 10,
     "hasMindMap": true,
-    "contentHash": "31e0a6898da32549b3ef3a02d2681920be36d7c9f9102bea67983163a3ac0966"
+    "contentHash": "4e169c5da23252d93bb907cbb852412243a86b4babb04cf26598be994d24baaf"
   },
   {
     "id": "por_15",
+    "num": 32,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -494,10 +509,11 @@
     "enrichedQuestionsCount": 8,
     "flashcardsCount": 7,
     "hasMindMap": true,
-    "contentHash": "cb2fb833b3c102353c194d8777a5ff3192d96867d2902229e4101190f84533ee"
+    "contentHash": "818689018aa43aeceda2708be4765d8d48be2143a6ba6cd793b298c74bc7fc85"
   },
   {
     "id": "por_16",
+    "num": 33,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -506,13 +522,14 @@
     "blocksCount": 2,
     "enrichedBlocksCount": 3,
     "questionsCount": 6,
-    "enrichedQuestionsCount": 10,
+    "enrichedQuestionsCount": 11,
     "flashcardsCount": 8,
     "hasMindMap": true,
-    "contentHash": "2b787d683265bfad24ed52813c07db46559363ca3dd489706148a37cc33fd72f"
+    "contentHash": "b5c43ebcda4c6b956ab9d31cd378fbb5d0fa4386dd016585d89894e5c1be5b86"
   },
   {
     "id": "por_17",
+    "num": 34,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -524,10 +541,11 @@
     "enrichedQuestionsCount": 11,
     "flashcardsCount": 9,
     "hasMindMap": true,
-    "contentHash": "80b3a098ba664d5da46758448a66f882d6a9d6fe2a16c3795ec642786881ee25"
+    "contentHash": "193b22b3b46785fa60221fc395c8da3678ae69ebb38b1327fa94235e65be1a67"
   },
   {
     "id": "por_18",
+    "num": 35,
     "cat": "por",
     "catName": "Língua Portuguesa",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -539,10 +557,11 @@
     "enrichedQuestionsCount": 14,
     "flashcardsCount": 11,
     "hasMindMap": true,
-    "contentHash": "aacd304806bd5c61fdff4460c107b0e0c29cf910e7cc07cdbe86d43baef5dc87"
+    "contentHash": "af0408445529b5b9a89469839c8521b7a0934a542a2cf59b17a01986969104c8"
   },
   {
     "id": "rlm_1",
+    "num": 36,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -554,10 +573,11 @@
     "enrichedQuestionsCount": 20,
     "flashcardsCount": 19,
     "hasMindMap": true,
-    "contentHash": "e818ed908311fb1a29b059237f0b49df9a1c633dd25a2e3680556e90868216fa"
+    "contentHash": "913ac0b56d32fc4914443aefb8ce9977061108ea2a9150e5bcd11c84093b2c70"
   },
   {
     "id": "rlm_2",
+    "num": 37,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -566,13 +586,14 @@
     "blocksCount": 5,
     "enrichedBlocksCount": 6,
     "questionsCount": 13,
-    "enrichedQuestionsCount": 17,
+    "enrichedQuestionsCount": 18,
     "flashcardsCount": 17,
     "hasMindMap": true,
-    "contentHash": "c67bafd8b0436288430c249405b45fb79df23240d22f802f235e595d3782612e"
+    "contentHash": "8080cf2650d3900d88f866a09be8b67e04bbbdfc55fb3446338a28c9f5218b40"
   },
   {
     "id": "rlm_3",
+    "num": 38,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -584,10 +605,11 @@
     "enrichedQuestionsCount": 18,
     "flashcardsCount": 20,
     "hasMindMap": true,
-    "contentHash": "4a9cff42807df601c667539b0f0c48b31ee99e11b46c585f0f555aa963657100"
+    "contentHash": "65507efc091b93f0e5a624f9ed62b52d55f0ea00c804ece9982f97d56fbcdf4d"
   },
   {
     "id": "rlm_4",
+    "num": 39,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -599,10 +621,11 @@
     "enrichedQuestionsCount": 14,
     "flashcardsCount": 16,
     "hasMindMap": true,
-    "contentHash": "97c22baba5141d612f1bb69bc09dd661ead1edf84aeaf62126066113237e8833"
+    "contentHash": "80f53515538690683d5a46c1ab93c13ef54f7886546c80c8919db6257c507457"
   },
   {
     "id": "rlm_5",
+    "num": 40,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -614,10 +637,11 @@
     "enrichedQuestionsCount": 19,
     "flashcardsCount": 21,
     "hasMindMap": true,
-    "contentHash": "4ce9a85474156bb8fbd658a0a4a5a975da24cb4f72c3cfa96cc18daaa36cbc0f"
+    "contentHash": "22ff22a6c1080abcff98bf083daaeefc16fd21487ea39b80ed4389ea4788ee0d"
   },
   {
     "id": "rlm_6",
+    "num": 41,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -629,10 +653,11 @@
     "enrichedQuestionsCount": 16,
     "flashcardsCount": 19,
     "hasMindMap": true,
-    "contentHash": "558553563d06fc1b58d8d5dcf35d29da4ee105fee1e6d58f49aae5f599e8ca65"
+    "contentHash": "6a9c4a9b21323120b839532c7c48ecd543717abd8bfc5c8c939fd7625fa0b7bc"
   },
   {
     "id": "rlm_7",
+    "num": 42,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -644,10 +669,11 @@
     "enrichedQuestionsCount": 16,
     "flashcardsCount": 17,
     "hasMindMap": true,
-    "contentHash": "00518c314fb0b7eb213eb054d2ed3ee1c59422026bb304655d2e689af4f2f5d9"
+    "contentHash": "3a9209584d50a8b4215942b9a37904401607607f2b3562ea730f8efdb00c767e"
   },
   {
     "id": "rlm_8",
+    "num": 43,
     "cat": "rlm",
     "catName": "Raciocínio Lógico",
     "weight": "10 Questões • Peso 2 (20 pts)",
@@ -656,14 +682,14 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 24,
-    "enrichedQuestionsCount": 28,
+    "enrichedQuestionsCount": 29,
     "flashcardsCount": 20,
     "hasMindMap": true,
-    "contentHash": "671c55b781212f7c33d91b66c140f95f1b58bec40a8f15a7dde42883d9c386e6"
+    "contentHash": "3d39f20a46c8c36dbf10ef6d3e4069fa44ad58da7347f48bd8f3f6d73deb4440"
   },
   {
     "id": "atu_1",
-    "num": 30,
+    "num": 44,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -675,11 +701,11 @@
     "enrichedQuestionsCount": 13,
     "flashcardsCount": 12,
     "hasMindMap": true,
-    "contentHash": "9425b902cd93c44ace2be2c750227c3f7d8cc89fd509730badd5890f90146db8"
+    "contentHash": "3bef6927c7dfedae67ae8c4dd771e4daa6d45fb8aaaa91dd6e8145abf69f5c45"
   },
   {
     "id": "atu_2",
-    "num": 30,
+    "num": 45,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -691,11 +717,11 @@
     "enrichedQuestionsCount": 12,
     "flashcardsCount": 13,
     "hasMindMap": true,
-    "contentHash": "4d03a3fcd6b6ee6c5f8ba1462e045d7840764ab116bebd0c0b8c0c6a0f967efe"
+    "contentHash": "d89fd0b21d70973b1fa6edc56633a0d8009449eecaff80b857dd26b273ae91b3"
   },
   {
     "id": "atu_3",
-    "num": 29,
+    "num": 46,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -704,14 +730,14 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 7,
-    "enrichedQuestionsCount": 11,
+    "enrichedQuestionsCount": 12,
     "flashcardsCount": 14,
     "hasMindMap": true,
-    "contentHash": "79b07e002da761a44f969ed4a9db43af74bbde04088d49b6d8b635ebfb5eb4c1"
+    "contentHash": "6d4afa98c4cad2d9a2b3647c5a3c455bef1a7f94c0a88c2ce9f271e5846cc66d"
   },
   {
     "id": "atu_4",
-    "num": 29,
+    "num": 47,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -723,11 +749,11 @@
     "enrichedQuestionsCount": 15,
     "flashcardsCount": 16,
     "hasMindMap": true,
-    "contentHash": "626fcee56c45e173ef2b776b1fa2b61b8da9e7e986347de9d62670a3d33dacd9"
+    "contentHash": "a4789ea522f5a89b34e37a05ed2e69f951582868ff1aa4fb2b99f89caca7eb3e"
   },
   {
     "id": "atu_5",
-    "num": 31,
+    "num": 48,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -736,14 +762,14 @@
     "blocksCount": 3,
     "enrichedBlocksCount": 4,
     "questionsCount": 8,
-    "enrichedQuestionsCount": 12,
+    "enrichedQuestionsCount": 13,
     "flashcardsCount": 13,
     "hasMindMap": true,
-    "contentHash": "2723a1be073fa4857dd07cc4308da92d420cbafc8ba62b3d24e076531368133e"
+    "contentHash": "5de55e74ba75a52946e9980cb9b13641faecc507d5592204101ecc78f39b8a52"
   },
   {
     "id": "atu_6",
-    "num": 29,
+    "num": 49,
     "cat": "atu",
     "catName": "Conhecimentos Gerais e Atualidades",
     "weight": "5 Questões • Peso 2 (10 pts)",
@@ -755,6 +781,6 @@
     "enrichedQuestionsCount": 16,
     "flashcardsCount": 14,
     "hasMindMap": true,
-    "contentHash": "e4544d02676c50f5b1062fdfda85f3e9b64e19d3ab71a2caa70d981ea9435227"
+    "contentHash": "3daa4f84a525459c78a301235767167059e2c541445c1c373e3a5df786b00134"
   }
 ]

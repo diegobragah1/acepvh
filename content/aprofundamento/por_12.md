@@ -37,7 +37,7 @@ Qual alternativa usa corretamente o acento grave?
 - C) A equipe retornou à unidade.
 - D) A equipe chegou daqui à duas horas.
 
-**Gabarito: C.** Retornou a + a unidade = à unidade. Começar a registrar não tem artigo; visitar é transitivo direto; daqui a indica intervalo sem essa fusão.
+**Gabarito: C.** Gabarito: C. “Retornar” exige preposição “a”, que se funde ao artigo “a” de “unidade” (retornou ao posto → retornou à unidade). Erro da A: proíbe-se crase antes de verbo no infinitivo (“registrar”); erro da B: “visitar” é VTD, logo há apenas artigo feminino sem preposição; erro da D: “daqui a” indica intervalo futuro sem artigo.
 
 ### Questão 2
 
@@ -48,7 +48,7 @@ Em “referiu-se àquele documento”, a crase ocorre porque:
 - C) Documento é uma palavra feminina.
 - D) Todo demonstrativo exige crase.
 
-**Gabarito: B.** Referir-se a exige preposição, que se funde com o a inicial do demonstrativo. A classe e o gênero de documento não explicam esse caso.
+**Gabarito: B.** Gabarito: B. “Referir-se” exige preposição “a”, que se contrai com a vogal inicial de “aquele” (a + aquele = àquele), mesmo antes de palavra masculina. Erro da A: substantivos masculinos admitem artigo “o”, nunca “a”; erro da C: “documento” é masculino; erro da D: “este” e “esse” não aceitam crase.
 
 ### Questão 3
 
@@ -59,7 +59,7 @@ Assinale a alternativa em que o emprego do acento indicativo de crase é faculta
 - C) À medida que a chuva diminuía, as equipes retomavam as visitas.
 - D) Os agentes dirigiram-se àquela comunidade ribeirinha.
 
-**Gabarito: A.** Antes de pronome possessivo adjetivo feminino no singular (“sua supervisora”), o artigo definido é facultativo, tornando facultativo o acento grave. Nos demais casos, a crase é obrigatória.
+**Gabarito: A.** Gabarito: A. Diante de pronome possessivo feminino singular adjetivo (“sua supervisora”), o uso do artigo definido é facultativo, tornando facultativa a crase (“a/à sua supervisora”). Erro da B: indicação de hora exata (“às 9h”) torna a crase obrigatória; erro da C: locução conjuntiva proporcional feminina (“À medida que”) exige crase obrigatória; erro da D: “dirigir-se a + aquela” tem fusão obrigatória (“àquela”).
 
 ### Questão 4
 
@@ -70,7 +70,7 @@ Compare os pares: I) “Trabalharemos de segunda a sexta-feira” / II) “Traba
 - C) Erro gramatical do segundo período, pois dias da semana nunca admitem artigo.
 - D) Uso obrigatório de crase antes de qualquer numeral cardinal.
 
-**Gabarito: A.** O paralelismo entre os extremos do intervalo determina que “de... a...” não utiliza artigo e “da... à...” contrai preposição + artigo em ambos os polos.
+**Gabarito: A.** Gabarito: A. O paralelismo determina simetria de determinação: “de ... a” (sem artigo nos dois extremos) ou “da ... à” (preposição + artigo nos dois extremos). Erro da B: “sexta-feira” é sempre feminina; erro da C: dias da semana admitem artigo quando determinados em paralelo; erro da D: numerais não impõem crase indiscriminadamente.
 
 ## Flashcards
 

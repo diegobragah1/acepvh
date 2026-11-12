@@ -137,12 +137,20 @@ export function normalizeQuestion(rawQ: unknown): Question {
   const options = normalizeArray<unknown>(q.options).map(opt => toSafeString(opt));
   const rawAns = typeof q.ans === 'number' ? q.ans : typeof q.correct === 'number' ? q.correct : 0;
   const safeAns = options.length > 0 && rawAns >= 0 && rawAns < options.length ? rawAns : 0;
+  const rawDiff = typeof q.difficulty === 'string' ? q.difficulty.trim() : '';
+  const difficulty =
+    rawDiff === 'Fácil' || rawDiff === 'Intermediário' || rawDiff === 'Difícil'
+      ? rawDiff
+      : undefined;
   return {
     q: toSafeString(q.q ?? q.stem),
     ...(q.revision ? { revision: toSafeString(q.revision) } : {}),
     options,
     ans: safeAns,
     comment: toSafeString(q.comment ?? q.explanation),
+    ...(difficulty ? { difficulty } : {}),
+    ...(q.questionType ? { questionType: toSafeString(q.questionType) } : {}),
+    ...(q.sourceRef ? { sourceRef: toSafeString(q.sourceRef) } : {}),
   };
 }
 

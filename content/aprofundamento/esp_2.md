@@ -38,7 +38,7 @@ Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes,
 - C) 12
 - D) 24
 
-**Gabarito: C.** Usuários ocupam metade em relação ao conjunto dos demais segmentos: 12 e 12. Dividir todos os segmentos em quatro parcelas iguais não expressa essa paridade.
+**Gabarito: C.** Gabarito: C. Pela Lei nº 8.142/1990 (art. 1º, § 4º), a representação dos usuários é paritária em relação ao conjunto dos demais segmentos (50% usuários = 12 assentos, 50% governo/prestadores/trabalhadores = 12 assentos). Erro da A: 6 seria divisão de 25% em quatro partes iguais (regra incorreta); erro da B: corresponde a 1/3; erro da D: total absoluto do colegiado.
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes,
 - C) A conferência é a única gestora da folha de pessoal.
 - D) As comissões intergestores substituem a representação dos usuários.
 
-**Gabarito: B.** A Lei 8.142 diferencia o caráter permanente do conselho e a reunião ordinária da conferência. Admite conferências extraordinárias e não transfere toda a execução administrativa a esses colegiados.
+**Gabarito: B.** Gabarito: B. Nos termos do art. 1º, §§ 1º e 2º, da Lei nº 8.142/1990, a Conferência reúne-se a cada 4 anos (podendo ser convocada extraordinariamente) e o Conselho atua em caráter permanente e deliberativo. Erro da A: o conselho atua continuamente; erro da C: a gestão administrativa cabe ao Executivo; erro da D: CIT/CIB/CIR reúnem apenas gestores, sem usuários.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes,
 - C) Existência de faculdade pública de medicina no município e realização de conferência mensal de saúde.
 - D) Autorização prévia da Comissão Intergestores Tripartite para cada compra individual de insumo básico.
 
-**Gabarito: A.** Os seis incisos do art. 4º da Lei 8.142/1990 exigem: I - Fundo de Saúde; II - Conselho de Saúde; III - Plano de Saúde; IV - relatórios de gestão; V - contrapartida de recursos para a saúde no respectivo orçamento; VI - Comissão de elaboração do PCCS, previsto o prazo de dois anos para sua implantação.
+**Gabarito: A.** Gabarito: A. Enumera integralmente os seis requisitos do art. 4º da Lei nº 8.142/1990 (incluindo o prazo de 2 anos para a comissão do PCCS). Erro da B: extinguir o Conselho impede o repasse automático; erro da C: faculdade médica e conferência mensal não são exigências legais; erro da D: compras locais observam licitações e gestão própria, sem aval caso a caso da CIT.
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Conselho é permanente e deliberativo; conferência avalia e propõe diretrizes,
 - C) São compostas por 50% de moradores do bairro e 50% de agentes de combate às endemias.
 - D) Reúnem-se apenas uma vez a cada dez anos para votar emendas constitucionais.
 
-**Gabarito: A.** As Comissões Intergestores (CIT, CIB e CIR) reúnem exclusivamente gestores das esferas de governo para pactuação técnica e operacional, enquanto os Conselhos e Conferências exercem a participação social com paridade de usuários.
+**Gabarito: A.** Gabarito: A. As Comissões Intergestores (CIT, CIB e CIR) são espaços interfederativos exclusivos de gestores para pactuação operacional (art. 14-A, Lei 8.080/90), distintos dos Conselhos de Saúde. Erro da B: não substituem o controle social; erro da C: não contam com usuários/moradores; erro da D: funcionam de modo regular e não exercem poder constituinte.
 
 ## Flashcards
 

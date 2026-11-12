@@ -24,7 +24,7 @@ Na história sanitária brasileira e amazônica, a evolução institucional perc
 3. **1970 (SUCAM — Superintendência de Campanhas de Saúde Pública):** fusão do DNERu, da CEM (Campanha de Erradicação da Malária) e da CEV (Varíola), consolidando a figura histórica do "guarda de endemias / guarda da SUCAM" em modelo vertical e campanhista.
 4. **1990–1991 (Lei 8.080/90 e criação da FUNASA em 1991):** fusão da SUCAM com a Fundação SESP originando a Fundação Nacional de Saúde (FUNASA).
 5. **1999 (Portaria Ministerial nº 1.399/1999) e 2003 (Criação da SVS/MS):** descentralização e certificação dos estados e municípios para a gestão das ações de epidemiologia e controle de doenças (passando da execução federal vertical para a execução municipal descentralizada).
-6. **2006 a 2024 (Constitucionalização e valorização da carreira):** EC 51/2006 e Lei 11.350/2006 (processo seletivo público e vínculo direto); EC 63/2010 e Lei 12.994/2014 (piso e carreira); Lei 13.595/2018 (Lei Ruth Brilhante — atribuições detalhadas e 30h campo + 10h internas); Lei 13.708/2018 (escalonamento do piso); EC 120/2022 (piso de 2 salários mínimos, insalubridade e aposentadoria especial); Lei 14.536/2023 (reconhecimento como profissionais de saúde regulamentados).
+6. **2006 a 2026 (Constitucionalização e valorização da carreira):** EC 51/2006 e Lei 11.350/2006 (processo seletivo público e vínculo direto); EC 63/2010 e Lei 12.994/2014 (piso e carreira); Lei 13.595/2018 (atribuições detalhadas); Lei 13.708/2018 (escalonamento do piso e revogação dos incisos de divisão 30h/10h); EC 120/2022 (piso de 2 salários mínimos, insalubridade e aposentadoria especial); Lei 14.536/2023 (reconhecimento como profissionais de saúde regulamentados); Lei 14.799/2024 ("Lei Ruth Brilhante") e EC 140/2026 (carreira exclusiva de Estado e aposentadoria diferenciada).
 
 ## Resumo de revisão
 
@@ -37,8 +37,8 @@ Relacione marcos a mudanças de modelo, vínculo e atribuições. Instituição 
 | **1970** | **SUCAM** (Superintendência de Campanhas de Saúde Pública) | Fusão de DNERu + CEM + CEV; modelo campanhista verticalizado no interior e na Amazônia. |
 | **1991 / 1999** | **FUNASA** (1991) e **Portaria GM/MS 1.399/1999** | Fusão SUCAM + FSESP (1991) e descentralização das ações de vigilância e controle de endemias para estados e municípios (1999). |
 | **2006** | **EC nº 51/2006** e **Lei nº 11.350/2006** | Criação formal das categorias de ACS e ACE, exigência de processo seletivo público e vedação da terceirização (salvo surto). |
-| **2010 / 2014 / 2018** | **EC 63/10**, **Lei 12.994/14**, **Leis 13.595/18 e 13.708/18** | Instituição do piso nacional, jornada de 40h (30h campo + 10h planejamento) e detalhamento das atribuições típicas, assistidas e compartilhadas. |
-| **2022 / 2023 / 2024** | **EC 120/2022**, **Lei 14.536/2023** e **Lei 14.799/2024** | Piso constitucional de **2 salários mínimos**, insalubridade, aposentadoria especial, status de **profissional de saúde** (acumulação de cargos) e denominação "Lei Ruth Brilhante". |
+| **2010 / 2014 / 2018** | **EC 63/10**, **Lei 12.994/14**, **Leis 13.595/18 e 13.708/18** | Instituição do piso nacional, jornada integral de 40h (revogada a divisão rígida 30h/10h pela Lei 13.708/18) e detalhamento das atribuições típicas, assistidas e compartilhadas. |
+| **2022–2026** | **EC 120/2022**, **Lei 14.536/2023**, **Lei 14.799/2024** e **EC 140/2026** | Piso constitucional de **2 salários mínimos**, insalubridade, status de **profissional de saúde**, denominação "Lei Ruth Brilhante", carreira exclusiva de Estado e aposentadoria diferenciada. |
 
 ## Exercícios autorais comentados
 
@@ -51,7 +51,7 @@ Relacione marcos a mudanças de modelo, vínculo e atribuições. Instituição 
 - C) A criação de um órgão equivale sempre à criação de toda carreira municipal.
 - D) Reconhecimento profissional elimina limites legais de atuação.
 
-**Gabarito: B.** A finalidade de controle e vigilância persiste em diferentes arranjos. As demais opções confundem instituições, competências e limites profissionais.
+**Gabarito: B.** Gabarito: B. A passagem do campanhismo vertical (SUCAM/FUNASA) para a descentralização no SUS mudou a gestão e os vínculos, mantendo essencial o controle vetorial. Erro da A: a União mantém coordenação normativa, aquisição de insumos e cooperação financeira; erro da C: órgão federal e carreira municipal efetiva têm marcos distintos; erro da D: reconhecimento pela Lei 14.536/2023 não autoriza atos médicos.
 
 ### Questão 2
 
@@ -62,7 +62,7 @@ Relacione marcos a mudanças de modelo, vínculo e atribuições. Instituição 
 - C) A remuneração de todos os servidores do país.
 - D) Uma mudança automática em todas as profissões de saúde.
 
-**Gabarito: B.** A análise histórica exige entender o efeito da norma. O número e a data, isolados, não explicam qual aspecto do trabalho mudou.
+**Gabarito: B.** Gabarito: B. Leis como 13.595/2018, 13.708/2018 e 14.536/2023 modificaram artigos específicos da Lei nº 11.350/2006, mantendo os demais em vigor conforme sua data de vigência. Erro da A: número isolado não indica o alcance da regra; erro da C e D: alterações pontuais não uniformizam toda a administração nem todas as profissões.
 
 ### Questão 3
 
@@ -73,7 +73,7 @@ Relacione marcos a mudanças de modelo, vínculo e atribuições. Instituição 
 - C) A proibição de os municípios contratarem Agentes de Combate às Endemias.
 - D) A privatização integral da vigilância epidemiológica brasileira.
 
-**Gabarito: A.** Em 1991, a FUNASA resultou da fusão da SUCAM com a Fundação SESP; em 1999, a Portaria GM/MS nº 1.399 estruturou a descentralização e o financiamento das ações de epidemiologia e controle de doenças junto a estados e municípios.
+**Gabarito: A.** Gabarito: A. Em 1991 a FUNASA uniu SUCAM e FSESP, e em 1999 a Portaria GM/MS nº 1.399 estabeleceu a descentralização e o Teto Financeiro de Epidemiologia e Controle de Doenças (TFECD) aos municípios/estados. Erro da B: consolidaram a estrutura do SUS pós-1990; erro da C: viabilizaram exatamente a assunção municipal das ações de campo; erro da D: o controle de endemias permanece função pública do SUS.
 
 ### Questão 4
 
@@ -84,7 +84,7 @@ Relacione marcos a mudanças de modelo, vínculo e atribuições. Instituição 
 - C) A criação do DNERu em 1956.
 - D) A Portaria de consolidação de tarifas bancárias de 1994.
 
-**Gabarito: A.** A Emenda Constitucional nº 51/2006 inseriu o § 4º no art. 198 da CF/88 exigindo processo seletivo público de provas ou de provas e títulos para a admissão de ACS e ACE, sendo regulamentada no mesmo ano pela Lei nº 11.350/2006.
+**Gabarito: A.** Gabarito: A. A EC nº 51/2006 constitucionalizou a admissão de ACS e ACE mediante processo seletivo público, regulada em seguida pela Lei nº 11.350/2006. Erro da B: ato imperial alheio ao SUS; erro da C: DNERu foi órgão federal campanhista da década de 1950; erro da D: norma financeira sem relação com saúde.
 
 ## Flashcards
 

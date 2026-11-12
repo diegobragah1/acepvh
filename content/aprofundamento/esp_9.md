@@ -51,7 +51,7 @@ Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele
 - C) Malária: causada pelo mosquito como agente etiológico.
 - D) Leptospirose: causada por vírus influenza.
 
-**Gabarito: B.** A cercária é a forma infectante para humanos na esquistossomose. Chagas vetorial envolve material fecal; malária é causada por Plasmodium; leptospirose por bactéria Leptospira.
+**Gabarito: B.** Gabarito: B. Na esquistossomose, as cercárias liberadas pelo caramujo Biomphalaria penetram ativamente pela pele humana em águas doces contaminadas. Erro da A: na transmissão vetorial de Chagas, o Trypanosoma cruzi é eliminado nas fezes do triatomíneo próximo à picada; erro da C: o mosquito Anopheles é o vetor, enquanto o agente etiológico é o protozoário Plasmodium; erro da D: leptospirose é causada pela bactéria Leptospira.
 
 ### Questão 2
 
@@ -62,7 +62,7 @@ Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele
 - C) Porque nenhuma admite prevenção.
 - D) Porque o diagnóstico depende apenas da febre.
 
-**Gabarito: B.** Medidas precisam atingir elementos da cadeia de transmissão. Controle de mosquito, saneamento, ventilação e avaliação de exposições não são intervenções intercambiáveis.
+**Gabarito: B.** Gabarito: B. Cada agravo tem agente etiológico, reservatório e modo de transmissão próprios, exigindo medidas específicas (eliminação de criadouros, vacinação, antirratização, saneamento, ventilação). Erro da A: há doenças respiratórias, hídricas, de carrapato e de vários vetores distintos; erro da C: todas as 14 doenças possuem estratégias preventivas reconhecidas; erro da D: febre é sinal inespecífico comum a múltiplos agravos.
 
 ### Questão 3
 
@@ -73,7 +73,7 @@ Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele
 - C) Rickettsia rickettsii.
 - D) Leptospira interrogans.
 
-**Gabarito: A.** O Plasmodium vivax é a espécie predominante na Amazônia brasileira e forma hipnozoítos hepáticos responsáveis por recaídas tardias. O P. falciparum associa-se a maior gravidade aguda, mas não forma hipnozoítos.
+**Gabarito: A.** Gabarito: A. Plasmodium vivax predomina na Amazônia e forma hipnozoítos hepáticos (que demandam primaquina/tafenoquina para cura radical). Erro da B: helminto causador da esquistossomose; erro da C: bactéria da febre maculosa brasileira; erro da D: bactéria espiroqueta da leptospirose.
 
 ### Questão 4
 
@@ -84,7 +84,29 @@ Agente não é vetor; reservatório não é via. Esquistossomose: cercária/pele
 - C) Significa que a doença transformou-se em raiva humana.
 - D) Permite suspender toda hidratação oral do paciente.
 
-**Gabarito: A.** Na dengue, o desaparecimento da febre (defervescência) pode coincidir com o início da fase crítica de extravasamento plasmático; por isso, o ACE e a equipe de saúde devem orientar o reconhecimento imediato dos sinais de alarme.
+**Gabarito: A.** Gabarito: A. A fase crítica da dengue costuma iniciar-se exatamente quando a febre cede (3º ao 7º dia), exigindo vigilância para sinais de alarme e choque por extravasamento plasmático. Erro da B: baixar a febre não equivale à fase de recuperação segura nas primeiras 24–48h; erro da C: raiva é outro vírus (Lyssavirus); erro da D: hidratação rigorosa é fundamental durante todo o curso.
+
+### Questão 5
+
+[Autoral] De acordo com a diretriz vigente do Ministério da Saúde (Dengue: diagnóstico e manejo clínico — 6ª ed., 2024), o estadiamento clínico-terapêutico dos pacientes com suspeita de dengue abandonou a antiga expressão “dengue hemorrágica” e organiza o manejo nos Grupos A, B, C e D. Durante uma visita domiciliar em Porto Velho, o ACE encontra um morador no 4º dia de doença, no momento da queda da febre (defervescência), apresentando dor abdominal intensa e contínua, vômitos persistentes e sangramento gengival. Assinale a alternativa correta:
+
+- A) O morador apresenta sinais de alarme da dengue (classificado no Grupo C), devendo ser encaminhado imediatamente para unidade de urgência/emergência para reposição volêmica venosa e leito de estabilização, além de ser desencadeada a notificação e o bloqueio vetorial.
+- B) Por ter ocorrido a queda da febre no 4º dia, o quadro evoluiu para cura espontânea (Grupo A), devendo o ACE recomendar apenas repouso domiciliar e uso de ácido acetilsalicílico (AAS).
+- C) Trata-se de caso exclusivo do Grupo B, cujo manejo independe de exames laboratoriais ou avaliação médica, bastando aplicar larvicida Piriproxifeno na caixa d’água.
+- D) A presença de sangramento de mucosas confirma transmissão direta pessoa a pessoa por gotículas respiratórias, exigindo isolamento aéreo domiciliar por 21 dias.
+
+**Gabarito: A.** Gabarito: A. Dor abdominal intensa e contínua, vômitos persistentes e sangramento de mucosas são sinais clássicos de alarme na defervescência, classificando o paciente no Grupo C (urgência/reposição venosa + notificação/bloqueio). Erro da B: Grupo A não tem sinais de alarme e AAS/AINEs são contraindicados na dengue pelo risco hemorrágico; erro da C: Grupo B corresponde a pacientes sem sinais de alarme com comorbidades/risco ou prova do laço positiva; erro da D: dengue é transmitida por Aedes aegypti, não por gotículas respiratórias.
+
+### Questão 6
+
+[Autoral] Sobre as doenças bacterianas de interesse para a vigilância ambiental e controle de zoonoses previstas no edital (Leptospirose e Febre Maculosa Brasileira), assinale a alternativa tecnicamente correta:
+
+- A) A Febre Maculosa Brasileira tem como agente etiológico a bactéria intracelular Rickettsia rickettsii, é transmitida pela picada do carrapato do gênero Amblyomma (carrapato-estrela) e possui notificação compulsória imediata (em até 24h); já a Leptospirose é causada por espiroquetas do gênero Leptospira, eliminadas na urina de roedores sinantrópicos (Rattus norvegicus), penetrando pela pele lesada ou íntegra imersa por longo tempo em água/lama de enchentes.
+- B) Ambas são causadas por protozoários flagelados e transmitidas pela picada noturna do flebotomíneo Lutzomyia longipalpis.
+- C) A Leptospirose é transmitida pela picada do carrapato-estrela em áreas de capivaras, enquanto a Febre Maculosa é contraída pela ingestão de água tratada com hipoclorito de sódio.
+- D) Na Febre Maculosa o único reservatório é o camundongo intradomiciliar Mus musculus, sendo a transmissão feita exclusivamente por aerossóis.
+
+**Gabarito: A.** Gabarito: A. Descreve corretamente agente, vetor/reservatório, via e notificação (Febre Maculosa = imediata 24h; Leptospirose = semanal no SINAN) de ambos os agravos bacterianos. Erro da B: descreve características das leishmanioses (protozoários + flebotomíneos); erro da C: inverte o papel do carrapato e desconhece que o cloro inativa Leptospira; erro da D: na Febre Maculosa destacam-se capivaras, equinos e cães no ciclo do carrapato Amblyomma, sem transmissão aérea.
 
 ## Flashcards
 

@@ -39,7 +39,7 @@ Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalid
 - C) 5%
 - D) 20%
 
-**Gabarito: C.** Letalidade=2/40×100=5%. Usar a população geral como denominador produziria uma medida de mortalidade, não de letalidade.
+**Gabarito: C.** Gabarito: C. Letalidade = (óbitos pela doença ÷ total de casos da doença) × 100 = (2 ÷ 40) × 100 = 5%. Erro da A: 0,1% (2 ÷ 2.000) seria a taxa de mortalidade na população total; erro da B: 2% (40 ÷ 2.000) corresponde à incidência acumulada; erro da D: resultado equivocado da divisão inversa ou deslocamento decimal.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalid
 - C) Sim, porque definição de caso nunca muda.
 - D) Não, porque notificações jamais se relacionam a transmissão.
 
-**Gabarito: B.** Aumento de notificações requer investigar explicações concorrentes. Ele pode sinalizar transmissão, mas a conclusão exige avaliar definição, cobertura, busca ativa e período.
+**Gabarito: B.** Gabarito: B. Maior volume de notificações pode decorrer de surto real, mas também de busca ativa, ampliação diagnóstica ou redução da subnotificação, exigindo análise epidemiológica. Erro da A: dispensa indevidamente investigação de qualidade dos dados; erro da C: definições de caso podem ser atualizadas pelos manuais; erro da D: notificações refletem, em parte, a dinâmica real da transmissão.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalid
 - C) Erradicação global.
 - D) Letalidade nula.
 
-**Gabarito: A.** Endemia é a presença habitual de uma doença ou agente infeccioso dentro de uma área geográfica determinada, mantendo incidência dentro da faixa esperada na série histórica local.
+**Gabarito: A.** Gabarito: A. Endemia designa a presença contínua/habitual de uma doença em território específico dentro do limite esperado no diagrama de controle. Erro da B: pandemia refere-se a epidemia disseminada por múltiplos continentes; erro da C: erradicação é a extinção mundial do agente/doença (como a varíola); erro da D: letalidade mede proporção de óbitos entre os doentes.
 
 ### Questão 4
 
@@ -72,7 +72,18 @@ Casos novos: incidência. Casos existentes: prevalência. Óbitos/casos: letalid
 - C) Somente depois da alta hospitalar ou do óbito do paciente.
 - D) Exclusivamente por médicos legistas do Instituto Médico Legal.
 
-**Gabarito: A.** Para garantir oportunidade na interrupção da cadeia de transmissão (bloqueio vetorial, investigação de contatos, profilaxia), a notificação compulsória é realizada já diante da suspeita do agravo.
+**Gabarito: A.** Gabarito: A. A notificação compulsória deve ocorrer já diante da suspeita (ou confirmação quando cabível) para disparar tempestivamente busca ativa e bloqueio de transmissão. Erro da B: não depende de processo judicial; erro da C: esperar alta ou óbito inviabiliza o controle oportuno; erro da D: compete a médicos, profissionais de saúde e responsáveis por estabelecimentos públicos/privados (art. 8º da Lei 6.259/75).
+
+### Questão 5
+
+[Autoral] Na Lista Nacional de Notificação Compulsória de Doenças, Agravos e Eventos de Saúde Pública do Ministério da Saúde, a periodicidade de notificação da Malária apresenta uma distinção territorial fundamental para quem atua em Porto Velho/RO. Assinale a alternativa correta:
+
+- A) Na Região Amazônica (onde se situa Rondônia, área endêmica), a malária é de notificação compulsória SEMANAL (registrada no SIVEP-Malária), ao passo que na Região Extra-Amazônica qualquer caso suspeito é de notificação IMEDIATA (em até 24 horas).
+- B) A malária não integra a Lista Nacional de Notificação Compulsória em nenhum estado brasileiro, sendo de registro facultativo.
+- C) Na Região Amazônica a notificação ocorre apenas uma vez a cada cinco anos, enquanto na Região Sul é decenal.
+- D) Apenas os casos de malária causados por Schistosoma mansoni são notificados no Brasil.
+
+**Gabarito: A.** Gabarito: A. Na Região Amazônica a notificação da malária é semanal via SIVEP-Malária; na Região Extra-Amazônica é imediata (24h). Erro da B: integra obrigatoriamente a Lista Nacional (Portaria de Consolidação GM/MS nº 4/2017); erro da C: inexistentes prazos quinquenais ou decenais para notificação compulsória; erro da D: o agente da malária é Plasmodium spp., e não Schistosoma mansoni (esquistossomose).
 
 ## Flashcards
 

@@ -150,11 +150,13 @@ export const DidacticToolbar: React.FC<DidacticToolbarProps> = ({
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 pt-2 border-t border-white/10">
           <div className="relative flex-1">
             <input
-              type="text"
+              id="didactic-toolbar-search-input"
+              type="search"
+              aria-label="Localizar e grifar no texto da aula"
               value={lessonSearchTerm}
               onChange={(e) => onChangeSearch(e.target.value)}
               placeholder="🔍 Localizar e grifar palavra, artigo ou conceito no texto integral..."
-              className="w-full px-3 py-1.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-slate-300 text-xs focus:outline-none focus:bg-white/15 focus:border-amber-300"
+              className="w-full px-3 py-1.5 rounded-lg bg-white/10 border border-white/20 text-white placeholder-slate-300 text-xs focus:outline-none focus:bg-white/15 focus:ring-2 focus:ring-amber-300"
             />
             {lessonSearchTerm && (
               <button

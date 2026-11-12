@@ -36,7 +36,7 @@ Em “a visita criou uma ponte entre a comunidade e o serviço”, “ponte” e
 - C) Nome de uma doença.
 - D) Indicação de quantidade.
 
-**Gabarito: B.** A ponte expressa ligação em sentido figurado. As demais leituras não se ajustam à relação entre comunidade e serviço apresentada no período.
+**Gabarito: B.** Gabarito: B. “Ponte” assume acepção conotativa/metafórica de vínculo institucional e diálogo entre população e SUS. Erro da A: leitura literal incompatível com o sentido abstrato de aproximação social; erro da C e D: não designa patologia nem medida quantitativa.
 
 ### Questão 2
 
@@ -47,7 +47,7 @@ Qual redação elimina a ambiguidade sobre a casa a ser visitada?
 - C) A agente informou que a casa da moradora seria visitada.
 - D) Sua casa foi mencionada por ela.
 
-**Gabarito: C.** “Da moradora” explicita o referente. Os possessivos e pronomes das demais alternativas mantêm possibilidades de referência dependentes do contexto.
+**Gabarito: C.** Gabarito: C. O sintagma preposicionado “da moradora” especifica univocamente quem é a proprietária da casa. Erro da A, B e D: o possessivo “sua” e os pronomes “ela” permitem dupla referência (casa da agente ou casa da moradora), mantendo a ambiguidade.
 
 ### Questão 3
 
@@ -58,7 +58,7 @@ Assinale a alternativa em que o parônimo ou homônimo foi empregado com precis�
 - C) A equipe agiu com total descrição para não alardear os dados sigilosos.
 - D) O relatório de campo precisou ser ratificado porque continha dados incorretos que exigiam correção.
 
-**Gabarito: A.** Retificar significa corrigir erros e ratificar significa confirmar/validar. Na B, multa se inflige (aplica) e repartição é seção; na C, cautela é discrição; na D, corrigir erro exige retificar.
+**Gabarito: A.** Gabarito: A. “Retificar” = corrigir erros; “ratificar” = confirmar/validar o cronograma; “sessão” = reunião/encontro. Erro da B: multa é aplicada (“infligir”), e “infringir” significa desrespeitar regra; erro da C: reserva/cautela escreve-se “discrição” (e não “descrição”); erro da D: se havia dados incorretos, cabia “retificar” (corrigir), não “ratificar”.
 
 ### Questão 4
 
@@ -69,7 +69,7 @@ No trecho “A equipe recolheu pneus e garrafas no terreno. Esses recipientes fo
 - C) Paronímia em relação ao verbo recolher.
 - D) Ambiguidade involuntária sem referente no período anterior.
 
-**Gabarito: A.** “Recipientes” funciona como hiperônimo que engloba os termos mais específicos mencionados anteriormente.
+**Gabarito: A.** Gabarito: A. “Recipientes” (hiperônimo = termo geral) encapsula e retoma os termos específicos “pneus e garrafas” (hipônimos), garantindo coesão lexical. Erro da B: não há relação de oposição; erro da C: não há semelhança gráfica com “recolher”; erro da D: o referente é nítido e unívoco no período anterior.
 
 ## Flashcards
 
@@ -77,9 +77,9 @@ No trecho “A equipe recolheu pneus e garrafas no terreno. Esses recipientes fo
 
 Releia a frase completa, conferindo sentido, intensidade, referência e registro.
 
-**Qual a diferença entre ratificar e retificar?**
+**Por que pronomes possessivos como “seu/sua” frequentemente geram ambiguidade na escrita técnica?**
 
-Ratificar é confirmar/validar; retificar é corrigir/emendar.
+Porque “seu/sua” podem referir-se tanto ao emissor quanto ao interlocutor ou à terceira pessoa; especificar “da moradora / da equipe” elimina a dupla leitura.
 
 **O que diferencia seção, sessão e cessão?**
 

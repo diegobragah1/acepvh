@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
+import { StudyDashboardPanel } from '../features/progress/StudyDashboardPanel';
 
 export const Tab1Painel: React.FC = () => {
   const { appData, setCurrentTab } = useApp();
@@ -22,6 +23,9 @@ export const Tab1Painel: React.FC = () => {
 
   return (
     <section className="space-y-6">
+      {/* Painel Interativo de Progresso do Estudante */}
+      <StudyDashboardPanel />
+
       {/* Resumo da Atualização Pós-Auditoria */}
       <div className="bg-white rounded-2xl p-5 shadow-sm border border-emerald-200">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-100 pb-3 mb-4">
@@ -57,7 +61,7 @@ export const Tab1Painel: React.FC = () => {
           <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
             <h3 className="font-bold text-slate-900 mb-1">3. Revisão dos Subtópicos de Legislação, Português, RLM e Gerais</h3>
             <p className="text-slate-600 leading-relaxed">
-              Integrados todos os 85 PDFs do Drive + 9 fontes oficiais, adicionando <strong>Nacionalidade (Arts. 12–13 CF)</strong>, <strong>Art. 29-A e 38 CF</strong>, <strong>LOM e LC 385/2010</strong>, <strong>LAI Estadual (Lei 3.166/13) e Municipal</strong>, <strong>Figuras de Sintaxe e Variação Linguística</strong>, <strong>Sistemas Lineares, Função do 1º Grau, Médias, Conjunto das Partes (2<sup>n</sup>) e Verdades/Mentiras</strong>, e <strong>Georreferenciamento (SIG/GPS)</strong>.
+              Acervo atualizado com <strong>126 fontes documentais e oficiais</strong> (Drive, Prefeitura de Porto Velho, Planalto, MS e IBGP), adicionando <strong>Nacionalidade (Arts. 12–13 CF)</strong>, <strong>Art. 29-A e 38 CF</strong>, <strong>LOM e LC 385/2010</strong>, <strong>LAI Estadual (Lei 3.166/13) e Municipal</strong>, <strong>Figuras de Sintaxe e Variação Linguística</strong>, <strong>Sistemas Lineares, Função do 1º Grau, Médias, Conjunto das Partes (2<sup>n</sup>) e Verdades/Mentiras</strong>, e <strong>Georreferenciamento (SIG/GPS)</strong>.
             </p>
           </div>
         </div>
@@ -163,7 +167,7 @@ export const Tab1Painel: React.FC = () => {
                 <td className="p-2.5 text-center">50 Questões</td>
                 <td className="p-2.5 text-center">Peso 2,0</td>
                 <td className="p-2.5 text-center text-emerald-400">100,0 Pontos</td>
-                <td className="p-2.5 text-center">Conferir fontes</td>
+                <td className="p-2.5 text-center">100%</td>
                 <td className="p-2.5">Mínimo para aprovação: 50% (50,0 pontos)</td>
               </tr>
             </tbody>

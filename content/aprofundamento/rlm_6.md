@@ -22,16 +22,11 @@ Validade exclui premissas verdadeiras com conclusão falsa. Modus ponens/tollens
 
 | Regra de Inferência / Conjunto | Estrutura Formal | Conclusão Válida / Fórmula | Armadilha / Falácia |
 | --- | --- | --- | --- |
-| **Modus Ponens (Afirmação do Antecedente)** | Premissa 1: $p 	o q$; Premissa 2: $p$. | Logo, **$q$**. | Confundir com a falácia da afirmação do consequente ($p 	o q$ e $q$ **não** garante $p$). |
-| **Modus Tollens (Negação do Consequente)** | Premissa 1: $p 	o q$; Premissa 2: $
-eg q$. | Logo, **$
-eg p$**. | Confundir com a falácia da negação do antecedente ($p 	o q$ e $
-eg p$ **não** garante $
-eg q$). |
-| **Silogismo Disjuntivo** | Premissa 1: $p lor q$; Premissa 2: $
-eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a segunda é obrigatoriamente verdadeira. |
-| **Princípio da Inclusão-Exclusão (2 e 3 conjuntos)** | $n(A cup B) = n(A) + n(B) - n(A cap B)$ | Para 3 conjuntos: soma os individuais, subtrai as interseções 2 a 2 e soma $n(A cap B cap C)$. | Comece sempre preenchendo o Diagrama de Venn pela **interseção central**. |
-| **Conjunto das Partes $mathcal{P}(A)$** | Total de subconjuntos de $A$ com $n$ elementos $= 2^n$. | Subconjuntos próprios não vazios $= 2^n - 2$. | O conjunto vazio $emptyset$ é **subconjunto** de qualquer conjunto ($emptyset subset A$). |
+| **Modus Ponens (Afirmação do Antecedente)** | Premissa 1: $p \to q$; Premissa 2: $p$. | Logo, **$q$**. | Confundir com a falácia da afirmação do consequente ($p \to q$ e $q$ **não** garante $p$). |
+| **Modus Tollens (Negação do Consequente)** | Premissa 1: $p \to q$; Premissa 2: $\neg q$. | Logo, **$\neg p$**. | Confundir com a falácia da negação do antecedente ($p \to q$ e $\neg p$ **não** garante $\neg q$). |
+| **Silogismo Disjuntivo** | Premissa 1: $p \lor q$; Premissa 2: $\neg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a segunda é obrigatoriamente verdadeira. |
+| **Princípio da Inclusão-Exclusão (2 e 3 conjuntos)** | $n(A \cup B) = n(A) + n(B) - n(A \cap B)$ | Para 3 conjuntos: soma os individuais, subtrai as interseções 2 a 2 e soma $n(A \cap B \cap C)$. | Comece sempre preenchendo o Diagrama de Venn pela **interseção central**. |
+| **Conjunto das Partes $\mathcal{P}(A)$** | Total de subconjuntos de $A$ com $n$ elementos $= 2^n$. | Subconjuntos próprios não vazios $= 2^n - 2$. | O conjunto vazio $\emptyset$ é **subconjunto** de qualquer conjunto ($\emptyset \subset A$). |
 
 ## Exercícios autorais comentados
 
@@ -44,7 +39,7 @@ eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a s
 - C) 10
 - D) 17
 
-**Gabarito: B.** A união tem 28+25−10=43. Restam 50−43=7. Somar sem descontar a interseção contaria as mesmas pessoas duas vezes.
+**Gabarito: B.** Gabarito: B. União: n(P ∪ M) = 28 + 25 − 10 = 43. Logo, quem não estuda nenhuma = 50 − 43 = 7. Erro da A: ocorreria se 53 − 50 desse negativo/zero sem interseção; erro da C: 10 é a interseção (estudam ambas); erro da D: ocorreria ao somar 28 + 25 − 50 = 3 ou subtrair errado.
 
 ### Questão 2
 
@@ -55,7 +50,7 @@ eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a s
 - C) Uma negação de todos.
 - D) Uma identidade entre A e B.
 
-**Gabarito: B.** A inclusão A⊆B não implica B⊆A. João pode pertencer a B sem pertencer a A; esse contraexemplo mostra a invalidade.
+**Gabarito: B.** Gabarito: B. Se A ⊆ B (círculo A dentro do círculo B), João estar em B não obriga que esteja dentro de A (ele pode estar na região B − A), constituindo falácia da afirmação do consequente. Erro da A: existe contraexemplo direto; erro da C: não há quantificador existencial negando "Todo"; erro da D: inclusão A ⊆ B não implica igualdade A = B.
 
 ### Questão 3
 
@@ -66,7 +61,7 @@ eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a s
 - C) Choveu todos os dias da semana.
 - D) O pátio não possui muro.
 
-**Gabarito: A.** Pelo Modus Tollens (se p → q é verdadeira e ¬q é verdadeira, então ¬p é verdadeira), a ausência do consequente (“não surgiu foco”) implica necessariamente a falsidade do antecedente (“não há pneus expostos à chuva”).
+**Gabarito: A.** Gabarito: A. Em p → q verdadeira com ~q verdadeira (Modus Tollens), p não pode ser verdadeira (pois V → F seria falso), logo ~p é obrigatoriamente verdadeira ("não há pneus expostos à chuva"). Erro da B: contradiz a validade dedutiva tornando V → F falso; erro da C e D: informações extrínsecas ausentes das premissas.
 
 ### Questão 4
 
@@ -77,7 +72,7 @@ eg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a s
 - C) 36.
 - D) 32.
 
-**Gabarito: A.** Um conjunto finito com n = 6 elementos distintos possui exatamente 2^n = 2^6 = 64 subconjuntos (incluindo o conjunto vazio e o próprio conjunto A).
+**Gabarito: A.** Gabarito: A. Para conjunto finito com n = 6 elementos, o Conjunto das Partes possui 2^n = 2⁶ = 64 subconjuntos (incluindo o vazio e o próprio A). Erro da B: multiplica 6 × 2; erro da C: eleva 6²; erro da D: calcula 2⁵ = 32 (equivalente a n = 5 ou erro ao descontar mais que o devido).
 
 ## Flashcards
 

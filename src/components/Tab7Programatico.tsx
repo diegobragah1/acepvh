@@ -80,9 +80,7 @@ export const Tab7Programatico: React.FC = () => {
     updateTopicStatus,
     isSubtopicCompleted,
     toggleSubtopicComplete,
-    setCurrentLessonId,
-    setCurrentTab,
-    setCurrentStudyMode,
+    openLessonBlock,
   } = useApp();
 
   const [selectedDisc, setSelectedDisc] = useState<string>('ALL');
@@ -100,11 +98,10 @@ export const Tab7Programatico: React.FC = () => {
 
   const handleOpenLesson = (
     lessonId: string,
-    mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C' = 'ALL'
+    mode: 'ALL' | 'MAPA' | 'A' | 'B' | 'C' = 'ALL',
+    blockIdx?: number
   ) => {
-    setCurrentLessonId(lessonId);
-    setCurrentStudyMode(mode);
-    setCurrentTab('tab-apostila');
+    openLessonBlock(lessonId, blockIdx, mode);
   };
 
   const toggleExpandTopic = (lessonId: string) => {
@@ -177,11 +174,12 @@ export const Tab7Programatico: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-3 pt-3 border-t border-slate-100">
           <div className="md:col-span-5">
             <input
-              type="text"
+              type="search"
+              aria-label="Filtrar tópico, artigo ou lei"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="🔎 Filtrar tópico, artigo, lei (ex: 13.708, PNAB, LOM, Crase, Matrizes)..."
-              className="w-full px-3.5 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 focus:outline-none focus:border-teal-600"
+              className="w-full px-3.5 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-teal-500"
             />
           </div>
 
@@ -198,7 +196,7 @@ export const Tab7Programatico: React.FC = () => {
                 key={tab.id}
                 type="button"
                 onClick={() => setSelectedDisc(tab.id)}
-                className={`px-2.5 py-1.5 rounded-xl text-[11px] font-extrabold transition cursor-pointer ${
+                className={`px-2.5 py-1.5 rounded-xl text-[11px] font-extrabold transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-teal-500 ${
                   selectedDisc === tab.id
                     ? 'bg-slate-900 text-white'
                     : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
@@ -211,9 +209,10 @@ export const Tab7Programatico: React.FC = () => {
 
           <div className="md:col-span-3">
             <select
+              aria-label="Filtrar por status de estudo"
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value)}
-              className="w-full px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-bold text-slate-700"
+              className="w-full px-3 py-2 text-xs rounded-xl border border-slate-300 bg-slate-50 font-bold text-slate-700 focus:outline-none focus:ring-2 focus:ring-teal-500"
             >
               <option value="ALL">Filtrar por Status (Todos)</option>
               {STATUS_OPTIONS.map((st) => {
@@ -365,7 +364,8 @@ export const Tab7Programatico: React.FC = () => {
                             <button
                               type="button"
                               onClick={() => handleOpenLesson(lesson.id, 'ALL')}
-                              className="px-3 py-1.5 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-extrabold shadow-sm transition flex items-center gap-1 cursor-pointer"
+                              aria-label={`Estudar Aula ${lesson.num}: ${lesson.title}`}
+                              className="px-3 py-1.5 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-extrabold shadow-sm transition flex items-center gap-1 cursor-pointer focus:outline-none focus:ring-2 focus:ring-teal-500"
                             >
                               📖 Estudar Aula
                             </button>
@@ -373,7 +373,8 @@ export const Tab7Programatico: React.FC = () => {
                               <button
                                 type="button"
                                 onClick={() => handleOpenLesson(lesson.id, 'MAPA')}
-                                className="px-2.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 text-xs font-bold transition cursor-pointer"
+                                aria-label={`Abrir Mapa Mental da Aula ${lesson.num}: ${lesson.title}`}
+                                className="px-2.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-900 border border-indigo-200 text-xs font-bold transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-500"
                                 title="Abrir diretamente o Mapa Mental desta aula"
                               >
                                 🧠 Mapa
@@ -382,7 +383,8 @@ export const Tab7Programatico: React.FC = () => {
                             <button
                               type="button"
                               onClick={() => handleOpenLesson(lesson.id, 'C')}
-                              className="px-2.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 text-xs font-bold transition cursor-pointer"
+                              aria-label={`Praticar as ${qCount} questões da Aula ${lesson.num}: ${lesson.title}`}
+                              className="px-2.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 text-xs font-bold transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-amber-500"
                               title="Praticar diretamente as questões desta aula"
                             >
                               ✍️ {qCount} Questões
@@ -390,7 +392,9 @@ export const Tab7Programatico: React.FC = () => {
                             <button
                               type="button"
                               onClick={() => toggleExpandTopic(lesson.id)}
-                              className="px-2.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition cursor-pointer"
+                              aria-expanded={isExpanded}
+                              aria-label={`${isExpanded ? 'Recolher' : 'Expandir'} subtópicos da Aula ${lesson.num}: ${lesson.title}`}
+                              className="px-2.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-slate-400"
                             >
                               {isExpanded ? '▲ Subtópicos' : '▼ Subtópicos'}
                             </button>
@@ -437,7 +441,7 @@ export const Tab7Programatico: React.FC = () => {
                                 </div>
                                 <button
                                   type="button"
-                                  onClick={() => handleOpenLesson(lesson.id, 'ALL')}
+                                  onClick={() => handleOpenLesson(lesson.id, 'ALL', bIdx)}
                                   className="text-left group cursor-pointer"
                                 >
                                   <p className="text-xs font-bold text-slate-800 group-hover:text-teal-800 line-clamp-2">

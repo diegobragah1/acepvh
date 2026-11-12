@@ -126,7 +126,9 @@
             "D) Fática, pois limita-se a testar o funcionamento da linha telefônica."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. O uso de vocativo ('Morador') e verbos no imperativo ('não dê', 'limpe', 'vede', 'receba') voltados a influenciar a conduta do leitor caracteriza a função CONATIVA (ou apelativa), típica de campanhas educativas de saúde pública."
+          "comment": "Gabarito: B. O uso de vocativo ('Morador') e verbos no imperativo ('não dê', 'limpe', 'vede', 'receba') voltados a influenciar a conduta do leitor caracteriza a função CONATIVA (ou apelativa), típica de campanhas educativas de saúde pública.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática em Contexto ACE"
         },
         {
           "q": "(Questão de estudo — origem não autenticada) Quando um Agente de Combate às Endemias utiliza termos técnicos como 'índice de infestação predial', 'larvicida biológico' e 'bloqueio de transmissão' ao redigir um relatório oficial na SEMUSA, mas emprega uma linguagem simples e acolhedora ao conversar com um morador idoso durante a visita domiciliar, observa-se adequação ligada sobretudo à variação:",
@@ -137,7 +139,9 @@
             "D) Sintática de regência verbal."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. A variação DIAFÁSICA (ou situacional/de registro) ocorre quando o mesmo falante alterna conscientemente entre o registro formal/técnico e o registro coloquial/acessível conforme o contexto e o ouvinte."
+          "comment": "Gabarito: B. A alternância entre jargão técnico no ofício e fala acessível com o morador reflete adaptação ao contexto e interlocutor: variação diafásica (situacional). Erro da A: diacrônica compara épocas históricas; erro da C e D: escolha consciente de registro não constitui erro ortográfico nem sintático.",
+          "difficulty": "Difícil",
+          "questionType": "Cálculo"
         },
         {
           "q": "(Questão de estudo — origem não autenticada) Na frase 'Os casos de malária VOLTARAM a cair nos distritos ribeirinhos de Porto Velho após o reforço das ações de controle vetorial', o verbo destacado ('voltaram') autoriza identificar o seguinte pressuposto linguístico:",
@@ -148,7 +152,9 @@
             "D) O reforço das ações de controle vetorial aumentou o número de casos."
           ],
           "ans": 1,
-          "comment": "Gabarito: B. O verbo 'voltar' (na locução 'voltaram a cair') funciona como gatilho linguístico de pressuposição: só pode 'voltar a cair' aquilo que já havia caído anteriormente."
+          "comment": "Gabarito: B. “Voltaram a cair” contém gatilho aspectual de repetição, pressupondo que os casos já haviam apresentado queda antes. Erro da A: contraria o pressuposto lexical; erro da C: queda de casos não implica erradicação global; erro da D: contraria o significado de “cair”.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática em Contexto ACE"
         }
       ],
       "flashcards": [
@@ -178,7 +184,7 @@
     {
       "title": "Bloco 18.2 — As 4 Dimensões da Variação Linguística (Diatópica, Diastrática, Diafásica e Diacrônica), Norma-Padrão vs. Norma Culta e Adequação",
       "sourceRef": "Anexo IV — Língua Portuguesa (Item 18: Variação linguística)",
-      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 18 de Língua Portuguesa — Variação Linguística</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Os 4 Tipos de Variação Linguística (Geográfica, Social, Situacional e Histórica)</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">A Sociolinguística ensina que nenhuma língua é homogênea ou estática: a língua varia conforme o <strong>lugar</strong>, o <strong>grupo social</strong>, a <strong>situação comunicativa</strong> e a <strong>época histórica</strong>.</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Tipo de Variação</th>\n          <th class=\"p-2.5 border border-slate-700\">Fator Determinante</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Clássico de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Diatópica (Geográfica ou Regional)</td><td class=\"p-2.5 border border-slate-200\">Diferenças de vocabulário e sotaque conforme a <strong>região/espaço geográfico</strong> (regionalismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Macaxeira / mandioca / aipim</em>; <em>jerimum / abóbora</em>; <em>carapanã / muriçoca / pernilongo</em> (em RO usa-se muito <em>carapanã</em>!).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Diastrática (Social ou Cultural)</td><td class=\"p-2.5 border border-slate-200\">Diferenças associadas a <strong>grupos sociais</strong>, faixa etária, profissão (jargão técnico) ou grau de escolaridade (gírias e socioletons).</td><td class=\"p-2.5 border border-slate-200\">Jargão médico/epidemiológico (<em>arbovirose, sorotipo, profilaxia</em>) vs. gíria juvenil.</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Diafásica (Situacional ou de Registro)</td><td class=\"p-2.5 border border-slate-200\">O <strong>mesmo falante</strong> adapta seu grau de formalidade conforme o <strong>contexto/interlocutor</strong> (registro formal vs. informal/coloquial).</td><td class=\"p-2.5 border border-slate-200\">Um ACE redige um ofício em norma-padrão formal ao Secretário, mas conversa em tom coloquial e acessível com o morador na visita domiciliar.</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Diacrônica (Histórica ou Temporal)</td><td class=\"p-2.5 border border-slate-200\">Evolução das palavras e construções ao longo do <strong>tempo histórico</strong> (arcaísmos vs. neologismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Vossa Mercê $\\rightarrow$ Vosmecê $\\rightarrow$ Você $\\rightarrow$ Cê</em>; <em>Pharmacia $\\rightarrow$ Farmácia</em>.</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div>",
+      "modoA": "<div class=\"space-y-4\">\n  <div class=\"p-4 rounded-xl bg-teal-950/90 text-white border border-teal-700\">\n    <span class=\"px-2 py-0.5 rounded text-[10px] font-black uppercase bg-amber-400 text-slate-950\">Item 18 de Língua Portuguesa — Variação Linguística</span>\n    <h4 class=\"text-base sm:text-lg font-extrabold mt-1\">Os 4 Tipos de Variação Linguística (Geográfica, Social, Situacional e Histórica)</h4>\n    <p class=\"text-xs text-teal-100 mt-1\">A Sociolinguística ensina que nenhuma língua é homogênea ou estática: a língua varia conforme o <strong>lugar</strong>, o <strong>grupo social</strong>, a <strong>situação comunicativa</strong> e a <strong>época histórica</strong>.</p>\n  </div>\n  <div class=\"overflow-x-auto\">\n    <table class=\"w-full text-left border-collapse text-xs border border-slate-300\">\n      <thead>\n        <tr class=\"bg-slate-900 text-white\">\n          <th class=\"p-2.5 border border-slate-700\">Tipo de Variação</th>\n          <th class=\"p-2.5 border border-slate-700\">Fator Determinante</th>\n          <th class=\"p-2.5 border border-slate-700\">Exemplo Clássico de Prova</th>\n        </tr>\n      </thead>\n      <tbody class=\"divide-y divide-slate-200\">\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">1. Diatópica (Geográfica ou Regional)</td><td class=\"p-2.5 border border-slate-200\">Diferenças de vocabulário e sotaque conforme a <strong>região/espaço geográfico</strong> (regionalismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Macaxeira / mandioca / aipim</em>; <em>jerimum / abóbora</em>; <em>carapanã / muriçoca / pernilongo</em> (em RO usa-se muito <em>carapanã</em>!).</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">2. Diastrática (Social ou Cultural)</td><td class=\"p-2.5 border border-slate-200\">Diferenças associadas a <strong>grupos sociais</strong>, faixa etária, profissão (jargão técnico) ou grau de escolaridade (gírias e socioletons).</td><td class=\"p-2.5 border border-slate-200\">Jargão médico/epidemiológico (<em>arbovirose, sorotipo, profilaxia</em>) vs. gíria juvenil.</td></tr>\n        <tr class=\"bg-white\"><td class=\"p-2.5 font-bold border border-slate-200\">3. Diafásica (Situacional ou de Registro)</td><td class=\"p-2.5 border border-slate-200\">O <strong>mesmo falante</strong> adapta seu grau de formalidade conforme o <strong>contexto/interlocutor</strong> (registro formal vs. informal/coloquial).</td><td class=\"p-2.5 border border-slate-200\">Um ACE redige um ofício em norma-padrão formal ao Secretário, mas conversa em tom coloquial e acessível com o morador na visita domiciliar.</td></tr>\n        <tr class=\"bg-slate-50\"><td class=\"p-2.5 font-bold border border-slate-200\">4. Diacrônica (Histórica ou Temporal)</td><td class=\"p-2.5 border border-slate-200\">Evolução das palavras e construções ao longo do <strong>tempo histórico</strong> (arcaísmos vs. neologismos).</td><td class=\"p-2.5 border border-slate-200\"><em>Vossa Mercê $\\rightarrow$ Vosmecê $\\rightarrow$ Você $\\rightarrow$ Cê</em>; <em>Pharmacia $\\rightarrow$ Farmácia</em>.</td></tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n<div data-phase4=\"phase4-por18-b1\">\n<div class=\"space-y-1.5 text-[15px] sm:text-base text-slate-800 leading-[1.7]\"><h5 class=\"text-xs sm:text-sm font-bold text-teal-800 mt-2\">Comparação Crítica — Adequação Linguística no Serviço Público do ACE</h5><div class=\"overflow-x-auto my-2\"><table class=\"min-w-full text-xs border border-slate-300 rounded-lg overflow-hidden\"><thead class=\"bg-slate-800 text-white\"><tr><th class=\"p-2 border border-slate-300 text-left\">Dimensão da Variação</th><th class=\"p-2 border border-slate-300 text-left\">Fator Determinante</th><th class=\"p-2 border border-slate-300 text-left\">Exemplo Prático em Porto Velho/RO</th></tr></thead><tbody><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>Diatópica (Geográfica)</strong></td><td class=\"p-2 border border-slate-200 align-top\">Região ou localidade</td><td class=\"p-2 border border-slate-200 align-top\">Termos amazônicos locais (<em>igarapé, carapanã, tacacá, pirarucu</em>)</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>Diastrática (Social)</strong></td><td class=\"p-2 border border-slate-200 align-top\">Escolaridade, grupo profissional, faixa etária</td><td class=\"p-2 border border-slate-200 align-top\">Jargão técnico da vigilância (<em>LIRAa, IIP, UBV, caso autóctone</em>)</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>Diafásica (Situacional)</strong></td><td class=\"p-2 border border-slate-200 align-top\">Grau de formalidade do contexto</td><td class=\"p-2 border border-slate-200 align-top\">Linguagem coloquial acessível ao orientar o morador vs. linguagem formal no ofício à SEMUSA</td></tr><tr class=\"bg-white hover:bg-slate-50\"><td class=\"p-2 border border-slate-200 align-top\"><strong>Diacrônica (Histórica)</strong></td><td class=\"p-2 border border-slate-200 align-top\">Passagem do tempo</td><td class=\"p-2 border border-slate-200 align-top\">Formas arcaicas (<em>Vossa Mercê → você</em>; <em>pharmácia → farmácia</em>)</td></tr></tbody></table></div><p><strong>Regra de Ouro:</strong> O ACE demonstra competência comunicativa ao <strong>adaptar o registro</strong> (adequação linguística) — traduzindo termos técnicos como <em>índice de pendência</em> ou <em>ovitrampa</em> para orientação clara ao cidadão no atendimento domiciliar, sem estigmatizar falares populares nem abrir mão da norma-padrão em relatórios oficiais.</p></div>\n</div>",
       "modoB": "<ul class=\"space-y-1.5 text-xs\">\n  <li><strong>Diatópica (Topo = Lugar):</strong> Regionalismos (<em>carapanã / pernilongo</em>).</li>\n  <li><strong>Diastrática (Estrato = Grupo Social):</strong> Gírias e jargões profissionais.</li>\n  <li><strong>Diafásica (Fase/Situação):</strong> Formal vs. Informal (adequação ao ouvinte e ao ambiente).</li>\n  <li><strong>Diacrônica (Crono = Tempo):</strong> Evolução histórica da língua (<em>Vossa Mercê $\\rightarrow$ Você</em>).</li>\n</ul>",
       "questions": [
         {
@@ -191,7 +197,9 @@
           ],
           "ans": 1,
           "comment": "Gabarito B. O foco está no mesmo profissional adaptando a formulação à situação e ao público: variação diafásica. A exigiria comparação histórica; C confunde registro e ortografia; D introduz julgamento patológico sem fundamento. O cenário é fictício, não transcrição de visita ou prova oficial.",
-          "revision": "20261031-variacao-contexto"
+          "revision": "20261031-variacao-contexto",
+          "difficulty": "Difícil",
+          "questionType": "Cálculo"
         },
         {
           "auditId": "variacao-autoral-1",
@@ -203,7 +211,9 @@
             "As duas falas comprovam que Luísa desconhece o sentido de indexação."
           ],
           "ans": 1,
-          "comment": "B articula grupo profissional e situação. A troca espaço/tempo sem evidência; C cria oposição entre clareza e precisão; D deduz desconhecimento apesar da explicação."
+          "comment": "Gabarito: B. Articula variação profissional/social (uso técnico de “indexação”) e variação situacional (adaptação explicativa ao interlocutor leigo). Erro da A: atribui variação regional e histórica sem evidência; erro da C: explica sem perder precisão; erro da D: Luísa demonstra domínio ao explicar o conceito.",
+          "difficulty": "Intermediário",
+          "questionType": "Interpretação"
         },
         {
           "auditId": "variacao-autoral-2",
@@ -215,7 +225,9 @@
             "A mensagem comprova incapacidade de escrever segundo convenções formais."
           ],
           "ans": 2,
-          "comment": "C corresponde ao contraste: oral planejado e escrito coloquial. A e B confundem modalidade e registro; D transforma um uso contextual em incapacidade."
+          "comment": "Gabarito: C. Contrasta exposição oral planejada/formal e mensagem escrita informal, provando que oralidade × escrita não determina isoladamente o grau de formalidade. Erro da A e B: confundem modalidade (oral/escrita) com registro (formal/informal); erro da D: registro coloquial adequado não comprova incapacidade.",
+          "difficulty": "Intermediário",
+          "questionType": "Interpretação"
         },
         {
           "auditId": "variacao-autoral-3",
@@ -227,7 +239,9 @@
             "deduzir incapacidade de compreensão a partir do sotaque."
           ],
           "ans": 3,
-          "comment": "D associa um traço de fala a incapacidade sem avaliação. A, B e C são procedimentos que não implicam por si discriminação linguística. | Revisão IBGP: A alternativa D sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, C invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (18. Variação linguística)."
+          "comment": "D associa um traço de fala a incapacidade sem avaliação. A, B e C são procedimentos que não implicam por si discriminação linguística. | Revisão IBGP: A alternativa D sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, C invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (18. Variação linguística).",
+          "difficulty": "Intermediário",
+          "questionType": "Interpretação"
         },
         {
           "auditId": "variacao-autoral-4",
@@ -239,7 +253,9 @@
             "Norma-padrão é a transcrição exata de toda fala escolarizada."
           ],
           "ans": 0,
-          "comment": "A distingue modelo e usos. B transforma termo técnico em hierarquia cultural; C ignora alternância de registro; D confunde referência prescritiva e descrição de usos. A distinção deve ser explicitada porque obras podem empregar termos de modos diferentes."
+          "comment": "A distingue modelo e usos. B transforma termo técnico em hierarquia cultural; C ignora alternância de registro; D confunde referência prescritiva e descrição de usos. A distinção deve ser explicitada porque obras podem empregar termos de modos diferentes.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "auditId": "variacao-autoral-5",
@@ -251,7 +267,9 @@
             "Supor que a forma antiga deixou imediatamente de circular após uma mudança oficial."
           ],
           "ans": 1,
-          "comment": "B situa temporalmente a comparação e as condições. A é julgamento infundado; C ignora a dimensão temporal; D confunde alteração de convenção e desaparecimento imediato de usos."
+          "comment": "Gabarito: B. Estudar variação diacrônica exige confrontar documentos datados, normas ortográficas vigentes em cada época e condições sociais de circulação. Erro da A: reproduz preconceito linguístico; erro da C: confunde evolução histórica com regionalismo; erro da D: mudanças normativas convivem gradualmente com formas antigas.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         },
         {
           "auditId": "variacao-autoral-6",
@@ -263,7 +281,9 @@
             "O ajuste demonstra mudança histórica da língua em poucos minutos."
           ],
           "ans": 2,
-          "comment": "C não opõe clareza e formalidade. A e B acrescentam consequências que não decorrem do ajuste; D troca adequação situacional por comparação histórica."
+          "comment": "Gabarito: C. Explicar termos especializados em linguagem acessível integra um atendimento público respeitoso, formal e tecnicamente preciso. Erro da A: acessibilidade não torna o atendimento inadequado ou vulgar; erro da B: mantém a precisão técnica da área; erro da D: trata-se de adequação situacional imediata, não mudança histórica.",
+          "difficulty": "Intermediário",
+          "questionType": "Gramática e Texto"
         }
       ],
       "flashcards": [
@@ -310,5 +330,7 @@
     119,
     120,
     121
-  ]
+  ],
+  "num": 35,
+  "mdPath": "./content/aulas-49/por_18.md"
 }

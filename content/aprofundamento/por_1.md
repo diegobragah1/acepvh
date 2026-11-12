@@ -38,7 +38,7 @@ No texto autoral “A equipe voltou ao bairro”, qual informação é pressupos
 - C) O problema foi resolvido.
 - D) A visita ocorreu à noite.
 
-**Gabarito: A.** “Voltou” indica retorno e pressupõe presença anterior. As demais alternativas acrescentam abrangência, resultado ou horário que não foram informados.
+**Gabarito: A.** Gabarito: A. O verbo aspectual iterativo “voltou” aciona o pressuposto de presença anterior da equipe no local. Erro da B: extrapola abrangência total sem marca textual; erro da C: o trecho não informa desfecho; erro da D: não há informação temporal de período noturno.
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ No texto autoral “A equipe voltou ao bairro”, qual informação é pressupos
 - C) Mais da metade estava coberta.
 - D) Exatamente metade estava coberta.
 
-**Gabarito: C.** Maioria corresponde a mais da metade do conjunto considerado. A frase não autoriza substituir maioria por todos, nenhum ou metade exata.
+**Gabarito: C.** Gabarito: C. “Maioria” designa parcela superior a 50% (mais da metade) dos recipientes observados. Erro da A: “todos” (100%) extrapola “a maioria”; erro da B: contradiz frontalmente o enunciado; erro da D: “exatamente metade” corresponde a 50%, e não à maioria.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Em “O setor de endemias passou a registrar os boletins digitalmente em março�
 - C) Nenhum boletim foi emitido depois do mês de março.
 - D) Todos os agentes recusaram o uso do sistema digital.
 
-**Gabarito: B.** A locução aspectual incoativa “passou a” indica início de um estado ou hábito que não ocorria imediatamente antes do marco temporal citado.
+**Gabarito: B.** Gabarito: B. A locução aspectual incoativa “passou a” marca mudança de estado/hábito, pressupondo que anteriormente os boletins não eram digitais. Erro da A: contraria o marco inicial “em março”; erro da C e D: inventam interrupção ou recusa sem respaldo no enunciado.
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Considere o período: “Embora parte dos terrenos baldios tenha sido limpa, o �
 - C) Os focos estavam localizados exclusivamente dentro de terrenos baldios.
 - D) A limpeza dos terrenos foi a causa direta do aumento de focos.
 
-**Gabarito: A.** A relação concessiva (“Embora... permaneceu elevado”) demonstra que a limpeza parcial ocorreu, mas não bastou para baixar o índice do quarteirão. As demais opções contradizem ou extrapolam o trecho.
+**Gabarito: A.** Gabarito: A. O conector concessivo “Embora” opõe a limpeza parcial à permanência do índice elevado, autorizando inferir insuficiência isolada da medida. Erro da B: contradiz “parte dos terrenos tenha sido limpa”; erro da C: “exclusivamente” extrapola os demais imóveis/focos; erro da D: transforma concessão em falsa relação de causalidade.
 
 ## Flashcards
 

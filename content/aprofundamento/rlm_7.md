@@ -24,10 +24,10 @@ Defina o resultado. Cargos: ordem importa. Comissão: ordem não importa. Repeti
 | Modelo Combinatório | A Ordem Importa? | Fórmula | Exemplo Clássico de Prova |
 | --- | --- | --- | --- |
 | **Permutação Simples ($P_n$)** | **SIM** (usa todos os $n$ elementos). | $P_n = n!$ | Fila de 5 agentes: $5! = 120$; anagramas de *VETOR*: $5! = 120$. |
-| **Permutação com Repetição ($P_n^{a,b}$)** | **SIM** (há elementos repetidos). | $P_n^{a,b} = rac{n!}{a! cdot b!}$ | Anagramas de *ARARA* (5 letras: 3 A e 2 R): $rac{5!}{3!2!} = rac{120}{12} = 10$. |
-| **Arranjo Simples ($A_{n,p}$)** | **SIM** (escolhe $p$ dentre $n$ para cargos/posições/senhas distintas). | $A_{n,p} = rac{n!}{(n-p)!}$ | Escolher **1 chefe e 1 motorista** entre 6 servidores: $6 	imes 5 = 30$. |
-| **Combinação Simples ($C_{n,p}$)** | **NÃO** (escolhe subconjunto/dupla/comissão de iguais). | $C_{n,p} = rac{n!}{p!(n-p)!}$ | Escolher **dupla de campo** entre 6 agentes: $rac{6 	imes 5}{2!} = 15$. |
-| **Contagem Complementar ("Pelo menos um")** | Depende do caso base | $	ext{Total} - 	ext{Casos sem nenhum}$ | Duplas com **pelo menos 1 veterano** $= 	ext{Total de duplas} - 	ext{Duplas só de novatos}$. |
+| **Permutação com Repetição ($P_n^{a,b}$)** | **SIM** (há elementos repetidos). | $P_n^{a,b} = \frac{n!}{a! \cdot b!}$ | Anagramas de *ARARA* (5 letras: 3 A e 2 R): $\frac{5!}{3!2!} = \frac{120}{12} = 10$. |
+| **Arranjo Simples ($A_{n,p}$)** | **SIM** (escolhe $p$ dentre $n$ para cargos/posições/senhas distintas). | $A_{n,p} = \frac{n!}{(n-p)!}$ | Escolher **1 chefe e 1 motorista** entre 6 servidores: $6 \times 5 = 30$. |
+| **Combinação Simples ($C_{n,p}$)** | **NÃO** (escolhe subconjunto/dupla/comissão de iguais). | $C_{n,p} = \frac{n!}{p!(n-p)!}$ | Escolher **dupla de campo** entre 6 agentes: $\frac{6 \times 5}{2!} = 15$. |
+| **Contagem Complementar ("Pelo menos um")** | Depende do caso base | $\text{Total} - \text{Casos sem nenhum}$ | Duplas com **pelo menos 1 veterano** $= \text{Total de duplas} - \text{Duplas só de novatos}$. |
 
 ## Exercícios autorais comentados
 
@@ -40,7 +40,7 @@ Defina o resultado. Cargos: ordem importa. Comissão: ordem não importa. Repeti
 - C) 20
 - D) 25
 
-**Gabarito: B.** C(5,2)=5×4/2=10. Vinte contaria cada dupla em duas ordens; 25 permitiria escolhas com repetição e posições.
+**Gabarito: B.** Gabarito: B. Como a ordem não importa em duplas sem função distinta, aplica-se Combinação: C(5,2) = (5 × 4) ÷ 2 = 10 duplas. Erro da A: número de pessoas individuais; erro da C: calcula Arranjo A(5,2) = 5 × 4 = 20, contando cada dupla duas vezes (AB e BA); erro da D: admite repetição da mesma pessoa (5 × 5).
 
 ### Questão 2
 
@@ -51,7 +51,7 @@ Defina o resultado. Cargos: ordem importa. Comissão: ordem não importa. Repeti
 - C) 271
 - D) 300
 
-**Gabarito: C.** Todos: 10³=1.000. Sem zero: 9³=729. Complemento: 1.000−729=271. Contar apenas “um zero em uma posição” trata mal as repetições.
+**Gabarito: C.** Gabarito: C. Total de códigos de 3 dígitos (0 a 9 com repetição): 10³ = 1.000. Códigos SEM nenhum dígito zero (dígitos 1 a 9): 9³ = 729. Pelo complementar: 1.000 − 729 = 271. Erro da A: 27 é quantidade insuficiente sem base combinatória; erro da B: conta apenas códigos com 0 na 1ª casa (1 × 10 × 10); erro da D: soma 100 + 100 + 100 contando repetições múltiplas vezes (000 contado 3 vezes).
 
 ### Questão 3
 
@@ -62,7 +62,7 @@ Defina o resultado. Cargos: ordem importa. Comissão: ordem não importa. Repeti
 - C) 120 anagramas para ambas.
 - D) 720 anagramas para SAUDE e 120 para DENGUE.
 
-**Gabarito: A.** SAUDE possui 5 letras todas distintas: P5 = 5! = 120. DENGUE possui 6 letras com a letra E repetida 2 vezes: P6^(2) = 6! / 2! = 720 / 2 = 360 anagramas distintos.
+**Gabarito: A.** Gabarito: A. SAUDE tem 5 letras distintas: P₅ = 5! = 120. DENGUE tem 6 letras com dois Es repetidos: P₆^(2) = 6! ÷ 2! = 720 ÷ 2 = 360. Erro da B: eleva 5² e 6² em vez de fatorial; erro da C: ignora que DENGUE tem 6 letras e repetição; erro da D: troca os números de letras entre as duas palavras.
 
 ### Questão 4
 
@@ -73,7 +73,7 @@ Defina o resultado. Cargos: ordem importa. Comissão: ordem não importa. Repeti
 - C) 12 equipes.
 - D) 24 equipes.
 
-**Gabarito: A.** O total de equipes de 3 pessoas escolhidas entre as 7 disponíveis é C(7,3) = (7×6×5)/(3×2×1) = 35. O único caso proibido é formar a equipe sem nenhum veterano (isto é, escolhendo os 3 recém-admitidos): C(3,3) = 1. Pelo complemento: 35 − 1 = 34 equipes.
+**Gabarito: A.** Gabarito: A. Total irrestrito de trios entre 7 agentes: C(7,3) = (7 × 6 × 5) ÷ 6 = 35. Único trio proibido (0 veteranos = só os 3 novatos): C(3,3) = 1. Pelo complementar: 35 − 1 = 34. Erro da B: inclui o trio formado só por recém-admitidos; erro da C: multiplica 4 × 3 (apenas duplas de 1 veterano com 1 novato); erro da D: seleciona somente combinações parciais (C(4,1)×C(3,2) + C(4,2)×C(3,1) = 12 + 18 = 30 ≠ 24).
 
 ## Flashcards
 

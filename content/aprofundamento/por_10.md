@@ -38,7 +38,7 @@ Qual alternativa segue a concordância padrão?
 - C) Houveram novas visitas.
 - D) Fazem dois meses que houve visitas.
 
-**Gabarito: B.** Haver existencial é impessoal e mantém o auxiliar no singular. Faz temporal também fica no singular; houveram não cabe nesse uso existencial.
+**Gabarito: B.** Gabarito: B. O verbo “haver” existencial é impessoal e transmite essa impessoalidade ao auxiliar da locução (“Deve haver”). Erro da A: flexiona o auxiliar indevidamente (“Devem haver”); erro da C: “houveram” pluraliza verbo impessoal; erro da D: “fazer” indicando tempo decorrido é impessoal (“Faz dois meses”).
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ Qual frase apresenta se apassivador?
 - C) Conferem-se os relatórios.
 - D) Trabalha-se muito.
 
-**Gabarito: C.** Os relatórios são conferidos: há sujeito paciente e transformação passiva. Nas demais, o se indetermina o sujeito nas construções apresentadas.
+**Gabarito: C.** Gabarito: C. “Conferir” é VTD sem preposição no paciente (“os relatórios são conferidos”), logo “se” é partícula apassivadora e o verbo concorda no plural. Erro da A: “precisar de” é VTI, logo “se” é índice de indeterminação do sujeito (IIS); erro da B e D: verbos intransitivos (“viver” e “trabalhar”) exigem IIS e singular obrigatório.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Assinale a alternativa em que a concordância nominal respeita integralmente a n
 - C) É proibida entrada de pessoas estranhas sem crachá.
 - D) Os moradores ficaram meios preocupados com o resultado da vistoria.
 
-**Gabarito: B.** “Próprias”, “anexas” e “quites” concordam em gênero e número com os substantivos a que se referem. Na A, “anexas” e “menos”; na C, sem artigo antes de “entrada”, usa-se “É proibido entrada”; na D, “meio” advérbio é invariável.
+**Gabarito: B.** Gabarito: B. “Próprias” (agente fem. pl.), “anexas” (planilhas) e “quites” (elas ficaram quites) concordam perfeitamente. Erro da A: “anexas” deve concordar com fichas, e “menas” não existe (correto: “menos”); erro da C: sem determinante antes de “entrada”, usa-se “É proibido”; erro da D: “meio” com sentido de “um pouco” é advérbio invariável (“meio preocupados”).
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Em “Mais de um agente **participou** do treinamento, mas cerca de vinte superv
 - C) O verbo participar não possui forma plural no pretérito.
 - D) A preposição “de” obriga todos os verbos do período a ficarem no plural.
 
-**Gabarito: A.** “Mais de um” concorda com o numeral singular (“um”), salvo casos de reciprocidade ou repetição; já “cerca de / mais de + numeral plural” concorda com o numeral plural.
+**Gabarito: A.** Gabarito: A. “Mais de um” leva em regra o verbo ao singular (salvo reciprocidade ou repetição); “cerca de vinte” exige plural conforme o numeral “vinte”. Erro da B: “participar” e “acompanhar” são pessoais com sujeito explícito; erro da C: existe “participaram”; erro da D: preposição não comanda concordância verbal.
 
 ## Flashcards
 

@@ -44,7 +44,7 @@ A passiva correspondente a “A equipe conferia os registros” é:
 - C) Os registros serão conferidos pela equipe.
 - D) A equipe era conferida pelos registros.
 
-**Gabarito: B.** Conferia está no pretérito imperfeito, preservado por eram. Foram muda para perfeito; serão muda para futuro; a última opção inverte os papéis sem preservar o sentido.
+**Gabarito: B.** Gabarito: B. Na transposição da voz ativa para a voz passiva analítica, o auxiliar “ser” mantém o pretérito imperfeito de “conferia” (“eram conferidos”). Erro da A: “foram conferidos” altera para pretérito perfeito; erro da C: muda para futuro do presente; erro da D: inverte agente e sujeito paciente tornando o sentido absurdo.
 
 ### Questão 2
 
@@ -55,7 +55,7 @@ Qual alternativa emprega corretamente o futuro do subjuntivo de ver?
 - C) Se eu vier o problema, avisarei.
 - D) Se eu vejo o problema, avisaria.
 
-**Gabarito: B.** Vir é futuro do subjuntivo de ver. Vier pertence a vir. A forma ver é infinitivo e não corresponde ao paradigma exigido nessa oração condicional.
+**Gabarito: B.** Gabarito: B. O futuro do subjuntivo de “ver” é “vir” (“Se eu vir”). Erro da A: “ver” é infinitivo pessoal/impessoal, inadequado após conjunção condicional futura; erro da C: “vier” é futuro do subjuntivo de “vir” (não de “ver”); erro da D: mistura presente do indicativo (“vejo”) com futuro do pretérito (“avisaria”), quebrando a correlação verbal.
 
 ### Questão 3
 
@@ -66,7 +66,7 @@ Assinale a frase em que a conjugação dos verbos derivados de “vir”, “ter
 - C) Se o coordenador intervir no setor, ele reporá os insumos imediatamente.
 - D) Quando os técnicos preverem a estiagem, conterão o desperdício.
 
-**Gabarito: A.** Intervir conjuga-se como vir (interveio); propor como pôr (propôs); manter como ter (mantivesse). “Interviu”, “mantesse”, “se intervir” e “preverem” (correto: previrem) violam o paradigma.
+**Gabarito: A.** Gabarito: A. Verbos derivados seguem seus primitivos: intervir ← vir (“interveio”), propor ← pôr (“propôs”), manter ← ter (“mantivesse”). Erro da B: “interviu” e “mantesse” são desvios graves de conjugação; erro da C: o futuro do subjuntivo correto de intervir é “se intervier”; erro da D: o futuro do subjuntivo correto de prever é “quando previrem”.
 
 ### Questão 4
 
@@ -77,7 +77,7 @@ No período “Quando a equipe chegou ao galpão, o proprietário já **retirara
 - C) Presente do subjuntivo, indicando dúvida.
 - D) Pretérito imperfeito do subjuntivo, indicando condição irreal.
 
-**Gabarito: A.** “Retirara” (sem acento gráfico, pronúncia paroxítona) é pretérito mais-que-perfeito simples do indicativo, equivalente à forma composta “tinha/havia retirado”.
+**Gabarito: A.** Gabarito: A. “Retirara” (sem acento agudo, paroxítona) é pretérito mais-que-perfeito simples do indicativo (= tinha retirado), expressando anterioridade em relação a “chegou”. Erro da B: futuro do presente levaria acento agudo na última sílaba (“retirará”); erro da C e D: formas correspondentes no subjuntivo seriam “retire” e “retirasse”.
 
 ## Flashcards
 

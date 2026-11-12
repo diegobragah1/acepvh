@@ -38,7 +38,7 @@ Universalidade inclui; equidade considera necessidades; integralidade articula c
 - C) Preferência pessoal sem critério.
 - D) Eliminação da cooperação regional.
 
-**Gabarito: A.** Equidade considera desigualdades de necessidades e acesso. O apoio deve ter justificativa e critérios, preservando o direito universal.
+**Gabarito: A.** Gabarito: A. Equidade consiste em tratar desigualmente situações desiguais para garantir acesso real a quem enfrenta maiores barreiras territoriais ou sociais. Erro da B: a equidade viabiliza a universalidade efetiva; erro da C: apoia-se em diagnóstico epidemiológico e territorial objetivo; erro da D: exige cooperação intermunicipal e regional.
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ Universalidade inclui; equidade considera necessidades; integralidade articula c
 - C) Que todo risco decorre apenas de desatenção individual.
 - D) Que o ACE substitui sozinho todos os setores da prefeitura.
 
-**Gabarito: B.** A ação identifica níveis de determinação e demanda cooperação. Isso não atribui ao agente competência para executar sozinho todas as respostas intersetoriais.
+**Gabarito: B.** Gabarito: B. A atuação combina educação em saúde junto à família com articulação intersetorial sobre determinantes sociais previstos no art. 3º da Lei 8.080/90 (saneamento/água). Erro da A: educação e saneamento são interdependentes; erro da C: desabastecimento é determinante estrutural coletivo; erro da D: o ACE aciona e articula a rede, sem assumir obras de engenharia.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Universalidade inclui; equidade considera necessidades; integralidade articula c
 - C) Ao Poder Judiciário estadual.
 - D) Às operadoras privadas de planos de saúde suplementar.
 
-**Gabarito: A.** O art. 18, inciso I, da Lei 8.080/1990 estabelece como competência da direção municipal do SUS planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde.
+**Gabarito: A.** Gabarito: A. Literalidade do art. 18, I, da Lei nº 8.080/1990 (competência executora local do Município). Erro da B: OMS é organismo internacional técnico-consultivo; erro da C: Judiciário exerce função jurisdicional; erro da D: planos privados pertencem à saúde suplementar, não dirigem o SUS municipal.
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Universalidade inclui; equidade considera necessidades; integralidade articula c
 - C) Exclusivamente a herança genética familiar, sem influência de saneamento ou moradia.
 - D) Unicamente a quantidade de medicamentos distribuídos em pronto-socorro.
 
-**Gabarito: A.** O art. 3º da Lei 8.080/1990 adota o conceito ampliado de saúde, elencando alimentação, moradia, saneamento básico, meio ambiente, trabalho, renda, educação, atividade física, transporte, lazer e acesso aos bens e serviços essenciais como determinantes e condicionantes.
+**Gabarito: A.** Gabarito: A. Reproduz o conceito ampliado de saúde e os determinantes do art. 3º da Lei nº 8.080/1990. Erro da B: restringe à concepção biomédica de ausência de doença; erro da C: desconsidera os condicionantes socioambientais expressos na lei; erro da D: reduz a saúde à medicalização emergencial.
 
 ## Flashcards
 

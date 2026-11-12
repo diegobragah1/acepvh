@@ -39,7 +39,7 @@ Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta de
 - C) 18% e 27 por 100 imóveis.
 - D) 9% e 27% de pessoas doentes.
 
-**Gabarito: A.** IIP=18/200×100=9%. Breteau=27/200×100=13,5 depósitos positivos por 100 imóveis. Os dados não calculam pessoas doentes.
+**Gabarito: A.** Gabarito: A. IIP = (18 ÷ 200) × 100 = 9% de imóveis positivos; Índice de Breteau (IB) = (27 ÷ 200) × 100 = 13,5 depósitos positivos por 100 imóveis. Erro da B: inverte os valores de IIP e IB; erro da C: apresenta números absolutos como porcentagens sem dividir por 200 imóveis; erro da D: confunde índice larvário de recipientes com pessoas doentes.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta de
 - C) Fechado/não inspecionado, conforme o fluxo de registro.
 - D) Excluir o imóvel de toda informação de campo.
 
-**Gabarito: C.** Ausência de observação não equivale a resultado negativo. Registrar a condição real permite planejar retorno e avaliar cobertura.
+**Gabarito: C.** Gabarito: C. Imóvel fechado constitui pendência de inspeção e deve ser anotado como fechado para posterior retorno/recuperação. Erro da A: registrá-lo como negativo falseia o IIP e o denominador inspecionado; erro da B: positividade exige detecção de foco; erro da D: excluir imóveis distorce o reconhecimento geográfico e o percentual de pendência.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta de
 - C) Extinção completa do vetor na área urbana.
 - D) Incompatível com o cálculo matemático, pois o IIP só admite números acima de 50%.
 
-**Gabarito: A.** A classificação oficial do Ministério da Saúde para o IIP no LIRAa define: inferior a 1% = satisfatório; de 1% a 3,9% = alerta; igual ou superior a 4% = risco de surto.
+**Gabarito: A.** Gabarito: A. Pelos parâmetros do Ministério da Saúde (LIRAa/LIA): IIP < 1,0% = Satisfatório; 1,0% a 3,9% = Alerta (caso de 2,5%); ≥ 4,0% = Risco de surto. Erro da B: satisfatório é apenas abaixo de 1,0%; erro da C: 2,5% indica presença ativa de focos em alerta; erro da D: o IIP situa-se normalmente entre 0% e 100%, frequentemente abaixo de 10%.
 
 ### Questão 4
 
@@ -72,7 +72,18 @@ Imóvel fechado não é negativo. IIP conta imóveis positivos; Breteau conta de
 - C) Decenal, coincidindo com o censo demográfico do IBGE.
 - D) Facultativa, ocorrendo somente mediante ordem judicial.
 
-**Gabarito: A.** Enquanto a visita domiciliar de rotina ocorre em ciclos bimestrais (a cada 2 meses), os Pontos Estratégicos (PE) são inspecionados quinzenalmente (a cada 15 dias), e as armadilhas (ovitrampas/larvitrampas) são vistoriadas semanalmente.
+**Gabarito: A.** Gabarito: A. Os Pontos Estratégicos (borracharias, cemitérios, ferros-velhos) recebem visita quinzenal (a cada 15 dias) pela alta capacidade de reprodução de Aedes. Erro da B: anual seria o equivalente a ignorar ciclos biológicos de ~7–10 dias do mosquito; erro da C: decenal é periodicidade censitária do IBGE; erro da D: inspeção em PE integra a rotina sanitária obrigatória.
+
+### Questão 5
+
+[Autoral] Durante uma visita em zona rural de Porto Velho, o ACE precisa calcular a dosagem correta de um larvicida cuja recomendação técnica de rótulo é de 2 gramas para cada 1.000 litros de água em um reservatório cilíndrico de 1,0 metro de diâmetro e 2,0 metros de coluna d’água (adote π = 3,14). Quantos gramas do produto serão aplicados?
+
+- A) 3,14 gramas (para um volume de 1.570 litros).
+- B) 6,28 gramas (para um volume de 3.140 litros).
+- C) 1,57 gramas (para um volume de 785 litros).
+- D) 12,56 gramas (para um volume de 6.280 litros).
+
+**Gabarito: A.** Gabarito: A. Com diâmetro D = 1,0 m, o raio é r = 0,5 m. Volume V = π × r² × h = 3,14 × 0,25 × 2,0 = 1,57 m³ = 1.570 litros. Como cada 1.000 L usa 2 g: (1.570 ÷ 1.000) × 2 = 3,14 gramas. Erro da B: usou D = 1,0 m no lugar do raio r; erro da C: usou apenas metade da altura ou metade da dose (1 g/1.000 L); erro da D: multiplicou usando r = 1,0 m inteiro.
 
 ## Flashcards
 

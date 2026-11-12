@@ -48,7 +48,7 @@ Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula m
 - C) Necessariamente sem valor histórico.
 - D) Que deixa de ser cultural se sofrer qualquer mudança.
 
-**Gabarito: B.** Celebrações e saberes podem constituir referências imateriais. Tradições podem ser recriadas; imaterial não significa ausência de suporte físico ou de história.
+**Gabarito: B.** Gabarito: B. Saberes, celebrações, danças e ofícios transmitidos entre gerações integram o patrimônio cultural imaterial (art. 216, CF/88). Erro da A: patrimônio mineral não se aplica a manifestações culturais vivas; erro da C: tradições comunitárias carregam memória e historicidade; erro da D: a cultura popular recria-se mantendo continuidade simbólica.
 
 ### Questão 2
 
@@ -59,7 +59,7 @@ Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula m
 - C) A inexistência de participação social.
 - D) Que patrimônio só pode ser estudado sem acesso público.
 
-**Gabarito: B.** A contextualização relaciona o bem aos processos históricos e sociais. Datas ajudam, mas não substituem interpretação das relações e experiências.
+**Gabarito: B.** Gabarito: B. A EFMM envolve geopolítica (Tratado de Petrópolis), logística do látex, migração trabalhadora (inclusive barbadianos), saneamento (Oswaldo Cruz) e urbanização de Porto Velho. Erro da A: data isolada empobrece a análise causal; erro da C: o complexo ferroviário mobilizou diversas comunidades e trabalhadores; erro da D: educação patrimonial pressupõe acesso, pesquisa e difusão social.
 
 ### Questão 3
 
@@ -70,7 +70,7 @@ Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula m
 - C) Do Tratado de Versalhes (1919), que encerrou a Primeira Guerra Mundial.
 - D) Do Acordo de Assunção (1991), que criou o Mercosul.
 
-**Gabarito: A.** Pelo Tratado de Petrópolis (17 de novembro de 1903), negociado pelo Barão do Rio Branco, o Brasil incorporou o Acre e obrigou-se a construir a Estrada de Ferro Madeira-Mamoré, ligando Santo Antônio do Madeira/Porto Velho a Guajará-Mirim.
+**Gabarito: A.** Gabarito: A. Pelo Tratado de Petrópolis (1903), o Brasil incorporou o Acre e assumiu o compromisso de erguer a EFMM contornando as cachoeiras entre Porto Velho e Guajará-Mirim. Erro da B: Tratado de Tordesilhas dividiu terras coloniais em 1494 entre Portugal e Espanha; erro da C: Tratado de Versalhes é de 1919 pós-1ª Guerra; erro da D: Tratado de Assunção criou o Mercosul em 1991.
 
 ### Questão 4
 
@@ -81,7 +81,7 @@ Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula m
 - C) Palácio Rio Madeira em Porto Velho.
 - D) Usina Hidrelétrica de Samuel em Candeias do Jamari.
 
-**Gabarito: A.** O Real Forte Príncipe da Beira, cuja construção iniciou-se em 1776 às margens do Rio Guaporé (município de Costa Marques/RO), é um dos maiores monumentos da arquitetura militar colonial portuguesa na Amazônia.
+**Gabarito: A.** Gabarito: A. O Real Forte Príncipe da Beira (iniciado em 1776 no período pombalino, em Costa Marques/RO) consolidou a fronteira oeste portuguesa no Vale do Guaporé. Erro da B: as Três Caixas d’Água são de 1910–1912 em Porto Velho; erro da C: o Palácio Rio Madeira é sede contemporânea do governo estadual; erro da D: a UHE Samuel é obra hidrelétrica da segunda metade do século XX no rio Jamari.
 
 ### Questão 5
 
@@ -92,7 +92,7 @@ Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula m
 - C) Bandeirantes paulistas do ciclo do açúcar.
 - D) Imigrantes açorianos exclusivos do litoral catarinense.
 
-**Gabarito: A.** Milhares de trabalhadores caribenhos — conhecidos regionalmente como barbadianos (oriundos de Barbados, Granada, Santa Lúcia, Trinidad, Jamaica) — trabalharam na ferrovia Madeira-Mamoré e estabeleceram comunidade histórica em Porto Velho (como na região do Alto do Bode / Triângulo).
+**Gabarito: A.** Gabarito: A. Trabalhadores antilhanos de língua inglesa — historicamente chamados barbadianos — tiveram papel central na construção da EFMM e na formação cultural de Porto Velho (como Alto do Bode/Triângulo). Erro da B: povos nórdicos medievais não atuaram na Amazônia do século XX; erro da C: bandeirantes paulistas atuavam no período colonial brasileiro; erro da D: açorianos colonizaram principalmente o litoral sul.
 
 ## Flashcards
 

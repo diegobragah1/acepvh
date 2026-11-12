@@ -10,8 +10,11 @@ import { PautaLocator } from '../features/lessons/PautaLocator';
 import { VFTrainerSection } from '../features/lessons/VFTrainerSection';
 import { LessonBlockItem } from '../features/lessons/LessonBlockItem';
 import { VisualMemorizationBoard } from '../features/lessons/VisualMemorizationBoard';
+import { LomPrioritySummary } from '../features/lessons/LomPrioritySummary';
+import { LessonNotesDrawer } from '../features/lessons/LessonNotesDrawer';
 import { QuestionCard } from '../features/questions/QuestionCard';
-import { FlashcardGrid } from '../features/flashcards/FlashcardGrid';
+import { FlashcardGrid, type EnrichedFlashcard } from '../features/flashcards/FlashcardGrid';
+import { getCanonicalFlashcardKey } from '../utils/srs';
 
 export const Tab2Apostila: React.FC = () => {
   const {
@@ -29,23 +32,37 @@ export const Tab2Apostila: React.FC = () => {
     setLessonAnswers,
     showToast,
     globalSearchTarget,
+    favoriteLessons,
+    toggleFavoriteLesson,
+    favoriteQuestions,
+    toggleFavoriteQuestion,
+    lessonNotes,
+    setLessonNote,
+    flashcardSrs,
+    rateFlashcard,
+    markLastStudy,
+    lessonJumpTarget,
+    openSimuladoWithIntent,
   } = useApp();
 
   const [searchTerm, setSearchTerm] = useState('');
   const [catFilter, setCatFilter] = useState<string>('ALL');
   const [statusFilter, setStatusFilter] = useState<string>('ALL');
+  const [onlyFavorites, setOnlyFavorites] = useState<boolean>(false);
   const [flippedCards, setFlippedCards] = useState<Record<string, boolean>>({});
   const [lessonSearchTerm, setLessonSearchTerm] = useState('');
   const [blockTypeFilter, setBlockTypeFilter] = useState<'ALL' | 'THEORY' | 'QUIZ' | 'FLASHCARDS'>('ALL');
   const [clozeMode, setClozeMode] = useState(false);
   const [revealedClozeIds, setRevealedClozeIds] = useState<Set<string>>(new Set());
   const [showVFTrainer, setShowVFTrainer] = useState(false);
+  const [showNotesEditor, setShowNotesEditor] = useState(false);
 
   const lessons = appData?.lessons || [];
 
   const filteredLessons = useMemo(() => {
     return lessons.filter((l) => {
       if (catFilter !== 'ALL' && l.cat !== catFilter) return false;
+      if (onlyFavorites && !favoriteLessons.includes(l.id)) return false;
       const st = getTopicStatus(l.id);
       if (statusFilter !== 'ALL' && st !== statusFilter) return false;
       if (searchTerm.trim()) {
@@ -59,7 +76,7 @@ export const Tab2Apostila: React.FC = () => {
       }
       return true;
     });
-  }, [lessons, catFilter, statusFilter, searchTerm, getTopicStatus]);
+  }, [lessons, catFilter, onlyFavorites, favoriteLessons, statusFilter, searchTerm, getTopicStatus]);
 
   const activeLesson = useMemo(() => {
     return (
@@ -99,6 +116,27 @@ export const Tab2Apostila: React.FC = () => {
     setRevealedClozeIds(new Set());
   }, [activeLesson?.id, globalSearchTarget]);
 
+  useEffect(() => {
+    if (!lessonJumpTarget || !activeLesson) return;
+    if (lessonJumpTarget.lessonId !== activeLesson.id) return;
+    if (Date.now() - lessonJumpTarget.timestamp > 5000) return;
+
+    setCatFilter('ALL');
+    setStatusFilter('ALL');
+    setOnlyFavorites(false);
+    setSearchTerm('');
+    setLessonSearchTerm('');
+    setBlockTypeFilter('ALL');
+
+    const targetIdx = lessonJumpTarget.blockIdx;
+    setTimeout(() => {
+      const el = document.getElementById(`lesson-block-${targetIdx}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 90);
+  }, [lessonJumpTarget, activeLesson?.id]);
+
   const handleSelectLesson = useCallback(
     (id: string) => {
       setCurrentLessonId(id);
@@ -111,8 +149,10 @@ export const Tab2Apostila: React.FC = () => {
     (lessonId: string, blockIdx: number) => {
       setCatFilter('ALL');
       setStatusFilter('ALL');
+      setOnlyFavorites(false);
       setSearchTerm('');
       setCurrentLessonId(lessonId);
+      markLastStudy(lessonId, blockIdx);
       if (currentStudyMode === 'MAPA' || currentStudyMode === 'VISUAL' || currentStudyMode === 'C') {
         setCurrentStudyMode('ALL');
       }
@@ -125,7 +165,7 @@ export const Tab2Apostila: React.FC = () => {
         }
       }, 80);
     },
-    [setCurrentLessonId, currentStudyMode, setCurrentStudyMode]
+    [setCurrentLessonId, markLastStudy, currentStudyMode, setCurrentStudyMode]
   );
 
   const handleContentContainerClick = useCallback(
@@ -213,14 +253,24 @@ export const Tab2Apostila: React.FC = () => {
   }, [visibleBlocks]);
 
   const consolidatedFlashcards = useMemo(() => {
-    const groups: Array<{ flashcards: NonNullable<typeof visibleBlocks[number]['block']['flashcards']>; bIdx: number; blockTitle: string }> = [];
+    const groups: Array<{ flashcards: EnrichedFlashcard[]; bIdx: number; blockTitle: string }> = [];
+    if (!activeLesson) return groups;
     for (const { block, index: bIdx } of visibleBlocks) {
       if (block.flashcards && block.flashcards.length > 0) {
-        groups.push({ flashcards: block.flashcards, bIdx, blockTitle: block.title });
+        groups.push({
+          flashcards: block.flashcards.map((fc, fcIdx) => ({
+            ...fc,
+            cat: activeLesson.cat,
+            lessonTitle: fc.lessonTitle || activeLesson.title,
+            srsKey: getCanonicalFlashcardKey(activeLesson.id, bIdx, fcIdx),
+          })),
+          bIdx,
+          blockTitle: block.title,
+        });
       }
     }
     return groups;
-  }, [visibleBlocks]);
+  }, [visibleBlocks, activeLesson]);
 
   const totalFlashcardCount = useMemo(
     () => consolidatedFlashcards.reduce((acc, g) => acc + g.flashcards.length, 0),
@@ -282,6 +332,9 @@ export const Tab2Apostila: React.FC = () => {
           statusFilter={statusFilter}
           onChangeStatusFilter={setStatusFilter}
           getTopicStatus={getTopicStatus}
+          favoriteLessons={favoriteLessons}
+          onlyFavorites={onlyFavorites}
+          onToggleOnlyFavorites={() => setOnlyFavorites((v) => !v)}
         />
 
         {/* Main Content Viewer */}
@@ -314,6 +367,44 @@ export const Tab2Apostila: React.FC = () => {
                 <p className="text-xs text-slate-600 leading-normal">
                   <strong>Edital (Anexo IV):</strong> {activeLesson.editalRef}
                 </p>
+
+                {/* Personal Study Actions: Favorite, Notes, Quick Practice */}
+                <div className="flex flex-wrap items-center gap-1.5 pt-1.5 no-print">
+                  <button
+                    type="button"
+                    onClick={() => toggleFavoriteLesson(activeLesson.id)}
+                    className={`px-2.5 py-1 rounded-lg border text-[11px] font-bold transition cursor-pointer ${
+                      favoriteLessons.includes(activeLesson.id)
+                        ? 'bg-amber-50 border-amber-300 text-amber-800'
+                        : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-amber-50/60 hover:text-amber-800'
+                    }`}
+                  >
+                    {favoriteLessons.includes(activeLesson.id) ? '★ Aula Favorita' : '☆ Favoritar Aula'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowNotesEditor((v) => !v)}
+                    className={`px-2.5 py-1 rounded-lg border text-[11px] font-bold transition cursor-pointer ${
+                      showNotesEditor || Boolean(lessonNotes[activeLesson.id])
+                        ? 'bg-sky-50 border-sky-300 text-sky-900'
+                        : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-sky-50/70'
+                    }`}
+                  >
+                    📝 Minhas Anotações{lessonNotes[activeLesson.id] ? ' (salva)' : ''}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openSimuladoWithIntent({
+                        subMode: 'QUESTOES',
+                        lessonId: activeLesson.id,
+                      })
+                    }
+                    className="px-2.5 py-1 rounded-lg border border-teal-200 bg-teal-50 text-teal-800 hover:bg-teal-100 text-[11px] font-bold transition cursor-pointer"
+                  >
+                    🎯 Questões desta Aula no Simulado
+                  </button>
+                </div>
               </div>
 
               <div className="bg-slate-50 px-2.5 py-2 rounded-lg border border-slate-200 no-print w-full sm:w-auto max-w-full">
@@ -327,6 +418,16 @@ export const Tab2Apostila: React.FC = () => {
                 />
               </div>
             </div>
+
+            {/* Personal Lesson Notes Drawer */}
+            {showNotesEditor && (
+              <LessonNotesDrawer
+                lessonId={activeLesson.id}
+                lessonNum={activeLesson.num}
+                noteValue={lessonNotes[activeLesson.id] || ''}
+                onChangeNote={setLessonNote}
+              />
+            )}
 
             {/* Study Mode & Active Lab Toolbar */}
             <DidacticToolbar
@@ -396,45 +497,7 @@ export const Tab2Apostila: React.FC = () => {
                 <>
                   {showContinuousTheory && (
                     <article className="apostila-sheet">
-                      {/* Resumo Prioritário da Lei Orgânica de Porto Velho (sem substituir o texto integral dos 249 artigos) */}
-                      {activeLesson.id === 'leg_1' && (
-                        <div className="mb-4 p-4 rounded-xl bg-amber-50/80 border-2 border-amber-300 text-xs text-slate-800 space-y-2.5">
-                          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-amber-200 pb-1.5">
-                            <span className="font-black text-amber-950 uppercase tracking-wide text-xs sm:text-sm">
-                              🎯 Resumo Prioritário de Prova (Banca IBGP) — Artigos de Maior Cobrança na LOM Porto Velho
-                            </span>
-                            <span className="px-2 py-0.5 rounded bg-amber-200 text-amber-950 font-extrabold text-[10px]">
-                              Guia de Revisão Rápida + Texto Integral Abaixo (249 Artigos)
-                            </span>
-                          </div>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 leading-relaxed">
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 1º a 6º e 42 a 44</strong>
-                              Símbolos oficiais: Bandeira, Hino e Brasão (Art. 3º). Patrimônio natural exclusivo: boto do Rio Madeira (Art. 5º, VII). Criação, organização e supressão de Distritos por Lei Municipal (Art. 2º e Arts. 42 a 44 — 1/5 dos requisitos e 50 moradias na Vila).
-                            </div>
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 7º, 7º-A e 8º</strong>
-                              <strong>Art. 7º (Privativa):</strong> legislar sobre interesse local, tributos municipais (IPTU, ITBI, ISS) e transporte coletivo (mínimo 3 empresas). <strong>Art. 7º-A:</strong> limpeza pública/varrição indelegável. <strong>Art. 8º (Comum c/ União e RO):</strong> saúde, assistência pública, meio ambiente e saneamento.
-                            </div>
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 9º a 41</strong>
-                              Princípios administrativos (Art. 9º), reserva mínima de 10% para PcD na LOM (Art. 11, parágrafo único), vedação de nome de pessoas vivas ou falecidas há menos de 90 dias em logradouros (Art. 24) e redução de até 50% da jornada para servidor responsável por PcD (Art. 31).
-                            </div>
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 62 a 75</strong>
-                              <strong>Emenda à LOM (Art. 62):</strong> proposta por 1/3 dos Vereadores, Prefeito, 50 entidades ou 5% do eleitorado; votada em 2 turnos (interstício mínimo de 10 dias), aprovada por <strong>2/3</strong> e promulgada pela Mesa da Câmara. <strong>Contas do Prefeito (Art. 75):</strong> parecer prévio do TCE-RO só deixa de prevalecer por voto de <strong>2/3</strong> da Câmara.
-                            </div>
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 72, 80, 83 e 85</strong>
-                              Posse em até <strong>10 dias</strong> (Art. 80). Ausência do Município ou Estado por mais de <strong>15 dias consecutivos</strong> exige licença prévia da Câmara sob pena de perda do cargo (Art. 85). Veto total ou parcial em <strong>15 dias úteis</strong> e apreciação em 30 dias por maioria absoluta (Art. 72).
-                            </div>
-                            <div className="p-2.5 rounded-lg bg-white border border-amber-200">
-                              <strong className="lom-art-tag block">Arts. 150 a 153, 171 a 180 e 235</strong>
-                              Saneamento básico e vedação de aterros à margem de rios e mananciais (Art. 151); direito à saúde, ações de vigilância epidemiológica, sanitária e controle de zoonoses, vedação de subvenção pública a instituições privadas lucrativas (Art. 173, § 3º) e Fundo Municipal de Saúde (Art. 235).
-                            </div>
-                          </div>
-                        </div>
-                      )}
+                      {activeLesson.id === 'leg_1' && <LomPrioritySummary />}
 
                       {/* Compact Continuous Apostila Intro Banner */}
                       <div className="apostila-intro-banner">
@@ -466,6 +529,7 @@ export const Tab2Apostila: React.FC = () => {
                                   key={bIdx}
                                   type="button"
                                   onClick={() => {
+                                    markLastStudy(activeLesson.id, bIdx);
                                     const el = document.getElementById(`lesson-block-${bIdx}`);
                                     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                                   }}
@@ -538,6 +602,10 @@ export const Tab2Apostila: React.FC = () => {
                                 `${activeLesson.id}_b${bIdx}_q${qIdx}`,
                                 q
                               );
+                              const favQKey = questionIdentity(
+                                `${activeLesson.id}_${bIdx}_${qIdx}`,
+                                q
+                              );
                               return (
                                 <QuestionCard
                                   key={qKey}
@@ -545,6 +613,8 @@ export const Tab2Apostila: React.FC = () => {
                                   index={globalIdx}
                                   selectedOption={lessonAnswers[qKey]}
                                   onSelectOption={(optIdx) => handleSelectAnswer(qKey, optIdx)}
+                                  isFavorite={favoriteQuestions.includes(favQKey)}
+                                  onToggleFavorite={() => toggleFavoriteQuestion(favQKey)}
                                   compact
                                 />
                               );
@@ -556,7 +626,7 @@ export const Tab2Apostila: React.FC = () => {
                         {blockTypeFilter !== 'QUIZ' && totalFlashcardCount > 0 && (
                           <div className="space-y-3 pt-2 border-t border-slate-200 min-w-0 max-w-full">
                             <h4 className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-slate-700">
-                              🃏 Flashcards de Memorização Ativa ({totalFlashcardCount} cartões — toque para virar)
+                              🃏 Flashcards de Memorização Ativa ({totalFlashcardCount} cartões — toque para virar e avalie no SRS)
                             </h4>
                             <div className="space-y-3 min-w-0 max-w-full">
                               {consolidatedFlashcards.map(({ flashcards, bIdx, blockTitle }) => (
@@ -570,6 +640,8 @@ export const Tab2Apostila: React.FC = () => {
                                     onToggleFlip={handleToggleFlipCard}
                                     keyPrefix={`${activeLesson.id}_b${bIdx}_fc`}
                                     columnsClass="grid-cols-1 sm:grid-cols-2"
+                                    srsMap={flashcardSrs}
+                                    onRateCard={rateFlashcard}
                                   />
                                 </div>
                               ))}

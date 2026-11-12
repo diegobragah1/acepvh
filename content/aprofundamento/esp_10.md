@@ -47,7 +47,7 @@ Agente causa; reservatório mantém; vetor transmite; hospedeiro abriga. Incuba�
 - C) Vetor e reservatório, necessariamente.
 - D) Dois nomes do mesmo parasito.
 
-**Gabarito: B.** O cão é reservatório importante nesse contexto, e o flebotomíneo participa como vetor. O agente etiológico é Leishmania.
+**Gabarito: B.** Gabarito: B. Na leishmaniose visceral urbana, o cão doméstico funciona como reservatório principal e o flebotomíneo (Lutzomyia longipalpis — mosquito-palha) como vetor biológico do protozoário Leishmania infantum. Erro da A: agente etiológico é protozoário, não cão nem bactéria; erro da C: inverte os papéis biológicos; erro da D: cão (mamífero) e flebotomíneo (inseto) são distintos do parasito.
 
 ### Questão 2
 
@@ -58,7 +58,7 @@ Agente causa; reservatório mantém; vetor transmite; hospedeiro abriga. Incuba�
 - C) Prevalência.
 - D) Mortalidade.
 
-**Gabarito: A.** Incubação é intervalo temporal até os sintomas. Letalidade, prevalência e mortalidade são medidas epidemiológicas, não esse período.
+**Gabarito: A.** Gabarito: A. Período de incubação é o tempo entre a entrada/instalação do agente etiológico no organismo e o aparecimento dos primeiros sintomas clínicos. Erro da B: letalidade mede proporção de óbitos entre casos; erro da C: prevalência mede casos existentes na população; erro da D: mortalidade mede óbitos na população total.
 
 ### Questão 3
 
@@ -69,7 +69,7 @@ Agente causa; reservatório mantém; vetor transmite; hospedeiro abriga. Incuba�
 - C) Na esquistossomose, o mosquito Aedes aegypti é o hospedeiro definitivo e o caramujo é o agente etiológico.
 - D) Na malária, não existe hospedeiro invertebrado, ocorrendo transmissão direta pelo ar.
 
-**Gabarito: A.** Na parasitologia, hospedeiro definitivo é aquele em que ocorre a fase adulta ou a reprodução sexuada do parasito: no Plasmodium, a fecundação (esporogonia) dá-se no Anopheles (definitivo) e a esquizogonia assexuada no humano (intermediário); no Schistosoma mansoni, os vermes adultos acasalam no sistema venoso porta humano (definitivo) e a fase larvária assexuada ocorre no caramujo Biomphalaria (intermediário).
+**Gabarito: A.** Gabarito: A. Hospedeiro definitivo abriga a reprodução sexuada: no Plasmodium ocorre no Anopheles; no S. mansoni ocorre nos vasos mesentéricos humanos (e fase assexuada no caramujo Biomphalaria). Erro da B: cão não é definitivo de nenhum dos dois e na esquistossomose o humano é definitivo; erro da C: Aedes não transmite esquistossomose e caramujo não é agente; erro da D: malária exige o vetor Anopheles.
 
 ### Questão 4
 
@@ -80,7 +80,18 @@ Agente causa; reservatório mantém; vetor transmite; hospedeiro abriga. Incuba�
 - C) Malária, Doença de Chagas e Leishmaniose Visceral.
 - D) Esquistossomose e Raiva.
 
-**Gabarito: A.** A leptospirose (causada por bactérias espiroquetas do gênero Leptospira) e a febre maculosa (causada pela bactéria gram-negativa intracelular Rickettsia rickettsii) são as duas doenças bacterianas da lista. Dengue, Zika, Chikungunya e Raiva são virais; Malária, Chagas e Leishmanioses são protozooses; Esquistossomose é helmintíase.
+**Gabarito: A.** Gabarito: A. Leptospirose (Leptospira interrogans) e Febre Maculosa (Rickettsia rickettsii) são as duas bacterioses da lista de 14 agravos. Erro da B: são arboviroses causadas por vírus; erro da C: são todas protozooses; erro da D: reúne uma helmintíase (esquistossomose) e uma virose (raiva).
+
+### Questão 5
+
+[Autoral] Na vigilância e profilaxia da Raiva (causada por vírus do gênero Lyssavirus, família Rhabdoviridae), a conduta diante de agressão por animal doméstico (cão ou gato) clinicamente sadio e passível de observação domiciliada difere radicalmente da conduta diante de acidente por morcego (quiróptero). De acordo com o Guia de Vigilância em Saúde do Ministério da Saúde, assinale a alternativa correta:
+
+- A) Cães e gatos clinicamente sadios que agridam uma pessoa devem ser observados por 10 (dez) dias quanto ao surgimento de sinais compatíveis com raiva; já qualquer acidente (mordedura, arranhadura ou contato com mucosa) envolvendo morcego de qualquer espécie é sempre classificado como GRAVE, exigindo lavagem abundante com água e sabão e profilaxia imediata com soro antirrábico (SAR/IGHAR) e vacina.
+- B) Tanto cães quanto morcegos devem ficar em observação domiciliar por 60 dias antes de se lavar o ferimento.
+- C) O período de observação do cão agressor é de apenas 24 horas, porque o vírus rábico só é eliminado na saliva três meses após a morte do animal.
+- D) Acidentes com morcegos frugívoros ou insetívoros não oferecem risco de raiva e dispensam notificação ou vacinação.
+
+**Gabarito: A.** Gabarito: A. Cães e gatos passíveis de observação ficam 10 dias observados; agressões ou contatos de risco com morcegos (hematófagos, frugívoros ou insetívoros) são sempre graves e exigem lavagem imediata com água e sabão + sorovacinação antirrábica. Erro da B: ferimento deve ser lavado imediatamente e o prazo de cão/gato é 10 dias; erro da C: 24 horas não cobre a excreção salivar pré-sintomática de 2–5 dias; erro da D: qualquer morcego pode transmitir raiva.
 
 ## Flashcards
 

@@ -3,19 +3,47 @@ import path from 'node:path';
 import { auditContent } from '../src/utils/contentAudit';
 import { ALL_PAUTA_ITEMS } from '../src/data/pautaEspecificaMap';
 import { normalizeAppData } from '../src/utils/normalizeData';
+import { renderMathInHtml } from '../src/utils/math';
 
 const root = process.cwd();
 const read = (p: string) => fs.readFileSync(path.join(root, p), 'utf8');
 const data = JSON.parse(read('data/app_data.json'));
+const normalizedData = normalizeAppData(data);
 // Validate raw fields as well: normalization must not conceal malformed answers.
 const rawReport = auditContent(data);
-const report = auditContent(normalizeAppData(data));
+const report = auditContent(normalizedData);
 const issues = [...rawReport.issues];
 for (const issue of report.issues) {
   if (!issues.some(i => JSON.stringify(i) === JSON.stringify(issue))) issues.push(issue);
 }
-for (const file of ['data/app_data.json', 'data/app_data.js']) {
+for (const file of ['data/app_data.json', 'data/app_data.js', 'data/manifest.json']) {
   if (read(file) !== read(`public/${file}`)) issues.push({severity: 'error', code: 'copy-drift', message: `Cópias divergentes: ${file} e public/${file}.`});
+}
+for (const [idx, lesson] of normalizedData.lessons.entries()) {
+  if (lesson.num !== idx + 1) {
+    issues.push({severity: 'error', code: 'lesson-num-sequence', lessonId: lesson.id, message: `Aula na posição ${idx + 1} possui num=${lesson.num} (esperado sequencial ${idx + 1}).`});
+  }
+  const lessonFile = `data/lessons/${lesson.id}.json`;
+  const publicLessonFile = `public/data/lessons/${lesson.id}.json`;
+  if (!fs.existsSync(path.join(root, lessonFile)) || !fs.existsSync(path.join(root, publicLessonFile))) {
+    issues.push({severity: 'error', code: 'modular-missing', lessonId: lesson.id, message: `Arquivo modular ausente: ${lessonFile}.`});
+  } else if (read(lessonFile) !== read(publicLessonFile)) {
+    issues.push({severity: 'error', code: 'modular-drift', lessonId: lesson.id, message: `Cópias modulares divergentes entre ${lessonFile} e ${publicLessonFile}.`});
+  }
+  for (const [bIdx, block] of (lesson.blocks || []).entries()) {
+    const htmlSnippets = [
+      block.modoA || '',
+      block.modoB || '',
+      ...(block.questions || []).flatMap(q => [q.q, ...(q.options || []), q.comment || '']),
+      ...(block.flashcards || []).flatMap(fc => [fc.f || fc.front || '', fc.b || fc.back || '']),
+    ];
+    for (const snippet of htmlSnippets) {
+      if (snippet && renderMathInHtml(snippet).includes('data-math-error')) {
+        issues.push({severity: 'error', code: 'math-render-error', lessonId: lesson.id, message: `Bloco ${bIdx + 1}: erro de renderização KaTeX detectado.`});
+        break;
+      }
+    }
+  }
 }
 for (const file of ['data/app_data.js', 'public/data/app_data.js']) {
   const text = read(file);

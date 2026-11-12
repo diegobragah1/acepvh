@@ -46,7 +46,7 @@ Em “Ana conferiu os relatórios; Bruno, os mapas”, a omissão de “conferiu
 - C) Onomatopeia.
 - D) Metonímia.
 
-**Gabarito: A.** O verbo já expresso é recuperado na segunda oração, caracterizando zeugma. As outras figuras envolvem oposição, imitação de som ou substituição semântica.
+**Gabarito: A.** Gabarito: A. Zeugma é a modalidade específica de elipse em que o termo omitido (“conferiu”) já apareceu expresso anteriormente na frase. Erro da B: antítese contrapõe ideias opostas; erro da C: onomatopeia imita sons naturais; erro da D: metonímia substitui termos por contiguidade semântica.
 
 ### Questão 2
 
@@ -57,7 +57,7 @@ Em “Ana conferiu os relatórios; Bruno, os mapas”, a omissão de “conferiu
 - C) Pronome relativo retomando um antecedente.
 - D) Apenas uma enumeração de substantivos.
 
-**Gabarito: B.** “Precisamos” repete-se no início das estruturas, produzindo ênfase. Não se trata de pronome anafórico, e as estruturas são orações verbais.
+**Gabarito: B.** Gabarito: B. A reiteração regular da forma “precisamos” na abertura de cada oração configura anáfora estilística (figura de construção para ênfase). Erro da A: há repetição intencional evidente; erro da C: não há pronome relativo; erro da D: são orações estruturadas por locuções verbais, não meros substantivos.
 
 ### Questão 3
 
@@ -68,7 +68,7 @@ Na frase “Os servidores da vigilância conhecemos de perto a realidade de cada
 - C) Assíndeto entre orações subordinadas.
 - D) Ambiguidade lexical por paronímia.
 
-**Gabarito: A.** A concordância ideológica de pessoa (3ª pessoa do plural “os servidores” com verbo na 1ª pessoa do plural “conhecemos”) inclui o enunciador no coletivo mencionado.
+**Gabarito: A.** Gabarito: A. O sujeito gramatical é de 3ª pessoa do plural (“Os servidores”), mas o verbo flexiona-se na 1ª pessoa do plural (“conhecemos”), estabelecendo concordância ideológica (silepse de pessoa). Erro da B: não há omissão de preposição previamente citada; erro da C: período simples de única oração; erro da D: não envolve parônimos nem ambiguidade.
 
 ### Questão 4
 
@@ -79,13 +79,13 @@ Em “A equipe verificou as calhas, vedou os tambores, recolheu as garrafas, ori
 - C) Anacoluto.
 - D) Silepse de gênero.
 
-**Gabarito: B.** As orações coordenadas sucedem-se separadas apenas por vírgulas, sem conjunção aditiva explícita, caracterizando o assíndeto.
+**Gabarito: B.** Gabarito: B. As quatro orações coordenadas ligam-se apenas por justaposição com vírgulas, sem conjunção aditiva (“e”), caracterizando assíndeto. Erro da A: polissíndeto seria o inverso (repetição enfática do conectivo “e”); erro da C: não há termo sintaticamente desligado no início da frase; erro da D: todos os termos respeitam a concordância gramatical estrita.
 
 ## Flashcards
 
-**Zeugma e elipse se excluem?**
+**O que distingue a anáfora estilística da referência anafórica?**
 
-Não. Zeugma é uma elipse de termo já expresso anteriormente no enunciado.
+A anáfora estilística repete a mesma palavra/expressão no início de períodos ou orações por ênfase; a referência anafórica apenas retoma um termo anterior por pronome ou sinônimo.
 
 **Quais são os três tipos de silepse?**
 

@@ -322,7 +322,7 @@ export const Header: React.FC = () => {
                   id="header-progress-popover"
                   role="region"
                   aria-label="Painel detalhado de acompanhamento de progresso"
-                  className="absolute right-0 top-full mt-1.5 w-[310px] sm:w-[370px] bg-white rounded-xl border border-slate-200 shadow-xl z-50 p-3.5 space-y-3 text-left"
+                  className="absolute right-0 top-full mt-1.5 w-[min(320px,calc(100vw-1rem))] sm:w-[370px] bg-white rounded-xl border border-slate-200 shadow-xl z-50 p-3.5 space-y-3 text-left"
                 >
                   <div className="flex items-start justify-between gap-2 border-b border-slate-100 pb-2">
                     <div>

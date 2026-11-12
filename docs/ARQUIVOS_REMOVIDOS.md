@@ -33,3 +33,15 @@ Foram removidos os 64 arquivos `scripts/*.ps1` (`build_aula_04.ps1` a `build_aul
 | :--- | :---: | :---: | :--- |
 | `data/aulas.json` | 8,12 MB | 33,0 KB | Substituída a duplicata integral de `app_data.json` por um índice leve das 49 aulas com contagens e hashes SHA-256 |
 | `data/materias.json` | Defasado (32 aulas) | Atualizado (49 aulas) | Sincronizado com a distribuição real (`esp: 10`, `leg: 7`, `por: 18`, `rlm: 8`, `atu: 6`) |
+
+## 5. Consolidação dos Arquivos Markdown em `content/aulas-49/`
+
+| Diretório Original | Diretório Consolidado | Justificativa Técnica e Estrutural |
+| :--- | :--- | :--- |
+| `content/*.md` (arquivos dispersos da fase de 32 aulas: `esp_1.md`..`esp_10.md`, `leg_1.md`..`leg_7.md`, etc.) | `content/aulas-49/*.md` (exatamente 49 arquivos padronizados com numeração sequencial 1 a 49) | Consolidação dos 49 cadernos didáticos na pasta canônica `content/aulas-49/`, permitindo saneamento da raiz de `content/` que agora mantém apenas subdiretórios temáticos (`aprofundamento/`, `complementos/`, `fontes-oficiais/`, `revisao/`) e os gabaritos de apoio (`fichas_14_endemias_liraa_roedores.md`, `_TEMPLATE_NOVA_AULA.md`). |
+
+## 6. Substituição de Scripts de Pipeline Legado (Python -> TypeScript)
+
+| Arquivo / Script Legado | Substituto Canônico | Justificativa Técnica |
+| :--- | :--- | :--- |
+| `scripts/md_to_app_data.py` | `scripts/sync_all_data.ts` (`npm run sync:data`) | Migração do compilador/injetor de Python externo para pipeline TypeScript nativo integrado ao Node.js com `tsx`, garantindo total tipagem com os contratos de `src/types/index.ts`, validação de integridade referencial, renumeração determinística 1..49 e sincronização multi-alvo (`data/app_data.json`, `data/lessons/*.json`, `data/manifest.json`, `content/aulas-49/*.md`). |

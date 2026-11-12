@@ -24,10 +24,10 @@ Grandezas proporcionais obedecem a um modelo. Taxa unitária ajuda na regra de t
 
 | Modelo Proporcional / Percentual | Equação / Método Rápido | Exemplo Resolvido | Armadilha Comum |
 | --- | --- | --- | --- |
-| **Divisão Diretamente Proporcional** | $rac{A}{p_1} = rac{B}{p_2} = k implies p_1 k + p_2 k = 	ext{Total}$ | Dividir 300 imóveis diretamente a 2 e 3: $2k+3k=300 implies k=60 implies 120	ext{ e }180$. | Esquecer de multiplicar a constante $k$ pelo peso pedido na pergunta. |
-| **Divisão Inversamente Proporcional** | Proporcional aos inversos $rac{1}{p_1}$ e $rac{1}{p_2}$. | Dividir 100 kits inversamente a 2 e 3 ($	ext{MMC}=6 	o$ pesos $3$ e $2$): $5k=100 implies 60	ext{ e }40$. | Quem tem o **menor** número no critério inverso (ex.: menos faltas) recebe a **maior** parte. |
-| **Regra de Três Composta (Causas × Efeito)** | $rac{	ext{Produção}_1}{	ext{Agentes}_1 cdot 	ext{Dias}_1 cdot 	ext{Horas}_1} = rac{	ext{Produção}_2}{	ext{Agentes}_2 cdot 	ext{Dias}_2 cdot 	ext{Horas}_2}$ | Isolar o **produto/serviço executado** no numerador e os **fatores de esforço** no denominador evita errar setas. | Se houver grau de **dificuldade**, ele entra junto com a Produção (no numerador). |
-| **Variações Percentuais Sucessivas** | Fator acumulado $= (1 pm i_1) 	imes (1 pm i_2)$ | Aumento de $20%$ seguido de queda de $20%$: $1,20 	imes 0,80 = 0,96$ (**queda líquida de $4%$**). | Achar que $+20%$ seguido de $-20%$ volta exatamente aos $100%$ iniciais. |
+| **Divisão Diretamente Proporcional** | $\frac{A}{p_1} = \frac{B}{p_2} = k \implies p_1 k + p_2 k = \text{Total}$ | Dividir 300 imóveis diretamente a 2 e 3: $2k+3k=300 \implies k=60 \implies 120\text{ e }180$. | Esquecer de multiplicar a constante $k$ pelo peso pedido na pergunta. |
+| **Divisão Inversamente Proporcional** | Proporcional aos inversos $\frac{1}{p_1}$ e $\frac{1}{p_2}$. | Dividir 100 kits inversamente a 2 e 3 ($\text{MMC}=6 \to$ pesos $3$ e $2$): $5k=100 \implies 60\text{ e }40$. | Quem tem o **menor** número no critério inverso (ex.: menos faltas) recebe a **maior** parte. |
+| **Regra de Três Composta (Causas × Efeito)** | $\frac{\text{Produção}_1}{\text{Agentes}_1 \cdot \text{Dias}_1 \cdot \text{Horas}_1} = \frac{\text{Produção}_2}{\text{Agentes}_2 \cdot \text{Dias}_2 \cdot \text{Horas}_2}$ | Isolar o **produto/serviço executado** no numerador e os **fatores de esforço** no denominador evita errar setas. | Se houver grau de **dificuldade**, ele entra junto com a Produção (no numerador). |
+| **Variações Percentuais Sucessivas** | Fator acumulado $= (1 \pm i_1) \times (1 \pm i_2)$ | Aumento de $20\%$ seguido de queda de $20\%$: $1,20 \times 0,80 = 0,96$ (**queda líquida de $4\%$**). | Achar que $+20\%$ seguido de $-20\%$ volta exatamente aos $100\%$ iniciais. |
 
 ## Exercícios autorais comentados
 
@@ -40,7 +40,7 @@ Grandezas proporcionais obedecem a um modelo. Taxa unitária ajuda na regra de t
 - C) 600
 - D) 720
 
-**Gabarito: C.** 360/(4×6×3)=5 por agente-hora; 6×5×4×5=600. O resultado depende de produtividade constante e tarefas equivalentes, conforme as hipóteses.
+**Gabarito: C.** Gabarito: C. Produtividade unitária: 360 ÷ (4 × 6 × 3) = 360 ÷ 72 = 5 visitas por agente-hora. Novo cenário: 6 × 5 × 4 = 120 agentes-hora × 5 = 600 visitas. Erro da A: subestima o aumento de agentes/dias; erro da B: confunde fatores da proporção composta; erro da D: multiplica 360 por 2 erroneamente.
 
 ### Questão 2
 
@@ -51,7 +51,7 @@ Grandezas proporcionais obedecem a um modelo. Taxa unitária ajuda na regra de t
 - C) 25%
 - D) 45%
 
-**Gabarito: C.** A diferença é 5 pontos percentuais; em relação à base inicial, 5/20=25%. Confundir pontos percentuais com variação relativa levaria a 5%.
+**Gabarito: C.** Gabarito: C. A diferença absoluta é de 5 pontos percentuais (25% − 20%). Relativamente à taxa inicial de 20%, tem-se 5 ÷ 20 = 0,25 = 25% de aumento relativo. Erro da A: confunde variação absoluta em pontos percentuais (5 p.p.) com variação relativa; erro da B: repete a taxa inicial; erro da D: soma as duas taxas (20% + 25%).
 
 ### Questão 3
 
@@ -62,7 +62,7 @@ Grandezas proporcionais obedecem a um modelo. Taxa unitária ajuda na regra de t
 - C) Aumento acumulado de 5%.
 - D) Estabilidade exata (0% de variação).
 
-**Gabarito: A.** Multiplicando os fatores de variação: 1,20 × 0,75 = 0,90, o que corresponde a 90% do valor inicial, isto é, uma redução acumulada de 10%.
+**Gabarito: A.** Gabarito: A. Aplicando fatores sucessivos sobre a base 1: 1,20 × 0,75 = 0,90 (= 90%), isto é, redução líquida de 10%. Erro da B: soma ingênua +20% − 25% = −5%, ignorando que a queda de 25% incide sobre os 120% do 2º bimestre; erro da C e D: subestimam o efeito da redução sobre base ampliada.
 
 ### Questão 4
 
@@ -73,7 +73,18 @@ Grandezas proporcionais obedecem a um modelo. Taxa unitária ajuda na regra de t
 - C) 110 armadilhas.
 - D) 150 armadilhas.
 
-**Gabarito: A.** Divisão inversamente proporcional a 2 e 3 equivale a divisão diretamente proporcional a 1/2 e 1/3 (ou 3/6 e 2/6, pesos 3 e 2). Assim, 3k + 2k = 220 → 5k = 220 → k = 44. A equipe com menos avarias (2) recebe 3 × 44 = 132 armadilhas.
+**Gabarito: A.** Gabarito: A. Dividir inversamente a 2 e 3 equivale a dividir diretamente por 1/2 e 1/3 (proporção 3:2). Logo 3k + 2k = 220 → 5k = 220 → k = 44. Quem teve menos avarias (2) fica com a maior cota: 3 × 44 = 132. Erro da B: 88 é a parte da outra equipe (2 × 44); erro da C: divisão igualitária (220 ÷ 2); erro da D: erro na fração proporcional.
+
+### Questão 5
+
+[Autoral] Em um depósito da SEMUSA, o consumo diário de um larvicida é diretamente proporcional ao número de equipes em campo e ao número de dias úteis. Sabendo que 5 equipes utilizam 30 kg do insumo em 6 dias, quantos quilogramas serão necessários para 8 equipes trabalharem por 10 dias nas mesmas condições?
+
+- A) 80 kg.
+- B) 48 kg.
+- C) 64 kg.
+- D) 96 kg.
+
+**Gabarito: A.** Gabarito: A. Consumo por equipe-dia = 30 ÷ (5 × 6) = 1 kg/equipe-dia. Para 8 equipes durante 10 dias: 8 × 10 × 1 = 80 kg. Erro da B: 48 kg considera apenas o aumento de equipes (8 × 6); erro da C: erro de inversão na regra de três composta; erro da D: multiplicação indevida de razões.
 
 ## Flashcards
 

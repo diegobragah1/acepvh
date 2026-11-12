@@ -38,7 +38,7 @@ Territorialização reúne localização e condições de vida. Adscrição orga
 - C) Proibir circulação entre bairros.
 - D) Dispensar escuta dos moradores.
 
-**Gabarito: B.** O território incorpora condições de vida, dinâmica populacional e serviços. O desenho cartográfico é um instrumento, não a totalidade do diagnóstico.
+**Gabarito: B.** Gabarito: B. Na PNAB (Portaria nº 2.436/2017), territorializar significa reconhecer população, vulnerabilidades socioambientais, barreiras de acesso e equipamentos disponíveis no território-processo. Erro da A: reduzir a traçado cartográfico ignora a dinâmica social; erro da C: territorialização organiza cuidado, não restringe circulação; erro da D: exige escuta ativa e participação da comunidade.
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ Territorialização reúne localização e condições de vida. Adscrição orga
 - C) Executar todo procedimento especializado em cada UBS.
 - D) Eliminar o papel das urgências.
 
-**Gabarito: B.** A coordenação organiza o cuidado na rede. Principal não equivale a única; especialidades e urgências permanecem com funções próprias.
+**Gabarito: B.** Gabarito: B. A Atenção Básica é a principal porta de entrada, centro de comunicação da RAS e coordenadora do cuidado em rede. Erro da A: não é a única porta, pois urgências, emergências e CAPS também recebem usuários; erro da C: procedimentos especializados ficam em pontos secundários/terciários; erro da D: urgências complementam o sistema.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Territorialização reúne localização e condições de vida. Adscrição orga
 - C) A proibição de o ACE participar de reuniões da Unidade Básica de Saúde.
 - D) A fusão obrigatória do cargo de ACE com o cargo de médico da família.
 
-**Gabarito: A.** Tanto a PNAB quanto a PNVS determinam a integração entre Atenção Primária e Vigilância em Saúde por meio da compatibilização dos territórios de atuação, planejamento integrado, educação permanente conjunta e compartilhamento de informações.
+**Gabarito: A.** Gabarito: A. Reflete diretamente a PNAB e a Resolução CNS nº 588/2018: território único, planejamento conjunto e compartilhamento de informações entre eSF/ACS e vigilância/ACE. Erro da B: visitas domiciliares e entomologia são essenciais ao controle; erro da C: o ACE deve participar das reuniões da UBS da área adscrita; erro da D: cargos têm atribuições e formações próprias.
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Territorialização reúne localização e condições de vida. Adscrição orga
 - C) De 100 a 200 pessoas por eSF e 50 pessoas por ACS.
 - D) Não existe qualquer parâmetro populacional na PNAB.
 
-**Gabarito: A.** A PNAB 2017 preconiza população adscrita de 2.000 a 3.500 pessoas por equipe de Saúde da Família (podendo variar segundo vulnerabilidade e dispersão territorial, como em áreas ribeirinhas) e o limite máximo de 750 pessoas por ACS.
+**Gabarito: A.** Gabarito: A. Parâmetros numéricos expressos no Anexo da Portaria GM/MS nº 2.436/2017: 2.000 a 3.500 pessoas por eSF (admitido menor número conforme vulnerabilidade/dispersão) e máximo de 750 pessoas por ACS. Erro da B: superestima os tetos em várias vezes; erro da C: subestima a cobertura populacional; erro da D: os parâmetros constam explicitamente na PNAB.
 
 ## Flashcards
 

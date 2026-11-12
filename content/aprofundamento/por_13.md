@@ -38,7 +38,7 @@ Na escrita formal, qual frase apresenta a colocação esperada com negação?
 - C) Não esquecerá-se do prazo.
 - D) Não esquecido-se do prazo.
 
-**Gabarito: B.** A negação favorece a próclise: não se esqueça. As demais opções ignoram a atração ou usam combinação verbal inadequada.
+**Gabarito: B.** Gabarito: B. O advérbio de negação “Não” (sem vírgula após ele) atua como palavra atrativa, impondo próclise (“Não se esqueça”). Erro da A: emprega ênclise ignorando o atrativo negativo; erro da C: associa ênclise proibida a futuro do presente; erro da D: une pronome enclítico proibido ao particípio.
 
 ### Questão 2
 
@@ -49,7 +49,7 @@ Qual é a combinação de “registrar” com o pronome objeto “o”?
 - C) Registrá-lo.
 - D) Registrá-lhe.
 
-**Gabarito: C.** Após r, o pronome o assume lo e a consoante final é retirada: registrá-lo. Lhe não exerce o mesmo papel de objeto direto nesse exemplo.
+**Gabarito: C.** Gabarito: C. Verbo terminado em -R perde a consoante final e transforma o pronome “o” em “-lo” (com acento agudo na oxítona terminada em -a: “registrá-lo”). Erro da A: mantém o -r antes de -o; erro da B: “-no” aplica-se após terminação nasal (-m, -ão, -õe); erro da D: “lhe” substitui objeto indireto, não objeto direto.
 
 ### Questão 3
 
@@ -60,7 +60,7 @@ Assinale a alternativa que obedece integralmente às regras de colocação prono
 - C) Realizar-se-á amanhã a conferência dos croquis, caso não se altere o expediente.
 - D) A equipe tinha comunicado-se com a coordenação antes do meio-dia.
 
-**Gabarito: C.** No início da oração com verbo no futuro do presente sem atrativo, emprega-se a mesóclise (“Realizar-se-á”); na segunda oração, o advérbio negativo “não” atrai o pronome (“não se altere”). A opção A inicia período com átono; B ignora atração do relativo “que”; D põe ênclise no particípio.
+**Gabarito: C.** Gabarito: C. Verbo no futuro em início de oração sem palavra atrativa usa mesóclise (“Realizar-se-á”); na segunda oração, “não” atrai próclise (“não se altere”). Erro da A: proíbe-se iniciar período com pronome oblíquo átono na norma-padrão; erro da B: o pronome relativo “que” atrai próclise (“que nos enviaram”); erro da D: proíbe-se ênclise no particípio (“tinha-se comunicado”).
 
 ### Questão 4
 
@@ -71,7 +71,7 @@ Substituindo os complementos destacados por pronomes oblíquos átonos em “Os 
 - C) Os agentes orientaram-os e entregaram-lo aos proprietários.
 - D) Os agentes lhes orientaram e entregaram-os o folheto.
 
-**Gabarito: A.** “Orientar” é transitivo direto e termina em som nasal (-am), exigindo “-nos” (orientaram-nos). Em “entregaram o folheto aos proprietários”, o objeto indireto humano plural “aos proprietários” é substituído por “-lhes”.
+**Gabarito: A.** Gabarito: A. “Orientar” é VTD com terminação nasal (“orientaram”), pedindo “-nos” (orientaram-nos); “aos proprietários” é OI de “entregar”, substituído por “-lhes”. Erro da B: “orientar” não rege “lhes” aqui e “eles” não é oblíquo átono; erro da C: falta assimilação nasal (“-nos”) e mantém-se o complemento já substituível; erro da D: “lhes” não cabe em VTD e falta assimilação em “entregaram-os”.
 
 ## Flashcards
 

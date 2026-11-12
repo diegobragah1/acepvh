@@ -40,7 +40,7 @@ Ativa divulga sem pedido; passiva responde. Pedido de interesse público não ex
 - C) Somente quando o solicitante não é servidor.
 - D) Sim, se a informação tratar de despesas.
 
-**Gabarito: B.** O art. 10, §3º, veda exigir motivos determinantes da solicitação de informação de interesse público. Identificar requerente e especificar informação são exigências diferentes.
+**Gabarito: B.** Gabarito: B. O art. 10, § 3º, da Lei nº 12.527/2011 proíbe expressamente exigências relativas aos motivos determinantes da solicitação de informações de interesse público. Erro da A: contraria a regra expressa de vedação; erro da C: o acesso independe de vínculo funcional; erro da D: transparência sobre despesas públicas é dever prioritário.
 
 ### Questão 2
 
@@ -51,7 +51,7 @@ Ativa divulga sem pedido; passiva responde. Pedido de interesse público não ex
 - C) Prazo livre definido pelo servidor.
 - D) Toda solicitação exige primeiro recurso.
 
-**Gabarito: B.** O art. 11 prioriza acesso imediato e disciplina prazo e prorrogação quando ele não é possível. Não há autorização para aguardar automaticamente 30 dias.
+**Gabarito: B.** Gabarito: B. Reflete o art. 11, caput e §§ 1º–2º, da LAI: entrega imediata se disponível; caso contrário, até 20 dias, prorrogável por mais 10 mediante justificativa expressa e ciência. Erro da A: não existe prazo fixo de 30 dias sem motivação; erro da C: os prazos são legais e vinculados; erro da D: o recurso só cabe após negativa ou omissão (art. 15).
 
 ### Questão 3
 
@@ -62,7 +62,7 @@ Ativa divulga sem pedido; passiva responde. Pedido de interesse público não ex
 - C) 100 anos para todas as categorias indistintamente.
 - D) 1 ano para qualquer informação pública ou pessoal.
 
-**Gabarito: A.** O art. 24, § 1º, fixa os prazos máximos de classificação a partir da produção da informação: I - ultrassecreta: 25 anos; II - secreta: 15 anos; III - reservada: 5 anos. Já o art. 31, § 1º, I, protege as informações pessoais relativas à intimidade, vida privada, honra e imagem pelo prazo máximo de 100 anos.
+**Gabarito: A.** Gabarito: A. O art. 24, § 1º, fixa 25 anos (ultrassecreta), 15 anos (secreta) e 5 anos (reservada), enquanto o art. 31, § 1º, I, limita a 100 anos a restrição de informações pessoais. Erro da B: inverte a ordem crescente entre reservada e ultrassecreta e reduz o prazo pessoal; erro da C: 100 anos aplica-se às informações pessoais, não às classificadas; erro da D: prazo de 1 ano não consta nesses artigos.
 
 ### Questão 4
 
@@ -73,7 +73,18 @@ Ativa divulga sem pedido; passiva responde. Pedido de interesse público não ex
 - C) 24 (vinte e quatro) horas improrrogáveis.
 - D) 5 (cinco) anos contados do protocolo inicial.
 
-**Gabarito: A.** Conforme o art. 15, caput e parágrafo único, da Lei nº 12.527/2011, no caso de indeferimento de acesso a informações ou às razões da negativa do acesso, poderá o interessado interpor recurso contra a decisão no prazo de 10 (dez) dias a contar da sua ciência, dirigido à autoridade hierarquicamente superior.
+**Gabarito: A.** Gabarito: A. O art. 15, caput, da LAI fixa prazo de 10 dias a contar da ciência da decisão negativa para recurso à autoridade hierarquicamente superior (que deve decidir em 5 dias). Erro da B: 90 dias úteis não existe na LAI; erro da C: 24 horas reduz drasticamente o prazo legal; erro da D: 5 anos é prazo prescricional alheio ao recurso administrativo da LAI.
+
+### Questão 5
+
+[Autoral] Considerando a aplicação da Lei de Acesso à Informação (Lei nº 12.527/2011) no âmbito de Porto Velho/RO (Decreto Municipal nº 14.565/2017) e do Estado de Rondônia (Lei Estadual nº 3.166/2013, atualizada pela Lei nº 6.385/2026), quando um documento oficial solicitado contém dados públicos misturados a dados pessoais protegidos de um morador atendido pela vigilância:
+
+- A) Deve-se assegurar o acesso à parte não sigilosa por meio de certidão, extrato ou cópia com ocultação (tarjamento) da parte sob sigilo.
+- B) Todo o processo deve ser destruído imediatamente para evitar vazamento de dados pessoais.
+- C) O município fica obrigado a publicar o CPF e o prontuário clínico do morador no Diário Oficial.
+- D) O requerente passa a ser punido por pedir informação parcialmente sigilosa.
+
+**Gabarito: A.** Gabarito: A. Pelo art. 7º, § 2º, da LAI e regulamentos locais (Decreto PVH 14.565/2017 e Lei RO 3.166/2013), quando não for autorizado acesso integral por haver trecho sigiloso, garante-se acesso à parte pública ocultando/tarjando a parte restrita. Erro da B: eliminação documental é ilegal; erro da C: prontuário clínico e dados íntimos têm proteção do art. 31 da LAI e da LGPD (Decreto 18.310/2022); erro da D: não há sanção ao cidadão pelo pedido.
 
 ## Flashcards
 

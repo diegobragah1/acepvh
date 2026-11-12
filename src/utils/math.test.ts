@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { protectMath, renderMathInHtml } from './math';
 import { renderMarkdownToHtml } from './markdown';
+import { normalizeAppData } from './normalizeData';
 import fs from 'node:fs';
 
 test('legacy HTML and Markdown render fractions, sets and subscripts with accessible MathML', () => {
@@ -47,4 +48,27 @@ test('all eight RLM lessons render their actual primary theory and summaries wit
     formulas+=(html.match(/<math /g)||[]).length;
   }
   assert.ok(formulas>200,'The test must exercise the actual formula-rich dataset');
+});
+
+test('all 49 normalized lessons render theory, summaries, questions, options, comments, and flashcards without KaTeX errors', () => {
+  const data = normalizeAppData(JSON.parse(fs.readFileSync('data/app_data.json', 'utf8')));
+  assert.equal(data.lessons.length, 49);
+  for (const lesson of data.lessons) {
+    for (const [bIdx, block] of (lesson.blocks || []).entries()) {
+      const snippets = [
+        block.modoA || renderMarkdownToHtml(block.modoA_markdown || ''),
+        block.modoB || renderMarkdownToHtml(block.modoB_markdown || ''),
+        ...(block.questions || []).flatMap((q) => [q.q, ...(q.options || []), q.comment || '']),
+        ...(block.flashcards || []).flatMap((fc) => [fc.f || fc.front || '', fc.b || fc.back || '']),
+      ];
+      for (const snippet of snippets) {
+        if (!snippet) continue;
+        const rendered = renderMathInHtml(snippet);
+        assert.ok(
+          !rendered.includes('data-math-error'),
+          `Math error found in ${lesson.id}, block ${bIdx + 1}`
+        );
+      }
+    }
+  }
 });

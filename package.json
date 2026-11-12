@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && mkdir -p assets public/assets && cp -f dist/assets/app-bundle.* assets/ && cp -f dist/assets/app-bundle.* public/assets/ && node scripts/verify_publication.mjs",
+    "build": "tsc && vite build && node scripts/sync_build_assets.mjs && node scripts/verify_publication.mjs",
     "preview": "vite preview --host 0.0.0.0 --port 3000",
-    "test": "node --import tsx --test src/utils/*.test.ts",
+    "test": "node scripts/run_tests.mjs",
+    "test:e2e": "node scripts/e2e_smoke.mjs",
+    "sync:data": "node --import tsx scripts/sync_all_data.ts",
     "audit:content": "node --import tsx scripts/audit_content.ts",
     "audit:report": "node --import tsx scripts/audit_content.ts --write",
     "audit:curriculum": "node --import tsx scripts/audit_curriculum.ts --write",

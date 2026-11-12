@@ -71,9 +71,9 @@ Total examinado: 116 questões principais. A conferência encontrou um gabarito 
 | rlm_5 | 4 | 2 | D | 2⁵=32 linhas. |
 | rlm_5 | 5 | 1 | A | Negação p∧¬q; contrapositiva ¬q→¬p. |
 | rlm_5 | 6 | 1 | B | P1 ativa P2; P3 e P4 excluem esquecimento. Resta não fez ou, se fez, perdeu: ¬fez∨perdeu. Origem CEBRASPE não foi autenticada. |
-| rlm_5 | 6 | 2 | C | 100−(52+35−17)=30. |
-| rlm_5 | 6 | 3 | B | ¬ponte e (¬igarapé∨ponte) dão ¬igarapé; modus tollens dá ¬chuva. |
-| rlm_5 | 6 | 4 | A | 500=62·8+4; 4ª letra U; 2⁴=16 subconjuntos. |
+| rlm_5 | 6 | 2 | B | 100−(52+35−17)=30. |
+| rlm_5 | 6 | 3 | D | ¬ponte e (¬igarapé∨ponte) dão ¬igarapé; modus tollens dá ¬chuva. |
+| rlm_5 | 6 | 4 | B | 500=62·8+4; 4ª letra U; 2⁴=16 subconjuntos. |
 | rlm_6 | 1 | 1 | B | ACE⊆conhecedores e existe servidor ACE: existe servidor conhecedor. |
 | rlm_6 | 1 | 2 | B | Contrapositiva de v→¬l é l→¬v. |
 | rlm_6 | 1 | 3 | B | ¬∀x P(x)=∃x ¬P(x); ¬(p→q)=p∧¬q. |

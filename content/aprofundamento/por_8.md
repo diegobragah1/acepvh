@@ -36,7 +36,7 @@ Em “a rápida conferência”, “rápida” é:
 - C) Conjunção integrante.
 - D) Verbo flexionado.
 
-**Gabarito: B.** Conferência é substantivo; rápida o caracteriza e concorda com ele. Advérbios não fazem essa concordância nominal.
+**Gabarito: B.** Gabarito: B. “Rápida” concorda em gênero e número com o substantivo “conferência”, caracterizando-o como adjetivo. Erro da A: advérbio é invariável e modifica verbo, adjetivo ou outro advérbio; erro da C: conjunção liga orações (ex.: que, se); erro da D: não apresenta flexão verbal de tempo/pessoa.
 
 ### Questão 2
 
@@ -47,7 +47,7 @@ Qual par exemplifica flexão de número, em vez de derivação lexical?
 - C) Relatório/relatórios.
 - D) Claro/clareza.
 
-**Gabarito: C.** Relatório/relatórios pertence ao mesmo paradigma nominal, com mudança de número. Os demais pares envolvem formação de outra palavra.
+**Gabarito: C.** Gabarito: C. “Relatório/relatórios” acrescenta apenas a desinência de plural (-s), mantendo mesma classe gramatical e lexema (flexão nominal). Erro da A: acréscimo de sufixo derivacional (-idade) formando substantivo abstrato; erro da B: derivação prefixal (in-); erro da D: sufixo derivacional (-eza) mudando adjetivo para substantivo.
 
 ### Questão 3
 
@@ -58,7 +58,7 @@ Assinale a alternativa em que a palavra destacada foi formada por derivação pa
 - C) O **recomeço** do ciclo epidemiológico ocorreu em janeiro.
 - D) A **limpeza** do canal evitou o transbordamento.
 
-**Gabarito: A.** Em “anoitecer” (a + noite + ecer), o prefixo e o sufixo acoplam-se simultaneamente à base nominal “noite” (não existem as formas intermediárias “anoite” ou “noitecer”).
+**Gabarito: A.** Gabarito: A. “Anoitecer” forma-se pelo acoplamento simultâneo do prefixo “a-” e do sufixo “-ecer” ao radical “noite”, não existindo “anoite” nem “noitecer”. Erro da B: “infelizmente” é prefixal e sufixal, pois existem “infeliz” e “felizmente”; erro da C: “recomeço” deriva por prefixação de “começo” (ou regressiva + prefixo); erro da D: “limpeza” apresenta apenas sufixo (-eza) sobre “limpo”.
 
 ### Questão 4
 
@@ -69,7 +69,7 @@ No período “Os técnicos conversaram **bastante** sobre a logística e trouxe
 - C) Preposição e conjunção coordenativa.
 - D) Substantivo e numeral ordinal.
 
-**Gabarito: A.** No primeiro caso, “bastante” modifica o verbo “conversaram” (advérbio, invariável); no segundo, acompanha e quantifica o substantivo plural “amostras” (pronome indefinido variável, equivalente a “muitas”).
+**Gabarito: A.** Gabarito: A. O primeiro “bastante” modifica o verbo “conversaram” (advérbio invariável); o segundo quantifica o substantivo “amostras” (= muitas amostras, pronome indefinido variável). Erro da B: inverte o caráter invariável/variável das ocorrências; erro da C e D: não exerce função relacional (preposição/conjunção), núcleo nominal nem ordem numérica.
 
 ## Flashcards
 

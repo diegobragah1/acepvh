@@ -39,7 +39,7 @@ Fundamento não é objetivo. Nacionalidade não é exercício irrestrito de dire
 - C) Ausência de controle.
 - D) Eliminação da publicidade.
 
-**Gabarito: A.** A finalidade institucional não deve converter-se em favorecimento ou promoção pessoal. Publicidade existe para finalidade pública e controle, não como autorização irrestrita.
+**Gabarito: A.** Gabarito: A. O art. 37, § 1º, da CF/88 proíbe nomes, símbolos ou imagens que caracterizem promoção pessoal em publicidade oficial, concretizando os princípios da impessoalidade e moralidade. Erro da B: a Administração subordina-se à lei e ao interesse público, não à vontade pessoal; erro da C: o gasto está sujeito a controle; erro da D: a publicidade institucional educativa/informativa é legítima e necessária.
 
 ### Questão 2
 
@@ -50,7 +50,7 @@ Fundamento não é objetivo. Nacionalidade não é exercício irrestrito de dire
 - C) Duas regras municipais de tributo.
 - D) Princípio internacional e licença funcional.
 
-**Gabarito: B.** Os arts. 1º e 3º distinguem fundamento e objetivo. A expressão pode estar correta no texto, mas ser classificada incorretamente pela alternativa.
+**Gabarito: B.** Gabarito: B. Dignidade da pessoa humana está no art. 1º, III (Fundamento da República — SO-CI-DI-VA-PLU); construir sociedade livre, justa e solidária está no art. 3º, I (Objetivo Fundamental — CON-GA-ER-PRO). Erro da A: pertencem a dispositivos e categorias distintas; erro da C: não são normas tributárias municipais; erro da D: princípios internacionais estão no art. 4º.
 
 ### Questão 3
 
@@ -61,7 +61,7 @@ Fundamento não é objetivo. Nacionalidade não é exercício irrestrito de dire
 - C) Está proibido pela Constituição de conversar com moradores ou olhar quintais mesmo quando convidado a entrar.
 - D) Precisa de um mandado do Supremo Tribunal Federal para cumprimentar cada cidadão na calçada.
 
-**Gabarito: A.** O art. 5º, XI, estabelece que a casa é asilo inviolável do indivíduo, nela se ingressando com o consentimento do morador (regra geral das visitas de rotina do ACE, mediante identificação e abordagem ética), salvo flagrante delito, desastre, prestação de socorro ou, durante o dia, determinação judicial.
+**Gabarito: A.** Gabarito: A. A casa é asilo inviolável (art. 5º, XI, CF/88), exigindo consentimento do morador para vistorias rotineiras mediante identificação e respeito. Erro da B: ingresso forçado noturno sem consentimento viola a Constituição fora de flagrante delito, desastre ou socorro; erro da C: o consentimento legitima a visita; erro da D: diálogo em via pública ou entrada autorizada dispensa mandado judicial.
 
 ### Questão 4
 
@@ -72,7 +72,7 @@ Fundamento não é objetivo. Nacionalidade não é exercício irrestrito de dire
 - C) A de dois cargos de guarda patrimonial com um de juiz de direito.
 - D) Em qualquer cargo público, desde que o servidor abra mão das férias anuais.
 
-**Gabarito: A.** O art. 37, XVI, autoriza, havendo compatibilidade de horários, a acumulação de: a) dois cargos de professor; b) um de professor com outro técnico ou científico; c) dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas (hipótese em que se enquadram o ACS e o ACE por força do art. 2º-A da Lei 11.350/2006).
+**Gabarito: A.** Gabarito: A. O art. 37, XVI, "c", autoriza acumular dois cargos ou empregos privativos de profissionais de saúde com profissões regulamentadas (aplicável a ACS e ACE pela Lei 14.536/2023), desde que haja compatibilidade de horários. Erro da B: três cargos é vedado e falta compatibilidade de horários; erro da C: não há essa combinação nas alíneas do art. 37, XVI; erro da D: abrir mão de férias é ilegal e não cria exceção acumulatória.
 
 ## Flashcards
 
