@@ -1,116 +1,120 @@
-# atu_2 — Patrimônio, memória e movimentos culturais em Rondônia
+# atu_2 — Patrimônio Histórico, Ferrovia Madeira-Mamoré, Cultura Popular e Povos Tradicionais
 
-## Cultura não é só um monumento
-Cultura envolve modos de viver, criar, expressar e transmitir conhecimentos. Patrimônio cultural pode incluir bens materiais, como edifícios e acervos, e referências imateriais, como saberes, celebrações e formas de expressão. A classificação não mede superioridade: um prédio não vale mais que um saber apenas por ser material.
+### 1. Estrada de Ferro Madeira-Mamoré (EFMM): História, Tratado de Petrópolis e Memória do Trabalho
+A fundação e expansão do núcleo urbano de Porto Velho estão indissociavelmente ligadas à saga de construção da Estrada de Ferro Madeira-Mamoré (EFMM):
+- **Tratado de Petrópolis (17 de novembro de 1903)**: firmado entre o Brasil (diplomacia conduzida pelo Barão do Rio Branco) e a Bolívia para solucionar a Questão do Acre. O Brasil incorporou o Acre mediante pagamento de 2 milhões de libras esterlinas e o compromisso formal de construir uma ferrovia que vencesse o trecho encachoeirado dos rios Madeira e Mamoré, viabilizando o escoamento da borracha boliviana até o porto de Porto Velho e o Oceano Atlântico.
+- **Construção (1907 a 1912)**: executada pelo consórcio norte-americano de Percival Farquhar (*Madeira-Mamoré Railway Company*). Seus 366 km de extensão ligaram Porto Velho a Guajará-Mirim, contornando 20 cachoeiras fluviais intransponíveis à navegação de grande porte.
+- **Mão de Obra e Imigração Antilhana (Barbadianos)**: operários de mais de 25 nacionalidades trabalharam no canteiro, com destaque para trabalhadores afro-caribenhos de língua inglesa originários de Barbados e de outras ilhas das Antilhas britânicas (**barbadianos**). Eles fundaram bairros históricos como o Alto do Bode (atual bairro Triângulo), introduziram vocábulos ingleses, a prática do críquete e elementos da culinária antilhana.
+- **Atuação Sanitária de Oswaldo Cruz (1910)**: diante da mortandade epidêmica de trabalhadores por impaludismo (malária), a companhia contratou o sanitarista Dr. Oswaldo Cruz e o Dr. Belisário Penna, que atuaram no Hospital da Candelária em Porto Velho, estabelecendo o uso preventivo obrigatório diário de quinino e a vedação de alojamentos com telas de proteção.
+- **Tombamento e Revitalização**: desativada em 1972, a EFMM foi tombada pelo IPHAN como Patrimônio Cultural Brasileiro em 2005. Em 2024, o Complexo da Estrada de Ferro Madeira-Mamoré foi revitalizado pela Prefeitura e reaberto à visitação pública como espaço histórico, cultural e turístico.
 
-## Madeira-Mamoré como objeto histórico
-O patrimônio ferroviário de Porto Velho permite estudar transporte, trabalho, migrações e transformações urbanas. Sua preservação não deve apagar conflitos, condições de vida dos trabalhadores e participação de diferentes grupos. A história não se resume à data de inauguração ou ao nome de um empreendimento.
+### 2. As Três Caixas d'Água ("As Três Marias"): Arquitetura e Símbolo Cívico
+- **Origem e Fabricação**: reservatórios metálicos cilíndricos erguidos em ferro entre **1910 e 1912**, importados dos Estados Unidos e fabricados pela célebre empresa *Chicago Bridge & Iron Works*.
+- **Finalidade Histórica**: foram erguidas no ponto mais alto da cidade nascente para armazenar água encanada e abastecer as oficinas da EFMM, as caldeiras das locomotivas a vapor e os primeiros bairros residenciais de Porto Velho.
+- **Heráldica Oficial**: carinhosamente chamadas de "As Três Marias", constituem o ícone arquitetônico central do Brasão de Armas e da Bandeira Oficial do Município de Porto Velho (Art. 3º da Lei Orgânica Municipal).
 
-## Flor do Maracujá e circulação cultural
-O Arraial Flor do Maracujá reúne manifestações como quadrilhas e bois-bumbás, com continuidade e recriação ao longo de suas edições. Uma tradição pode incorporar elementos novos e continuar reconhecida pelos seus participantes. Cultura popular não é uma peça imóvel do passado: há transmissão entre gerações, organização comunitária, trabalho artístico e circulação econômica.
+### 3. Real Forte Príncipe da Beira (1776): Sentinela Colonial do Guaporé
+- **Localização**: situado na margem direita do Rio Guaporé, no atual município de **Costa Marques/RO** (não se localiza em Porto Velho!).
+- **Histórico**: monumento militar colonial português iniciado em 1776 pelo governador Luís de Albuquerque de Melo Pereira e Cáceres sob o traçado do engenheiro Domingos Sambuceti, para garantir a posse das terras lusitanas da fronteira oeste frente ao Império Espanhol no contexto do Tratado de Madri (1750) e Tratado de Santo Ildefonso (1777); tombado pelo IPHAN em 1950.
 
-## Povos e identidades
-Não trate todos os povos indígenas como um grupo homogêneo nem use ribeirinho, quilombola e indígena como categorias intercambiáveis. Cada trajetória envolve relações com território, língua, memória e direitos. A análise cultural deve nomear grupos e práticas quando a fonte os identifica, evitando generalizações que apagam diferenças.
+### 4. Manifestações Culturais Populares: Arraial Flor do Maracujá e Duelo na Fronteira
+- **Arraial Flor do Maracujá**: fundado em 1982 no Parque dos Tanques em Porto Velho, é considerado o maior festival folclórico e junino do Estado de Rondônia e um dos maiores da Região Norte, celebrando anualmente a disputa de dezenas de quadrilhas juninas e grupos de bois-bumbás.
+- **Duelo na Fronteira (Guajará-Mirim)**: festival folclórico de bois-bumbás na fronteira Brasil-Bolívia, reunindo o confronto histórico entre o Boi Malhadinho (azul e branco) e o Boi Flor do Campo (vermelho e branco).
+- **Festa do Divino Espírito Santo**: celebração religiosa e fluvial secular realizada nos rios Guaporé e Madeira, conduzida com forte protagonismo por comunidades quilombolas e ribeirinhas (como Pedras Negras e Santo Antônio do Guaporé).
 
-## Movimento artístico e contexto
-Renascimento, Barroco, Modernismo e manifestações contemporâneas são recortes que precisam ser relacionados a contextos de produção, linguagens e debates. Um movimento não se identifica por um único adjetivo. Em questões comparativas, observe mudança de formas, diálogo com tradições e relação com o público, em vez de concluir que todo artista de um período segue um modelo idêntico.
-
-## Caso resolvido
-Um enunciado diz que preservar patrimônio significa proibir qualquer uso social e manter silêncio sobre conflitos históricos. A conclusão é inadequada. Preservação pode articular conservação, pesquisa, acesso e educação patrimonial; suas condições concretas dependem dos instrumentos de proteção. Um evento cultural frequentado pela comunidade também pode ser objeto de estudo, sem precisar ser convertido em monumento físico.
-
-## Marcos do patrimônio histórico e cultural de Porto Velho e Rondônia
-Para questões específicas de Humanidades e Cultura Local, conheça os principais bens materiais e manifestações culturais rondonienses:
-- **Estrada de Ferro Madeira-Mamoré (EFMM):** construída entre **1907 e 1912** como compromisso assumido pelo Brasil no **Tratado de Petrópolis (1903)** (que anexou o Acre ao Brasil mediante compensação à Bolívia para vencer o trecho encachoeirado dos rios Madeira e Mamoré entre Porto Velho e Guajará-Mirim, com 366 km). Recebeu trabalhadores de dezenas de nacionalidades (notadamente barbadianos/antilhanos, espanhóis, gregos, italianos e nordestinos brasileiros) e teve o sanitarista **Oswaldo Cruz** contratado em 1910 para combater a altíssima mortalidade por malária. Foi desativada em 1972 e tombada pelo IPHAN como Patrimônio Cultural Brasileiro.
-- **As Três Caixas d'Água ("As Três Marias"):** erguidas em ferro entre **1910 e 1912** pela *Chicago Bridge & Iron Works* para abastecer o complexo ferroviário de Porto Velho; estão estampadas no brasão e na bandeira do município.
-- **Forte Príncipe da Beira:** fortificação militar portuguesa iniciada em **1776** às margens do Rio Guaporé (atual município de **Costa Marques/RO**), símbolo da consolidação da fronteira oeste no período colonial pombalino e patrimônio tombado pelo IPHAN.
-- **Festas e manifestações populares:** o **Arraial Flor do Maracujá** em Porto Velho (amostra folclórica de quadrilhas e bois-bumbás criada na década de 1980), o **Festival Folclórico de Guajará-Mirim / Duelo na Fronteira** (disputa entre o **Boi-Bumbá Malhadinho**, azul e branco, e o **Boi-Bumbá Flor do Campo**, vermelho e branco) e a **Festa do Divino Espírito Santo** no Vale do Guaporé.
+### 5. Povos Originários e Comunidades Tradicionais de Porto Velho
+O município abriga expressiva diversidade étnica e cultural com impacto direto na organização da atenção à saúde indígena e ribeirinha pelo SUS:
+- **Povo Karipuna**: habitam a Terra Indígena Karipuna, situada entre os municípios de Porto Velho e Nova Mamoré (no entorno do distrito de União Bandeirantes); pertencem ao tronco linguístico Tupi-Kagwahiva e enfrentam pressões históricas por invasões e desmatamento;
+- **Povo Karitiana**: habitam a TI Karitiana ao sul do município de Porto Velho; família linguística Arikém; preservam tradições rituais e artefatos de cestaria e cerâmica;
+- **Povo Kaxarari**: habitam a TI Kaxarari na tríplice fronteira de Rondônia, Acre e Amazonas, com acesso pela rodovia BR-364 no distrito de Extrema; família linguística Pano;
+- **Ribeirinhos da RESEX Lago do Cuniã**: reserva extrativista federal na margem esquerda do Baixo Madeira, internacionalmente reconhecida pela gestão comunitária sustentável da pesca do pirarucu e do manejo do jacaré-açu.
 
 ## Resumo de revisão
 
-Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula memória do trabalho e cidade; Flor do Maracujá articula tradição e recriação. Grupos culturais não são homogêneos. Preservação e uso social exigem análise.
+EFMM (1907-1912) decorreu do Tratado de Petrópolis (1903) para contornar cachoeiras; operários barbadianos e missão sanitária de Oswaldo Cruz (1910). As Três Caixas d'Água (Chicago Bridge) são símbolo no brasão de PVH. Forte Príncipe da Beira fica em Costa Marques. Flor do Maracujá é o maior festival junino de RO.
 
-| Patrimônio / Manifestação Cultural | Localização e Origem Histórica | Natureza e Significado Cultural | Destaque para a Prova |
+| Patrimônio / Manifestação | Origem Histórica e Localização | Significado Cultural e Social | Ponto Crítico para a Banca IBGP |
 | --- | --- | --- | --- |
-| **Estrada de Ferro Madeira-Mamoré (EFMM)** | Porto Velho a Guajará-Mirim (366 km); construída de **1907 a 1912** após o **Tratado de Petrópolis (1903)**. | Patrimônio material ferroviário tombado pelo IPHAN; berço do núcleo urbano de Porto Velho. | Imigração afro-caribenha (**barbadianos**), ciclo da borracha e atuação sanitária de **Oswaldo Cruz** (1910). |
-| **As Três Caixas d'Água ("As Três Marias")** | Centro histórico de Porto Velho (construídas entre 1910 e 1912). | Reservatórios metálicos cilíndricos da era ferroviária; ícone visual no brasão e na bandeira municipal. | Símbolo histórico e arquitetônico da capital rondoniense. |
-| **Forte Príncipe da Beira** | Margem direita do Rio Guaporé, em **Costa Marques/RO** (iniciado em **1776**). | Monumento militar colonial português de defesa da fronteira oeste; tombado pelo IPHAN. | Não fica em Porto Velho; situa-se em Costa Marques, no Vale do Guaporé. |
-| **Arraial Flor do Maracujá e Duelo na Fronteira** | Porto Velho (Flor do Maracujá) e Guajará-Mirim (Malhadinho × Flor do Campo). | Patrimônio cultural e folclórico (quadrilhas juninas e bois-bumbás). | Articulação entre cultura popular, identidade regional e economia criativa. |
-| **Festa do Divino e Comunidades Quilombolas** | Vale do Rio Guaporé (Pedras Negras, Santo Antônio do Guaporé, Forte Príncipe). | Patrimônio imaterial afro-amazônico e religioso com forte protagonismo quilombola e ribeirinho. | Reconhece a presença negra secular no Vale do Guaporé desde o século XVIII. |
+| **Estrada de Ferro Madeira-Mamoré** | 1907 a 1912; 366 km entre Porto Velho e Guajará-Mirim. | Tratado de Petrópolis (1903); imigração de barbadianos (afro-caribenhos). | Ação sanitária de **Oswaldo Cruz** em 1910 na Candelária contra a malária. |
+| **As Três Caixas d'Água (Três Marias)** | Importadas dos EUA (*Chicago Bridge*), 1910–1912; Porto Velho. | Abastecimento ferroviário e urbano pioneiro; ícone visual da capital. | Estampadas no Brasão de Armas e na Bandeira de Porto Velho (Art. 3º LOM). |
+| **Real Forte Príncipe da Beira** | Iniciado em 1776 no Rio Guaporé, em **Costa Marques/RO**. | Fortaleza colonial militar portuguesa pombalina na fronteira oeste. | **Não fica em Porto Velho**; localiza-se em Costa Marques no Vale do Guaporé. |
+| **Arraial Flor do Maracujá** | Criado em 1982 no Parque dos Tanques, em Porto Velho. | Maior mostra folclórica de quadrilhas juninas e bois-bumbás de Rondônia. | Expressão da identidade cultural cabocla, nordestina e amazônica. |
+| **Povos Originários e RESEX Cuniã** | TIs Karipuna, Karitiana, Kaxarari e RESEX Lago do Cuniã. | Pluralidade étnica, territórios protegidos e saúde intercultural no SUS. | Karipuna no entorno de União Bandeirantes; RESEX Cuniã no Baixo Madeira. |
 
 ## Exercícios autorais comentados
 
 ### Questão 1
 
-[Autoral] Uma celebração transmitida entre gerações exemplifica potencialmente patrimônio:
+[Autoral] A construção da Estrada de Ferro Madeira-Mamoré (EFMM, 1907–1912) foi o marco fundador do núcleo urbano de Porto Velho. Sobre a história e o patrimônio da ferrovia, assinale a afirmativa CORRETA:
 
-- A) Apenas mineral.
-- B) Imaterial.
-- C) Necessariamente sem valor histórico.
-- D) Que deixa de ser cultural se sofrer qualquer mudança.
+- A) A EFMM foi construída para cumprir o Tratado de Petrópolis (1903), ligando Porto Velho a Guajará-Mirim para contornar cachoeiras fluviais, e contou com expressiva mão de obra de barbadianos (afro-caribenhos), além de receber a visita sanitária de Oswaldo Cruz em 1910.
+- B) A ferrovia foi inaugurada no século XVI pelo Barão de Mauá para ligar Porto Velho a Lisboa por via subterrânea.
+- C) O Tratado de Petrópolis foi assinado entre Brasil e França para permutar o território do Amapá pelo Rio Madeira.
+- D) A EFMM foi totalmente demolida em 1920 sem deixar nenhum vestígio material ou tombamento patrimonial.
 
-**Gabarito: B.** Gabarito: B. Saberes, celebrações, danças e ofícios transmitidos entre gerações integram o patrimônio cultural imaterial (art. 216, CF/88). Erro da A: patrimônio mineral não se aplica a manifestações culturais vivas; erro da C: tradições comunitárias carregam memória e historicidade; erro da D: a cultura popular recria-se mantendo continuidade simbólica.
+**Gabarito: A.** Gabarito: A. A ferrovia derivou do Tratado de Petrópolis de 1903 (Brasil e Bolívia), contou com operários barbadianos e outros imigrantes, teve ações sanitárias de Oswaldo Cruz na Candelária em 1910 contra a malária e é tombada pelo IPHAN. Erro da B: inaugurada no início do século XX (1912), não no século XVI; erro da C: Tratado de Petrópolis foi entre Brasil e Bolívia no contexto da questão do Acre; erro da D: a ferrovia operou até 1972 e seu complexo foi tombado pelo IPHAN em 2005 e revitalizado em 2024.
 
 ### Questão 2
 
-[Autoral] Estudar a Madeira-Mamoré de forma historicamente contextualizada exige considerar:
+[Autoral] As Três Caixas d'Água, popularmente conhecidas como “As Três Marias”, localizadas no centro histórico de Porto Velho, constituem símbolo oficial do município. Sobre a origem e a função histórica desse monumento, é CORRETO afirmar:
 
-- A) Somente uma data isolada.
-- B) Transporte, trabalhadores, migrações e transformação urbana.
-- C) A inexistência de participação social.
-- D) Que patrimônio só pode ser estudado sem acesso público.
+- A) Foram fabricadas nos Estados Unidos pela Chicago Bridge & Iron Works e instaladas entre 1910 e 1912 para abastecer a ferrovia e a população inicial de Porto Velho, figurando no Brasão e na Bandeira do Município.
+- B) Foram escavadas em granito natural por missionários jesuítas no século XVII para batismo de indígenas.
+- C) Trata-se de silos construídos em 2020 para armazenar café robusta amazônico para exportação.
+- D) Foram doadas pelo governo da Bolívia como indenização pela Guerra do Paraguai.
 
-**Gabarito: B.** Gabarito: B. A EFMM envolve geopolítica (Tratado de Petrópolis), logística do látex, migração trabalhadora (inclusive barbadianos), saneamento (Oswaldo Cruz) e urbanização de Porto Velho. Erro da A: data isolada empobrece a análise causal; erro da C: o complexo ferroviário mobilizou diversas comunidades e trabalhadores; erro da D: educação patrimonial pressupõe acesso, pesquisa e difusão social.
+**Gabarito: A.** Gabarito: A. As Três Caixas d'Água são reservatórios metálicos cilíndricos erguidos entre 1910 e 1912 pela empresa norte-americana Chicago Bridge & Iron Works, símbolo heráldico estampado no brasão e na bandeira de Porto Velho. Erro da B: são estruturas de ferro importadas no início do século XX; erro da C: foram construídas para abastecimento de água no período da EFMM; erro da D: são ligadas à EFMM e ao capital da ferrovia.
 
 ### Questão 3
 
-[Autoral] A construção da Estrada de Ferro Madeira-Mamoré (1907–1912), decisiva para o surgimento do núcleo urbano de Porto Velho, decorreu diretamente de qual acordo diplomático firmado pelo Brasil em 1903?
+[Autoral] No município de Costa Marques (RO), às margens do Rio Guaporé, ergue-se uma fortificação militar histórica do século XVIII (iniciada em 1776 no período pombalino), tombada pelo IPHAN e testemunho das disputas coloniais entre Portugal e Espanha na fronteira oeste, denominada:
 
-- A) Do Tratado de Petrópolis (1903), firmado com a Bolívia no contexto da questão do Acre, pelo qual o Brasil se comprometeu a construir a ferrovia para superar o trecho encachoeirado dos rios Madeira e Mamoré.
-- B) Do Tratado de Tordesilhas (1494), assinado para ligar o Rio de Janeiro a Lisboa.
-- C) Do Tratado de Versalhes (1919), que encerrou a Primeira Guerra Mundial.
-- D) Do Acordo de Assunção (1991), que criou o Mercosul.
+- A) Real Forte Príncipe da Beira.
+- B) Forte de Copacabana.
+- C) Fortaleza de Santa Cruz de Anhatomirim.
+- D) Forte dos Reis Magos.
 
-**Gabarito: A.** Gabarito: A. Pelo Tratado de Petrópolis (1903), o Brasil incorporou o Acre e assumiu o compromisso de erguer a EFMM contornando as cachoeiras entre Porto Velho e Guajará-Mirim. Erro da B: Tratado de Tordesilhas dividiu terras coloniais em 1494 entre Portugal e Espanha; erro da C: Tratado de Versalhes é de 1919 pós-1ª Guerra; erro da D: Tratado de Assunção criou o Mercosul em 1991.
+**Gabarito: A.** Gabarito: A. O Real Forte Príncipe da Beira, em Costa Marques/RO, é a maior fortificação militar construída pela Coroa Portuguesa fora do litoral brasileiro. Erro da B: Copacabana fica no Rio de Janeiro; erro da C: Anhatomirim fica em Santa Catarina; erro da D: Reis Magos fica em Natal/RN.
 
 ### Questão 4
 
-[Autoral] Entre os bens patrimoniais tombados em Rondônia, qual monumento militar do século XVIII (1776) localiza-se às margens do Rio Guaporé, no município de Costa Marques, e testemunha a disputa geopolítica colonial pela fronteira oeste?
+[Autoral] Considerada a maior festa folclórica e junina de Rondônia e uma das mais expressivas da Região Norte, realizada anualmente no Parque dos Tanques em Porto Velho com disputas de quadrilhas juninas e bois-bumbás desde 1982, trata-se do:
 
-- A) Real Forte Príncipe da Beira.
-- B) As Três Caixas d’Água da Praça das Três Marias.
-- C) Palácio Rio Madeira em Porto Velho.
-- D) Usina Hidrelétrica de Samuel em Candeias do Jamari.
+- A) Arraial Flor do Maracujá.
+- B) Festival Folclórico de Parintins.
+- C) Bumba Meu Boi de São Luís.
+- D) Círio de Nazaré.
 
-**Gabarito: A.** Gabarito: A. O Real Forte Príncipe da Beira (iniciado em 1776 no período pombalino, em Costa Marques/RO) consolidou a fronteira oeste portuguesa no Vale do Guaporé. Erro da B: as Três Caixas d’Água são de 1910–1912 em Porto Velho; erro da C: o Palácio Rio Madeira é sede contemporânea do governo estadual; erro da D: a UHE Samuel é obra hidrelétrica da segunda metade do século XX no rio Jamari.
+**Gabarito: A.** Gabarito: A. O Arraial Flor do Maracujá é a festa folclórica símbolo de Porto Velho, com quadrilhas e bois-bumbás no Parque dos Tanques. Erro da B: Parintins ocorre no Amazonas; erro da C: Bumba Meu Boi tradicional ocorre no Maranhão; erro da D: Círio de Nazaré é procissão religiosa em Belém/PA.
 
 ### Questão 5
 
-[Autoral] Sobre a formação sociocultural de Porto Velho durante a construção da Estrada de Ferro Madeira-Mamoré, destaca-se a contribuição de trabalhadores imigrantes afro-caribenhos que deixaram marcas profundas na memória, na língua e nos bairros históricos da capital, conhecidos como:
+[Autoral] Na composição étnica e sociocultural de Porto Velho e regiões vizinhas, destacam-se povos originários e comunidades tradicionais com atuação relevante para as políticas públicas de saúde intercultural do SUS. Sobre essas populações, assinale a correlação CORRETA:
 
-- A) Barbadianos (oriundos de Barbados e outras ilhas das Antilhas caribenhas).
-- B) Vikings escandinavos do século X.
-- C) Bandeirantes paulistas do ciclo do açúcar.
-- D) Imigrantes açorianos exclusivos do litoral catarinense.
+- A) A Terra Indígena Karipuna situa-se na região de influência de União Bandeirantes, e a RESEX Lago do Cuniã no Baixo Madeira é referência em manejo sustentável de recursos pesqueiros e fauna silvestre.
+- B) Todos os povos originários de Rondônia falam a mesma língua e residem em áreas urbanas sem demarcação territorial.
+- C) Os povos Karitiana e Kaxarari são originários da Patagônia chilena e migraram para Rondônia após 2020.
+- D) A Reserva Extrativista do Lago do Cuniã é uma mina de exploração de urânio enriquecido proibida para moradores tradicionais.
 
-**Gabarito: A.** Gabarito: A. Trabalhadores antilhanos de língua inglesa — historicamente chamados barbadianos — tiveram papel central na construção da EFMM e na formação cultural de Porto Velho (como Alto do Bode/Triângulo). Erro da B: povos nórdicos medievais não atuaram na Amazônia do século XX; erro da C: bandeirantes paulistas atuavam no período colonial brasileiro; erro da D: açorianos colonizaram principalmente o litoral sul.
+**Gabarito: A.** Gabarito: A. Os Karipuna têm TI no entorno de União Bandeirantes/Nova Mamoré, enquanto a RESEX Lago do Cuniã no Baixo Madeira destaca-se pelo manejo de jacarés e pirarucu. Erro da B: há grande diversidade linguística (troncos Tupi, Macro-Jê, Pano, etc.) e terras indígenas demarcadas; erro da C: Karitiana e Kaxarari são etnias nativas da Amazônia; erro da D: RESEX Cuniã é unidade de conservação de uso sustentável de base comunitária.
 
 ## Flashcards
 
-**Material e imaterial indicam hierarquia de valor?**
+**Qual acordo diplomático determinou a construção da Estrada de Ferro Madeira-Mamoré?**
 
-Não. São dimensões e instrumentos de reconhecimento diferentes (bens edificados/acervos versus saberes/celebrações/formas de expressão).
+O Tratado de Petrópolis (1903), firmado entre o Brasil e a Bolívia, pelo qual o Brasil assumiu a obrigação de construir a ferrovia de 366 km para dar escoamento à borracha boliviana.
 
-**Tradição cultural pode mudar?**
+**Quem foram os barbadianos e qual a sua contribuição cultural para Porto Velho?**
 
-Sim. Transmissão entre gerações e recriação contemporânea coexistem na cultura viva.
+Trabalhadores afro-caribenhos de língua inglesa originários de Barbados e das Antilhas que trabalharam na EFMM e fundaram bairros históricos como o Alto do Bode (Triângulo), legando influências na culinária e vocabulário.
 
-**Qual tratado diplomático deu origem à construção da EFMM (1907–1912) e quais cidades ela ligava?**
+**Em qual município rondoniense fica localizado o Real Forte Príncipe da Beira e qual a sua data de início?**
 
-O Tratado de Petrópolis (1903), firmado entre Brasil e Bolívia; a ferrovia ligava Porto Velho a Guajará-Mirim (366 km).
+Fica localizado no município de Costa Marques/RO, às margens do Rio Guaporé; sua construção foi iniciada em 1776 no período colonial pombalino.
 
 ## Referências de consulta
 
-- [Iphan — patrimônio ferroviário de Rondônia](https://www.gov.br/iphan/pt-br/superintendencias/rondonia/patrimonio-ferroviario) — Madeira-Mamoré e formação urbana.
-- [Governo de Rondônia — Flor do Maracujá](https://rondonia.ro.gov.br/portal/flordomaracuja/) — Quadrilhas, bois-bumbás e manifestações do evento.
+- [IPHAN — Patrimônio Ferroviário de Rondônia (Complexo EFMM)](https://www.gov.br/iphan/pt-br/superintendencias/rondonia/patrimonio-ferroviario) — Histórico da ferrovia, Tratado de Petrópolis, operários e tombamento cultural.
+- [Governo do Estado de Rondônia — Arraial Flor do Maracujá](https://rondonia.ro.gov.br/portal/flordomaracuja/) — Tradição do maior festival folclórico de Porto Velho (quadrilhas e bois-bumbás).
 
 Consulta editorial: 31/10/2026. Legislação deve respeitar o marco temporal do edital.

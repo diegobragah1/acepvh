@@ -170,7 +170,7 @@
     "blocksCount": 6,
     "enrichedBlocksCount": 7,
     "questionsCount": 15,
-    "enrichedQuestionsCount": 19,
+    "enrichedQuestionsCount": 20,
     "flashcardsCount": 23,
     "hasMindMap": true,
     "contentHash": "cfa77e6fab0b94bf4db20b1b9e09aa6da166f04489c9e55c6f1eef61d4eebbd7"
@@ -186,7 +186,7 @@
     "blocksCount": 6,
     "enrichedBlocksCount": 7,
     "questionsCount": 15,
-    "enrichedQuestionsCount": 19,
+    "enrichedQuestionsCount": 20,
     "flashcardsCount": 23,
     "hasMindMap": true,
     "contentHash": "8e5de17c39939c79b4e1f06bf280a2cf36240859ddac348ff58a2b9dc69c5b7c"
@@ -218,7 +218,7 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 12,
-    "enrichedQuestionsCount": 16,
+    "enrichedQuestionsCount": 17,
     "flashcardsCount": 16,
     "hasMindMap": true,
     "contentHash": "b37c63d3be0ca17abeff3891aa9bc007c92d5040ca387cc35827479fded51270"
@@ -234,7 +234,7 @@
     "blocksCount": 6,
     "enrichedBlocksCount": 7,
     "questionsCount": 14,
-    "enrichedQuestionsCount": 18,
+    "enrichedQuestionsCount": 19,
     "flashcardsCount": 21,
     "hasMindMap": true,
     "contentHash": "c4580af9b6cb139f5745bf206a41cd68d8c0812301af8291223deecbdb565c7b"
@@ -250,7 +250,7 @@
     "blocksCount": 7,
     "enrichedBlocksCount": 8,
     "questionsCount": 18,
-    "enrichedQuestionsCount": 22,
+    "enrichedQuestionsCount": 23,
     "flashcardsCount": 27,
     "hasMindMap": true,
     "contentHash": "d0ff58d100068517cb07f4f192fd7c18f4d8d2f6dc96f09988078f96bb8f9c83"
@@ -570,7 +570,7 @@
     "blocksCount": 3,
     "enrichedBlocksCount": 4,
     "questionsCount": 16,
-    "enrichedQuestionsCount": 20,
+    "enrichedQuestionsCount": 21,
     "flashcardsCount": 19,
     "hasMindMap": true,
     "contentHash": "913ac0b56d32fc4914443aefb8ce9977061108ea2a9150e5bcd11c84093b2c70"
@@ -602,7 +602,7 @@
     "blocksCount": 5,
     "enrichedBlocksCount": 6,
     "questionsCount": 14,
-    "enrichedQuestionsCount": 18,
+    "enrichedQuestionsCount": 19,
     "flashcardsCount": 20,
     "hasMindMap": true,
     "contentHash": "65507efc091b93f0e5a624f9ed62b52d55f0ea00c804ece9982f97d56fbcdf4d"
@@ -618,7 +618,7 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 10,
-    "enrichedQuestionsCount": 14,
+    "enrichedQuestionsCount": 15,
     "flashcardsCount": 16,
     "hasMindMap": true,
     "contentHash": "80f53515538690683d5a46c1ab93c13ef54f7886546c80c8919db6257c507457"
@@ -634,7 +634,7 @@
     "blocksCount": 6,
     "enrichedBlocksCount": 7,
     "questionsCount": 15,
-    "enrichedQuestionsCount": 19,
+    "enrichedQuestionsCount": 20,
     "flashcardsCount": 21,
     "hasMindMap": true,
     "contentHash": "22ff22a6c1080abcff98bf083daaeefc16fd21487ea39b80ed4389ea4788ee0d"
@@ -650,7 +650,7 @@
     "blocksCount": 5,
     "enrichedBlocksCount": 6,
     "questionsCount": 12,
-    "enrichedQuestionsCount": 16,
+    "enrichedQuestionsCount": 17,
     "flashcardsCount": 19,
     "hasMindMap": true,
     "contentHash": "6a9c4a9b21323120b839532c7c48ecd543717abd8bfc5c8c939fd7625fa0b7bc"
@@ -666,7 +666,7 @@
     "blocksCount": 4,
     "enrichedBlocksCount": 5,
     "questionsCount": 12,
-    "enrichedQuestionsCount": 16,
+    "enrichedQuestionsCount": 17,
     "flashcardsCount": 17,
     "hasMindMap": true,
     "contentHash": "3a9209584d50a8b4215942b9a37904401607607f2b3562ea730f8efdb00c767e"
@@ -746,7 +746,7 @@
     "blocksCount": 3,
     "enrichedBlocksCount": 4,
     "questionsCount": 11,
-    "enrichedQuestionsCount": 15,
+    "enrichedQuestionsCount": 16,
     "flashcardsCount": 16,
     "hasMindMap": true,
     "contentHash": "a4789ea522f5a89b34e37a05ed2e69f951582868ff1aa4fb2b99f89caca7eb3e"
@@ -778,7 +778,7 @@
     "blocksCount": 3,
     "enrichedBlocksCount": 4,
     "questionsCount": 12,
-    "enrichedQuestionsCount": 16,
+    "enrichedQuestionsCount": 17,
     "flashcardsCount": 14,
     "hasMindMap": true,
     "contentHash": "3daa4f84a525459c78a301235767167059e2c541445c1c373e3a5df786b00134"

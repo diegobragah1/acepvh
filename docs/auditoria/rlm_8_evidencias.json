@@ -11,7 +11,7 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira."
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): Gabarito: B. O enunciado atribui diretamente probabilidade 1/2 à primeira região. Erro da A: 1/3 presume regiões equiprováveis sem apoio nos dados; erro da C: 2/3 conta regiões restantes sem somar pesos; erro da D: 1 é a soma do espaço amostral inteiro."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -32,8 +32,8 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns.",
-      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): D: (6/10)×(4/9)=4/15. A reduz indevidamente as verdes para três; B mantém o denominador dez como se houvesse reposição; C é a chance de duas azuis."
+      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns. | Revisão IBGP: A alternativa C sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial).",
+      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): Gabarito: D. Sem reposição: (6/10) × (4/9) = 24/90 = 4/15. Erro da A: reduz indevidamente as fichas verdes para 3/9; erro da B: calcula 6/10 × 4/10 = 6/25 (com reposição); erro da C: (6/10) × (5/9) = 1/3 é a chance de duas azuis."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -53,8 +53,8 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[3]: B: há 36 pares ordenados equiprováveis. Os cinco favoráveis são (2,6),(3,5),(4,4),(5,3),(6,2). A, C e D equivalem a 6/36, 4/36 e 7/36, respectivamente; nenhuma conta os cinco pares corretos.",
-      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira."
+      "rlm_8.blocks[0].questions[3]: Gabarito: B. Em 36 pares ordenados (6×6), os 5 pares que somam 8 são (2,6), (3,5), (4,4), (5,3) e (6,2) → P = 5/36. Erro da A, C e D: correspondem a 6/36, 4/36 e 7/36 por contagem incorreta de pares ordenados simétricos ou de (4,4).",
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): Gabarito: B. O enunciado atribui diretamente probabilidade 1/2 à primeira região. Erro da A: 1/3 presume regiões equiprováveis sem apoio nos dados; erro da C: 2/3 conta regiões restantes sem somar pesos; erro da D: 1 é a soma do espaço amostral inteiro."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -74,7 +74,7 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): B: a maior retirada que evita dez é 8+9+9=26; a próxima força a meta. A ainda pode falhar; C aplica o limite genérico sem aproveitar o estoque A; D garante, mas não é mínimo.",
+      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): Gabarito: B. Pelo pior caso sem atingir 10 de nenhuma categoria: retira todas as 8 de A + no máximo 9 de B + no máximo 9 de C = 8 + 9 + 9 = 26 fichas. A 27ª retirada garante 10 de B ou C. Erro da A: 26 ainda admite empate 8/9/9; erro da C e D: 28 e 35 garantem, mas não são o mínimo necessário.",
       "rlm_8.blocks[2].questions[3] (probabilidade-cada-cor): D: 19 ainda podem ser 10 azuis+8 verdes+1 vermelha; a 20ª garante a segunda vermelha, e nenhuma outra cor pode ter menos de duas com vinte retiradas. A garante duas de alguma cor, não de todas; B e C ainda podem omitir a meta vermelha."
     ],
     "evidenciaRevisao": [
@@ -95,9 +95,9 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[3].questions[0]: B: 100=14×7+2; domingo mais dois dias é terça. A, C e D corresponderiam a restos 1, 3 e 4. A contagem usa cem dias transcorridos, sem incluir o dia inicial como primeiro dia já passado.",
+      "rlm_8.blocks[3].questions[0]: Gabarito: B. Dividindo 100 por 7: 100 = 14 × 7 + 2 (14 semanas completas + 2 dias). Partindo de domingo + 2 dias = terça-feira. Erro da A (segunda), C (quarta) e D (quinta): correspondem aos restos 1, 3 e 4.",
       "rlm_8.blocks[3].questions[4] (probabilidade-subida): B: os máximos diurnos são 4,7,10,13. O terceiro dia ainda fica abaixo de onze; o quarto alcança. C acrescenta uma etapa desnecessária; D confunde a altura com a quantidade de dias. A fórmula precisa de teto: teto(7/3)+1=4.",
-      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): C: a próxima soma é 9, então 17+9=26. A repete o incremento sete; B não aplica o incremento informado; D dobra o último termo sem respaldo na regra. A regra explícita elimina ambiguidade de continuações."
+      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): Gabarito: C. Os incrementos seguem a sequência ímpar (+3, +5, +7, +9): 2+3=5, 5+5=10, 10+7=17, logo 17 + 9 = 26. Erro da A: repete +7 (17+7=24); erro da B: soma +8 (17+8=25); erro da D: dobra 17 sem seguir a lei de formação."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -117,8 +117,8 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): B usa o peso informado. A supõe equiprobabilidade inexistente; C confunde número de regiões excluídas com probabilidade; D é a chance de parar em alguma região, não na primeira.",
-      "rlm_8.blocks[0].questions[3]: B: há 36 pares ordenados equiprováveis. Os cinco favoráveis são (2,6),(3,5),(4,4),(5,3),(6,2). A, C e D equivalem a 6/36, 4/36 e 7/36, respectivamente; nenhuma conta os cinco pares corretos."
+      "rlm_8.blocks[0].questions[4] (probabilidade-equiprobabilidade): Gabarito: B. O enunciado atribui diretamente probabilidade 1/2 à primeira região. Erro da A: 1/3 presume regiões equiprováveis sem apoio nos dados; erro da C: 2/3 conta regiões restantes sem somar pesos; erro da D: 1 é a soma do espaço amostral inteiro.",
+      "rlm_8.blocks[0].questions[3]: Gabarito: B. Em 36 pares ordenados (6×6), os 5 pares que somam 8 são (2,6), (3,5), (4,4), (5,3) e (6,2) → P = 5/36. Erro da A, C e D: correspondem a 6/36, 4/36 e 7/36 por contagem incorreta de pares ordenados simétricos ou de (4,4)."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -138,8 +138,8 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[0]: B: 7 múltiplos de 4, 5 de 6 e 2 comuns (12 e 24); (7+5−2)/30=1/3. A equivale a 9/30, não aos dez favoráveis; C soma 7+5 sem descontar os dois comuns; D usa apenas os sete múltiplos de 4. Modelo: sorteio uniforme.",
-      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns."
+      "rlm_8.blocks[0].questions[0]: Gabarito: B. Em 1..30: múltiplos de 4 = 7; múltiplos de 6 = 5; múltiplos de ambos (MMC=12) = 2 (12 e 24). Favoráveis: 7 + 5 − 2 = 10 → 10/30 = 1/3. Erro da A: 9/30; erro da C: 12/30 (não desconta 12 e 24); erro da D: conta somente múltiplos de 4.",
+      "rlm_8.blocks[0].questions[5] (probabilidade-exatamente-um): C: (7+5−2×2)/30=8/30=4/15. A é a união inclusiva; B não desconta a sobreposição; D corresponde somente aos dois múltiplos comuns. | Revisão IBGP: A alternativa C sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, B, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial)."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -161,7 +161,7 @@
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
       "rlm_8.blocks[0].questions[2]: A: sob a independência expressamente dada, P(nenhum)=0,6×0,7=0,42; P(pelo menos um)=0,58. D é a chance do complementar; C soma 40%+30% e duplica a interseção de 12%; B não resulta da união 40%+30%−12%. O exemplo não descreve previsão meteorológica real.",
-      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): C: azul-verde dá 3/10 e verde-azul também, total 3/5. A conta apenas uma ordem; B é a chance de duas azuis com reposição; D é a chance de ao menos uma azul sem reposição."
+      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): Gabarito: C. Duas ordens possíveis sem reposição: (3/5 × 2/4) + (2/5 × 3/4) = 3/10 + 3/10 = 6/10 = 3/5. Erro da A: considera só uma ordem (azul depois verde); erro da B: calcula duas azuis com reposição; erro da D: calcula ao menos uma azul sem reposição."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -181,7 +181,7 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[0].questions[7] (probabilidade-exclusao-independencia): B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses."
+      "rlm_8.blocks[0].questions[7] (probabilidade-exclusao-independencia): B compara P(A∩B)=0 com P(A)P(B)>0. A confunde exclusão e independência; C confunde união e interseção; D não decorre das hipóteses. | Revisão IBGP: A alternativa B sintetiza com precisão o comando normativo/conceitual exigido, ao passo que as alternativas A, C, D invertem conceitos, extrapolam limites legais ou apresentam distratores incompatíveis com a referência oficial da disciplina (8. Probabilidade: conceitos básicos e cálculo de probabilidades em espaços amostrais finitos. Resolução de problemas envolvendo raciocínio lógico e sequencial)."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -202,7 +202,7 @@
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
       "rlm_8.blocks[1].questions[0]: C: a condição restringe o sorteio aos 20 com curso superior (15 ACEs e 5 administrativos); 15/20=75%. A ignora a condição; B calcula a condição inversa (curso superior entre ACEs); D calcula a fração de todos os servidores que têm curso superior. Cenário fictício, sorteio uniforme.",
-      "rlm_8.blocks[1].questions[3] (probabilidade-condicao-inversa): D: 15/25=60%. A usa o total de quarenta e calcula a interseção sem condição; B é a proporção geral de qualificados; C responde à condição inversa, campo entre qualificados."
+      "rlm_8.blocks[1].questions[3] (probabilidade-condicao-inversa): Gabarito: D. Probabilidade condicional dada “equipe de campo” (25 pessoas): 15/25 = 60%. Erro da A: 15/40 = 37,5% divide pelo total geral sem condicionar; erro da B: 50% usa total de qualificados no geral (20/40); erro da C: 15/20 = 75% inverte a condição."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[1].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -223,7 +223,7 @@
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
       "rlm_8.blocks[0].questions[1]: A: (6/10)×(5/9)=1/3. B, 9/25, corresponderia a duas retiradas com reposição e independência. C, 2/5, é a proporção inicial de negativas, não a chance de duas positivas. D não coincide com os 30 pares ordenados positivos entre 90 pares possíveis. O cenário é fictício.",
-      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): D: (6/10)×(4/9)=4/15. A reduz indevidamente as verdes para três; B mantém o denominador dez como se houvesse reposição; C é a chance de duas azuis."
+      "rlm_8.blocks[0].questions[6] (probabilidade-cores-ordem): Gabarito: D. Sem reposição: (6/10) × (4/9) = 24/90 = 4/15. Erro da A: reduz indevidamente as fichas verdes para 3/9; erro da B: calcula 6/10 × 4/10 = 6/25 (com reposição); erro da C: (6/10) × (5/9) = 1/3 é a chance de duas azuis."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[0].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -243,7 +243,7 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): C: azul-verde dá 3/10 e verde-azul também, total 3/5. A conta apenas uma ordem; B é a chance de duas azuis com reposição; D é a chance de ao menos uma azul sem reposição."
+      "rlm_8.blocks[1].questions[2] (probabilidade-caminhos): Gabarito: C. Duas ordens possíveis sem reposição: (3/5 × 2/4) + (2/5 × 3/4) = 3/10 + 3/10 = 6/10 = 3/5. Erro da A: considera só uma ordem (azul depois verde); erro da B: calcula duas azuis com reposição; erro da D: calcula ao menos uma azul sem reposição."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[1].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -284,7 +284,7 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): B: a maior retirada que evita dez é 8+9+9=26; a próxima força a meta. A ainda pode falhar; C aplica o limite genérico sem aproveitar o estoque A; D garante, mas não é mínimo.",
+      "rlm_8.blocks[2].questions[2] (probabilidade-estoque): Gabarito: B. Pelo pior caso sem atingir 10 de nenhuma categoria: retira todas as 8 de A + no máximo 9 de B + no máximo 9 de C = 8 + 9 + 9 = 26 fichas. A 27ª retirada garante 10 de B ou C. Erro da A: 26 ainda admite empate 8/9/9; erro da C e D: 28 e 35 garantem, mas não são o mínimo necessário.",
       "rlm_8.blocks[2].questions[3] (probabilidade-cada-cor): D: 19 ainda podem ser 10 azuis+8 verdes+1 vermelha; a 20ª garante a segunda vermelha, e nenhuma outra cor pode ter menos de duas com vinte retiradas. A garante duas de alguma cor, não de todas; B e C ainda podem omitir a meta vermelha."
     ],
     "evidenciaRevisao": [
@@ -305,8 +305,8 @@
     ],
     "fundamentacaoPropria": [],
     "exerciciosValidados": [
-      "rlm_8.blocks[3].questions[0]: B: 100=14×7+2; domingo mais dois dias é terça. A, C e D corresponderiam a restos 1, 3 e 4. A contagem usa cem dias transcorridos, sem incluir o dia inicial como primeiro dia já passado.",
-      "rlm_8.blocks[3].questions[3] (probabilidade-bissexto): C: 2000 é divisível por 400; 2100 é divisível por 100, mas não por 400. A omite a exceção secular; B e D ignoram a distinção pela divisibilidade por 400."
+      "rlm_8.blocks[3].questions[0]: Gabarito: B. Dividindo 100 por 7: 100 = 14 × 7 + 2 (14 semanas completas + 2 dias). Partindo de domingo + 2 dias = terça-feira. Erro da A (segunda), C (quarta) e D (quinta): correspondem aos restos 1, 3 e 4.",
+      "rlm_8.blocks[3].questions[3] (probabilidade-bissexto): Gabarito: C. Anos múltiplos de 100 só são bissextos quando também divisíveis por 400: 2000 ÷ 400 = 5 (bissexto) e 2100 ÷ 400 não é exato (não bissexto). Erro da A: ignora a regra secular de divisibilidade por 100; erro da B e D: afirmam erroneamente que todos ou nenhum múltiplo de 100 é bissexto."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"
@@ -327,7 +327,7 @@
     ],
     "exerciciosValidados": [
       "rlm_8.blocks[3].questions[2]: C: 600/25=24 intervalos; incluindo ambas as pontas, são 25 pontos. B conta intervalos como pontos; A elimina dois pontos indevidamente; D adiciona duas unidades aos intervalos. É um modelo matemático fictício, não uma orientação técnica de instalação.",
-      "rlm_8.blocks[3].questions[5] (probabilidade-circuito): A: 600/25=24 intervalos e 24 marcas, porque início e fim coincidem. B aplica a fórmula da linha aberta; C elimina uma marca necessária; D conta indevidamente duas extremidades extras.",
+      "rlm_8.blocks[3].questions[5] (probabilidade-circuito): Gabarito: A. Em circuito fechado (anel/circunferência), o ponto de partida coincide com a chegada, portanto nº de marcas = nº de intervalos = 600 ÷ 25 = 24 marcas. Erro da B: 25 aplicaria a fórmula de linha aberta (intervalos + 1); erro da C e D: subtraem ou somam marcos indevidamente.",
       "rlm_8.blocks[3].questions[6] (probabilidade-linha-nao-divisivel): D: um número inteiro de intervalos de 25 m não totaliza 610 m. A e C não alcançam a ponta final; B admite a última distância de dez metros se houver marcas desde zero, contrariando o intervalo exato. Com intervalos de no máximo 25 m, a pergunta seria outra."
     ],
     "evidenciaRevisao": [
@@ -368,7 +368,7 @@
       "Derivação explícita e exemplos em content/revisao/rlm_8_4.md; teste independente quando aplicável em src/utils/probabilityReview.test.ts; não se atribui esta dedução à fonte de calendário."
     ],
     "exerciciosValidados": [
-      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): C: a próxima soma é 9, então 17+9=26. A repete o incremento sete; B não aplica o incremento informado; D dobra o último termo sem respaldo na regra. A regra explícita elimina ambiguidade de continuações."
+      "rlm_8.blocks[3].questions[7] (probabilidade-sequencia-regra): Gabarito: C. Os incrementos seguem a sequência ímpar (+3, +5, +7, +9): 2+3=5, 5+5=10, 10+7=17, logo 17 + 9 = 26. Erro da A: repete +7 (17+7=24); erro da B: soma +8 (17+8=25); erro da D: dobra 17 sem seguir a lei de formação."
     ],
     "evidenciaRevisao": [
       "rlm_8.blocks[3].modoB; rlm_8.mindMap; cartões revistos pelo script review_probability.ts; memória em LOTE_PROBABILIDADE.md"

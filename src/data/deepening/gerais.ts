@@ -1,287 +1,853 @@
 import type { DeepeningEntry } from './types';
-const ibge = {title:'IBGE — Porto Velho',url:'https://www.ibge.gov.br/cidades-e-estados/ro/porto-velho.html',section:'População, território e indicadores; observar o ano de cada medida.'};
+
+const ibge = {
+  title: 'IBGE — Panorama do Censo 2022 em Porto Velho',
+  url: 'https://cidades.ibge.gov.br/brasil/ro/porto-velho/panorama',
+  section: 'População residente (460.434 hab.), área territorial (34.090,952 km²), densidade e PIB municipal.'
+};
+
 export const gerais: DeepeningEntry[] = [
   {
-    id:'atu_1',title:'Atualidades com contexto: clima, economia e escalas de análise',
-    theory:`## Um fato precisa de data, lugar e consequência
-Atualidades não se resumem a nomes de autoridades. Para cada notícia, identifique o acontecimento, quando ocorreu, onde produziu efeitos, quais instituições atuaram e qual relação existe com o conteúdo do programa. O recorte “últimos cinco anos” deve seguir o marco temporal indicado pelo edital; não deve ser convertido automaticamente em uma lista fixa e eterna.
+    id: 'atu_1',
+    title: 'Extremos Hidrológicos, Crise Climática, Queimadas e Reforma Tributária',
+    theory: String.raw`### 1. Extremos Hidrológicos Históricos do Rio Madeira: Seca de 2024 vs Cheia de 2014
+O regime hidrológico do Rio Madeira em Porto Velho apresentou nos últimos anos oscilações extremas que entraram para a história climatológica do Brasil:
+- **Cheia Centenária Histórica de 2014**: em abril de 2014, o Rio Madeira atingiu a cota máxima histórica de **19,74 metros** na estação fluviométrica oficial de Porto Velho, provocando inundações severas em bairros ribeirinhos e centrais (Bairro da Balsa, Triângulo, Panair, Cai N'água), submergindo trechos da rodovia federal BR-364 no sentido Acre e exigindo estado de calamidade pública.
+- **Seca Severa de 2023**: em outubro de 2023, o rio registrou a marca histórica de **1,10 metro**, gerando o primeiro grande alerta de colapso de navegabilidade.
+- **Seca Histórica Recorde Absoluta de 2024**: em **23 de setembro de 2024**, o nível do Rio Madeira atingiu a cota mínima absoluta de **25 centímetros** na régua oficial monitorada pela Agência Nacional de Águas (ANA) e pelo Serviço Geológico do Brasil (SGB/CPRM), chegando a um repique de **19 centímetros** em outubro de 2024 — a menor marca registrada em mais de 50 anos de medições oficiais da bacia.
+- **Repercussões Socioeconômicas e Sanitárias Imediatas**:
+  * Paralisação parcial e interrupção do tráfego de comboios de barcaças de grãos na **Hidrovia do Madeira** (um dos principais eixos do Corredor Logístico do Arco Norte rumo a Itacoatiara/AM e Santarém/PA);
+  * Isolamento hidroviário dos distritos ribeirinhos do **Baixo Madeira** (como São Carlos, Nazaré, Calama e Demarcação), com embarcações escolares e de saúde encalhando em bancos de areia;
+  * Desabastecimento de água potável em virtude do rebaixamento do lençol freático e secamento de poços amazônicos nas comunidades rurais;
+  * Redução substancial da geração de energia nas Usinas Hidrelétricas **Santo Antônio** e **Jirau**, que operam sob o modelo a fio d'água e dependem da vazão corrente do rio.
 
-## Caso nacional: enchentes de 2024
-As enchentes de 2024 no Rio Grande do Sul provocaram impactos humanos, urbanos e econômicos, com interrupção de serviços e necessidade de reconstrução. Para estudar, separe evento meteorológico, exposição e vulnerabilidade. Chuva intensa é um fenômeno físico; ocupação de áreas suscetíveis, infraestrutura e capacidade de resposta ajudam a explicar por que os danos são diferentes entre populações.
+### 2. Crise de Queimadas, Material Particulado ($PM_{2,5}$) e Impactos na Rede da SEMUSA
+Durante o segundo semestre de 2024, Porto Velho e o Estado de Rondônia enfrentaram a mais grave crise de poluição atmosférica por queimadas florestais e agropecuárias da Amazônia Ocidental:
+- **Material Particulado Fino ($PM_{2,5}$)**: as partículas inaláveis com diâmetro aerodinâmico inferior a $2,5\ \mu\text{m}$ ultrapassaram concentrações diárias de **$300\ \mu\text{g/m}^3$ a $500\ \mu\text{g/m}^3$** na capital rondoniense, superando em mais de 20 a 30 vezes o limite máximo de segurança diário estabelecido pela Organização Mundial da Saúde (OMS), fixado em $15\ \mu\text{g/m}^3$.
+- **Mecanismo Fisiopatológico**: devido ao seu diâmetro microscópico, o $PM_{2,5}$ não é filtrado pelas vias aéreas superiores, atingindo diretamente os alvéolos pulmonares e penetrando na corrente sanguínea, desencadeando respostas inflamatórias agudas.
+- **Sobrecarga na Rede da SEMUSA**: a concentração de fumaça gerou explosão de atendimentos nas Unidades de Pronto Atendimento (UPAs Sul, Leste e Jaci-Paraná) e Unidades Básicas de Saúde (UBSs), com pacientes apresentando crises de asma, bronquite crônica agudizada, pneumonia bacteriana secundária e conjuntivite química, afetando de forma desproporcional crianças menores de 5 anos e idosos.
 
-## Caso amazônico: secas de 2023–2024
-As secas na Amazônia afetaram circulação fluvial e abastecimento em diferentes áreas. Uma consequência importante para a análise regional é a dependência de rios para deslocamento e acesso a serviços. Não se deve concluir que todos os municípios amazônicos foram atingidos no mesmo grau nem transformar um nível de rio medido em uma estação em medida de toda a bacia.
+### 3. COP30 no Brasil (Belém/PA) e a Distinção Mitigação vs Adaptação
+A realização da 30ª Conferência das Nações Unidas sobre Mudança do Clima (COP30) em Belém/PA (novembro de 2025) consolidou o protagonismo da Amazônia no debate global:
+- **Mitigação Climática**: conjunto de ações voltadas a atacar as **causas** do aquecimento global, visando reduzir, frear ou capturar as emissões de gases de efeito estufa (GEE). Exemplos: transição para matrizes de energia renovável, redução do desmatamento ilegal e reflorestamento de Áreas de Preservação Permanente (APPs).
+- **Adaptação Climática**: conjunto de ações voltadas a lidar com os **impactos e vulnerabilidades** já deflagrados pelos eventos climáticos extremos. No campo da saúde pública e do trabalho do ACE, a adaptação traduz-se em planos de contingência contra estiagens e cheias, reforço da vigilância entomológica em reservatórios improvisados de água e resposta a desastres socioambientais.
 
-## Caso internacional sediado no Brasil
-Belém sediou a COP30 em novembro de 2025. O tema permite relacionar mitigação, adaptação e financiamento climático. **Mitigação** procura reduzir causas do aquecimento, como emissões; **adaptação** busca reduzir impactos e vulnerabilidades. Uma conferência produzir decisões não significa que todas as medidas nacionais e locais já estejam implementadas.
+### 4. Reforma Tributária (Emenda Constitucional nº 132/2023) e o Novo Regime Fiscal
+A EC 132/2023 reformulou a tributação sobre o consumo no Brasil com a criação do **IVA Dual**:
+- **CBS (Contribuição sobre Bens e Serviços)**: de competência privativa da União (federal), substituindo o PIS e a Cofins (e incorporando gradualmente o IPI);
+- **IBS (Imposto sobre Bens e Serviços)**: de competência compartilhada entre Estados e Municípios, unificando o ICMS estadual e o ISS municipal;
+- **Princípio do Destino**: o tributo arrecadado passa a pertencer ao Estado e ao Município onde a mercadoria ou o serviço é efetivamente consumido, acabando com a guerra fiscal entre entes federativos;
+- **Imposto Seletivo (IS)**: tributo federal de caráter extrafiscal ("imposto do pecado"), incidente sobre bens e serviços prejudiciais à saúde humana (cigarros, bebidas alcoólicas) ou ao meio ambiente;
+- **Cesta Básica Nacional de Alimentos**: isenção total (alíquota zero) para itens essenciais da alimentação;
+- **Novo Regime Fiscal Sustentável (LC 200/2023)**: substituiu o antigo teto de gastos rígido da EC 95 por metas fiscais que limitam o crescimento das despesas públicas a uma proporção do crescimento real das receitas.
 
-## Economia: nível e variação
-Inflação mede variação de preços de uma cesta e período definidos. Redução da taxa de inflação não significa, por si, que todos os preços caíram. Se uma taxa positiva passa de 6% para 4%, há desaceleração do crescimento dos preços, não redução automática do nível geral ao patamar anterior. Em indicadores, confira taxa mensal, acumulado no ano e doze meses antes de comparar.
+### 5. Logística e Dinâmica Econômica de Rondônia
+Porto Velho consolida-se como polo geoeconômico de Rondônia ao integrar a rodovia federal **BR-364** à **Hidrovia do Rio Madeira**, operando como nó central de escoamento da produção agropecuária (soja, milho, carne bovina, café robusta amazônico e piscicultura) em direção aos portos exportadores do Arco Norte.`,
+    summary: String.raw`Rio Madeira: cheia histórica de 2014 (19,74 m) e seca histórica recorde de 2024 (25 cm em set/2024 e 19 cm em out/2024). Queimadas geraram PM2,5 > 300 µg/m³, sobrecarregando a rede da SEMUSA. Mitigação combate as causas do aquecimento; Adaptação ajusta a saúde e as cidades aos impactos. EC 132/2023 criou o IVA Dual (CBS federal e IBS subnacional).
 
-Os fatos acima foram selecionados como casos datados para estudo. Para notícias posteriores, preserve o mesmo método: fonte, data do evento, data da publicação, recorte territorial e distinção entre anúncio e execução.
-
-## Porto Velho e Rondônia nos últimos 5 anos: extremos hidrológicos, energia e logística
-Para a prova de ACE em Porto Velho, conecte os eventos globais e nacionais à realidade do **Rio Madeira** e do Estado de Rondônia:
-- **Contraste hidrológico histórico no Rio Madeira:** enquanto em **2014** Porto Velho enfrentou a maior cheia histórica registrada (ultrapassando 19,7 metros na régua local e isolando trechos da BR-364), nos anos de **2023 e 2024** o Rio Madeira registrou **as mais severas estiagens (secas extremas)** da série histórica, chegando a cotas inferiores a 1 metro em Porto Velho.
-- **Impactos diretos da seca extrema (2023–2024) em Porto Velho:** interrupção temporária ou restrição da navegação de comboios de grãos na **Hidrovia do Madeira**, redução temporária da geração nas usinas hidrelétricas a fio d'água do Complexo do Madeira (**UHE Santo Antônio** e **UHE Jirau**), isolamento de comunidades ribeirinhas do **Baixo Madeira** (como Nazaré, Calama, São Carlos e Demarcação), necessidade de operações humanitárias de abastecimento de água potável/insumos de saúde e agravamento da poluição atmosférica por fumaça de queimadas no período seco.
-- **Dinâmica econômica estadual:** Rondônia consolidou-se nos últimos anos como polo do agronegócio na Amazônia Ocidental (soja, milho, pecuária bovina de corte e leite, café robusta/amazônico e piscicultura de peixes nativos como o tambaqui), tendo na **BR-364** e na **Hidrovia do Madeira** (porto organizado de Porto Velho rumo a Itacoatiara/AM e Santarém/PA) seu corredor estratégico de exportação (Arco Norte).`,
-    summary:`Estude fatos datados com causas, instituições e impactos. Enchentes, secas e COP30 conectam clima, infraestrutura e políticas. Inflação menor não significa preços menores. Não confunda anúncio com execução.
-
-| Eixo de Atualidades (2021–2026) | Fato / Fenômeno Central | Repercussão em Porto Velho / Rondônia / Brasil | Ponto de Atenção para Prova |
+| Fenômeno / Marco Recente | Dados Oficiais e Parâmetros | Repercussão em Porto Velho / Rondônia | Ponto Crítico para a Banca IBGP |
 | --- | --- | --- | --- |
-| **Estiagem Severa na Amazônia (2023–2024)** | Níveis mínimos históricos no Rio Madeira (abaixo de 1m na régua de Porto Velho). | Isolamento de distritos do Baixo Madeira, restrição na Hidrovia do Madeira e impacto nas UHEs Santo Antônio e Jirau (usinas a fio d'água). | Contrastar a seca histórica de **2023–2024** com a grande cheia histórica de **2014**. |
-| **Desastre Climático no RS (Maio/2024)** | Chuvas extremas nas bacias do Taquari, Caí, Jacuí e Guaíba. | Inundação de centenas de municípios gaúchos, crise de infraestrutura e aumento de casos de **leptospirose** pós-enchente. | Diferenciar perigo meteorológico natural de vulnerabilidade socioespacial. |
-| **COP30 no Brasil (Belém/PA — Nov/2025)** | 30ª Conferência das Nações Unidas sobre Mudança do Clima na Amazônia. | Debate sobre NDCs, transição energética, Fundo Florestas Tropicais e financiamento para **adaptação** e **mitigação**. | **Mitigação** = reduzir emissões de GEE; **Adaptação** = preparar cidades e serviços para impactos climáticos. |
-| **Logística e Economia de Rondônia** | Eixo **BR-364** + **Hidrovia do Madeira** (Corredor do Arco Norte). | Escoamento de soja, milho, carne bovina, café robusta e piscicultura (tambaqui); setor de serviços e administração pública forte na capital. | Porto Velho articula o modal rodoviário (BR-364/BR-319) ao hidroviário (Rio Madeira). |`,
-    questions:[
-      {q:'[Autoral] Uma inflação anual positiva passa de 6% para 4%. Isso significa necessariamente que:',options:['Todos os preços caíram.', 'A velocidade de crescimento do nível de preços diminuiu no recorte do indicador.', 'O nível de preços retornou ao do ano anterior.', 'A inflação deixou de medir variações.'],ans:1,difficulty:'Intermediário',questionType:'Interpretação',comment:'Gabarito: B. Uma taxa de inflação positiva menor (de 6% para 4%) indica desinflação/desaceleração da alta de preços: os preços continuam subindo, porém em ritmo menor. Erro da A: queda generalizada de preços seria deflação (taxa negativa); erro da C: o nível geral continua 4% acima do ano anterior; erro da D: o índice (como o IPCA) segue medindo a variação da cesta.'},
-      {q:'[Autoral] Reforçar a capacidade de uma comunidade enfrentar enchentes é exemplo de:',options:['Adaptação aos impactos climáticos.', 'Eliminação automática de todas as emissões.', 'Uma medida sem relação com vulnerabilidade.', 'Garantia de que não haverá chuva.'],ans:0,difficulty:'Fácil',questionType:'Atualidades e Clima',comment:'Gabarito: A. Adaptação climática ajusta infraestrutura, drenagem e serviços de saúde para reduzir danos diante de eventos extremos. Erro da B: redução de gases de efeito estufa chama-se mitigação; erro da C: adaptar atua diretamente na redução da vulnerabilidade; erro da D: nenhuma obra impede eventos pluviométricos atmosféricos.'},
-      {q:'[Autoral] Nos anos de 2023 e 2024, a bacia do Rio Madeira em Porto Velho/RO registrou um fenômeno hidroclimático extremo amplamente noticiado pela imprensa nacional e monitorado por órgãos como ANA, CPRM/SGB e Cemaden. Esse evento consistiu em:',options:['Seca (estiagem) severa histórica, que levou o Rio Madeira aos menores níveis já registrados em Porto Velho, dificultando a navegação na hidrovia, o acesso fluvial aos distritos do Baixo Madeira e a operação plena das hidrelétricas.', 'Congelamento integral da calha do Rio Madeira durante o mês de julho.', 'Extinção definitiva das usinas hidrelétricas de Santo Antônio e Jirau por terremoto.', 'Transposição das águas do Rio São Francisco para abastecer o Lago de Cuniã.'],ans:0,difficulty:'Fácil',questionType:'Atualidades Regionais',comment:'Gabarito: A. Em 2023 e 2024, o Rio Madeira atingiu níveis historicamente baixos em Porto Velho, afetando o transporte fluvial do Arco Norte, comunidades do Baixo Madeira e hidrelétricas a fio d’água. Erro da B: não ocorre congelamento fluvial em clima equatorial amazônico; erro da C: Santo Antônio e Jirau sofreram redução de vazão, não destruição sísmica; erro da D: o Lago de Cuniã integra a própria bacia do Madeira, sem ligação com o São Francisco.'},
-      {q:'[Autoral] Do ponto de vista logístico e geoeconômico, a importância estratégica do município de Porto Velho para o escoamento da produção agropecuária de Rondônia e parte de Mato Grosso decorre principalmente da interligação entre:',options:['A rodovia federal BR-364 e a Hidrovia do Rio Madeira, compondo um dos principais corredores de exportação do chamado Arco Norte.', 'A ferrovia transcontinental em operação diária até o Oceano Pacífico e o porto marítimo de Ji-Paraná.', 'O gasoduto Brasil-Bolívia e o canal fluvial do Rio Tietê.', 'A rodovia BR-101 litorânea e o porto oceânico de Guajará-Mirim.'],ans:0,difficulty:'Fácil',questionType:'Geografia Econômica',comment:'Gabarito: A. Porto Velho articula o transporte rodoviário pela BR-364 ao transporte hidroviário no Porto Organizado de Porto Velho/Madeira rumo ao Amazonas/Arco Norte. Erro da B: não existe ferrovia ao Pacífico operando nem porto marítimo em Ji-Paraná; erro da C: gasoduto Brasil-Bolívia e Rio Tietê ficam no Centro-Sul; erro da D: BR-101 é rodovia costeira e Guajará-Mirim é fronteira fluvial sem porto oceânico.'},
-      {q:'[Autoral] A realização da 30ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima (COP30) em Belém (PA), na Amazônia brasileira, colocou em evidência os conceitos de mitigação e adaptação climática. No contexto da saúde coletiva e da gestão municipal, constitui medida típica de ADAPTAÇÃO:',options:['Estruturar planos de contingência para manter o abastecimento de água potável, a assistência de saúde e a vigilância de endemias em comunidades ribeirinhas durante períodos de seca ou cheia extremas.', 'Proibir o funcionamento de todas as unidades básicas de saúde para economizar energia elétrica.', 'Substituir o calendário nacional de vacinação por créditos de carbono industriais.', 'Desativar o monitoramento hidrometeorológico dos rios amazônicos.'],ans:0,difficulty:'Intermediário',questionType:'Caso Prático ACE',comment:'Gabarito: A. Planos de contingência para continuidade da assistência, água potável e vigilância de vetores/doenças em cheias e estiagens preparam a comunidade e o SUS para impactos climáticos (adaptação). Erro da B: fechar UBS agrava a vulnerabilidade sanitária; erro da C: vacinação e mercado de carbono não são substituíveis entre si; erro da D: o monitoramento hidrometeorológico (ANA/Cemaden/SGB) é essencial à resposta preventiva.'},
+| **Cheia Histórica de 2014** | Cota recorde de **19,74 metros** na régua de Porto Velho (abril de 2014). | Alagamento de bairros da orla, interdição da BR-364 sentido Acre e isolamento terrestre. | Contrastar com a seca histórica recorde de 2024. |
+| **Seca Histórica de 2024** | Cota mínima absoluta de **25 cm** em 23/09/2024 (repique de 19 cm em out/2024). | Restrição de barcaças na Hidrovia do Madeira, isolamento fluvial do Baixo Madeira e redução de geração nas UHEs. | A menor marca fluvial em mais de 50 anos de medições oficiais da ANA/SGB. |
+| **Crise de Queimadas e $PM_{2,5}$** | Partículas finas ultrapassando **$300\ \mu\text{g/m}^3$** (limite OMS: $15\ \mu\text{g/m}^3$). | Sobrecarga de urgências na SEMUSA (UPAs Sul/Leste/Jaci) por asma e bronquite em crianças/idosos. | O $PM_{2,5}$ tem diâmetro $< 2,5\ \mu\text{m}$, penetrando nos alvéolos pulmonares e corrente sanguínea. |
+| **Mitigação vs Adaptação (COP30)** | Belém/PA sediou a conferência do clima em novembro de 2025. | Estruturação de planos de contingência sanitária do SUS para seca e inundação extrema. | **Mitigação** reduz emissões (causa); **Adaptação** protege a saúde pública dos impactos (efeito). |
+| **Reforma Tributária (EC 132/2023)** | Modelo do **IVA Dual**: **CBS** (União) + **IBS** (Estados e Municípios). | IBS unifica ICMS e ISS com arrecadação destinada ao município consumidor. | O Imposto Seletivo ("pecado") taxa itens prejudiciais à saúde/ambiente. |`,
+    questions: [
+      {
+        q: '[Autoral] Em relação aos extremos hidrológicos registrados no Rio Madeira no município de Porto Velho nos anos recentes e suas consequências socioeconômicas e sanitárias, assinale a afirmativa CORRETA:',
+        options: [
+          'Em setembro de 2024, o Rio Madeira registrou a menor cota de sua série histórica oficial em Porto Velho, marcando 25 cm na régua da estação fluviométrica, o que restringiu o tráfego de comboios na Hidrovia do Madeira e isolou distritos fluviais do Baixo Madeira.',
+          'O Rio Madeira manteve-se com nível estável e superior a 20 metros em todos os meses de 2023 e 2024, sem impacto sobre a navegação.',
+          'A seca histórica do Rio Madeira permitiu o acesso rodoviário pavimentado imediato a distritos exclusivamente fluviais como Calama e Nazaré.',
+          'As usinas hidrelétricas de Santo Antônio e Jirau operaram com aumento quádruplo de geração elétrica devido à estiagem prolongada.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Atualidades Regionais',
+        comment: 'Gabarito: A. Em 23 de setembro de 2024, o Rio Madeira atingiu a cota mínima histórica de 25 cm no porto de Porto Velho (superando o recorde anterior de 1,10 m de outubro de 2023 e atingindo repique de 19 cm em outubro de 2024), paralisando barcaças na hidrovia e isolando comunidades ribeirinhas do Baixo Madeira. Erro da B: a cota de 19,74 m foi registrada na cheia de 2014, enquanto 2023-2024 registraram secas recordes; erro da C: Calama e Nazaré não possuem acesso rodoviário, dependendo da navegação fluvial; erro da D: as usinas a fio d\'água reduziram sua capacidade de geração de energia devido à baixa vazão do rio.'
+      },
+      {
+        q: '[Autoral] Durante o segundo semestre de 2024, Porto Velho enfrentou severa crise de poluição atmosférica decorrente de queimadas florestais na Amazônia. Sobre os impactos desse fenômeno na saúde pública e na rede municipal de saúde (SEMUSA), é CORRETO afirmar:',
+        options: [
+          'A concentração de material particulado fino ($PM_{2,5}$) superou 300 $\\mu\\text{g/m}^3$, provocando sobrecarga nas UPAs e UBSs por crises respiratórias agudas (asma, bronquite e pneumonia), especialmente entre crianças e idosos.',
+          'A fumaça florestal atuou como broncodilatador benéfico e reduziu a zero as internações por síndromes respiratórias agudas na capital.',
+          'As partículas $PM_{2,5}$ não penetram nos pulmões por possuírem diâmetro aerodinâmico superior a 50 micrômetros.',
+          'A recomendação técnica da Secretaria Municipal de Saúde foi a prática intensiva de maratonas ao ar livre ao meio-dia sob fumaça.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Atualidades e Saúde',
+        comment: 'Gabarito: A. As queimadas de 2024 elevaram os níveis de PM2,5 a patamares dezenas de vezes superiores ao limite diário recomendado pela OMS (15 µg/m³), causando intoxicação e sobrecarga na rede de urgência e emergência da SEMUSA. Erro da B: fumaça é altamente tóxica e agrava patologias respiratórias; erro da C: PM2,5 possui diâmetro inferior a 2,5 micrômetros, penetrando diretamente nos alvéolos pulmonares e na corrente sanguínea; erro da D: a recomendação formal foi suspender exercícios ao ar livre e intensificar hidratação.'
+      },
+      {
+        q: '[Autoral] No âmbito das discussões sobre mudanças climáticas e da realização da COP30 em Belém/PA em novembro de 2025, diferenciam-se os conceitos de mitigação e adaptação. No planejamento da vigilância em saúde ambiental, constitui medida típica de ADAPTAÇÃO climática:',
+        options: [
+          'Estruturar planos de contingência locais para garantir água potável e assistência do ACE a comunidades ribeirinhas vulneráveis durante secas e enchentes extremas.',
+          'Substituir combustíveis fósseis por energia solar em indústrias automobilísticas na Europa para diminuir as emissões globais de carbono.',
+          'Desativar as estações de monitoramento hidrológico da bacia amazônica para reduzir os gastos públicos com sensores fluviais.',
+          'Negociar créditos de carbono florestais em bolsas de valores internacionais.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Caso Prático ACE',
+        comment: 'Gabarito: A. Adaptação climática consiste em preparar as comunidades, os serviços de saúde e a infraestrutura urbana para resistir e responder aos impactos de eventos climáticos já em curso. Erro da B: reduzir emissões de gases de efeito estufa é a definição de Mitigação; erro da C: desativar monitoramento amplia a vulnerabilidade da população; erro da D: créditos de carbono integram mecanismos econômicos de mitigação de emissões.'
+      },
+      {
+        q: '[Autoral] A Emenda Constitucional nº 132/2023 instituiu a Reforma Tributária do consumo no Brasil, criando o modelo do Imposto sobre Valor Agregado (IVA) Dual. De acordo com o novo texto constitucional, o tributo de competência compartilhada entre Estados e Municípios que substituirá o ICMS e o ISS é denominado:',
+        options: [
+          'IBS (Imposto sobre Bens e Serviços).',
+          'CBS (Contribuição sobre Bens e Serviços).',
+          'Imposto Seletivo (IS).',
+          'IPVA Náutico Distrital.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Legislação e Economia',
+        comment: 'Gabarito: A. No IVA Dual da EC 132/2023, o IBS (Imposto sobre Bens e Serviços) é subnacional (Estados e Municípios), unificando ICMS e ISS com cobrança no destino. A CBS (Contribuição sobre Bens e Serviços) é de competência da União (federal), substituindo PIS e Cofins. O Imposto Seletivo incide sobre bens prejudiciais à saúde ou ao meio ambiente. Erro da B: CBS é federal; erro da C: Imposto Seletivo é tributo federal extrafiscal; erro da D: não é o substituto do ICMS/ISS.'
+      },
+      {
+        q: '[Autoral] Em relação à economia do Estado de Rondônia e ao papel logístico de Porto Velho no cenário recente dos últimos 5 anos, assinale a afirmativa CORRETA:',
+        options: [
+          'Porto Velho atua como elo logístico estratégico integrando o transporte rodoviário pela BR-364 à Hidrovia do Madeira, escoando safras de grãos de Rondônia e Mato Grosso pelo Corredor do Arco Norte.',
+          'Rondônia deixou de produzir café e cacau para dedicar 100% de seu território à extração de carvão mineral subterrâneo.',
+          'O Porto Organizado de Porto Velho opera exclusivamente com submarinos nucleares que navegam até os Andes bolivianos.',
+          'O Estado de Rondônia não possui rebanho bovino e importa carne vermelha de outros continentes.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Geografia Econômica',
+        comment: 'Gabarito: A. Porto Velho articula o modal rodoviário (BR-364) ao hidroviário (Hidrovia do Madeira rumo aos portos de Itacoatiara e Santarém), compondo o Arco Norte de exportação do agronegócio. Erro da B: Rondônia destaca-se na produção de café robusta amazônico e cacau, sem extração de carvão mineral; erro da C: o porto opera comboios de barcaças fluviais; erro da D: Rondônia possui um dos maiores rebanhos bovinos do país com certificação de área livre de febre aftosa.'
+      }
     ],
-    flashcards:[
-      ['Mitigação e adaptação são sinônimos?', 'Não. Mitigação atua sobre causas do aquecimento (redução de emissões); adaptação reduz vulnerabilidade e impactos sobre a população e os serviços.'],
-      ['Taxa de inflação menor é preço menor?', 'Não necessariamente. Uma taxa positiva menor indica desaceleração (os preços continuam subindo, porém mais devagar).'],
-      ['Quais são as duas grandes usinas hidrelétricas instaladas no Rio Madeira em Porto Velho e qual o seu modelo operacional?', 'UHE Santo Antônio e UHE Jirau; ambas operam no modelo a fio d’água (reduzindo a área alagada, mas dependendo diretamente da vazão corrente do rio).'],
+    flashcards: [
+      [
+        'Quais foram as cotas extremas históricas do Rio Madeira na cheia de 2014 e na seca de 2024?',
+        'Cheia histórica centenária de 2014: 19,74 metros; Seca histórica recorde absoluta de 2024: 25 centímetros em setembro (com repique de 19 centímetros em outubro).'
+      ],
+      [
+        'Qual a diferença entre Mitigação e Adaptação Climática no contexto da COP30?',
+        'Mitigação combate as causas do aquecimento global reduzindo ou capturando emissões de GEE; Adaptação ajusta as cidades, os serviços de saúde e a população aos impactos e vulnerabilidades dos eventos climáticos já em curso.'
+      ],
+      [
+        'Quais são os dois tributos que compõem o modelo de IVA Dual criado pela EC 132/2023?',
+        'A CBS (Contribuição sobre Bens e Serviços), federal, que substitui PIS e Cofins; e o IBS (Imposto sobre Bens e Serviços), compartilhado entre Estados e Municípios, que substitui ICMS e ISS.'
+      ]
     ],
-    references:[
-      {title:'Agência Brasil — enchentes do RS, retrospectiva de 2025',url:'https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/um-ano-das-enchentes-no-rs-do-caos-lenta-reconstrucao',section:'Evento de maio de 2024 e consequências.'},
-      {title:'Cemaden — secas de 2023–2024',url:'https://www.gov.br/cemaden/pt-br/assuntos/noticias-cemaden/cemaden-analisa-secas-recentes-no-brasil-e-apresenta-diagnostico-e-projecoes-como-subsidio-para-a-cop-16/',section:'Diagnóstico dos eventos recentes de seca.'},
-      {title:'MMA — COP30',url:'https://www.gov.br/mma/pt-br/assuntos/cop30/cop30/',section:'Conferência em Belém em novembro de 2025; temas de adaptação e mitigação.'},
-      {title:'IBGE — IPCA',url:'https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-ipca.html',section:'O que é; períodos de referência e séries.'},
-    ],
+    references: [
+      {
+        title: 'SGB/CPRM & ANA — Sistema de Alerta Hidrológico da Bacia do Rio Madeira',
+        url: 'https://www.sgb.gov.br/siah/',
+        section: 'Relatórios de monitoramento das cotas fluviométricas históricas da estação Porto Velho.'
+      },
+      {
+        title: 'Cemaden — Diagnóstico das Secas Recentes na Amazônia',
+        url: 'https://www.gov.br/cemaden/pt-br/assuntos/noticias-cemaden/cemaden-analisa-secas-recentes-no-brasil-e-apresenta-diagnostico-e-projecoes-como-subsidio-para-a-cop-16/',
+        section: 'Impactos hidroclimáticos da estiagem de 2023-2024 e vulnerabilidades regionais.'
+      },
+      {
+        title: 'Planalto — Emenda Constitucional nº 132/2023 (Reforma Tributária)',
+        url: 'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm',
+        section: 'Instituição do IVA Dual (CBS e IBS), Imposto Seletivo e Cesta Básica Nacional.'
+      }
+    ]
   },
   {
-    id:'atu_2',title:'Patrimônio, memória e movimentos culturais em Rondônia',
-    theory:`## Cultura não é só um monumento
-Cultura envolve modos de viver, criar, expressar e transmitir conhecimentos. Patrimônio cultural pode incluir bens materiais, como edifícios e acervos, e referências imateriais, como saberes, celebrações e formas de expressão. A classificação não mede superioridade: um prédio não vale mais que um saber apenas por ser material.
+    id: 'atu_2',
+    title: 'Patrimônio Histórico, Ferrovia Madeira-Mamoré, Cultura Popular e Povos Tradicionais',
+    theory: String.raw`### 1. Estrada de Ferro Madeira-Mamoré (EFMM): História, Tratado de Petrópolis e Memória do Trabalho
+A fundação e expansão do núcleo urbano de Porto Velho estão indissociavelmente ligadas à saga de construção da Estrada de Ferro Madeira-Mamoré (EFMM):
+- **Tratado de Petrópolis (17 de novembro de 1903)**: firmado entre o Brasil (diplomacia conduzida pelo Barão do Rio Branco) e a Bolívia para solucionar a Questão do Acre. O Brasil incorporou o Acre mediante pagamento de 2 milhões de libras esterlinas e o compromisso formal de construir uma ferrovia que vencesse o trecho encachoeirado dos rios Madeira e Mamoré, viabilizando o escoamento da borracha boliviana até o porto de Porto Velho e o Oceano Atlântico.
+- **Construção (1907 a 1912)**: executada pelo consórcio norte-americano de Percival Farquhar (*Madeira-Mamoré Railway Company*). Seus 366 km de extensão ligaram Porto Velho a Guajará-Mirim, contornando 20 cachoeiras fluviais intransponíveis à navegação de grande porte.
+- **Mão de Obra e Imigração Antilhana (Barbadianos)**: operários de mais de 25 nacionalidades trabalharam no canteiro, com destaque para trabalhadores afro-caribenhos de língua inglesa originários de Barbados e de outras ilhas das Antilhas britânicas (**barbadianos**). Eles fundaram bairros históricos como o Alto do Bode (atual bairro Triângulo), introduziram vocábulos ingleses, a prática do críquete e elementos da culinária antilhana.
+- **Atuação Sanitária de Oswaldo Cruz (1910)**: diante da mortandade epidêmica de trabalhadores por impaludismo (malária), a companhia contratou o sanitarista Dr. Oswaldo Cruz e o Dr. Belisário Penna, que atuaram no Hospital da Candelária em Porto Velho, estabelecendo o uso preventivo obrigatório diário de quinino e a vedação de alojamentos com telas de proteção.
+- **Tombamento e Revitalização**: desativada em 1972, a EFMM foi tombada pelo IPHAN como Patrimônio Cultural Brasileiro em 2005. Em 2024, o Complexo da Estrada de Ferro Madeira-Mamoré foi revitalizado pela Prefeitura e reaberto à visitação pública como espaço histórico, cultural e turístico.
 
-## Madeira-Mamoré como objeto histórico
-O patrimônio ferroviário de Porto Velho permite estudar transporte, trabalho, migrações e transformações urbanas. Sua preservação não deve apagar conflitos, condições de vida dos trabalhadores e participação de diferentes grupos. A história não se resume à data de inauguração ou ao nome de um empreendimento.
+### 2. As Três Caixas d'Água ("As Três Marias"): Arquitetura e Símbolo Cívico
+- **Origem e Fabricação**: reservatórios metálicos cilíndricos erguidos em ferro entre **1910 e 1912**, importados dos Estados Unidos e fabricados pela célebre empresa *Chicago Bridge & Iron Works*.
+- **Finalidade Histórica**: foram erguidas no ponto mais alto da cidade nascente para armazenar água encanada e abastecer as oficinas da EFMM, as caldeiras das locomotivas a vapor e os primeiros bairros residenciais de Porto Velho.
+- **Heráldica Oficial**: carinhosamente chamadas de "As Três Marias", constituem o ícone arquitetônico central do Brasão de Armas e da Bandeira Oficial do Município de Porto Velho (Art. 3º da Lei Orgânica Municipal).
 
-## Flor do Maracujá e circulação cultural
-O Arraial Flor do Maracujá reúne manifestações como quadrilhas e bois-bumbás, com continuidade e recriação ao longo de suas edições. Uma tradição pode incorporar elementos novos e continuar reconhecida pelos seus participantes. Cultura popular não é uma peça imóvel do passado: há transmissão entre gerações, organização comunitária, trabalho artístico e circulação econômica.
+### 3. Real Forte Príncipe da Beira (1776): Sentinela Colonial do Guaporé
+- **Localização**: situado na margem direita do Rio Guaporé, no atual município de **Costa Marques/RO** (não se localiza em Porto Velho!).
+- **Histórico**: monumento militar colonial português iniciado em 1776 pelo governador Luís de Albuquerque de Melo Pereira e Cáceres sob o traçado do engenheiro Domingos Sambuceti, para garantir a posse das terras lusitanas da fronteira oeste frente ao Império Espanhol no contexto do Tratado de Madri (1750) e Tratado de Santo Ildefonso (1777); tombado pelo IPHAN em 1950.
 
-## Povos e identidades
-Não trate todos os povos indígenas como um grupo homogêneo nem use ribeirinho, quilombola e indígena como categorias intercambiáveis. Cada trajetória envolve relações com território, língua, memória e direitos. A análise cultural deve nomear grupos e práticas quando a fonte os identifica, evitando generalizações que apagam diferenças.
+### 4. Manifestações Culturais Populares: Arraial Flor do Maracujá e Duelo na Fronteira
+- **Arraial Flor do Maracujá**: fundado em 1982 no Parque dos Tanques em Porto Velho, é considerado o maior festival folclórico e junino do Estado de Rondônia e um dos maiores da Região Norte, celebrando anualmente a disputa de dezenas de quadrilhas juninas e grupos de bois-bumbás.
+- **Duelo na Fronteira (Guajará-Mirim)**: festival folclórico de bois-bumbás na fronteira Brasil-Bolívia, reunindo o confronto histórico entre o Boi Malhadinho (azul e branco) e o Boi Flor do Campo (vermelho e branco).
+- **Festa do Divino Espírito Santo**: celebração religiosa e fluvial secular realizada nos rios Guaporé e Madeira, conduzida com forte protagonismo por comunidades quilombolas e ribeirinhas (como Pedras Negras e Santo Antônio do Guaporé).
 
-## Movimento artístico e contexto
-Renascimento, Barroco, Modernismo e manifestações contemporâneas são recortes que precisam ser relacionados a contextos de produção, linguagens e debates. Um movimento não se identifica por um único adjetivo. Em questões comparativas, observe mudança de formas, diálogo com tradições e relação com o público, em vez de concluir que todo artista de um período segue um modelo idêntico.
+### 5. Povos Originários e Comunidades Tradicionais de Porto Velho
+O município abriga expressiva diversidade étnica e cultural com impacto direto na organização da atenção à saúde indígena e ribeirinha pelo SUS:
+- **Povo Karipuna**: habitam a Terra Indígena Karipuna, situada entre os municípios de Porto Velho e Nova Mamoré (no entorno do distrito de União Bandeirantes); pertencem ao tronco linguístico Tupi-Kagwahiva e enfrentam pressões históricas por invasões e desmatamento;
+- **Povo Karitiana**: habitam a TI Karitiana ao sul do município de Porto Velho; família linguística Arikém; preservam tradições rituais e artefatos de cestaria e cerâmica;
+- **Povo Kaxarari**: habitam a TI Kaxarari na tríplice fronteira de Rondônia, Acre e Amazonas, com acesso pela rodovia BR-364 no distrito de Extrema; família linguística Pano;
+- **Ribeirinhos da RESEX Lago do Cuniã**: reserva extrativista federal na margem esquerda do Baixo Madeira, internacionalmente reconhecida pela gestão comunitária sustentável da pesca do pirarucu e do manejo do jacaré-açu.`,
+    summary: String.raw`EFMM (1907-1912) decorreu do Tratado de Petrópolis (1903) para contornar cachoeiras; operários barbadianos e missão sanitária de Oswaldo Cruz (1910). As Três Caixas d'Água (Chicago Bridge) são símbolo no brasão de PVH. Forte Príncipe da Beira fica em Costa Marques. Flor do Maracujá é o maior festival junino de RO.
 
-## Caso resolvido
-Um enunciado diz que preservar patrimônio significa proibir qualquer uso social e manter silêncio sobre conflitos históricos. A conclusão é inadequada. Preservação pode articular conservação, pesquisa, acesso e educação patrimonial; suas condições concretas dependem dos instrumentos de proteção. Um evento cultural frequentado pela comunidade também pode ser objeto de estudo, sem precisar ser convertido em monumento físico.
-
-## Marcos do patrimônio histórico e cultural de Porto Velho e Rondônia
-Para questões específicas de Humanidades e Cultura Local, conheça os principais bens materiais e manifestações culturais rondonienses:
-- **Estrada de Ferro Madeira-Mamoré (EFMM):** construída entre **1907 e 1912** como compromisso assumido pelo Brasil no **Tratado de Petrópolis (1903)** (que anexou o Acre ao Brasil mediante compensação à Bolívia para vencer o trecho encachoeirado dos rios Madeira e Mamoré entre Porto Velho e Guajará-Mirim, com 366 km). Recebeu trabalhadores de dezenas de nacionalidades (notadamente barbadianos/antilhanos, espanhóis, gregos, italianos e nordestinos brasileiros) e teve o sanitarista **Oswaldo Cruz** contratado em 1910 para combater a altíssima mortalidade por malária. Foi desativada em 1972 e tombada pelo IPHAN como Patrimônio Cultural Brasileiro.
-- **As Três Caixas d'Água ("As Três Marias"):** erguidas em ferro entre **1910 e 1912** pela *Chicago Bridge & Iron Works* para abastecer o complexo ferroviário de Porto Velho; estão estampadas no brasão e na bandeira do município.
-- **Forte Príncipe da Beira:** fortificação militar portuguesa iniciada em **1776** às margens do Rio Guaporé (atual município de **Costa Marques/RO**), símbolo da consolidação da fronteira oeste no período colonial pombalino e patrimônio tombado pelo IPHAN.
-- **Festas e manifestações populares:** o **Arraial Flor do Maracujá** em Porto Velho (amostra folclórica de quadrilhas e bois-bumbás criada na década de 1980), o **Festival Folclórico de Guajará-Mirim / Duelo na Fronteira** (disputa entre o **Boi-Bumbá Malhadinho**, azul e branco, e o **Boi-Bumbá Flor do Campo**, vermelho e branco) e a **Festa do Divino Espírito Santo** no Vale do Guaporé.`,
-    summary:`Patrimônio inclui dimensões materiais e imateriais. Madeira-Mamoré articula memória do trabalho e cidade; Flor do Maracujá articula tradição e recriação. Grupos culturais não são homogêneos. Preservação e uso social exigem análise.
-
-| Patrimônio / Manifestação Cultural | Localização e Origem Histórica | Natureza e Significado Cultural | Destaque para a Prova |
+| Patrimônio / Manifestação | Origem Histórica e Localização | Significado Cultural e Social | Ponto Crítico para a Banca IBGP |
 | --- | --- | --- | --- |
-| **Estrada de Ferro Madeira-Mamoré (EFMM)** | Porto Velho a Guajará-Mirim (366 km); construída de **1907 a 1912** após o **Tratado de Petrópolis (1903)**. | Patrimônio material ferroviário tombado pelo IPHAN; berço do núcleo urbano de Porto Velho. | Imigração afro-caribenha (**barbadianos**), ciclo da borracha e atuação sanitária de **Oswaldo Cruz** (1910). |
-| **As Três Caixas d'Água ("As Três Marias")** | Centro histórico de Porto Velho (construídas entre 1910 e 1912). | Reservatórios metálicos cilíndricos da era ferroviária; ícone visual no brasão e na bandeira municipal. | Símbolo histórico e arquitetônico da capital rondoniense. |
-| **Forte Príncipe da Beira** | Margem direita do Rio Guaporé, em **Costa Marques/RO** (iniciado em **1776**). | Monumento militar colonial português de defesa da fronteira oeste; tombado pelo IPHAN. | Não fica em Porto Velho; situa-se em Costa Marques, no Vale do Guaporé. |
-| **Arraial Flor do Maracujá e Duelo na Fronteira** | Porto Velho (Flor do Maracujá) e Guajará-Mirim (Malhadinho × Flor do Campo). | Patrimônio cultural e folclórico (quadrilhas juninas e bois-bumbás). | Articulação entre cultura popular, identidade regional e economia criativa. |
-| **Festa do Divino e Comunidades Quilombolas** | Vale do Rio Guaporé (Pedras Negras, Santo Antônio do Guaporé, Forte Príncipe). | Patrimônio imaterial afro-amazônico e religioso com forte protagonismo quilombola e ribeirinho. | Reconhece a presença negra secular no Vale do Guaporé desde o século XVIII. |`,
-    questions:[
-      {q:'[Autoral] Uma celebração transmitida entre gerações exemplifica potencialmente patrimônio:',options:['Apenas mineral.', 'Imaterial.', 'Necessariamente sem valor histórico.', 'Que deixa de ser cultural se sofrer qualquer mudança.'],ans:1,difficulty:'Fácil',questionType:'Cultura e Patrimônio',comment:'Gabarito: B. Saberes, celebrações, danças e ofícios transmitidos entre gerações integram o patrimônio cultural imaterial (art. 216, CF/88). Erro da A: patrimônio mineral não se aplica a manifestações culturais vivas; erro da C: tradições comunitárias carregam memória e historicidade; erro da D: a cultura popular recria-se mantendo continuidade simbólica.'},
-      {q:'[Autoral] Estudar a Madeira-Mamoré de forma historicamente contextualizada exige considerar:',options:['Somente uma data isolada.', 'Transporte, trabalhadores, migrações e transformação urbana.', 'A inexistência de participação social.', 'Que patrimônio só pode ser estudado sem acesso público.'],ans:1,difficulty:'Fácil',questionType:'História Regional',comment:'Gabarito: B. A EFMM envolve geopolítica (Tratado de Petrópolis), logística do látex, migração trabalhadora (inclusive barbadianos), saneamento (Oswaldo Cruz) e urbanização de Porto Velho. Erro da A: data isolada empobrece a análise causal; erro da C: o complexo ferroviário mobilizou diversas comunidades e trabalhadores; erro da D: educação patrimonial pressupõe acesso, pesquisa e difusão social.'},
-      {q:'[Autoral] A construção da Estrada de Ferro Madeira-Mamoré (1907–1912), decisiva para o surgimento do núcleo urbano de Porto Velho, decorreu diretamente de qual acordo diplomático firmado pelo Brasil em 1903?',options:['Do Tratado de Petrópolis (1903), firmado com a Bolívia no contexto da questão do Acre, pelo qual o Brasil se comprometeu a construir a ferrovia para superar o trecho encachoeirado dos rios Madeira e Mamoré.', 'Do Tratado de Tordesilhas (1494), assinado para ligar o Rio de Janeiro a Lisboa.', 'Do Tratado de Versalhes (1919), que encerrou a Primeira Guerra Mundial.', 'Do Acordo de Assunção (1991), que criou o Mercosul.'],ans:0,difficulty:'Intermediário',questionType:'História Regional',comment:'Gabarito: A. Pelo Tratado de Petrópolis (1903), o Brasil incorporou o Acre e assumiu o compromisso de erguer a EFMM contornando as cachoeiras entre Porto Velho e Guajará-Mirim. Erro da B: Tratado de Tordesilhas dividiu terras coloniais em 1494 entre Portugal e Espanha; erro da C: Tratado de Versalhes é de 1919 pós-1ª Guerra; erro da D: Tratado de Assunção criou o Mercosul em 1991.'},
-      {q:'[Autoral] Entre os bens patrimoniais tombados em Rondônia, qual monumento militar do século XVIII (1776) localiza-se às margens do Rio Guaporé, no município de Costa Marques, e testemunha a disputa geopolítica colonial pela fronteira oeste?',options:['Real Forte Príncipe da Beira.', 'As Três Caixas d’Água da Praça das Três Marias.', 'Palácio Rio Madeira em Porto Velho.', 'Usina Hidrelétrica de Samuel em Candeias do Jamari.'],ans:0,difficulty:'Intermediário',questionType:'História Regional',comment:'Gabarito: A. O Real Forte Príncipe da Beira (iniciado em 1776 no período pombalino, em Costa Marques/RO) consolidou a fronteira oeste portuguesa no Vale do Guaporé. Erro da B: as Três Caixas d’Água são de 1910–1912 em Porto Velho; erro da C: o Palácio Rio Madeira é sede contemporânea do governo estadual; erro da D: a UHE Samuel é obra hidrelétrica da segunda metade do século XX no rio Jamari.'},
-      {q:'[Autoral] Sobre a formação sociocultural de Porto Velho durante a construção da Estrada de Ferro Madeira-Mamoré, destaca-se a contribuição de trabalhadores imigrantes afro-caribenhos que deixaram marcas profundas na memória, na língua e nos bairros históricos da capital, conhecidos como:',options:['Barbadianos (oriundos de Barbados e outras ilhas das Antilhas caribenhas).', 'Vikings escandinavos do século X.', 'Bandeirantes paulistas do ciclo do açúcar.', 'Imigrantes açorianos exclusivos do litoral catarinense.'],ans:0,difficulty:'Fácil',questionType:'História Regional',comment:'Gabarito: A. Trabalhadores antilhanos de língua inglesa — historicamente chamados barbadianos — tiveram papel central na construção da EFMM e na formação cultural de Porto Velho (como Alto do Bode/Triângulo). Erro da B: povos nórdicos medievais não atuaram na Amazônia do século XX; erro da C: bandeirantes paulistas atuavam no período colonial brasileiro; erro da D: açorianos colonizaram principalmente o litoral sul.'},
+| **Estrada de Ferro Madeira-Mamoré** | 1907 a 1912; 366 km entre Porto Velho e Guajará-Mirim. | Tratado de Petrópolis (1903); imigração de barbadianos (afro-caribenhos). | Ação sanitária de **Oswaldo Cruz** em 1910 na Candelária contra a malária. |
+| **As Três Caixas d'Água (Três Marias)** | Importadas dos EUA (*Chicago Bridge*), 1910–1912; Porto Velho. | Abastecimento ferroviário e urbano pioneiro; ícone visual da capital. | Estampadas no Brasão de Armas e na Bandeira de Porto Velho (Art. 3º LOM). |
+| **Real Forte Príncipe da Beira** | Iniciado em 1776 no Rio Guaporé, em **Costa Marques/RO**. | Fortaleza colonial militar portuguesa pombalina na fronteira oeste. | **Não fica em Porto Velho**; localiza-se em Costa Marques no Vale do Guaporé. |
+| **Arraial Flor do Maracujá** | Criado em 1982 no Parque dos Tanques, em Porto Velho. | Maior mostra folclórica de quadrilhas juninas e bois-bumbás de Rondônia. | Expressão da identidade cultural cabocla, nordestina e amazônica. |
+| **Povos Originários e RESEX Cuniã** | TIs Karipuna, Karitiana, Kaxarari e RESEX Lago do Cuniã. | Pluralidade étnica, territórios protegidos e saúde intercultural no SUS. | Karipuna no entorno de União Bandeirantes; RESEX Cuniã no Baixo Madeira. |`,
+    questions: [
+      {
+        q: '[Autoral] A construção da Estrada de Ferro Madeira-Mamoré (EFMM, 1907–1912) foi o marco fundador do núcleo urbano de Porto Velho. Sobre a história e o patrimônio da ferrovia, assinale a afirmativa CORRETA:',
+        options: [
+          'A EFMM foi construída para cumprir o Tratado de Petrópolis (1903), ligando Porto Velho a Guajará-Mirim para contornar cachoeiras fluviais, e contou com expressiva mão de obra de barbadianos (afro-caribenhos), além de receber a visita sanitária de Oswaldo Cruz em 1910.',
+          'A ferrovia foi inaugurada no século XVI pelo Barão de Mauá para ligar Porto Velho a Lisboa por via subterrânea.',
+          'O Tratado de Petrópolis foi assinado entre Brasil e França para permutar o território do Amapá pelo Rio Madeira.',
+          'A EFMM foi totalmente demolida em 1920 sem deixar nenhum vestígio material ou tombamento patrimonial.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'História Regional',
+        comment: 'Gabarito: A. A ferrovia derivou do Tratado de Petrópolis de 1903 (Brasil e Bolívia), contou com operários barbadianos e outros imigrantes, teve ações sanitárias de Oswaldo Cruz na Candelária em 1910 contra a malária e é tombada pelo IPHAN. Erro da B: inaugurada no início do século XX (1912), não no século XVI; erro da C: Tratado de Petrópolis foi entre Brasil e Bolívia no contexto da questão do Acre; erro da D: a ferrovia operou até 1972 e seu complexo foi tombado pelo IPHAN em 2005 e revitalizado em 2024.'
+      },
+      {
+        q: '[Autoral] As Três Caixas d\'Água, popularmente conhecidas como “As Três Marias”, localizadas no centro histórico de Porto Velho, constituem símbolo oficial do município. Sobre a origem e a função histórica desse monumento, é CORRETO afirmar:',
+        options: [
+          'Foram fabricadas nos Estados Unidos pela Chicago Bridge & Iron Works e instaladas entre 1910 e 1912 para abastecer a ferrovia e a população inicial de Porto Velho, figurando no Brasão e na Bandeira do Município.',
+          'Foram escavadas em granito natural por missionários jesuítas no século XVII para batismo de indígenas.',
+          'Trata-se de silos construídos em 2020 para armazenar café robusta amazônico para exportação.',
+          'Foram doadas pelo governo da Bolívia como indenização pela Guerra do Paraguai.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Patrimônio e História',
+        comment: 'Gabarito: A. As Três Caixas d\'Água são reservatórios metálicos cilíndricos erguidos entre 1910 e 1912 pela empresa norte-americana Chicago Bridge & Iron Works, símbolo heráldico estampado no brasão e na bandeira de Porto Velho. Erro da B: são estruturas de ferro importadas no início do século XX; erro da C: foram construídas para abastecimento de água no período da EFMM; erro da D: são ligadas à EFMM e ao capital da ferrovia.'
+      },
+      {
+        q: '[Autoral] No município de Costa Marques (RO), às margens do Rio Guaporé, ergue-se uma fortificação militar histórica do século XVIII (iniciada em 1776 no período pombalino), tombada pelo IPHAN e testemunho das disputas coloniais entre Portugal e Espanha na fronteira oeste, denominada:',
+        options: [
+          'Real Forte Príncipe da Beira.',
+          'Forte de Copacabana.',
+          'Fortaleza de Santa Cruz de Anhatomirim.',
+          'Forte dos Reis Magos.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Patrimônio Regional',
+        comment: 'Gabarito: A. O Real Forte Príncipe da Beira, em Costa Marques/RO, é a maior fortificação militar construída pela Coroa Portuguesa fora do litoral brasileiro. Erro da B: Copacabana fica no Rio de Janeiro; erro da C: Anhatomirim fica em Santa Catarina; erro da D: Reis Magos fica em Natal/RN.'
+      },
+      {
+        q: '[Autoral] Considerada a maior festa folclórica e junina de Rondônia e uma das mais expressivas da Região Norte, realizada anualmente no Parque dos Tanques em Porto Velho com disputas de quadrilhas juninas e bois-bumbás desde 1982, trata-se do:',
+        options: [
+          'Arraial Flor do Maracujá.',
+          'Festival Folclórico de Parintins.',
+          'Bumba Meu Boi de São Luís.',
+          'Círio de Nazaré.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Cultura Popular',
+        comment: 'Gabarito: A. O Arraial Flor do Maracujá é a festa folclórica símbolo de Porto Velho, com quadrilhas e bois-bumbás no Parque dos Tanques. Erro da B: Parintins ocorre no Amazonas; erro da C: Bumba Meu Boi tradicional ocorre no Maranhão; erro da D: Círio de Nazaré é procissão religiosa em Belém/PA.'
+      },
+      {
+        q: '[Autoral] Na composição étnica e sociocultural de Porto Velho e regiões vizinhas, destacam-se povos originários e comunidades tradicionais com atuação relevante para as políticas públicas de saúde intercultural do SUS. Sobre essas populações, assinale a correlação CORRETA:',
+        options: [
+          'A Terra Indígena Karipuna situa-se na região de influência de União Bandeirantes, e a RESEX Lago do Cuniã no Baixo Madeira é referência em manejo sustentável de recursos pesqueiros e fauna silvestre.',
+          'Todos os povos originários de Rondônia falam a mesma língua e residem em áreas urbanas sem demarcação territorial.',
+          'Os povos Karitiana e Kaxarari são originários da Patagônia chilena e migraram para Rondônia após 2020.',
+          'A Reserva Extrativista do Lago do Cuniã é uma mina de exploração de urânio enriquecido proibida para moradores tradicionais.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Diversidade Étnica',
+        comment: 'Gabarito: A. Os Karipuna têm TI no entorno de União Bandeirantes/Nova Mamoré, enquanto a RESEX Lago do Cuniã no Baixo Madeira destaca-se pelo manejo de jacarés e pirarucu. Erro da B: há grande diversidade linguística (troncos Tupi, Macro-Jê, Pano, etc.) e terras indígenas demarcadas; erro da C: Karitiana e Kaxarari são etnias nativas da Amazônia; erro da D: RESEX Cuniã é unidade de conservação de uso sustentável de base comunitária.'
+      }
     ],
-    flashcards:[
-      ['Material e imaterial indicam hierarquia de valor?', 'Não. São dimensões e instrumentos de reconhecimento diferentes (bens edificados/acervos versus saberes/celebrações/formas de expressão).'],
-      ['Tradição cultural pode mudar?', 'Sim. Transmissão entre gerações e recriação contemporânea coexistem na cultura viva.'],
-      ['Qual tratado diplomático deu origem à construção da EFMM (1907–1912) e quais cidades ela ligava?', 'O Tratado de Petrópolis (1903), firmado entre Brasil e Bolívia; a ferrovia ligava Porto Velho a Guajará-Mirim (366 km).'],
+    flashcards: [
+      [
+        'Qual acordo diplomático determinou a construção da Estrada de Ferro Madeira-Mamoré?',
+        'O Tratado de Petrópolis (1903), firmado entre o Brasil e a Bolívia, pelo qual o Brasil assumiu a obrigação de construir a ferrovia de 366 km para dar escoamento à borracha boliviana.'
+      ],
+      [
+        'Quem foram os barbadianos e qual a sua contribuição cultural para Porto Velho?',
+        'Trabalhadores afro-caribenhos de língua inglesa originários de Barbados e das Antilhas que trabalharam na EFMM e fundaram bairros históricos como o Alto do Bode (Triângulo), legando influências na culinária e vocabulário.'
+      ],
+      [
+        'Em qual município rondoniense fica localizado o Real Forte Príncipe da Beira e qual a sua data de início?',
+        'Fica localizado no município de Costa Marques/RO, às margens do Rio Guaporé; sua construção foi iniciada em 1776 no período colonial pombalino.'
+      ]
     ],
-    references:[{title:'Iphan — patrimônio ferroviário de Rondônia',url:'https://www.gov.br/iphan/pt-br/superintendencias/rondonia/patrimonio-ferroviario',section:'Madeira-Mamoré e formação urbana.'},{title:'Governo de Rondônia — Flor do Maracujá',url:'https://rondonia.ro.gov.br/portal/flordomaracuja/',section:'Quadrilhas, bois-bumbás e manifestações do evento.'}],
+    references: [
+      {
+        title: 'IPHAN — Patrimônio Ferroviário de Rondônia (Complexo EFMM)',
+        url: 'https://www.gov.br/iphan/pt-br/superintendencias/rondonia/patrimonio-ferroviario',
+        section: 'Histórico da ferrovia, Tratado de Petrópolis, operários e tombamento cultural.'
+      },
+      {
+        title: 'Governo do Estado de Rondônia — Arraial Flor do Maracujá',
+        url: 'https://rondonia.ro.gov.br/portal/flordomaracuja/',
+        section: 'Tradição do maior festival folclórico de Porto Velho (quadrilhas e bois-bumbás).'
+      }
+    ]
   },
   {
-    id:'atu_3',title:'Porto Velho: história administrativa e leitura de indicadores',
-    theory:`## Três datas respondem a perguntas diferentes
-Criação legal, instalação administrativa e desenvolvimento de um núcleo urbano não são o mesmo evento. No caso de Porto Velho, a criação municipal em 1914 e a instalação em 1915 precisam ser distinguidas. A formação vinculada à Madeira-Mamoré integra o contexto urbano, mas não substitui a identificação do ato administrativo pedido na questão.
+    id: 'atu_3',
+    title: 'Cronologia Político-Administrativa, Geografia do Madeira e Censo IBGE 2022',
+    theory: String.raw`### 1. Cronologia Político-Administrativa Completa: De Humaitá ao Estado de Rondônia
+A história institucional de Porto Velho e de Rondônia é balizada por quatro marcos legislativos e administrativos decisivos:
+1. **02/10/1914 — Criação do Município de Porto Velho**: instituído pela **Lei Estadual nº 757 do Amazonas**, promulgada pelo governador Jonathas Pedrosa, desmembrando o novel município das terras de Humaitá/AM. A instalação solene do município ocorreu em **24/01/1915**, tendo como primeiro superintendente o Major Fernando Guapindaia. Enquanto Porto Velho nasceu pertencendo ao Amazonas, a povoação vizinha de Santo Antônio do Rio Madeira pertencia a Mato Grosso.
+2. **13/09/1943 — Criação do Território Federal do Guaporé**: criado pelo **Decreto-Lei nº 5.812/1943** pelo presidente Getúlio Vargas durante o Estado Novo e a Segunda Guerra Mundial (mobilização dos Soldados da Borracha), desmembrando áreas do Estado do Amazonas e do Estado de Mato Grosso. O capitão Aluízio Pinheiro Ferreira foi nomeado seu primeiro governador. Em 1945, o município vizinho de Santo Antônio do Rio Madeira foi extinto e seu território incorporado a Porto Velho.
+3. **17/02/1956 — Denominação de Território Federal de Rondônia**: alterado pela **Lei Federal nº 2.731/1956** (sancionada no governo JK), prestando homenagem de gratidão nacional ao Marechal Cândido Mariano da Silva Rondon, desbravador das linhas telegráficas estratégicas da Amazônia.
+4. **22/12/1981 — Criação do Estado de Rondônia**: elevado à categoria de Estado federado pela **Lei Complementar Federal nº 41/1981** (sancionada pelo presidente João Figueiredo). A instalação formal do Estado ocorreu em **04/01/1982**, com a posse solene do coronel Jorge Teixeira de Oliveira ("Teixeirão") como seu primeiro governador.
 
-O Território Federal do Guaporé foi criado em 1943 e passou a denominar-se Rondônia em 1956. A criação do Estado pela LC 41 ocorreu em 1981, com instalação em 1982. Dizer apenas “Rondônia começou em 1981” apaga etapas territoriais e a história das populações que já viviam na região.
+### 2. Hidrografia Regional: A Bacia do Rio Madeira e seus Afluentes
+- **Formação Hidrográfica**: o Rio Madeira forma-se na fronteira internacional Brasil-Bolívia a partir da junção dos rios **Beni** e **Mamoré**.
+- **Regime de Sedimentos e Vazão**: caracterizado como rio de **águas brancas (barrentas)**, transporta gigantesca carga de sedimentos ricos em minerais dos Andes, respondendo por aproximadamente 15% a 20% da descarga líquida total do Rio Amazonas.
+- **Principais Afluentes em Território Rondoniense**: Rio Guaporé, Rio Abunã, Rio Mutum-Paraná, Rio Jaci-Paraná, Rio Candeias, Rio Jamari e Rio Machado (Ji-Paraná, cuja foz no Madeira situa-se no distrito de Calama).
+- **Foz Fluvial**: o Rio Madeira deságua na margem direita do Rio Amazonas, a jusante de Manaus, nas proximidades do porto exportador de Itacoatiara/AM.
 
-## Município não é apenas sua sede
-Porto Velho compreende áreas urbanas e rurais, com diferentes formas de ocupação e acesso. A sede é a cidade de Porto Velho; o município é a unidade territorial e administrativa mais ampla. Distâncias, rios e infraestrutura ajudam a explicar custos e dificuldades de prestação de serviços.
+### 3. Demografia e Geografia de Porto Velho: Dados Definitivos do Censo IBGE 2022
+- **População Residente Oficial**: **460.434 habitantes** no Censo Demográfico do IBGE 2022 (maior população municipal de Rondônia, concentrando ~29% dos habitantes do Estado).
+- **Área Territorial Oficial**: **34.090,952 km²**, consagrando Porto Velho como a **capital brasileira de maior extensão territorial**, superando em área geográfica países como a Bélgica e estados brasileiros como Sergipe e Alagoas.
+- **Densidade Demográfica Média**: **13,51 hab/km²**. Trata-se de uma média aritmética espacial que encobre a hiperconcentração de moradores na sede urbana (onde residem mais de 85% da população) em contraste com o vasto vazio demográfico dos distritos florestais e ribeirinhos.
+- **PIB Municipal**: maior Produto Interno Bruto de Rondônia, superando os R$ 20 bilhões de reais, respondendo por mais de 35% de toda a atividade econômica estadual.
 
-## População, estimativa e densidade
-O IBGE informa 460.434 pessoas para Porto Velho no Censo 2022. Esse número pertence ao recenseamento e a sua data de referência. Uma estimativa de outro ano não “corrige automaticamente” o censo como se ambos fossem a mesma observação. A metodologia e o período precisam acompanhar o dado.
+### 4. Nota Técnica de Precisão Territorial: Distritos Administrativos vs. Localidades do Quadro de Vagas do Edital ACE nº 25/2026
+Para evitar qualquer divergência entre fontes geográficas e o quadro do concurso, distinga sempre dois recortes:
+1. **No Edital nº 25/2026 — SEMUSA Porto Velho (Retificação nº 01)**: As **140 vagas totais de ACE** estão distribuídas em **16 códigos de lotação (340 a 356, sendo o código 340 para Porto Velho — Zona Urbana com 96 vagas e 15 códigos distritais/rurais com 44 vagas)**: Abunã (341), Calama (342), Cujubim Grande (344 — cód. 343 inexistente no Anexo I), Extrema (345), Fortaleza do Abunã (346), Jaci Paraná (347), Joana D'Arc (348), Lago Cuniã (349), Nazaré (350), Nova Califórnia (351), Rio Pardo (352), Santa Rita (353), São Carlos (354), União Bandeirantes (355) e Vista Alegre (356).
+2. **Classificação Logística e Geográfica**:
+   - **Eixo da BR-364 / Ponta do Abunã e Entorno Terrestre**: Jaci-Paraná, Mutum-Paraná, Nova Mutum, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema, Nova Califórnia, União Bandeirantes, Rio Pardo e Bom Futuro.
+   - **Baixo Madeira (Acesso Predominantemente Fluvial)**: São Carlos, Nazaré, Calama e Demarcação.`,
+    summary: String.raw`Criação de PVH: Lei 757/1914 do Amazonas (instalado em 1915). Guaporé em 1943; Território de Rondônia em 1956; Estado em 1981 (instalado em 1982). Censo 2022: 460.434 hab., 34.090,952 km² e 13,51 hab/km². Distritos dividem-se em Eixo Rodoviário (BR-364) e Eixo Fluvial (Baixo Madeira).
 
-Densidade demográfica é população dividida pela área considerada. Um município extenso pode apresentar baixa densidade média e, simultaneamente, bairros densamente ocupados. A média municipal não descreve a distribuição interna nem a acessibilidade de todas as comunidades.
-
-## Economia e relações espaciais
-Atividades econômicas, circulação fluvial, transporte rodoviário e oferta de serviços organizam o território. Ao interpretar um mapa, separe limite municipal, bacia hidrográfica e área de influência de um serviço: as três delimitações podem não coincidir.
-
-Em comparação de indicadores, mantenha unidade, ano e território. Não combine uma população de um ano com área de outra delimitação sem explicar o procedimento. A conclusão deve respeitar a escala: um indicador de Rondônia não pode ser apresentado como se medisse apenas Porto Velho.
-
-## Organização distrital de Porto Velho e relação direta com as localidades do Edital nº 25/2026
-Com **34.090,952 km²** (maior capital brasileira em extensão territorial — área superior à de estados como Alagoas e Sergipe), Porto Velho organiza seus distritos em dois grandes eixos geográficos que coincidem exatamente com as **16 localidades de vagas de ACE** do Edital nº 25/2026:
-1. **Eixo Rodoviário (BR-364 sentido Acre / Ponta do Abunã e entorno):** compreende distritos e localidades com acesso predominantemente terrestre, como **Jaci-Paraná, Mutum-Paraná, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema, Nova Califórnia e União Bandeirantes** (além do assentamento Joana D'Arc e Rio Pardo).
-2. **Eixo Fluvial (Baixo e Médio Rio Madeira):** compreende distritos e comunidades ribeirinhas cujo acesso depende essencialmente da navegação pelo Rio Madeira, como **São Carlos, Nazaré, Calama, Demarcação** (na divisa fluvial com o Amazonas), **Cujubim Grande e Aliança**.`,
-    summary:`Criação e instalação são distintas: município 1914/1915; Estado 1981/1982. Censo 2022 e estimativa de outro ano não são a mesma medida. Densidade média não descreve distribuição interna.
-
-| Marco / Indicador Oficial | Data / Número de Referência | Ato Legal / Fonte Oficial | Detalhe Crítico de Prova |
+| Marco Histórico / Dado Oficial | Data / Número Oficial | Base Legal / Fonte | Significado Crítico para a Banca IBGP |
 | --- | --- | --- | --- |
-| **Criação × Instalação de Porto Velho** | **02/10/1914** (criação) × **24/01/1915** (instalação). | Lei Estadual do Amazonas nº 757/1914 (Gov. Jonathas Pedrosa). | Porto Velho nasceu como município do **Amazonas** (desmembrado de Humaitá), enquanto Santo Antônio do Rio Madeira pertencia a Mato Grosso. |
-| **Território Federal do Guaporé → Rondônia** | **13/09/1943** (Guaporé) → **17/02/1956** (Rondônia). | Decreto-Lei nº 5.812/1943 (Vargas) e Lei nº 2.731/1956 (homenagem a Cândido Rondon). | O Território Federal foi desmembrado de partes do **Amazonas** e de **Mato Grosso**. |
-| **Criação × Instalação do Estado de Rondônia** | **22/12/1981** (criação) × **04/01/1982** (instalação). | Lei Complementar Federal nº 41/1981 (Gov. Jorge Teixeira de Oliveira). | Rondônia possui **52 municípios** e área de ~237,7 mil km². |
-| **Dados de Porto Velho no Censo IBGE 2022** | **460.434 habitantes** (Censo 2022); área de **34.090,952 km²**; densidade de **13,51 hab/km²**. | IBGE — Censo Demográfico 2022. | É a **capital brasileira de maior área territorial**, com forte concentração populacional na sede urbana e baixa densidade média nos distritos. |
-| **Eixos Distritais de Porto Velho** | **Eixo BR-364/Ponta do Abunã**: Jaci-Paraná, União Bandeirantes, Abunã, Vista Alegre, Extrema, Nova Califórnia. **Eixo Baixo Madeira**: São Carlos, Nazaré, Calama, Demarcação. | Divisão político-administrativa municipal e Quadro de Vagas SEMUSA. | Conhecer qual distrito é fluvial (Baixo Madeira) e qual é rodoviário (BR-364) ajuda em questões de geografia e logística sanitária. |`,
-    questions:[
-      {q:'[Autoral] Uma questão pede a instalação de Porto Velho. Qual cuidado é necessário?',options:['Usar criação e instalação como sinônimos.', 'Distinguir a criação municipal de 1914 da instalação de 1915.', 'Responder obrigatoriamente 1981.', 'Ignorar o objeto do enunciado.'],ans:1,difficulty:'Fácil',questionType:'História de Porto Velho',comment:'Gabarito: B. O Município de Porto Velho foi criado pela Lei Estadual do Amazonas nº 757, de 02/10/1914, e instalado em 24/01/1915. Erro da A: criação legal e instalação administrativa são atos e datas distintos; erro da C: 1981 refere-se à criação do Estado de Rondônia pela LC nº 41/1981; erro da D: responder exige identificar exatamente qual marco foi perguntado.'},
-      {q:'[Autoral] Baixa densidade demográfica média do município permite afirmar que:',options:['Todos os bairros têm ocupação igualmente baixa.', 'Não existem áreas urbanas densas.', 'A população é pequena em relação à área total, sem descrever toda a distribuição interna.', 'Não há necessidade de transporte fluvial.'],ans:2,difficulty:'Intermediário',questionType:'Geografia e Indicadores',comment:'Gabarito: C. Densidade demográfica = população ÷ área total (460.434 hab ÷ 34.090,952 km² ≈ 13,51 hab/km² em Porto Velho): é uma média espacial que não revela concentração urbana vs. dispersão rural. Erro da A e B: a sede urbana concentra a grande maioria dos moradores em bairros densos; erro da D: localidades do Baixo Madeira dependem fortemente do modal fluvial.'},
-      {q:'[Autoral] Assinale a alternativa que apresenta corretamente a sequência histórica e legislativa da evolução político-administrativa de Rondônia:',options:['Criação do Território Federal do Guaporé em 1943 (Decreto-Lei nº 5.812, a partir de áreas do Amazonas e de Mato Grosso), mudança de denominação para Território Federal de Rondônia em 1956 (Lei nº 2.731) e elevação a Estado de Rondônia pela Lei Complementar nº 41, de 22 de dezembro de 1981 (instalado em 4 de janeiro de 1982).', 'Elevação direta de colônia espanhola a Estado de Rondônia em 1822, sem nunca ter sido Território Federal.', 'Desmembramento do Estado do Acre em 1988 para formar o Território do Guaporé.', 'Criação do município de Porto Velho em 1981 pela Lei Complementar nº 41.'],ans:0,difficulty:'Intermediário',questionType:'História de Rondônia',comment:'Gabarito: A. Reproduz os três marcos exatos: Território Federal do Guaporé (13/09/1943), Território Federal de Rondônia (17/02/1956) e Estado de Rondônia pela LC 41/1981 (criado em 22/12/1981 e instalado em 04/01/1982). Erro da B: Rondônia pertenceu ao Amazonas e Mato Grosso e passou por fase territorial; erro da C: o desmembramento ocorreu em 1943 sobre áreas do AM e MT, não do Acre em 1988; erro da D: Porto Velho foi criado em 1914 (Lei 757/AM), enquanto a LC 41/1981 criou o Estado.'},
-      {q:'[Autoral] Na organização territorial do município de Porto Velho, os distritos de São Carlos, Nazaré, Calama e Demarcação caracterizam-se geograficamente por:',options:['Localizarem-se na região ribeirinha do Baixo Madeira, a jusante da sede municipal, tendo no Rio Madeira sua principal via de acesso e integração.', 'Situarem-se na fronteira terrestre com o Peru, ao longo da rodovia BR-040.', 'Serem bairros verticalizados do centro financeiro da sede urbana de Porto Velho.', 'Pertencerem administrativamente ao município de Ji-Paraná.'],ans:0,difficulty:'Intermediário',questionType:'Geografia Regional',comment:'Gabarito: A. São Carlos, Nazaré, Calama e Demarcação formam o eixo fluvial do Baixo Rio Madeira, a jusante da capital, com acesso essencialmente hidroviário. Erro da B: Rondônia faz fronteira com a Bolívia (não com o Peru) e a BR-040 fica no Sudeste/Centro-Oeste; erro da C: são distritos ribeirinhos distantes da sede urbana; erro da D: pertencem ao município de Porto Velho.'},
-      {q:'[Autoral] No planejamento das ações de vigilância em Porto Velho com base no Censo IBGE 2022 (460.434 habitantes e 34.090,952 km²), a diferença prática entre o eixo da BR-364/Ponta do Abunã e o eixo do Baixo Madeira para o trabalho do ACE decorre de que:',options:['Localidades como Jaci-Paraná, Abunã, Extrema e Nova Califórnia têm acesso rodoviário contínuo pela BR-364, enquanto São Carlos, Nazaré, Calama e Demarcação exigem logística fluvial condicionada às cheias e vazantes do Rio Madeira.', 'Todas as localidades rurais de Porto Velho ficam a menos de 2 quilômetros da Praça das Três Caixas d’Água.', 'O Baixo Madeira possui ligação ferroviária de alta velocidade até Nova Califórnia.', 'Os dois eixos pertencem ao município de Ariquemes e dispensam ações da SEMUSA Porto Velho.'],ans:0,difficulty:'Difícil',questionType:'Caso Prático ACE',comment:'Gabarito: A. A extensão gigantesca de Porto Velho impõe desafios logísticos distintos: acesso terrestre pela BR-364 rumo ao Abunã versus navegação fluvial no Baixo Madeira, altamente sensível a estiagens e cheias. Erro da B: há localidades a mais de 150–350 km da sede; erro da C: não há ferrovia ligando esses distritos; erro da D: ambos pertencem a Porto Velho e são atendidos pela SEMUSA (códigos 341–356 do Edital).'},
+| **Criação de Porto Velho** | **02/10/1914** (instalado em 24/01/1915). | Lei Estadual do Amazonas nº 757/1914. | Porto Velho nasceu em terras do **Amazonas**; Santo Antônio pertencia a Mato Grosso. |
+| **Território Federal do Guaporé** | **13/09/1943** (Aluízio Ferreira, 1º Gov.). | Decreto-Lei nº 5.812/1943 (Vargas). | Desmembrado de áreas do Amazonas e Mato Grosso na 2ª Guerra Mundial. |
+| **Território de Rondônia** | **17/02/1956** (homenagem a Rondon). | Lei Federal nº 2.731/1956 (JK). | Homenagem histórica ao Marechal Cândido Mariano da Silva Rondon. |
+| **Criação do Estado de Rondônia** | **22/12/1981** (instalado em 04/01/1982). | Lei Complementar Federal nº 41/1981. | Governador Jorge Teixeira de Oliveira instalou o Estado em 1982. |
+| **Censo Demográfico IBGE 2022** | **460.434 hab.** e **34.090,952 km²**. | IBGE Cidades 2022. | **Maior capital brasileira em extensão**; densidade de 13,51 hab/km². |
+| **Quadro de Vagas SEMUSA** | 16 códigos (340 urbano + 341–356 distritos). | Edital nº 25/2026 SEMUSA. | Eixo Rodoviário BR-364 versus Eixo Fluvial Baixo Madeira. |`,
+    questions: [
+      {
+        q: '[Autoral] A respeito da linha do tempo da evolução político-administrativa do Município de Porto Velho e do Estado de Rondônia, assinale a sequência cronológica CORRETA dos fatos históricos e suas respectivas bases legais:',
+        options: [
+          'Criação do Município de Porto Velho pela Lei 757/1914 do Amazonas $\\rightarrow$ Criação do Território Federal do Guaporé pelo Dec-Lei 5.812/1943 $\\rightarrow$ Denominação de Território Federal de Rondônia pela Lei 2.731/1956 $\\rightarrow$ Criação do Estado de Rondônia pela LC 41/1981.',
+          'Criação do Estado de Rondônia em 1914 $\\rightarrow$ Criação do Município de Porto Velho em 1943 $\\rightarrow$ Criação do Território do Guaporé em 1981.',
+          'Instalação do Território de Rondônia em 1500 $\\rightarrow$ Transformação em província do Império em 1988 $\\rightarrow$ Criação do Município de Porto Velho em 2024.',
+          'Desmembramento de Rondônia a partir do Estado do Acre em 1956 sem nunca ter integrado o Amazonas ou Mato Grosso.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'História Regional',
+        comment: 'Gabarito: A. A ordem cronológica exata é: 1) Lei 757/1914 do Amazonas (criação de Porto Velho, instalado em 1915); 2) Dec-Lei 5.812/1943 (Território do Guaporé); 3) Lei 2.731/1956 (Território de Rondônia); 4) LC 41/1981 (criação do Estado de Rondônia, instalado em 1982). Erro da B, C e D: invertem completamente os marcos ou trazem distorções anacrônicas.'
+      },
+      {
+        q: '[Autoral] Segundo os dados consolidados do Censo Demográfico do IBGE 2022, o município de Porto Velho apresenta as seguintes características demográficas e territoriais oficiais:',
+        options: [
+          'População residente de 460.434 habitantes, área territorial de 34.090,952 km² (maior capital do país em área territorial) e densidade demográfica média de 13,51 hab/km².',
+          'População residente de 100.000 habitantes e área de 500 km², sendo a menor capital do Brasil.',
+          'Densidade demográfica de 1.500 hab/km² uniforme em todos os distritos da floresta.',
+          'População de 2 milhões de habitantes recenseados exclusivamente na Praça das Três Caixas d\'Água.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Geografia e Demografia',
+        comment: 'Gabarito: A. O Censo IBGE 2022 registrou exatamente 460.434 habitantes em Porto Velho, com vasta extensão territorial de 34.090,952 km² e densidade média de 13,51 hab/km². Erro da B, C e D: números fictícios que destoam da base oficial do IBGE.'
+      },
+      {
+        q: '[Autoral] Em relação à Bacia Hidrográfica do Rio Madeira e aos rios que banham o território de Rondônia, assinale a afirmativa CORRETA:',
+        options: [
+          'O Rio Madeira forma-se na fronteira Brasil-Bolívia pela confluência dos rios Beni e Mamoré, e tem como afluentes em Rondônia rios como o Guaporé, Abunã, Jaci-Paraná, Jamari e Machado.',
+          'O Rio Madeira nasce no Oceano Atlântico e corre em direção aos Andes bolivianos.',
+          'O Rio Madeira é de águas pretas e ácidas como o Rio Negro, sem carregar sedimentos andinos.',
+          'O Rio Machado (Ji-Paraná) deságua diretamente na Baía de Guanabara no Rio de Janeiro.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Geografia Física',
+        comment: 'Gabarito: A. O Madeira nasce da junção do Mamoré e do Beni, caracterizando-se por águas brancas/barrentas ricas em sedimentos andinos, recebendo importantes afluentes em RO (Guaporé, Abunã, Jaci-Paraná, Jamari, Machado). Erro da B: o rio corre no sentido sul-norte/nordeste em direção ao Rio Amazonas; erro da C: o Madeira tem águas brancas/barrentas; erro da D: o Machado deságua no Rio Madeira em Calama.'
+      },
+      {
+        q: '[Autoral] Ao confrontar a divisão administrativa oficial de Porto Velho com o Quadro de Vagas do Edital nº 25/2026 da SEMUSA (16 códigos de lotação de ACE), um candidato aprovado para o Código 342 (Calama) e outro aprovado para o Código 345 (Extrema de Rondônia) estarão alocados, respectivamente, em:',
+        options: [
+          'Um distrito do Baixo Madeira com acesso predominantemente fluvial e um distrito da Ponta do Abunã com acesso rodoviário pavimentado pela BR-364.',
+          'Dois bairros urbanos contíguos do centro da cidade de Porto Velho.',
+          'Duas ilhas oceânicas desabitadas no litoral sul de Rondônia.',
+          'Dois distritos pertencentes administrativamente ao Estado do Amazonas sem vínculo com a SEMUSA.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Caso Prático ACE',
+        comment: 'Gabarito: A. Calama situa-se no extremo norte fluvial do Baixo Madeira (confluência com o Machado), exigindo transporte hidroviário; Extrema localiza-se na Ponta do Abunã a mais de 300 km da sede, acessível pela BR-364. Erro da B: são distritos distantes da sede urbana; erro da C: Rondônia não possui litoral oceânico; erro da D: ambos integram o Município de Porto Velho e o edital da SEMUSA.'
+      },
+      {
+        q: '[Autoral] A respeito da fundação do município vizinho de Santo Antônio do Rio Madeira e sua relação histórica com Porto Velho, é correto afirmar que:',
+        options: [
+          'Santo Antônio do Rio Madeira pertencia originariamente ao Estado de Mato Grosso e foi extinto na década de 1940, sendo seu território incorporado ao município de Porto Velho.',
+          'Santo Antônio do Rio Madeira é a atual capital do Estado do Acre.',
+          'Porto Velho foi criado como uma colônia penal militar de Santo Antônio no ano de 2010.',
+          'Santo Antônio do Rio Madeira nunca existiu, tratando-se apenas de lenda folclórica rondoniense.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'História Regional',
+        comment: 'Gabarito: A. Santo Antônio pertencia a Mato Grosso (polo inicial das primeiras tentativas da ferrovia no século XIX); Porto Velho surgiu em terras do Amazonas em 1907 como ponto de transbordo e porto mais navegável. Em 1945, Santo Antônio foi anexado a Porto Velho. Erro da B: a capital do Acre é Rio Branco; erro da C: Porto Velho foi criado em 1914; erro da D: foi município histórico real de Mato Grosso.'
+      }
     ],
-    flashcards:[
-      ['Município e sede são a mesma coisa?', 'Não. A sede é o núcleo urbano da capital; o município de Porto Velho abrange 34.090 km² incluindo a sede e os distritos rurais/ribeirinhos.'],
-      ['Censo e estimativa anual são intercambiáveis?', 'Não. O Censo 2022 contou 460.434 habitantes em Porto Velho; estimativas de outros anos usam projeções metodológicas distintas.'],
-      ['Quais são as datas de criação e instalação do Município de Porto Velho e do Estado de Rondônia?', 'Município de Porto Velho: criado em 02/10/1914 (Lei 757/AM) e instalado em 24/01/1915. Estado de Rondônia: criado em 22/12/1981 (LC 41) e instalado em 04/01/1982.'],
+    flashcards: [
+      [
+        'Qual o ato legal de criação do Município de Porto Velho e a qual Estado ele pertencia originariamente?',
+        'Criado pela Lei Estadual do Amazonas nº 757, de 02/10/1914 (instalado em 24/01/1915), tendo sido desmembrado do território de Humaitá/AM.'
+      ],
+      [
+        'Quais foram os atos legais de criação do Território do Guaporé e do Estado de Rondônia?',
+        'Território do Guaporé: Decreto-Lei nº 5.812 de 13/09/1943 (mudado para Rondônia pela Lei 2.731/1956); Estado de Rondônia: Lei Complementar nº 41 de 22/12/1981 (instalado em 04/01/1982).'
+      ],
+      [
+        'Quais são os dados oficiais de população e área de Porto Velho segundo o Censo IBGE 2022?',
+        'População residente de 460.434 habitantes e área territorial de 34.090,952 km² (maior capital do Brasil em área territorial), com densidade de 13,51 hab/km².'
+      ]
     ],
-    references:[ibge,{title:'Prefeitura — história da cidade',url:'https://www.portovelho.ro.gov.br/pagina/a-cidade',section:'Criação/instalação e transformação do Território em Estado; conferir o ato legal quando houver divergência de transcrição.'}],
+    references: [
+      ibge,
+      {
+        title: 'Prefeitura Municipal de Porto Velho — História e Administração',
+        url: 'https://www.portovelho.ro.gov.br/pagina/a-cidade',
+        section: 'Criação legal de 1914, instalação em 1915 e evolução territorial da capital.'
+      },
+      {
+        title: 'Planalto — Lei Complementar Federal nº 41/1981',
+        url: 'https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp41.htm',
+        section: 'Criação do Estado de Rondônia e instalação de seus poderes constitucionais.'
+      }
+    ]
   },
   {
-    id:'atu_4',title:'Cidadania em prática e distinção entre símbolos oficiais',
-    theory:`## Cidadania envolve participação e direitos
-Cidadania não se limita ao voto. Inclui acesso a direitos, participação na vida pública, fiscalização de políticas e respeito aos direitos de outras pessoas. Direitos civis, políticos e sociais relacionam-se, mas têm objetos distintos: liberdade e garantias individuais, participação no poder e condições sociais de vida são dimensões que não se reduzem umas às outras.
+    id: 'atu_4',
+    title: 'Cidadania, Direitos Fundamentais e Símbolos Cívicos Oficiais',
+    theory: String.raw`### 1. Cidadania e Direitos Fundamentais na CF/88 (Art. 5º)
+A cidadania plena engloba o gozo de direitos civis, políticos e sociais, bem como a fiscalização do poder público e o cumprimento de deveres de solidariedade comunitária.
+- **Inviolabilidade do Domicílio e o Trabalho do ACE (Art. 5º, XI da CF/88)**:
+  * O texto constitucional dispõe que *"a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial"*;
+  * No cotidiano da vigilância entomológica, a visita domiciliar deve ocorrer no período diurno e mediante a permissão do morador. Havendo recusa obstinada ou imóveis fechados/abandonados com evidente risco sanitário à coletividade, o ingresso compulsório submete-se aos trâmites da legislação sanitária e, quando cabível, à expedição de ordem judicial autorizativa.
 
-## Participação em decisões
-Plebiscito consulta antes de uma decisão política nas condições legais; referendo submete um ato já produzido à manifestação popular. Iniciativa popular permite apresentar proposta nos requisitos constitucionais e legais, mas não significa aprovação automática. O momento e o efeito do mecanismo distinguem as alternativas.
+### 2. Soberania Popular e Mecanismos de Participação Direta (Art. 14 da CF/88)
+A soberania popular é exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e mediante três instrumentos clássicos de democracia semidireta:
+1. **Plebiscito**: consulta popular convocada com **anterioridade** ao ato legislativo ou administrativo, convocando os cidadãos a aprovar ou rejeitar previamente a matéria proposta;
+2. **Referendo**: consulta popular convocada com **posterioridade** à edição de uma lei ou ato estatal, para que o eleitorado ratifique (confirme) ou rejeite o texto normativo já elaborado;
+3. **Iniciativa Popular**: prerrogativa dos cidadãos de subscrever e apresentar projetos de lei perante o Poder Legislativo (na esfera federal, exige-se subscrição de pelo menos 1% do eleitorado nacional, distribuído por pelo menos 5 Estados com não menos de 0,3% dos eleitores em cada um);
+- **Alistamento Eleitoral e Voto**:
+  * **Obrigatórios**: para os maiores de 18 anos e menores de 70 anos;
+  * **Facultativos**: para os analfabetos, os maiores de 70 anos e os jovens de 16 e 17 anos.
 
-## Caso resolvido: reclamar e fiscalizar
-Uma comunidade identifica dificuldade de acesso a visitas e apresenta informações ao serviço e aos canais de participação. Isso pode constituir exercício de cidadania e controle social. Relatar um problema não prova sozinho uma infração, mas produz uma demanda que precisa ser tratada nos mecanismos competentes. Participar exige também cuidado com dados e respeito aos envolvidos.
+### 3. Os Quatro Símbolos Nacionais do Brasil (Art. 13 da CF/88 e Lei nº 5.700/1971)
+O Art. 13, § 1º da Constituição Federal estabelece taxativamente como os 4 símbolos oficiais da República Federativa do Brasil:
+1. A **Bandeira Nacional**;
+2. O **Hino Nacional**;
+3. As **Armas Nacionais** (Brasão da República);
+4. O **Selo Nacional**.
+- *Pegadinha crucial da banca IBGP*: a **Língua Portuguesa** é o idioma oficial da República (*caput* do Art. 13), mas **NÃO** integra a lista dos quatro símbolos cívicos nacionais do § 1º.
 
-## Símbolos em escalas diferentes
-A Constituição reconhece como símbolos da República a bandeira, o hino, as armas e o selo nacionais. Estados e municípios podem ter símbolos próprios. O brasão municipal não se transforma em símbolo nacional apenas porque representa uma capital. A Lei Orgânica de Porto Velho trata de bandeira, hino e brasão do município; a análise precisa respeitar essa escala.
+### 4. Símbolos Oficiais do Estado de Rondônia (Lei Estadual nº 07/1981 e Art. 6º da CE/RO)
+- **Bandeira Estadual**: projetada pelo desenhista e arquiteto **Sílvio Carvalho Feitosa** em 1981, na transição para Estado. Possui faixas inferiores verde e amarela convergindo em V, campo superior em azul celeste e, despontando no centro, uma imponente estrela branca de cinco pontas denominada **Muliphein** (representando o novo Estado no céu brasileiro);
+- **Hino de Rondônia**: intitulado *"Céus de Rondônia"*, com letra do poeta **Joaquim Araújo Lima** e música do maestro **José de Mello e Silva**;
+- **Armas e Selo do Estado**: símbolos heráldicos e autenticadores dos atos estaduais.
 
-O idioma oficial e os símbolos aparecem próximos no art. 13 da Constituição, mas não são a mesma categoria normativa. Em questões, leia se o comando pede língua oficial, símbolo nacional ou símbolo local.
+### 5. Símbolos Oficiais do Município de Porto Velho (Art. 3º da LOM)
+Nos termos do Art. 3º da Lei Orgânica Municipal de Porto Velho, são símbolos do Município:
+1. A **Bandeira Municipal**;
+2. O **Brasão de Armas**;
+3. O **Hino do Município** (*"Canto do Madeira"*), além de outros instituídos por lei municipal.
+- *Iconografia Heráldica*: o Brasão e a Bandeira municipal trazem a representação estilizada das **Três Caixas d'Água** cilíndricas ("As Três Marias") e da locomotiva a vapor da Estrada de Ferro Madeira-Mamoré.`,
+    summary: String.raw`Inviolabilidade do domicílio (Art. 5º, XI CF): entrada diurna com consentimento. Plebiscito é prévio; referendo é posterior. Os 4 símbolos nacionais são Bandeira, Hino, Armas e Selo (língua é idioma, não símbolo). Bandeira de RO: Sílvio Feitosa (estrela Muliphein). Bandeira de PVH: Três Marias e EFMM.
 
-## Identidade sem exclusão
-Reconhecer símbolos e patrimônio pode fortalecer memória coletiva, mas não exige apagar a diversidade cultural. Uma política de saúde atende pessoas com diferentes origens, formas de expressão e condições de vida. Respeito aos símbolos, participação pública e proteção de direitos devem ser analisados dentro do Estado democrático, sem tratar divergência legítima como ausência automática de cidadania.
-
-## Detalhamento dos símbolos estaduais de Rondônia e municipais de Porto Velho
-Em provas que cobram símbolos nacionais, estaduais e municipais (item 4 do programa de Conhecimentos Gerais):
-- **Símbolos da República Federativa do Brasil (Art. 13, § 1º da CF/88):** a **Bandeira**, o **Hino**, as **Armas** (Brasão) e o **Selo** nacionais (regulamentados pela Lei Federal nº 5.700/1971).
-- **Símbolos do Estado de Rondônia (Art. 6º da Constituição Estadual de RO):** a **Bandeira Estadual** (projetada por **Sílvio Carvalho Feitosa** em 1981, nas cores azul, amarelo, verde e branco, com a estrela branca *Muliphein* ao centro emergindo da faixa verde-amarela rumo ao céu azul), o **Hino de Rondônia** (*"Céus de Rondônia"*, letra de **Joaquim Araujo Lima** e música de **José de Mello e Silva**), as **Armas** e o **Selo** estaduais.
-- **Símbolos do Município de Porto Velho (Art. 3º da Lei Orgânica do Município):** a **Bandeira Municipal**, o **Brasão de Armas** (que traz a representação estilizada das **Três Caixas d'Água** e do Rio Madeira) e o **Hino do Município de Porto Velho** (*"Canto do Madeira"*), além de outros estabelecidos em lei municipal.`,
-    summary:`Cidadania vai além de votar. Plebiscito antecede; referendo sucede. Iniciativa popular não aprova automaticamente a proposta. Bandeira, hino, armas e selo são nacionais; Porto Velho tem símbolos próprios.
-
-| Esfera Federativa | Base Normativa | Símbolos Oficiais Previstos | Elementos Iconográficos / Autoria |
+| Esfera Federativa | Base Constitucional / Legal | Símbolos Oficiais Previstos | Elementos e Autoria |
 | --- | --- | --- | --- |
-| **Nacional (Brasil)** | Art. 13, § 1º da CF/88 e Lei 5.700/1971 | **Bandeira, Hino, Armas e Selo** nacionais (4 símbolos). | A língua portuguesa é o idioma oficial (art. 13, *caput*), não um dos quatro símbolos do § 1º. |
-| **Estadual (Rondônia)** | Art. 6º da Constituição do Estado de RO | **Bandeira, Hino, Armas e Selo** do Estado. | Bandeira de **Sílvio Carvalho Feitosa** (estrela branca central, azul, verde e amarelo); Hino **"Céus de Rondônia"** (Joaquim Araujo Lima / José de Mello e Silva). |
-| **Municipal (Porto Velho)** | Art. 3º da Lei Orgânica de Porto Velho | **Bandeira, Brasão e Hino** do Município (além de outros fixados em lei). | Brasão e Bandeira destacam as **Três Caixas d'Água (Três Marias)**; Hino **"Canto do Madeira"**. |
-| **Soberania Popular (Art. 14 da CF/88)** | Sufrágio universal e voto direto e secreto | **1) Plebiscito** (consulta prévia); **2) Referendo** (confirmação posterior); **3) Iniciativa Popular**. | Alistamento e voto: obrigatórios para maiores de **18 anos**; facultativos para analfabetos, maiores de **70 anos** e jovens de **16 e 17 anos**. |`,
-    questions:[
-      {q:'[Autoral] Uma consulta popular anterior à decisão, nas condições legais, corresponde a:',options:['Referendo.', 'Plebiscito.', 'Nomeação.', 'Fiscalização sanitária.'],ans:1,difficulty:'Fácil',questionType:'Legislação e Cidadania',comment:'Gabarito: B. Pelo art. 14, I, da CF/88 e Lei nº 9.709/1998, o plebiscito é convocado com anterioridade ao ato legislativo ou administrativo. Erro da A: referendo é posterior ao ato para confirmá-lo ou rejeitá-lo; erro da C: nomeação é ato administrativo de provimento de cargo; erro da D: fiscalização sanitária é poder de polícia/vigilância em saúde.'},
-      {q:'[Autoral] Qual conjunto corresponde aos símbolos nacionais indicados na Constituição?',options:['Somente bandeira e moeda.', 'Bandeira, hino, armas e selo nacionais.', 'Prefeito, governador e presidente.', 'Somente o brasão de Porto Velho.'],ans:1,difficulty:'Fácil',questionType:'Legislação Literal',comment:'Gabarito: B. O art. 13, § 1º, da CF/88 enumera exatamente os 4 símbolos da República Federativa do Brasil: bandeira, hino, armas e selo nacionais. Erro da A: moeda não integra o rol do § 1º; erro da C: são chefes do Poder Executivo, não símbolos; erro da D: o brasão municipal é símbolo próprio de Porto Velho (art. 3º da LOM).'},
-      {q:'[Autoral] Nos termos do art. 3º da Lei Orgânica do Município de Porto Velho e da tradição histórica local, os símbolos oficiais básicos do Município e o monumento histórico retratado no escudo de seu Brasão/Bandeira são, respectivamente:',options:['A Bandeira, o Brasão e o Hino (além de outros estabelecidos em lei), figurando no escudo a representação das Três Caixas d’Água (“Três Marias”).', 'Apenas a moeda municipal e o selo imperial, trazendo o desenho do Cristo Redentor.', 'Unicamente o Hino Nacional Brasileiro, pois municípios são proibidos de possuir brasão ou bandeira.', 'O Forte de Copacabana e a Ponte Rio-Niterói.'],ans:0,difficulty:'Intermediário',questionType:'Cultura e Símbolos Locais',comment:'Gabarito: A. O art. 3º da LOM de Porto Velho define Bandeira, Brasão e Hino como símbolos municipais, e o brasão destaca as históricas Três Caixas d’Água da era ferroviária. Erro da B: municípios não cunham moeda nem adotam o Cristo Redentor (RJ); erro da C: o art. 13, § 2º, da CF/88 autoriza símbolos próprios nos municípios; erro da D: são marcos do Rio de Janeiro.'},
-      {q:'[Autoral] Sobre a Bandeira do Estado de Rondônia e o Hino Estadual (“Céus de Rondônia”), assinale a alternativa correta:',options:['A Bandeira de Rondônia, idealizada por Sílvio Carvalho Feitosa na transição para Estado em 1981, utiliza as quatro cores da Bandeira Nacional (verde, amarelo, azul e branco) com uma estrela branca de cinco pontas ao centro.', 'A Bandeira de Rondônia é composta apenas pelas cores preta e vermelha, sem estrelas.', 'O Estado de Rondônia não possui hino oficial nem brasão de armas.', 'A Bandeira de Rondônia foi desenhada em 1500 por Pero Vaz de Caminha.'],ans:0,difficulty:'Intermediário',questionType:'Cultura e Símbolos Locais',comment:'Gabarito: A. A Bandeira Estadual de Rondônia (projeto de Sílvio Carvalho Feitosa) combina verde, amarelo, azul e a estrela branca central Muliphein. Erro da B: não usa preto nem vermelho; erro da C: o art. 6º da Constituição Estadual prevê Bandeira, Hino ("Céus de Rondônia"), Armas e Selo; erro da D: foi criada no contexto da transformação em Estado em 1981.'},
+| **Nacional (Brasil)** | Art. 13, § 1º da CF/88 e Lei 5.700/1971. | **Bandeira, Hino, Armas e Selo** nacionais (4 símbolos). | O idioma português é a língua oficial (*caput*), não símbolo do § 1º. |
+| **Estadual (Rondônia)** | Art. 6º da Constituição Estadual e Lei 07/81. | **Bandeira, Hino, Armas e Selo** de Rondônia. | Bandeira de **Sílvio Carvalho Feitosa** (estrela *Muliphein*); Hino *"Céus de Rondônia"*. |
+| **Municipal (Porto Velho)** | Art. 3º da Lei Orgânica Municipal de PVH. | **Bandeira, Brasão e Hino** do Município. | Brasão destaca as **Três Caixas d'Água (Três Marias)** e a EFMM; Hino *"Canto do Madeira"*. |
+| **Soberania Popular (Art. 14)** | Plebiscito, Referendo e Iniciativa Popular. | Voto obrigatório (18 a 70 anos); facultativo (16-17 anos, >70 e analfabetos). | Plebiscito consulta **antes**; referendo consulta **depois** do ato. |`,
+    questions: [
+      {
+        q: '[Autoral] Nos termos do Art. 13, § 1º da Constituição Federal de 1988 e da Lei nº 5.700/1971, são expressamente enumerados como os quatro SÍMBOLOS NACIONAIS do Brasil:',
+        options: [
+          'A Bandeira Nacional, o Hino Nacional, as Armas Nacionais e o Selo Nacional.',
+          'A Bandeira Nacional, a Língua Portuguesa, o Palácio do Planalto e a Moeda Real.',
+          'O Hino Nacional, as Armas Nacionais, a Faixa Presidencial e o Voto Obrigatório.',
+          'O Selo Nacional, o Brasão de Porto Velho, o Código Civil e a Estátua do Cristo Redentor.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Legislação Constitucional',
+        comment: 'Gabarito: A. O Art. 13, § 1º da CF/88 estabelece textualmente: "São símbolos da República Federativa do Brasil a bandeira, o hino, as armas e o selo nacionais." A língua portuguesa é o idioma oficial (caput do art. 13), não compondo o rol de símbolos do § 1º. Erro da B: língua portuguesa é idioma oficial e moeda não é símbolo cívico; erro da C e D: incluem elementos estranhos ao texto constitucional.'
+      },
+      {
+        q: '[Autoral] A Bandeira do Estado de Rondônia e o Hino Oficial do Estado (“Céus de Rondônia”) possuem como elementos históricos e autores oficiais, respectivamente:',
+        options: [
+          'Projeto de Sílvio Carvalho Feitosa (1981), com faixas verde e amarela, campo superior azul e a estrela branca Muliphein ao centro; e letra de Joaquim Araújo Lima com música de José de Mello e Silva.',
+          'Desenho de Oscar Niemeyer sem estrelas; e composição lírica de Villa-Lobos cantada em latim.',
+          'Bandeira monocromática preta; e hino sem letra composto por banda militar em 1500.',
+          'Bandeira idêntica à do Estado de São Paulo; e letra de Castro Alves em homenagem à Bahia.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Símbolos Estaduais',
+        comment: 'Gabarito: A. A bandeira de Rondônia foi idealizada por Sílvio Carvalho Feitosa na transição para Estado em 1981, apresentando a estrela Muliphein. O hino "Céus de Rondônia" tem letra de Joaquim Araújo Lima e melodia de José de Mello e Silva. Erro da B, C e D: trazem dados fictícios ou autores estranhos à heráldica rondoniense.'
+      },
+      {
+        q: '[Autoral] Segundo o Art. 3º da Lei Orgânica do Município de Porto Velho, são símbolos oficiais do Município:',
+        options: [
+          'A Bandeira, o Brasão e o Hino do Município, figurando no escudo a representação estilizada das Três Caixas d\'Água e da ferrovia.',
+          'Apenas a Moeda Municipal e o Livro de Ouro do Garimpo.',
+          'Exclusivamente o Hino Nacional Brasileiro, sendo vedado ao Município possuir brasão ou hino próprio.',
+          'O Brasão do Estado do Amazonas e a Bandeira da República da Bolívia.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Legislação Municipal',
+        comment: 'Gabarito: A. O Art. 3º da LOM de Porto Velho estabelece expressamente a Bandeira, o Brasão e o Hino como símbolos municipais, destacando as Três Marias e a EFMM. Erro da B: municípios não cunham moeda; erro da C: a CF autoriza símbolos próprios aos municípios (art. 13, § 2º); erro da D: símbolos de outros entes.'
+      },
+      {
+        q: '[Autoral] Nos termos do Art. 14 da Constituição Federal de 1988, a soberania popular é exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e mediante três mecanismos clássicos de democracia semidireta: plebiscito, referendo e iniciativa popular. Sobre a distinção temporal entre plebiscito e referendo, assinale a afirmativa CORRETA:',
+        options: [
+          'O plebiscito é uma consulta popular prévia (convocada com anterioridade ao ato legislativo ou administrativo), enquanto o referendo é uma consulta posterior (para ratificar ou rejeitar ato já produzido).',
+          'O plebiscito só pode ser realizado após a lei ter entrado em vigor há mais de 10 anos.',
+          'O referendo é convocado antes do projeto ser redigido, e o plebiscito é um tribunal de exceção.',
+          'Plebiscito e referendo são sinônimos perfeitos que designam exclusivamente a eleição de prefeitos.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Direitos Políticos',
+        comment: 'Gabarito: A. Pelo Art. 14 da CF/88 e Lei 9.709/1998, o plebiscito é convocado previamente à criação do ato legislativo/administrativo; o referendo é convocado posteriormente para ratificar ou rejeitar lei ou ato já editado. Erro da B, C e D: distorcem o momento procedimental ou confundem com eleição ordinária.'
+      },
+      {
+        q: '[Autoral] Em relação à inviolabilidade do domicílio no exercício das funções do Agente de Combate às Endemias (Art. 5º, XI da Constituição Federal de 1988), assinale a conduta constitucionalmente ADEQUADA do agente de campo:',
+        options: [
+          'O agente deve realizar a inspeção com o consentimento do morador durante o dia, não podendo invadir ou arrombar o domicílio sem autorização legal/judicial em caso de recusa.',
+          'O agente tem o poder de derrubar portas e portões residenciais a qualquer hora da noite sem autorização judicial para borrifar inseticida.',
+          'A residência deixa de ser asilo inviolável sempre que o agente suspeitar de um vaso de planta com água.',
+          'O agente só pode ingressar em imóveis se estiver acompanhado de tropas das Forças Armadas da ONU.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Caso Prático ACE',
+        comment: 'Gabarito: A. A casa é asilo inviolável (Art. 5º, XI). O ACE atua com o consentimento do morador no horário diurno. Em casos de imóveis abandonados ou recusa reiterada, a entrada compulsória sanitária exige procedimento legal específico e/ou ordem judicial. Erro da B e C: violam o Art. 5º, XI da CF/88; erro da D: não há necessidade nem cabimento de forças da ONU.'
+      }
     ],
-    flashcards:[
-      ['Qual diferença de momento entre plebiscito e referendo?', 'Plebiscito é consulta prévia (antes do ato legislativo ou administrativo); referendo é consulta posterior (para ratificar ou rejeitar ato já editado).'],
-      ['Iniciativa popular é aprovação automática?', 'Não. É mecanismo de apresentação de projeto de lei à Câmara ou Assembleia, sujeito à tramitação e votação parlamentar.'],
-      ['Quais são os símbolos do Município de Porto Velho segundo o art. 3º da LOM e qual monumento figura em seu brasão?', 'Bandeira, Brasão e Hino (além de outros definidos em lei); o brasão destaca as Três Caixas d’Água (Três Marias).'],
+    flashcards: [
+      [
+        'A língua portuguesa é um dos quatro símbolos nacionais da República?',
+        'Não. O Art. 13, caput da CF/88 declara a língua portuguesa como o idioma oficial; os quatro símbolos do § 1º são a Bandeira, o Hino, as Armas e o Selo nacionais.'
+      ],
+      [
+        'Qual a diferença entre plebiscito e referendo no Art. 14 da Constituição Federal?',
+        'O plebiscito é uma consulta popular convocada previamente à decisão legislativa; o referendo é convocado posteriormente para que o povo ratifique ou rejeite lei já elaborada.'
+      ],
+      [
+        'Quais são os símbolos oficiais de Porto Velho e qual monumento consta em seu brasão?',
+        'A Bandeira, o Brasão de Armas e o Hino municipal (Art. 3º LOM); seu brasão traz a imagem histórica das Três Caixas d\'Água (Três Marias) e da locomotiva da EFMM.'
+      ]
     ],
-    references:[{title:'Constituição — portal oficial',url:'https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao',section:'Arts. 13 e 14: símbolos e soberania popular.'},{title:'Prefeitura — Lei Orgânica',url:'https://www.portovelho.ro.gov.br/uploads/docman/leiorganicadeportovelho.pdf',section:'Art. 3º: símbolos municipais.'}],
+    references: [
+      {
+        title: 'Presidência da República — Constituição Federal de 1988 (Art. 5º, 13 e 14)',
+        url: 'https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm',
+        section: 'Direitos fundamentais, símbolos nacionais e soberania popular.'
+      },
+      {
+        title: 'Câmara Municipal de Porto Velho — Lei Orgânica Municipal',
+        url: 'https://www.portovelho.ro.gov.br/uploads/docman/leiorganicadeportovelho.pdf',
+        section: 'Art. 3º: Símbolos oficiais do Município de Porto Velho.'
+      }
+    ]
   },
   {
-    id:'atu_5',title:'Geotecnologias e avaliação de notícias científicas',
-    theory:`## Coordenada não é análise territorial completa
-GNSS designa sistemas de navegação por satélite; GPS é um deles. Uma posição precisa ser acompanhada de sistema de referência e qualidade de medição para ser utilizada corretamente. Um mapa de pontos de visitas mostra localização, mas não explica sozinho por que existem concentrações de risco.
+    id: 'atu_5',
+    title: 'Geotecnologias, Reconhecimento Geográfico, Método Wolbachia e Vacina Qdenga',
+    theory: String.raw`### 1. Geotecnologias, Navegação por Satélite (GNSS) e o Datum SIRGAS 2000
+No monitoramento ambiental e na vigilância entomológica contemporânea do ACE, as geotecnologias são fundamentais para o mapeamento da distribuição vetorial:
+- **GNSS (*Global Navigation Satellite System*)**: termo universal que engloba as constelações mundiais de satélites artificiais de navegação, incluindo o **GPS** (norte-americano), o **GLONASS** (russo), o **Galileo** (europeu) e o **BeiDou** (chinês).
+- **Datum Geodésico Oficial**: no Brasil, o referencial geodésico oficial adotado pelo IBGE (Decreto nº 5.334/2005) é o **SIRGAS 2000** (Sistema de Referência Geocêntrico para as Américas 2000). A configuração correta do datum nos aparelhos GNSS/tablets de campo do ACE assegura compatibilidade cartográfica com as bases de dados municipais e federais.
 
-Um SIG combina dados espaciais e atributos para consulta e análise. Representações vetoriais usam pontos, linhas e polígonos; representações matriciais usam uma grade de células. Um ponto pode representar imóvel, uma linha pode representar trecho de rota e um polígono pode delimitar área de atuação. O significado vem do dado e de sua legenda, não apenas da forma gráfica.
+### 2. Modelos de Dados em SIG na Vigilância em Saúde: Vetorial vs Matricial (Raster)
+Um Sistema de Informações Geográficas (SIG) organiza o espaço através de dois modelos principais:
+1. **Modelo Vetorial**: representa feições geométricas discretas ligadas a uma tabela de atributos alfanuméricos:
+   - **Ponto** ($x, y$): posição exata de focos de larvas, ovitrampas de monitoramento, Pontos Estratégicos (PE) e domicílios com casos notificados no SINAN;
+   - **Linha**: arruamentos, rotas operacionais diárias do agente, valas de drenagem urbana e trechos de igarapés;
+   - **Polígono**: áreas fechadas que delimitam quarteirões sanitários, bairros, setores censitários, estratos do LIRAa e zonas de raio de bloqueio químico (150 m ou 300 m).
+2. **Modelo Matricial (Raster)**: grade regular de células (pixels) em que cada pixel armazena um valor quantitativo:
+   - Imagens de satélite orbitais (Sentinel, Landsat) e ortofotos de alta resolução capturadas por **Drones (VANTs)**, ferramentas inovadoras adotadas pela vigilância em Porto Velho para fiscalizar caixas-d'água destampadas em lajes, calhas obstruídas e piscinas em imóveis desocupados ou de difícil acesso;
+   - Mapas de densidade de Kernel ("mapas de calor" para identificação de *clusters* de transmissão de arboviroses).
 
-## Caso de mapa enganoso
-Dois bairros apresentam 20 registros cada. No primeiro, foram realizadas 100 inspeções; no segundo, 400. Um mapa de contagens pode mostrar igualdade, mas as proporções são 20% e 5%. A interpretação precisa considerar o denominador e a cobertura. Cor intensa não equivale automaticamente a maior risco individual.
+### 3. Normas Técnicas de Campo do Reconhecimento Geográfico (RG) pelo ACE
+O Reconhecimento Geográfico (RG) é a atividade cartográfica prioritária e contínua do ACE, normatizada pelo Ministério da Saúde:
+- Elaboração e atualização contínua de croquis cadastrais dos quarteirões;
+- **Numeração Padronizada dos Quarteirões**: a numeração deve sempre se iniciar no **vértice superior esquerdo (noroeste)** do mapa da localidade, progredindo a numeração sistematicamente no **sentido horário**;
+- **Pontos Estratégicos (PE)**: imóveis que contêm depósitos volumosos de risco ou que recebem grande circulação de pessoas e materiais (borracharias, ferros-velhos, cemitérios, garagens de ônibus, cooperativas de reciclagem). Devem ser cadastrados e inspecionados com periodicidade obrigatória **quinzenal** pelo ACE.
 
-## Sensoriamento remoto: alerta e taxa
-O PRODES e o DETER têm objetivos e métodos distintos. No monitoramento da Amazônia, o PRODES produz a taxa anual de desmatamento por corte raso, enquanto o DETER fornece alertas para apoiar fiscalização. Cobertura de nuvens e oportunidade de detecção influenciam os registros. Um alerta detectado em determinado mês não é necessariamente um evento que começou naquele mês.
+### 4. Monitoramento Remoto na Amazônia: PRODES vs DETER (INPE)
+- **PRODES**: taxa anual oficial consolidada de desmatamento por corte raso na Amazônia Legal (ano Prodes: agosto a julho); instrumento de alta precisão para planejamento de longo prazo;
+- **DETER**: sistema diário de alertas de alteração de cobertura florestal com alta frequência temporal, destinado a subsidiar a fiscalização rápida em campo pelos órgãos de proteção ambiental (IBAMA e SEDAM/RO).
 
-## Ciência, inovação e evidência
-Ao ler notícia sobre nova tecnologia, diferencie teste em laboratório, estudo de campo, registro regulatório, incorporação a uma política e uso efetivo. Esses estágios não são equivalentes. Uma redução observada em um estudo não garante o mesmo resultado em todo território sem considerar implementação e contexto.
+### 5. Inovação Biotecnológica: O Método Wolbachia (Fiocruz / WMP)
+- **Mecanismo Biológico**: mosquitos *Aedes aegypti* recebem a bactéria intracelular natural *Wolbachia pipientis* (presente em 60% dos insetos na natureza, mas ausente no *Aedes* selvagem). Ao colonizar as células do inseto, a bactéria compete por lipídios e nutrientes essenciais com os vírus da Dengue, Zika, Chikungunya e Febre Amarela, bloqueando a replicação viral no organismo do mosquito.
+- **Herança Materna e Incompatibilidade Citoplasmática**: fêmeas portadoras de Wolbachia transmitem a bactéria para 100% de seus descendentes. Quando machos com Wolbachia cruzam com fêmeas selvagens (sem Wolbachia), os ovos resultantes tornam-se inférteis.
+- **Biossegurança**: o método **NÃO é transgênico** (não há alteração no DNA do mosquito) e a bactéria não infecta humanos nem animais vertebrados, mantendo-se de forma autossustentável no ecossistema local.
 
-## Aplicação multitemática
-Economia, educação, segurança e saúde também usam indicadores e pesquisas. Confira quem produziu o dado, qual população foi observado, em que período e com qual método. Resultado de amostra não é contagem censitária, e correlação entre duas curvas não demonstra, sozinha, causalidade. A prudência analítica permite avaliar notícias sem rejeitar nem aceitar toda inovação por entusiasmo.
+### 6. Vacina Tetravalente contra a Dengue: Qdenga (TAK-003) no SUS
+- **Composição e Esquema**: vacina tetravalente com vírus vivo atenuado (sorotipos DENV-1, 2, 3 e 4) incorporada pela CONITEC ao SUS em dezembro de 2023. É administrada por via subcutânea em **2 doses**, com intervalo estrito de **3 meses (90 dias)**.
+- **Público Prioritário no SUS**: crianças e adolescentes de 10 a 14 anos em municípios com alta carga de transmissão viral.
+- **Contraindicações Absolutas**: gestantes, lactantes (mulheres que amamentam), indivíduos com imunodeficiência congênita ou adquirida e histórico de hipersensibilidade grave a componentes da fórmula.`,
+    summary: String.raw`SIRGAS 2000 é o datum oficial do Brasil (IBGE). Modelo Vetorial: Ponto (foco), Linha (rua), Polígono (quarteirão). No RG, quarteirões numeram-se do vértice superior esquerdo no sentido horário; Pontos Estratégicos têm visita quinzenal. Wolbachia não é transgênico e bloqueia vírus no mosquito. Qdenga tem 2 doses (intervalo 3 meses) e contraindica gestantes.
 
-## Georreferenciamento aplicado diretamente ao Reconhecimento Geográfico (RG) do ACE
-O item 5 do edital destaca expressamente **georreferenciamento** e **inovações tecnológicas e científicas**. Na rotina operacional do ACE, o georreferenciamento integra-se ao **Reconhecimento Geográfico (RG)**:
-- **Primitivas vetoriais no SIG da vigilância:** **Ponto** (coordenada $x, y$ de uma ovitrampa, de um Ponto Estratégico, de um foco positivo ou de um caso confirmado); **Linha** (eixo de rua, igarapé, vala de drenagem ou rota percorrida pelo agente); **Polígono** (delimitação fechada de um quarteirão, estrato do LIRAa, área de raio de bloqueio de 150m/300m, bairro ou distrito sanitário).
-- **Dado Matricial (Raster):** imagens orbitais de satélite, ortofotos de drones (VANTs usados para identificar caixas d'água destampadas ou piscinas abandonadas em imóveis fechados) e mapas de densidade de Kernel ("mapas de calor").
-- **Inovações biotecnológicas no controle vetorial:** método **Wolbachia** (mosquitos *Aedes aegypti* com a bactéria intracelular *Wolbachia pipientis*, que reduz a transmissão de Dengue, Zika e Chikungunya e se mantém na população local), **Estações Disseminadoras de Larvicida (EDLs)** (potes com tecido impregnado com larvicida piriproxifeno transportado pelas próprias fêmeas do mosquito a outros criadouros) e **armadilhas georreferenciadas (ovitrampas)**.`.trim(),
-    summary:`GPS integra GNSS; SIG analisa dados e atributos. Contagens precisam de denominador. PRODES mede taxa anual; DETER alerta fiscalização. Estudo, registro, incorporação e implementação são estágios diferentes.
-
-| Conceito de Geotecnologia / Inovação | Definição Técnica | Aplicação Direta na Vigilância (ACE) | Contraste de Prova |
+| Inovação / Geotecnologia | Definição e Princípio | Aplicação Prática no Trabalho do ACE | Ponto Crítico da Banca IBGP |
 | --- | --- | --- | --- |
-| **GNSS × GPS** | **GNSS**: categoria global de navegação por satélite; **GPS** (EUA), **GLONASS** (Rússia), **Galileo** (UE) e **BeiDou** (China) são constelações. | Coleta de coordenadas geográficas (latitude/longitude) de focos, armadilhas e imóveis no tablet/celular de campo. | GPS é um sistema específico pertencente ao conjunto GNSS; o datum oficial do Brasil (IBGE) é o **SIRGAS2000**. |
-| **SIG Vetorial (Ponto, Linha, Polígono)** | Geometrias discretas associadas a tabela de atributos (banco de dados). | **Ponto**: ovitrampa/PE; **Linha**: rua/igarapé; **Polígono**: quarteirão/estrato LIRAa/raio de bloqueio. | Não confundir feição vetorial com grade matricial de pixels. |
-| **SIG Matricial (Raster)** | Grade regular de células (pixels), onde cada célula guarda um valor (cor, altitude, temperatura ou índice). | Imagens de satélite, aerolevantamento por **drones (VANTs)** e mapas de calor (Kernel) de casos de arboviroses. | Quanto menor o tamanho do pixel no terreno, **maior** a resolução espacial. |
-| **PRODES × DETER (INPE)** | **PRODES**: taxa anual consolidada de corte raso; **DETER**: alertas diários/rápidos para fiscalização. | Monitoramento ambiental da Amazônia e correlação de frentes de desmatamento com risco de malária e leishmaniose. | DETER não é taxa oficial anual; serve para orientar ações rápidas de fiscalização (IBAMA/órgãos estaduais). |
-| **Wolbachia e EDLs (Inovações MS/Fiocruz)** | **Wolbachia**: bactéria simbiótica que bloqueia replicação de arbovírus no *Aedes*; **EDL**: estação disseminadora de larvicida. | Tecnologias complementares incorporadas pelo Ministério da Saúde em municípios prioritários. | Wolbachia **não** é modificação genética (transgênico) e é segura para humanos e animais. |`,
-    questions:[
-      {q:'[Autoral] Qual comparação entre DETER e PRODES é adequada?',options:['São nomes de produtos idênticos.', 'DETER fornece alertas; PRODES produz taxa anual no monitoramento correspondente.', 'Todo alerta equivale à taxa mensal oficial.', 'Nuvens nunca interferem na detecção.'],ans:1,difficulty:'Intermediário',questionType:'Geotecnologias',comment:'Gabarito: B. Ambos pertencem ao monitoramento do INPE na Amazônia Legal, mas têm papéis distintos: o DETER emite alertas rápidos para apoiar a fiscalização; o PRODES consolida a taxa oficial anual de desmatamento por corte raso. Erro da A: têm escalas e objetivos distintos; erro da C: o próprio INPE alerta para não confundir detecção de alertas com taxa oficial mensal; erro da D: sensores ópticos sofrem interferência de cobertura de nuvens.'},
-      {q:'[Autoral] Dois bairros têm 20 registros, com 100 e 400 inspeções. Quais são as proporções?',options:['20% e 5%.','20% e 20%.','5% e 20%.','100% e 400%.'],ans:0,difficulty:'Fácil',questionType:'Cálculo',comment:'Gabarito: A. No 1º bairro: 20 ÷ 100 = 0,20 = 20%. No 2º bairro: 20 ÷ 400 = 0,05 = 5%. Números absolutos iguais exigem análise com o denominador de imóveis inspecionados. Erro da B: iguala proporções mesmo com denominadores quatro vezes maiores; erro da C: inverte a ordem dos bairros; erro da D: repete as quantidades absolutas de inspeções como porcentagens.'},
-      {q:'[Autoral] Em um Sistema de Informações Geográficas (SIG) utilizado pela Vigilância Ambiental de Porto Velho para atualizar o Reconhecimento Geográfico (RG), a posição exata de uma armadilha ovitrampa, o traçado de um igarapé urbano e a área delimitada de um quarteirão são representados no modelo vetorial, respectivamente, pelas primitivas geométricas:',options:['Ponto, linha e polígono.', 'Polígono, ponto e pixel.', 'Linha, matriz e tabela.', 'Círculo, texto e áudio.'],ans:0,difficulty:'Intermediário',questionType:'Caso Prático ACE',comment:'Gabarito: A. No modelo vetorial de um SIG, coordenadas pontuais (ovitrampa, foco, PE) são pontos; feições lineares (ruas, igarapés, rotas) são linhas; áreas fechadas (quarteirões, estratos do LIRAa, bairros) são polígonos. Erro da B: pixel pertence ao modelo matricial (raster) e inverte as feições; erro da C: matriz refere-se ao modelo raster e tabela armazena atributos; erro da D: áudio e texto não são primitivas geométricas vetoriais padrão.'},
-      {q:'[Autoral] Entre as inovações tecnológicas e científicas aplicadas ao controle das arboviroses no Brasil (Dengue, Zika e Chikungunya) com apoio do Ministério da Saúde e da Fiocruz, destaca-se o Método Wolbachia, que consiste em:',options:['Liberar mosquitos Aedes aegypti portadores da bactéria intracelular natural Wolbachia, que reduz a capacidade de transmissão desses vírus pelo vetor e se transmite às gerações seguintes de mosquitos.', 'Pulverizar antibióticos hospitalares por avião sobre os rios da Amazônia.', 'Substituir toda a água encanada da cidade por óleo mineral.', 'Eliminar todas as espécies de abelhas e borboletas polinizadoras dos parques urbanos.'],ans:0,difficulty:'Intermediário',questionType:'Ciência e Saúde Pública',comment:'Gabarito: A. A bactéria intracelular Wolbachia dificulta a replicação dos arbovírus no Aedes aegypti e é transmitida verticalmente às novas gerações, sem modificação genética (não transgênico). Erro da B: antibióticos não combatem vírus nem são pulverizados sobre rios; erro da C: água encanada não se substitui por óleo; erro da D: o método é espécie-específico para o Aedes e não ameaça polinizadores.'},
-      {q:'[Autoral] Ao registrar pontos georreferenciados de depósitos positivos com aparelho GNSS em Porto Velho para compor a base cartográfica oficial do município no padrão do IBGE, o sistema de referência geodésico (datum) oficial adotado no Brasil e um dos cuidados técnicos de campo do SIG são, respectivamente:',options:['SIRGAS2000; verificar a cobertura de cobertura de sinais/precisão posicional e associar atributos corretos do imóvel.', 'WGS72 de Marte; desligar a antena de satélite antes da coleta para evitar interferência solar.', 'Córrego Alegre de 1920; multiplicar todas as latitudes por 100 para virarem hectares.', 'Sistema Hexadecimal de Cores; dispensar legenda e escala nos mapas da vigilância.'],ans:0,difficulty:'Difícil',questionType:'Caso Prático ACE',comment:'Gabarito: A. O SIRGAS2000 é o Sistema de Referência Geocêntrico para as Américas adotado oficialmente pelo IBGE no Brasil, e um SIG exige precisão da coordenada ligada aos atributos corretos (código do quarteirão/imóvel). Erro da B: desligar a antena impede a leitura GNSS e não existe datum de Marte no IBGE; erro da C: multiplicar coordenadas geográficas distorce completamente a localização; erro da D: escala, legenda e sistema de referência são essenciais à cartografia sanitária.'},
+| **Datum SIRGAS 2000** | Sistema de Referência Geocêntrico para as Américas adotado pelo IBGE. | Coleta de coordenadas precisas com GNSS/tablets em vistorias de campo. | Não utilizar data descontinuados (Córrego Alegre ou SAD 69). |
+| **SIG Vetorial vs Matricial** | **Vetorial**: Ponto, Linha, Polígono; **Matricial (Raster)**: grade de pixels. | **Ponto**: ovitrampa/PE; **Linha**: rua/rota; **Polígono**: quarteirão/bloqueio; **Raster**: drone/calor. | Não confundir pontos discretos com grades contínuas de pixels. |
+| **Reconhecimento Geográfico (RG)** | Atualização de croquis cadastrais de quarteirões e imóveis. | Iniciar numeração no canto **superior esquerdo no sentido horário**; PEs inspecionados **quinzenalmente**. | Garantir padronização cartográfica nas equipes municipais. |
+| **Método Wolbachia (Fiocruz)** | Bactéria natural intracelular *Wolbachia* no *Aedes aegypti*. | Bloqueia a transmissão dos vírus da Dengue, Zika e Chikungunya pelo vetor. | **Não é transgênico**; herdado por via materna; seguro para humanos. |
+| **Vacina Qdenga (TAK-003)** | Vacina tetravalente com vírus vivo atenuado no SUS. | Esquema obrigatório de **2 doses com intervalo de 3 meses (90 dias)** para 10 a 14 anos. | **Contraindicada** para gestantes, lactantes e imunossuprimidos. |`,
+    questions: [
+      {
+        q: '[Autoral] No trabalho de Reconhecimento Geográfico (RG) desenvolvido pelo ACE na SEMUSA Porto Velho, utiliza-se a tecnologia GNSS para a coleta de coordenadas espaciais. De acordo com as normas do IBGE, o sistema geodésico de referência oficial do Brasil é o:',
+        options: [
+          'SIRGAS 2000 (Sistema de Referência Geocêntrico para as Américas 2000).',
+          'Córrego Alegre de 1920.',
+          'Datum de Greenwich de 1884.',
+          'SAD 69 (South American Datum 1969), que substituiu definitivamente o SIRGAS 2000 em 2024.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Geotecnologias',
+        comment: 'Gabarito: A. O SIRGAS 2000 é o datum oficial do Brasil desde 2005 (Decreto nº 5.334/2005 e Resolução IBGE nº 1/2005). Erro da B e D: Córrego Alegre e SAD 69 são data legados já descontinuados como padrão oficial; erro da C: meridiano de Greenwich é referência de longitude, não datum geodésico geocêntrico brasileiro.'
+      },
+      {
+        q: '[Autoral] Em um Sistema de Informações Geográficas (SIG) utilizado pela vigilância ambiental para mapeamento de vetores, as feições espaciais correspondentes a um foco de mosquito, a uma vala de drenagem urbana e à área total de um quarteirão sanitário são modeladas no formato vetorial, respectivamente, por:',
+        options: [
+          'Ponto, linha e polígono.',
+          'Polígono, ponto e pixel.',
+          'Pixel, matriz e tabela.',
+          'Linha, ponto e voxel.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Caso Prático ACE',
+        comment: 'Gabarito: A. No modelo vetorial de SIG: coordenadas pontuais (focos, ovitrampas, PEs) são Pontos; feições lineares unidimensionais (ruas, valas, rios, rotas) são Linhas; áreas bidimensionais fechadas (quarteirões, bairros, estratos) são Polígonos. Erro da B, C e D: invertem as primitivas ou misturam com o modelo matricial/raster (pixel).'
+      },
+      {
+        q: '[Autoral] Durante a atualização do croquis de Reconhecimento Geográfico (RG) de uma localidade, as normas técnicas do Ministério da Saúde orientam que a numeração dos quarteirões deve ser iniciada:',
+        options: [
+          'No canto superior esquerdo (noroeste) do croquis, progredindo a numeração sistematicamente no sentido horário.',
+          'No centro exato do mapa, em espiral no sentido anti-horário.',
+          'Em ordem aleatória determinada por sorteio diário entre os moradores.',
+          'De baixo para cima, numerando apenas os quarteirões que possuem comércios.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Normas Técnicas ACE',
+        comment: 'Gabarito: A. Pelo manual de Reconhecimento Geográfico do Ministério da Saúde, a numeração dos quarteirões inicia-se no vértice superior esquerdo (noroeste) do mapa/croquis e avança no sentido horário, garantindo padronização cadastral. Erro da B, C e D: contrariam a norma técnica oficial de cartografia epidemiológica.'
+      },
+      {
+        q: '[Autoral] Em relação à inovação biotecnológica do Método Wolbachia aplicada no controle das arboviroses urbanas (Dengue, Zika e Chikungunya), assinale a afirmativa CORRETA:',
+        options: [
+          'Os mosquitos Aedes aegypti são inoculados com a bactéria intracelular natural Wolbachia pipientis, que reduz a replicação viral no vetor, sendo o método autossustentável por herança materna e não transgênico.',
+          'Trata-se de um mosquito transgênico modificado com DNA de peixes árticos para esterilizar fêmeas de abelhas nativas.',
+          'A bactéria Wolbachia é altamente infecciosa e fatal para seres humanos quando transmitida pela picada do mosquito.',
+          'O método consiste em aplicar antibióticos clorados na água das torneiras domésticas de toda a cidade.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Inovações em Saúde',
+        comment: 'Gabarito: A. O Método Wolbachia (Fiocruz/WMP) não envolve transgenia: a bactéria natural Wolbachia impede a replicação dos vírus no Aedes e é transmitida às novas gerações de mosquitos pelas fêmeas, sem risco a humanos. Erro da B: não é transgênico; erro da C: Wolbachia não infecta humanos nem vertebrados; erro da D: não utiliza antibióticos em redes de água.'
+      },
+      {
+        q: '[Autoral] Sobre a vacina Qdenga (TAK-003) incorporada ao Sistema Único de Saúde (SUS) contra a Dengue, é correto afirmar:',
+        options: [
+          'É uma vacina tetravalente com vírus vivo atenuado, administrada em esquema de 2 doses com intervalo de 3 meses, sendo contraindicada para gestantes e pessoas imunossuprimidas.',
+          'É uma vacina de dose única obrigatória para recém-nascidos no primeiro dia de vida.',
+          'É uma vacina intramuscular formulada exclusivamente contra o vírus da febre aftosa bovina.',
+          'A vacina pode ser administrada livremente em mulheres grávidas em qualquer estágio gestacional por não conter vírus atenuado.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Imunização e SUS',
+        comment: 'Gabarito: A. A vacina Qdenga protege contra os 4 sorotipos da dengue (tetravalente atenuada), aplicada em 2 doses subcutâneas com intervalo de 3 meses (90 dias); por ser de vírus vivo atenuado, é formalmente contraindicada para gestantes, lactantes e imunossuprimidos. Erro da B: exige 2 doses com intervalo de 3 meses; erro da C: combate a dengue humana; erro da D: contraindicada em gestantes.'
+      }
     ],
-    flashcards:[
-      ['Todo ponto no mapa representa a mesma qualidade de informação?', 'Não. Precisão, sistema de referência (datum SIRGAS2000), cobertura e definição do registro importam.'],
-      ['Uma correlação demonstra causalidade?', 'Não por si. É preciso investigar mecanismos, desenho do estudo e explicações alternativas.'],
-      ['Como Ponto, Linha e Polígono são usados no SIG da Vigilância em Saúde?', 'Ponto: foco/ovitrampa/PE; Linha: logradouro/igarapé/rota; Polígono: quarteirão/estrato LIRAa/bairro/distrito.'],
+    flashcards: [
+      [
+        'Qual o datum geodésico oficial do Brasil e sua importância no trabalho do ACE?',
+        'O SIRGAS 2000 (Sistema de Referência Geocêntrico para as Américas 2000), adotado oficialmente pelo IBGE para compatibilizar dados cartográficos e de geolocalização no SUS.'
+      ],
+      [
+        'Qual a norma de numeração de quarteirões no Reconhecimento Geográfico (RG) do Ministério da Saúde?',
+        'A numeração inicia-se no canto superior esquerdo (noroeste) do mapa e progride sequencialmente no sentido horário.'
+      ],
+      [
+        'Qual é o esquema posológico da vacina Qdenga no SUS e sua principal contraindicação clínica?',
+        'Esquema de 2 doses com intervalo de 3 meses (90 dias) por via subcutânea; é contraindicada para gestantes, lactantes e indivíduos com imunodeficiência grave por conter vírus atenuado.'
+      ]
     ],
-    references:[{title:'INPE — monitoramento do desmatamento',url:'https://www.gov.br/inpe/pt-br/acesso-a-informacao/perguntas-frequentes/principais-produtos-e-servicos-do-inpe/monitoramento-do-territorio-florestas/como-se-monitora-o-desmatamento',section:'Finalidades de PRODES e DETER.'},{title:'INPE — DETER',url:'https://www.gov.br/inpe/pt-br/area-conhecimento/unidade-amazonia/projetos-e-pesquisas/deter',section:'Diferença entre ocorrência e detecção; limitações de comparação e uso de alertas.'}],
+    references: [
+      {
+        title: 'Fiocruz / World Mosquito Program — Método Wolbachia',
+        url: 'https://portal.fiocruz.br/noticia/metodo-wolbachia-estrategia-inovadora-no-combate-arboviroses',
+        section: 'Bactéria Wolbachia, transmissão materna, bloqueio viral e segurança ambiental.'
+      },
+      {
+        title: 'Ministério da Saúde / CONITEC — Incorporação da Vacina Qdenga no SUS',
+        url: 'https://www.gov.br/saude/pt-br/assuntos/noticias/2023/dezembro/ministerio-da-saude-incorpora-vacina-contra-a-dengue-ao-sus',
+        section: 'Esquema vacinal de 2 doses com intervalo de 3 meses e contraindicações.'
+      },
+      {
+        title: 'INPE — Monitoramento de Desmatamento na Amazônia (PRODES e DETER)',
+        url: 'https://www.gov.br/inpe/pt-br/acesso-a-informacao/perguntas-frequentes/principais-produtos-e-servicos-do-inpe/monitoramento-do-territorio-florestas/como-se-monitora-o-desmatamento',
+        section: 'Diferenças metodológicas entre taxa anual consolidada (PRODES) e alertas (DETER).'
+      }
+    ]
   },
   {
-    id:'atu_6',title:'Realidade socioambiental amazônica: raciocínio integrado por território',
-    theory:`## Uma cadeia de relações, não uma causa única
-A realidade de Porto Velho e Rondônia deve ser estudada relacionando história de ocupação, atividades econômicas, circulação, ambiente e acesso a direitos. Uma mesma transformação pode gerar oportunidades para alguns grupos e custos para outros. Por isso, perguntar apenas se um empreendimento é “bom” ou “ruim” empobrece a análise: examine quem é afetado, em que dimensão e com quais alternativas.
+    id: 'atu_6',
+    title: 'Usinas Hidrelétricas do Madeira, Saneamento Básico e Matriz dos 15 Distritos',
+    theory: String.raw`### 1. Complexo Hidrelétrico do Rio Madeira: UHE Santo Antônio e UHE Jirau
+A implantação das duas megausinas hidrelétricas no Rio Madeira em Porto Velho reconfigurou a hidrodinâmica fluvial, a ocupação territorial e o perfil ecoepidemiológico da capital:
+- **Modelo Operacional a Fio d'Água (*Run-of-the-River*)**: as UHEs Santo Antônio e Jirau utilizam turbinas tipo bulbo de eixo horizontal, concebidas para operar com grande volume de vazão e baixa queda d'água. Esse modelo não possui grandes reservatórios de acumulação plurianual, dependendo diretamente da vazão fluvial sazonal do Madeira.
+- **Alterações Hidrodinâmicas e Impactos Vetoriais**:
+  * Formação de remansos e áreas de refluxo fluvial calmo nas margens, criando condições favoráveis para o mosquito-prego (*Anopheles darlingi*), vetor primário da malária na Amazônia;
+  * Expansão de enseadas de remanso com grande proliferação de macrófitas aquáticas flutuantes (especialmente o aguapé *Eichhornia crassipes*).
 
-## Caso resolvido: estiagem e acesso a serviços
-Uma comunidade depende de transporte fluvial. A estiagem dificulta deslocamentos, altera o tempo de viagem e pode afetar abastecimento. Uma política de saúde precisa considerar continuidade de insumos, comunicação e possibilidade de acesso. O evento físico não produz os mesmos efeitos em toda população; vulnerabilidade e infraestrutura modulam o impacto.
+### 2. Ecologia Vetorial Específica: O Mosquito Mansonia e Macrófitas Aquáticas
+- **Respiração Submersa e Sifão Modificado**: as larvas e pupas de mosquitos do gênero *Mansonia* possuem uma adaptação morfológica singular: o sifão respiratório é pontiagudo e denteado em serra, perfurando o aerênquima das raízes submersas das plantas aquáticas flutuantes para retirar o oxigênio interno da planta.
+- **Desafio no Controle pelo ACE**: como as larvas de *Mansonia* não sobem à lâmina superficial d'água para respirar o ar atmosférico, **larvicidas biológicos de dispersão na película superficial (como o Bti comum) são ineficazes**. O controle vetorial eficaz exige necessariamente o manejo físico, remoção mecânica e destinação adequada das macrófitas aquáticas flutuantes nos espelhos d'água.
 
-No estudo das secas de 2023–2024, relacione o monitoramento climático a essas condições. Não transforme uma situação observada em um ponto do rio em afirmação sobre todas as localidades, nem atribua todo problema a uma única variável sem avaliar outras condições.
+### 3. Marco Legal do Saneamento Básico (Lei nº 14.026/2020) e a Vulnerabilidade Sanitária de Porto Velho
+- **Metas de Universalização da Lei nº 14.026/2020**: até 31 de dezembro de 2033, 99% da população brasileira deve ter acesso a água potável tratada e 90% a coleta e tratamento de esgoto sanitário.
+- **Déficit Histórico em Porto Velho**: diagnósticos oficiais do SNIS e do Instituto Trata Brasil indicam que Porto Velho possui menos de 10% de cobertura de coleta e tratamento de esgoto, além de intermitência severa no abastecimento público de água tratada.
+- **Conexão Direta com os Criadouros de Vetores (LIRAa)**:
+  * A falta de água contínua encanada obriga os moradores a armazenarem água potável em tambores, tonéis, camburões e caixas baixas no piso, configurando os **Depósitos do Tipo A2**, que historicamente lideram os índices de criadouros de *Aedes aegypti* na capital;
+  * A ausência de rede coletora de esgoto perpetua valas negras a céu aberto e fossas rudimentares, multiplicando pernilongos *Culex quinquefasciatus* e atraindo roedores sinantrópicos (*Rattus norvegicus*), elevando os riscos de contaminação por leptospirose em períodos chuvosos.
 
-## Economia e indicadores sociais
-Crescimento de uma atividade econômica não comprova automaticamente melhora de todos os indicadores sociais. A distribuição de renda, a qualidade dos serviços e as condições ambientais precisam ser examinadas. PIB per capita é uma média econômica; não corresponde ao salário recebido por cada morador. Do mesmo modo, um indicador municipal não descreve todas as diferenças entre distritos e bairros.
+### 4. Matriz Territorial Completa dos 15 Distritos Rurais e Ribeirinhos de Porto Velho (Códigos SEMUSA nº 25/2026: 341 a 356)
+A vasta extensão territorial de Porto Velho (34.090,952 km²) organiza-se em três eixos de atuação prioritária do ACE:
 
-## História e diversidade
-A expansão urbana e as redes de transporte dialogam com trajetórias indígenas, ribeirinhas, migratórias e de trabalhadores. A Madeira-Mamoré é uma entrada para essa análise, mas não esgota a história regional. Cultura e território não se reduzem a monumentos ou ciclos econômicos; incluem formas de vida e relações de pertencimento.
+1. **Eixo BR-364 / Ponta do Abunã (Acesso Rodoviário Pavimentado Contínuo)**:
+   - **Jaci-Paraná (Cód. 347/346)**: a ~90 km da sede pela BR-364 sentido Acre; banhado pelo Rio Jaci-Paraná; polo comercial dinâmico; foco de arboviroses urbanas (*Aedes*) e malária na orla fluvial.
+   - **Nova Mutum Paraná (Cód. 351/341)**: a ~110 km da sede pela BR-364; cidade planejada construída pelo consórcio da UHE Jirau para reassentamento; vigilância em bairros ordenados e na margem do reservatório hidrelétrico.
+   - **Abunã (Cód. 347/341)**: a ~215 km da sede pela BR-364; confluência dos rios Abunã e Madeira (Ponte do Abunã inaugurada em 2021); antiga estação ferroviária da EFMM; divisa com a Bolívia e Acre; vigilância de malária ribeirinha e febre amarela.
+   - **Vista Alegre do Abunã (Cód. 356/345)**: a ~260 km da sede (km 1000 da BR-364); rápido crescimento agropecuário e madeireiro; controle intensivo de depósitos A2 em borracharias e oficinas.
+   - **Extrema de Rondônia (Extrema) (Cód. 345/343)**: a ~325 km da sede pela BR-364; principal centro urbano e financeiro da Ponta do Abunã; divisa imediata com o Acre; agências bancárias e comércio forte; risco de surtos epidêmicos de Dengue com múltiplos sorotipos.
+   - **Nova Califórnia (Cód. 351/344)**: a ~360 km da sede no extremo oeste rondoniense (divisa com Acrelândia/AC); referência agroflorestal internacional com o Projeto RECA (agroflorestas); vigilância de malária residual e leishmaniose tegumentar em ramais.
 
-## Síntese de uma resposta bem fundamentada
-Ao analisar um caso, escreva: fato e data; população e território; mecanismo plausível; evidência; limite da conclusão; resposta pública pertinente. “Aumentou o número de registros” exige perguntar se houve mais eventos ou melhor detecção. “Cresceu a economia” exige perguntar o que cresceu e quem se beneficiou. Esse procedimento integra os eixos do programa sem substituir estudo dos fatos por opiniões gerais.
+2. **Eixo Rural / Bacia Leiteira e Conflito Ambiental (Acesso Rodoviário Não Pavimentado / Misto)**:
+   - **União Bandeirantes (Cód. 355/342/348)**: a ~160 km da sede (BR-364 até km 90 + rodovia estadual RO-490 em terra batida); distrito gigantesco e polo da bacia leiteira; entorno da TI Karipuna e FLONA Bom Futuro; estradas de difícil tráfego no inverno amazônico; alta incidência de leishmaniose tegumentar americana (LTA) por flebotomíneos e acidentes ofídicos.
+   - **Rio Pardo (Cód. 352/349)**: a ~170 km da sede por estradas vicinais precárias de terra na região da FLONA Bom Futuro; área de forte pressão agropastoril e clareiras de desmatamento; busca ativa de lâminas de malária de clareira e vigilância de zoonoses.
 
-## Geografia física, hidrografia, unidades de conservação e saneamento em Porto Velho/RO
-- **Bacia do Rio Madeira e seus formadores:** o Rio Madeira — principal afluente da margem direita do Rio Amazonas em volume de água e transporte de sedimentos andinos (água barrenta/branca) — forma-se na fronteira Brasil–Bolívia pela confluência dos rios **Mamoré** e **Beni** (após este receber o Madre de Dios). Seus principais afluentes em território rondoniense incluem os rios **Guaporé, Abunã, Mutum-Paraná, Jaci-Paraná, Candeias, Jamari** e **Machado (Ji-Paraná)**.
-- **Clima e sazonalidade epidemiológica:** clima **Equatorial Quente e Úmido** (tipo *Am* na classificação de Köppen), com duas estações bem marcadas pelo regime pluviométrico: o **período chuvoso ("inverno amazônico", de novembro a abril)**, quando aumentam os alagamentos, os criadouros de *Aedes aegypti* e o risco de leptospirose; e o **período seco ("verão amazônico", de junho a setembro)**, quando ocorrem a vazante acentuada dos rios, a formação de coleções hídricas marginais propícias ao *Anopheles darlingi* na transição das águas e o pico de queimadas e doenças respiratórias.
-- **Unidades de Conservação e Terras Indígenas:** o território municipal e seu entorno abrigam importantes áreas protegidas, como a **Estação Ecológica de Cuniã**, a **Reserva Extrativista do Lago do Cuniã** (famosa pelo manejo sustentável de jacarés e pesca comunitária no Baixo Madeira), a **Floresta Nacional do Bom Futuro**, o **Parque Natural Municipal de Porto Velho** e Terras Indígenas como **Karipuna, Karitiana e Kaxarari**.`,
-    summary:`Relacione ambiente, infraestrutura, circulação e desigualdades. Impactos variam entre populações. PIB per capita não é salário individual. Escala, data e mecanismo sustentam uma análise socioambiental.
+3. **Eixo Fluvial do Baixo Madeira (Acesso Fluvial Predominante / Exclusivo a Jusante)**:
+   - **São Carlos do Jamari (São Carlos) (Cód. 354/350/352)**: a ~1h30 em voadeira rápida ou ~4h em barco de linha descendo o Madeira; foz do Rio Jamari; distrito mais antigo e polo de saúde do Baixo Madeira (Unidade Mista de Saúde); visitas de barco de palafita em palafita e borrifação residual intradomiciliar.
+   - **Nazaré (Cód. 353/350/351)**: a ~2h em voadeira ou ~5h em barco de linha; comunidade tradicional cabocla e afro-amazônica de pescadores e extrativistas de açaí; controle de malária na vazante (poças marginais), instalação de mosquiteiros impregnados (MILDs) e cloração de água potável.
+   - **Calama (Cód. 354/342/352)**: a ~6h a 8h em voadeira rápida ou ~15h em barco de linha recreio; extremo norte de Porto Velho na confluência do Madeira com o Machado (Ji-Paraná), divisa com o Amazonas (Humaitá/Manicoré); polo pesqueiro e comercial secular; malária autóctone contínua e controle sanitário em barcos interestaduais.
+   - **Cujubim Grande (Cód. 344/353)**: a ~35 km da sede; acesso misto (fluvial pelo Madeira ou terrestre em estrada de chão na estiagem); olarias tradicionais com cavas de argila que se transformam em criadouros de mosquitos.
+   - **Terra Caída (Cód. 354)**: a ~3h em voadeira a jusante; comunidade vulnerável ao fenômeno geomorfológico das "terras caídas" (desbarrancamento violento das margens na vazante); realocação contínua de moradias e cloração de água potável.
+   - **Papagaios (Cód. 355)**: a ~3h30 em voadeira rápida; ambiente de ilhas fluviais e várzea do Rio Madeira; agricultura familiar e pesca; busca ativa de febris de malária e prevenção da Febre do Oropouche.
+   - **Demarcação (Cód. 356)**: a ~7h a 9h em voadeira rápida; ponto extremo norte na calha do Rio Machado; área remota atendida por operações conjuntas com a Unidade Básica de Saúde Fluvial (UBSF) da SEMUSA.`,
+    summary: String.raw`UHE Santo Antônio e Jirau operam a fio d'água (turbinas bulbo), gerando remansos com Anopheles e macrófitas com Mansonia (cujas larvas respiram perfurando raízes, resistindo a larvicidas de superfície). Saneamento em PVH tem <10% de esgoto e intermitência de água, criando depósitos A2. Os 15 distritos dividem-se em Ponta do Abunã (BR-364), Bacia Leiteira (RO-490) e Baixo Madeira (fluvial).
 
-| Dimensão Socioambiental (Porto Velho / RO) | Característica Estrutural | Conexão Direta com a Saúde Pública e o Trabalho do ACE |
-| --- | --- | --- |
-| **Hidrografia (Bacia do Rio Madeira)** | Formado pela confluência dos rios **Beni e Mamoré**; principais afluentes: Guaporé, Abunã, Jaci-Paraná, Candeias, Jamari e Machado (Ji-Paraná). | Eixo de vida das comunidades ribeirinhas; oscilações de cheia e vazante condicionam focos de malária (*Anopheles*) e casos de leptospirose. |
-| **Clima Equatorial (*Am*) e Sazonalidade** | **Chuvoso ("inverno")**: nov–abr; **Seco ("verão")**: jun–set. | No período chuvoso crescem criadouros de *Aedes* e alagamentos; no seco agravam-se queimadas (material particulado $PM_{2,5}$ → síndromes respiratórias) e isolamento fluvial. |
-| **Saneamento Básico e Urbanização** | Déficit histórico de cobertura de água tratada e esgotamento sanitário na Região Norte. | O abastecimento intermitente leva moradores a armazenar água em tambores/caixas baixas (depósitos **A2**), exigindo orientação e vedação contínua pelo ACE. |
-| **Unidades de Conservação e Povos Tradicionais** | RESEX Lago do Cuniã, ESEC Cuniã, FLONA Bom Futuro, TIs Karitiana, Karipuna e Kaxarari. | Atuação com respeito intercultural, equidade no acesso ao SUS (Subsistema de Atenção à Saúde Indígena — SASI-SUS / DSEI Porto Velho) e vigilância de zoonoses/malária. |`,
-    questions:[
-      {q:'[Autoral] A estiagem afeta duas comunidades de forma diferente. Qual explicação é mais consistente?',options:['Todo evento ambiental produz danos idênticos.', 'Infraestrutura, exposição e dependência do transporte podem diferenciar impactos.', 'Diferenças sociais nunca importam.', 'Nenhuma política pública pode considerar vulnerabilidade.'],ans:1,difficulty:'Fácil',questionType:'Análise Socioambiental',comment:'Gabarito: B. O impacto socioambiental depende da interação entre o evento climático e condições territoriais como saneamento, acesso fluvial/rodoviário e infraestrutura local. Erro da A: comunidades isoladas ribeirinhas sofrem mais restrições logísticas que centros dotados de múltiplas rotas; erro da C: condições socioeconômicas influenciam exposição e capacidade de proteção; erro da D: a gestão pública e o SUS planejam justamente considerando vulnerabilidades territoriais.'},
-      {q:'[Autoral] O PIB per capita de um município indica necessariamente:',options:['O salário exato de cada morador.', 'Uma média econômica que não descreve a distribuição individual de renda.', 'Que todos têm a mesma renda.', 'Que não existe desigualdade interna.'],ans:1,difficulty:'Fácil',questionType:'Economia e Indicadores',comment:'Gabarito: B. O PIB per capita é obtido dividindo o Produto Interno Bruto pela população total, tratando-se de uma média agregada que oculta concentrações de renda e disparidades entre bairros e distritos. Erro da A: salário individual é renda pessoal/do trabalho, não PIB dividido por habitantes; erro da C e D: médias elevadas podem coexistir com forte desigualdade socioeconômica.'},
-      {q:'[Autoral] Do ponto de vista hidrográfico, o Rio Madeira — que banha a sede e os distritos ribeirinhos de Porto Velho — é formado na fronteira entre o Brasil e a Bolívia pela confluência de quais rios principais e deságua em qual margem do Rio Amazonas?',options:['É formado pela confluência dos rios Mamoré e Beni, sendo um dos principais afluentes da margem direita do Rio Amazonas.', 'É formado pelos rios Tietê e Paraná, desaguando no Oceano Atlântico Sul.', 'Nasce na Serra do Mar em São Paulo e deságua na margem esquerda do Rio Negro.', 'É um braço artificial aberto em 1990 a partir do Rio Tocantins.'],ans:0,difficulty:'Intermediário',questionType:'Geografia Física',comment:'Gabarito: A. O Rio Madeira nasce da junção dos rios Beni e Mamoré na fronteira Brasil-Bolívia e deságua na margem direita do Rio Amazonas. Erro da B: Tietê e Paraná pertencem à Bacia do Paraná/Prata; erro da C: o Rio Madeira tem águas brancas/barrentas andinas e deságua no Amazonas, não nasce em São Paulo nem deságua no Rio Negro; erro da D: é um dos maiores rios naturais da bacia amazônica, não um canal artificial.'},
-      {q:'[Autoral] Relacionando o regime climático equatorial de Porto Velho e os indicadores de saneamento básico ao trabalho do Agente de Combate às Endemias, é correto afirmar que:',options:['A combinação de período chuvoso intenso com deficiências na drenagem urbana e no abastecimento regular de água potável favorece tanto o acúmulo de água em recipientes domésticos de reserva (Grupo A2) quanto exposições ambientais à leptospirose em áreas alagáveis.', 'O clima polar seco de Porto Velho impede a reprodução de mosquitos durante todos os meses do ano.', 'A ausência de coleta de resíduos sólidos reduz a quantidade de criadouros do Grupo D2.', 'As queimadas da estação seca melhoram a função pulmonar de crianças e idosos.'],ans:0,difficulty:'Intermediário',questionType:'Caso Prático ACE',comment:'Gabarito: A. Em clima equatorial (Am), chuvas intensas com drenagem deficiente ampliam alagamentos (leptospirose) e intermitências no abastecimento levam ao armazenamento doméstico em tonéis/reservatórios ao nível do solo (Grupo A2 do LIRAa). Erro da B: o clima de Porto Velho é equatorial quente e úmido, propício ao Aedes o ano inteiro; erro da C: falta de coleta aumenta lixo sólido a céu aberto (Grupo D2); erro da D: fumaça de queimadas eleva material particulado PM2,5 e agrava doenças respiratórias.'},
+| Eixo Territorial / Tema | Distritos / Usinas / Leis | Perfil Operacional e de Acesso | Desafio Entomológico e Sanitário do ACE |
+| --- | --- | --- | --- |
+| **UHEs Santo Antônio e Jirau** | Usinas a fio d'água no Rio Madeira com turbinas tipo bulbo. | Remansos marginais e enseadas com macrófitas aquáticas flutuantes. | *Anopheles darlingi* (malária) e mosquitos *Mansonia* (controle por retirada física de macrófitas). |
+| **Saneamento e LIRAa** | Marco Legal (Lei 14.026/2020); <10% de esgoto em Porto Velho. | Abastecimento intermitente de água leva ao acúmulo doméstico. | Multiplicação de **Depósitos Tipo A2** (tambores e tonéis no chão) com larvas de *Aedes aegypti*. |
+| **Eixo BR-364 / Ponta do Abunã** | Jaci-Paraná, Nova Mutum, Abunã, Vista Alegre, Extrema e Nova Califórnia. | Acesso rodoviário pavimentado contínuo (90 km a 360 km da sede). | Arboviroses urbanas (*Aedes*), Leishmaniose Tegumentar em ramais e vigilância em fronteiras. |
+| **Eixo Rural / Bacia Leiteira** | União Bandeirantes e Rio Pardo. | Estradas de terra precárias (lama no inverno amazônico); entorno de TIs e FLONA. | Leishmaniose Tegumentar Americana (flebotomíneos), malária em clareiras e acidentes com animais peçonhentos. |
+| **Eixo Baixo Madeira (Fluvial)** | São Carlos, Nazaré, Calama, Cujubim Grande, Terra Caída, Papagaios e Demarcação. | Acesso fluvial exclusivo a jusante (1h30 a 9h em voadeiras; barcos de linha). | Malária ribeirinha, isolamento em secas extremas, MILDs e atuação com UBS Fluvial. |`,
+    questions: [
+      {
+        q: '[Autoral] As Usinas Hidrelétricas de Santo Antônio e Jirau, instaladas no Rio Madeira em Porto Velho, utilizam o modelo operacional a fio d\'água com turbinas tipo bulbo. Do ponto de vista ambiental e entomológico, a implantação dessas usinas provocou alterações caracterizadas pelo(a):',
+        options: [
+          'Aumento de remansos propícios à proliferação do mosquito Anopheles darlingi (malária) e formação de enseadas com macrófitas aquáticas onde se desenvolvem larvas do mosquito Mansonia.',
+          'Eliminação definitiva e total de todos os mosquitos e insetos da bacia amazônica.',
+          'Formação de reservatórios com profundidade de 2.000 metros e extinção da vazante fluvial.',
+          'Desaparecimento completo das águas do Rio Madeira por evaporação atômica nas turbinas.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Ambiente e Vetores',
+        comment: 'Gabarito: A. As UHEs a fio d\'água criam remansos e enseadas que favorecem anofelinos nas margens e mosquitos Mansonia associados a macrófitas aquáticas flutuantes (como o aguapé). Erro da B, C e D: hipóteses absurdas sem respaldo biológico ou hidrológico.'
+      },
+      {
+        q: '[Autoral] Em relação à biologia e ao controle de larvas do mosquito do gênero Mansonia em reservatórios hidrelétricos e represas, assinale a particularidade técnica CORRETA:',
+        options: [
+          'As larvas e pupas de Mansonia perfuram as raízes de macrófitas aquáticas para respirar o ar de seus tecidos internos, de modo que larvicidas biológicos de ação superficial são ineficazes, exigindo o manejo físico das plantas aquáticas.',
+          'As larvas de Mansonia respiram exclusivamente na superfície livre da água e morrem com qualquer sabão neutro.',
+          'O mosquito Mansonia é o vetor exclusivo da doença de Chagas nas matas ciliares.',
+          'As pupas de Mansonia transformam-se em pequenos peixes predadores de larvas de Aedes.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Biologia Vetorial',
+        comment: 'Gabarito: A. O sifão respiratório adaptado de larvas e pupas de Mansonia fixa-se nas raízes de plantas aquáticas flutuantes (macrófitas) para extrair oxigênio submerso. Por isso, larvicidas que atuam na película superficial não surtem efeito, demandando a remoção física das macrófitas. Erro da B: não dependem da película superficial; erro da C: doença de Chagas é transmitida por triatomíneos (barbeiros); erro da D: são insetos dípteros, não peixes.'
+      },
+      {
+        q: '[Autoral] O Marco Legal do Saneamento Básico (Lei Federal nº 14.026/2020) estabelece metas de universalização de 99% de água potável e 90% de coleta e tratamento de esgoto até 2033. Em Porto Velho, o déficit histórico de esgotamento sanitário (menos de 10% de cobertura) e a intermitência no fornecimento de água afetam diretamente o trabalho do ACE ao:',
+        options: [
+          'Estimular o armazenamento de água doméstica em tambores e caixas baixas no chão (Depósitos do Tipo A2), que concentram criadouros de Aedes aegypti, além de esgoto a céu aberto favorecendo roedores e leptospirose.',
+          'Eliminar qualquer risco de dengue ou leptospirose em todo o perímetro urbano.',
+          'Substituir a necessidade de visitas do ACE por robôs submarinos municipais.',
+          'Impedir a reprodução de insetos em recipientes artificiais.'
+        ],
+        ans: 0,
+        difficulty: 'Fácil',
+        questionType: 'Saneamento e Saúde',
+        comment: 'Gabarito: A. A precariedade do saneamento e abastecimento de água induz as famílias a estocar água em tonéis/tambores (depósitos A2 do LIRAa), principais focos de Aedes na cidade, enquanto esgoto a céu aberto atrai roedores (leptospirose). Erro da B e D: a precariedade sanitária amplifica e não elimina os riscos vetoriais; erro da C: o trabalho do ACE é presencial e essencial.'
+      },
+      {
+        q: '[Autoral] Um Agente de Combate às Endemias designado para atuar no distrito de Nova Califórnia (Código 351) e outro designado para São Carlos do Jamari (Código 354) vivenciarão desafios de deslocamento e perfis territoriais distintos. Sobre esses dois distritos de Porto Velho, assinale a afirmativa CORRETA:',
+        options: [
+          'Nova Califórnia situa-se no extremo oeste do Eixo da BR-364 (divisa com o Acre) com acesso rodoviário pavimentado contínuo; enquanto São Carlos localiza-se no Baixo Madeira a jusante da capital, com acesso predominantemente fluvial pelo Rio Madeira.',
+          'São Carlos possui linha de metrô de superfície diária e Nova Califórnia só pode ser acessada de canoa a remo.',
+          'Ambos os distritos ficam na orla da Praia de Santos no litoral paulista.',
+          'Nova Califórnia e São Carlos são bairros centrais a 50 metros da sede da Prefeitura de Porto Velho.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Distritos de Porto Velho',
+        comment: 'Gabarito: A. Nova Califórnia situa-se a cerca de 360 km da sede na BR-364 sentido Acre (polo agroflorestal do RECA); São Carlos situa-se a jusante no Rio Madeira, acessível por barco/voadeira no Baixo Madeira. Erro da B, C e D: trazem informações geográficas e logísticas incorretas.'
+      },
+      {
+        q: '[Autoral] No distrito rural de União Bandeirantes (situado a cerca de 160 km de Porto Velho, com acesso pela BR-364 e pela rodovia estadual RO-490 em leito natural de terra batida), as características epidemiológicas e os desafios operacionais do ACE no período chuvoso (“inverno amazônico”) envolvem principalmente:',
+        options: [
+          'Extensas linhas e ramais rurais com tráfego prejudicado por lamaçal e atoleiros, com vigilância voltada à leishmaniose tegumentar em áreas de desmatamento/fronteira agrícola, além de malária e acidentes com animais peçonhentos.',
+          'Apenas vistorias em apartamentos de edifícios de 40 andares servidos por helipontos.',
+          'Nenhuma necessidade de visita do ACE por ser uma área desprovida de vegetação ou moradias humanas.',
+          'Inexistência de chuvas durante os meses de dezembro a março.'
+        ],
+        ans: 0,
+        difficulty: 'Intermediário',
+        questionType: 'Caso Prático ACE',
+        comment: 'Gabarito: A. União Bandeirantes é polo leiteiro com grande malha de estradas vicinais (linhas e ramais); no inverno amazônico as estradas de terra tornam-se de difícil trafegabilidade; a proximidade com a FLONA Bom Futuro e TI Karipuna exige vigilância intensiva de leishmaniose tegumentar (flebotomíneos), malária e ofidismo. Erro da B: trata-se de distrito rural agropastoril e não de metrópole verticalizada; erro da C e D: possui grande população residente e o inverno amazônico é marcado por chuvas torrenciais.'
+      }
     ],
-    flashcards:[
-      ['Por que escala territorial importa?', 'Um indicador estadual ou municipal pode ocultar desigualdades importantes entre a sede urbana, bairros periféricos e distritos rurais/ribeirinhos.'],
-      ['O que uma boa análise de caso explicita?', 'Fato/data, população/território, mecanismo, evidência, limite e resposta pública pertinente.'],
-      ['Quais rios se unem para formar o Rio Madeira e quais são seus principais afluentes em Rondônia?', 'Forma-se pela confluência dos rios Beni e Mamoré; seus principais afluentes em RO incluem Guaporé, Abunã, Jaci-Paraná, Candeias, Jamari e Machado (Ji-Paraná).'],
+    flashcards: [
+      [
+        'Qual o modelo de operação das UHEs Santo Antônio e Jirau no Rio Madeira e quais turbinas utilizam?',
+        'Operam no modelo a fio d\'água (run-of-the-river), sem grandes reservatórios de acumulação plurianual, empregando turbinas tipo bulbo de eixo horizontal.'
+      ],
+      [
+        'Por que larvicidas biológicos de dispersão na película superficial da água falham contra larvas de Mansonia?',
+        'Porque as larvas e pupas de Mansonia não sobem à superfície para respirar; possuem sifão modificado que perfura as raízes submersas de macrófitas aquáticas (como o aguapé), absorvendo o oxigênio interno da planta.'
+      ],
+      [
+        'Quais são os 3 grandes eixos de deslocamento dos 15 distritos rurais e ribeirinhos de Porto Velho?',
+        '1) Eixo BR-364 / Ponta do Abunã (rodoviário pavimentado); 2) Eixo Rural / Bacia Leiteira (RO-490 em terra batida / ramais); 3) Eixo Baixo Madeira (transporte fluvial exclusivo pelo Rio Madeira a jusante).'
+      ]
     ],
-    references:[ibge,{title:'Cemaden — secas e impactos de 2023–2024',url:'https://www.gov.br/cemaden/pt-br/assuntos/noticias-cemaden/cemaden-analisa-secas-recentes-no-brasil-e-apresenta-diagnostico-e-projecoes-como-subsidio-para-a-cop-16/',section:'Diagnóstico da seca e impactos; aplicações territoriais deste complemento são estudos de caso autorais.'},{title:'Iphan — patrimônio ferroviário',url:'https://www.gov.br/iphan/pt-br/superintendencias/rondonia/patrimonio-ferroviario',section:'Formação histórica e patrimônio de Porto Velho.'}],
-  },
+    references: [
+      {
+        title: 'Instituto Trata Brasil — Ranking do Saneamento Básico nas 100 Maiores Cidades',
+        url: 'https://tratabrasil.org.br/ranking-do-saneamento-2024/',
+        section: 'Indicadores de esgotamento sanitário e abastecimento em Porto Velho frente à Lei 14.026/2020.'
+      },
+      {
+        title: 'ANEEL / IBAMA — Estudos Ambientais das UHEs Santo Antônio e Jirau',
+        url: 'https://www.gov.br/ibama/pt-br/assuntos/foco-ambiental/hidreletricas',
+        section: 'Modelo a fio d\'água, turbinas tipo bulbo, macrófitas e monitoramento entomológico do Madeira.'
+      },
+      ibge
+    ]
+  }
 ];

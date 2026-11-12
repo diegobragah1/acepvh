@@ -1,114 +1,119 @@
-# atu_3 — Porto Velho: história administrativa e leitura de indicadores
+# atu_3 — Cronologia Político-Administrativa, Geografia do Madeira e Censo IBGE 2022
 
-## Três datas respondem a perguntas diferentes
-Criação legal, instalação administrativa e desenvolvimento de um núcleo urbano não são o mesmo evento. No caso de Porto Velho, a criação municipal em 1914 e a instalação em 1915 precisam ser distinguidas. A formação vinculada à Madeira-Mamoré integra o contexto urbano, mas não substitui a identificação do ato administrativo pedido na questão.
+### 1. Cronologia Político-Administrativa Completa: De Humaitá ao Estado de Rondônia
+A história institucional de Porto Velho e de Rondônia é balizada por quatro marcos legislativos e administrativos decisivos:
+1. **02/10/1914 — Criação do Município de Porto Velho**: instituído pela **Lei Estadual nº 757 do Amazonas**, promulgada pelo governador Jonathas Pedrosa, desmembrando o novel município das terras de Humaitá/AM. A instalação solene do município ocorreu em **24/01/1915**, tendo como primeiro superintendente o Major Fernando Guapindaia. Enquanto Porto Velho nasceu pertencendo ao Amazonas, a povoação vizinha de Santo Antônio do Rio Madeira pertencia a Mato Grosso.
+2. **13/09/1943 — Criação do Território Federal do Guaporé**: criado pelo **Decreto-Lei nº 5.812/1943** pelo presidente Getúlio Vargas durante o Estado Novo e a Segunda Guerra Mundial (mobilização dos Soldados da Borracha), desmembrando áreas do Estado do Amazonas e do Estado de Mato Grosso. O capitão Aluízio Pinheiro Ferreira foi nomeado seu primeiro governador. Em 1945, o município vizinho de Santo Antônio do Rio Madeira foi extinto e seu território incorporado a Porto Velho.
+3. **17/02/1956 — Denominação de Território Federal de Rondônia**: alterado pela **Lei Federal nº 2.731/1956** (sancionada no governo JK), prestando homenagem de gratidão nacional ao Marechal Cândido Mariano da Silva Rondon, desbravador das linhas telegráficas estratégicas da Amazônia.
+4. **22/12/1981 — Criação do Estado de Rondônia**: elevado à categoria de Estado federado pela **Lei Complementar Federal nº 41/1981** (sancionada pelo presidente João Figueiredo). A instalação formal do Estado ocorreu em **04/01/1982**, com a posse solene do coronel Jorge Teixeira de Oliveira ("Teixeirão") como seu primeiro governador.
 
-O Território Federal do Guaporé foi criado em 1943 e passou a denominar-se Rondônia em 1956. A criação do Estado pela LC 41 ocorreu em 1981, com instalação em 1982. Dizer apenas “Rondônia começou em 1981” apaga etapas territoriais e a história das populações que já viviam na região.
+### 2. Hidrografia Regional: A Bacia do Rio Madeira e seus Afluentes
+- **Formação Hidrográfica**: o Rio Madeira forma-se na fronteira internacional Brasil-Bolívia a partir da junção dos rios **Beni** e **Mamoré**.
+- **Regime de Sedimentos e Vazão**: caracterizado como rio de **águas brancas (barrentas)**, transporta gigantesca carga de sedimentos ricos em minerais dos Andes, respondendo por aproximadamente 15% a 20% da descarga líquida total do Rio Amazonas.
+- **Principais Afluentes em Território Rondoniense**: Rio Guaporé, Rio Abunã, Rio Mutum-Paraná, Rio Jaci-Paraná, Rio Candeias, Rio Jamari e Rio Machado (Ji-Paraná, cuja foz no Madeira situa-se no distrito de Calama).
+- **Foz Fluvial**: o Rio Madeira deságua na margem direita do Rio Amazonas, a jusante de Manaus, nas proximidades do porto exportador de Itacoatiara/AM.
 
-## Município não é apenas sua sede
-Porto Velho compreende áreas urbanas e rurais, com diferentes formas de ocupação e acesso. A sede é a cidade de Porto Velho; o município é a unidade territorial e administrativa mais ampla. Distâncias, rios e infraestrutura ajudam a explicar custos e dificuldades de prestação de serviços.
+### 3. Demografia e Geografia de Porto Velho: Dados Definitivos do Censo IBGE 2022
+- **População Residente Oficial**: **460.434 habitantes** no Censo Demográfico do IBGE 2022 (maior população municipal de Rondônia, concentrando ~29% dos habitantes do Estado).
+- **Área Territorial Oficial**: **34.090,952 km²**, consagrando Porto Velho como a **capital brasileira de maior extensão territorial**, superando em área geográfica países como a Bélgica e estados brasileiros como Sergipe e Alagoas.
+- **Densidade Demográfica Média**: **13,51 hab/km²**. Trata-se de uma média aritmética espacial que encobre a hiperconcentração de moradores na sede urbana (onde residem mais de 85% da população) em contraste com o vasto vazio demográfico dos distritos florestais e ribeirinhos.
+- **PIB Municipal**: maior Produto Interno Bruto de Rondônia, superando os R$ 20 bilhões de reais, respondendo por mais de 35% de toda a atividade econômica estadual.
 
-## População, estimativa e densidade
-O IBGE informa 460.434 pessoas para Porto Velho no Censo 2022. Esse número pertence ao recenseamento e a sua data de referência. Uma estimativa de outro ano não “corrige automaticamente” o censo como se ambos fossem a mesma observação. A metodologia e o período precisam acompanhar o dado.
-
-Densidade demográfica é população dividida pela área considerada. Um município extenso pode apresentar baixa densidade média e, simultaneamente, bairros densamente ocupados. A média municipal não descreve a distribuição interna nem a acessibilidade de todas as comunidades.
-
-## Economia e relações espaciais
-Atividades econômicas, circulação fluvial, transporte rodoviário e oferta de serviços organizam o território. Ao interpretar um mapa, separe limite municipal, bacia hidrográfica e área de influência de um serviço: as três delimitações podem não coincidir.
-
-Em comparação de indicadores, mantenha unidade, ano e território. Não combine uma população de um ano com área de outra delimitação sem explicar o procedimento. A conclusão deve respeitar a escala: um indicador de Rondônia não pode ser apresentado como se medisse apenas Porto Velho.
-
-## Organização distrital de Porto Velho e relação direta com as localidades do Edital nº 25/2026
-Com **34.090,952 km²** (maior capital brasileira em extensão territorial — área superior à de estados como Alagoas e Sergipe), Porto Velho organiza seus distritos em dois grandes eixos geográficos que coincidem exatamente com as **16 localidades de vagas de ACE** do Edital nº 25/2026:
-1. **Eixo Rodoviário (BR-364 sentido Acre / Ponta do Abunã e entorno):** compreende distritos e localidades com acesso predominantemente terrestre, como **Jaci-Paraná, Mutum-Paraná, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema, Nova Califórnia e União Bandeirantes** (além do assentamento Joana D'Arc e Rio Pardo).
-2. **Eixo Fluvial (Baixo e Médio Rio Madeira):** compreende distritos e comunidades ribeirinhas cujo acesso depende essencialmente da navegação pelo Rio Madeira, como **São Carlos, Nazaré, Calama, Demarcação** (na divisa fluvial com o Amazonas), **Cujubim Grande e Aliança**.
+### 4. Nota Técnica de Precisão Territorial: Distritos Administrativos vs. Localidades do Quadro de Vagas do Edital ACE nº 25/2026
+Para evitar qualquer divergência entre fontes geográficas e o quadro do concurso, distinga sempre dois recortes:
+1. **No Edital nº 25/2026 — SEMUSA Porto Velho (Retificação nº 01)**: As **140 vagas totais de ACE** estão distribuídas em **16 códigos de lotação (340 a 356, sendo o código 340 para Porto Velho — Zona Urbana com 96 vagas e 15 códigos distritais/rurais com 44 vagas)**: Abunã (341), Calama (342), Cujubim Grande (344 — cód. 343 inexistente no Anexo I), Extrema (345), Fortaleza do Abunã (346), Jaci Paraná (347), Joana D'Arc (348), Lago Cuniã (349), Nazaré (350), Nova Califórnia (351), Rio Pardo (352), Santa Rita (353), São Carlos (354), União Bandeirantes (355) e Vista Alegre (356).
+2. **Classificação Logística e Geográfica**:
+   - **Eixo da BR-364 / Ponta do Abunã e Entorno Terrestre**: Jaci-Paraná, Mutum-Paraná, Nova Mutum, Abunã, Fortaleza do Abunã, Vista Alegre do Abunã, Extrema, Nova Califórnia, União Bandeirantes, Rio Pardo e Bom Futuro.
+   - **Baixo Madeira (Acesso Predominantemente Fluvial)**: São Carlos, Nazaré, Calama e Demarcação.
 
 ## Resumo de revisão
 
-Criação e instalação são distintas: município 1914/1915; Estado 1981/1982. Censo 2022 e estimativa de outro ano não são a mesma medida. Densidade média não descreve distribuição interna.
+Criação de PVH: Lei 757/1914 do Amazonas (instalado em 1915). Guaporé em 1943; Território de Rondônia em 1956; Estado em 1981 (instalado em 1982). Censo 2022: 460.434 hab., 34.090,952 km² e 13,51 hab/km². Distritos dividem-se em Eixo Rodoviário (BR-364) e Eixo Fluvial (Baixo Madeira).
 
-| Marco / Indicador Oficial | Data / Número de Referência | Ato Legal / Fonte Oficial | Detalhe Crítico de Prova |
+| Marco Histórico / Dado Oficial | Data / Número Oficial | Base Legal / Fonte | Significado Crítico para a Banca IBGP |
 | --- | --- | --- | --- |
-| **Criação × Instalação de Porto Velho** | **02/10/1914** (criação) × **24/01/1915** (instalação). | Lei Estadual do Amazonas nº 757/1914 (Gov. Jonathas Pedrosa). | Porto Velho nasceu como município do **Amazonas** (desmembrado de Humaitá), enquanto Santo Antônio do Rio Madeira pertencia a Mato Grosso. |
-| **Território Federal do Guaporé → Rondônia** | **13/09/1943** (Guaporé) → **17/02/1956** (Rondônia). | Decreto-Lei nº 5.812/1943 (Vargas) e Lei nº 2.731/1956 (homenagem a Cândido Rondon). | O Território Federal foi desmembrado de partes do **Amazonas** e de **Mato Grosso**. |
-| **Criação × Instalação do Estado de Rondônia** | **22/12/1981** (criação) × **04/01/1982** (instalação). | Lei Complementar Federal nº 41/1981 (Gov. Jorge Teixeira de Oliveira). | Rondônia possui **52 municípios** e área de ~237,7 mil km². |
-| **Dados de Porto Velho no Censo IBGE 2022** | **460.434 habitantes** (Censo 2022); área de **34.090,952 km²**; densidade de **13,51 hab/km²**. | IBGE — Censo Demográfico 2022. | É a **capital brasileira de maior área territorial**, com forte concentração populacional na sede urbana e baixa densidade média nos distritos. |
-| **Eixos Distritais de Porto Velho** | **Eixo BR-364/Ponta do Abunã**: Jaci-Paraná, União Bandeirantes, Abunã, Vista Alegre, Extrema, Nova Califórnia. **Eixo Baixo Madeira**: São Carlos, Nazaré, Calama, Demarcação. | Divisão político-administrativa municipal e Quadro de Vagas SEMUSA. | Conhecer qual distrito é fluvial (Baixo Madeira) e qual é rodoviário (BR-364) ajuda em questões de geografia e logística sanitária. |
+| **Criação de Porto Velho** | **02/10/1914** (instalado em 24/01/1915). | Lei Estadual do Amazonas nº 757/1914. | Porto Velho nasceu em terras do **Amazonas**; Santo Antônio pertencia a Mato Grosso. |
+| **Território Federal do Guaporé** | **13/09/1943** (Aluízio Ferreira, 1º Gov.). | Decreto-Lei nº 5.812/1943 (Vargas). | Desmembrado de áreas do Amazonas e Mato Grosso na 2ª Guerra Mundial. |
+| **Território de Rondônia** | **17/02/1956** (homenagem a Rondon). | Lei Federal nº 2.731/1956 (JK). | Homenagem histórica ao Marechal Cândido Mariano da Silva Rondon. |
+| **Criação do Estado de Rondônia** | **22/12/1981** (instalado em 04/01/1982). | Lei Complementar Federal nº 41/1981. | Governador Jorge Teixeira de Oliveira instalou o Estado em 1982. |
+| **Censo Demográfico IBGE 2022** | **460.434 hab.** e **34.090,952 km²**. | IBGE Cidades 2022. | **Maior capital brasileira em extensão**; densidade de 13,51 hab/km². |
+| **Quadro de Vagas SEMUSA** | 16 códigos (340 urbano + 341–356 distritos). | Edital nº 25/2026 SEMUSA. | Eixo Rodoviário BR-364 versus Eixo Fluvial Baixo Madeira. |
 
 ## Exercícios autorais comentados
 
 ### Questão 1
 
-[Autoral] Uma questão pede a instalação de Porto Velho. Qual cuidado é necessário?
+[Autoral] A respeito da linha do tempo da evolução político-administrativa do Município de Porto Velho e do Estado de Rondônia, assinale a sequência cronológica CORRETA dos fatos históricos e suas respectivas bases legais:
 
-- A) Usar criação e instalação como sinônimos.
-- B) Distinguir a criação municipal de 1914 da instalação de 1915.
-- C) Responder obrigatoriamente 1981.
-- D) Ignorar o objeto do enunciado.
+- A) Criação do Município de Porto Velho pela Lei 757/1914 do Amazonas $\rightarrow$ Criação do Território Federal do Guaporé pelo Dec-Lei 5.812/1943 $\rightarrow$ Denominação de Território Federal de Rondônia pela Lei 2.731/1956 $\rightarrow$ Criação do Estado de Rondônia pela LC 41/1981.
+- B) Criação do Estado de Rondônia em 1914 $\rightarrow$ Criação do Município de Porto Velho em 1943 $\rightarrow$ Criação do Território do Guaporé em 1981.
+- C) Instalação do Território de Rondônia em 1500 $\rightarrow$ Transformação em província do Império em 1988 $\rightarrow$ Criação do Município de Porto Velho em 2024.
+- D) Desmembramento de Rondônia a partir do Estado do Acre em 1956 sem nunca ter integrado o Amazonas ou Mato Grosso.
 
-**Gabarito: B.** Gabarito: B. O Município de Porto Velho foi criado pela Lei Estadual do Amazonas nº 757, de 02/10/1914, e instalado em 24/01/1915. Erro da A: criação legal e instalação administrativa são atos e datas distintos; erro da C: 1981 refere-se à criação do Estado de Rondônia pela LC nº 41/1981; erro da D: responder exige identificar exatamente qual marco foi perguntado.
+**Gabarito: A.** Gabarito: A. A ordem cronológica exata é: 1) Lei 757/1914 do Amazonas (criação de Porto Velho, instalado em 1915); 2) Dec-Lei 5.812/1943 (Território do Guaporé); 3) Lei 2.731/1956 (Território de Rondônia); 4) LC 41/1981 (criação do Estado de Rondônia, instalado em 1982). Erro da B, C e D: invertem completamente os marcos ou trazem distorções anacrônicas.
 
 ### Questão 2
 
-[Autoral] Baixa densidade demográfica média do município permite afirmar que:
+[Autoral] Segundo os dados consolidados do Censo Demográfico do IBGE 2022, o município de Porto Velho apresenta as seguintes características demográficas e territoriais oficiais:
 
-- A) Todos os bairros têm ocupação igualmente baixa.
-- B) Não existem áreas urbanas densas.
-- C) A população é pequena em relação à área total, sem descrever toda a distribuição interna.
-- D) Não há necessidade de transporte fluvial.
+- A) População residente de 460.434 habitantes, área territorial de 34.090,952 km² (maior capital do país em área territorial) e densidade demográfica média de 13,51 hab/km².
+- B) População residente de 100.000 habitantes e área de 500 km², sendo a menor capital do Brasil.
+- C) Densidade demográfica de 1.500 hab/km² uniforme em todos os distritos da floresta.
+- D) População de 2 milhões de habitantes recenseados exclusivamente na Praça das Três Caixas d'Água.
 
-**Gabarito: C.** Gabarito: C. Densidade demográfica = população ÷ área total (460.434 hab ÷ 34.090,952 km² ≈ 13,51 hab/km² em Porto Velho): é uma média espacial que não revela concentração urbana vs. dispersão rural. Erro da A e B: a sede urbana concentra a grande maioria dos moradores em bairros densos; erro da D: localidades do Baixo Madeira dependem fortemente do modal fluvial.
+**Gabarito: A.** Gabarito: A. O Censo IBGE 2022 registrou exatamente 460.434 habitantes em Porto Velho, com vasta extensão territorial de 34.090,952 km² e densidade média de 13,51 hab/km². Erro da B, C e D: números fictícios que destoam da base oficial do IBGE.
 
 ### Questão 3
 
-[Autoral] Assinale a alternativa que apresenta corretamente a sequência histórica e legislativa da evolução político-administrativa de Rondônia:
+[Autoral] Em relação à Bacia Hidrográfica do Rio Madeira e aos rios que banham o território de Rondônia, assinale a afirmativa CORRETA:
 
-- A) Criação do Território Federal do Guaporé em 1943 (Decreto-Lei nº 5.812, a partir de áreas do Amazonas e de Mato Grosso), mudança de denominação para Território Federal de Rondônia em 1956 (Lei nº 2.731) e elevação a Estado de Rondônia pela Lei Complementar nº 41, de 22 de dezembro de 1981 (instalado em 4 de janeiro de 1982).
-- B) Elevação direta de colônia espanhola a Estado de Rondônia em 1822, sem nunca ter sido Território Federal.
-- C) Desmembramento do Estado do Acre em 1988 para formar o Território do Guaporé.
-- D) Criação do município de Porto Velho em 1981 pela Lei Complementar nº 41.
+- A) O Rio Madeira forma-se na fronteira Brasil-Bolívia pela confluência dos rios Beni e Mamoré, e tem como afluentes em Rondônia rios como o Guaporé, Abunã, Jaci-Paraná, Jamari e Machado.
+- B) O Rio Madeira nasce no Oceano Atlântico e corre em direção aos Andes bolivianos.
+- C) O Rio Madeira é de águas pretas e ácidas como o Rio Negro, sem carregar sedimentos andinos.
+- D) O Rio Machado (Ji-Paraná) deságua diretamente na Baía de Guanabara no Rio de Janeiro.
 
-**Gabarito: A.** Gabarito: A. Reproduz os três marcos exatos: Território Federal do Guaporé (13/09/1943), Território Federal de Rondônia (17/02/1956) e Estado de Rondônia pela LC 41/1981 (criado em 22/12/1981 e instalado em 04/01/1982). Erro da B: Rondônia pertenceu ao Amazonas e Mato Grosso e passou por fase territorial; erro da C: o desmembramento ocorreu em 1943 sobre áreas do AM e MT, não do Acre em 1988; erro da D: Porto Velho foi criado em 1914 (Lei 757/AM), enquanto a LC 41/1981 criou o Estado.
+**Gabarito: A.** Gabarito: A. O Madeira nasce da junção do Mamoré e do Beni, caracterizando-se por águas brancas/barrentas ricas em sedimentos andinos, recebendo importantes afluentes em RO (Guaporé, Abunã, Jaci-Paraná, Jamari, Machado). Erro da B: o rio corre no sentido sul-norte/nordeste em direção ao Rio Amazonas; erro da C: o Madeira tem águas brancas/barrentas; erro da D: o Machado deságua no Rio Madeira em Calama.
 
 ### Questão 4
 
-[Autoral] Na organização territorial do município de Porto Velho, os distritos de São Carlos, Nazaré, Calama e Demarcação caracterizam-se geograficamente por:
+[Autoral] Ao confrontar a divisão administrativa oficial de Porto Velho com o Quadro de Vagas do Edital nº 25/2026 da SEMUSA (16 códigos de lotação de ACE), um candidato aprovado para o Código 342 (Calama) e outro aprovado para o Código 345 (Extrema de Rondônia) estarão alocados, respectivamente, em:
 
-- A) Localizarem-se na região ribeirinha do Baixo Madeira, a jusante da sede municipal, tendo no Rio Madeira sua principal via de acesso e integração.
-- B) Situarem-se na fronteira terrestre com o Peru, ao longo da rodovia BR-040.
-- C) Serem bairros verticalizados do centro financeiro da sede urbana de Porto Velho.
-- D) Pertencerem administrativamente ao município de Ji-Paraná.
+- A) Um distrito do Baixo Madeira com acesso predominantemente fluvial e um distrito da Ponta do Abunã com acesso rodoviário pavimentado pela BR-364.
+- B) Dois bairros urbanos contíguos do centro da cidade de Porto Velho.
+- C) Duas ilhas oceânicas desabitadas no litoral sul de Rondônia.
+- D) Dois distritos pertencentes administrativamente ao Estado do Amazonas sem vínculo com a SEMUSA.
 
-**Gabarito: A.** Gabarito: A. São Carlos, Nazaré, Calama e Demarcação formam o eixo fluvial do Baixo Rio Madeira, a jusante da capital, com acesso essencialmente hidroviário. Erro da B: Rondônia faz fronteira com a Bolívia (não com o Peru) e a BR-040 fica no Sudeste/Centro-Oeste; erro da C: são distritos ribeirinhos distantes da sede urbana; erro da D: pertencem ao município de Porto Velho.
+**Gabarito: A.** Gabarito: A. Calama situa-se no extremo norte fluvial do Baixo Madeira (confluência com o Machado), exigindo transporte hidroviário; Extrema localiza-se na Ponta do Abunã a mais de 300 km da sede, acessível pela BR-364. Erro da B: são distritos distantes da sede urbana; erro da C: Rondônia não possui litoral oceânico; erro da D: ambos integram o Município de Porto Velho e o edital da SEMUSA.
 
 ### Questão 5
 
-[Autoral] No planejamento das ações de vigilância em Porto Velho com base no Censo IBGE 2022 (460.434 habitantes e 34.090,952 km²), a diferença prática entre o eixo da BR-364/Ponta do Abunã e o eixo do Baixo Madeira para o trabalho do ACE decorre de que:
+[Autoral] A respeito da fundação do município vizinho de Santo Antônio do Rio Madeira e sua relação histórica com Porto Velho, é correto afirmar que:
 
-- A) Localidades como Jaci-Paraná, Abunã, Extrema e Nova Califórnia têm acesso rodoviário contínuo pela BR-364, enquanto São Carlos, Nazaré, Calama e Demarcação exigem logística fluvial condicionada às cheias e vazantes do Rio Madeira.
-- B) Todas as localidades rurais de Porto Velho ficam a menos de 2 quilômetros da Praça das Três Caixas d’Água.
-- C) O Baixo Madeira possui ligação ferroviária de alta velocidade até Nova Califórnia.
-- D) Os dois eixos pertencem ao município de Ariquemes e dispensam ações da SEMUSA Porto Velho.
+- A) Santo Antônio do Rio Madeira pertencia originariamente ao Estado de Mato Grosso e foi extinto na década de 1940, sendo seu território incorporado ao município de Porto Velho.
+- B) Santo Antônio do Rio Madeira é a atual capital do Estado do Acre.
+- C) Porto Velho foi criado como uma colônia penal militar de Santo Antônio no ano de 2010.
+- D) Santo Antônio do Rio Madeira nunca existiu, tratando-se apenas de lenda folclórica rondoniense.
 
-**Gabarito: A.** Gabarito: A. A extensão gigantesca de Porto Velho impõe desafios logísticos distintos: acesso terrestre pela BR-364 rumo ao Abunã versus navegação fluvial no Baixo Madeira, altamente sensível a estiagens e cheias. Erro da B: há localidades a mais de 150–350 km da sede; erro da C: não há ferrovia ligando esses distritos; erro da D: ambos pertencem a Porto Velho e são atendidos pela SEMUSA (códigos 341–356 do Edital).
+**Gabarito: A.** Gabarito: A. Santo Antônio pertencia a Mato Grosso (polo inicial das primeiras tentativas da ferrovia no século XIX); Porto Velho surgiu em terras do Amazonas em 1907 como ponto de transbordo e porto mais navegável. Em 1945, Santo Antônio foi anexado a Porto Velho. Erro da B: a capital do Acre é Rio Branco; erro da C: Porto Velho foi criado em 1914; erro da D: foi município histórico real de Mato Grosso.
 
 ## Flashcards
 
-**Município e sede são a mesma coisa?**
+**Qual o ato legal de criação do Município de Porto Velho e a qual Estado ele pertencia originariamente?**
 
-Não. A sede é o núcleo urbano da capital; o município de Porto Velho abrange 34.090 km² incluindo a sede e os distritos rurais/ribeirinhos.
+Criado pela Lei Estadual do Amazonas nº 757, de 02/10/1914 (instalado em 24/01/1915), tendo sido desmembrado do território de Humaitá/AM.
 
-**Censo e estimativa anual são intercambiáveis?**
+**Quais foram os atos legais de criação do Território do Guaporé e do Estado de Rondônia?**
 
-Não. O Censo 2022 contou 460.434 habitantes em Porto Velho; estimativas de outros anos usam projeções metodológicas distintas.
+Território do Guaporé: Decreto-Lei nº 5.812 de 13/09/1943 (mudado para Rondônia pela Lei 2.731/1956); Estado de Rondônia: Lei Complementar nº 41 de 22/12/1981 (instalado em 04/01/1982).
 
-**Quais são as datas de criação e instalação do Município de Porto Velho e do Estado de Rondônia?**
+**Quais são os dados oficiais de população e área de Porto Velho segundo o Censo IBGE 2022?**
 
-Município de Porto Velho: criado em 02/10/1914 (Lei 757/AM) e instalado em 24/01/1915. Estado de Rondônia: criado em 22/12/1981 (LC 41) e instalado em 04/01/1982.
+População residente de 460.434 habitantes e área territorial de 34.090,952 km² (maior capital do Brasil em área territorial), com densidade de 13,51 hab/km².
 
 ## Referências de consulta
 
-- [IBGE — Porto Velho](https://www.ibge.gov.br/cidades-e-estados/ro/porto-velho.html) — População, território e indicadores; observar o ano de cada medida.
-- [Prefeitura — história da cidade](https://www.portovelho.ro.gov.br/pagina/a-cidade) — Criação/instalação e transformação do Território em Estado; conferir o ato legal quando houver divergência de transcrição.
+- [IBGE — Panorama do Censo 2022 em Porto Velho](https://cidades.ibge.gov.br/brasil/ro/porto-velho/panorama) — População residente (460.434 hab.), área territorial (34.090,952 km²), densidade e PIB municipal.
+- [Prefeitura Municipal de Porto Velho — História e Administração](https://www.portovelho.ro.gov.br/pagina/a-cidade) — Criação legal de 1914, instalação em 1915 e evolução territorial da capital.
+- [Planalto — Lei Complementar Federal nº 41/1981](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp41.htm) — Criação do Estado de Rondônia e instalação de seus poderes constitucionais.
 
 Consulta editorial: 31/10/2026. Legislação deve respeitar o marco temporal do edital.

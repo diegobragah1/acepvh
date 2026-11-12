@@ -1,95 +1,124 @@
-# rlm_6 — Validade, diagramas de conjuntos e problemas de associação
+# rlm_6 — Argumentação Lógica, Diagramas de Venn, Conjuntos e Associação Lógica
 
-## Verdade das frases e validade do argumento
-Um argumento é válido quando não existe interpretação em que todas as premissas sejam verdadeiras e a conclusão falsa. Validade é uma relação entre premissas e conclusão, não um selo de veracidade factual. “Todo A é B; x é A; logo x é B” tem forma válida, mesmo se alguém escolher classes que tornem uma premissa falsa no mundo real.
+### 1. Validade de Argumentos e Regras de Inferência
+Um argumento lógico dedutivo é composto por um conjunto de premissas $P_1, P_2, \dots, P_k$ e uma conclusão $C$.
+- **Critério de Validade**: um argumento é **válido** se, e somente se, a verdade de suas premissas tornar logicamente impossível a falsidade de sua conclusão (não existe interpretação com premissas todas V e conclusão F).
+- **Validade vs Verdade Factual**: a validade é uma propriedade estritamente estrutural/formal do raciocínio, e não do conteúdo factual empírico.
+- **Regras de Inferência Válidas**:
+  * **Modus Ponens (Afirmação do Antecedente)**: $p \to q, \quad p \quad \vdash \quad q$;
+  * **Modus Tollens (Negação do Consequente)**: $p \to q, \quad \neg q \quad \vdash \quad \neg p$;
+  * **Silogismo Hipotético**: $p \to q, \quad q \to r \quad \vdash \quad p \to r$;
+  * **Silogismo Disjuntivo**: $p \lor q, \quad \neg p \quad \vdash \quad q$.
+- **Falácias Formais Recorrentes na Banca IBGP**:
+  * *Afirmação do Consequente*: $p \to q, \quad q \quad \not\vdash \quad p$ (concluir $p$ a partir de $q$ é falacioso);
+  * *Negação do Antecedente*: $p \to q, \quad \neg p \quad \not\vdash \quad \neg q$ (concluir $\neg q$ a partir de $\neg p$ é falacioso).
 
-## Duas inferências e duas armadilhas
-Se p implica q e p ocorre, conclui-se q: modus ponens. Se p implica q e q não ocorre, conclui-se não p: modus tollens. Já concluir p a partir de q é afirmar o consequente. Concluir não q a partir de não p é negar o antecedente. Para detectar o erro, procure outra razão que permita q sem p.
+### 2. Teoria dos Conjuntos e Diagramas de Venn
+- **Pertinência ($\in$) vs Inclusão ($\subset, \subseteq$)**: pertinência vincula elemento a conjunto ($x \in A$); inclusão vincula subconjunto a conjunto ($A \subset B$).
+- **Conjunto das Partes ($\mathcal{P}(A)$)**: conjunto formado por todos os subconjuntos de $A$. Para um conjunto finito com $n$ elementos:
+  $$n(\mathcal{P}(A)) = 2^n$$
+  O total de **subconjuntos próprios** é $2^n - 1$ (exclui o próprio $A$). O conjunto vazio $\emptyset$ é subconjunto de qualquer conjunto ($\emptyset \subseteq A$).
+- **Princípio da Inclusão-Exclusão**:
+  * *Para dois conjuntos*:
+    $$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$
+  * *Para três conjuntos*:
+    $$n(A \cup B \cup C) = n(A) + n(B) + n(C) - [n(A \cap B) + n(A \cap C) + n(B \cap C)] + n(A \cap B \cap C)$$
+  * *Regra de Ouro nos Diagramas de Venn*: inicie sempre o preenchimento dos valores numéricos pela **interseção central tríplice** $n(A \cap B \cap C)$, subtraindo esse valor das interseções duplas adjacentes.
 
-“Todo agente da equipe A fez o curso; Bruno fez o curso; logo Bruno é da equipe A” é inválido: pessoas de outras equipes podem ter feito o mesmo curso. Um diagrama com Bruno fora do círculo A, mas dentro do conjunto dos formados, refuta a inferência.
+### 3. Problemas de Associação Lógica em Tabelas Cruzadas
+Problemas que correlacionam pessoas, cargos, bairros de lotação e escalas de serviço são resolvidos estruturando uma matriz de dupla entrada:
+- Preencha cada célula com $O$ (correspondência verdadeira confirmada) ou $X$ (associação proibida eliminada);
+- Uma vez preenchido um $O$ em uma célula, elimine com $X$ todas as outras células da mesma linha e da mesma coluna (correspondência biunívoca).
 
-## União e interseção sem duplicar pessoas
-Em um grupo de 50 pessoas, 28 estudam Português, 25 estudam Matemática e 10 estudam ambas. A união contém 28 + 25 − 10 = 43 pessoas; 7 não estudam nenhuma. A interseção é subtraída porque foi contada duas vezes. “Somente Português” corresponde a 28 − 10 = 18.
-
-Pertinência relaciona elemento e conjunto: x pertence a A. Inclusão relaciona conjuntos: A está contido em B. Um conjunto com 3 elementos distintos tem 2³=8 subconjuntos, incluindo vazio e o próprio conjunto.
-
-## Associação e sequências
-Em problemas de associação, use tabela e registre tanto possibilidades quanto proibições. Uma conclusão precisa respeitar todas as pistas, não só uma. Em sequências finitas, vários padrões podem ser inventados; a solução de prova depende do padrão simples compatível com o comando e as alternativas. Não apresente uma regra escolhida como se fosse a única continuação matematicamente possível.
+### 4. Problemas de Verdades e Mentiras
+Problemas em que personagens fazem declarações e apenas um fala a verdade (ou apenas um mente):
+1. Procure identificar duas declarações **mutuamente contraditórias** entre si (se uma afirma $p$ e a outra afirma $\neg p$, exatamente uma é verdadeira e a outra é necessariamente falsa);
+2. Teste a hipótese consistente que satisfaz o número exato de verdades exigido pelo enunciado sem gerar contradição.
 
 ## Resumo de revisão
 
-Validade exclui premissas verdadeiras com conclusão falsa. Modus ponens/tollens são válidos; afirmar consequente não. União subtrai a interseção. Pertinência é elemento/conjunto; inclusão é conjunto/conjunto.
+Argumento válido impede premissas V com conclusão F. Modus Ponens e Tollens são válidos; afirmar o consequente é falácia. Conjunto das Partes tem 2ⁿ subconjuntos. Comece diagramas de Venn pela interseção central.
 
-| Regra de Inferência / Conjunto | Estrutura Formal | Conclusão Válida / Fórmula | Armadilha / Falácia |
+| Regra / Conceito | Estrutura Lógica / Fórmula | Aplicação Prática | Cuidado de Prova |
 | --- | --- | --- | --- |
-| **Modus Ponens (Afirmação do Antecedente)** | Premissa 1: $p \to q$; Premissa 2: $p$. | Logo, **$q$**. | Confundir com a falácia da afirmação do consequente ($p \to q$ e $q$ **não** garante $p$). |
-| **Modus Tollens (Negação do Consequente)** | Premissa 1: $p \to q$; Premissa 2: $\neg q$. | Logo, **$\neg p$**. | Confundir com a falácia da negação do antecedente ($p \to q$ e $\neg p$ **não** garante $\neg q$). |
-| **Silogismo Disjuntivo** | Premissa 1: $p \lor q$; Premissa 2: $\neg p$. | Logo, **$q$**. | Se uma das duas é verdadeira e a primeira falhou, a segunda é obrigatoriamente verdadeira. |
-| **Princípio da Inclusão-Exclusão (2 e 3 conjuntos)** | $n(A \cup B) = n(A) + n(B) - n(A \cap B)$ | Para 3 conjuntos: soma os individuais, subtrai as interseções 2 a 2 e soma $n(A \cap B \cap C)$. | Comece sempre preenchendo o Diagrama de Venn pela **interseção central**. |
-| **Conjunto das Partes $\mathcal{P}(A)$** | Total de subconjuntos de $A$ com $n$ elementos $= 2^n$. | Subconjuntos próprios não vazios $= 2^n - 2$. | O conjunto vazio $\emptyset$ é **subconjunto** de qualquer conjunto ($\emptyset \subset A$). |
+| **Modus Ponens** | $p \to q$ e $p \implies q$. | Se chove, calha enche. Choveu $\implies$ calha encheu. | Não cometer a falácia de afirmar o consequente ($p \to q$ e $q$ **não** garante $p$). |
+| **Modus Tollens** | $p \to q$ e $\neg q \implies \neg p$. | Se há foco, há lixo. Não há lixo $\implies$ não há foco. | Não cometer a falácia de negar o antecedente ($p \to q$ e $\neg p$ **não** garante $\neg q$). |
+| **Inclusão-Exclusão (2 conjuntos)** | $n(A \cup B) = n(A) + n(B) - n(A \cap B)$ | Subtrair a interseção para não contar as pessoas duas vezes. | Somente $A = n(A) - n(A \cap B)$. |
+| **Conjunto das Partes $\mathcal{P}(A)$** | Total de subconjuntos $= 2^n$. | Para $n = 6$ elementos: $2^6 = 64$ subconjuntos. | O conjunto vazio $\emptyset$ sempre integra $\mathcal{P}(A)$. |
 
 ## Exercícios autorais comentados
 
 ### Questão 1
 
-[Autoral] Em 50 pessoas, 28 estudam P, 25 estudam M e 10 ambas. Quantas não estudam nenhuma?
+[Autoral] Em um grupo de 50 servidores da saúde, 28 realizaram o curso de vigilância de arboviroses, 25 realizaram o curso de controle de roedores e 10 realizaram ambos os cursos. Quantos desses servidores NÃO realizaram nenhum dos dois cursos?
 
-- A) 0
-- B) 7
-- C) 10
-- D) 17
+- A) 7 servidores.
+- B) 0 servidores.
+- C) 10 servidores.
+- D) 17 servidores.
 
-**Gabarito: B.** Gabarito: B. União: n(P ∪ M) = 28 + 25 − 10 = 43. Logo, quem não estuda nenhuma = 50 − 43 = 7. Erro da A: ocorreria se 53 − 50 desse negativo/zero sem interseção; erro da C: 10 é a interseção (estudam ambas); erro da D: ocorreria ao somar 28 + 25 − 50 = 3 ou subtrair errado.
+**Gabarito: A.** Gabarito: A. Pelo Princípio da Inclusão-Exclusão para dois conjuntos: n(A ∪ B) = n(A) + n(B) - n(A ∩ B) = 28 + 25 - 10 = 43 servidores que fizeram pelo menos um dos cursos. O número de servidores que não fizeram nenhum dos dois cursos é o complementar em relação ao total: 50 - 43 = 7 servidores. Erro da B: soma 28 + 25 = 53 e supõe que todos fizeram; erro da C: 10 é o número de servidores que fizeram ambos os cursos; erro da D: calcula 28 - 10 = 18 ou 25 - 10 = 15 sem relacionar com o universo.
 
 ### Questão 2
 
-[Autoral] “Todo A é B; João é B; logo João é A” é:
+[Autoral] Considere verdadeiras as premissas: P1: “Se chover forte durante a tarde, então o mutirão de borrifação será adiado”; P2: “O mutirão de borrifação NÃO foi adiado”. Aplicando a regra de inferência válida (Modus Tollens), conclui-se necessariamente que:
 
-- A) Sempre válido.
-- B) Inválido, pois B pode conter elementos fora de A.
-- C) Uma negação de todos.
-- D) Uma identidade entre A e B.
+- A) Não choveu forte durante a tarde.
+- B) Choveu forte durante a tarde.
+- C) A equipe de borrifação não compareceu ao trabalho.
+- D) O mutirão foi transferido para o período noturno.
 
-**Gabarito: B.** Gabarito: B. Se A ⊆ B (círculo A dentro do círculo B), João estar em B não obriga que esteja dentro de A (ele pode estar na região B − A), constituindo falácia da afirmação do consequente. Erro da A: existe contraexemplo direto; erro da C: não há quantificador existencial negando "Todo"; erro da D: inclusão A ⊆ B não implica igualdade A = B.
+**Gabarito: A.** Gabarito: A. Pelo Modus Tollens: dadas as premissas p -> q e ~q, conclui-se necessariamente ~p. Como a consequência ("o mutirão foi adiado") não ocorreu (~q), a condição suficiente ("choveu forte") obrigatoriamente não ocorreu (~p). Erro da B: contradiz a validade lógica (se tivesse chovido forte, o mutirão teria sido adiado); erro da C e D: conclusões sem respaldo nas premissas fornecidas.
 
 ### Questão 3
 
-[Autoral] Considere verdadeiras as premissas: P1) “Se há pneus expostos à chuva, então surge foco de larvas”; P2) “Não surgiu foco de larvas neste pátio”. Aplicando a regra de inferência válida (Modus Tollens), conclui-se necessariamente que:
+[Autoral] Um kit padrão de inspeção de campo do ACE é composto por um conjunto $A$ com exatamente 6 instrumentos distintos. O número total de subconjuntos possíveis que podem ser formados com esses instrumentos (isto é, o número de elementos do Conjunto das Partes $\mathcal{P}(A)$) é:
 
-- A) Não há pneus expostos à chuva neste pátio.
-- B) Há pneus expostos à chuva neste pátio.
-- C) Choveu todos os dias da semana.
-- D) O pátio não possui muro.
+- A) 64 subconjuntos.
+- B) 12 subconjuntos.
+- C) 36 subconjuntos.
+- D) 32 subconjuntos.
 
-**Gabarito: A.** Gabarito: A. Em p → q verdadeira com ~q verdadeira (Modus Tollens), p não pode ser verdadeira (pois V → F seria falso), logo ~p é obrigatoriamente verdadeira ("não há pneus expostos à chuva"). Erro da B: contradiz a validade dedutiva tornando V → F falso; erro da C e D: informações extrínsecas ausentes das premissas.
+**Gabarito: A.** Gabarito: A. Para qualquer conjunto finito A com n elementos, o número de subconjuntos de seu Conjunto das Partes é dado por 2ⁿ. Com n = 6 instrumentos: n(P(A)) = 2⁶ = 64 subconjuntos (incluindo o conjunto vazio e o conjunto completo com os 6 instrumentos). Erro da B: multiplica 6 × 2 = 12; erro da C: calcula 6² = 36; erro da D: calcula 2⁵ = 32.
 
 ### Questão 4
 
-[Autoral] Um conjunto $A$ reúne os 6 equipamentos básicos de proteção individual do agente em determinada operação. O número total de subconjuntos que compõem o Conjunto das Partes de $A$, denotado por $n(\mathcal{P}(A))$, é igual a:
+[Autoral] O argumento lógico “Todo agente que atua no Baixo Madeira utiliza transporte fluvial; Marcos utiliza transporte fluvial; portanto, Marcos atua no Baixo Madeira” é classificado como:
 
-- A) 64.
-- B) 12.
-- C) 36.
-- D) 32.
+- A) Inválido, pois comete a falácia da afirmação do consequente (o conjunto dos que usam transporte fluvial pode conter outras pessoas além dos agentes do Baixo Madeira).
+- B) Válido, pois a premissa universal garante a igualdade de todos os elementos.
+- C) Uma tautologia clássica de Modus Ponens.
+- D) Verdadeiro exclusivamente no caso em que Marcos é o supervisor da equipe.
 
-**Gabarito: A.** Gabarito: A. Para conjunto finito com n = 6 elementos, o Conjunto das Partes possui 2^n = 2⁶ = 64 subconjuntos (incluindo o vazio e o próprio A). Erro da B: multiplica 6 × 2; erro da C: eleva 6²; erro da D: calcula 2⁵ = 32 (equivalente a n = 5 ou erro ao descontar mais que o devido).
+**Gabarito: A.** Gabarito: A. Se o conjunto A (agentes do Baixo Madeira) está contido no conjunto B (usuários de transporte fluvial), pertencer a B não garante pertencer a A (Marcos pode ser um ribeirinho, turista ou comerciante). Trata-se da clássica falácia da afirmação do consequente (p -> q e q não autorizam concluir p). Erro da B: confunde inclusão de conjuntos com identidade; erro da C: Modus Ponens exige afirmar o antecedente (p), e não o consequente (q); erro da D: validade é propriedade formal e independe de fatos empíricos não premissados.
+
+### Questão 5
+
+[Autoral] Em uma investigação sanitária sobre 3 arboviroses (Dengue, Zika e Chikungunya) em 100 pacientes febris, constatou-se que: 50 tiveram Dengue, 40 tiveram Zika, 30 tiveram Chikungunya; 20 tiveram Dengue e Zika; 15 tiveram Dengue e Chikungunya; 10 tiveram Zika e Chikungunya; e 5 pacientes apresentaram coinfecção simultânea pelas três arboviroses. Quantos desses 100 pacientes NÃO tiveram nenhuma das três doenças?
+
+- A) 20 pacientes.
+- B) 15 pacientes.
+- C) 10 pacientes.
+- D) 25 pacientes.
+
+**Gabarito: A.** Gabarito: A. Pelo Princípio da Inclusão-Exclusão para 3 conjuntos: n(D ∪ Z ∪ C) = n(D) + n(Z) + n(C) - [n(D ∩ Z) + n(D ∩ C) + n(Z ∩ C)] + n(D ∩ Z ∩ C). Substituindo: n(D ∪ Z ∪ C) = 50 + 40 + 30 - [20 + 15 + 10] + 5 = 120 - 45 + 5 = 80 pacientes com pelo menos uma arbovirose. Portanto, o número de pacientes que não tiveram nenhuma das três é: 100 - 80 = 20 pacientes. Erro da B: esquece de somar a interseção tríplice (+5); erro da C: calcula 100 - 90; erro da D: soma e subtrai as interseções com erros de sinal.
 
 ## Flashcards
 
-**Como provar que um argumento é inválido?**
+**Como refutar formalmente a validade de um argumento dedutivo?**
 
-Exibindo um contraexemplo em que todas as premissas sejam verdadeiras e a conclusão seja falsa.
+Exibindo um contraexemplo em que todas as premissas sejam simultaneamente verdadeiras e a conclusão seja falsa.
 
-**Qual a fórmula da união de dois conjuntos finitos?**
+**Qual é a ordem correta para preencher um Diagrama de Venn de três conjuntos?**
 
-n(A∪B) = n(A) + n(B) − n(A∩B).
+Começa-se sempre pela interseção tríplice central n(A ∩ B ∩ C), descontando esse valor ao preencher as interseções duplas adjacentes.
 
-**Por onde se deve começar a preencher um problema com Diagrama de Venn?**
+**Quantos subconjuntos possui o Conjunto das Partes de um conjunto com n elementos?**
 
-Sempre pela interseção central (elementos que pertencem simultaneamente a todos os conjuntos), descontando esse valor das regiões adjacentes.
+Possui exatamente 2ⁿ subconjuntos, incluindo o conjunto vazio e o próprio conjunto original.
 
 ## Referências de consulta
 
-- [IMPA/OBMEP — módulos de matemática](https://portaldaobmep.impa.br/index.php/modulo/index) — Conjuntos e introdução à lógica matemática; exemplos autorais de diagramas e argumentos.
+- [IMPA/OBMEP — Teoria dos Conjuntos e Argumentação Lógica](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=49&tipo=7) — Operações com conjuntos, diagramas de Venn, argumentos lógicos e dedução.
 
 Consulta editorial: 31/10/2026. Legislação deve respeitar o marco temporal do edital.

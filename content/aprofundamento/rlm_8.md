@@ -1,106 +1,131 @@
-# rlm_8 — Probabilidade condicional, dependência e calendário
+# rlm_8 — Probabilidade Clássica e Condicional, Garantias e Raciocínio Sequencial
 
-## O espaço amostral vem antes da fração
-Casos favoráveis divididos por casos possíveis funciona diretamente quando os resultados elementares são equiprováveis. Ao lançar dois dados honestos, há 36 pares ordenados equiprováveis; as somas 2 a 12 não são equiprováveis. A soma 2 tem um par, (1,1); a soma 7 tem seis. Usar 1/11 para cada soma dá um modelo errado.
+### 1. Espaço Amostral Equiprovável e Probabilidade de Laplace
+Um experimento aleatório possui um conjunto de todos os resultados possíveis denominado **Espaço Amostral ($\Omega$)**. Um **Evento ($A$)** é qualquer subconjunto de $\Omega$.
+- **Definição Clássica de Laplace**: se todos os $n(\Omega)$ resultados elementares forem **equiprováveis** (mesma chance de ocorrência):
+  $$P(A) = \frac{n(A)}{n(\Omega)} = \frac{\text{Casos Favoráveis}}{\text{Casos Possíveis}}$$
+  O valor da probabilidade sempre satisfaz $0 \le P(A) \le 1$ ($0\% \le P(A) \le 100\%$).
+- **Contraexemplo Clássico das Somas de Dados**: no lançamento de dois dados de 6 faces, há $6 \times 6 = 36$ pares ordenados equiprováveis. As somas de 2 a 12 **NÃO** são equiprováveis: a soma 7 possui 6 pares favoráveis ($(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \implies P = \frac{6}{36} = \frac{1}{6}$), enquanto a soma 2 possui apenas 1 par ($(1,1) \implies P = \frac{1}{36}$). Usar $\frac{1}{11}$ para cada soma é um erro de modelagem.
 
-## Exemplo de retiradas sem reposição
-Uma urna contém 3 fichas azuis e 2 verdes. A chance de a primeira ser azul é 3/5. Se a primeira foi azul e não houve reposição, restam 2 azuis entre 4 fichas; a chance condicional da segunda ser azul é 2/4. Assim, P(duas azuis)=3/5 × 2/4 = 3/10.
+### 2. Regra da Adição (União) e Evento Complementar
+- **Probabilidade da União (Conectivo "OU")**:
+  $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
+- **Eventos Mutuamente Exclusivos**: quando não podem ocorrer juntos ($A \cap B = \emptyset \implies P(A \cap B) = 0$). Logo, $P(A \cup B) = P(A) + P(B)$.
+- **Evento Complementar ($\bar{A}$ ou $A^c$)**: a probabilidade de um evento não ocorrer é:
+  $$P(\bar{A}) = 1 - P(A)$$
 
-Com reposição e mistura adequada, a composição é restaurada; a segunda chance volta a 3/5 e o produto seria 9/25. O enunciado precisa dizer se há reposição. Dependência não é sinônimo de exclusão: eventos mutuamente exclusivos não ocorrem juntos; independência significa que conhecer um evento não altera a probabilidade do outro.
+### 3. Probabilidade Condicional e Eventos Independentes
+- **Probabilidade Condicional**: probabilidade de ocorrer $A$ sabendo previamente que o evento $B$ ocorreu ($P(B) > 0$):
+  $$P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{n(A \cap B)}{n(B)}$$
+  *Regra prática de resolução*: a informação condicional restringe imediatamente o espaço amostral ao subconjunto $B$, que se torna o novo denominador.
+- **Eventos Independentes**: a ocorrência de $B$ não altera a probabilidade de $A$:
+  $$P(A \mid B) = P(A) \iff P(A \cap B) = P(A) \times P(B)$$
+  *Atenção*: independência **não** é o mesmo que exclusão mútua. Eventos mutuamente exclusivos com probabilidades não nulas são sempre dependentes.
+- **Extrações Sucessivas com e sem Reposição**:
+  * *Com reposição*: a composição do espaço amostral é restaurada e os eventos são independentes;
+  * *Sem reposição*: o total no denominador diminui em 1 unidade a cada retirada e a composição interna se altera (eventos dependentes).
 
-## União e condicionamento
-Em um dado honesto, A={2,4,6} e B={4,5,6}. A união é {2,4,5,6}, com chance 4/6. Somar 3/6 + 3/6 sem descontar {4,6} duplica resultados. Se soubermos que saiu um número par, o espaço relevante se reduz a {2,4,6}; a chance de ser maior que 3 passa a 2/3.
+### 4. Problemas de Garantia e Princípio das Gavetas de Dirichlet (Casa dos Pombos)
+Questões da banca IBGP que exigem o número **mínimo** de retiradas às cegas para se ter **certeza absoluta (garantia)** baseiam-se na análise do **pior caso possível** (cenário de maior azar):
+- Para garantir $k$ itens da mesma categoria entre $m$ categorias distintas no pior caso:
+  $$\text{Retiradas Mínimas} = m \times (k - 1) + 1$$
+- Para estoques finitos limitados: supõe-se que o agente retira primeiro todos os elementos de todas as outras categorias que não interessam, até que reste apenas a categoria procurada.
 
-## Raciocínio sequencial com datas
-Os dias da semana repetem-se a cada 7 dias. Se hoje é segunda-feira, daqui a 30 dias será quarta-feira, pois 30 deixa resto 2 na divisão por 7. O enunciado “daqui a” não conta hoje como primeiro dia transcorrido. Em intervalos com datas inclusivas, a contagem pode ser outra.
-
-Uma probabilidade calculada dentro de um modelo não é garantia individual. Em questões, declare as hipóteses, confira o espaço e revise se a informação nova alterou o denominador.
+### 5. Raciocínio Sequencial, Calendário e Avanço com Recuo
+- **Ciclos de Calendário (Módulo 7)**: os dias da semana repetem-se a cada $T = 7$ dias. Para saber o dia da semana daqui a $N$ dias, divide-se $N$ por 7 e analisa-se o resto $r$:
+  * Se resto $r = 0$, o dia será o mesmo; se $r = 1$, avança 1 dia; se $r = 2$, avança 2 dias.
+  * *Regra Gregoriana de Anos Bissextos*: um ano é bissexto (366 dias) se for divisível por 4; exceto os anos seculares (terminados em 00), que só são bissextos se forem divisíveis por 400 (ex.: 2000 foi bissexto; 2100 não será).
+- **Avanço com Recuo com Teto**: em problemas de subida onde a cada etapa há avanço $S$ e recuo $D$, no instante em que o agente atinge a altura total $H$ ele não escorrega:
+  $$\text{Etapas} = \left\lceil \frac{H - S}{S - D} \right\rceil + 1$$
+- **Linha Aberta vs Circuito Fechado**:
+  * Em linha reta aberta de comprimento $L$ com postes a cada distância $d$: número de elementos $= \frac{L}{d} + 1$;
+  * Em circuito fechado (perímetro $L$): número de elementos $= \frac{L}{d}$.
 
 ## Resumo de revisão
 
-Não presuma equiprobabilidade de somas. Sem reposição, a composição muda. Condicionar restringe o espaço. União desconta interseção. Datas usam restos por 7, com atenção à contagem inclusiva.
+Espaço amostral equiprovável permite usar casos favoráveis / possíveis. Sem reposição, o denominador diminui. Condicional restringe o universo. Garantia mínima exige raciocinar pelo pior caso. Calendário usa restos da divisão por 7.
 
-| Conceito de Probabilidade / Sequência | Fórmula / Regra Prática | Exemplo Rápido | Ponto de Atenção |
+| Tópico de Probabilidade / Sequência | Fórmula / Regra Algébrica | Exemplo Prático | Ponto Crítico de Prova |
 | --- | --- | --- | --- |
-| **Probabilidade Clássica (Laplace)** | $P(A) = \frac{\text{Casos Favoráveis } n(A)}{\text{Casos Possíveis } n(\Omega)}$ | $0 \le P(A) \le 1$; evento complementar: $P(\bar{A}) = 1 - P(A)$. | Só vale diretamente se os eventos elementares de $\Omega$ forem **equiprováveis**. |
-| **Probabilidade da União ("OU")** | $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ | Se $A$ e $B$ são mutuamente exclusivos ($A \cap B = \emptyset$), soma-se direto. | Nunca esqueça de subtrair a interseção $P(A \cap B)$ quando puderem ocorrer juntos. |
-| **Probabilidade Condicional ("Sabendo que...")** | $P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{n(A \cap B)}{n(B)}$ | Restrinja o denominador diretamente ao universo da condição dada ($B$). | Reduzir o denominador a $n(B)$ é mais rápido que aplicar fração sobre fração. |
-| **Extrações Sucessivas ("E" — Sem Reposição)** | $P(A \cap B) = P(A) \times P(B \mid A)$ | A cada retirada sem reposição, subtraia $1$ do total no denominador. | Com reposição, o denominador permanece constante. |
-| **Ciclos de Calendário e Sequências** | Divida o deslocamento pelo tamanho do ciclo $T$ e olhe o **resto $r$**. | Dias da semana ($T=7$): se resto $= 0$, cai no mesmo dia da semana. | Diferencie *"daqui a $N$ dias"* ($+N$) de *"o $N$-ésimo termo da sequência"* (onde o 1º termo equivale a resto $1$). |
+| **Probabilidade de Laplace** | $P(A) = \frac{n(A)}{n(\Omega)}$ | Tirar ás no baralho de 52 cartas: $\frac{4}{52} = \frac{1}{13}$. | Só vale se os resultados elementares forem **equiprováveis**. |
+| **Probabilidade Condicional** | $P(A \mid B) = \frac{n(A \cap B)}{n(B)}$ | Sabendo que a lâmina veio de Calama, chance de ser positiva: $\frac{\text{Positivas de Calama}}{\text{Total de Calama}}$. | Reduzir o denominador diretamente ao subconjunto da condição dada. |
+| **Extração Sem Reposição** | $P(A \cap B) = P(A) \times P(B \mid A)$ | 3 azuis e 2 verdes: duas azuis $= \frac{3}{5} \times \frac{2}{4} = \frac{3}{10}$. | Subtrair 1 do total e do grupo específico a cada retirada. |
+| **Princípio das Gavetas (Pior Caso)** | Pior caso $= \text{todas as erradas} + \text{meta}$. | Garantir 2 de malária tendo 4 dengue e 3 leishmaniose: retirar $4 + 3 + 2 = 9$. | Certeza matemática absoluta não admite contar com a sorte. |
+| **Dias da Semana e Calendário** | $N = 7q + r$ (olhar o resto $r$). | Daqui a 30 dias: $30 = 7 \times 4 + 2 \implies$ avançar 2 dias a partir de hoje. | Diferenciar *"daqui a N dias"* de contagem inclusiva com o dia inicial. |
 
 ## Exercícios autorais comentados
 
 ### Questão 1
 
-[Autoral] Com 3 fichas azuis e 2 verdes, qual a chance de duas azuis em duas retiradas sem reposição?
+[Autoral] Em uma caixa de transporte térmico do laboratório de entomologia há 3 frascos com amostras de Aedes aegypti e 2 frascos com amostras de Culex quinquefasciatus. Se o agente retirar sucessivamente dois frascos ao acaso e SEM REPOSIÇÃO, qual é a probabilidade de ambos os frascos retirados serem de Aedes aegypti?
 
-- A) 3/10
-- B) 9/25
-- C) 2/5
-- D) 1/2
+- A) 3/10 (ou 30%).
+- B) 9/25 (ou 36%).
+- C) 2/5 (ou 40%).
+- D) 1/2 (ou 50%).
 
-**Gabarito: A.** Gabarito: A. Sem reposição: 1ª retirada = 3/5; restando 2 azuis em 4 fichas, 2ª retirada = 2/4. Produto: (3/5) × (2/4) = 6/20 = 3/10. Erro da B: 9/25 = (3/5) × (3/5) é a probabilidade COM reposição; erro da C: 2/5 resulta de ignorar a segunda extração ou somar probabilidades incorretamente; erro da D: 1/2 é a chance apenas na 2ª retirada após sair uma azul.
+**Gabarito: A.** Gabarito: A. Na primeira retirada, há 3 frascos favoráveis entre 5 no total: P(1ª ser Aedes) = 3/5. Como não há reposição, restam 4 frascos na caixa, sendo 2 de Aedes: P(2ª ser Aedes | 1ª foi Aedes) = 2/4 = 1/2. Pela regra da multiplicação: P(ambas Aedes) = (3/5) × (2/4) = 6/20 = 3/10 = 30%. Erro da B: 9/25 = (3/5) × (3/5) é a probabilidade caso houvesse reposição do frasco; erro da C: 2/5 considera apenas o evento simples de Culex; erro da D: 1/2 é a probabilidade isolada da segunda retirada.
 
 ### Questão 2
 
-[Autoral] Se hoje é segunda-feira, qual dia será daqui a 30 dias?
+[Autoral] No calendário de plantões da SEMUSA, sabe-se que o dia 1º de março de determinado ano não bissexto caiu em uma segunda-feira. Em qual dia da semana cairá o dia 31 de março desse mesmo mês?
 
-- A) Segunda-feira.
-- B) Terça-feira.
-- C) Quarta-feira.
+- A) Quarta-feira.
+- B) Segunda-feira.
+- C) Terça-feira.
 - D) Quinta-feira.
 
-**Gabarito: C.** Gabarito: C. Dividindo 30 por 7 (dias da semana): 30 = 7 × 4 + 2 (4 semanas exatas e resto 2). Partindo de segunda-feira + 2 dias: terça (1), quarta-feira (2). Erro da A: equivaleria a múltiplo exato de 7 (28 ou 35 dias); erro da B: corresponde a resto 1 (29 dias) ou contar hoje como dia 1; erro da D: corresponde a resto 3 (31 dias).
+**Gabarito: A.** Gabarito: A. Entre o dia 1º e o dia 31 transcorrem exatamente 31 - 1 = 30 dias. Como os dias da semana possuem periodicidade cíclica de 7 dias, divide-se o deslocamento por 7: 30 = 7 × 4 + 2 (isto é, 4 semanas completas e resto de 2 dias). Avançando 2 dias a partir de segunda-feira: 1 dia = terça-feira; 2 dias = quarta-feira. Erro da B: seria segunda-feira se o resto fosse zero (ex.: após 28 dias); erro da C: terça-feira seria resto 1 (29 dias de transcurso); erro da D: quinta-feira seria resto 3 (31 dias de transcurso).
 
 ### Questão 3
 
-[Autoral] Em um lote de 20 lâminas analisadas pelo laboratório de entomologia, sabe-se que 12 são do Bairro A (das quais 4 são positivas) e 8 são do Bairro B (das quais 2 são positivas). Escolhendo-se ao acaso uma lâmina e sabendo-se que ela veio do Bairro A, qual é a probabilidade condicional de ela ser positiva?
+[Autoral] Em um lote de 20 lâminas analisadas pela equipe de malária da SEMUSA em Porto Velho, 12 vieram do distrito de Calama (das quais 4 foram positivas) e 8 vieram do distrito de Nazaré (das quais 2 foram positivas). Selecionando-se aleatoriamente uma lâmina desse lote e sabendo-se que ela é oriunda de Calama, qual é a probabilidade condicional de ela ser positiva?
 
 - A) 1/3 (ou 4/12).
 - B) 3/10 (ou 6/20).
 - C) 1/4 (ou 2/8).
 - D) 3/5 (ou 12/20).
 
-**Gabarito: A.** Gabarito: A. Sabendo que veio do Bairro A, o espaço amostral reduz-se às 12 lâminas desse bairro, dentre as quais 4 são positivas: P(Positiva | Bairro A) = 4/12 = 1/3. Erro da B: 6/20 = 3/10 é a probabilidade incondicional em todo o lote; erro da C: 2/8 = 1/4 refere-se ao Bairro B; erro da D: 12/20 = 3/5 é apenas a proporção de lâminas do Bairro A.
+**Gabarito: A.** Gabarito: A. A informação condicional ("sabendo-se que veio de Calama") reduz o espaço amostral relevante exclusivamente às 12 lâminas provenientes de Calama (denominador = 12). Dentre essas 12 lâminas, exatamente 4 são positivas (numerador = 4). Portanto, P(Positiva | Calama) = 4/12 = 1/3. Erro da B: 6/20 = 3/10 é a probabilidade incondicional de encontrar uma lâmina positiva no lote todo; erro da C: 2/8 = 1/4 refere-se à taxa de Nazaré; erro da D: 12/20 = 3/5 é a proporção de lâminas de Calama no lote.
 
 ### Questão 4
 
-[Autoral] Uma escala de plantão repete ciclicamente a sequência de 5 equipes: (Alfa, Bravo, Charlie, Delta, Eco, Alfa, Bravo, ...). Qual equipe estará escalada no 143º dia dessa sequência?
-
-- A) Equipe Charlie.
-- B) Equipe Alfa.
-- C) Equipe Eco.
-- D) Equipe Bravo.
-
-**Gabarito: A.** Gabarito: A. Ciclo de tamanho 5: 143 ÷ 5 = 28 ciclos completos e resto 3. Resto 1 = Alfa, resto 2 = Bravo, resto 3 = 3ª equipe (Charlie). Erro da B: seria resto 1 (141º dia); erro da C: seria resto 0 / divisível por 5 (140º ou 145º dia); erro da D: seria resto 2 (142º dia).
-
-### Questão 5
-
-[Autoral] Em uma caixa de coleta de campo há exatamente 4 frascos fechados rotulados para Dengue, 5 para Malária e 3 para Leishmaniose, indistinguíveis ao tato. Quantos frascos no MÍNIMO o agente precisa retirar às cegas para ter CERTEZA ABSOLUTA de obter pelo menos 2 frascos de Malária?
+[Autoral] Em uma gaveta do laboratório de campo há 4 frascos lacrados de larvicida líquido, 5 frascos de inseticida concentrado e 3 frascos de repelente térmico, todos com frascos idênticos ao tato. Quantos frascos no MÍNIMO o ACE deve retirar da gaveta no escuro (às cegas) para ter a CERTEZA MATEMÁTICA ABSOLUTA de retirar pelo menos 2 frascos de inseticida concentrado?
 
 - A) 9 frascos.
 - B) 2 frascos.
 - C) 7 frascos.
 - D) 11 frascos.
 
-**Gabarito: A.** Gabarito: A. Pelo Princípio da Casa dos Pombos (pior caso): o agente pode retirar todos os 4 de Dengue e todos os 3 de Leishmaniose antes de pegar qualquer um de Malária (4 + 3 = 7 frascos sem Malária). Os próximos 2 frascos retirados serão obrigatoriamente de Malária: 7 + 2 = 9 frascos. Erro da B: 2 é apenas o melhor caso possível, não garantia; erro da C: 7 só garante pegar zero ou um de cada no pior caso; erro da D: 11 garante pelo menos 2 de um tipo qualquer apenas se somar quase tudo sem critério específico.
+**Gabarito: A.** Gabarito: A. Pelo Princípio das Gavetas de Dirichlet (pior caso possível): o agente retira primeiro todos os frascos que NÃO são inseticida (todos os 4 de larvicida + todos os 3 de repelente = 7 frascos). Nesse ponto mais desfavorável, todos os frascos restantes na gaveta são obrigatoriamente de inseticida concentrado. Para garantir 2 frascos desse tipo, basta retirar mais 2 frascos: 7 + 2 = 9 frascos. Erro da B: 2 é a melhor hipótese possível (sorte), não garantia; erro da C: 7 frascos no pior caso poderiam ser todos os larvicidas e repelentes, sem nenhum inseticida; erro da D: 11 frascos é excessivo (sobraria apenas 1 na gaveta).
+
+### Questão 5
+
+[Autoral] Uma equipe de agentes em treinamento sobe uma escadaria de acesso a reservatórios elevados. Em cada etapa do exercício, o agente sobe 4 degraus e, em seguida, desce 1 degrau. Sabendo que a escadaria possui 31 degraus no total e que o exercício se encerra assim que o agente pisa no 31º degrau (não havendo recuo ao atingir o topo), em quantas etapas de subida o agente alcançará pela primeira vez o topo da escadaria?
+
+- A) 10 etapas de subida.
+- B) 11 etapas de subida.
+- C) 9 etapas de subida.
+- D) 31 etapas de subida.
+
+**Gabarito: A.** Gabarito: A. Em cada etapa completa com recuo, o avanço líquido é de 4 - 1 = 3 degraus. No entanto, na etapa final de subida o agente sobe 4 degraus e atinge o topo de 31 degraus sem recuar. Portanto, antes da etapa final ele precisa atingir pelo menos 31 - 4 = 27 degraus. Com avanço líquido de 3 degraus por etapa: 27 ÷ 3 = 9 etapas completas (ao fim da 9ª etapa ele está no degrau 9 × 3 = 27). Na 10ª etapa, ele sobe 4 degraus: 27 + 4 = 31 degraus, atingindo o topo. Erro da B: divide 31 ÷ 3 ≈ 10,33 e arredonda para 11 sem deduzir o avanço final sem recuo; erro da C: na 9ª etapa ele está no degrau 27; erro da D: considera avanço de apenas 1 degrau por etapa.
 
 ## Flashcards
 
-**Por que a chance da segunda retirada muda sem reposição?**
+**Por que a soma dos resultados de dois dados comuns de 6 faces não é equiprovável?**
 
-Porque a primeira retirada reduz em 1 unidade o total de elementos do espaço amostral e altera a composição da urna.
+Porque há 36 pares ordenados equiprováveis: a soma 7 possui 6 combinações favoráveis (probabilidade 6/36 = 1/6), enquanto a soma 2 possui apenas uma (1/36).
 
-**As somas de dois dados são equiprováveis?**
+**Qual o procedimento para calcular a probabilidade condicional P(A | B)?**
 
-Não. Os 36 pares ordenados são equiprováveis; a soma 7 possui 6 pares favoráveis (6/36 = 1/6), enquanto a soma 2 possui apenas 1 par (1/36).
+Restringe-se o espaço amostral diretamente à condição dada B (que vira o novo denominador) e conta-se quantos elementos de B também atendem a A: P(A | B) = n(A ∩ B) / n(B).
 
-**Como resolver rapidamente problemas de probabilidade condicional?**
+**Como resolver problemas de garantia mínima pelo Princípio das Gavetas (Casa dos Pombos)?**
 
-Restrinja o denominador diretamente ao total de elementos que satisfazem a condição informada ("sabendo que...") e conte no numerador quantos deles também atendem ao evento pedido.
+Analisa-se o pior caso possível (maior azar): somam-se todos os elementos de todas as categorias indesejadas e adiciona-se a quantidade exigida da categoria meta.
 
 ## Referências de consulta
 
-- [IMPA/OBMEP — Introdução à probabilidade](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=46&tipo=7) — Espaço amostral e cálculo de probabilidades; situações autorais com reposição e condicionamento.
+- [IMPA/OBMEP — Probabilidade e Espaços Amostrais](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=46&tipo=7) — Cálculo de probabilidades, probabilidade condicional, independência e contagem sequencial.
 
 Consulta editorial: 31/10/2026. Legislação deve respeitar o marco temporal do edital.

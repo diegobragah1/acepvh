@@ -1,93 +1,135 @@
-# rlm_3 — Análise dimensional, escala e grandezas que não se convertem do mesmo jeito
+# rlm_3 — Grandezas e Medidas: Cubagem de Depósitos e Dosagem de Larvicidas
 
-## A dimensão determina o fator
-Comprimento mede uma dimensão; área, duas; volume, três. Se 1 m = 100 cm, então 1 m² = 10.000 cm² e 1 m³ = 1.000.000 cm³. Multiplicar por 100 em toda conversão entre metros e centímetros é um erro: o fator precisa ser elevado à potência da dimensão.
+### 1. Sistema Métrico Decimal e Fatores de Escala Dimensional
+No Sistema Internacional de Unidades (SI), a conversão de medidas exige atenção rigorosa à dimensão geométrica da grandeza:
+- **Comprimento ($1\text{D}$)**: cada unidade varia em fator $10$ ($1\text{ m} = 10\text{ dm} = 100\text{ cm} = 1.000\text{ mm}$).
+- **Área ($2\text{D}$)**: cada unidade varia em fator $10^2 = 100$ ($1\text{ m}^2 = 100\text{ dm}^2 = 10.000\text{ cm}^2$; $1\text{ hectare (ha)} = 10.000\text{ m}^2$).
+- **Volume ($3\text{D}$)**: cada unidade varia em fator $10^3 = 1.000$ ($1\text{ m}^3 = 1.000\text{ dm}^3 = 1.000.000\text{ cm}^3$).
+- **Escala Cartográfica**: a escala linear é $E = \frac{d}{D}$. A escala de área corresponde ao quadrado da escala linear: $E_{\text{área}} = E^2$. Se o mapa está na escala $1:2.000$, uma linha de $3\text{ cm}$ representa $3 \times 2.000 = 6.000\text{ cm} = 60\text{ m}$.
 
-## Exemplo resolvido com unidades mistas
-Um reservatório retangular ideal tem medidas internas de 1,2 m, 80 cm e 50 cm. Primeiro uniformize: 80 cm = 0,8 m; 50 cm = 0,5 m. O volume é 1,2 × 0,8 × 0,5 = 0,48 m³. Como 1 m³ = 1.000 L, cabem 480 L. Se estiver preenchido até metade da altura, com seção constante, haverá 240 L. Não use dimensões externas nem pressuponha preenchimento total sem indicação.
+### 2. Pontes Fundamentais entre Volume, Capacidade e Massa
+A articulação entre espaço tridimensional e capacidade de armazenamento de água é direta:
+- **$1\text{ m}^3 = 1.000\text{ litros}$**;
+- **$1\text{ dm}^3 = 1\text{ litro}$**;
+- **$1\text{ cm}^3 = 1\text{ mililitro (mL)}$**.
+- **Equivalência para Água Pura**: sob condições normais de temperatura e pressão, $1\text{ litro de água} \approx 1\text{ kg} = 1.000\text{ gramas}$. Para outras substâncias líquidas, a conversão depende de sua densidade ($\rho = \frac{m}{V}$).
 
-## Escala explicada
-Em uma planta de escala 1:2.000, 3 cm representam 3 × 2.000 = 6.000 cm, ou 60 m. A razão relaciona comprimentos na mesma unidade. Se a figura sofre ampliação linear de fator 2, sua área multiplica-se por 4, não por 2. A escala de área é o quadrado da escala linear.
+### 3. Tempo Decimal vs Tempo Sexagesimal
+O tempo civil organiza-se em base sexagesimal (base 60), enquanto calculadoras operam em base decimal:
+- $1\text{ hora} = 60\text{ minutos}$; $1\text{ minuto} = 60\text{ segundos}$.
+- **Conversão de decimal para minutos**: multiplica-se a parte fracionária por 60:
+  * $3,4\text{ horas} = 3\text{ horas} + (0,4 \times 60)\text{ minutos} = 3\text{ h } 24\text{ min}$ (e não 3 horas e 40 minutos!);
+  * $2,75\text{ horas} = 2\text{ horas} + (0,75 \times 60)\text{ minutos} = 2\text{ h } 45\text{ min}$.
+- **Conversão de minutos para decimal**: divide-se por 60:
+  * $1\text{ h } 20\text{ min} = 1 + \frac{20}{60} = 1 + \frac{1}{3} \approx 1,333\text{ horas}$.
 
-## Tempo, massa e capacidade
-1,5 h = 1 h + 0,5 × 60 min = 1 h 30 min; 1 h 20 min = 1 + 20/60 h, aproximadamente 1,333 h. As casas decimais de hora não representam minutos diretamente. Em massa, 0,75 kg = 750 g. Já capacidade e massa não se confundem: converter litros de uma substância em quilogramas exige sua densidade e as condições pertinentes. Não é verdade que todo litro pesa 1 kg.
+### 4. CUBAGEM DE DEPÓSITOS APLICADA AO TRABALHO DO ACE
+No controle químico de criadouros de mosquitos vetores (*Aedes aegypti*), o ACE calcula o volume de recipientes para dosar larvicidas:
+1. **Depósito Retangular / Caixa-d'água / Tanque Paralelepípedo**:
+   $$V = c \times l \times h$$
+   Onde $c$ é o comprimento, $l$ a largura e $h$ a altura útil de água (todas em metros).
+   *Exemplo*: Reservatório de $1,2\text{ m} \times 0,8\text{ m} \times 0,5\text{ m} = 0,48\text{ m}^3$.
+   Capacidade em litros: $0,48 \times 1.000 = 480\text{ litros}$.
+2. **Depósito Cilíndrico / Tambor / Tonel / Cisterna**:
+   $$V = \pi \cdot r^2 \cdot h = \pi \cdot \left(\frac{D}{2}\right)^2 \cdot h$$
+   Onde $D$ é o diâmetro interno, $r = \frac{D}{2}$ é o raio da base cilíndrica e $h$ é a altura de água.
+   *Alerta clássico de concurso*: a fórmula utiliza o **raio $r$**, e não o diâmetro $D$. Usar o diâmetro diretamente quadruplica incorretamente o volume ($2^2 = 4$).
+   *Exemplo*: Cisterna de diâmetro $D = 2\text{ m}$ ($r = 1\text{ m}$) e $h = 1,5\text{ m}$ ($\pi = 3,14$):
+   $$V = 3,14 \times 1^2 \times 1,5 = 4,71\text{ m}^3 = 4.710\text{ litros}$$
 
-## Conferência pelas unidades
-Ao multiplicar m × m × m, o resultado é m³. Ao dividir visitas por horas, obtém-se uma taxa de visitas/hora. Essa verificação detecta fórmulas escolhidas por aparência. Para calcular área, é preciso uma relação geométrica adequada; para calcular capacidade, precisa-se de volume interno útil. O exemplo de reservatório ensina matemática e não estabelece dosagem de produto.
+### 5. DOSAGEM DE LARVICIDAS EM GRAMAS E PARTES POR MILHÃO (PPM)
+A concentração de larvicidas e produtos saneantes é expressa em partes por milhão (ppm):
+- **Equivalência Física**: $1\text{ ppm} = 1\text{ mg de princípio ativo por litro de água} = 1\text{ g/m}^3$.
+- **Cálculo da Massa de Larvicida**:
+  $$\text{Dose em gramas (g)} = \text{Volume útil (m}^3\text{)} \times \text{Concentração exigida (g/m}^3\text{)}$$
+  *Exemplo*: Tratar um reservatório com volume de $3,5\text{ m}^3$ de água na dosagem recomendada pelo Ministério da Saúde de $1\text{ ppm}$ ($1\text{ g/m}^3$):
+  $$\text{Massa} = 3,5\text{ m}^3 \times 1\text{ g/m}^3 = 3,5\text{ gramas de larvicida}$$
 
 ## Resumo de revisão
 
-Comprimento, área e volume usam fatores com potências diferentes. Uniformize unidades. Escala linear não é escala de área. Hora decimal exige fator 60; litro para massa depende de densidade.
+Fatores métricos dependem da dimensão (10 em 1D, 100 em 2D, 1000 em 3D). 1 m³ = 1000 L; 1 dm³ = 1 L; 1 cm³ = 1 mL. 1 ppm = 1 mg/L = 1 g/m³. No cilindro, o raio é a metade do diâmetro.
 
-| Grandeza / Conversão no Campo do ACE | Equivalência Exata | Passo a Passo Prático | Erro Clássico de Prova |
+| Grandeza / Geometria | Fórmula de Volume e Conversão | Exemplo Prático de Campo | Erro Frequente na Prova |
 | --- | --- | --- | --- |
-| **Pontes Volume $\leftrightarrow$ Capacidade** | **$1\text{ m}^3 = 1.000\text{ L}$**; **$1\text{ dm}^3 = 1\text{ L}$**; **$1\text{ cm}^3 = 1\text{ mL}$**. | Converta as dimensões da caixa-d'água para **metros**, multiplique ($C \times L \times A$) e multiplique por **1.000** para obter litros. | Multiplicar metros por centímetros sem converter antes para a mesma unidade. |
-| **Volume de Reservatório Cilíndrico (Tonel)** | $V = \pi \cdot r^2 \cdot h$ (onde $r = \text{diâmetro} \div 2$). | Se diâmetro $= 1\text{ m}$, então $r = 0,5\text{ m}$ (e $r^2 = 0,25\text{ m}^2$). | Usar o diâmetro inteiro no lugar do raio $r$, quadruplicando erroneamente o volume. |
-| **Massa (t $\to$ kg $\to$ g $\to$ mg)** | $1\text{ t} = 1.000\text{ kg}$; $1\text{ kg} = 1.000\text{ g}$; $1\text{ g} = 1.000\text{ mg}$. | Cada degrau principal multiplica ou divide por $1.000$. | Esquecer que $2\text{ g} = 2.000\text{ mg}$ ao calcular concentração por litro. |
-| **Tempo Decimal $\leftrightarrow$ Sexagesimal** | $0,1\text{ h} = 6\text{ min}$; $0,25\text{ h} = 15\text{ min}$; $0,5\text{ h} = 30\text{ min}$; $0,75\text{ h} = 45\text{ min}$. | Multiplique a parte decimal da hora por **60** para achar os minutos. | Ler $2,4\text{ horas}$ como *"2 horas e 40 minutos"* (o correto é $2\text{ h } + 0,4 \times 60 = \mathbf{2\text{ h } 24\text{ min}}$). |
+| **Depósito Retangular (Paralelepípedo)** | $V = c \times l \times h$ (em metros). Capacidade $= V \times 1.000\text{ L}$. | Caixa de $1,2\text{m} \times 0,8\text{m} \times 0,5\text{m} = 0,48\text{m}^3 = 480\text{L}$. | Multiplicar metros por centímetros sem uniformizar a unidade antes. |
+| **Depósito Cilíndrico (Tambor/Cisterna)** | $V = \pi \cdot r^2 \cdot h = \pi \cdot (D/2)^2 \cdot h$. | Diâmetro $2\text{m} \implies r=1\text{m}$; com $h=1,5\text{m} \implies 4,71\text{m}^3 = 4.710\text{L}$. | Usar o diâmetro no lugar do raio, quadruplicando o volume final. |
+| **Dosagem de Larvicida (ppm $\leftrightarrow$ g)** | $1\text{ ppm} = 1\text{ mg/L} = 1\text{ g/m}^3$. $\text{Dose(g)} = V(\text{m}^3) \times \text{ppm}$. | Tratar $3,5\text{m}^3$ a $1\text{ ppm} \implies 3,5\text{ g}$ de produto comercial. | Confundir concentração em mg/L com g/L (erro de fator 1.000). |
+| **Tempo Decimal $\to$ Horas e Minutos** | Multiplicar a parte decimal por 60 minutos. | $3,4\text{ h} = 3\text{ h} + (0,4 \times 60) = \mathbf{3\text{ h } 24\text{ min}}$. | Ler $3,4\text{ horas}$ como *"3 horas e 40 minutos"*. |
 
 ## Exercícios autorais comentados
 
 ### Questão 1
 
-[Autoral] Qual é a capacidade de um reservatório ideal de 1,2 m × 80 cm × 50 cm?
+[Autoral] Um Agente de Combate às Endemias inspeciona um depósito retangular (caixa-d'água de alvenaria) com medidas internas de 1,2 metro de comprimento, 80 centímetros de largura e 50 centímetros de altura útil. Qual é a capacidade máxima desse reservatório em litros?
 
-- A) 48 L
-- B) 480 L
-- C) 4.800 L
-- D) 480.000 L
+- A) 480 litros.
+- B) 48 litros.
+- C) 4.800 litros.
+- D) 480.000 litros.
 
-**Gabarito: B.** Gabarito: B. Convertendo tudo para metros: 1,2 m × 0,8 m × 0,5 m = 0,48 m³. Como 1 m³ = 1.000 L, 0,48 × 1.000 = 480 litros. Erro da A: erro de uma casa decimal (× 100 em vez de × 1.000); erro da C: multiplica por 10.000 erroneamente; erro da D: informa em mililitros ou cm³ (480.000 cm³) em vez de litros.
+**Gabarito: A.** Gabarito: A. Uniformizando as unidades para metros: comprimento = 1,2 m; largura = 80 cm = 0,8 m; altura = 50 cm = 0,5 m. O volume interno em metros cúbicos é: V = c × l × h = 1,2 × 0,8 × 0,5 = 0,48 m³. Como 1 m³ equivale exatamente a 1.000 litros, a capacidade é 0,48 × 1.000 = 480 litros. Erro da B: erra a conversão multiplicando por 100 em vez de 1.000; erro da C: multiplica por 10.000 por equívoco de casas decimais; erro da D: expressa em centímetros cúbicos ou mililitros (480.000 cm³ = 480 L).
 
 ### Questão 2
 
-[Autoral] Em escala 1:2.000, 3 cm no mapa representam:
+[Autoral] Um tambor metálico cilíndrico vertical (criadouro de Aedes aegypti) possui diâmetro interno de 2 metros e altura de água de 1,5 metro (adote $\pi = 3,14$). Qual é o volume de água contido nesse depósito em metros cúbicos e sua respectiva capacidade em litros?
 
-- A) 6 m
-- B) 60 m
-- C) 600 m
-- D) 6.000 m
+- A) $4,71\text{ m}^3$ e $4.710\text{ litros}$.
+- B) $9,42\text{ m}^3$ e $9.420\text{ litros}$.
+- C) $18,84\text{ m}^3$ e $18.840\text{ litros}$.
+- D) $0,471\text{ m}^3$ e $471\text{ litros}$.
 
-**Gabarito: B.** Gabarito: B. Distância real = 3 cm × 2.000 = 6.000 cm. Como 1 m = 100 cm, divide-se por 100: 6.000 ÷ 100 = 60 metros. Erro da A: divide por 1.000 por engano; erro da C: divide apenas por 10; erro da D: mantém em centímetros trocando apenas a unidade para metros.
+**Gabarito: A.** Gabarito: A. O raio r é a metade do diâmetro D: r = 2 ÷ 2 = 1 metro. A fórmula do volume do cilindro é V = π · r² · h. Substituindo os valores: V = 3,14 × (1)² × 1,5 = 3,14 × 1 × 1,5 = 4,71 m³. Convertendo para capacidade (1 m³ = 1.000 L): 4,71 × 1.000 = 4.710 litros. Erro da B: utiliza o diâmetro (2 m) no lugar do raio sem elevar ao quadrado (3,14 × 2 × 1,5 = 9,42 m³); erro da C: utiliza o diâmetro inteiro (2 m) como raio (r = 2 => r² = 4), quadruplicando o volume para 18,84 m³; erro da D: divide por 10 indevidamente.
 
 ### Questão 3
 
-[Autoral] Uma equipe de campo registrou que o deslocamento fluvial e a vistoria em uma comunidade ribeirinha duraram exatas 3,4 horas. Convertendo esse tempo para horas e minutos, obtém-se:
+[Autoral] Um larvicida granulado deve ser aplicado na dosagem recomendada pelo Ministério da Saúde de $1\text{ ppm}$ ($1\text{ parte por milhão} = 1\text{ mg/L} = 1\text{ g/m}^3$) de produto comercial por volume de água tratada. Se um ACE precisa tratar uma cisterna com volume útil de $3,5\text{ m}^3$ de água, qual massa de larvicida em gramas deverá ser dosada?
 
-- A) 3 horas e 24 minutos.
-- B) 3 horas e 40 minutos.
-- C) 3 horas e 04 minutos.
-- D) 340 minutos.
+- A) $3,5\text{ gramas}$.
+- B) $35\text{ gramas}$.
+- C) $0,35\text{ grama}$.
+- D) $350\text{ gramas}$.
 
-**Gabarito: A.** Gabarito: A. A parte inteira é 3 horas; a fração decimal 0,4 h equivale a 0,4 × 60 = 24 minutos. Logo, 3 h e 24 min. Erro da B: confunde 0,4 h com 40 minutos (sistema decimal em vez de sexagesimal); erro da C: lê o dígito 4 diretamente como 04 min; erro da D: 3,4 × 60 = 204 minutos, não 340 minutos.
+**Gabarito: A.** Gabarito: A. Pela equivalência de grandezas físicas: 1 ppm equivale a 1 mg de produto por litro de água, o que corresponde a 1.000 mg por 1.000 litros, isto é, exatamente 1 g por metro cúbico (1 g/m³). Para um volume de 3,5 m³ à concentração de 1 g/m³, a massa necessária de larvicida é: 3,5 m³ × 1 g/m³ = 3,5 gramas. Erro da B: multiplica por 10 por confusão de conversão de unidades; erro da C: divide por 10 indevidamente; erro da D: confunde gramas com decigramas ou aplica fator 100.
 
 ### Questão 4
 
-[Autoral] Um reservatório cilíndrico vertical possui diâmetro interno de 2 metros e altura útil de 1,5 metro ($\pi = 3,14$). Qual é a capacidade total desse reservatório em litros?
+[Autoral] Em uma missão de campo em comunidade ribeirinha de Porto Velho, um ACE registrou no boletim que a viagem fluvial de ida e volta durou exatas $3,4\text{ horas}$. Ao converter esse tempo decimal para horas e minutos do sistema sexagesimal, obtém-se:
 
-- A) 4.710 litros.
-- B) 9.420 litros.
-- C) 18.840 litros.
-- D) 471 litros.
+- A) 3 horas e 24 minutos.
+- B) 3 horas e 40 minutos.
+- C) 3 horas e 4 minutos.
+- D) 204 minutos ou 3 horas e 44 minutos.
 
-**Gabarito: A.** Gabarito: A. Com diâmetro D = 2 m, o raio é r = D/2 = 1 m. Volume: V = π × r² × h = 3,14 × 1² × 1,5 = 4,71 m³ = 4.710 litros. Erro da B: multiplica usando r = 2 m ou dobra o resultado (V = 9,42 seria se h = 3 m); erro da C: usa r = 2 m na fórmula π·r²·h (3,14 × 4 × 1,5 = 18,84 m³); erro da D: erro de uma casa decimal ao converter m³ para litros.
+**Gabarito: A.** Gabarito: A. No sistema sexagesimal, a hora possui 60 minutos. A parte inteira é de 3 horas. A fração decimal de 0,4 hora deve ser multiplicada por 60 para obter os minutos correspondentes: 0,4 × 60 = 24 minutos. Portanto, 3,4 horas = 3 horas e 24 minutos. Erro da B: erro comum de interpretar a casa decimal 0,4 como 40 minutos (confundindo base 10 com base 60); erro da C: lê diretamente o algarismo 4 como 4 minutos; erro da D: 3,4 h equivale a 204 minutos, mas 204 min são 3 h e 24 min, e não 3 h e 44 min.
+
+### Questão 5
+
+[Autoral] Em uma planta cartográfica de reconhecimento geográfico do município desenhada na escala $1:2.000$, a distância linear medida entre duas residências é de $3\text{ cm}$. A distância real correspondente no terreno é de:
+
+- A) 60 metros.
+- B) 6 metros.
+- C) 600 metros.
+- D) 6.000 metros.
+
+**Gabarito: A.** Gabarito: A. Pela definição de escala linear E = d / D, onde 1 : 2.000 significa que cada 1 cm no mapa representa 2.000 cm no terreno. Para 3 cm: D = 3 × 2.000 = 6.000 cm. Como 1 metro tem 100 cm, divide-se por 100: 6.000 ÷ 100 = 60 metros. Erro da B: divide por 1.000 por engano; erro da C: divide por 10; erro da D: esquece de converter centímetros em metros, mantendo o valor numérico em centímetros.
 
 ## Flashcards
 
-**Quanto vale 1 m² em cm² e 1 m³ em litros?**
+**Qual a relação exata entre volume em metros cúbicos e capacidade em litros?**
 
-1 m² = 10.000 cm²; 1 m³ = 1.000 litros (e 1 dm³ = 1 litro; 1 cm³ = 1 mL).
+1 metro cúbico (m³) equivale a exatamente 1.000 litros (1 m³ = 1.000 L; 1 dm³ = 1 L; 1 cm³ = 1 mL).
 
-**Pode converter qualquer litro em 1 kg?**
+**Como calcular a capacidade de um depósito cilíndrico de diâmetro D e altura h?**
 
-Não. A relação entre volume/capacidade e massa depende da densidade da substância (1 L ≈ 1 kg vale para água pura nas condições padrão).
+Calcula-se o raio r = D / 2 e aplica-se a fórmula do volume: V = π · r² · h = π · (D/2)² · h. Multiplica-se o resultado em m³ por 1.000 para obter litros.
 
-**Como converter 2,75 horas em horas e minutos?**
+**Quanto vale a concentração de 1 ppm de larvicida em gramas por metro cúbico?**
 
-Multiplique a parte decimal por 60: 0,75 × 60 = 45 minutos → 2 horas e 45 minutos.
+1 ppm (uma parte por milhão) equivale a 1 mg por litro, o que corresponde exatamente a 1 g por metro cúbico (1 g/m³).
 
 ## Referências de consulta
 
-- [IMPA/OBMEP — módulos de matemática](https://portaldaobmep.impa.br/index.php/modulo/index) — Geometria: medidas de comprimento, área, volume e semelhança; exemplos dimensionais autorais.
+- [IMPA/OBMEP — Geometria Espacial: Volumes e Medidas](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=39&tipo=7) — Cálculo de áreas, volumes de prismas e cilindros, e unidades de capacidade.
+- [Ministério da Saúde — Diretrizes Nacionais para Prevenção e Controle de Arboviroses](https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_nacionais_prevencao_controle_dengue.pdf) — Tratamento químico focal, cubagem de criadouros e cálculo de dosagem de larvicidas.
 
 Consulta editorial: 31/10/2026. Legislação deve respeitar o marco temporal do edital.

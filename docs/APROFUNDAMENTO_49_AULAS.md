@@ -14,13 +14,13 @@ Textos autorais integrados aos modos A, B e C, à busca e ao banco de questões.
 | [esp_8](../content/aprofundamento/esp_8.md) | Incidência, prevalência, letalidade e ciclo da informação | 312 | 5 | 3 |
 | [esp_9](../content/aprofundamento/esp_9.md) | Matriz de transmissão e casos diferenciais das doenças do programa | 487 | 6 | 3 |
 | [esp_10](../content/aprofundamento/esp_10.md) | Cadeia epidemiológica, períodos e pontos de interrupção | 573 | 5 | 3 |
-| [leg_1](../content/aprofundamento/leg_1.md) | Autonomia municipal, competência e controle em situações de prova | 328 | 4 | 3 |
-| [leg_2](../content/aprofundamento/leg_2.md) | Provimento, investidura, exercício e responsabilidade funcional | 333 | 4 | 3 |
-| [leg_3](../content/aprofundamento/leg_3.md) | Plano de carreira e quadro de cargos: leitura de anexos e remuneração | 338 | 5 | 3 |
-| [leg_4](../content/aprofundamento/leg_4.md) | Deficiência, barreiras e autonomia em casos de atendimento | 305 | 4 | 3 |
-| [leg_5](../content/aprofundamento/leg_5.md) | Fundamentos, objetivos, direitos e princípios administrativos em contraste | 312 | 4 | 3 |
-| [leg_6](../content/aprofundamento/leg_6.md) | Escolha da modalidade, fases e contratação direta em exemplos | 320 | 4 | 3 |
-| [leg_7](../content/aprofundamento/leg_7.md) | Transparência ativa, pedido de acesso e proteção de dados | 320 | 5 | 3 |
+| [leg_1](../content/aprofundamento/leg_1.md) | Autonomia municipal, competências, saúde, saneamento e controle externo na LOM | 1445 | 5 | 3 |
+| [leg_2](../content/aprofundamento/leg_2.md) | Provimento, posse, exercício, estágio probatório, regime disciplinar e PAD (LC 385/2010) | 1635 | 5 | 3 |
+| [leg_3](../content/aprofundamento/leg_3.md) | PCCR da Saúde (LC 390), Estrutura Geral (LC 391), Piso Nacional do ACE e LC 1.018/2025 | 1197 | 5 | 3 |
+| [leg_4](../content/aprofundamento/leg_4.md) | Modelo biopsicossocial, 6 barreiras, direito à saúde e capacidade civil na LBI | 1125 | 5 | 3 |
+| [leg_5](../content/aprofundamento/leg_5.md) | Princípios fundamentais, inviolabilidade domiciliar, municípios e administração pública | 1371 | 5 | 3 |
+| [leg_6](../content/aprofundamento/leg_6.md) | Modalidades, pregão para insumos de saúde, rito processual e contratação direta | 1081 | 5 | 3 |
+| [leg_7](../content/aprofundamento/leg_7.md) | LAI nas 3 esferas: prazos federais, sigilo em RO (Lei 6.385/26) e fluxo de PVH (Dec. 14.565/17) | 1378 | 5 | 3 |
 | [por_1](../content/aprofundamento/por_1.md) | Inferência, pressuposto e alcance de uma conclusão | 384 | 4 | 3 |
 | [por_2](../content/aprofundamento/por_2.md) | Gênero, sequência textual e finalidade em textos mistos | 378 | 4 | 3 |
 | [por_3](../content/aprofundamento/por_3.md) | Sentido contextual, ambiguidade e relações lexicais | 291 | 4 | 3 |
@@ -39,22 +39,22 @@ Textos autorais integrados aos modos A, B e C, à busca e ao banco de questões.
 | [por_16](../content/aprofundamento/por_16.md) | Ortografia por estrutura e sentido: limites dos macetes | 310 | 5 | 3 |
 | [por_17](../content/aprofundamento/por_17.md) | Pontuação como organização sintática e delimitação de sentido | 312 | 4 | 3 |
 | [por_18](../content/aprofundamento/por_18.md) | Adequação linguística, identidade e comunicação com o público | 322 | 4 | 3 |
-| [rlm_1](../content/aprofundamento/rlm_1.md) | Escolha entre MMC e MDC e conferência dos cálculos | 399 | 4 | 3 |
-| [rlm_2](../content/aprofundamento/rlm_2.md) | Regra de três composta com modelo e verificação | 318 | 5 | 3 |
-| [rlm_3](../content/aprofundamento/rlm_3.md) | Análise dimensional, escala e grandezas que não se convertem do mesmo jeito | 324 | 4 | 3 |
-| [rlm_4](../content/aprofundamento/rlm_4.md) | Da situação verbal à equação, ao sistema e à função | 323 | 4 | 3 |
-| [rlm_5](../content/aprofundamento/rlm_5.md) | Condicional, contrapositiva e negação com contraexemplos | 337 | 4 | 3 |
-| [rlm_6](../content/aprofundamento/rlm_6.md) | Validade, diagramas de conjuntos e problemas de associação | 330 | 4 | 3 |
-| [rlm_7](../content/aprofundamento/rlm_7.md) | Contagem por decisões: ordem, repetição e restrições | 305 | 4 | 3 |
-| [rlm_8](../content/aprofundamento/rlm_8.md) | Probabilidade condicional, dependência e calendário | 300 | 5 | 3 |
-| [atu_1](../content/aprofundamento/atu_1.md) | Atualidades com contexto: clima, economia e escalas de análise | 582 | 5 | 3 |
-| [atu_2](../content/aprofundamento/atu_2.md) | Patrimônio, memória e movimentos culturais em Rondônia | 591 | 5 | 3 |
-| [atu_3](../content/aprofundamento/atu_3.md) | Porto Velho: história administrativa e leitura de indicadores | 479 | 5 | 3 |
-| [atu_4](../content/aprofundamento/atu_4.md) | Cidadania em prática e distinção entre símbolos oficiais | 509 | 4 | 3 |
-| [atu_5](../content/aprofundamento/atu_5.md) | Geotecnologias e avaliação de notícias científicas | 523 | 5 | 3 |
-| [atu_6](../content/aprofundamento/atu_6.md) | Realidade socioambiental amazônica: raciocínio integrado por território | 583 | 4 | 3 |
+| [rlm_1](../content/aprofundamento/rlm_1.md) | Conjuntos Numéricos, Operações Fundamentais, Primos, MMC e MDC | 744 | 5 | 3 |
+| [rlm_2](../content/aprofundamento/rlm_2.md) | Razões, Proporções, Regra de Três (Processo/Produto) e Indicadores de Saúde | 563 | 5 | 3 |
+| [rlm_3](../content/aprofundamento/rlm_3.md) | Grandezas e Medidas: Cubagem de Depósitos e Dosagem de Larvicidas | 611 | 5 | 3 |
+| [rlm_4](../content/aprofundamento/rlm_4.md) | Equações de 1º Grau, Sistemas Lineares, Função Afim e Médias | 520 | 5 | 3 |
+| [rlm_5](../content/aprofundamento/rlm_5.md) | Lógica Proposicional: Conectivos, Tabela-Verdade, Negações, Equivalências e Quantificadores | 591 | 5 | 3 |
+| [rlm_6](../content/aprofundamento/rlm_6.md) | Argumentação Lógica, Diagramas de Venn, Conjuntos e Associação Lógica | 503 | 5 | 3 |
+| [rlm_7](../content/aprofundamento/rlm_7.md) | Análise Combinatória: Princípio Multiplicativo, Arranjos, Permutações e Combinações | 440 | 5 | 3 |
+| [rlm_8](../content/aprofundamento/rlm_8.md) | Probabilidade Clássica e Condicional, Garantias e Raciocínio Sequencial | 656 | 5 | 3 |
+| [atu_1](../content/aprofundamento/atu_1.md) | Extremos Hidrológicos, Crise Climática, Queimadas e Reforma Tributária | 866 | 5 | 3 |
+| [atu_2](../content/aprofundamento/atu_2.md) | Patrimônio Histórico, Ferrovia Madeira-Mamoré, Cultura Popular e Povos Tradicionais | 788 | 5 | 3 |
+| [atu_3](../content/aprofundamento/atu_3.md) | Cronologia Político-Administrativa, Geografia do Madeira e Censo IBGE 2022 | 698 | 5 | 3 |
+| [atu_4](../content/aprofundamento/atu_4.md) | Cidadania, Direitos Fundamentais e Símbolos Cívicos Oficiais | 589 | 5 | 3 |
+| [atu_5](../content/aprofundamento/atu_5.md) | Geotecnologias, Reconhecimento Geográfico, Método Wolbachia e Vacina Qdenga | 700 | 5 | 3 |
+| [atu_6](../content/aprofundamento/atu_6.md) | Usinas Hidrelétricas do Madeira, Saneamento Básico e Matriz dos 15 Distritos | 1098 | 5 | 3 |
 
-Total acrescentado: 18621 palavras de teoria, 212 questões e 145 flashcards.
+Total acrescentado: 29061 palavras de teoria, 225 questões e 145 flashcards.
 
 ## O que foi verificado
 
